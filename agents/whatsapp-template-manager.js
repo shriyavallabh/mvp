@@ -1,0 +1,495 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
+/**
+ * WhatsApp Template Manager
+ * Manages WhatsApp Business API message templates
+ * CRITICAL: WhatsApp requires pre-approved templates for messages sent outside 24-hour window
+ */
+
+const axios = require('axios');
+const fs = require('fs').promises;
+const path = require('path');
+
+class WhatsAppTemplateManager {
+    constructor() {
+        this.config = {
+            phoneNumberId: process.env.WHATSAPP_PHONE_NUMBER_ID,
+            businessAccountId: process.env.WHATSAPP_BUSINESS_ACCOUNT_ID,
+            bearerToken: process.env.WHATSAPP_ACCESS_TOKEN,
+            apiVersion: 'v18.0'
+        };
+        
+        // Pre-defined templates that need to be registered with Meta
+        this.templates = {
+            daily_financial_update: {
+                name: 'daily_financial_update',
+                language: 'en',
+                category: 'MARKETING',
+                components: [
+                    {
+                        type: 'HEADER',
+                        format: 'TEXT',
+                        text: 'Daily Financial Update'
+                    },
+                    {
+                        type: 'BODY',
+                        text: 'Dear {{1}},\n\n{{2}}\n\nMarket Update: {{3}}\n\nAction Item: {{4}}\n\nBest regards,\nYour Financial Advisor',
+                        example: {
+                            body_text: [
+                                ['Shruti', 'Today\'s tip: Start a SIP of ₹5,000/month for long-term wealth', 'Sensex up 1.2%', 'Review your insurance coverage']
+                            ]
+                        }
+                    },
+                    {
+                        type: 'FOOTER',
+                        text: 'Mutual funds subject to market risks'
+                    }
+                ]
+            },
+            
+            family_planning_weekly: {
+                name: 'family_planning_weekly',
+                language: 'en',
+                category: 'MARKETING',
+                components: [
+                    {
+                        type: 'HEADER',
+                        format: 'TEXT',
+                        text: '📊 Family Financial Planning'
+                    },
+                    {
+                        type: 'BODY',
+                        text: 'Hi {{1}},\n\n*This Week\'s Focus*: {{2}}\n\n✅ Tip 1: {{3}}\n✅ Tip 2: {{4}}\n✅ Tip 3: {{5}}\n\n{{6}}',
+                        example: {
+                            body_text: [
+                                ['Shruti', 'Building Emergency Fund', 'Save 20% of income', 'Use liquid funds', 'Target 6 months expenses', 'Ready to discuss your goals?']
+                            ]
+                        }
+                    },
+                    {
+                        type: 'FOOTER',
+                        text: 'FinAdvise - Your Trusted Partner'
+                    },
+                    {
+                        type: 'BUTTONS',
+                        buttons: [
+                            {
+                                type: 'QUICK_REPLY',
+                                text: 'Call Advisor'
+                            },
+                            {
+                                type: 'QUICK_REPLY',
+                                text: 'Learn More'
+                            }
+                        ]
+                    }
+                ]
+            },
+            
+            business_investment_alert: {
+                name: 'business_investment_alert',
+                language: 'en',
+                category: 'MARKETING',
+                components: [
+                    {
+                        type: 'HEADER',
+                        format: 'TEXT',
+                        text: '📈 Investment Opportunity'
+                    },
+                    {
+                        type: 'BODY',
+                        text: 'Dear {{1}},\n\n*Market Alert*: {{2}}\n\n*Opportunity*: {{3}}\n\n*Expected Returns*: {{4}}\n\n*Action Required*: {{5}}',
+                        example: {
+                            body_text: [
+                                ['Avalok', 'Mid-cap funds showing strength', 'New NFO launch in tech sector', '18-22% CAGR', 'Invest before month-end for tax benefits']
+                            ]
+                        }
+                    },
+                    {
+                        type: 'FOOTER',
+                        text: 'Investments subject to market risks'
+                    }
+                ]
+            },
+            
+            retirement_monthly_update: {
+                name: 'retirement_monthly_update',
+                language: 'en',
+                category: 'MARKETING',
+                components: [
+                    {
+                        type: 'HEADER',
+                        format: 'TEXT',
+                        text: '🛡️ Retirement Portfolio Update'
+                    },
+                    {
+                        type: 'BODY',
+                        text: 'Dear {{1}},\n\n*Monthly Summary*\n\nPortfolio Value: {{2}}\nMonthly Income: {{3}}\nSafety Score: {{4}}/10\n\n{{5}}\n\nNeed assistance?',
+                        example: {
+                            body_text: [
+                                ['Vidyadhar', '₹50 lakhs', '₹35,000', '9', 'New: Senior citizen tax benefits increased']
+                            ]
+                        }
+                    },
+                    {
+                        type: 'FOOTER',
+                        text: 'Your Retirement Planning Partner'
+                    }
+                ]
+            },
+            
+            simple_notification: {
+                name: 'simple_notification',
+                language: 'en',
+                category: 'UTILITY',
+                components: [
+                    {
+                        type: 'BODY',
+                        text: 'Hi {{1}}, {{2}}',
+                        example: {
+                            body_text: [
+                                ['User', 'Your financial update is ready']
+                            ]
+                        }
+                    }
+                ]
+            }
+        };
+        
+        this.approvedTemplates = [];
+    }
+    
+    /**
+     * Register all templates with WhatsApp Business API
+     */
+    async registerAllTemplates() {
+        console.log('================================================');
+        console.log('REGISTERING WHATSAPP MESSAGE TEMPLATES');
+        console.log('================================================\n');
+        
+        const results = {
+            registered: [],
+            failed: [],
+            existing: []
+        };
+        
+        for (const [key, template] of Object.entries(this.templates)) {
+            console.log(`\nRegistering template: ${template.name}...`);
+            
+            const result = await this.registerTemplate(template);
+            
+            if (result.success) {
+                if (result.status === 'exists') {
+                    results.existing.push(template.name);
+                    console.log(`  ✅ Template already exists`);
+                } else {
+                    results.registered.push(template.name);
+                    console.log(`  ✅ Template registered successfully`);
+                    console.log(`     ID: ${result.id}`);
+                    console.log(`     Status: ${result.status}`);
+                }
+            } else {
+                results.failed.push(template.name);
+                console.log(`  ❌ Failed: ${result.error}`);
+            }
+        }
+        
+        console.log('\n================================================');
+        console.log('REGISTRATION SUMMARY');
+        console.log('================================================');
+        console.log(`✅ Registered: ${results.registered.length}`);
+        console.log(`📋 Already Exists: ${results.existing.length}`);
+        console.log(`❌ Failed: ${results.failed.length}`);
+        
+        if (results.registered.length > 0) {
+            console.log('\nNewly Registered Templates:');
+            results.registered.forEach(t => console.log(`  • ${t}`));
+        }
+        
+        if (results.existing.length > 0) {
+            console.log('\nExisting Templates:');
+            results.existing.forEach(t => console.log(`  • ${t}`));
+        }
+        
+        console.log('\n⚠️  IMPORTANT: Templates need Meta approval (usually 1-24 hours)');
+        console.log('   Check approval status at: https://business.facebook.com');
+        
+        return results;
+    }
+    
+    /**
+     * Register a single template
+     */
+    async registerTemplate(template) {
+        const url = `https://graph.facebook.com/${this.config.apiVersion}/${this.config.businessAccountId}/message_templates`;
+        
+        try {
+            const response = await axios.post(url, template, {
+                headers: {
+                    'Authorization': `Bearer ${this.config.bearerToken}`,
+                    'Content-Type': 'application/json'
+                }
+            });
+            
+            return {
+                success: true,
+                id: response.data.id,
+                status: response.data.status,
+                response: response.data
+            };
+            
+        } catch (error) {
+            if (error.response?.data?.error?.code === 100 && 
+                error.response?.data?.error?.error_subcode === 2388093) {
+                // Template already exists
+                return {
+                    success: true,
+                    status: 'exists',
+                    error: 'Template already exists'
+                };
+            }
+            
+            return {
+                success: false,
+                error: error.response?.data?.error?.message || error.message
+            };
+        }
+    }
+    
+    /**
+     * Get all templates for the account
+     */
+    async getTemplates() {
+        console.log('\nFetching existing templates...');
+        
+        const url = `https://graph.facebook.com/${this.config.apiVersion}/${this.config.businessAccountId}/message_templates`;
+        
+        try {
+            const response = await axios.get(url, {
+                headers: {
+                    'Authorization': `Bearer ${this.config.bearerToken}`
+                }
+            });
+            
+            this.approvedTemplates = response.data.data.filter(t => t.status === 'APPROVED');
+            
+            console.log(`\nFound ${response.data.data.length} templates:`);
+            response.data.data.forEach(template => {
+                const status = template.status === 'APPROVED' ? '✅' : '⏳';
+                console.log(`  ${status} ${template.name} - ${template.status}`);
+            });
+            
+            return response.data.data;
+            
+        } catch (error) {
+            console.error('Error fetching templates:', error.response?.data?.error?.message || error.message);
+            return [];
+        }
+    }
+    
+    /**
+     * Send message using approved template
+     */
+    async sendTemplateMessage(phone, templateName, parameters = []) {
+        console.log(`\nSending template message to ${phone}...`);
+        console.log(`  Template: ${templateName}`);
+        
+        const messageData = {
+            messaging_product: 'whatsapp',
+            to: phone,
+            type: 'template',
+            template: {
+                name: templateName,
+                language: {
+                    code: 'en'
+                },
+                components: parameters.length > 0 ? [
+                    {
+                        type: 'body',
+                        parameters: parameters.map(param => ({
+                            type: 'text',
+                            text: param
+                        }))
+                    }
+                ] : undefined
+            }
+        };
+        
+        try {
+            const response = await axios.post(
+                `https://graph.facebook.com/${this.config.apiVersion}/${this.config.phoneNumberId}/messages`,
+                messageData,
+                {
+                    headers: {
+                        'Authorization': `Bearer ${this.config.bearerToken}`,
+                        'Content-Type': 'application/json'
+                    }
+                }
+            );
+            
+            console.log(`  ✅ Message sent successfully`);
+            console.log(`     Message ID: ${response.data.messages[0].id}`);
+            
+            return {
+                success: true,
+                messageId: response.data.messages[0].id
+            };
+            
+        } catch (error) {
+            console.log(`  ❌ Failed to send`);
+            console.log(`     Error: ${error.response?.data?.error?.message || error.message}`);
+            
+            return {
+                success: false,
+                error: error.response?.data?.error || error.message
+            };
+        }
+    }
+    
+    /**
+     * Send messages to advisors using templates
+     */
+    async sendToAdvisorsWithTemplates() {
+        console.log('\n================================================');
+        console.log('SENDING MESSAGES USING WHATSAPP TEMPLATES');
+        console.log('================================================\n');
+        
+        // First, check which templates are approved
+        const templates = await this.getTemplates();
+        const approvedTemplateNames = templates
+            .filter(t => t.status === 'APPROVED')
+            .map(t => t.name);
+        
+        if (approvedTemplateNames.length === 0) {
+            console.log('❌ No approved templates found!');
+            console.log('\nTo fix this:');
+            console.log('1. Go to https://business.facebook.com');
+            console.log('2. Navigate to WhatsApp Manager → Message Templates');
+            console.log('3. Check template approval status');
+            console.log('4. Templates usually get approved within 1-24 hours');
+            return;
+        }
+        
+        console.log(`\nUsing approved templates: ${approvedTemplateNames.join(', ')}`);
+        
+        // Send to advisors
+        const advisors = [
+            {
+                name: 'Shruti Petkar',
+                phone: '919673758777',
+                template: 'daily_financial_update',
+                params: ['Shruti', 'Start a SIP of ₹5,000/month for long-term wealth creation', 'Sensex up 1.2%', 'Review your insurance coverage']
+            },
+            {
+                name: 'Shri Avalok Petkar',
+                phone: '919765071249',
+                template: 'business_investment_alert',
+                params: ['Avalok', 'Mid-cap funds showing 18% returns', 'Tech sector NFO launching', '18-22% CAGR expected', 'Invest before month-end']
+            },
+            {
+                name: 'Vidyadhar Petkar',
+                phone: '918975758513',
+                template: 'retirement_monthly_update',
+                params: ['Vidyadhar', '₹50 lakhs', '₹35,000', '9', 'New senior citizen benefits announced']
+            }
+        ];
+        
+        for (const advisor of advisors) {
+            // Check if template is approved
+            if (!approvedTemplateNames.includes(advisor.template)) {
+                // Fallback to simple template if specific one not approved
+                advisor.template = 'simple_notification';
+                advisor.params = [advisor.name.split(' ')[0], 'Your financial update is ready. Please check your messages.'];
+            }
+            
+            const result = await this.sendTemplateMessage(
+                advisor.phone,
+                advisor.template,
+                advisor.params
+            );
+            
+            if (!result.success) {
+                console.log(`\nTrying fallback template for ${advisor.name}...`);
+                // Try simplest template as fallback
+                await this.sendTemplateMessage(
+                    advisor.phone,
+                    'simple_notification',
+                    [advisor.name.split(' ')[0], 'Your daily financial update is ready']
+                );
+            }
+        }
+    }
+    
+    /**
+     * Create custom template for advisor segment
+     */
+    createCustomTemplate(segment, name, content) {
+        const template = {
+            name: name.toLowerCase().replace(/\s+/g, '_'),
+            language: 'en',
+            category: 'MARKETING',
+            components: [
+                {
+                    type: 'HEADER',
+                    format: 'TEXT',
+                    text: content.header || 'Financial Update'
+                },
+                {
+                    type: 'BODY',
+                    text: content.body,
+                    example: {
+                        body_text: [content.examples || []]
+                    }
+                },
+                {
+                    type: 'FOOTER',
+                    text: content.footer || 'FinAdvise - Your Trusted Partner'
+                }
+            ]
+        };
+        
+        if (content.buttons) {
+            template.components.push({
+                type: 'BUTTONS',
+                buttons: content.buttons
+            });
+        }
+        
+        return template;
+    }
+}
+
+// Main execution
+async function main() {
+    const templateManager = new WhatsAppTemplateManager();
+    
+    // Register all templates
+    await templateManager.registerAllTemplates();
+    
+    // Wait a moment
+    await new Promise(resolve => setTimeout(resolve, 2000));
+    
+    // Try sending with templates
+    await templateManager.sendToAdvisorsWithTemplates();
+    
+    console.log('\n================================================');
+    console.log('NEXT STEPS');
+    console.log('================================================');
+    console.log('1. Templates are now submitted for approval');
+    console.log('2. Check approval status at:');
+    console.log('   https://business.facebook.com → WhatsApp Manager → Message Templates');
+    console.log('3. Once approved (1-24 hours), messages will be sent');
+    console.log('4. Meanwhile, advisors can message your WhatsApp number first');
+    console.log('   Then you can reply with regular messages (24-hour window)');
+}
+
+// Run if executed directly
+if (require.main === module) {
+    main().catch(error => {
+        console.error('Template manager error:', error);
+        process.exit(1);
+    });
+}
+
+module.exports = WhatsAppTemplateManager;

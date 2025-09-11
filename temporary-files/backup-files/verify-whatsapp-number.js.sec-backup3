@@ -1,0 +1,220 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
+#!/usr/bin/env node
+
+/**
+ * Verify WhatsApp Business Phone Number
+ * This will fix the EXPIRED status and enable message delivery
+ */
+
+const axios = require('axios');
+const readline = require('readline');
+
+class WhatsAppVerifier {
+    constructor() {
+        this.config = {
+            phoneNumberId: process.env.WHATSAPP_PHONE_NUMBER_ID,
+            bearerToken: 'EAATOFQtMe9gBPXrmwK1MDrvlBAWfbeevjzXs8PgT15GPsKADHmzJPWZBvnyhAYTjSfoAzOZC97CHQ27X6jE1iOjNZCehO2WrxPiEfRnhLO3sZA0iJ93Sh7ZB49ZBnF12CWCVTpB1WMfpRgpCdv5hXWIbWgzaHFovUPaZBQBDSa7p74ZCIKvZCtyLo3rj8dzDZAs74GaQZDZD',
+            apiVersion: 'v18.0'
+        };
+        
+        this.rl = readline.createInterface({
+            input: process.stdin,
+            output: process.stdout
+        });
+    }
+    
+    /**
+     * Request verification code
+     */
+    async requestCode() {
+        console.log('📱 Requesting verification code...\n');
+        
+        try {
+            const response = await axios.post(
+                `https://graph.facebook.com/${this.config.apiVersion}/${this.config.phoneNumberId}/request_code`,
+                {
+                    code_method: 'SMS',
+                    language: 'en_US'
+                },
+                {
+                    headers: {
+                        'Authorization': `Bearer ${this.config.bearerToken}`,
+                        'Content-Type': 'application/json'
+                    }
+                }
+            );
+            
+            if (response.data.success) {
+                console.log('✅ Verification code sent to +91 76666 84471');
+                console.log('   Check SMS on that phone\n');
+                return true;
+            }
+        } catch (error) {
+            console.log(`❌ Failed to send code: ${error.response?.data?.error?.message || error.message}`);
+            return false;
+        }
+    }
+    
+    /**
+     * Verify the code
+     */
+    async verifyCode(code) {
+        console.log(`\n📱 Verifying code: ${code}...\n`);
+        
+        try {
+            const response = await axios.post(
+                `https://graph.facebook.com/${this.config.apiVersion}/${this.config.phoneNumberId}/verify_code`,
+                {
+                    code: code
+                },
+                {
+                    headers: {
+                        'Authorization': `Bearer ${this.config.bearerToken}`,
+                        'Content-Type': 'application/json'
+                    }
+                }
+            );
+            
+            if (response.data.success) {
+                console.log('✅ Phone number verified successfully!');
+                return true;
+            }
+        } catch (error) {
+            console.log(`❌ Verification failed: ${error.response?.data?.error?.message || error.message}`);
+            return false;
+        }
+    }
+    
+    /**
+     * Check current status
+     */
+    async checkStatus() {
+        try {
+            const response = await axios.get(
+                `https://graph.facebook.com/${this.config.apiVersion}/${this.config.phoneNumberId}`,
+                {
+                    headers: {
+                        'Authorization': `Bearer ${this.config.bearerToken}`
+                    },
+                    params: {
+                        fields: 'code_verification_status,name_status,quality_rating'
+                    }
+                }
+            );
+            
+            console.log('\n📊 Current Status:');
+            console.log(`   Verification: ${response.data.code_verification_status}`);
+            console.log(`   Name Status: ${response.data.name_status}`);
+            console.log(`   Quality: ${response.data.quality_rating}\n`);
+            
+            return response.data;
+        } catch (error) {
+            console.log('Could not check status');
+            return null;
+        }
+    }
+    
+    /**
+     * Test message sending
+     */
+    async testMessage() {
+        console.log('📱 Testing message delivery...\n');
+        
+        try {
+            const response = await axios.post(
+                `https://graph.facebook.com/${this.config.apiVersion}/${this.config.phoneNumberId}/messages`,
+                {
+                    messaging_product: 'whatsapp',
+                    to: '919765071249',
+                    type: 'image',
+                    image: {
+                        link: 'https://cdn.pixabay.com/photo/2016/11/29/13/14/coffee-1869820_640.jpg',
+                        caption: '✅ VERIFICATION COMPLETE! Image delivery working. Tax savings: ₹1,95,000'
+                    }
+                },
+                {
+                    headers: {
+                        'Authorization': `Bearer ${this.config.bearerToken}`,
+                        'Content-Type': 'application/json',
+                        'User-Agent': 'curl/7.64.1'
+                    }
+                }
+            );
+            
+            console.log('✅ Test image sent successfully!');
+            console.log(`   Message ID: ${response.data.messages[0].id}`);
+            console.log('   Check WhatsApp on 9765071249\n');
+            return true;
+            
+        } catch (error) {
+            console.log(`❌ Test failed: ${error.response?.data?.error?.message || error.message}\n`);
+            return false;
+        }
+    }
+    
+    /**
+     * Main execution
+     */
+    async execute() {
+        console.log('================================================');
+        console.log('WHATSAPP PHONE VERIFICATION');
+        console.log('================================================\n');
+        
+        // Check current status
+        const status = await this.checkStatus();
+        
+        if (status?.code_verification_status === 'EXPIRED') {
+            console.log('⚠️ Verification is EXPIRED - fixing now...\n');
+            
+            // Request code
+            const codeSent = await this.requestCode();
+            
+            if (codeSent) {
+                // Ask for code
+                this.rl.question('Enter the 6-digit code from SMS: ', async (code) => {
+                    // Verify code
+                    const verified = await this.verifyCode(code.trim());
+                    
+                    if (verified) {
+                        // Check new status
+                        await this.checkStatus();
+                        
+                        // Test message
+                        await this.testMessage();
+                        
+                        console.log('✅ VERIFICATION COMPLETE!');
+                        console.log('   Messages and images will now deliver!');
+                    } else {
+                        console.log('❌ Verification failed');
+                        console.log('   Try running this script again');
+                    }
+                    
+                    this.rl.close();
+                });
+            } else {
+                console.log('Could not send verification code');
+                this.rl.close();
+            }
+        } else if (status?.code_verification_status === 'VERIFIED') {
+            console.log('✅ Already verified!');
+            
+            // Test message
+            await this.testMessage();
+            
+            this.rl.close();
+        } else {
+            console.log('Unknown verification status');
+            this.rl.close();
+        }
+    }
+}
+
+// Run if executed directly
+if (require.main === module) {
+    const verifier = new WhatsAppVerifier();
+    verifier.execute().catch(console.error);
+}
+
+module.exports = WhatsAppVerifier;

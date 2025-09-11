@@ -1,0 +1,651 @@
+{
+  "timestamp": "2025-09-11T12:15:35.507Z",
+  "filesScanned": 181,
+  "filesMigrated": 36,
+  "results": [
+    {
+      "file": "check-webhook-hierarchy.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_BUSINESS_ACCOUNT_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "check-webhook-hierarchy.js.backup"
+    },
+    {
+      "file": "claude-crm-agent-handler.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "claude-crm-agent-handler.js.backup"
+    },
+    {
+      "file": "click-to-unlock-production.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "click-to-unlock-production.js.backup"
+    },
+    {
+      "file": "click-to-unlock-with-media.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "click-to-unlock-with-media.js.backup"
+    },
+    {
+      "file": "crm-handler-simplified.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "crm-handler-simplified.js.backup"
+    },
+    {
+      "file": "debug-webhook-subscription.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_BUSINESS_ACCOUNT_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "debug-webhook-subscription.js.backup"
+    },
+    {
+      "file": "diagnose-button-webhook.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_BUSINESS_ACCOUNT_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "diagnose-button-webhook.js.backup"
+    },
+    {
+      "file": "diagnose-webhook-deep.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_BUSINESS_ACCOUNT_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "diagnose-webhook-deep.js.backup"
+    },
+    {
+      "file": "final-button-test.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "final-button-test.js.backup"
+    },
+    {
+      "file": "FINAL-TEST-COMPLETE.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "FINAL-TEST-COMPLETE.js.backup"
+    },
+    {
+      "file": "final-verification-test.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "final-verification-test.js.backup"
+    },
+    {
+      "file": "final-webhook-test.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "final-webhook-test.js.backup"
+    },
+    {
+      "file": "fix-subscription-properly.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_BUSINESS_ACCOUNT_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "fix-subscription-properly.js.backup"
+    },
+    {
+      "file": "fix-webhook-configuration.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_BUSINESS_ACCOUNT_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "fix-webhook-configuration.js.backup"
+    },
+    {
+      "file": "gemini-powered-webhook.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "gemini-powered-webhook.js.backup"
+    },
+    {
+      "file": "identify-correct-phone-webhook.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_BUSINESS_ACCOUNT_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "identify-correct-phone-webhook.js.backup"
+    },
+    {
+      "file": "intelligent-webhook-handler.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "intelligent-webhook-handler.js.backup"
+    },
+    {
+      "file": "production-unified-handler.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "production-unified-handler.js.backup"
+    },
+    {
+      "file": "SEND-BUTTON-NOW.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "SEND-BUTTON-NOW.js.backup"
+    },
+    {
+      "file": "send-keyword-templates.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "send-keyword-templates.js.backup"
+    },
+    {
+      "file": "send-test-reply.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "send-test-reply.js.backup"
+    },
+    {
+      "file": "send-unlock-templates-e2e.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "send-unlock-templates-e2e.js.backup"
+    },
+    {
+      "file": "send-working-templates-final.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "send-working-templates-final.js.backup"
+    },
+    {
+      "file": "TEST-CLAUDE-CHAT.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "TEST-CLAUDE-CHAT.js.backup"
+    },
+    {
+      "file": "TEST-COMPLETE-FLOW-NOW.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "TEST-COMPLETE-FLOW-NOW.js.backup"
+    },
+    {
+      "file": "test-direct-delivery.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "test-direct-delivery.js.backup"
+    },
+    {
+      "file": "test-everything-now.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "test-everything-now.js.backup"
+    },
+    {
+      "file": "TEST-MEDIA-DELIVERY.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "TEST-MEDIA-DELIVERY.js.backup"
+    },
+    {
+      "file": "test-message-delivery.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "test-message-delivery.js.backup"
+    },
+    {
+      "file": "test-meta-quickstart-api.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "test-meta-quickstart-api.js.backup"
+    },
+    {
+      "file": "webhook-api-version-check.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_BUSINESS_ACCOUNT_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "webhook-api-version-check.js.backup"
+    },
+    {
+      "file": "webhook-final-working.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "webhook-final-working.js.backup"
+    },
+    {
+      "file": "webhook-for-vm.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "webhook-for-vm.js.backup"
+    },
+    {
+      "file": "webhook-https-direct.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "webhook-https-direct.js.backup"
+    },
+    {
+      "file": "webhook-port-80.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "webhook-port-80.js.backup"
+    },
+    {
+      "file": "webhook-processor-cloudflare.js",
+      "changes": [
+        {
+          "envVar": "WHATSAPP_PHONE_NUMBER_ID",
+          "occurrences": 1
+        },
+        {
+          "envVar": "WHATSAPP_ACCESS_TOKEN",
+          "occurrences": 1
+        },
+        {
+          "action": "Added dotenv import"
+        }
+      ],
+      "backup": "webhook-processor-cloudflare.js.backup"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
+#!/usr/bin/env node
+
+/**
+ * Send Messages Using Your APPROVED WhatsApp Templates
+ * These templates are already approved in your Meta Business account
+ */
+
+const axios = require('axios');
+
+const CONFIG = {
+    phoneNumberId: process.env.WHATSAPP_PHONE_NUMBER_ID,
+    bearerToken: process.env.WHATSAPP_ACCESS_TOKEN,
+    apiVersion: 'v18.0'
+};
+
+// Your approved templates (found in your Meta account)
+const APPROVED_TEMPLATES = [
+    'daily_financial_update',  // ✅ Used for Shruti - WORKING
+    'hello_world',             // ✅ Simple greeting
+    'daily_focus',             // ✅ Daily update
+    'payment_reminder_v1',     // ✅ Payment related
+    'reminder_notification_v1', // ✅ General reminder
+    'account_balance_update_v1' // ✅ Financial update
+];
+
+const ADVISORS = [
+    {
+        name: 'Shruti Petkar',
+        phone: '919673758777',
+        template: 'daily_financial_update',
+        params: [
+            'Shruti',
+            'Start a SIP of ₹5,000/month - it can grow to ₹25 lakhs in 15 years',
+            'Sensex up 1.2% today',
+            'Review your family insurance coverage this week'
+        ]
+    },
+    {
+        name: 'Shri Avalok Petkar',
+        phone: '919765071249',
+        template: 'payment_reminder_v1',  // Using payment reminder template
+        params: []  // Will check if this template needs parameters
+    },
+    {
+        name: 'Vidyadhar Petkar',
+        phone: '918975758513',
+        template: 'account_balance_update_v1',  // Using account balance template
+        params: []  // Will check if this template needs parameters
+    }
+];
+
+async function sendTemplateMessage(advisor) {
+    console.log(`\n📱 Sending to ${advisor.name} (${advisor.phone})...`);
+    console.log(`   Using template: ${advisor.template}`);
+    
+    const messageData = {
+        messaging_product: 'whatsapp',
+        to: advisor.phone,
+        type: 'template',
+        template: {
+            name: advisor.template,
+            language: {
+                code: 'en'  // Try English first
+            }
+        }
+    };
+    
+    // Add parameters if provided
+    if (advisor.params && advisor.params.length > 0) {
+        messageData.template.components = [
+            {
+                type: 'body',
+                parameters: advisor.params.map(param => ({
+                    type: 'text',
+                    text: param
+                }))
+            }
+        ];
+    }
+    
+    try {
+        const response = await axios.post(
+            `https://graph.facebook.com/${CONFIG.apiVersion}/${CONFIG.phoneNumberId}/messages`,
+            messageData,
+            {
+                headers: {
+                    'Authorization': `Bearer ${CONFIG.bearerToken}`,
+                    'Content-Type': 'application/json'
+                }
+            }
+        );
+        
+        console.log(`   ✅ Message sent successfully!`);
+        console.log(`   Message ID: ${response.data.messages[0].id}`);
+        return { success: true, messageId: response.data.messages[0].id };
+        
+    } catch (error) {
+        const errorMsg = error.response?.data?.error?.message || error.message;
+        console.log(`   ❌ Failed: ${errorMsg}`);
+        
+        // If language error, try with different language codes
+        if (errorMsg.includes('translation') || errorMsg.includes('language')) {
+            console.log(`   Retrying with language code 'en_US'...`);
+            
+            messageData.template.language.code = 'en_US';
+            
+            try {
+                const response = await axios.post(
+                    `https://graph.facebook.com/${CONFIG.apiVersion}/${CONFIG.phoneNumberId}/messages`,
+                    messageData,
+                    {
+                        headers: {
+                            'Authorization': `Bearer ${CONFIG.bearerToken}`,
+                            'Content-Type': 'application/json'
+                        }
+                    }
+                );
+                
+                console.log(`   ✅ Message sent with en_US!`);
+                return { success: true, messageId: response.data.messages[0].id };
+                
+            } catch (retryError) {
+                console.log(`   ❌ Retry failed: ${retryError.response?.data?.error?.message}`);
+            }
+        }
+        
+        return { success: false, error: errorMsg };
+    }
+}
+
+async function tryAlternativeTemplates(advisor) {
+    console.log(`\n🔄 Trying alternative templates for ${advisor.name}...`);
+    
+    // Try these simple templates that usually work
+    const fallbackTemplates = [
+        { name: 'hello_world', params: [] },
+        { name: 'daily_focus', params: [] },
+        { name: 'reminder_notification_v1', params: [] }
+    ];
+    
+    for (const template of fallbackTemplates) {
+        advisor.template = template.name;
+        advisor.params = template.params;
+        
+        const result = await sendTemplateMessage(advisor);
+        if (result.success) {
+            return result;
+        }
+    }
+    
+    return { success: false };
+}
+
+async function main() {
+    console.log('================================================');
+    console.log('SENDING MESSAGES WITH APPROVED TEMPLATES');
+    console.log('================================================');
+    console.log(`Time: ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}`);
+    console.log('');
+    console.log('Available Approved Templates:');
+    APPROVED_TEMPLATES.forEach(t => console.log(`  ✅ ${t}`));
+    
+    const results = {
+        sent: 0,
+        failed: 0,
+        details: []
+    };
+    
+    for (const advisor of ADVISORS) {
+        let result = await sendTemplateMessage(advisor);
+        
+        // If failed, try alternative templates
+        if (!result.success && advisor.name !== 'Shruti Petkar') {
+            result = await tryAlternativeTemplates(advisor);
+        }
+        
+        if (result.success) {
+            results.sent++;
+        } else {
+            results.failed++;
+        }
+        
+        results.details.push({
+            advisor: advisor.name,
+            ...result
+        });
+        
+        // Wait between messages
+        await new Promise(resolve => setTimeout(resolve, 2000));
+    }
+    
+    console.log('\n================================================');
+    console.log('RESULTS');
+    console.log('================================================');
+    console.log(`✅ Sent: ${results.sent}/${ADVISORS.length}`);
+    
+    results.details.forEach(detail => {
+        const status = detail.success ? '✅' : '❌';
+        console.log(`${status} ${detail.advisor}: ${detail.success ? 'Delivered' : 'Failed'}`);
+    });
+    
+    console.log('\n================================================');
+    console.log('IMPORTANT INFORMATION');
+    console.log('================================================');
+    console.log('\n📋 Why Regular Messages Failed:');
+    console.log('• WhatsApp Business API requires pre-approved templates');
+    console.log('• Users must message you first to open a 24-hour conversation window');
+    console.log('• After 24 hours, only template messages can be sent');
+    
+    console.log('\n✅ Solution:');
+    console.log('1. Ask advisors to send "Hi" to your WhatsApp Business number');
+    console.log('2. This opens a 24-hour window for regular messages');
+    console.log('3. Or use only approved templates for automated messages');
+    
+    console.log('\n📱 Your WhatsApp Business Number:');
+    console.log('• Have advisors message this number first');
+    console.log('• Then you can send regular messages for 24 hours');
+    
+    console.log('\n🔧 To Create New Templates:');
+    console.log('1. Go to: https://business.facebook.com');
+    console.log('2. Navigate to: WhatsApp Manager → Message Templates');
+    console.log('3. Create templates matching your content needs');
+    console.log('4. Wait for approval (1-24 hours)');
+}
+
+main().catch(console.error);

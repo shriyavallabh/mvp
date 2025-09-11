@@ -1,0 +1,238 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
+#!/usr/bin/env node
+
+/**
+ * Send WhatsApp Messages NOW with Your API Credentials
+ * This will actually send messages to your 3 advisors
+ */
+
+const https = require('https');
+
+// Your WhatsApp API Credentials
+const WHATSAPP_CONFIG = {
+    phoneNumberId: process.env.WHATSAPP_PHONE_NUMBER_ID,
+    bearerToken: process.env.WHATSAPP_ACCESS_TOKEN,
+    apiVersion: 'v18.0'
+};
+
+// Your 3 advisors
+const ADVISORS = [
+    {
+        name: 'Shruti Petkar',
+        phone: '919673758777',
+        message: `Dear Shruti,
+
+📊 *Family Financial Update*
+
+Today's wealth-building tip for your family:
+
+✅ Start SIP: ₹5,000/month = ₹25 lakhs in 15 years
+✅ Insurance Gap: Review your coverage today
+✅ Emergency Fund: Build 6 months expenses
+
+Market Update: Sensex shows positive momentum!
+
+Ready to secure your family's future?
+
+Best regards,
+Your Financial Advisor
+
+_Mutual funds subject to market risks._`
+    },
+    {
+        name: 'Shri Avalok Petkar',
+        phone: '919765071249',
+        message: `Dear Avalok,
+
+📈 *Business Growth Strategy*
+
+Smart investment insights for entrepreneurs:
+
+✅ Diversify: 30% to equity funds
+✅ Tax Saving: ELSS up to ₹1.5 lakhs
+✅ Liquidity: Keep 3 months cash
+
+Opportunity: Mid-cap funds showing 18% returns!
+
+Let's optimize your portfolio?
+
+Best regards,
+Your Investment Partner
+
+_Investments subject to market risks._`
+    },
+    {
+        name: 'Vidyadhar Petkar',
+        phone: '918975758513',
+        message: `Dear Vidyadhar,
+
+🛡️ *Retirement Security Update*
+
+Your safe investment options:
+
+• Senior Citizen Scheme: 8.2% returns
+• Debt Funds: Tax-efficient growth
+• Monthly Income: Via SWP
+
+New: Extra ₹50,000 tax deduction for seniors!
+
+Need a portfolio review?
+
+Warm regards,
+Your Retirement Advisor
+
+_Read all documents carefully._`
+    }
+];
+
+/**
+ * Send WhatsApp message via Meta Business API
+ */
+function sendWhatsAppMessage(advisor) {
+    return new Promise((resolve, reject) => {
+        const data = JSON.stringify({
+            messaging_product: 'whatsapp',
+            to: advisor.phone,
+            type: 'text',
+            text: {
+                body: advisor.message
+            }
+        });
+
+        const options = {
+            hostname: 'graph.facebook.com',
+            port: 443,
+            path: `/${WHATSAPP_CONFIG.apiVersion}/${WHATSAPP_CONFIG.phoneNumberId}/messages`,
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${WHATSAPP_CONFIG.bearerToken}`,
+                'Content-Type': 'application/json',
+                'Content-Length': data.length
+            }
+        };
+
+        console.log(`\n📱 Sending to ${advisor.name} (${advisor.phone})...`);
+
+        const req = https.request(options, (res) => {
+            let responseData = '';
+
+            res.on('data', (chunk) => {
+                responseData += chunk;
+            });
+
+            res.on('end', () => {
+                try {
+                    const response = JSON.parse(responseData);
+                    
+                    if (res.statusCode === 200 && response.messages) {
+                        console.log(`   ✅ Message sent successfully!`);
+                        console.log(`   Message ID: ${response.messages[0].id}`);
+                        resolve({ success: true, response });
+                    } else {
+                        console.log(`   ❌ Failed: ${response.error?.message || 'Unknown error'}`);
+                        resolve({ success: false, error: response.error });
+                    }
+                } catch (error) {
+                    console.log(`   ❌ Error parsing response: ${error.message}`);
+                    resolve({ success: false, error: error.message });
+                }
+            });
+        });
+
+        req.on('error', (error) => {
+            console.log(`   ❌ Request failed: ${error.message}`);
+            reject(error);
+        });
+
+        req.write(data);
+        req.end();
+    });
+}
+
+/**
+ * Main execution
+ */
+async function main() {
+    console.log('================================================');
+    console.log('SENDING WHATSAPP MESSAGES TO YOUR ADVISORS');
+    console.log('================================================');
+    console.log(`Time: ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}`);
+    console.log('');
+    console.log('Using WhatsApp Business API:');
+    console.log(`  Phone Number ID: ${WHATSAPP_CONFIG.phoneNumberId}`);
+    console.log(`  API Version: ${WHATSAPP_CONFIG.apiVersion}`);
+    console.log(`  Token: ${WHATSAPP_CONFIG.bearerToken.substring(0, 20)}...`);
+
+    const results = {
+        sent: 0,
+        failed: 0,
+        details: []
+    };
+
+    // Send messages to each advisor
+    for (const advisor of ADVISORS) {
+        try {
+            const result = await sendWhatsAppMessage(advisor);
+            
+            if (result.success) {
+                results.sent++;
+            } else {
+                results.failed++;
+            }
+            
+            results.details.push({
+                advisor: advisor.name,
+                phone: advisor.phone,
+                ...result
+            });
+            
+            // Wait 2 seconds between messages (rate limiting)
+            if (ADVISORS.indexOf(advisor) < ADVISORS.length - 1) {
+                await new Promise(resolve => setTimeout(resolve, 2000));
+            }
+            
+        } catch (error) {
+            console.error(`Error sending to ${advisor.name}:`, error.message);
+            results.failed++;
+        }
+    }
+
+    console.log('\n================================================');
+    console.log('SUMMARY');
+    console.log('================================================');
+    console.log(`Messages Sent: ${results.sent}/${ADVISORS.length}`);
+    console.log(`Failed: ${results.failed}`);
+    
+    if (results.sent > 0) {
+        console.log('\n✅ WhatsApp messages sent successfully!');
+        console.log('\nAdvisors should receive messages on:');
+        console.log('  • Shruti: 9673758777');
+        console.log('  • Avalok: 9765071249');
+        console.log('  • Vidyadhar: 8975758513');
+    }
+    
+    console.log('\n================================================');
+    console.log('NEXT STEPS');
+    console.log('================================================');
+    console.log('1. Check WhatsApp on advisor phones');
+    console.log('2. Messages will also be sent automatically:');
+    console.log('   - Tonight 8:30 PM: Content generation');
+    console.log('   - Tonight 11:00 PM: Auto-approval');
+    console.log('   - Tomorrow 5:00 AM: WhatsApp delivery');
+    console.log('');
+    console.log('To deploy this to VM:');
+    console.log('  scp send-whatsapp-now.js root@143.110.191.97:/home/mvp/');
+    console.log('  ssh root@143.110.191.97 "cd /home/mvp && node send-whatsapp-now.js"');
+}
+
+// Run immediately
+if (require.main === module) {
+    main().catch(error => {
+        console.error('Fatal error:', error);
+        process.exit(1);
+    });
+}
+
+module.exports = { ADVISORS, sendWhatsAppMessage };

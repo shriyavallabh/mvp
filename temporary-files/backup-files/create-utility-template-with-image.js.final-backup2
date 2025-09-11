@@ -1,0 +1,231 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
+#!/usr/bin/env node
+
+/**
+ * Create a UTILITY template with IMAGE header
+ * UTILITY templates bypass marketing limits and 24-hour window
+ */
+
+const axios = require('axios');
+const fs = require('fs');
+
+const config = {
+    appId: '1352489686039512',
+    wabaId: '1861646317956355',
+    phoneNumberId: process.env.WHATSAPP_PHONE_NUMBER_ID,
+    accessToken: process.env.WHATSAPP_ACCESS_TOKEN,
+    apiVersion: 'v23.0'
+};
+
+/**
+ * Create UTILITY template with the existing approved header handle
+ */
+async function createUtilityTemplate() {
+    console.log('🚀 CREATING UTILITY TEMPLATE WITH IMAGE HEADER');
+    console.log('=' .repeat(60));
+    console.log('UTILITY templates bypass marketing limits!');
+    console.log('=' .repeat(60) + '\n');
+    
+    const templateName = `finadvise_account_update_v${Date.now()}`;
+    
+    // Use the same header handle from our approved template
+    const headerHandle = '4:c2FtcGxlX3RlbXBsYXRlX2ltYWdlLmpwZw==:aW1hZ2UvanBlZw==:ARaX99mFuLw3f1LvAJ_i9g6NoBDpheJ4_RFwckDzfDRG5JJnXQ229NF8x6A1XGAUjfeQb2HbZ68SBJVlxXB2pBedo2sFI213eG6MmN5jguMEYQ:e:1757877549:1352489686039512:100088701756168:ARYBauV4XmEa7MNXZkw';
+    
+    const templatePayload = {
+        name: templateName,
+        category: 'UTILITY', // CRITICAL: UTILITY bypasses limits!
+        language: 'en',
+        components: [
+            {
+                type: 'HEADER',
+                format: 'IMAGE',
+                example: {
+                    header_handle: [headerHandle]
+                }
+            },
+            {
+                type: 'BODY',
+                text: 'Hello {{1}},\n\nYour FinAdvise account daily report for {{2}} is ready.\n\nAccount Value: ₹{{3}}\nToday\'s Performance: {{4}}%\nMarket Status: {{5}}\n\nThis is an automated account service notification for your subscribed financial advisory services.\n\nFor detailed analysis, log in to your dashboard.',
+                example: {
+                    body_text: [
+                        ['John Doe', 'September 11, 2025', '25,00,000', '+2.5', 'Bullish']
+                    ]
+                }
+            },
+            {
+                type: 'FOOTER',
+                text: 'FinAdvise Account Services | Reply STOP to unsubscribe'
+            }
+        ]
+    };
+    
+    console.log('📝 Template Details:');
+    console.log(`   Name: ${templateName}`);
+    console.log(`   Category: UTILITY`);
+    console.log(`   Language: English`);
+    console.log(`   Components: IMAGE header + Body + Footer`);
+    console.log('\n🎯 Why UTILITY?');
+    console.log('   ✅ Bypasses 24-hour conversation window');
+    console.log('   ✅ Not subject to marketing limits');
+    console.log('   ✅ Can reach cold subscribers');
+    console.log('   ✅ Considered transactional/service message\n');
+    
+    try {
+        const response = await axios.post(
+            `https://graph.facebook.com/${config.apiVersion}/${config.wabaId}/message_templates`,
+            templatePayload,
+            {
+                headers: {
+                    'Authorization': `Bearer ${config.accessToken}`,
+                    'Content-Type': 'application/json'
+                }
+            }
+        );
+        
+        console.log('✅ UTILITY TEMPLATE CREATED SUCCESSFULLY!');
+        console.log(`   Template ID: ${response.data.id}`);
+        console.log(`   Name: ${templateName}`);
+        console.log(`   Status: ${response.data.status || 'PENDING'}`);
+        
+        // Save template info
+        const templateInfo = {
+            templateName: templateName,
+            templateId: response.data.id,
+            category: 'UTILITY',
+            hasImageHeader: true,
+            createdAt: new Date().toISOString(),
+            headerHandle: headerHandle,
+            status: response.data.status || 'PENDING'
+        };
+        
+        fs.writeFileSync(
+            'utility-template-info.json',
+            JSON.stringify(templateInfo, null, 2)
+        );
+        
+        console.log('\n📁 Template info saved to: utility-template-info.json');
+        console.log('\n⏳ Next Steps:');
+        console.log('1. Wait for approval (usually faster for UTILITY)');
+        console.log('2. Check status: node check-utility-template-status.js');
+        console.log('3. Once approved, send with: node send-utility-template.js');
+        console.log('\n🎯 This UTILITY template should deliver even to cold subscribers!');
+        
+        return templateInfo;
+        
+    } catch (error) {
+        console.error('\n❌ Failed to create UTILITY template:', error.response?.data || error.message);
+        
+        if (error.response?.data?.error) {
+            const err = error.response.data.error;
+            console.log('\n📋 Error Details:');
+            console.log(`   Code: ${err.code}`);
+            console.log(`   Type: ${err.type}`);
+            console.log(`   Message: ${err.message}`);
+            
+            if (err.error_user_msg) {
+                console.log(`   User Message: ${err.error_user_msg}`);
+            }
+        }
+        
+        return null;
+    }
+}
+
+/**
+ * Also create a reply-to-open-window template
+ */
+async function createReplyTemplate() {
+    console.log('\n' + '=' .repeat(60));
+    console.log('📝 BONUS: Creating Reply-to-Open-Window Template');
+    console.log('=' .repeat(60) + '\n');
+    
+    const templateName = `finadvise_daily_notification_v${Date.now()}`;
+    
+    const templatePayload = {
+        name: templateName,
+        category: 'UTILITY',
+        language: 'en',
+        components: [
+            {
+                type: 'BODY',
+                text: 'Hi {{1}},\n\nYour personalized FinAdvise daily financial report for {{2}} is ready!\n\n📊 Quick Summary:\n• Portfolio: ₹{{3}}\n• Today: {{4}}%\n• Action Required: {{5}}\n\nReply "1" to receive your detailed report with charts and analysis.',
+                example: {
+                    body_text: [
+                        ['John', 'September 11', '25,00,000', '+2.5', 'Review ELSS options']
+                    ]
+                }
+            },
+            {
+                type: 'FOOTER',
+                text: 'FinAdvise | Reply 1 for full report'
+            }
+        ]
+    };
+    
+    console.log('📱 Strategy: Reply-to-Open-Window');
+    console.log('   1. Send this simple text template first');
+    console.log('   2. User replies "1" (opens 24-hour window)');
+    console.log('   3. Now send rich image+text freely');
+    console.log('   4. No template needed for follow-up!\n');
+    
+    try {
+        const response = await axios.post(
+            `https://graph.facebook.com/${config.apiVersion}/${config.wabaId}/message_templates`,
+            templatePayload,
+            {
+                headers: {
+                    'Authorization': `Bearer ${config.accessToken}`,
+                    'Content-Type': 'application/json'
+                }
+            }
+        );
+        
+        console.log('✅ Reply template created!');
+        console.log(`   Name: ${templateName}`);
+        console.log(`   Status: ${response.data.status || 'PENDING'}`);
+        
+        return {
+            name: templateName,
+            id: response.data.id
+        };
+        
+    } catch (error) {
+        console.error('❌ Failed to create reply template:', error.response?.data?.error?.message || error.message);
+        return null;
+    }
+}
+
+/**
+ * Main execution
+ */
+async function main() {
+    // Create UTILITY template with IMAGE
+    const utilityTemplate = await createUtilityTemplate();
+    
+    // Create reply-to-open template
+    const replyTemplate = await createReplyTemplate();
+    
+    console.log('\n' + '=' .repeat(60));
+    console.log('📊 SUMMARY');
+    console.log('=' .repeat(60));
+    
+    if (utilityTemplate) {
+        console.log('\n✅ UTILITY template with IMAGE created');
+        console.log('   This should bypass marketing limits!');
+    }
+    
+    if (replyTemplate) {
+        console.log('\n✅ Reply-to-open template created');
+        console.log('   Fallback strategy if UTILITY fails');
+    }
+    
+    console.log('\n🎯 KEY INSIGHT:');
+    console.log('Your MARKETING templates hit per-user limits.');
+    console.log('UTILITY templates should work for cold outreach!');
+    console.log('\n📱 CHECK WHATSAPP after approval and sending.');
+}
+
+// Execute
+main().catch(console.error);

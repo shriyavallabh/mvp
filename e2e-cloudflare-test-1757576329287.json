@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-09-11T07:38:49.287Z",
+  "webhookUrl": "https://softball-one-realtor-telecom.trycloudflare.com/webhook",
+  "template": "daily_content_ready_v1",
+  "results": [
+    {
+      "success": true,
+      "messageId": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSRTRCNjQ1RENDOTRENTkwNEYyAA==",
+      "contentId": "CNT_1757576318371_z87dbz",
+      "advisor": "Avalok"
+    },
+    {
+      "success": true,
+      "messageId": "wamid.HBgMOTE5NjczNzU4Nzc3FQIAERgSNEE2NkUwQjlCOTVFRDFCQkRDAA==",
+      "contentId": "CNT_1757576321220_txul8e",
+      "advisor": "Shruti"
+    },
+    {
+      "success": true,
+      "messageId": "wamid.HBgMOTE4OTc1NzU4NTEzFQIAERgSRkQxNUQ2MTJGMTE2NzU5RjkzAA==",
+      "contentId": "CNT_1757576323877_o4hcsf",
+      "advisor": "Vidyadhar"
+    },
+    {
+      "success": true,
+      "messageId": "wamid.HBgMOTE5MDIyODEwNzY5FQIAERgSOTQ5MkM2NTEwQTc0MTg2MEE2AA==",
+      "contentId": "CNT_1757576326636_dgqrzm",
+      "advisor": "Test User"
+    }
+  ]
+}

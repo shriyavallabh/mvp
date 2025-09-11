@@ -1,0 +1,23 @@
+[
+  {
+    "advisor": "Avalok",
+    "phone": "919765071249",
+    "status": "SUCCESS",
+    "templateId": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSQUZFRUZGNUI3RUFGNDM1MkQ3AA==",
+    "contentId": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSNUUzOTA0NURFQzI3RDJENDM4AA=="
+  },
+  {
+    "advisor": "Shruti",
+    "phone": "919673758777",
+    "status": "SUCCESS",
+    "templateId": "wamid.HBgMOTE5NjczNzU4Nzc3FQIAERgSRjgyNUU2RTRCRDE1Njg5MTg1AA==",
+    "contentId": "wamid.HBgMOTE5NjczNzU4Nzc3FQIAERgSOUJENjk3OEJGNDNDQTZBRUFGAA=="
+  },
+  {
+    "advisor": "Vidyadhar",
+    "phone": "918975758513",
+    "status": "SUCCESS",
+    "templateId": "wamid.HBgMOTE4OTc1NzU4NTEzFQIAERgSQjE2RTlCMDkxMURDNjcxRDIxAA==",
+    "contentId": "wamid.HBgMOTE4OTc1NzU4NTEzFQIAERgSNjM3MzEwRjUxOTk0MDk0RkM0AA=="
+  }
+]

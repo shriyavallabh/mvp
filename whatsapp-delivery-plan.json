@@ -1,0 +1,22 @@
+{
+  "daily": {
+    "template": "finadvise_utility_v1757563556085",
+    "category": "UTILITY",
+    "time": "5:00 AM",
+    "content": "Portfolio updates, market data",
+    "caps": "NONE - Can send unlimited"
+  },
+  "weekly": {
+    "template": "finadvise_daily_v1757531949615",
+    "category": "MARKETING",
+    "time": "Monday 9:00 AM",
+    "content": "Special insights, promotions",
+    "caps": "Limited - Use sparingly"
+  },
+  "immediate": {
+    "template": "finadvise_account_update_v1757563699228",
+    "category": "UTILITY",
+    "content": "Urgent updates, alerts",
+    "caps": "NONE - Can send anytime"
+  }
+}

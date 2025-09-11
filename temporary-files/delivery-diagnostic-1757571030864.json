@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-09-11T06:10:30.864Z",
+  "target": "919765071249",
+  "messagesSent": [
+    {
+      "id": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSOEEwNjJGRTE4OEE4MjZFNzQzAA==",
+      "template": "finadvise_daily_v1757531949615",
+      "type": "MARKETING",
+      "time": "11:28 AM"
+    },
+    {
+      "id": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSQ0Q4OUE2MUU4RjA2RTVFNjM5AA==",
+      "template": "UTILITY Template (Best Delivery)",
+      "type": "TEST",
+      "time": "11:40:07 AM"
+    },
+    {
+      "id": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSMjcwOURGQzIzMjk2Njg0RUQxAA==",
+      "template": "Text Template Only (Diagnostic)",
+      "type": "TEST",
+      "time": "11:40:15 AM"
+    },
+    {
+      "id": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSN0M5NUE3RjQ4Q0U2OENFOUM5AA==",
+      "template": "Marketing Template with Fixed Button",
+      "type": "TEST",
+      "time": "11:40:23 AM"
+    }
+  ],
+  "diagnosis": "Check WhatsApp on device for actual delivery"
+}

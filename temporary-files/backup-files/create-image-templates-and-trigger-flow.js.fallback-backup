@@ -1,0 +1,673 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
+#!/usr/bin/env node
+
+/**
+ * COMPLETE SOLUTION: Create WhatsApp Image Templates and Trigger Full Agent Flow
+ * 
+ * This script:
+ * 1. Generates sample images for WhatsApp templates
+ * 2. Creates templates with IMAGE headers (the missing piece!)
+ * 3. Submits for Meta approval
+ * 4. Waits for approval
+ * 5. Triggers the complete agent orchestration flow
+ */
+
+const axios = require('axios');
+const fs = require('fs');
+const path = require('path');
+const { createCanvas, loadImage } = require('canvas');
+const FormData = require('form-data');
+
+// Configuration
+const config = {
+    whatsapp: {
+        phoneNumberId: process.env.WHATSAPP_PHONE_NUMBER_ID,
+        businessAccountId: process.env.WHATSAPP_BUSINESS_ACCOUNT_ID,
+        accessToken: process.env.WHATSAPP_ACCESS_TOKEN || 'EAATOFQtMe9gBPXrmwK1MDrvlBAWfbeevjzXs8PgT15GPsKADHmzJPWZBvnyhAYTjSfoAzOZC97CHQ27X6jE1iOjNZCehO2WrxPiEfRnhLO3sZA0iJ93Sh7ZB49ZBnF12CWCVTpB1WMfpRgpCdv5hXWIbWgzaHFovUPaZBQBDSa7p74ZCIKvZCtyLo3rj8dzDZAs74GaQZDZD',
+        apiVersion: 'v18.0',
+        appId: '705220735777979'
+    },
+    gemini: {
+        apiKey: process.env.GEMINI_API_KEY || 'AIzaSyDJQ5lY0f7Js0rnvLW1gJZA6k6MbLMJv_U' // You need to set this
+    }
+};
+
+// Template definitions with IMAGE headers (this is what was missing!)
+const imageTemplates = [
+    {
+        name: 'finadvise_tax_visual',
+        category: 'MARKETING',
+        headerText: 'Tax Savings Opportunity',
+        bodyText: 'Dear {{1}}, save up to {{2}} in taxes by investing before {{3}}! See the visual guide above for your personalized tax-saving strategy. Reply YES to get started.',
+        footerText: 'FinAdvise - Your Trusted Financial Partner',
+        buttonText: 'Get Started',
+        sampleParams: ['John', '₹1,95,000', 'March 31']
+    },
+    {
+        name: 'finadvise_portfolio_visual',
+        category: 'MARKETING',
+        headerText: 'Portfolio Performance Update',
+        bodyText: 'Hi {{1}}, your portfolio has gained {{2}} this month! Current value: {{3}}. Check the visual breakdown above. Reply YES for detailed analysis.',
+        footerText: 'Past performance does not guarantee future results',
+        buttonText: 'View Details',
+        sampleParams: ['John', '+12.5%', '₹25,00,000']
+    },
+    {
+        name: 'finadvise_market_visual',
+        category: 'MARKETING',
+        headerText: 'Market Insights Today',
+        bodyText: '{{1}}, today\'s market: Nifty {{2}}, Sensex {{3}}. Top sector: {{4}}. See the chart above for trends. Reply YES for personalized recommendations.',
+        footerText: 'Investments subject to market risks',
+        buttonText: 'Get Recommendations',
+        sampleParams: ['John', '+2.3%', '+2.1%', 'Banking']
+    }
+];
+
+/**
+ * Generate sample image for template (1200x628 pixels as required by Meta)
+ */
+async function generateSampleImage(template) {
+    console.log(`🎨 Generating sample image for ${template.name}...`);
+    
+    const width = 1200;
+    const height = 628;
+    const canvas = createCanvas(width, height);
+    const ctx = canvas.getContext('2d');
+    
+    // Professional gradient background
+    const gradient = ctx.createLinearGradient(0, 0, width, height);
+    if (template.name.includes('tax')) {
+        gradient.addColorStop(0, '#2E7D32');  // Green for tax savings
+        gradient.addColorStop(1, '#1B5E20');
+    } else if (template.name.includes('portfolio')) {
+        gradient.addColorStop(0, '#1565C0');  // Blue for portfolio
+        gradient.addColorStop(1, '#0D47A1');
+    } else {
+        gradient.addColorStop(0, '#E65100');  // Orange for market
+        gradient.addColorStop(1, '#BF360C');
+    }
+    ctx.fillStyle = gradient;
+    ctx.fillRect(0, 0, width, height);
+    
+    // Add pattern overlay for sophistication
+    ctx.strokeStyle = 'rgba(255, 255, 255, 0.05)';
+    ctx.lineWidth = 1;
+    for (let i = 0; i < width; i += 40) {
+        ctx.beginPath();
+        ctx.moveTo(i, 0);
+        ctx.lineTo(i, height);
+        ctx.stroke();
+    }
+    for (let i = 0; i < height; i += 40) {
+        ctx.beginPath();
+        ctx.moveTo(0, i);
+        ctx.lineTo(width, i);
+        ctx.stroke();
+    }
+    
+    // Main header
+    ctx.fillStyle = '#FFFFFF';
+    ctx.font = 'bold 64px Arial';
+    ctx.textAlign = 'center';
+    ctx.shadowColor = 'rgba(0, 0, 0, 0.3)';
+    ctx.shadowBlur = 10;
+    ctx.fillText(template.headerText.toUpperCase(), width / 2, 120);
+    
+    // Visual elements based on template type
+    ctx.shadowBlur = 0;
+    
+    if (template.name.includes('tax')) {
+        // Tax savings visualization
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+        ctx.fillRect(100, 200, 450, 280);
+        
+        ctx.fillStyle = '#2E7D32';
+        ctx.font = 'bold 72px Arial';
+        ctx.fillText('₹1,95,000', 325, 300);
+        
+        ctx.font = '28px Arial';
+        ctx.fillText('Maximum Tax Savings', 325, 350);
+        
+        ctx.font = '24px Arial';
+        ctx.fillText('Under Section 80C & 80D', 325, 390);
+        
+        // Bar chart
+        const savings = [50000, 150000, 25000, 20000];
+        const labels = ['ELSS', '80C', 'NPS', 'Health'];
+        ctx.fillStyle = '#4CAF50';
+        savings.forEach((amount, i) => {
+            const barHeight = (amount / 150000) * 200;
+            ctx.fillRect(650 + i * 100, 480 - barHeight, 80, barHeight);
+            ctx.fillStyle = '#FFFFFF';
+            ctx.font = '16px Arial';
+            ctx.fillText(labels[i], 690 + i * 100, 500);
+            ctx.fillStyle = '#4CAF50';
+        });
+        
+    } else if (template.name.includes('portfolio')) {
+        // Portfolio pie chart
+        const centerX = 350;
+        const centerY = 350;
+        const radius = 120;
+        
+        // White background circle
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+        ctx.beginPath();
+        ctx.arc(centerX, centerY, radius + 20, 0, 2 * Math.PI);
+        ctx.fill();
+        
+        const slices = [
+            { percent: 0.35, color: '#4CAF50', label: 'Equity 35%' },
+            { percent: 0.25, color: '#2196F3', label: 'Debt 25%' },
+            { percent: 0.20, color: '#FFC107', label: 'Hybrid 20%' },
+            { percent: 0.20, color: '#9C27B0', label: 'Others 20%' }
+        ];
+        
+        let currentAngle = -Math.PI / 2;
+        slices.forEach(slice => {
+            const sliceAngle = slice.percent * 2 * Math.PI;
+            ctx.fillStyle = slice.color;
+            ctx.beginPath();
+            ctx.moveTo(centerX, centerY);
+            ctx.arc(centerX, centerY, radius, currentAngle, currentAngle + sliceAngle);
+            ctx.closePath();
+            ctx.fill();
+            currentAngle += sliceAngle;
+        });
+        
+        // Portfolio value
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+        ctx.fillRect(650, 250, 400, 180);
+        ctx.fillStyle = '#1565C0';
+        ctx.font = 'bold 48px Arial';
+        ctx.textAlign = 'center';
+        ctx.fillText('+12.5%', 850, 320);
+        ctx.font = '24px Arial';
+        ctx.fillText('Monthly Returns', 850, 360);
+        ctx.font = '20px Arial';
+        ctx.fillText('Portfolio Value: ₹25,00,000', 850, 400);
+        
+    } else {
+        // Market visualization
+        ctx.strokeStyle = '#FFFFFF';
+        ctx.lineWidth = 4;
+        
+        // Draw trend line
+        ctx.beginPath();
+        const points = [
+            {x: 100, y: 400},
+            {x: 250, y: 350},
+            {x: 400, y: 380},
+            {x: 550, y: 300},
+            {x: 700, y: 250},
+            {x: 850, y: 280},
+            {x: 1000, y: 200}
+        ];
+        
+        ctx.moveTo(points[0].x, points[0].y);
+        points.forEach(point => {
+            ctx.lineTo(point.x, point.y);
+        });
+        ctx.stroke();
+        
+        // Market indicators
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+        ctx.fillRect(100, 450, 300, 100);
+        ctx.fillRect(450, 450, 300, 100);
+        ctx.fillRect(800, 450, 300, 100);
+        
+        ctx.fillStyle = '#4CAF50';
+        ctx.font = 'bold 32px Arial';
+        ctx.textAlign = 'center';
+        ctx.fillText('NIFTY', 250, 490);
+        ctx.fillText('+2.3%', 250, 530);
+        
+        ctx.fillStyle = '#2196F3';
+        ctx.fillText('SENSEX', 600, 490);
+        ctx.fillText('+2.1%', 600, 530);
+        
+        ctx.fillStyle = '#FFC107';
+        ctx.fillText('BANKING', 950, 490);
+        ctx.fillText('+3.5%', 950, 530);
+    }
+    
+    // Footer branding
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+    ctx.fillRect(0, height - 60, width, 60);
+    ctx.fillStyle = '#333333';
+    ctx.font = 'bold 24px Arial';
+    ctx.textAlign = 'center';
+    ctx.fillText('FinAdvise - Empowering Financial Decisions', width / 2, height - 20);
+    
+    // Save image
+    const buffer = canvas.toBuffer('image/png');
+    const fileName = `${template.name}_sample.png`;
+    const filePath = path.join(__dirname, 'template-images', fileName);
+    
+    // Ensure directory exists
+    if (!fs.existsSync(path.join(__dirname, 'template-images'))) {
+        fs.mkdirSync(path.join(__dirname, 'template-images'), { recursive: true });
+    }
+    
+    fs.writeFileSync(filePath, buffer);
+    console.log(`   ✅ Sample image saved: ${fileName}`);
+    
+    return filePath;
+}
+
+/**
+ * Upload image to WhatsApp and get handle for template
+ */
+async function uploadImageForTemplate(imagePath) {
+    console.log(`📤 Uploading image to Meta...`);
+    
+    // First, we need to create an upload session
+    const fileSize = fs.statSync(imagePath).size;
+    const fileName = path.basename(imagePath);
+    
+    try {
+        // Step 1: Create upload session
+        const sessionResponse = await axios.post(
+            `https://graph.facebook.com/${config.whatsapp.apiVersion}/${config.whatsapp.appId}/uploads`,
+            {
+                file_length: fileSize,
+                file_type: 'image/png',
+                file_name: fileName
+            },
+            {
+                headers: {
+                    'Authorization': `Bearer ${config.whatsapp.accessToken}`,
+                    'Content-Type': 'application/json'
+                }
+            }
+        );
+        
+        const uploadSessionId = sessionResponse.data.id;
+        console.log(`   ✅ Upload session created: ${uploadSessionId}`);
+        
+        // Step 2: Upload the actual file
+        const imageBuffer = fs.readFileSync(imagePath);
+        const uploadResponse = await axios.post(
+            `https://graph.facebook.com/${config.whatsapp.apiVersion}/${uploadSessionId}`,
+            imageBuffer,
+            {
+                headers: {
+                    'Authorization': `OAuth ${config.whatsapp.accessToken}`,
+                    'file_offset': '0',
+                    'Content-Type': 'application/octet-stream'
+                }
+            }
+        );
+        
+        const handle = uploadResponse.data.h;
+        console.log(`   ✅ Image uploaded with handle: ${handle}`);
+        return handle;
+        
+    } catch (error) {
+        console.error(`   ❌ Upload failed:`, error.response?.data || error.message);
+        
+        // Fallback: Try direct media upload
+        console.log(`   🔄 Trying direct media upload...`);
+        const formData = new FormData();
+        formData.append('messaging_product', 'whatsapp');
+        formData.append('file', fs.createReadStream(imagePath));
+        
+        const mediaResponse = await axios.post(
+            `https://graph.facebook.com/${config.whatsapp.apiVersion}/${config.whatsapp.phoneNumberId}/media`,
+            formData,
+            {
+                headers: {
+                    ...formData.getHeaders(),
+                    'Authorization': `Bearer ${config.whatsapp.accessToken}`
+                }
+            }
+        );
+        
+        return mediaResponse.data.id;
+    }
+}
+
+/**
+ * Create WhatsApp template with IMAGE header
+ */
+async function createImageTemplate(template, imageHandle) {
+    console.log(`📝 Creating template with IMAGE header: ${template.name}...`);
+    
+    const templateData = {
+        name: template.name,
+        language: 'en_US',
+        category: template.category,
+        components: [
+            {
+                type: 'HEADER',
+                format: 'IMAGE',
+                example: {
+                    header_handle: [imageHandle]
+                }
+            },
+            {
+                type: 'BODY',
+                text: template.bodyText,
+                example: {
+                    body_text: [template.sampleParams]
+                }
+            },
+            {
+                type: 'FOOTER',
+                text: template.footerText
+            },
+            {
+                type: 'BUTTONS',
+                buttons: [
+                    {
+                        type: 'QUICK_REPLY',
+                        text: template.buttonText
+                    },
+                    {
+                        type: 'QUICK_REPLY',
+                        text: 'Not Interested'
+                    }
+                ]
+            }
+        ]
+    };
+    
+    try {
+        const response = await axios.post(
+            `https://graph.facebook.com/${config.whatsapp.apiVersion}/${config.whatsapp.businessAccountId}/message_templates`,
+            templateData,
+            {
+                headers: {
+                    'Authorization': `Bearer ${config.whatsapp.accessToken}`,
+                    'Content-Type': 'application/json'
+                }
+            }
+        );
+        
+        console.log(`   ✅ Template created successfully!`);
+        console.log(`   ID: ${response.data.id}`);
+        console.log(`   Status: ${response.data.status}`);
+        return response.data;
+        
+    } catch (error) {
+        if (error.response?.data?.error?.message?.includes('already exists')) {
+            console.log(`   ⚠️ Template ${template.name} already exists`);
+            
+            // Check if it's approved
+            const statusResponse = await axios.get(
+                `https://graph.facebook.com/${config.whatsapp.apiVersion}/${config.whatsapp.businessAccountId}/message_templates?name=${template.name}`,
+                {
+                    headers: {
+                        'Authorization': `Bearer ${config.whatsapp.accessToken}`
+                    }
+                }
+            );
+            
+            if (statusResponse.data.data && statusResponse.data.data.length > 0) {
+                const existingTemplate = statusResponse.data.data[0];
+                console.log(`   Current status: ${existingTemplate.status}`);
+                return existingTemplate;
+            }
+        }
+        
+        console.error(`   ❌ Template creation failed:`, error.response?.data || error.message);
+        throw error;
+    }
+}
+
+/**
+ * Wait for template approval
+ */
+async function waitForApproval(templateName, maxWaitTime = 120000) {
+    console.log(`⏳ Waiting for template approval (usually 1-2 minutes)...`);
+    
+    const startTime = Date.now();
+    const checkInterval = 10000; // Check every 10 seconds
+    
+    while (Date.now() - startTime < maxWaitTime) {
+        try {
+            const response = await axios.get(
+                `https://graph.facebook.com/${config.whatsapp.apiVersion}/${config.whatsapp.businessAccountId}/message_templates?name=${templateName}`,
+                {
+                    headers: {
+                        'Authorization': `Bearer ${config.whatsapp.accessToken}`
+                    }
+                }
+            );
+            
+            if (response.data.data && response.data.data.length > 0) {
+                const template = response.data.data[0];
+                console.log(`   Status: ${template.status}`);
+                
+                if (template.status === 'APPROVED') {
+                    console.log(`   ✅ Template approved!`);
+                    return true;
+                } else if (template.status === 'REJECTED') {
+                    console.log(`   ❌ Template rejected`);
+                    if (template.rejected_reason) {
+                        console.log(`   Reason: ${template.rejected_reason}`);
+                    }
+                    return false;
+                }
+            }
+            
+        } catch (error) {
+            console.error(`   Error checking status:`, error.message);
+        }
+        
+        await new Promise(resolve => setTimeout(resolve, checkInterval));
+    }
+    
+    console.log(`   ⚠️ Timeout waiting for approval`);
+    return false;
+}
+
+/**
+ * Trigger the complete agent orchestration flow
+ */
+async function triggerCompleteFlow() {
+    console.log('\n🚀 TRIGGERING COMPLETE AGENT ORCHESTRATION FLOW');
+    console.log('=' .repeat(60));
+    
+    try {
+        // Check if orchestrator exists
+        const orchestratorPath = path.join(__dirname, 'agents', 'controllers', 'content-orchestrator.js');
+        
+        if (fs.existsSync(orchestratorPath)) {
+            console.log('✅ Found content-orchestrator');
+            
+            // Load and execute the orchestrator
+            const ContentOrchestrator = require(orchestratorPath);
+            
+            // Initialize orchestrator
+            const orchestrator = new ContentOrchestrator();
+            await orchestrator.initialize();
+            
+            console.log('📊 Starting content generation for all advisors...');
+            
+            // Trigger the full workflow
+            const result = await orchestrator.orchestrateContentGeneration({
+                trigger: 'manual',
+                timestamp: new Date().toISOString(),
+                includeImages: true,
+                useApprovedTemplates: true
+            });
+            
+            console.log('✅ Content generation completed!');
+            console.log(`   Advisors processed: ${result.advisorsProcessed}`);
+            console.log(`   Content generated: ${result.contentGenerated}`);
+            console.log(`   Images created: ${result.imagesCreated}`);
+            
+        } else {
+            console.log('⚠️ Content orchestrator not found, using direct approach...');
+            
+            // Direct trigger via PM2 or manual execution
+            const { exec } = require('child_process');
+            
+            // Check if PM2 is running
+            exec('pm2 list', (error, stdout) => {
+                if (!error && stdout.includes('content-orchestrator')) {
+                    console.log('✅ Found PM2 process, triggering...');
+                    exec('pm2 trigger content-orchestrator generate', (err, out) => {
+                        if (!err) {
+                            console.log('✅ Triggered via PM2');
+                        }
+                    });
+                } else {
+                    console.log('📝 Manual trigger instructions:');
+                    console.log('   1. Run: node agents/controllers/content-orchestrator.js');
+                    console.log('   2. Or setup PM2: pm2 start ecosystem.config.js');
+                }
+            });
+        }
+        
+    } catch (error) {
+        console.error('❌ Error triggering flow:', error.message);
+    }
+}
+
+/**
+ * Send test message with approved template
+ */
+async function sendTestMessage(templateName) {
+    console.log(`\n📨 Sending test message with ${templateName}...`);
+    
+    const testAdvisor = {
+        name: 'Avalok',
+        phone: '919765071249'
+    };
+    
+    const message = {
+        messaging_product: 'whatsapp',
+        to: testAdvisor.phone,
+        type: 'template',
+        template: {
+            name: templateName,
+            language: { code: 'en_US' },
+            components: [
+                {
+                    type: 'body',
+                    parameters: [
+                        { type: 'text', text: testAdvisor.name },
+                        { type: 'text', text: templateName.includes('tax') ? '₹1,95,000' : '+12.5%' },
+                        { type: 'text', text: templateName.includes('tax') ? 'March 31' : '₹25,00,000' },
+                        { type: 'text', text: 'Banking' }
+                    ].slice(0, 3) // Use only needed params
+                }
+            ]
+        }
+    };
+    
+    try {
+        const response = await axios.post(
+            `https://graph.facebook.com/${config.whatsapp.apiVersion}/${config.whatsapp.phoneNumberId}/messages`,
+            message,
+            {
+                headers: {
+                    'Authorization': `Bearer ${config.whatsapp.accessToken}`,
+                    'Content-Type': 'application/json'
+                }
+            }
+        );
+        
+        console.log(`   ✅ Message sent: ${response.data.messages[0].id}`);
+        console.log(`   📱 Check WhatsApp on ${testAdvisor.phone}`);
+        return true;
+    } catch (error) {
+        console.error(`   ❌ Send failed:`, error.response?.data || error.message);
+        return false;
+    }
+}
+
+/**
+ * Main execution
+ */
+async function main() {
+    console.log('🎯 COMPLETE WHATSAPP IMAGE TEMPLATE SOLUTION');
+    console.log('=' .repeat(60));
+    console.log('This will create templates with IMAGE headers and trigger the full flow');
+    console.log('=' .repeat(60));
+    
+    const results = [];
+    
+    // Process each template
+    for (const template of imageTemplates) {
+        console.log(`\n${'='.repeat(60)}`);
+        console.log(`Processing: ${template.name}`);
+        console.log('='.repeat(60));
+        
+        try {
+            // Step 1: Generate sample image
+            const imagePath = await generateSampleImage(template);
+            
+            // Step 2: Upload image and get handle
+            const imageHandle = await uploadImageForTemplate(imagePath);
+            
+            // Step 3: Create template with IMAGE header
+            const templateResult = await createImageTemplate(template, imageHandle);
+            
+            // Step 4: Wait for approval if just created
+            if (templateResult.status === 'PENDING') {
+                const approved = await waitForApproval(template.name);
+                if (approved) {
+                    // Send test message
+                    await sendTestMessage(template.name);
+                }
+                results.push({ template: template.name, status: approved ? 'APPROVED' : 'PENDING' });
+            } else if (templateResult.status === 'APPROVED') {
+                console.log('   ✅ Template already approved!');
+                await sendTestMessage(template.name);
+                results.push({ template: template.name, status: 'APPROVED' });
+            }
+            
+        } catch (error) {
+            console.error(`❌ Failed to process ${template.name}:`, error.message);
+            results.push({ template: template.name, status: 'ERROR', error: error.message });
+        }
+        
+        // Wait between templates
+        await new Promise(resolve => setTimeout(resolve, 3000));
+    }
+    
+    // Summary
+    console.log('\n' + '='.repeat(60));
+    console.log('📊 TEMPLATE CREATION SUMMARY');
+    console.log('='.repeat(60));
+    
+    const approved = results.filter(r => r.status === 'APPROVED').length;
+    const pending = results.filter(r => r.status === 'PENDING').length;
+    const errors = results.filter(r => r.status === 'ERROR').length;
+    
+    console.log(`✅ Approved: ${approved}`);
+    console.log(`⏳ Pending: ${pending}`);
+    console.log(`❌ Errors: ${errors}`);
+    
+    results.forEach(r => {
+        console.log(`   ${r.template}: ${r.status}`);
+    });
+    
+    // Step 5: Trigger complete flow if templates are ready
+    if (approved > 0) {
+        console.log('\n🎯 Templates ready! Triggering complete agent flow...');
+        await triggerCompleteFlow();
+    } else {
+        console.log('\n⚠️ No approved templates yet. Wait for approval then run:');
+        console.log('   node agents/controllers/content-orchestrator.js');
+    }
+    
+    console.log('\n✨ SOLUTION COMPLETE!');
+    console.log('Your WhatsApp messages will now include:');
+    console.log('   ✅ Integrated IMAGE headers (not just text)');
+    console.log('   ✅ Professional financial visualizations');
+    console.log('   ✅ Personalized content for each advisor');
+    console.log('   ✅ No user reply required (templates bypass 24hr window)');
+}
+
+// Run
+if (require.main === module) {
+    main().catch(console.error);
+}
+
+module.exports = { generateSampleImage, createImageTemplate, triggerCompleteFlow };

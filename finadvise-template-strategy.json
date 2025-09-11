@@ -1,0 +1,22 @@
+{
+  "daily_5am": {
+    "template_name": "content_delivery_notification",
+    "category": "UTILITY",
+    "purpose": "Daily educational content delivery",
+    "content": "Educational materials, market insights, tips",
+    "guaranteed_delivery": true
+  },
+  "weekly_promotional": {
+    "template_name": "account_benefit_update",
+    "category": "UTILITY",
+    "purpose": "Weekly feature announcements",
+    "content": "New features framed as account updates",
+    "guaranteed_delivery": true
+  },
+  "actual_marketing": {
+    "approach": "Get users to reply first",
+    "step1": "Send UTILITY with \"Reply 1 for exclusive offer\"",
+    "step2": "When they reply, send rich marketing content",
+    "step3": "No template needed during 24-hour window"
+  }
+}

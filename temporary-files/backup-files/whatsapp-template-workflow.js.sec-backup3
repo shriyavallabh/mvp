@@ -1,0 +1,302 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
+const axios = require('axios');
+const fs = require('fs');
+const path = require('path');
+const FormData = require('form-data');
+
+const config = {
+    businessAccountId: process.env.WHATSAPP_BUSINESS_ACCOUNT_ID,
+    phoneNumberId: process.env.WHATSAPP_PHONE_NUMBER_ID,
+    bearerToken: 'EAATOFQtMe9gBPXrmwK1MDrvlBAWfbeevjzXs8PgT15GPsKADHmzJPWZBvnyhAYTjSfoAzOZC97CHQ27X6jE1iOjNZCehO2WrxPiEfRnhLO3sZA0iJ93Sh7ZB49ZBnF12CWCVTpB1WMfpRgpCdv5hXWIbWgzaHFovUPaZBQBDSa7p74ZCIKvZCtyLo3rj8dzDZAs74GaQZDZD',
+    apiVersion: 'v18.0',
+    appId: '705220735777979'
+};
+
+const templates = [
+    {
+        name: 'tax_savings_alert',
+        imagePath: 'template-images/tax_saving_opportunity.png',
+        bodyText: 'Dear {{1}}, Important tax saving opportunity! You can save up to {{2}} by investing before {{3}}. Our expert advisors are ready to help you maximize your tax benefits. Reply YES to schedule a consultation.',
+        example: ['Avalok', '₹1,95,000', 'March 31, 2024'],
+        category: 'UTILITY'
+    },
+    {
+        name: 'investment_performance',
+        imagePath: 'template-images/investment_update.png',
+        bodyText: 'Hi {{1}}, Your portfolio has generated {{2}} returns this year! Current value: {{3}}. Would you like to review your investment strategy? Reply YES for a detailed report.',
+        example: ['Shruti', '+12.5%', '₹25,00,000'],
+        category: 'UTILITY'
+    },
+    {
+        name: 'market_weekly_update',
+        imagePath: 'template-images/market_insights.png',
+        bodyText: 'Weekly Market Update for {{1}}: Nifty {{2}}, Sensex {{3}}. Top performing sector: {{4}}. Get personalized recommendations by replying YES.',
+        example: ['Vidyadhar', '+2.3%', '+2.1%', 'Banking'],
+        category: 'UTILITY'
+    },
+    {
+        name: 'retirement_planning',
+        imagePath: 'template-images/financial_planning.png',
+        bodyText: 'Hi {{1}}, Start planning for retirement today! Target corpus: {{2}} by age {{3}}. Monthly SIP needed: {{4}}. Reply YES to create your personalized plan.',
+        example: ['Avalok', '₹5 Crore', '60', '₹35,000'],
+        category: 'UTILITY'
+    },
+    {
+        name: 'insurance_review_alert',
+        imagePath: 'template-images/insurance_reminder.png',
+        bodyText: 'Dear {{1}}, Your insurance coverage of {{2}} may need an update. Premium due: {{3}}. Ensure adequate protection for your family. Reply YES for a free review.',
+        example: ['Shruti', '₹50 Lakhs', '₹25,000'],
+        category: 'UTILITY'
+    }
+];
+
+async function createUploadSession(fileSize, fileName) {
+    console.log(`📤 Creating upload session for ${fileName}...`);
+    
+    try {
+        const response = await axios.post(
+            `https://graph.facebook.com/${config.apiVersion}/${config.appId}/uploads`,
+            {
+                file_length: fileSize,
+                file_type: 'image/png',
+                file_name: fileName
+            },
+            {
+                headers: {
+                    'Authorization': `Bearer ${config.bearerToken}`,
+                    'Content-Type': 'application/json'
+                }
+            }
+        );
+        
+        console.log(`✅ Upload session created: ${response.data.id}`);
+        return response.data.id;
+    } catch (error) {
+        console.error('❌ Error creating upload session:', error.response?.data || error.message);
+        throw error;
+    }
+}
+
+async function uploadImage(uploadSessionId, imagePath, fileSize) {
+    console.log(`📸 Uploading image...`);
+    
+    const imageBuffer = fs.readFileSync(imagePath);
+    
+    try {
+        const response = await axios.post(
+            `https://graph.facebook.com/${config.apiVersion}/${uploadSessionId}`,
+            imageBuffer,
+            {
+                headers: {
+                    'Authorization': `OAuth ${config.bearerToken}`,
+                    'file_offset': '0',
+                    'Content-Type': 'application/octet-stream'
+                }
+            }
+        );
+        
+        console.log(`✅ Image uploaded: ${response.data.h}`);
+        return response.data.h;
+    } catch (error) {
+        console.error('❌ Error uploading image:', error.response?.data || error.message);
+        throw error;
+    }
+}
+
+async function createTemplate(templateConfig, headerHandle) {
+    console.log(`📝 Creating template: ${templateConfig.name}...`);
+    
+    const template = {
+        name: templateConfig.name,
+        language: 'en_US',
+        category: templateConfig.category,
+        components: [
+            {
+                type: 'HEADER',
+                format: 'IMAGE',
+                example: {
+                    header_handle: [headerHandle]
+                }
+            },
+            {
+                type: 'BODY',
+                text: templateConfig.bodyText,
+                example: {
+                    body_text: [templateConfig.example]
+                }
+            },
+            {
+                type: 'FOOTER',
+                text: 'Reply STOP to unsubscribe'
+            }
+        ]
+    };
+    
+    try {
+        const response = await axios.post(
+            `https://graph.facebook.com/${config.apiVersion}/${config.businessAccountId}/message_templates`,
+            template,
+            {
+                headers: {
+                    'Authorization': `Bearer ${config.bearerToken}`,
+                    'Content-Type': 'application/json'
+                }
+            }
+        );
+        
+        console.log(`✅ Template created: ${response.data.id} (Status: ${response.data.status})`);
+        return response.data;
+    } catch (error) {
+        if (error.response?.data?.error?.message?.includes('already exists')) {
+            console.log(`ℹ️ Template ${templateConfig.name} already exists`);
+            return { exists: true };
+        }
+        console.error('❌ Error creating template:', error.response?.data || error.message);
+        throw error;
+    }
+}
+
+async function checkTemplateStatus(templateName) {
+    console.log(`🔍 Checking status for template: ${templateName}...`);
+    
+    try {
+        const response = await axios.get(
+            `https://graph.facebook.com/${config.apiVersion}/${config.businessAccountId}/message_templates?name=${templateName}`,
+            {
+                headers: {
+                    'Authorization': `Bearer ${config.bearerToken}`
+                }
+            }
+        );
+        
+        if (response.data.data && response.data.data.length > 0) {
+            const template = response.data.data[0];
+            console.log(`📊 Template status: ${template.status}`);
+            return template;
+        }
+        
+        return null;
+    } catch (error) {
+        console.error('❌ Error checking template:', error.response?.data || error.message);
+        return null;
+    }
+}
+
+async function sendTestMessage(templateName, parameters) {
+    console.log(`📨 Sending test message with template: ${templateName}...`);
+    
+    const message = {
+        messaging_product: 'whatsapp',
+        to: '919765071249',
+        type: 'template',
+        template: {
+            name: templateName,
+            language: { code: 'en_US' },
+            components: [
+                {
+                    type: 'body',
+                    parameters: parameters.map(text => ({ type: 'text', text }))
+                }
+            ]
+        }
+    };
+    
+    try {
+        const response = await axios.post(
+            `https://graph.facebook.com/${config.apiVersion}/${config.phoneNumberId}/messages`,
+            message,
+            {
+                headers: {
+                    'Authorization': `Bearer ${config.bearerToken}`,
+                    'Content-Type': 'application/json'
+                }
+            }
+        );
+        
+        console.log(`✅ Message sent: ${response.data.messages[0].id}`);
+        return response.data;
+    } catch (error) {
+        console.error('❌ Error sending message:', error.response?.data || error.message);
+        return null;
+    }
+}
+
+async function processTemplate(templateConfig) {
+    console.log(`\n${'='.repeat(60)}`);
+    console.log(`Processing: ${templateConfig.name}`);
+    console.log('='.repeat(60));
+    
+    try {
+        // Check if template already exists and is approved
+        const existingTemplate = await checkTemplateStatus(templateConfig.name);
+        if (existingTemplate && existingTemplate.status === 'APPROVED') {
+            console.log('✅ Template already approved! Sending test message...');
+            await sendTestMessage(templateConfig.name, templateConfig.example);
+            return;
+        }
+        
+        // Get image file info
+        const imagePath = path.join(__dirname, templateConfig.imagePath);
+        const imageStats = fs.statSync(imagePath);
+        const fileName = path.basename(imagePath);
+        
+        // Step 1: Create upload session
+        const uploadSessionId = await createUploadSession(imageStats.size, fileName);
+        
+        // Step 2: Upload image
+        const headerHandle = await uploadImage(uploadSessionId, imagePath, imageStats.size);
+        
+        // Step 3: Create template
+        const templateResult = await createTemplate(templateConfig, headerHandle);
+        
+        if (!templateResult.exists) {
+            console.log('⏳ Template submitted for approval. This may take 1-24 hours.');
+            
+            // Store template info for later tracking
+            const trackingInfo = {
+                name: templateConfig.name,
+                id: templateResult.id,
+                status: templateResult.status,
+                createdAt: new Date().toISOString()
+            };
+            
+            const trackingFile = 'template-tracking.json';
+            let tracking = [];
+            if (fs.existsSync(trackingFile)) {
+                tracking = JSON.parse(fs.readFileSync(trackingFile, 'utf8'));
+            }
+            tracking.push(trackingInfo);
+            fs.writeFileSync(trackingFile, JSON.stringify(tracking, null, 2));
+        }
+        
+    } catch (error) {
+        console.error(`❌ Failed to process template ${templateConfig.name}:`, error.message);
+    }
+}
+
+async function main() {
+    console.log('🚀 WhatsApp Image Template Workflow');
+    console.log('====================================\n');
+    
+    // Process all templates
+    for (const template of templates) {
+        await processTemplate(template);
+        
+        // Add delay between templates to avoid rate limiting
+        await new Promise(resolve => setTimeout(resolve, 2000));
+    }
+    
+    console.log('\n' + '='.repeat(60));
+    console.log('📋 Summary');
+    console.log('='.repeat(60));
+    console.log('✅ All templates processed!');
+    console.log('⏳ Templates pending approval will be available in 1-24 hours');
+    console.log('📊 Check template-tracking.json for status tracking');
+    console.log('\n💡 Next steps:');
+    console.log('1. Wait for Meta approval (check status with: node check-template-status.js)');
+    console.log('2. Once approved, send messages with: node send-approved-templates.js');
+}
+
+main().catch(console.error);

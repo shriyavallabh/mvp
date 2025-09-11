@@ -1,0 +1,82 @@
+{
+  "timestamp": "2025-09-10T13:20:50.243Z",
+  "summary": {
+    "total": 9,
+    "successful": 9,
+    "failed": 0
+  },
+  "details": [
+    {
+      "advisor": "Avalok",
+      "phone": "919765071249",
+      "template": "tax_alert_now",
+      "success": true,
+      "messageId": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSODVEQjM4QkI5OTE1NkY1OTg3AA==",
+      "timestamp": "2025-09-10T13:20:34.238Z"
+    },
+    {
+      "advisor": "Avalok",
+      "phone": "919765071249",
+      "template": "investment_update_now",
+      "success": true,
+      "messageId": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSNTg5QzQyMTZCNjkyODYxMzUwAA==",
+      "timestamp": "2025-09-10T13:20:35.995Z"
+    },
+    {
+      "advisor": "Avalok",
+      "phone": "919765071249",
+      "template": "market_insight_now",
+      "success": true,
+      "messageId": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSNzY4RjU4NEEyNTM2NjJBM0VDAA==",
+      "timestamp": "2025-09-10T13:20:38.005Z"
+    },
+    {
+      "advisor": "Shruti",
+      "phone": "919673758777",
+      "template": "tax_alert_now",
+      "success": true,
+      "messageId": "wamid.HBgMOTE5NjczNzU4Nzc3FQIAERgSMzcxNkUyQ0Q3ODYyNUJBREU3AA==",
+      "timestamp": "2025-09-10T13:20:40.158Z"
+    },
+    {
+      "advisor": "Shruti",
+      "phone": "919673758777",
+      "template": "investment_update_now",
+      "success": true,
+      "messageId": "wamid.HBgMOTE5NjczNzU4Nzc3FQIAERgSNkM3MkRCNUEyODlCMEM4NEVEAA==",
+      "timestamp": "2025-09-10T13:20:41.874Z"
+    },
+    {
+      "advisor": "Shruti",
+      "phone": "919673758777",
+      "template": "market_insight_now",
+      "success": true,
+      "messageId": "wamid.HBgMOTE5NjczNzU4Nzc3FQIAERgSNkQwRTZFODJGQjc3OTdBQTdCAA==",
+      "timestamp": "2025-09-10T13:20:43.590Z"
+    },
+    {
+      "advisor": "Vidyadhar",
+      "phone": "918975758513",
+      "template": "tax_alert_now",
+      "success": true,
+      "messageId": "wamid.HBgMOTE4OTc1NzU4NTEzFQIAERgSRjI5M0UxQzFCN0U0REFBN0FFAA==",
+      "timestamp": "2025-09-10T13:20:45.547Z"
+    },
+    {
+      "advisor": "Vidyadhar",
+      "phone": "918975758513",
+      "template": "investment_update_now",
+      "success": true,
+      "messageId": "wamid.HBgMOTE4OTc1NzU4NTEzFQIAERgSQjMzNzVFNzFERTk1MzgzQUM2AA==",
+      "timestamp": "2025-09-10T13:20:47.359Z"
+    },
+    {
+      "advisor": "Vidyadhar",
+      "phone": "918975758513",
+      "template": "market_insight_now",
+      "success": true,
+      "messageId": "wamid.HBgMOTE4OTc1NzU4NTEzFQIAERgSMzQ5MjkyQTEwOUE2RjRGQTU4AA==",
+      "timestamp": "2025-09-10T13:20:49.241Z"
+    }
+  ]
+}

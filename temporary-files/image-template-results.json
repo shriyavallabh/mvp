@@ -1,0 +1,17 @@
+[
+  {
+    "template": "tax_savings_visual",
+    "error": "Request failed with status code 400",
+    "timestamp": "2025-09-10T17:57:22.179Z"
+  },
+  {
+    "template": "portfolio_performance",
+    "error": "Request failed with status code 400",
+    "timestamp": "2025-09-10T17:57:23.539Z"
+  },
+  {
+    "template": "market_insights_visual",
+    "error": "Request failed with status code 400",
+    "timestamp": "2025-09-10T17:57:25.245Z"
+  }
+]

@@ -1,0 +1,20 @@
+# COPY THIS ENTIRE BLOCK AND PASTE IN DIGITAL OCEAN CONSOLE
+# Access console at: https://cloud.digitalocean.com/droplets/517524060/console
+
+cd /root && curl -o setup.sh https://raw.githubusercontent.com/user/repo/setup.sh 2>/dev/null || cat > setup.sh << 'SCRIPT'
+#!/bin/bash
+mkdir -p /home/mvp/webhook && cd /home/mvp/webhook
+cat > w.js << 'EOF'
+require('express')().get('/webhook',(q,r)=>r.send(q.query['hub.verify_token']==='jarvish_webhook_2024'?q.query['hub.challenge']:'403')).post('/webhook',(q,r)=>r.sendStatus(200)).listen(3000,()=>console.log('OK'))
+EOF
+npm install express 2>/dev/null || (apt update && apt install -y nodejs npm && npm install express)
+pm2 stop all 2>/dev/null; pm2 delete all 2>/dev/null
+pm2 start w.js --name webhook 2>/dev/null || (npm install -g pm2 && pm2 start w.js --name webhook)
+apt install -y certbot nginx
+systemctl stop nginx
+certbot certonly --standalone -d hubix.duckdns.org --non-interactive --agree-tos --email x@x.com
+echo "server{listen 443 ssl;server_name hubix.duckdns.org;ssl_certificate /etc/letsencrypt/live/hubix.duckdns.org/fullchain.pem;ssl_certificate_key /etc/letsencrypt/live/hubix.duckdns.org/privkey.pem;location /{proxy_pass http://localhost:3000;}}" > /etc/nginx/sites-available/default
+systemctl restart nginx
+echo "✅ DONE! URL: https://hubix.duckdns.org/webhook"
+SCRIPT
+bash setup.sh

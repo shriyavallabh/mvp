@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Avalok",
+    "phone": "919765071249",
+    "success": false,
+    "error": {
+      "message": "(#132001) Template name does not exist in the translation",
+      "type": "OAuthException",
+      "code": 132001,
+      "error_data": {
+        "messaging_product": "whatsapp",
+        "details": "template name (daily_update_link) does not exist in en"
+      },
+      "fbtrace_id": "AINgisTq3imEVdcKxbmo8zg"
+    },
+    "channel": "text_template"
+  },
+  {
+    "name": "Shruti",
+    "phone": "919673758777",
+    "success": false,
+    "error": {
+      "message": "(#132001) Template name does not exist in the translation",
+      "type": "OAuthException",
+      "code": 132001,
+      "error_data": {
+        "messaging_product": "whatsapp",
+        "details": "template name (daily_update_link) does not exist in en"
+      },
+      "fbtrace_id": "AKbPWaEPpEv1sih5Cs1vy4y"
+    },
+    "channel": "text_template"
+  },
+  {
+    "name": "Vidyadhar",
+    "phone": "918975758513",
+    "success": false,
+    "error": {
+      "message": "(#132001) Template name does not exist in the translation",
+      "type": "OAuthException",
+      "code": 132001,
+      "error_data": {
+        "messaging_product": "whatsapp",
+        "details": "template name (daily_update_link) does not exist in en"
+      },
+      "fbtrace_id": "AuNtPcA654DAMi_-zqQwAff"
+    },
+    "channel": "text_template"
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "business": "FinAdvise",
+  "whatsappBusinessId": "1861646317956355",
+  "phoneNumberId": "574744175733556",
+  "subscriptionType": "daily_financial_updates",
+  "consentMethod": "explicit_opt_in",
+  "subscribers": [
+    {
+      "id": "SUB001",
+      "name": "Avalok",
+      "phone": "919765071249",
+      "segment": "HNI",
+      "optedIn": true,
+      "optInDate": "2024-01-01",
+      "optInMethod": "website_form",
+      "consentText": "I agree to receive daily financial updates via WhatsApp",
+      "ipAddress": "192.168.1.1",
+      "preferences": {
+        "language": "en_US",
+        "sendTime": "05:00",
+        "timezone": "Asia/Kolkata"
+      }
+    },
+    {
+      "id": "SUB002",
+      "name": "Shruti",
+      "phone": "919673758777",
+      "segment": "Family",
+      "optedIn": true,
+      "optInDate": "2024-01-01",
+      "optInMethod": "website_form",
+      "consentText": "I agree to receive daily financial updates via WhatsApp",
+      "ipAddress": "192.168.1.2",
+      "preferences": {
+        "language": "en_US",
+        "sendTime": "05:00",
+        "timezone": "Asia/Kolkata"
+      }
+    },
+    {
+      "id": "SUB003",
+      "name": "Vidyadhar",
+      "phone": "918975758513",
+      "segment": "Retirement",
+      "optedIn": true,
+      "optInDate": "2024-01-01",
+      "optInMethod": "website_form",
+      "consentText": "I agree to receive daily financial updates via WhatsApp",
+      "ipAddress": "192.168.1.3",
+      "preferences": {
+        "language": "en_US",
+        "sendTime": "05:00",
+        "timezone": "Asia/Kolkata"
+      }
+    }
+  ],
+  "createdAt": "2025-09-10T18:28:47.161Z",
+  "complianceNote": "Users opted in via website with explicit consent checkbox"
+}

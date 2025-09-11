@@ -1,0 +1,41 @@
+[
+  {
+    "wa_id": "919765071249",
+    "first_name": "Avalok",
+    "segment": "HNI",
+    "opt_in": true,
+    "preferences": {
+      "language": "en_US",
+      "sendTime": "05:00",
+      "timezone": "Asia/Kolkata"
+    },
+    "updated_at": "2025-09-11T04:55:59.907Z",
+    "created_at": "2025-09-11T04:55:59.907Z"
+  },
+  {
+    "wa_id": "919673758777",
+    "first_name": "Shruti",
+    "segment": "Family",
+    "opt_in": true,
+    "preferences": {
+      "language": "en_US",
+      "sendTime": "05:00",
+      "timezone": "Asia/Kolkata"
+    },
+    "updated_at": "2025-09-11T04:55:59.907Z",
+    "created_at": "2025-09-11T04:55:59.907Z"
+  },
+  {
+    "wa_id": "918975758513",
+    "first_name": "Vidyadhar",
+    "segment": "Retirement",
+    "opt_in": true,
+    "preferences": {
+      "language": "en_US",
+      "sendTime": "05:00",
+      "timezone": "Asia/Kolkata"
+    },
+    "updated_at": "2025-09-11T04:55:59.907Z",
+    "created_at": "2025-09-11T04:55:59.907Z"
+  }
+]

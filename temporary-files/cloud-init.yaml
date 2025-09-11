@@ -1,0 +1,76 @@
+#cloud-config
+package_update: true
+package_upgrade: true
+packages:
+  - nodejs
+  - npm
+  - nginx
+  - certbot
+  - python3-certbot-nginx
+
+write_files:
+  - path: /home/mvp/webhook/webhook.js
+    content: |
+      const express = require('express');
+      const app = express();
+      app.use(express.json());
+      
+      app.get('/webhook', (req, res) => {
+        if (req.query['hub.verify_token'] === 'jarvish_webhook_2024') {
+          res.status(200).send(req.query['hub.challenge']);
+        } else {
+          res.sendStatus(403);
+        }
+      });
+      
+      app.post('/webhook', (req, res) => {
+        res.status(200).send('EVENT_RECEIVED');
+      });
+      
+      app.get('/health', (req, res) => {
+        res.json({ status: 'healthy' });
+      });
+      
+      app.listen(3000, () => console.log('Webhook on 3000'));
+
+  - path: /root/setup-webhook.sh
+    permissions: '0755'
+    content: |
+      #!/bin/bash
+      cd /home/mvp/webhook
+      npm install express
+      npm install -g pm2
+      pm2 stop all
+      pm2 delete all
+      pm2 start webhook.js --name webhook
+      pm2 save
+      pm2 startup systemd -u root --hp /root
+      
+      systemctl stop nginx
+      certbot certonly --standalone -d hubix.duckdns.org \
+        --non-interactive --agree-tos --email admin@hubix.duckdns.org
+      
+      cat > /etc/nginx/sites-available/default << 'NGINX'
+      server {
+        listen 443 ssl;
+        server_name hubix.duckdns.org;
+        ssl_certificate /etc/letsencrypt/live/hubix.duckdns.org/fullchain.pem;
+        ssl_certificate_key /etc/letsencrypt/live/hubix.duckdns.org/privkey.pem;
+        location / {
+          proxy_pass http://localhost:3000;
+        }
+      }
+      server {
+        listen 80;
+        server_name hubix.duckdns.org;
+        return 301 https://$server_name$request_uri;
+      }
+      NGINX
+      
+      systemctl restart nginx
+      ufw allow 443
+      ufw allow 80
+
+runcmd:
+  - mkdir -p /home/mvp/webhook
+  - bash /root/setup-webhook.sh

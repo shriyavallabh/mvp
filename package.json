@@ -1,0 +1,52 @@
+{
+  "name": "finadvise-content-engine",
+  "version": "1.0.0",
+  "description": "AI-powered content generation system for mutual fund advisors",
+  "main": "agents/controllers/content-orchestrator.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/integration/test-agent-integration.js",
+    "test:agents": "npm run test:orchestrator && npm run test:advisor && npm run test:strategist && npm run test:fatigue && npm run test:compliance",
+    "test:orchestrator": "./scripts/trigger-orchestrator.sh --test",
+    "test:advisor": "./scripts/trigger-advisor-manager.sh --test",
+    "test:strategist": "./scripts/trigger-strategist.sh --test",
+    "test:fatigue": "./scripts/trigger-fatigue-checker.sh --test",
+    "test:compliance": "./scripts/trigger-compliance.sh --test",
+    "security:validate": "node scripts/validate-security.js",
+    "security:check": "npm run security:validate",
+    "prestart": "npm run security:validate",
+    "start": "node agents/controllers/content-orchestrator.js",
+    "start:unsafe": "node agents/controllers/content-orchestrator.js",
+    "dev": "NODE_ENV=development npm start"
+  },
+  "keywords": [
+    "fintech",
+    "mutual-funds",
+    "content-generation",
+    "ai",
+    "automation"
+  ],
+  "author": "FinAdvise",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "canvas": "^3.2.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "form-data": "^4.0.4",
+    "googleapis": "^126.0.1",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.6",
+    "string-similarity": "^4.0.4",
+    "twilio": "^5.9.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mocha": "^10.2.0"
+  }
+}

@@ -1,0 +1,414 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
+#!/usr/bin/env node
+
+/**
+ * Setup webhooks and run diagnostic tests to find out why images aren't delivering
+ * This will reveal the REAL reason through error codes 131049 or 131026
+ */
+
+const axios = require('axios');
+const express = require('express');
+const fs = require('fs');
+
+const config = {
+    appId: '1352489686039512',
+    wabaId: '1861646317956355',
+    phoneNumberId: process.env.WHATSAPP_PHONE_NUMBER_ID,
+    accessToken: process.env.WHATSAPP_ACCESS_TOKEN,
+    apiVersion: 'v23.0',
+    webhookVerifyToken: 'finadvise_webhook_2025' // Your custom verification token
+};
+
+/**
+ * Step 1: Subscribe App to WABA for webhooks
+ */
+async function subscribeAppToWABA() {
+    console.log('📡 Step 1: Subscribing App to WABA for webhooks...\n');
+    
+    const url = `https://graph.facebook.com/${config.apiVersion}/${config.wabaId}/subscribed_apps`;
+    
+    try {
+        const response = await axios.post(
+            url,
+            {},
+            {
+                headers: {
+                    'Authorization': `Bearer ${config.accessToken}`
+                }
+            }
+        );
+        
+        console.log('✅ App subscribed to WABA successfully!');
+        console.log(`   Response:`, response.data);
+        return true;
+        
+    } catch (error) {
+        console.error('❌ Failed to subscribe:', error.response?.data || error.message);
+        
+        // If already subscribed, that's OK
+        if (error.response?.data?.error?.message?.includes('already subscribed')) {
+            console.log('   ℹ️ App was already subscribed');
+            return true;
+        }
+        return false;
+    }
+}
+
+/**
+ * Step 2: Start webhook server to receive delivery status
+ */
+function startWebhookServer() {
+    console.log('\n📡 Step 2: Starting webhook server...\n');
+    
+    const app = express();
+    app.use(express.json());
+    
+    // Webhook verification endpoint (GET)
+    app.get('/webhook', (req, res) => {
+        const mode = req.query['hub.mode'];
+        const token = req.query['hub.verify_token'];
+        const challenge = req.query['hub.challenge'];
+        
+        if (mode && token) {
+            if (mode === 'subscribe' && token === config.webhookVerifyToken) {
+                console.log('✅ Webhook verified!');
+                res.status(200).send(challenge);
+            } else {
+                res.sendStatus(403);
+            }
+        }
+    });
+    
+    // Webhook event receiver (POST)
+    app.post('/webhook', (req, res) => {
+        console.log('\n🔔 WEBHOOK EVENT RECEIVED:');
+        console.log('=' .repeat(60));
+        
+        const body = req.body;
+        
+        // Log full payload
+        console.log(JSON.stringify(body, null, 2));
+        
+        // Parse message status updates
+        if (body.entry) {
+            body.entry.forEach(entry => {
+                if (entry.changes) {
+                    entry.changes.forEach(change => {
+                        if (change.field === 'messages') {
+                            // Message status update
+                            const value = change.value;
+                            
+                            if (value.statuses) {
+                                value.statuses.forEach(status => {
+                                    console.log('\n📊 MESSAGE STATUS UPDATE:');
+                                    console.log(`   Message ID: ${status.id}`);
+                                    console.log(`   Status: ${status.status}`);
+                                    console.log(`   Timestamp: ${new Date(status.timestamp * 1000).toISOString()}`);
+                                    console.log(`   Recipient: ${status.recipient_id}`);
+                                    
+                                    if (status.errors) {
+                                        console.log('\n   ❌ ERROR DETAILS:');
+                                        status.errors.forEach(error => {
+                                            console.log(`      Code: ${error.code}`);
+                                            console.log(`      Title: ${error.title}`);
+                                            console.log(`      Message: ${error.message}`);
+                                            console.log(`      Details: ${error.error_data?.details || 'N/A'}`);
+                                            
+                                            // Check for specific error codes
+                                            if (error.code === 131049) {
+                                                console.log('\n      🚫 ERROR 131049: Meta chose not to deliver');
+                                                console.log('      REASON: Per-user marketing template limit reached!');
+                                                console.log('      SOLUTION: Use UTILITY template or wait before retrying');
+                                            } else if (error.code === 131026) {
+                                                console.log('\n      🚫 ERROR 131026: Message undeliverable');
+                                                console.log('      REASON: User blocked number, old app, or hasn\'t accepted ToS');
+                                                console.log('      SOLUTION: Try fresh number or ask user to update WhatsApp');
+                                            }
+                                        });
+                                    }
+                                    
+                                    // Save to file for analysis
+                                    const logEntry = {
+                                        timestamp: new Date().toISOString(),
+                                        messageId: status.id,
+                                        status: status.status,
+                                        recipient: status.recipient_id,
+                                        errors: status.errors || null
+                                    };
+                                    
+                                    fs.appendFileSync(
+                                        'webhook-delivery-log.json',
+                                        JSON.stringify(logEntry) + '\n'
+                                    );
+                                });
+                            }
+                        }
+                    });
+                }
+            });
+        }
+        
+        console.log('=' .repeat(60));
+        res.sendStatus(200);
+    });
+    
+    const PORT = process.env.PORT || 3000;
+    app.listen(PORT, () => {
+        console.log(`✅ Webhook server running on port ${PORT}`);
+        console.log(`   Webhook URL: https://your-domain.com/webhook`);
+        console.log(`   Or use ngrok: ngrok http ${PORT}`);
+        console.log('\n   ⚠️ IMPORTANT: Configure this URL in Meta App Dashboard:');
+        console.log('   1. Go to developers.facebook.com');
+        console.log('   2. Select your app (Jarvis)');
+        console.log('   3. Go to WhatsApp > Configuration');
+        console.log('   4. Set Webhook URL and verify token: finadvise_webhook_2025');
+        console.log('   5. Subscribe to: messages, message_template_status_update');
+    });
+}
+
+/**
+ * Step 3: Check template status
+ */
+async function checkTemplateStatus() {
+    console.log('\n🔍 Step 3: Verifying template status...\n');
+    
+    const templateName = 'finadvise_daily_v1757531949615';
+    
+    try {
+        const response = await axios.get(
+            `https://graph.facebook.com/${config.apiVersion}/${config.wabaId}/message_templates?name=${templateName}`,
+            {
+                headers: {
+                    'Authorization': `Bearer ${config.accessToken}`
+                }
+            }
+        );
+        
+        const template = response.data.data[0];
+        if (template) {
+            console.log('✅ Template found:');
+            console.log(`   Name: ${template.name}`);
+            console.log(`   Status: ${template.status}`);
+            console.log(`   Category: ${template.category}`);
+            
+            const hasImageHeader = template.components?.some(c => 
+                c.type === 'HEADER' && c.format === 'IMAGE'
+            );
+            console.log(`   Has IMAGE header: ${hasImageHeader ? '✅ YES' : '❌ NO'}`);
+            
+            return template;
+        }
+        
+    } catch (error) {
+        console.error('Error checking template:', error.response?.data || error.message);
+    }
+    
+    return null;
+}
+
+/**
+ * Step 4: Send test message to FRESH recipient
+ */
+async function sendToFreshRecipient() {
+    console.log('\n📨 Step 4: Sending to FRESH test recipient...\n');
+    
+    // Use a fresh number that hasn't received marketing templates
+    const freshRecipient = {
+        name: 'Fresh Test',
+        phone: '919999999999' // TODO: Replace with actual fresh test number
+    };
+    
+    console.log(`   ⚠️ NOTE: Replace the phone number with a fresh test number!`);
+    console.log(`   Current placeholder: ${freshRecipient.phone}\n`);
+    
+    const message = {
+        messaging_product: 'whatsapp',
+        to: freshRecipient.phone,
+        type: 'template',
+        template: {
+            name: 'finadvise_daily_v1757531949615',
+            language: { code: 'en' },
+            components: [
+                {
+                    type: 'header',
+                    parameters: [{
+                        type: 'image',
+                        image: {
+                            link: 'https://via.placeholder.com/1200x628/0891b2/ffffff?text=Financial+Update'
+                        }
+                    }]
+                },
+                {
+                    type: 'body',
+                    parameters: [
+                        { type: 'text', text: freshRecipient.name },
+                        { type: 'text', text: '10,00,000' },
+                        { type: 'text', text: '+15.2' },
+                        { type: 'text', text: 'Review portfolio allocation' },
+                        { type: 'text', text: '22,450 (+3.1%)' },
+                        { type: 'text', text: '74,100 (+2.8%)' }
+                    ]
+                }
+            ]
+        }
+    };
+    
+    try {
+        const response = await axios.post(
+            `https://graph.facebook.com/${config.apiVersion}/${config.phoneNumberId}/messages`,
+            message,
+            {
+                headers: {
+                    'Authorization': `Bearer ${config.accessToken}`,
+                    'Content-Type': 'application/json'
+                }
+            }
+        );
+        
+        console.log('✅ Message sent to fresh recipient!');
+        console.log(`   Message ID: ${response.data.messages[0].id}`);
+        console.log('\n   🔍 NOW WATCH THE WEBHOOK OUTPUT ABOVE!');
+        console.log('   You should see delivery status within 5-30 seconds');
+        
+        return response.data.messages[0].id;
+        
+    } catch (error) {
+        console.error('❌ Failed to send:', error.response?.data || error.message);
+        return null;
+    }
+}
+
+/**
+ * Step 5: Create and send UTILITY template (bypasses marketing limits)
+ */
+async function createUtilityTemplate() {
+    console.log('\n📝 Step 5: Creating UTILITY template with IMAGE header...\n');
+    
+    const templateName = `finadvise_utility_v${Date.now()}`;
+    
+    // First, we need to upload a sample image for the utility template
+    // (Reusing the upload logic from before)
+    
+    const templatePayload = {
+        name: templateName,
+        category: 'UTILITY', // UTILITY bypasses marketing limits!
+        language: 'en',
+        components: [
+            {
+                type: 'HEADER',
+                format: 'IMAGE',
+                example: {
+                    header_handle: ['4:c2FtcGxlX3RlbXBsYXRlX2ltYWdlLmpwZw==:aW1hZ2UvanBlZw==:ARaX99mFuLw3f1LvAJ_i9g6NoBDpheJ4_RFwckDzfDRG5JJnXQ229NF8x6A1XGAUjfeQb2HbZ68SBJVlxXB2pBedo2sFI213eG6MmN5jguMEYQ:e:1757877549:1352489686039512:100088701756168:ARYBauV4XmEa7MNXZkw'] // Reuse existing handle
+                }
+            },
+            {
+                type: 'BODY',
+                text: 'Dear {{1}},\n\nYour daily financial report for {{2}} is ready.\n\nPortfolio Value: ₹{{3}}\nToday\'s Change: {{4}}%\n\nThis is an automated service update for your subscribed financial advisory account.',
+                example: {
+                    body_text: [
+                        ['John', 'September 11, 2025', '25,00,000', '+2.5']
+                    ]
+                }
+            },
+            {
+                type: 'FOOTER',
+                text: 'FinAdvise Account Services'
+            }
+        ]
+    };
+    
+    console.log(`   Template Name: ${templateName}`);
+    console.log(`   Category: UTILITY (bypasses marketing limits!)`);
+    console.log(`   Has IMAGE header: YES`);
+    
+    try {
+        const response = await axios.post(
+            `https://graph.facebook.com/${config.apiVersion}/${config.wabaId}/message_templates`,
+            templatePayload,
+            {
+                headers: {
+                    'Authorization': `Bearer ${config.accessToken}`,
+                    'Content-Type': 'application/json'
+                }
+            }
+        );
+        
+        console.log('\n✅ UTILITY template created!');
+        console.log(`   Template ID: ${response.data.id}`);
+        console.log(`   Status: ${response.data.status}`);
+        console.log('\n   ⏳ Wait for approval (usually faster for UTILITY)');
+        
+        return {
+            id: response.data.id,
+            name: templateName
+        };
+        
+    } catch (error) {
+        console.error('❌ Failed to create UTILITY template:', error.response?.data || error.message);
+        return null;
+    }
+}
+
+/**
+ * Main diagnostic flow
+ */
+async function main() {
+    console.log('🚀 WEBHOOK SETUP & DIAGNOSTIC TESTS');
+    console.log('=' .repeat(60));
+    console.log('Finding out why images aren\'t delivering...');
+    console.log('=' .repeat(60));
+    
+    // Step 1: Subscribe app to WABA
+    await subscribeAppToWABA();
+    
+    // Step 2: Start webhook server
+    startWebhookServer();
+    
+    // Wait a moment for server to start
+    await new Promise(resolve => setTimeout(resolve, 2000));
+    
+    // Step 3: Check template
+    const template = await checkTemplateStatus();
+    
+    // Step 4: Send to fresh recipient
+    console.log('\n' + '=' .repeat(60));
+    console.log('🧪 DIAGNOSTIC TEST 1: Fresh Recipient');
+    console.log('=' .repeat(60));
+    
+    if (template && template.status === 'APPROVED') {
+        const messageId = await sendToFreshRecipient();
+        
+        if (messageId) {
+            console.log('\n⏳ Waiting 30 seconds for webhook response...');
+            await new Promise(resolve => setTimeout(resolve, 30000));
+        }
+    }
+    
+    // Step 5: Create UTILITY template
+    console.log('\n' + '=' .repeat(60));
+    console.log('🧪 DIAGNOSTIC TEST 2: UTILITY Template');
+    console.log('=' .repeat(60));
+    
+    const utilityTemplate = await createUtilityTemplate();
+    
+    if (utilityTemplate) {
+        console.log('\n📋 Next Steps:');
+        console.log('1. Configure webhook URL in Meta App Dashboard');
+        console.log('2. Watch webhook output for error codes:');
+        console.log('   - 131049 = Marketing limit reached');
+        console.log('   - 131026 = User state issue');
+        console.log('3. Wait for UTILITY template approval');
+        console.log('4. Send UTILITY template (it bypasses limits!)');
+    }
+    
+    console.log('\n' + '=' .repeat(60));
+    console.log('📊 WEBHOOK SERVER RUNNING - KEEP THIS OPEN!');
+    console.log('=' .repeat(60));
+    console.log('All webhook events will appear above in real-time');
+    console.log('Press Ctrl+C to stop the server');
+}
+
+// Execute
+main().catch(console.error);

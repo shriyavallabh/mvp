@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-09-10T18:23:09.783Z",
+  "results": [
+    {
+      "advisor": "Avalok",
+      "success": true,
+      "templateId": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSN0E0REJBQzMzNTE3QUMyMjE1AA==",
+      "imageId": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSNDAyRkExRjQ5MUUwQzU1MDBDAA=="
+    }
+  ],
+  "summary": {
+    "successful": 1,
+    "failed": 0
+  }
+}

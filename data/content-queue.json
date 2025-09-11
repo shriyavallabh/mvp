@@ -1,0 +1,138 @@
+{
+  "Avalok": {
+    "pending": [
+      {
+        "id": "CNT_1757575323318_b4m0vq",
+        "date": "2025-09-11",
+        "timestamp": "2025-09-11T07:22:15.014Z",
+        "content": {
+          "introduction": "Test content for Avalok",
+          "posts": [
+            {
+              "platform": "LinkedIn",
+              "text": "📊 Test Financial Tip:\n\nThis is test content that was unlocked by clicking the button.\n\nIf you're seeing this, the click-to-unlock strategy is working!",
+              "hashtags": [
+                "#Test",
+                "#ClickToUnlock",
+                "#Success"
+              ],
+              "imageUrl": null
+            },
+            {
+              "platform": "WhatsApp",
+              "text": "✅ SUCCESS!\n\nYou successfully unlocked content by clicking the button.\n\nThis proves the 24-hour window bypass is working.",
+              "hashtags": [],
+              "imageUrl": null
+            }
+          ]
+        },
+        "status": "pending",
+        "templateMessageId": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSN0IxQ0ZCRjM5OTUzM0E5MDAxAA=="
+      }
+    ],
+    "delivered": [],
+    "lastActivity": null
+  },
+  "Shruti": {
+    "pending": [
+      {
+        "id": "CNT_1757575326553_1zltv0",
+        "date": "2025-09-11",
+        "timestamp": "2025-09-11T07:22:15.014Z",
+        "content": {
+          "introduction": "Test content for Shruti",
+          "posts": [
+            {
+              "platform": "LinkedIn",
+              "text": "📊 Test Financial Tip:\n\nThis is test content that was unlocked by clicking the button.\n\nIf you're seeing this, the click-to-unlock strategy is working!",
+              "hashtags": [
+                "#Test",
+                "#ClickToUnlock",
+                "#Success"
+              ],
+              "imageUrl": null
+            },
+            {
+              "platform": "WhatsApp",
+              "text": "✅ SUCCESS!\n\nYou successfully unlocked content by clicking the button.\n\nThis proves the 24-hour window bypass is working.",
+              "hashtags": [],
+              "imageUrl": null
+            }
+          ]
+        },
+        "status": "pending",
+        "templateMessageId": "wamid.HBgMOTE5NjczNzU4Nzc3FQIAERgSRDNCQjg0RkVFREU1NzczQzA2AA=="
+      }
+    ],
+    "delivered": [],
+    "lastActivity": null
+  },
+  "Vidyadhar": {
+    "pending": [
+      {
+        "id": "CNT_1757575329312_t547u2",
+        "date": "2025-09-11",
+        "timestamp": "2025-09-11T07:22:15.014Z",
+        "content": {
+          "introduction": "Test content for Vidyadhar",
+          "posts": [
+            {
+              "platform": "LinkedIn",
+              "text": "📊 Test Financial Tip:\n\nThis is test content that was unlocked by clicking the button.\n\nIf you're seeing this, the click-to-unlock strategy is working!",
+              "hashtags": [
+                "#Test",
+                "#ClickToUnlock",
+                "#Success"
+              ],
+              "imageUrl": null
+            },
+            {
+              "platform": "WhatsApp",
+              "text": "✅ SUCCESS!\n\nYou successfully unlocked content by clicking the button.\n\nThis proves the 24-hour window bypass is working.",
+              "hashtags": [],
+              "imageUrl": null
+            }
+          ]
+        },
+        "status": "pending",
+        "templateMessageId": "wamid.HBgMOTE4OTc1NzU4NTEzFQIAERgSOTRDNkQ5RTU1RTI1MzFDNjdCAA=="
+      }
+    ],
+    "delivered": [],
+    "lastActivity": null
+  },
+  "Test User": {
+    "pending": [
+      {
+        "id": "CNT_1757575332308_1is0tw",
+        "date": "2025-09-11",
+        "timestamp": "2025-09-11T07:22:15.014Z",
+        "content": {
+          "introduction": "Test content for Test User",
+          "posts": [
+            {
+              "platform": "LinkedIn",
+              "text": "📊 Test Financial Tip:\n\nThis is test content that was unlocked by clicking the button.\n\nIf you're seeing this, the click-to-unlock strategy is working!",
+              "hashtags": [
+                "#Test",
+                "#ClickToUnlock",
+                "#Success"
+              ],
+              "imageUrl": null
+            },
+            {
+              "platform": "WhatsApp",
+              "text": "✅ SUCCESS!\n\nYou successfully unlocked content by clicking the button.\n\nThis proves the 24-hour window bypass is working.",
+              "hashtags": [],
+              "imageUrl": null
+            }
+          ]
+        },
+        "status": "pending",
+        "templateMessageId": "wamid.HBgMOTE5MDIyODEwNzY5FQIAERgSNTAxODlERjhGNDBGOUI3QzlDAA=="
+      }
+    ],
+    "delivered": [],
+    "lastActivity": null
+  }
+}

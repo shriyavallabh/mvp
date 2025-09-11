@@ -1,0 +1,29 @@
+{
+  "testId": "qa-test-1757526520620",
+  "story": "3.1",
+  "testType": "template-24hr-bypass",
+  "executor": "Quinn (Test Architect)",
+  "timestamp": "2025-09-10T17:48:40.620Z",
+  "results": [
+    {
+      "success": true,
+      "template": "advisor_tax_alert",
+      "messageId": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSQTYxNDhFQjA1RjdCMzgzQkU1AA==",
+      "responseTime": 1362,
+      "timestamp": "2025-09-10T17:48:41.982Z"
+    },
+    {
+      "type": "image",
+      "success": true,
+      "messageId": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSOUQzOUUzQTgyMTQzNzQ2RUUyAA=="
+    },
+    {
+      "success": true,
+      "template": "investment_update_now",
+      "messageId": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSNjFFQjYwRTM5ODVEQTg0QjhEAA==",
+      "responseTime": 751,
+      "timestamp": "2025-09-10T17:48:46.554Z"
+    }
+  ],
+  "verdict": "PASS"
+}
