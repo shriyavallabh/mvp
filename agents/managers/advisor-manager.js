@@ -509,6 +509,85 @@ class AdvisorManager {
         }
     }
 
+    /**
+     * Get all active advisors from Google Sheets
+     * @returns {Promise<Array>} Array of active advisor objects
+     */
+    async getAllActiveAdvisors() {
+        try {
+            await this.initialize();
+            
+            const response = await this.rateLimiter.executeRead(async () => {
+                return await this.sheets.spreadsheets.values.get({
+                    spreadsheetId: this.spreadsheetId,
+                    range: this.advisorsRange
+                });
+            });
+
+            const rows = response.data.values || [];
+            if (rows.length === 0) {
+                this.logger.warn('No advisor data found in spreadsheet');
+                return [];
+            }
+
+            // Skip header row
+            const advisors = [];
+            for (let i = 1; i < rows.length; i++) {
+                const row = rows[i];
+                if (row.length >= 3 && row[0] && row[1] && row[2]) { // Has ARN, Name, WhatsApp
+                    const advisor = {
+                        id: row[0], // ARN
+                        arn: row[0],
+                        name: row[1],
+                        whatsapp: row[2],
+                        email: row[3] || '',
+                        logo_url: row[4] || '',
+                        brand_colors: row[5] || '',
+                        city: row[6] || '',
+                        state: row[7] || '',
+                        business_size: row[8] || '',
+                        client_demographics: row[9] || '',
+                        preferred_communication: row[10] || 'whatsapp',
+                        content_preferences: row[11] || 'market_updates',
+                        risk_profile: row[12] || 'moderate',
+                        specialization: row[13] || 'general',
+                        years_experience: parseInt(row[14]) || 0,
+                        aum_range: row[15] || '',
+                        commission_structure: row[16] || '',
+                        status: row[17] || 'active'
+                    };
+                    
+                    // Only include active advisors
+                    if (advisor.status === 'active') {
+                        advisors.push(advisor);
+                    }
+                }
+            }
+
+            this.logger.info(`Retrieved ${advisors.length} active advisors`);
+            return advisors;
+
+        } catch (error) {
+            this.logger.error('Failed to get active advisors:', error);
+            throw error;
+        }
+    }
+
+    /**
+     * Get advisor by ID/ARN
+     * @param {string} advisorId - Advisor ARN or ID
+     * @returns {Promise<Object|null>} Advisor object or null if not found
+     */
+    async getAdvisorById(advisorId) {
+        try {
+            const advisors = await this.getAllActiveAdvisors();
+            return advisors.find(advisor => advisor.id === advisorId || advisor.arn === advisorId) || null;
+        } catch (error) {
+            this.logger.error(`Failed to get advisor ${advisorId}:`, error);
+            throw error;
+        }
+    }
+
     async test() {
         console.log('=== Advisor Manager Test Mode ===');
         

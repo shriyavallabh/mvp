@@ -20,6 +20,7 @@ class Logger {
         };
         
         this.performanceMetrics = new Map();
+        this.scheduledJobMetrics = new Map();
         this.initializeLogger();
     }
 
@@ -235,6 +236,71 @@ class Logger {
         
         this.performanceMetrics.delete(metricName);
         return duration;
+    }
+
+    // Scheduled job logging methods
+    logJobStart(jobName, sessionId) {
+        this.scheduledJobMetrics.set(jobName, {
+            sessionId,
+            startTime: Date.now(),
+            endTime: null,
+            status: 'RUNNING'
+        });
+
+        this.info(`Scheduled job started: ${jobName}`, {
+            jobName,
+            sessionId,
+            phase: 'START',
+            timestamp: new Date().toISOString()
+        });
+    }
+
+    logJobEnd(jobName, result = {}) {
+        const metric = this.scheduledJobMetrics.get(jobName);
+        if (metric) {
+            metric.endTime = Date.now();
+            metric.status = result.success ? 'COMPLETED' : 'FAILED';
+            metric.duration = metric.endTime - metric.startTime;
+        }
+
+        this.info(`Scheduled job ${result.success ? 'completed' : 'failed'}: ${jobName}`, {
+            jobName,
+            phase: 'END',
+            duration: metric ? metric.duration : null,
+            result,
+            timestamp: new Date().toISOString()
+        });
+
+        if (metric) {
+            this.scheduledJobMetrics.delete(jobName);
+        }
+    }
+
+    logJobPhase(jobName, phase, data = {}) {
+        this.info(`Job phase: ${jobName} - ${phase}`, {
+            jobName,
+            phase,
+            ...data,
+            timestamp: new Date().toISOString()
+        });
+    }
+
+    logJobError(jobName, error, context = {}) {
+        this.error(`Job error: ${jobName}`, {
+            jobName,
+            error: error.message,
+            stack: error.stack,
+            context,
+            timestamp: new Date().toISOString()
+        });
+    }
+
+    getJobMetrics(jobName) {
+        return this.scheduledJobMetrics.get(jobName) || null;
+    }
+
+    getAllJobMetrics() {
+        return Object.fromEntries(this.scheduledJobMetrics);
     }
 
     // Get recent logs

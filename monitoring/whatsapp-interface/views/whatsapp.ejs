@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinAdvise Message Center - WhatsApp Interface</title>
+    <link rel="stylesheet" href="/whatsapp/css/whatsapp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="whatsapp-container">
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h3>FinAdvise Messages</h3>
+                <div class="sidebar-actions">
+                    <button id="refreshBtn" title="Refresh">
+                        <i class="fas fa-sync-alt"></i>
+                    </button>
+                    <button id="filterBtn" title="Filter">
+                        <i class="fas fa-filter"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Search Bar -->
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="searchInput" placeholder="Search advisors or messages">
+                </div>
+            </div>
+            
+            <!-- Advisor List -->
+            <div class="advisor-list" id="advisorList">
+                <!-- Advisors will be dynamically loaded here -->
+            </div>
+            
+            <!-- Broadcast Button -->
+            <button class="broadcast-btn" id="broadcastBtn">
+                <i class="fas fa-bullhorn"></i>
+                Send Broadcast Message
+            </button>
+        </div>
+        
+        <!-- Chat Area -->
+        <div class="chat-area">
+            <!-- Empty State -->
+            <div class="empty-chat" id="emptyChat">
+                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDI1MCAyNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjEyNSIgY3k9IjEyNSIgcj0iMTAwIiBmaWxsPSIjRTVFNUU1Ii8+CjxwYXRoIGQ9Ik0xMjUgNzVDMTAwICA3NSA4MCA5NSA4MCAxMjBDODAgMTQ1IDEwMCAxNjUgMTI1IDE2NUMxNTAgMTY1IDE3MCAxNDUgMTcwIDEyMEMxNzAgOTUgMTUwIDc1IDEyNSA3NVoiIGZpbGw9IiMyNUQzNjYiLz4KPGNpcmNsZSBjeD0iMTEwIiBjeT0iMTEwIiByPSI4IiBmaWxsPSJ3aGl0ZSIvPgo8Y2lyY2xlIGN4PSIxNDAiIGN5PSIxMTAiIHI9IjgiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xMDUgMTM1QzEwNSAxMzUgMTE1IDE0NSAxMjUgMTQ1QzEzNSAxNDUgMTQ1IDEzNSAxNDUgMTM1IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4=" alt="WhatsApp Logo">
+                <h2>FinAdvise Message Center</h2>
+                <p>Select an advisor to view conversation history</p>
+            </div>
+            
+            <!-- Chat Content (Hidden initially) -->
+            <div id="chatContent" style="display: none; flex-direction: column; height: 100%;">
+                <!-- Chat Header -->
+                <div class="chat-header">
+                    <div class="chat-header-info">
+                        <div class="chat-header-avatar" id="chatAvatar">A</div>
+                        <div class="chat-header-details">
+                            <h3 id="chatName">Advisor Name</h3>
+                            <span class="status" id="chatStatus">last seen today at 12:00 PM</span>
+                        </div>
+                    </div>
+                    <div class="chat-header-actions">
+                        <button id="searchChatBtn" title="Search in chat">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <button id="exportBtn" title="Export conversation">
+                            <i class="fas fa-download"></i>
+                        </button>
+                        <button id="moreBtn" title="More options">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Messages Container -->
+                <div class="messages-container" id="messagesContainer">
+                    <!-- Messages will be dynamically loaded here -->
+                </div>
+                
+                <!-- Typing Indicator (Hidden by default) -->
+                <div id="typingIndicator" style="display: none; padding: 0 50px;">
+                    <div class="typing-indicator">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                
+                <!-- Message Input -->
+                <div class="message-input-container">
+                    <button class="attachment-btn" id="attachmentBtn" title="Attach file">
+                        <i class="fas fa-paperclip"></i>
+                    </button>
+                    <div class="message-input-wrapper">
+                        <textarea class="message-input" id="messageInput" 
+                                  placeholder="Type a message" 
+                                  rows="1"></textarea>
+                    </div>
+                    <button class="send-btn" id="sendBtn" title="Send message">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Export Modal -->
+    <div class="export-modal" id="exportModal">
+        <div class="export-modal-content">
+            <h3>Export Conversation</h3>
+            <p>Select export format:</p>
+            <div class="export-options">
+                <button class="export-btn" data-format="pdf">
+                    <i class="fas fa-file-pdf"></i> PDF
+                </button>
+                <button class="export-btn" data-format="csv">
+                    <i class="fas fa-file-csv"></i> CSV
+                </button>
+                <button class="export-btn" data-format="json">
+                    <i class="fas fa-file-code"></i> JSON
+                </button>
+            </div>
+            <button onclick="document.getElementById('exportModal').classList.remove('active')" 
+                    style="width: 100%; padding: 10px; background: #f0f0f0; border: none; border-radius: 4px; cursor: pointer;">
+                Cancel
+            </button>
+        </div>
+    </div>
+    
+    <!-- Hidden file input for attachments -->
+    <input type="file" id="fileInput" style="display: none;" accept="image/*,.pdf,.doc,.docx">
+    
+    <!-- Socket.io for real-time updates -->
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- Main chat JavaScript -->
+    <script src="/whatsapp/js/chat.js"></script>
+</body>
+</html>

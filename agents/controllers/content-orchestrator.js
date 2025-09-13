@@ -448,6 +448,232 @@ class ContentOrchestrator {
             }
         }
     }
+
+    /**
+     * Runs batch content generation for all advisors (evening trigger)
+     * @returns {Promise<Object>} Result of batch operation
+     */
+    async runBatchContentGeneration() {
+        const startTime = Date.now();
+        let advisorsProcessed = 0;
+        
+        try {
+            console.log(`[${this.agentId}] Starting batch content generation at ${new Date().toISOString()}`);
+            
+            await this.initialize();
+            
+            const AdvisorManager = require('../managers/advisor-manager');
+            const advisorManager = new AdvisorManager();
+            
+            const advisors = await advisorManager.getAllActiveAdvisors();
+            console.log(`[${this.agentId}] Found ${advisors.length} active advisors for content generation`);
+            
+            const results = [];
+            for (const advisor of advisors) {
+                try {
+                    console.log(`[${this.agentId}] Processing advisor: ${advisor.name} (${advisor.id})`);
+                    
+                    const contentResult = await this.generateContentForAdvisor(advisor);
+                    results.push({
+                        advisorId: advisor.id,
+                        advisorName: advisor.name,
+                        success: true,
+                        contentGenerated: contentResult.contentCount || 0,
+                        timestamp: new Date().toISOString()
+                    });
+                    
+                    advisorsProcessed++;
+                    console.log(`[${this.agentId}] Completed advisor ${advisor.name}: ${contentResult.contentCount} items generated`);
+                    
+                } catch (error) {
+                    console.error(`[${this.agentId}] Failed to process advisor ${advisor.name}:`, error);
+                    results.push({
+                        advisorId: advisor.id,
+                        advisorName: advisor.name,
+                        success: false,
+                        error: error.message,
+                        timestamp: new Date().toISOString()
+                    });
+                }
+            }
+            
+            const successCount = results.filter(r => r.success).length;
+            const totalContentGenerated = results.reduce((sum, r) => sum + (r.contentGenerated || 0), 0);
+            
+            console.log(`[${this.agentId}] Batch generation completed: ${successCount}/${advisors.length} advisors processed, ${totalContentGenerated} content items generated`);
+            
+            await this.sendAdminNotification({
+                type: 'batch_generation_complete',
+                advisorsProcessed: successCount,
+                totalAdvisors: advisors.length,
+                contentGenerated: totalContentGenerated,
+                duration: Date.now() - startTime,
+                results: results
+            });
+            
+            return {
+                success: true,
+                advisorsProcessed: successCount,
+                totalAdvisors: advisors.length,
+                contentGenerated: totalContentGenerated,
+                duration: Date.now() - startTime,
+                results: results
+            };
+            
+        } catch (error) {
+            console.error(`[${this.agentId}] Batch content generation failed:`, error);
+            
+            await this.sendAdminNotification({
+                type: 'batch_generation_failed',
+                error: error.message,
+                advisorsProcessed,
+                duration: Date.now() - startTime
+            });
+            
+            throw error;
+        }
+    }
+
+    /**
+     * Generate content for a specific advisor
+     * @param {Object} advisor - Advisor object
+     * @returns {Promise<Object>} Generation result
+     */
+    async generateContentForAdvisor(advisor) {
+        const ContentStrategist = require('../generators/content-strategist');
+        const ContentGenerator = require('../generators/content-generator');
+        const ImageCreator = require('../generators/image-creator');
+        const ComplianceValidator = require('../validators/compliance-validator');
+        
+        const strategist = new ContentStrategist();
+        const generator = new ContentGenerator();
+        const imageCreator = new ImageCreator();
+        const validator = new ComplianceValidator();
+        
+        const strategy = await strategist.generateStrategy({
+            advisorId: advisor.id,
+            advisorProfile: advisor,
+            batchMode: true
+        });
+        
+        const content = await generator.generateContent({
+            strategy: strategy,
+            advisorId: advisor.id,
+            batchMode: true
+        });
+        
+        if (content.requiresImage) {
+            content.image = await imageCreator.createImage({
+                contentType: content.type,
+                advisorBrand: advisor.brand,
+                content: content.text
+            });
+        }
+        
+        const validationResult = await validator.validateContent({
+            content: content,
+            advisorProfile: advisor
+        });
+        
+        if (!validationResult.isValid) {
+            throw new Error(`Content validation failed: ${validationResult.issues.join(', ')}`);
+        }
+        
+        await this.saveGeneratedContent(advisor.id, content);
+        
+        return {
+            contentCount: 1,
+            contentType: content.type,
+            hasImage: !!content.image,
+            validationPassed: validationResult.isValid
+        };
+    }
+
+    /**
+     * Send notification to admin WhatsApp
+     * @param {Object} notificationData - Notification details
+     */
+    async sendAdminNotification(notificationData) {
+        try {
+            const WhatsAppService = require('../services/whatsapp-service');
+            const whatsappService = new WhatsAppService();
+            
+            const message = this.formatAdminNotification(notificationData);
+            
+            await whatsappService.sendMessage({
+                to: process.env.ADMIN_WHATSAPP_NUMBER,
+                message: message,
+                type: 'text'
+            });
+            
+        } catch (error) {
+            console.error(`[${this.agentId}] Failed to send admin notification:`, error);
+        }
+    }
+
+    /**
+     * Format admin notification message
+     * @param {Object} data - Notification data
+     * @returns {string} Formatted message
+     */
+    formatAdminNotification(data) {
+        if (data.type === 'batch_generation_complete') {
+            return `✅ *Daily Content Generation Complete*
+
+*Summary:*
+- Advisors Processed: ${data.advisorsProcessed}/${data.totalAdvisors}
+- Content Generated: ${data.contentGenerated} items
+- Duration: ${Math.round(data.duration / 1000)}s
+
+*Next Steps:*
+- Review generated content in dashboard
+- Auto-approval scheduled for 11:00 PM
+- Distribution scheduled for 5:00 AM
+
+Generated at: ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}`;
+        } else if (data.type === 'batch_generation_failed') {
+            return `❌ *Daily Content Generation Failed*
+
+*Error:* ${data.error}
+- Advisors Processed: ${data.advisorsProcessed}
+- Duration: ${Math.round(data.duration / 1000)}s
+
+Please check logs and manually trigger if needed.
+
+Failed at: ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}`;
+        }
+        
+        return `📋 Content generation notification: ${JSON.stringify(data)}`;
+    }
+
+    /**
+     * Save generated content to review queue
+     * @param {string} advisorId - Advisor ID
+     * @param {Object} content - Generated content
+     */
+    async saveGeneratedContent(advisorId, content) {
+        const fs = require('fs').promises;
+        const path = require('path');
+        
+        const reviewQueuePath = path.join(__dirname, '..', '..', 'data', 'review-queue');
+        await fs.mkdir(reviewQueuePath, { recursive: true });
+        
+        const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+        const filename = `${advisorId}-${timestamp}.json`;
+        
+        const contentPackage = {
+            advisorId,
+            content,
+            generatedAt: new Date().toISOString(),
+            status: 'pending_review',
+            sessionId: this.sessionId
+        };
+        
+        await fs.writeFile(
+            path.join(reviewQueuePath, filename),
+            JSON.stringify(contentPackage, null, 2)
+        );
+    }
 }
 
 if (require.main === module) {
@@ -456,6 +682,14 @@ if (require.main === module) {
     const args = process.argv.slice(2);
     if (args.includes('--test')) {
         orchestrator.test();
+    } else if (args.includes('--batch') || args.includes('--evening-trigger')) {
+        orchestrator.runBatchContentGeneration().then(result => {
+            console.log(`Batch content generation completed. Processed ${result.advisorsProcessed} advisors`);
+            process.exit(0);
+        }).catch(error => {
+            console.error('Batch content generation failed:', error);
+            process.exit(1);
+        });
     } else {
         orchestrator.initialize().then(() => {
             console.log('Content Orchestrator running...');

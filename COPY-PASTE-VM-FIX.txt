@@ -1,0 +1,37 @@
+===========================================================
+COPY AND PASTE THIS ON YOUR VM TO FIX OLLAMA
+===========================================================
+
+Step 1: SSH into your VM
+-------------------------
+ssh root@159.89.166.94
+
+
+Step 2: Run this ONE command (copy entire block):
+--------------------------------------------------
+
+curl -fsSL https://ollama.com/install.sh | sh && systemctl enable ollama && systemctl start ollama && ollama pull llama2 && cd /root/webhook && pm2 restart webhook && echo "✅ OLLAMA INSTALLED!" && pm2 logs webhook --lines 10
+
+
+Step 3: Test Ollama is working:
+--------------------------------
+
+curl -X POST http://localhost:11434/api/generate -d '{"model": "llama2", "prompt": "What is mutual fund in 20 words", "stream": false}' | python3 -m json.tool
+
+
+Step 4: Test the complete webhook:
+-----------------------------------
+
+curl http://localhost:3000/test-ollama
+
+
+===========================================================
+THAT'S IT! Your system will now have:
+- ✅ Ollama installed and running
+- ✅ Llama2 model loaded
+- ✅ Webhook using Ollama for AI responses
+- ✅ Full button and text message handling
+===========================================================
+
+To monitor: pm2 logs webhook
+To check status: pm2 status

@@ -1,0 +1,13 @@
+{
+  "cost": [
+    {
+      "name": "api_cost",
+      "value": 0.05,
+      "service": "claude",
+      "timestamp": "2025-09-13T07:31:50.256Z"
+    }
+  ]
+}  }
+  ]
+} ]
+}

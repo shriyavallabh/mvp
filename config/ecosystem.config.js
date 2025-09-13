@@ -30,6 +30,57 @@ module.exports = {
       out_file: '/Users/shriyavallabh/Desktop/mvp/logs/session-out.log',
       log_file: '/Users/shriyavallabh/Desktop/mvp/logs/session-combined.log',
       time: true
+    },
+    {
+      name: 'daily-content-scheduler',
+      script: '/Users/shriyavallabh/Desktop/mvp/jobs/daily-content-scheduler.js',
+      instances: 1,
+      cron_restart: '30 20 * * *',  // 8:30 PM daily
+      autorestart: false,
+      watch: false,
+      max_memory_restart: '300M',
+      env: {
+        NODE_ENV: 'production',
+        TZ: 'Asia/Kolkata'
+      },
+      error_file: '/Users/shriyavallabh/Desktop/mvp/logs/content-scheduler-error.log',
+      out_file: '/Users/shriyavallabh/Desktop/mvp/logs/content-scheduler-out.log',
+      log_file: '/Users/shriyavallabh/Desktop/mvp/logs/content-scheduler-combined.log',
+      time: true
+    },
+    {
+      name: 'auto-approval-scheduler',
+      script: '/Users/shriyavallabh/Desktop/mvp/jobs/auto-approval-scheduler.js',
+      instances: 1,
+      cron_restart: '0 23 * * *',  // 11:00 PM daily
+      autorestart: false,
+      watch: false,
+      max_memory_restart: '200M',
+      env: {
+        NODE_ENV: 'production',
+        TZ: 'Asia/Kolkata'
+      },
+      error_file: '/Users/shriyavallabh/Desktop/mvp/logs/auto-approval-error.log',
+      out_file: '/Users/shriyavallabh/Desktop/mvp/logs/auto-approval-out.log',
+      log_file: '/Users/shriyavallabh/Desktop/mvp/logs/auto-approval-combined.log',
+      time: true
+    },
+    {
+      name: 'morning-distribution-scheduler',
+      script: '/Users/shriyavallabh/Desktop/mvp/jobs/morning-distribution-scheduler.js',
+      instances: 1,
+      cron_restart: '0 5 * * *',  // 5:00 AM daily
+      autorestart: false,
+      watch: false,
+      max_memory_restart: '300M',
+      env: {
+        NODE_ENV: 'production',
+        TZ: 'Asia/Kolkata'
+      },
+      error_file: '/Users/shriyavallabh/Desktop/mvp/logs/morning-distribution-error.log',
+      out_file: '/Users/shriyavallabh/Desktop/mvp/logs/morning-distribution-out.log',
+      log_file: '/Users/shriyavallabh/Desktop/mvp/logs/morning-distribution-combined.log',
+      time: true
     }
   ],
   
