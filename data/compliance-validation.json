@@ -1,0 +1,189 @@
+{
+  "timestamp": "2025-09-17T07:33:56.908086",
+  "total_files_checked": 4,
+  "compliant_files": 0,
+  "non_compliant_files": 4,
+  "compliance_rate": 0.0,
+  "violations": [
+    {
+      "type": "PAST_PERFORMANCE_NO_DISCLAIMER",
+      "severity": "MAJOR",
+      "file": "ADV_002_linkedin.txt",
+      "rule": "SEBI_PAST_001",
+      "explanation": "Past performance claims require disclaimer",
+      "fix": "Add: \"Past performance may not be sustained in future\""
+    },
+    {
+      "type": "PAST_PERFORMANCE_NO_DISCLAIMER",
+      "severity": "MAJOR",
+      "file": "ADV_003_linkedin.txt",
+      "rule": "SEBI_PAST_001",
+      "explanation": "Past performance claims require disclaimer",
+      "fix": "Add: \"Past performance may not be sustained in future\""
+    },
+    {
+      "type": "MISSING_DISCLAIMER",
+      "severity": "MAJOR",
+      "file": "generation_summary.json",
+      "rule": "SEBI_DISC_001",
+      "explanation": "Missing required market risk disclaimer",
+      "fix": "Add: \"Mutual fund investments are subject to market risks. Read all scheme related documents carefully.\""
+    },
+    {
+      "type": "MISSING_ARN",
+      "severity": "MAJOR",
+      "file": "generation_summary.json",
+      "rule": "SEBI_ARN_001",
+      "explanation": "Missing required ARN (AMFI Registration Number)",
+      "fix": "Add valid ARN number in format: ARN-XXXXX"
+    },
+    {
+      "type": "PAST_PERFORMANCE_NO_DISCLAIMER",
+      "severity": "MAJOR",
+      "file": "ADV_001_linkedin.txt",
+      "rule": "SEBI_PAST_001",
+      "explanation": "Past performance claims require disclaimer",
+      "fix": "Add: \"Past performance may not be sustained in future\""
+    }
+  ],
+  "warnings": [
+    {
+      "type": "MALFORMED_ARN",
+      "severity": "MINOR",
+      "file": "ADV_002_linkedin.txt",
+      "rule": "SEBI_ARN_002",
+      "explanation": "ARN format appears incorrect (should be ARN-XXXXX format)",
+      "current": "ARN_VIDYADHAR_002"
+    },
+    {
+      "type": "MALFORMED_ARN",
+      "severity": "MINOR",
+      "file": "ADV_003_linkedin.txt",
+      "rule": "SEBI_ARN_002",
+      "explanation": "ARN format appears incorrect (should be ARN-XXXXX format)",
+      "current": "Unknown"
+    },
+    {
+      "type": "MISSING_SEBI_MENTION",
+      "severity": "MINOR",
+      "file": "generation_summary.json",
+      "rule": "SEBI_REG_001",
+      "explanation": "Should mention SEBI Registered Mutual Fund Distributor status"
+    },
+    {
+      "type": "MALFORMED_ARN",
+      "severity": "MINOR",
+      "file": "ADV_001_linkedin.txt",
+      "rule": "SEBI_ARN_002",
+      "explanation": "ARN format appears incorrect (should be ARN-XXXXX format)",
+      "current": "Unknown"
+    }
+  ],
+  "file_results": {
+    "ADV_002_linkedin.txt": {
+      "compliant": false,
+      "score": 0.6,
+      "violations": [
+        {
+          "type": "PAST_PERFORMANCE_NO_DISCLAIMER",
+          "severity": "MAJOR",
+          "file": "ADV_002_linkedin.txt",
+          "rule": "SEBI_PAST_001",
+          "explanation": "Past performance claims require disclaimer",
+          "fix": "Add: \"Past performance may not be sustained in future\""
+        }
+      ],
+      "warnings": [
+        {
+          "type": "MALFORMED_ARN",
+          "severity": "MINOR",
+          "file": "ADV_002_linkedin.txt",
+          "rule": "SEBI_ARN_002",
+          "explanation": "ARN format appears incorrect (should be ARN-XXXXX format)",
+          "current": "ARN_VIDYADHAR_002"
+        }
+      ]
+    },
+    "ADV_003_linkedin.txt": {
+      "compliant": false,
+      "score": 0.6,
+      "violations": [
+        {
+          "type": "PAST_PERFORMANCE_NO_DISCLAIMER",
+          "severity": "MAJOR",
+          "file": "ADV_003_linkedin.txt",
+          "rule": "SEBI_PAST_001",
+          "explanation": "Past performance claims require disclaimer",
+          "fix": "Add: \"Past performance may not be sustained in future\""
+        }
+      ],
+      "warnings": [
+        {
+          "type": "MALFORMED_ARN",
+          "severity": "MINOR",
+          "file": "ADV_003_linkedin.txt",
+          "rule": "SEBI_ARN_002",
+          "explanation": "ARN format appears incorrect (should be ARN-XXXXX format)",
+          "current": "Unknown"
+        }
+      ]
+    },
+    "generation_summary.json": {
+      "compliant": false,
+      "score": 0.3,
+      "violations": [
+        {
+          "type": "MISSING_DISCLAIMER",
+          "severity": "MAJOR",
+          "file": "generation_summary.json",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "fix": "Add: \"Mutual fund investments are subject to market risks. Read all scheme related documents carefully.\""
+        },
+        {
+          "type": "MISSING_ARN",
+          "severity": "MAJOR",
+          "file": "generation_summary.json",
+          "rule": "SEBI_ARN_001",
+          "explanation": "Missing required ARN (AMFI Registration Number)",
+          "fix": "Add valid ARN number in format: ARN-XXXXX"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "MISSING_SEBI_MENTION",
+          "severity": "MINOR",
+          "file": "generation_summary.json",
+          "rule": "SEBI_REG_001",
+          "explanation": "Should mention SEBI Registered Mutual Fund Distributor status"
+        }
+      ]
+    },
+    "ADV_001_linkedin.txt": {
+      "compliant": false,
+      "score": 0.6,
+      "violations": [
+        {
+          "type": "PAST_PERFORMANCE_NO_DISCLAIMER",
+          "severity": "MAJOR",
+          "file": "ADV_001_linkedin.txt",
+          "rule": "SEBI_PAST_001",
+          "explanation": "Past performance claims require disclaimer",
+          "fix": "Add: \"Past performance may not be sustained in future\""
+        }
+      ],
+      "warnings": [
+        {
+          "type": "MALFORMED_ARN",
+          "severity": "MINOR",
+          "file": "ADV_001_linkedin.txt",
+          "rule": "SEBI_ARN_002",
+          "explanation": "ARN format appears incorrect (should be ARN-XXXXX format)",
+          "current": "Unknown"
+        }
+      ]
+    }
+  },
+  "status": "REJECTED",
+  "certificate": "SEBI-COMP-20250917073356"
+}

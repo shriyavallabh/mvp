@@ -1,0 +1,32 @@
+{
+  "executionId": "FEEDBACK-1758075011599",
+  "timestamp": "2025-09-17T02:10:11.594Z",
+  "agent": "Feedback Processor",
+  "trigger": "Compliance validation failure",
+  "input": {
+    "complianceValidation": "data/compliance-validation.json",
+    "originalContent": "data/linkedin-posts.json",
+    "violationCount": 5
+  },
+  "processing": {
+    "postsProcessed": 3,
+    "fixesApplied": [
+      "ARN format correction",
+      "Disclaimer addition",
+      "Past performance warnings",
+      "SEBI registration mention"
+    ],
+    "learningPointsExtracted": 4
+  },
+  "output": {
+    "regeneratedContent": "data/regenerated-content.json",
+    "feedbackConfig": "data/feedback-config.json",
+    "complianceStatus": "PENDING_REVALIDATION"
+  },
+  "metrics": {
+    "processingTime": "2.3s",
+    "violationsFixed": 5,
+    "contentImproved": true,
+    "learningApplied": true
+  }
+}
