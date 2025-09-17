@@ -1,0 +1,10 @@
+{
+  "workflowId": "workflow_1758086111002",
+  "agent": "quality-scorer",
+  "timestamp": 1758086255236,
+  "color": "brightgreen",
+  "voice": "Princess",
+  "personality": "analytical",
+  "taskCommand": "Task tool with subagent_type: quality-scorer",
+  "status": "ready-for-execution"
+}

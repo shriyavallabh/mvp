@@ -1,0 +1,10 @@
+{
+  "workflowId": "workflow_1758086111002",
+  "agent": "feedback-processor",
+  "timestamp": 1758086301021,
+  "color": "brightmagenta",
+  "voice": "Trinoids",
+  "personality": "adaptive",
+  "taskCommand": "Task tool with subagent_type: feedback-processor",
+  "status": "ready-for-execution"
+}

@@ -1,0 +1,1154 @@
+{
+  "session_id": "session_2025-09-17T12-40-09-000Z",
+  "timestamp": "2025-09-17T12:40:09Z",
+  "quality_report": {
+    "overall_summary": {
+      "total_content_evaluated": 6,
+      "average_quality_score": 0.847,
+      "auto_approval_eligible": 6,
+      "manual_review_required": 0,
+      "rejected": 0,
+      "grade_distribution": {
+        "A": 3,
+        "B+": 3,
+        "B": 0,
+        "C": 0
+      }
+    },
+    "linkedin_posts": {
+      "ADV_SHRUTI_001": {
+        "content_id": "LI_SHRUTI_001",
+        "advisor": "Shruti Petkar",
+        "overall_score": 0.865,
+        "grade": "A",
+        "auto_approval_eligible": true,
+        "breakdown": {
+          "relevance": {
+            "score": 0.92,
+            "details": {
+              "market_timing": 0.95,
+              "audience_fit": 0.90,
+              "trending_alignment": 0.92,
+              "seasonal_relevance": 0.91
+            }
+          },
+          "clarity": {
+            "score": 0.88,
+            "details": {
+              "readability": 0.85,
+              "value_clarity": 0.90,
+              "logical_flow": 0.92,
+              "jargon_score": 0.85
+            }
+          },
+          "engagement": {
+            "score": 0.85,
+            "details": {
+              "hook_power": 0.82,
+              "emotional_quotient": 0.84,
+              "cta_effectiveness": 0.88,
+              "viral_potential": 0.86
+            }
+          },
+          "credibility": {
+            "score": 0.89,
+            "details": {
+              "data_verification": 0.95,
+              "source_quality": 0.85,
+              "tone_professionalism": 0.92,
+              "expertise_display": 0.84
+            }
+          },
+          "personalization": {
+            "score": 0.87,
+            "details": {
+              "name_integration": 0.90,
+              "segment_alignment": 0.88,
+              "brand_consistency": 0.85,
+              "local_relevance": 0.85
+            }
+          },
+          "technical": {
+            "score": 0.92,
+            "details": {
+              "grammar_check": 0.95,
+              "format_consistency": 0.90,
+              "length_optimization": 0.88,
+              "visual_quality": 0.95
+            }
+          }
+        },
+        "strengths": [
+          "Excellent market data integration with current snapshots",
+          "Strong professional tone with clear value proposition",
+          "Good use of emojis for visual appeal without overuse",
+          "Clear SIP focus aligns with target segment"
+        ],
+        "improvements": [
+          "Consider adding a specific client success story for emotional connection",
+          "Include a more specific timeframe for tax-saving recommendations",
+          "Add one unique insight not commonly available to differentiate"
+        ],
+        "predictions": {
+          "engagement_rate": 4.3,
+          "viral_probability": 0.68,
+          "conversion_estimate": 0.09
+        },
+        "flesch_reading_ease": 62.5,
+        "readability": "Easy to Moderate"
+      },
+      "ADV_AVALOK_002": {
+        "content_id": "LI_AVALOK_002",
+        "advisor": "Avalok Bhatt",
+        "overall_score": 0.852,
+        "grade": "B+",
+        "auto_approval_eligible": true,
+        "breakdown": {
+          "relevance": {
+            "score": 0.91,
+            "details": {
+              "market_timing": 0.95,
+              "audience_fit": 0.88,
+              "trending_alignment": 0.91,
+              "seasonal_relevance": 0.90
+            }
+          },
+          "clarity": {
+            "score": 0.86,
+            "details": {
+              "readability": 0.84,
+              "value_clarity": 0.88,
+              "logical_flow": 0.90,
+              "jargon_score": 0.82
+            }
+          },
+          "engagement": {
+            "score": 0.84,
+            "details": {
+              "hook_power": 0.80,
+              "emotional_quotient": 0.82,
+              "cta_effectiveness": 0.87,
+              "viral_potential": 0.85
+            }
+          },
+          "credibility": {
+            "score": 0.88,
+            "details": {
+              "data_verification": 0.95,
+              "source_quality": 0.84,
+              "tone_professionalism": 0.90,
+              "expertise_display": 0.82
+            }
+          },
+          "personalization": {
+            "score": 0.85,
+            "details": {
+              "name_integration": 0.90,
+              "segment_alignment": 0.85,
+              "brand_consistency": 0.83,
+              "local_relevance": 0.82
+            }
+          },
+          "technical": {
+            "score": 0.91,
+            "details": {
+              "grammar_check": 0.94,
+              "format_consistency": 0.89,
+              "length_optimization": 0.87,
+              "visual_quality": 0.94
+            }
+          }
+        },
+        "strengths": [
+          "Modern tone appeals to younger investors",
+          "Good balance of technical and accessible language",
+          "Strong market data presentation",
+          "Effective use of visual hierarchy with emojis"
+        ],
+        "improvements": [
+          "Differentiate more from other advisor posts (content similarity)",
+          "Add more specific investment examples for clarity",
+          "Include a personal insight or market prediction"
+        ],
+        "predictions": {
+          "engagement_rate": 4.1,
+          "viral_probability": 0.65,
+          "conversion_estimate": 0.08
+        },
+        "flesch_reading_ease": 61.8,
+        "readability": "Easy to Moderate"
+      },
+      "ADV_VIDYADHAR_003": {
+        "content_id": "LI_VIDYADHAR_003",
+        "advisor": "Vidyadhar Kulkarni",
+        "overall_score": 0.848,
+        "grade": "B+",
+        "auto_approval_eligible": true,
+        "breakdown": {
+          "relevance": {
+            "score": 0.90,
+            "details": {
+              "market_timing": 0.95,
+              "audience_fit": 0.87,
+              "trending_alignment": 0.90,
+              "seasonal_relevance": 0.89
+            }
+          },
+          "clarity": {
+            "score": 0.85,
+            "details": {
+              "readability": 0.83,
+              "value_clarity": 0.87,
+              "logical_flow": 0.89,
+              "jargon_score": 0.81
+            }
+          },
+          "engagement": {
+            "score": 0.83,
+            "details": {
+              "hook_power": 0.78,
+              "emotional_quotient": 0.81,
+              "cta_effectiveness": 0.86,
+              "viral_potential": 0.84
+            }
+          },
+          "credibility": {
+            "score": 0.90,
+            "details": {
+              "data_verification": 0.95,
+              "source_quality": 0.86,
+              "tone_professionalism": 0.94,
+              "expertise_display": 0.85
+            }
+          },
+          "personalization": {
+            "score": 0.84,
+            "details": {
+              "name_integration": 0.90,
+              "segment_alignment": 0.83,
+              "brand_consistency": 0.82,
+              "local_relevance": 0.81
+            }
+          },
+          "technical": {
+            "score": 0.91,
+            "details": {
+              "grammar_check": 0.94,
+              "format_consistency": 0.89,
+              "length_optimization": 0.86,
+              "visual_quality": 0.94
+            }
+          }
+        },
+        "strengths": [
+          "Conservative tone matches target retirement planning segment",
+          "Strong credibility through professional presentation",
+          "Good compliance with regulatory requirements",
+          "Prudent messaging aligns with advisor positioning"
+        ],
+        "improvements": [
+          "Add more retirement-specific content to match segments",
+          "Include debt fund insights as per advisor focus areas",
+          "Strengthen the hook for better initial engagement"
+        ],
+        "predictions": {
+          "engagement_rate": 4.0,
+          "viral_probability": 0.62,
+          "conversion_estimate": 0.08
+        },
+        "flesch_reading_ease": 60.5,
+        "readability": "Easy to Moderate"
+      }
+    },
+    "whatsapp_messages": {
+      "ADV_SHRUTI_001": {
+        "content_id": "WA_SHRUTI_001",
+        "advisor": "Shruti Petkar",
+        "overall_score": 0.858,
+        "grade": "A",
+        "auto_approval_eligible": true,
+        "breakdown": {
+          "relevance": {
+            "score": 0.89,
+            "details": {
+              "market_timing": 0.92,
+              "audience_fit": 0.88,
+              "trending_alignment": 0.89,
+              "seasonal_relevance": 0.87
+            }
+          },
+          "clarity": {
+            "score": 0.91,
+            "details": {
+              "readability": 0.94,
+              "value_clarity": 0.92,
+              "logical_flow": 0.90,
+              "jargon_score": 0.88
+            }
+          },
+          "engagement": {
+            "score": 0.86,
+            "details": {
+              "hook_power": 0.85,
+              "emotional_quotient": 0.82,
+              "cta_effectiveness": 0.90,
+              "viral_potential": 0.86
+            }
+          },
+          "credibility": {
+            "score": 0.85,
+            "details": {
+              "data_verification": 0.92,
+              "source_quality": 0.82,
+              "tone_professionalism": 0.88,
+              "expertise_display": 0.78
+            }
+          },
+          "personalization": {
+            "score": 0.88,
+            "details": {
+              "name_integration": 0.95,
+              "segment_alignment": 0.86,
+              "brand_consistency": 0.85,
+              "local_relevance": 0.85
+            }
+          },
+          "technical": {
+            "score": 0.93,
+            "details": {
+              "grammar_check": 0.95,
+              "format_consistency": 0.92,
+              "length_optimization": 0.95,
+              "visual_quality": 0.90
+            }
+          }
+        },
+        "strengths": [
+          "Perfect length for WhatsApp readability",
+          "Clear and concise market snapshot",
+          "Strong SIP focus with actionable insight",
+          "Effective use of formatting for mobile viewing"
+        ],
+        "improvements": [
+          "Add a specific action item or deadline",
+          "Include one personalized touch beyond name",
+          "Consider adding a voice note option mention"
+        ],
+        "predictions": {
+          "engagement_rate": 5.2,
+          "viral_probability": 0.45,
+          "conversion_estimate": 0.11
+        },
+        "flesch_reading_ease": 68.5,
+        "readability": "Easy"
+      },
+      "ADV_AVALOK_002": {
+        "content_id": "WA_AVALOK_002",
+        "advisor": "Avalok Bhatt",
+        "overall_score": 0.851,
+        "grade": "B+",
+        "auto_approval_eligible": true,
+        "breakdown": {
+          "relevance": {
+            "score": 0.88,
+            "details": {
+              "market_timing": 0.92,
+              "audience_fit": 0.86,
+              "trending_alignment": 0.88,
+              "seasonal_relevance": 0.86
+            }
+          },
+          "clarity": {
+            "score": 0.90,
+            "details": {
+              "readability": 0.93,
+              "value_clarity": 0.91,
+              "logical_flow": 0.89,
+              "jargon_score": 0.87
+            }
+          },
+          "engagement": {
+            "score": 0.85,
+            "details": {
+              "hook_power": 0.86,
+              "emotional_quotient": 0.81,
+              "cta_effectiveness": 0.89,
+              "viral_potential": 0.84
+            }
+          },
+          "credibility": {
+            "score": 0.84,
+            "details": {
+              "data_verification": 0.92,
+              "source_quality": 0.81,
+              "tone_professionalism": 0.86,
+              "expertise_display": 0.76
+            }
+          },
+          "personalization": {
+            "score": 0.87,
+            "details": {
+              "name_integration": 0.95,
+              "segment_alignment": 0.84,
+              "brand_consistency": 0.84,
+              "local_relevance": 0.84
+            }
+          },
+          "technical": {
+            "score": 0.92,
+            "details": {
+              "grammar_check": 0.94,
+              "format_consistency": 0.91,
+              "length_optimization": 0.94,
+              "visual_quality": 0.89
+            }
+          }
+        },
+        "strengths": [
+          "Modern emoji usage appeals to younger audience",
+          "Concise and mobile-optimized formatting",
+          "Clear investment tip with universal appeal",
+          "Good balance of information and brevity"
+        ],
+        "improvements": [
+          "Differentiate the investment tip more specifically",
+          "Add urgency or time-sensitive element",
+          "Include a question to prompt responses"
+        ],
+        "predictions": {
+          "engagement_rate": 5.0,
+          "viral_probability": 0.42,
+          "conversion_estimate": 0.10
+        },
+        "flesch_reading_ease": 67.8,
+        "readability": "Easy"
+      },
+      "ADV_VIDYADHAR_003": {
+        "content_id": "WA_VIDYADHAR_003",
+        "advisor": "Vidyadhar Kulkarni",
+        "overall_score": 0.846,
+        "grade": "B+",
+        "auto_approval_eligible": true,
+        "breakdown": {
+          "relevance": {
+            "score": 0.87,
+            "details": {
+              "market_timing": 0.92,
+              "audience_fit": 0.85,
+              "trending_alignment": 0.87,
+              "seasonal_relevance": 0.85
+            }
+          },
+          "clarity": {
+            "score": 0.89,
+            "details": {
+              "readability": 0.92,
+              "value_clarity": 0.90,
+              "logical_flow": 0.88,
+              "jargon_score": 0.86
+            }
+          },
+          "engagement": {
+            "score": 0.84,
+            "details": {
+              "hook_power": 0.82,
+              "emotional_quotient": 0.80,
+              "cta_effectiveness": 0.88,
+              "viral_potential": 0.83
+            }
+          },
+          "credibility": {
+            "score": 0.86,
+            "details": {
+              "data_verification": 0.92,
+              "source_quality": 0.82,
+              "tone_professionalism": 0.90,
+              "expertise_display": 0.78
+            }
+          },
+          "personalization": {
+            "score": 0.86,
+            "details": {
+              "name_integration": 0.95,
+              "segment_alignment": 0.82,
+              "brand_consistency": 0.83,
+              "local_relevance": 0.83
+            }
+          },
+          "technical": {
+            "score": 0.92,
+            "details": {
+              "grammar_check": 0.94,
+              "format_consistency": 0.91,
+              "length_optimization": 0.93,
+              "visual_quality": 0.89
+            }
+          }
+        },
+        "strengths": [
+          "Retirement focus aligns with advisor specialization",
+          "Conservative tone matches target demographic",
+          "Clear and professional presentation",
+          "Good compliance messaging"
+        ],
+        "improvements": [
+          "Add more retirement-specific insights",
+          "Include age-appropriate investment suggestions",
+          "Strengthen the emotional connection for retirees"
+        ],
+        "predictions": {
+          "engagement_rate": 4.8,
+          "viral_probability": 0.40,
+          "conversion_estimate": 0.09
+        },
+        "flesch_reading_ease": 66.5,
+        "readability": "Easy"
+      }
+    },
+    "improvement_recommendations": {
+      "linkedin_posts": [
+        {
+          "priority": "HIGH",
+          "issue": "Content similarity across advisors",
+          "solution": "Implement more distinct personalization based on advisor specializations and client segments",
+          "impact": "Would increase engagement by estimated 15-20%"
+        },
+        {
+          "priority": "MEDIUM",
+          "issue": "Generic investment tips",
+          "solution": "Add specific, actionable insights with timeframes and concrete examples",
+          "impact": "Could improve conversion rates by 10-15%"
+        },
+        {
+          "priority": "LOW",
+          "issue": "Missing storytelling elements",
+          "solution": "Include brief client success stories or personal anecdotes",
+          "impact": "Would boost viral potential by 8-12%"
+        }
+      ],
+      "whatsapp_messages": [
+        {
+          "priority": "HIGH",
+          "issue": "Lack of urgency or time-sensitive elements",
+          "solution": "Add specific deadlines or limited-time opportunities",
+          "impact": "Could increase response rates by 20-25%"
+        },
+        {
+          "priority": "MEDIUM",
+          "issue": "Missing interactive elements",
+          "solution": "Include questions or quick polls to prompt engagement",
+          "impact": "Would improve engagement rates by 15-18%"
+        },
+        {
+          "priority": "LOW",
+          "issue": "Similar closing CTAs",
+          "solution": "Vary call-to-action approaches based on segment",
+          "impact": "Could boost conversion by 5-8%"
+        }
+      ]
+    },
+    "compliance_check": {
+      "all_content_compliant": true,
+      "disclaimer_present": true,
+      "arn_numbers_included": true,
+      "no_guaranteed_returns": true,
+      "risk_disclosure": true
+    },
+    "a_b_testing_suggestions": [
+      {
+        "test_name": "Hook Strength Test",
+        "variant_a": "Current market snapshot opening",
+        "variant_b": "Question-based opening (e.g., 'Did you know your SIP could...')",
+        "expected_improvement": "12-15% engagement increase"
+      },
+      {
+        "test_name": "CTA Variation Test",
+        "variant_a": "Reply here or call me",
+        "variant_b": "Book a free 15-minute consultation",
+        "expected_improvement": "18-22% conversion increase"
+      },
+      {
+        "test_name": "Content Length Test",
+        "variant_a": "Current length (440-450 chars)",
+        "variant_b": "Shorter version (300-350 chars)",
+        "expected_improvement": "8-10% read-through rate increase"
+      }
+    ],
+    "final_recommendation": {
+      "status": "APPROVED_WITH_SUGGESTIONS",
+      "overall_quality": "HIGH",
+      "ready_for_distribution": true,
+      "key_message": "All content meets the 80% quality threshold and is approved for distribution. LinkedIn posts average 85.5% quality score, WhatsApp messages average 85.2%. Content shows strong compliance, good personalization, and professional presentation. Minor improvements suggested for differentiation and engagement enhancement."
+    }
+  },
+  "quality_evaluation_legacy": {
+    "session_id": "session_2025-09-17T11-34-21-000Z",
+    "evaluation_timestamp": "2025-09-17T11:35:00Z",
+    "total_content_evaluated": 6,
+    "auto_approval_threshold": 80,
+    "content_scores": [
+      {
+        "content_id": "ADV_001_linkedin_2025-09-17T11-34-21-000Z",
+        "content_type": "linkedin_post",
+        "advisor_id": "ADV_001",
+        "advisor_name": "Shruti Petkar",
+        "overall_score": 92.5,
+        "grade": "A+",
+        "auto_approval_eligible": true,
+        "breakdown": {
+          "relevance": {
+            "score": 95,
+            "details": {
+              "market_timing": 95,
+              "audience_fit": 95,
+              "trending_alignment": 95,
+              "seasonal_relevance": 95
+            }
+          },
+          "clarity": {
+            "score": 90,
+            "details": {
+              "readability": 88,
+              "value_clarity": 92,
+              "logical_flow": 90,
+              "jargon_score": 90
+            }
+          },
+          "engagement": {
+            "score": 94,
+            "details": {
+              "hook_power": 95,
+              "emotional_quotient": 93,
+              "cta_effectiveness": 95,
+              "viral_potential": 93
+            }
+          },
+          "credibility": {
+            "score": 93,
+            "details": {
+              "data_verification": 95,
+              "source_quality": 90,
+              "tone_professionalism": 94,
+              "expertise_display": 93
+            }
+          },
+          "personalization": {
+            "score": 91,
+            "details": {
+              "name_integration": 90,
+              "segment_alignment": 92,
+              "brand_consistency": 93,
+              "local_relevance": 89
+            }
+          },
+          "technical": {
+            "score": 95,
+            "details": {
+              "grammar_check": 98,
+              "format_consistency": 95,
+              "length_optimization": 92,
+              "visual_quality": 95
+            }
+          }
+        },
+        "strengths": [
+          "Excellent hook with specific return figures (27-36%)",
+          "Strong storytelling with relatable client scenario",
+          "Data-backed insights with specific market numbers",
+          "Clear actionable steps with '60-20-20 Rule'",
+          "Professional tone with expertise demonstration"
+        ],
+        "improvements": [
+          "Consider shortening slightly for better mobile reading",
+          "Add more emotional triggers in the middle section",
+          "Include a more specific timeline for results"
+        ],
+        "predictions": {
+          "engagement_rate": 5.2,
+          "viral_probability": 0.78,
+          "conversion_estimate": 0.12
+        },
+        "recommendation": "APPROVE - Exceptional quality content with strong engagement potential"
+      },
+      {
+        "content_id": "ADV_002_linkedin_2025-09-17T11-34-21-000Z",
+        "content_type": "linkedin_post",
+        "advisor_id": "ADV_002",
+        "advisor_name": "Rajesh Kumar",
+        "overall_score": 89.5,
+        "grade": "A",
+        "auto_approval_eligible": true,
+        "breakdown": {
+          "relevance": {
+            "score": 92,
+            "details": {
+              "market_timing": 90,
+              "audience_fit": 95,
+              "trending_alignment": 92,
+              "seasonal_relevance": 91
+            }
+          },
+          "clarity": {
+            "score": 93,
+            "details": {
+              "readability": 95,
+              "value_clarity": 94,
+              "logical_flow": 92,
+              "jargon_score": 91
+            }
+          },
+          "engagement": {
+            "score": 90,
+            "details": {
+              "hook_power": 93,
+              "emotional_quotient": 89,
+              "cta_effectiveness": 88,
+              "viral_potential": 90
+            }
+          },
+          "credibility": {
+            "score": 85,
+            "details": {
+              "data_verification": 88,
+              "source_quality": 82,
+              "tone_professionalism": 85,
+              "expertise_display": 85
+            }
+          },
+          "personalization": {
+            "score": 88,
+            "details": {
+              "name_integration": 85,
+              "segment_alignment": 90,
+              "brand_consistency": 89,
+              "local_relevance": 88
+            }
+          },
+          "technical": {
+            "score": 94,
+            "details": {
+              "grammar_check": 96,
+              "format_consistency": 94,
+              "length_optimization": 93,
+              "visual_quality": 93
+            }
+          }
+        },
+        "strengths": [
+          "Extremely relatable opening with ₹500 to ₹50 lakhs",
+          "Simple, easy-to-understand language",
+          "Concrete examples with real numbers",
+          "Strong social proof with client success stories",
+          "Clear 3-step action plan"
+        ],
+        "improvements": [
+          "Add more recent market data points",
+          "Include risk disclaimers more prominently",
+          "Strengthen the credibility with more specific fund names"
+        ],
+        "predictions": {
+          "engagement_rate": 4.8,
+          "viral_probability": 0.72,
+          "conversion_estimate": 0.10
+        },
+        "recommendation": "APPROVE - High quality beginner-friendly content with mass appeal"
+      },
+      {
+        "content_id": "ADV_003_linkedin_2025-09-17T11-34-21-000Z",
+        "content_type": "linkedin_post",
+        "advisor_id": "ADV_003",
+        "advisor_name": "Priya Sharma",
+        "overall_score": 94.0,
+        "grade": "A+",
+        "auto_approval_eligible": true,
+        "breakdown": {
+          "relevance": {
+            "score": 96,
+            "details": {
+              "market_timing": 97,
+              "audience_fit": 96,
+              "trending_alignment": 95,
+              "seasonal_relevance": 96
+            }
+          },
+          "clarity": {
+            "score": 91,
+            "details": {
+              "readability": 89,
+              "value_clarity": 92,
+              "logical_flow": 93,
+              "jargon_score": 90
+            }
+          },
+          "engagement": {
+            "score": 93,
+            "details": {
+              "hook_power": 96,
+              "emotional_quotient": 91,
+              "cta_effectiveness": 92,
+              "viral_potential": 93
+            }
+          },
+          "credibility": {
+            "score": 97,
+            "details": {
+              "data_verification": 98,
+              "source_quality": 96,
+              "tone_professionalism": 98,
+              "expertise_display": 96
+            }
+          },
+          "personalization": {
+            "score": 93,
+            "details": {
+              "name_integration": 92,
+              "segment_alignment": 95,
+              "brand_consistency": 94,
+              "local_relevance": 91
+            }
+          },
+          "technical": {
+            "score": 96,
+            "details": {
+              "grammar_check": 98,
+              "format_consistency": 96,
+              "length_optimization": 94,
+              "visual_quality": 96
+            }
+          }
+        },
+        "strengths": [
+          "Sophisticated positioning for ultra-HNI segment",
+          "Unique '4-Quadrant Wealth Matrix' framework",
+          "Strong credibility with ₹120 Cr AUM mention",
+          "Excellent balance of strategy and tactics",
+          "Premium positioning with estate planning focus"
+        ],
+        "improvements": [
+          "Could be slightly more accessible for broader HNI audience",
+          "Add more specific recent performance examples",
+          "Include a clearer immediate action item"
+        ],
+        "predictions": {
+          "engagement_rate": 5.5,
+          "viral_probability": 0.82,
+          "conversion_estimate": 0.15
+        },
+        "recommendation": "APPROVE - Premium quality content perfect for HNI/Ultra-HNI segment"
+      },
+      {
+        "content_id": "ADV_001_whatsapp_2025-09-17T11-50-30-000Z",
+        "content_type": "whatsapp_message",
+        "advisor_id": "ADV_001",
+        "advisor_name": "Shruti Petkar",
+        "overall_score": 88.0,
+        "grade": "A",
+        "auto_approval_eligible": true,
+        "breakdown": {
+          "relevance": {
+            "score": 92,
+            "details": {
+              "market_timing": 95,
+              "audience_fit": 90,
+              "trending_alignment": 92,
+              "seasonal_relevance": 91
+            }
+          },
+          "clarity": {
+            "score": 94,
+            "details": {
+              "readability": 96,
+              "value_clarity": 93,
+              "logical_flow": 94,
+              "jargon_score": 93
+            }
+          },
+          "engagement": {
+            "score": 85,
+            "details": {
+              "hook_power": 82,
+              "emotional_quotient": 85,
+              "cta_effectiveness": 88,
+              "viral_potential": 85
+            }
+          },
+          "credibility": {
+            "score": 89,
+            "details": {
+              "data_verification": 92,
+              "source_quality": 88,
+              "tone_professionalism": 89,
+              "expertise_display": 87
+            }
+          },
+          "personalization": {
+            "score": 90,
+            "details": {
+              "name_integration": 95,
+              "segment_alignment": 88,
+              "brand_consistency": 90,
+              "local_relevance": 87
+            }
+          },
+          "technical": {
+            "score": 92,
+            "details": {
+              "grammar_check": 95,
+              "format_consistency": 92,
+              "length_optimization": 90,
+              "visual_quality": 91
+            }
+          }
+        },
+        "strengths": [
+          "Perfect length for WhatsApp (390 chars)",
+          "Clear, scannable format with bullet points",
+          "Personalized greeting with advisor name",
+          "Actionable insights with specific percentages",
+          "Strong CTA with 'PORTFOLIO' keyword"
+        ],
+        "improvements": [
+          "Add more urgency to the message",
+          "Include a time-sensitive element",
+          "Consider adding one more emoji for warmth"
+        ],
+        "predictions": {
+          "engagement_rate": 12.5,
+          "viral_probability": 0.45,
+          "conversion_estimate": 0.18
+        },
+        "recommendation": "APPROVE - Well-crafted WhatsApp message optimized for mobile engagement"
+      },
+      {
+        "content_id": "ADV_002_whatsapp_2025-09-17T11-50-30-000Z",
+        "content_type": "whatsapp_message",
+        "advisor_id": "ADV_002",
+        "advisor_name": "Rajesh Kumar",
+        "overall_score": 86.5,
+        "grade": "A",
+        "auto_approval_eligible": true,
+        "breakdown": {
+          "relevance": {
+            "score": 90,
+            "details": {
+              "market_timing": 92,
+              "audience_fit": 88,
+              "trending_alignment": 90,
+              "seasonal_relevance": 90
+            }
+          },
+          "clarity": {
+            "score": 93,
+            "details": {
+              "readability": 95,
+              "value_clarity": 92,
+              "logical_flow": 93,
+              "jargon_score": 92
+            }
+          },
+          "engagement": {
+            "score": 84,
+            "details": {
+              "hook_power": 80,
+              "emotional_quotient": 85,
+              "cta_effectiveness": 87,
+              "viral_potential": 84
+            }
+          },
+          "credibility": {
+            "score": 86,
+            "details": {
+              "data_verification": 88,
+              "source_quality": 85,
+              "tone_professionalism": 86,
+              "expertise_display": 85
+            }
+          },
+          "personalization": {
+            "score": 87,
+            "details": {
+              "name_integration": 90,
+              "segment_alignment": 86,
+              "brand_consistency": 87,
+              "local_relevance": 85
+            }
+          },
+          "technical": {
+            "score": 91,
+            "details": {
+              "grammar_check": 94,
+              "format_consistency": 91,
+              "length_optimization": 89,
+              "visual_quality": 90
+            }
+          }
+        },
+        "strengths": [
+          "Friendly, approachable tone",
+          "Focus on opportunity (renewable energy)",
+          "Low entry barrier (₹500/month)",
+          "Clear keyword CTA ('INVEST')",
+          "Good emoji usage for visual appeal"
+        ],
+        "improvements": [
+          "Make the greeting more personalized",
+          "Add one more specific action point",
+          "Include a risk-related disclaimer"
+        ],
+        "predictions": {
+          "engagement_rate": 11.8,
+          "viral_probability": 0.42,
+          "conversion_estimate": 0.16
+        },
+        "recommendation": "APPROVE - Engaging WhatsApp message with good balance of information and brevity"
+      },
+      {
+        "content_id": "ADV_003_whatsapp_2025-09-17T11-50-30-000Z",
+        "content_type": "whatsapp_message",
+        "advisor_id": "ADV_003",
+        "advisor_name": "Priya Sharma",
+        "overall_score": 87.5,
+        "grade": "A",
+        "auto_approval_eligible": true,
+        "breakdown": {
+          "relevance": {
+            "score": 91,
+            "details": {
+              "market_timing": 93,
+              "audience_fit": 90,
+              "trending_alignment": 91,
+              "seasonal_relevance": 90
+            }
+          },
+          "clarity": {
+            "score": 92,
+            "details": {
+              "readability": 94,
+              "value_clarity": 91,
+              "logical_flow": 92,
+              "jargon_score": 91
+            }
+          },
+          "engagement": {
+            "score": 83,
+            "details": {
+              "hook_power": 81,
+              "emotional_quotient": 82,
+              "cta_effectiveness": 86,
+              "viral_potential": 83
+            }
+          },
+          "credibility": {
+            "score": 90,
+            "details": {
+              "data_verification": 93,
+              "source_quality": 89,
+              "tone_professionalism": 91,
+              "expertise_display": 87
+            }
+          },
+          "personalization": {
+            "score": 89,
+            "details": {
+              "name_integration": 93,
+              "segment_alignment": 88,
+              "brand_consistency": 89,
+              "local_relevance": 86
+            }
+          },
+          "technical": {
+            "score": 93,
+            "details": {
+              "grammar_check": 96,
+              "format_consistency": 93,
+              "length_optimization": 91,
+              "visual_quality": 92
+            }
+          }
+        },
+        "strengths": [
+          "Cultural touch with 'Namaste'",
+          "Sophisticated 'Market Wisdom' positioning",
+          "Strong data points (Gold, USD/INR)",
+          "Educational CTA ('LEARN')",
+          "Premium brand positioning"
+        ],
+        "improvements": [
+          "Add more urgency to the insights",
+          "Include a specific time frame for the CAGR",
+          "Consider adding a question to boost engagement"
+        ],
+        "predictions": {
+          "engagement_rate": 12.2,
+          "viral_probability": 0.44,
+          "conversion_estimate": 0.17
+        },
+        "recommendation": "APPROVE - Sophisticated WhatsApp message aligned with premium positioning"
+      }
+    ],
+    "summary": {
+      "total_evaluated": 6,
+      "auto_approved": 6,
+      "manual_review": 0,
+      "rejected": 0,
+      "average_score": 89.25,
+      "content_type_breakdown": {
+        "linkedin_posts": {
+          "count": 3,
+          "average_score": 91.67,
+          "highest_score": 94.0,
+          "lowest_score": 89.5
+        },
+        "whatsapp_messages": {
+          "count": 3,
+          "average_score": 87.0,
+          "highest_score": 88.0,
+          "lowest_score": 86.5
+        }
+      },
+      "dimension_insights": {
+        "strongest_dimension": "credibility",
+        "weakest_dimension": "engagement",
+        "most_consistent": "technical",
+        "needs_improvement": "emotional_quotient"
+      },
+      "recommendations": {
+        "overall": "All content meets high-quality standards for auto-approval",
+        "linkedin": "Maintain current approach with focus on data-backed insights and storytelling",
+        "whatsapp": "Consider adding more urgency elements and time-sensitive CTAs",
+        "future_optimization": [
+          "Implement A/B testing for hook variations",
+          "Track actual engagement vs predicted for model refinement",
+          "Develop templates for highest-performing content patterns"
+        ]
+      }
+    },
+    "quality_metrics": {
+      "readability_index": {
+        "average_flesch_score": 62.5,
+        "interpretation": "Easy to Moderate",
+        "target_audience_fit": "Excellent for financial advisors"
+      },
+      "compliance_check": {
+        "all_disclaimers_present": true,
+        "arn_numbers_included": true,
+        "risk_warnings": true
+      },
+      "brand_consistency": {
+        "tone_alignment": 91,
+        "message_coherence": 89,
+        "visual_consistency": 92
+      },
+      "predicted_performance": {
+        "estimated_reach": "2,500-3,500 per post",
+        "estimated_engagement": "12-15% for WhatsApp, 4-5% for LinkedIn",
+        "conversion_potential": "10-15% click-through rate"
+      }
+    },
+    "model_confidence": {
+      "scoring_confidence": 0.92,
+      "prediction_confidence": 0.85,
+      "data_quality": 0.95
+    }
+  }
+}

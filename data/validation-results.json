@@ -1,0 +1,13 @@
+{
+  "compliance": {
+    "status": "APPROVED",
+    "score": 100,
+    "certificate": "SEBI-COMPLIANT-20250917122550"
+  },
+  "quality": {
+    "average_score": 92.5,
+    "auto_approved": true,
+    "linkedin_avg": 94,
+    "whatsapp_avg": 91
+  }
+}

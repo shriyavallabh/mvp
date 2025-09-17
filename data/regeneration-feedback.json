@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-09-17T13:03:33.323145",
+  "session": "session_2025-09-17T12-40-09-000Z",
+  "type": "compliance_violation_feedback",
+  "priority": "HIGH",
+  "violations_detected": 2,
+  "regeneration_required": true,
+  "specific_feedback": [
+    {
+      "file": "ADV_001_linkedin_2025-09-17T12-40-09-000Z.txt",
+      "advisor": "001",
+      "platform": "linkedin",
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing mandatory market risk disclaimer",
+          "file": "ADV_001_linkedin_2025-09-17T12-40-09-000Z.txt"
+        }
+      ],
+      "required_corrections": [
+        {
+          "issue": "Missing market risk disclaimer",
+          "fix": "Add: \"Mutual fund investments are subject to market risks, read all scheme related documents carefully.\"",
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    {
+      "file": "ADV_003_linkedin_2025-09-17T12-40-09-000Z.txt",
+      "advisor": "003",
+      "platform": "linkedin",
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing mandatory market risk disclaimer",
+          "file": "ADV_003_linkedin_2025-09-17T12-40-09-000Z.txt"
+        }
+      ],
+      "required_corrections": [
+        {
+          "issue": "Missing market risk disclaimer",
+          "fix": "Add: \"Mutual fund investments are subject to market risks, read all scheme related documents carefully.\"",
+          "priority": "CRITICAL"
+        }
+      ]
+    }
+  ]
+}

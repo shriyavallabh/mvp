@@ -1,0 +1,10 @@
+{
+  "workflowId": "workflow_1758086111002",
+  "agent": "segment-analyzer",
+  "timestamp": 1758086164613,
+  "color": "orange",
+  "voice": "Daniel",
+  "personality": "strategic",
+  "taskCommand": "Task tool with subagent_type: segment-analyzer",
+  "status": "ready-for-execution"
+}

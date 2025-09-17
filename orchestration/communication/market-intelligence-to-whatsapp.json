@@ -1,0 +1,68 @@
+{
+  "messageType": "URGENT_MARKET_UPDATE",
+  "timestamp": "2025-09-17T04:30:01.386177+00:00",
+  "from": "market-intelligence",
+  "to": "whatsapp-message-creator",
+  "priority": "URGENT",
+
+  "marketAlerts": [
+    {
+      "type": "INDEX_MILESTONE",
+      "message": "Sensex crosses 81,400 - time to review portfolios",
+      "urgency": "HIGH",
+      "targetSegments": ["Premium", "Gold"],
+      "actionRequired": "Portfolio review and rebalancing"
+    },
+    {
+      "type": "SECTOR_BREAKOUT",
+      "message": "IT stocks rally 2.63% - consider profit booking",
+      "urgency": "HIGH",
+      "targetSegments": ["All"],
+      "actionRequired": "Evaluate IT stock positions"
+    },
+    {
+      "type": "INVESTMENT_OPPORTUNITY",
+      "message": "Gold funds delivering 50%+ returns - diversification opportunity",
+      "urgency": "MEDIUM",
+      "targetSegments": ["All"],
+      "actionRequired": "Consider gold allocation"
+    },
+    {
+      "type": "RATE_IMPACT",
+      "message": "Repo rate cut benefits - EMI reductions effective",
+      "urgency": "MEDIUM",
+      "targetSegments": ["Gold", "Silver"],
+      "actionRequired": "Review loan restructuring opportunities"
+    }
+  ],
+
+  "quickFacts": {
+    "sensex": "81,425 (+323 pts)",
+    "nifty": "24,973 (+104 pts)",
+    "topGainer": "Electronics (+4.5%)",
+    "goldReturns": "50.4% annually",
+    "repoRate": "5.50% (supportive)"
+  },
+
+  "segmentSpecificAlerts": {
+    "premium": {
+      "focus": "Portfolio rebalancing with gold diversification",
+      "urgency": "Review international exposure amid market strength"
+    },
+    "gold": {
+      "focus": "SIP opportunities in current market momentum",
+      "urgency": "Consider increasing equity allocation"
+    },
+    "silver": {
+      "focus": "Basic investment education during market upturn",
+      "urgency": "Start systematic investing with lower EMIs"
+    }
+  },
+
+  "timeKeySituational": {
+    "marketMood": "Cautiously optimistic",
+    "institutionalFlow": "DII buying supporting markets",
+    "globalContext": "US Fed meeting ahead",
+    "recommendation": "Stay invested, book selective profits"
+  }
+}

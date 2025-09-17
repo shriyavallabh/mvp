@@ -1,0 +1,10 @@
+{
+  "workflowId": "workflow_1758086111002",
+  "agent": "fatigue-checker",
+  "timestamp": 1758086255236,
+  "color": "brightyellow",
+  "voice": "Junior",
+  "personality": "vigilant",
+  "taskCommand": "Task tool with subagent_type: fatigue-checker",
+  "status": "ready-for-execution"
+}

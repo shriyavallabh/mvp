@@ -1,0 +1,234 @@
+# FinAdvise Hybrid Orchestration Hooks Configuration
+#
+# This hooks system provides the automation backbone for agent lifecycle management.
+# It monitors events and triggers appropriate actions for seamless orchestration.
+#
+# Hook Types:
+# - pre-tool-use: Before any tool execution
+# - post-tool-use: After tool execution completes
+# - user-prompt-submit: When user submits a prompt
+# - pre-agent-execution: Before an agent starts
+# - post-agent-execution: After an agent completes
+
+hooks:
+  # ========================================
+  # PRE-TOOL-USE HOOKS
+  # ========================================
+
+  pre-tool-use:
+    # Initialize orchestration environment
+    - command: "bash orchestration/hooks/pre-tool-setup.sh"
+      description: "Setup directories and validate environment"
+
+    # Validate agent dependencies
+    - command: "node orchestration/hooks/validate-dependencies.js"
+      description: "Check agent dependencies and prerequisites"
+
+    # Start monitoring for this execution
+    - command: "node orchestration/hooks/start-monitoring.js"
+      description: "Initialize monitoring and logging systems"
+
+  # ========================================
+  # POST-TOOL-USE HOOKS
+  # ========================================
+
+  post-tool-use:
+    # Process agent completion
+    - command: "node orchestration/hooks/process-agent-completion.js"
+      description: "Handle agent completion and trigger next actions"
+
+    # Update traceability matrix
+    - command: "bash orchestration/hooks/update-traceability.sh"
+      description: "Update execution traceability and logging"
+
+    # Check for bidirectional feedback requirements
+    - command: "node orchestration/hooks/check-feedback-loops.js"
+      description: "Evaluate if feedback loops need to be triggered"
+
+    # Trigger audio feedback
+    - command: "node orchestration/hooks/trigger-audio.js"
+      description: "Play appropriate audio feedback for completion"
+
+    # Check workflow completion status
+    - command: "node orchestration/hooks/check-workflow-status.js"
+      description: "Determine if workflow is complete or needs continuation"
+
+  # ========================================
+  # USER-PROMPT-SUBMIT HOOKS
+  # ========================================
+
+  user-prompt-submit:
+    # Log user request
+    - command: "node orchestration/hooks/log-user-request.js"
+      description: "Log and analyze user request for orchestration planning"
+
+    # Detect orchestration triggers
+    - command: "node orchestration/hooks/detect-orchestration-trigger.js"
+      description: "Detect if request requires hybrid orchestration"
+
+    # Initialize workflow if needed
+    - command: "node orchestration/hooks/initialize-workflow.js"
+      description: "Start new workflow if orchestration is triggered"
+
+  # ========================================
+  # AGENT-SPECIFIC HOOKS
+  # ========================================
+
+  # These hooks fire for specific agent events
+  pre-agent-execution:
+    # Setup agent-specific environment
+    - command: "bash orchestration/hooks/setup-agent-env.sh"
+      description: "Prepare environment for specific agent execution"
+
+    # Check agent readiness
+    - command: "node orchestration/hooks/check-agent-readiness.js"
+      description: "Validate agent prerequisites and data availability"
+
+    # Trigger start audio feedback
+    - command: "node orchestration/hooks/agent-start-audio.js"
+      description: "Play agent-specific start audio feedback"
+
+  post-agent-execution:
+    # Validate agent output
+    - command: "node orchestration/hooks/validate-agent-output.js"
+      description: "Validate agent output and check quality"
+
+    # Save agent results
+    - command: "bash orchestration/hooks/save-agent-results.sh"
+      description: "Persist agent results and update state"
+
+    # Trigger next agent if needed
+    - command: "node orchestration/hooks/trigger-next-agent.js"
+      description: "Determine and trigger next agent in sequence"
+
+    # Handle bidirectional communication
+    - command: "node orchestration/hooks/handle-agent-communication.js"
+      description: "Process any agent-to-agent communication requests"
+
+    # Trigger completion audio feedback
+    - command: "node orchestration/hooks/agent-completion-audio.js"
+      description: "Play agent-specific completion audio feedback"
+
+  # ========================================
+  # ERROR HANDLING HOOKS
+  # ========================================
+
+  error-handling:
+    # Handle tool execution errors
+    - command: "node orchestration/hooks/handle-tool-error.js"
+      description: "Process and respond to tool execution errors"
+
+    # Agent failure recovery
+    - command: "node orchestration/hooks/agent-failure-recovery.js"
+      description: "Attempt recovery from agent failures"
+
+    # Circuit breaker activation
+    - command: "node orchestration/hooks/circuit-breaker.js"
+      description: "Activate circuit breaker patterns for persistent failures"
+
+  # ========================================
+  # MONITORING AND CLEANUP HOOKS
+  # ========================================
+
+  monitoring:
+    # Performance monitoring
+    - command: "node orchestration/hooks/performance-monitor.js"
+      description: "Monitor and log performance metrics"
+
+    # Resource usage tracking
+    - command: "bash orchestration/hooks/resource-monitor.sh"
+      description: "Track resource usage and system health"
+
+  cleanup:
+    # Clean temporary files
+    - command: "bash orchestration/hooks/cleanup-temp-files.sh"
+      description: "Clean up temporary files and optimize storage"
+
+    # Archive completed workflows
+    - command: "node orchestration/hooks/archive-workflows.js"
+      description: "Archive completed workflows for future reference"
+
+# ========================================
+# HOOK CONFIGURATION SETTINGS
+# ========================================
+
+settings:
+  # Global hook settings
+  timeout: 30000  # 30 seconds timeout for hook execution
+  retry_count: 3  # Number of retries for failed hooks
+  parallel_execution: false  # Execute hooks sequentially by default
+
+  # Audio feedback settings
+  audio:
+    enabled: true
+    voice_synthesis: "Samantha"  # Use single female voice
+    voice: "Samantha"
+    volume: 0.7
+    speed: 1.0
+
+  # Monitoring settings
+  monitoring:
+    enabled: true
+    log_level: "info"
+    metrics_collection: true
+
+  # Error handling settings
+  error_handling:
+    continue_on_error: true
+    log_errors: true
+    notify_on_critical: true
+
+# ========================================
+# CONDITIONAL HOOK EXECUTION
+# ========================================
+
+conditions:
+  # Only execute orchestration hooks for specific commands
+  orchestration_commands:
+    - "/orchestrate"
+    - "/master"
+    # - "/finadvise"  # DISABLED - Now using real Task tool orchestration
+    - "/orchestrate-hybrid"
+    - "mcp__finadvise-orchestrator"
+
+  # Skip hooks for certain commands
+  skip_hooks:
+    - "/help"
+    - "/clear"
+    - "/status"
+
+# ========================================
+# AGENT-SPECIFIC CONFIGURATIONS
+# ========================================
+
+agent_configs:
+  advisor-data-manager:
+    audio_voice: "Samantha"
+    priority: "high"
+    timeout: 60000
+
+  market-intelligence:
+    audio_voice: "Samantha"
+    priority: "high"
+    timeout: 90000
+
+  linkedin-post-generator:
+    audio_voice: "Samantha"
+    priority: "medium"
+    timeout: 120000
+
+  compliance-validator:
+    audio_voice: "Samantha"
+    priority: "critical"
+    timeout: 45000
+    strict_validation: true
+
+  quality-scorer:
+    audio_voice: "Samantha"
+    priority: "critical"
+    timeout: 30000
+    min_score_threshold: 0.8
+
+  all_agents:
+    audio_voice: "Samantha"
+    voice_synthesis: "Samantha"

@@ -1,0 +1,356 @@
+{
+  "workflowId": "workflow_1758086111002",
+  "completedAt": "2025-09-17T05:18:31.446Z",
+  "executionLog": [
+    {
+      "timestamp": "2025-09-17T05:15:38.988Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "advisor-data-manager",
+      "event": "started",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-09-17T05:15:45.365Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "advisor-data-manager",
+      "event": "completed",
+      "data": {
+        "success": true,
+        "executionTime": 3000,
+        "output": "advisor-data-manager executed successfully",
+        "outputFiles": [
+          "data/advisor-data.json"
+        ],
+        "timestamp": 1758086141993
+      }
+    },
+    {
+      "timestamp": "2025-09-17T05:15:49.761Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "market-intelligence",
+      "event": "started",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-09-17T05:15:57.520Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "market-intelligence",
+      "event": "completed",
+      "data": {
+        "success": true,
+        "executionTime": 4500,
+        "output": "market-intelligence executed successfully",
+        "outputFiles": [
+          "data/market-intelligence.json"
+        ],
+        "timestamp": 1758086154263
+      }
+    },
+    {
+      "timestamp": "2025-09-17T05:16:04.611Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "segment-analyzer",
+      "event": "started",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-09-17T05:16:10.236Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "segment-analyzer",
+      "event": "completed",
+      "data": {
+        "success": true,
+        "executionTime": 2500,
+        "output": "segment-analyzer executed successfully",
+        "outputFiles": [],
+        "timestamp": 1758086167115
+      }
+    },
+    {
+      "timestamp": "2025-09-17T05:16:22.563Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "linkedin-post-generator",
+      "event": "started",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-09-17T05:16:22.563Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "whatsapp-message-creator",
+      "event": "started",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-09-17T05:16:30.026Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "whatsapp-message-creator",
+      "event": "completed",
+      "data": {
+        "success": true,
+        "executionTime": 4000,
+        "output": "whatsapp-message-creator executed successfully",
+        "outputFiles": [
+          "data/whatsapp-messages.json",
+          "output/whatsapp/"
+        ],
+        "timestamp": 1758086186565
+      }
+    },
+    {
+      "timestamp": "2025-09-17T05:16:33.501Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "linkedin-post-generator",
+      "event": "completed",
+      "data": {
+        "success": true,
+        "executionTime": 6000,
+        "output": "linkedin-post-generator executed successfully",
+        "outputFiles": [
+          "data/linkedin-posts.json",
+          "output/linkedin/"
+        ],
+        "timestamp": 1758086190027
+      }
+    },
+    {
+      "timestamp": "2025-09-17T05:16:41.597Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "status-image-designer",
+      "event": "started",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-09-17T05:16:48.320Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "status-image-designer",
+      "event": "failed",
+      "data": {
+        "success": false,
+        "error": "Simulated execution failure for status-image-designer",
+        "timestamp": 1758086205098
+      }
+    },
+    {
+      "timestamp": "2025-09-17T05:16:53.338Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "gemini-image-generator",
+      "event": "started",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-09-17T05:17:05.095Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "gemini-image-generator",
+      "event": "completed",
+      "data": {
+        "success": true,
+        "executionTime": 8000,
+        "output": "gemini-image-generator executed successfully",
+        "outputFiles": [
+          "output/images/"
+        ],
+        "timestamp": 1758086221339
+      }
+    },
+    {
+      "timestamp": "2025-09-17T05:17:13.282Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "brand-customizer",
+      "event": "started",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-09-17T05:17:18.552Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "brand-customizer",
+      "event": "completed",
+      "data": {
+        "success": true,
+        "executionTime": 2000,
+        "output": "brand-customizer executed successfully",
+        "outputFiles": [],
+        "timestamp": 1758086235284
+      }
+    },
+    {
+      "timestamp": "2025-09-17T05:17:35.235Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "compliance-validator",
+      "event": "started",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-09-17T05:17:35.235Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "quality-scorer",
+      "event": "started",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-09-17T05:17:35.236Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "fatigue-checker",
+      "event": "started",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-09-17T05:17:40.304Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "fatigue-checker",
+      "event": "completed",
+      "data": {
+        "success": true,
+        "executionTime": 2000,
+        "output": "fatigue-checker executed successfully",
+        "outputFiles": [],
+        "timestamp": 1758086257237
+      }
+    },
+    {
+      "timestamp": "2025-09-17T05:17:43.360Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "quality-scorer",
+      "event": "completed",
+      "data": {
+        "success": true,
+        "executionTime": 2500,
+        "output": "quality-scorer executed successfully",
+        "outputFiles": [],
+        "timestamp": 1758086260304
+      }
+    },
+    {
+      "timestamp": "2025-09-17T05:17:46.718Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "compliance-validator",
+      "event": "completed",
+      "data": {
+        "success": true,
+        "executionTime": 3000,
+        "output": "compliance-validator executed successfully",
+        "outputFiles": [],
+        "timestamp": 1758086263360
+      }
+    },
+    {
+      "timestamp": "2025-09-17T05:17:55.476Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "distribution-controller",
+      "event": "started",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-09-17T05:18:02.623Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "distribution-controller",
+      "event": "completed",
+      "data": {
+        "success": true,
+        "executionTime": 3500,
+        "output": "distribution-controller executed successfully",
+        "outputFiles": [],
+        "timestamp": 1758086278978
+      }
+    },
+    {
+      "timestamp": "2025-09-17T05:18:07.627Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "analytics-tracker",
+      "event": "started",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-09-17T05:18:13.136Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "analytics-tracker",
+      "event": "completed",
+      "data": {
+        "success": true,
+        "executionTime": 2000,
+        "output": "analytics-tracker executed successfully",
+        "outputFiles": [],
+        "timestamp": 1758086289628
+      }
+    },
+    {
+      "timestamp": "2025-09-17T05:18:21.020Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "feedback-processor",
+      "event": "started",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-09-17T05:18:27.311Z",
+      "workflowId": "workflow_1758086111002",
+      "agent": "feedback-processor",
+      "event": "completed",
+      "data": {
+        "success": true,
+        "executionTime": 3000,
+        "output": "feedback-processor executed successfully",
+        "outputFiles": [],
+        "timestamp": 1758086304023
+      }
+    }
+  ],
+  "mcpServerUsed": false,
+  "audioEnabled": true,
+  "agentResults": [
+    {
+      "name": "advisor-data-manager",
+      "status": "completed"
+    },
+    {
+      "name": "market-intelligence",
+      "status": "completed"
+    },
+    {
+      "name": "segment-analyzer",
+      "status": "completed"
+    },
+    {
+      "name": "linkedin-post-generator",
+      "status": "completed"
+    },
+    {
+      "name": "whatsapp-message-creator",
+      "status": "completed"
+    },
+    {
+      "name": "status-image-designer",
+      "status": "completed"
+    },
+    {
+      "name": "gemini-image-generator",
+      "status": "completed"
+    },
+    {
+      "name": "brand-customizer",
+      "status": "completed"
+    },
+    {
+      "name": "compliance-validator",
+      "status": "completed"
+    },
+    {
+      "name": "quality-scorer",
+      "status": "completed"
+    },
+    {
+      "name": "fatigue-checker",
+      "status": "completed"
+    },
+    {
+      "name": "distribution-controller",
+      "status": "completed"
+    },
+    {
+      "name": "analytics-tracker",
+      "status": "completed"
+    },
+    {
+      "name": "feedback-processor",
+      "status": "completed"
+    }
+  ]
+}

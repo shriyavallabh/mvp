@@ -1,0 +1,10 @@
+{
+  "workflowId": "workflow_1758086111002",
+  "agent": "linkedin-post-generator",
+  "timestamp": 1758086182563,
+  "color": "cyan",
+  "voice": "Samantha",
+  "personality": "creative",
+  "taskCommand": "Task tool with subagent_type: linkedin-post-generator",
+  "status": "ready-for-execution"
+}

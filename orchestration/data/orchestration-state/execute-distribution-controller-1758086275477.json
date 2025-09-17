@@ -1,0 +1,10 @@
+{
+  "workflowId": "workflow_1758086111002",
+  "agent": "distribution-controller",
+  "timestamp": 1758086275477,
+  "color": "teal",
+  "voice": "Zarvox",
+  "personality": "efficient",
+  "taskCommand": "Task tool with subagent_type: distribution-controller",
+  "status": "ready-for-execution"
+}

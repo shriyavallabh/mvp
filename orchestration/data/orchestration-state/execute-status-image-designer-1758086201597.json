@@ -1,0 +1,10 @@
+{
+  "workflowId": "workflow_1758086111002",
+  "agent": "status-image-designer",
+  "timestamp": 1758086201597,
+  "color": "yellow",
+  "voice": "Fred",
+  "personality": "artistic",
+  "taskCommand": "Task tool with subagent_type: status-image-designer",
+  "status": "ready-for-execution"
+}

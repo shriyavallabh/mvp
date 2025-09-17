@@ -1,0 +1,15 @@
+{
+  "timestamp": "20250917_120819",
+  "prompt": "Generate a high-quality, professional image showing:\n\n    - Setting: Beautiful Swiss Alps mountain landscape with snow-capped peaks\n    - Building: Modern UBS bank office building integrated into the mountain scenery\n    - Logo: UBS logo clearly visible on the building\n    - Interior view through large glass windows showing:\n      * Multiple office floors with people working at desks\n      * Happy employees with smiling faces\n      * Several team huddle meetings happening\n      * Standing collaboration meetings around whiteboards\n      * Mix of formal meeting rooms and open collaboration spaces\n    - Atmosphere: Professional yet warm, showing Swiss precision with human happiness\n    - Time: Daytime with clear blue sky and sunlight illuminating the mountains\n    - Style: Photorealistic, corporate photography style\n    - Color scheme: UBS red and white colors prominent, with natural mountain blues and whites\n    - Details: Cable cars in background, Swiss flags, modern architecture blending with nature\n\n    Make it inspiring and aspirational, showing the perfect blend of Swiss banking excellence\n    and collaborative modern workplace culture.",
+  "model": "gemini-2.5-flash-image-preview",
+  "image_size": 1869135,
+  "dimensions": [
+    1024,
+    1024
+  ],
+  "mime_type": "image/png",
+  "file_paths": {
+    "standard": "output/swiss-bank-scenes/ubs_swiss_mountains_20250917_120819.png",
+    "high_res": "output/swiss-bank-scenes/ubs_swiss_mountains_20250917_120819_hires.png"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "agent": "advisor-data-manager",
+  "executionTime": 1758086141992,
+  "workflowId": "workflow_1758086111002",
+  "status": "completed",
+  "data": "Sample output from advisor-data-manager"
+}

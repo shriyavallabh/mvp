@@ -1,0 +1,63 @@
+{
+  "messageType": "MARKET_INTELLIGENCE_UPDATE",
+  "timestamp": "2025-09-17T04:30:01.386177+00:00",
+  "from": "market-intelligence",
+  "to": "linkedin-post-generator",
+  "priority": "HIGH",
+  "
+
+  "marketData": {
+    "headline": "Sensex crosses 81,400 with IT leading the charge",
+    "keyMetrics": {
+      "sensex": "81,425 (+0.40%)",
+      "nifty": "24,973 (+0.42%)",
+      "topSector": "IT (+2.63%)",
+      "goldPerformance": "50.4% annual returns"
+    }
+  },
+
+  "contentOpportunities": [
+    {
+      "theme": "IT Sector Momentum",
+      "angle": "Why tech stocks are outperforming and what it means for portfolios",
+      "urgency": "HIGH",
+      "targetSegments": ["Premium", "Gold"],
+      "keyData": "IT sector up 2.63%, driven by export benefits"
+    },
+    {
+      "theme": "Gold Investment Opportunity",
+      "angle": "Gold funds delivering exceptional returns - time to diversify?",
+      "urgency": "HIGH",
+      "targetSegments": ["All"],
+      "keyData": "50.4% returns, target ₹1,12,000 per 10g"
+    },
+    {
+      "theme": "Repo Rate Cut Benefits",
+      "angle": "How RBI's rate cut translates to lower EMIs and investment opportunities",
+      "urgency": "MEDIUM",
+      "targetSegments": ["Gold", "Silver"],
+      "keyData": "Repo rate at 5.50%, encouraging consumption"
+    },
+    {
+      "theme": "Festive Season Planning",
+      "angle": "Market momentum meets festive season - strategic investment planning",
+      "urgency": "MEDIUM",
+      "targetSegments": ["All"],
+      "keyData": "GDP growth 6.7%, inflation controlled at 3.7%"
+    }
+  ],
+
+  "marketTrends": {
+    "institutional": "FII focus shifting to export sectors, DII supporting domestic themes",
+    "sectors": "IT and PSU Banking leading, Auto facing headwinds",
+    "opportunities": "Defense/Electronics momentum, Gold diversification",
+    "risks": "US Fed uncertainty, Crude oil volatility"
+  },
+
+  "actionableInsights": [
+    "Book partial profits in IT after strong rally",
+    "Consider gold SIPs for portfolio balance",
+    "Accumulate quality banking on dips",
+    "Focus on domestic consumption themes"
+  ]
+}

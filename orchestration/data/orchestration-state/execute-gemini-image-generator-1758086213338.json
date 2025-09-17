@@ -1,0 +1,10 @@
+{
+  "workflowId": "workflow_1758086111002",
+  "agent": "gemini-image-generator",
+  "timestamp": 1758086213338,
+  "color": "red",
+  "voice": "Ralph",
+  "personality": "technical",
+  "taskCommand": "Task tool with subagent_type: gemini-image-generator",
+  "status": "ready-for-execution"
+}

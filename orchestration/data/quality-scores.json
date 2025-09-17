@@ -1,0 +1,7 @@
+{
+  "agent": "quality-scorer",
+  "executionTime": 1758086260304,
+  "workflowId": "workflow_1758086111002",
+  "status": "completed",
+  "data": "Sample output from quality-scorer"
+}

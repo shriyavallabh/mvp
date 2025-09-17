@@ -1,189 +1,316 @@
 {
-  "timestamp": "2025-09-17T07:33:56.908086",
-  "total_files_checked": 4,
-  "compliant_files": 0,
-  "non_compliant_files": 4,
-  "compliance_rate": 0.0,
-  "violations": [
+  "timestamp": "2025-09-17T13:02:44.240664",
+  "session": "session_2025-09-17T12-40-09-000Z",
+  "total_files_checked": 6,
+  "compliant_files": 4,
+  "files_with_violations": 2,
+  "files_with_warnings": 6,
+  "linkedin_results": [
     {
-      "type": "PAST_PERFORMANCE_NO_DISCLAIMER",
-      "severity": "MAJOR",
-      "file": "ADV_002_linkedin.txt",
-      "rule": "SEBI_PAST_001",
-      "explanation": "Past performance claims require disclaimer",
-      "fix": "Add: \"Past performance may not be sustained in future\""
-    },
-    {
-      "type": "PAST_PERFORMANCE_NO_DISCLAIMER",
-      "severity": "MAJOR",
-      "file": "ADV_003_linkedin.txt",
-      "rule": "SEBI_PAST_001",
-      "explanation": "Past performance claims require disclaimer",
-      "fix": "Add: \"Past performance may not be sustained in future\""
-    },
-    {
-      "type": "MISSING_DISCLAIMER",
-      "severity": "MAJOR",
-      "file": "generation_summary.json",
-      "rule": "SEBI_DISC_001",
-      "explanation": "Missing required market risk disclaimer",
-      "fix": "Add: \"Mutual fund investments are subject to market risks. Read all scheme related documents carefully.\""
-    },
-    {
-      "type": "MISSING_ARN",
-      "severity": "MAJOR",
-      "file": "generation_summary.json",
-      "rule": "SEBI_ARN_001",
-      "explanation": "Missing required ARN (AMFI Registration Number)",
-      "fix": "Add valid ARN number in format: ARN-XXXXX"
-    },
-    {
-      "type": "PAST_PERFORMANCE_NO_DISCLAIMER",
-      "severity": "MAJOR",
-      "file": "ADV_001_linkedin.txt",
-      "rule": "SEBI_PAST_001",
-      "explanation": "Past performance claims require disclaimer",
-      "fix": "Add: \"Past performance may not be sustained in future\""
-    }
-  ],
-  "warnings": [
-    {
-      "type": "MALFORMED_ARN",
-      "severity": "MINOR",
-      "file": "ADV_002_linkedin.txt",
-      "rule": "SEBI_ARN_002",
-      "explanation": "ARN format appears incorrect (should be ARN-XXXXX format)",
-      "current": "ARN_VIDYADHAR_002"
-    },
-    {
-      "type": "MALFORMED_ARN",
-      "severity": "MINOR",
-      "file": "ADV_003_linkedin.txt",
-      "rule": "SEBI_ARN_002",
-      "explanation": "ARN format appears incorrect (should be ARN-XXXXX format)",
-      "current": "Unknown"
-    },
-    {
-      "type": "MISSING_SEBI_MENTION",
-      "severity": "MINOR",
-      "file": "generation_summary.json",
-      "rule": "SEBI_REG_001",
-      "explanation": "Should mention SEBI Registered Mutual Fund Distributor status"
-    },
-    {
-      "type": "MALFORMED_ARN",
-      "severity": "MINOR",
-      "file": "ADV_001_linkedin.txt",
-      "rule": "SEBI_ARN_002",
-      "explanation": "ARN format appears incorrect (should be ARN-XXXXX format)",
-      "current": "Unknown"
-    }
-  ],
-  "file_results": {
-    "ADV_002_linkedin.txt": {
+      "file": "ADV_001_linkedin_2025-09-17T12-40-09-000Z.txt",
+      "type": "linkedin",
       "compliant": false,
-      "score": 0.6,
+      "score": 0.7,
+      "confidence": 0.8,
       "violations": [
         {
-          "type": "PAST_PERFORMANCE_NO_DISCLAIMER",
-          "severity": "MAJOR",
-          "file": "ADV_002_linkedin.txt",
-          "rule": "SEBI_PAST_001",
-          "explanation": "Past performance claims require disclaimer",
-          "fix": "Add: \"Past performance may not be sustained in future\""
-        }
-      ],
-      "warnings": [
-        {
-          "type": "MALFORMED_ARN",
-          "severity": "MINOR",
-          "file": "ADV_002_linkedin.txt",
-          "rule": "SEBI_ARN_002",
-          "explanation": "ARN format appears incorrect (should be ARN-XXXXX format)",
-          "current": "ARN_VIDYADHAR_002"
-        }
-      ]
-    },
-    "ADV_003_linkedin.txt": {
-      "compliant": false,
-      "score": 0.6,
-      "violations": [
-        {
-          "type": "PAST_PERFORMANCE_NO_DISCLAIMER",
-          "severity": "MAJOR",
-          "file": "ADV_003_linkedin.txt",
-          "rule": "SEBI_PAST_001",
-          "explanation": "Past performance claims require disclaimer",
-          "fix": "Add: \"Past performance may not be sustained in future\""
-        }
-      ],
-      "warnings": [
-        {
-          "type": "MALFORMED_ARN",
-          "severity": "MINOR",
-          "file": "ADV_003_linkedin.txt",
-          "rule": "SEBI_ARN_002",
-          "explanation": "ARN format appears incorrect (should be ARN-XXXXX format)",
-          "current": "Unknown"
-        }
-      ]
-    },
-    "generation_summary.json": {
-      "compliant": false,
-      "score": 0.3,
-      "violations": [
-        {
-          "type": "MISSING_DISCLAIMER",
-          "severity": "MAJOR",
-          "file": "generation_summary.json",
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
           "rule": "SEBI_DISC_001",
-          "explanation": "Missing required market risk disclaimer",
-          "fix": "Add: \"Mutual fund investments are subject to market risks. Read all scheme related documents carefully.\""
+          "explanation": "Missing mandatory market risk disclaimer",
+          "file": "ADV_001_linkedin_2025-09-17T12-40-09-000Z.txt"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "minor",
+          "element": "document_warning",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Consider adding scheme document reading advisory",
+          "file": "ADV_001_linkedin_2025-09-17T12-40-09-000Z.txt"
+        }
+      ],
+      "compliant_elements": [
+        {
+          "element": "ARN",
+          "found": true,
+          "rule": "SEBI_ARN_001"
         },
         {
-          "type": "MISSING_ARN",
-          "severity": "MAJOR",
-          "file": "generation_summary.json",
-          "rule": "SEBI_ARN_001",
-          "explanation": "Missing required ARN (AMFI Registration Number)",
-          "fix": "Add valid ARN number in format: ARN-XXXXX"
+          "element": "past_performance_disclaimer",
+          "found": true,
+          "rule": "SEBI_PERF_001"
         }
       ],
+      "audit_trail": [],
+      "character_count": 2534
+    },
+    {
+      "file": "ADV_002_linkedin_2025-09-17T12-40-09-000Z.txt",
+      "type": "linkedin",
+      "compliant": true,
+      "score": 1.0,
+      "confidence": 1.0,
+      "violations": [],
       "warnings": [
         {
-          "type": "MISSING_SEBI_MENTION",
-          "severity": "MINOR",
-          "file": "generation_summary.json",
-          "rule": "SEBI_REG_001",
-          "explanation": "Should mention SEBI Registered Mutual Fund Distributor status"
+          "type": "performance_claim",
+          "severity": "minor",
+          "element": "past_performance_disclaimer",
+          "rule": "SEBI_PERF_001",
+          "explanation": "Performance figures mentioned - ensure past performance disclaimer is clear",
+          "file": "ADV_002_linkedin_2025-09-17T12-40-09-000Z.txt"
         }
-      ]
+      ],
+      "compliant_elements": [
+        {
+          "element": "ARN",
+          "found": true,
+          "rule": "SEBI_ARN_001"
+        },
+        {
+          "element": "market_risk_disclaimer",
+          "found": true,
+          "rule": "SEBI_DISC_001"
+        },
+        {
+          "element": "document_warning",
+          "found": true,
+          "rule": "SEBI_DOC_001"
+        }
+      ],
+      "audit_trail": [],
+      "character_count": 2699
     },
-    "ADV_001_linkedin.txt": {
+    {
+      "file": "ADV_003_linkedin_2025-09-17T12-40-09-000Z.txt",
+      "type": "linkedin",
       "compliant": false,
-      "score": 0.6,
+      "score": 0.7,
+      "confidence": 0.8,
       "violations": [
         {
-          "type": "PAST_PERFORMANCE_NO_DISCLAIMER",
-          "severity": "MAJOR",
-          "file": "ADV_001_linkedin.txt",
-          "rule": "SEBI_PAST_001",
-          "explanation": "Past performance claims require disclaimer",
-          "fix": "Add: \"Past performance may not be sustained in future\""
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing mandatory market risk disclaimer",
+          "file": "ADV_003_linkedin_2025-09-17T12-40-09-000Z.txt"
         }
       ],
       "warnings": [
         {
-          "type": "MALFORMED_ARN",
-          "severity": "MINOR",
-          "file": "ADV_001_linkedin.txt",
-          "rule": "SEBI_ARN_002",
-          "explanation": "ARN format appears incorrect (should be ARN-XXXXX format)",
-          "current": "Unknown"
+          "type": "performance_claim",
+          "severity": "minor",
+          "element": "past_performance_disclaimer",
+          "rule": "SEBI_PERF_001",
+          "explanation": "Performance figures mentioned - ensure past performance disclaimer is clear",
+          "file": "ADV_003_linkedin_2025-09-17T12-40-09-000Z.txt"
         }
-      ]
+      ],
+      "compliant_elements": [
+        {
+          "element": "ARN",
+          "found": true,
+          "rule": "SEBI_ARN_001"
+        },
+        {
+          "element": "document_warning",
+          "found": true,
+          "rule": "SEBI_DOC_001"
+        }
+      ],
+      "audit_trail": [],
+      "character_count": 2840
     }
-  },
+  ],
+  "whatsapp_results": [
+    {
+      "file": "ADV_001_whatsapp_2025-09-17T12-47-55-000Z.txt",
+      "type": "whatsapp",
+      "compliant": true,
+      "score": 0.9,
+      "confidence": 1.0,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Consider adding market risk disclaimer",
+          "file": "ADV_001_whatsapp_2025-09-17T12-47-55-000Z.txt"
+        }
+      ],
+      "compliant_elements": [
+        {
+          "element": "ARN",
+          "found": true,
+          "rule": "SEBI_ARN_001"
+        }
+      ],
+      "audit_trail": [],
+      "character_count": 261
+    },
+    {
+      "file": "ADV_002_whatsapp_2025-09-17T12-47-55-000Z.txt",
+      "type": "whatsapp",
+      "compliant": true,
+      "score": 0.9,
+      "confidence": 1.0,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Consider adding market risk disclaimer",
+          "file": "ADV_002_whatsapp_2025-09-17T12-47-55-000Z.txt"
+        }
+      ],
+      "compliant_elements": [
+        {
+          "element": "ARN",
+          "found": true,
+          "rule": "SEBI_ARN_001"
+        }
+      ],
+      "audit_trail": [],
+      "character_count": 244
+    },
+    {
+      "file": "ADV_003_whatsapp_2025-09-17T12-47-55-000Z.txt",
+      "type": "whatsapp",
+      "compliant": true,
+      "score": 0.9,
+      "confidence": 1.0,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Consider adding market risk disclaimer",
+          "file": "ADV_003_whatsapp_2025-09-17T12-47-55-000Z.txt"
+        }
+      ],
+      "compliant_elements": [
+        {
+          "element": "ARN",
+          "found": true,
+          "rule": "SEBI_ARN_001"
+        }
+      ],
+      "audit_trail": [],
+      "character_count": 212
+    }
+  ],
+  "critical_violations": [
+    {
+      "type": "missing_element",
+      "severity": "critical",
+      "element": "market_risk_disclaimer",
+      "rule": "SEBI_DISC_001",
+      "explanation": "Missing mandatory market risk disclaimer",
+      "file": "ADV_001_linkedin_2025-09-17T12-40-09-000Z.txt"
+    },
+    {
+      "type": "missing_element",
+      "severity": "critical",
+      "element": "market_risk_disclaimer",
+      "rule": "SEBI_DISC_001",
+      "explanation": "Missing mandatory market risk disclaimer",
+      "file": "ADV_003_linkedin_2025-09-17T12-40-09-000Z.txt"
+    }
+  ],
+  "all_violations": [
+    {
+      "type": "missing_element",
+      "severity": "critical",
+      "element": "market_risk_disclaimer",
+      "rule": "SEBI_DISC_001",
+      "explanation": "Missing mandatory market risk disclaimer",
+      "file": "ADV_001_linkedin_2025-09-17T12-40-09-000Z.txt"
+    },
+    {
+      "type": "missing_element",
+      "severity": "critical",
+      "element": "market_risk_disclaimer",
+      "rule": "SEBI_DISC_001",
+      "explanation": "Missing mandatory market risk disclaimer",
+      "file": "ADV_003_linkedin_2025-09-17T12-40-09-000Z.txt"
+    }
+  ],
+  "all_warnings": [
+    {
+      "type": "missing_element",
+      "severity": "minor",
+      "element": "document_warning",
+      "rule": "SEBI_DOC_001",
+      "explanation": "Consider adding scheme document reading advisory",
+      "file": "ADV_001_linkedin_2025-09-17T12-40-09-000Z.txt"
+    },
+    {
+      "type": "performance_claim",
+      "severity": "minor",
+      "element": "past_performance_disclaimer",
+      "rule": "SEBI_PERF_001",
+      "explanation": "Performance figures mentioned - ensure past performance disclaimer is clear",
+      "file": "ADV_002_linkedin_2025-09-17T12-40-09-000Z.txt"
+    },
+    {
+      "type": "performance_claim",
+      "severity": "minor",
+      "element": "past_performance_disclaimer",
+      "rule": "SEBI_PERF_001",
+      "explanation": "Performance figures mentioned - ensure past performance disclaimer is clear",
+      "file": "ADV_003_linkedin_2025-09-17T12-40-09-000Z.txt"
+    },
+    {
+      "type": "missing_element",
+      "severity": "major",
+      "element": "market_risk_disclaimer",
+      "rule": "SEBI_DISC_001",
+      "explanation": "Consider adding market risk disclaimer",
+      "file": "ADV_001_whatsapp_2025-09-17T12-47-55-000Z.txt"
+    },
+    {
+      "type": "missing_element",
+      "severity": "major",
+      "element": "market_risk_disclaimer",
+      "rule": "SEBI_DISC_001",
+      "explanation": "Consider adding market risk disclaimer",
+      "file": "ADV_002_whatsapp_2025-09-17T12-47-55-000Z.txt"
+    },
+    {
+      "type": "missing_element",
+      "severity": "major",
+      "element": "market_risk_disclaimer",
+      "rule": "SEBI_DISC_001",
+      "explanation": "Consider adding market risk disclaimer",
+      "file": "ADV_003_whatsapp_2025-09-17T12-47-55-000Z.txt"
+    }
+  ],
+  "compliance_score": 0.67,
+  "recommendation": "CRITICAL: Content regeneration required due to SEBI compliance violations",
+  "regeneration_required": true,
   "status": "REJECTED",
-  "certificate": "SEBI-COMP-20250917073356"
+  "summary": {
+    "linkedin": {
+      "total": 3,
+      "compliant": 1,
+      "violations": 2,
+      "warnings": 3
+    },
+    "whatsapp": {
+      "total": 3,
+      "compliant": 3,
+      "violations": 0,
+      "warnings": 3
+    }
+  }
 }

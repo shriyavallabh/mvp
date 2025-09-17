@@ -1,0 +1,71 @@
+{
+  "ADV_SHRUTI_001": {
+    "statusImage": {
+      "dimensions": "1080x1920",
+      "format": "PNG",
+      "type": "whatsapp-status",
+      "prompt": "Professional financial advisory status image for Shruti Petkar, featuring market data: Nifty 19850, modern design, brand colors #1E3A8A, #F59E0B, company: Shruti Financial Advisory",
+      "filename": "ADV_SHRUTI_001_status.png"
+    },
+    "marketingImage": {
+      "dimensions": "1200x628",
+      "format": "PNG",
+      "type": "social-media",
+      "prompt": "Financial market insights graphic for Shruti Financial Advisory, showing bullish market sentiment, professional design, brand colors #1E3A8A, #F59E0B, advisor: Shruti Petkar",
+      "filename": "ADV_SHRUTI_001_marketing.png"
+    },
+    "portfolioImage": {
+      "dimensions": "1080x1080",
+      "format": "PNG",
+      "type": "instagram-post",
+      "prompt": "Portfolio performance visualization for Shruti Petkar, featuring investment themes, clean professional design, brand colors #1E3A8A, #F59E0B, wealth management focus",
+      "filename": "ADV_SHRUTI_001_portfolio.png"
+    }
+  },
+  "ADV_AVALOK_002": {
+    "statusImage": {
+      "dimensions": "1080x1920",
+      "format": "PNG",
+      "type": "whatsapp-status",
+      "prompt": "Professional financial advisory status image for Avalok Bhatt, featuring market data: Nifty 19850, modern design, brand colors #059669, #DC2626, company: Avalok Investment Solutions",
+      "filename": "ADV_AVALOK_002_status.png"
+    },
+    "marketingImage": {
+      "dimensions": "1200x628",
+      "format": "PNG",
+      "type": "social-media",
+      "prompt": "Financial market insights graphic for Avalok Investment Solutions, showing bullish market sentiment, professional design, brand colors #059669, #DC2626, advisor: Avalok Bhatt",
+      "filename": "ADV_AVALOK_002_marketing.png"
+    },
+    "portfolioImage": {
+      "dimensions": "1080x1080",
+      "format": "PNG",
+      "type": "instagram-post",
+      "prompt": "Portfolio performance visualization for Avalok Bhatt, featuring investment themes, clean professional design, brand colors #059669, #DC2626, wealth management focus",
+      "filename": "ADV_AVALOK_002_portfolio.png"
+    }
+  },
+  "ADV_VIDYADHAR_003": {
+    "statusImage": {
+      "dimensions": "1080x1920",
+      "format": "PNG",
+      "type": "whatsapp-status",
+      "prompt": "Professional financial advisory status image for Vidyadhar Kulkarni, featuring market data: Nifty 19850, modern design, brand colors #7C3AED, #F97316, company: Kulkarni Financial Consultancy",
+      "filename": "ADV_VIDYADHAR_003_status.png"
+    },
+    "marketingImage": {
+      "dimensions": "1200x628",
+      "format": "PNG",
+      "type": "social-media",
+      "prompt": "Financial market insights graphic for Kulkarni Financial Consultancy, showing bullish market sentiment, professional design, brand colors #7C3AED, #F97316, advisor: Vidyadhar Kulkarni",
+      "filename": "ADV_VIDYADHAR_003_marketing.png"
+    },
+    "portfolioImage": {
+      "dimensions": "1080x1080",
+      "format": "PNG",
+      "type": "instagram-post",
+      "prompt": "Portfolio performance visualization for Vidyadhar Kulkarni, featuring investment themes, clean professional design, brand colors #7C3AED, #F97316, wealth management focus",
+      "filename": "ADV_VIDYADHAR_003_portfolio.png"
+    }
+  }
+}

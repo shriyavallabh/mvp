@@ -1,0 +1,105 @@
+{
+  "version": "1.0.0",
+  "commands": [
+    {
+      "name": "master",
+      "description": "Master orchestrator for complete end-to-end flow",
+      "trigger": "/master",
+      "agent": "agents/master.md"
+    },
+    {
+      "name": "advisor-data-manager",
+      "description": "Fetches advisor data from Google Sheets",
+      "trigger": "/advisordatamanager",
+      "agent": "agents/advisor-data-manager.md"
+    },
+    {
+      "name": "market-intelligence",
+      "description": "Gathers real-time market data and insights",
+      "trigger": "/marketintelligence",
+      "agent": "agents/market-intelligence.md"
+    },
+    {
+      "name": "segment-analyzer",
+      "description": "Analyzes advisor segments for content customization",
+      "trigger": "/segmentanalyzer",
+      "agent": "agents/segment-analyzer.md"
+    },
+    {
+      "name": "linkedin-post-generator",
+      "description": "Creates viral LinkedIn posts (1200+ chars)",
+      "trigger": "/linkedinpostgenerator",
+      "agent": "agents/linkedin-post-generator.md"
+    },
+    {
+      "name": "whatsapp-message-creator",
+      "description": "Creates engaging WhatsApp messages (300-400 chars)",
+      "trigger": "/whatsappmessagecreator",
+      "agent": "agents/whatsapp-message-creator.md"
+    },
+    {
+      "name": "status-image-designer",
+      "description": "Designs WhatsApp Status images (1080x1920)",
+      "trigger": "/statusimagedesigner",
+      "agent": "agents/status-image-designer.md"
+    },
+    {
+      "name": "gemini-image-generator",
+      "description": "Generates images using Gemini imagen3",
+      "trigger": "/geminiimagegenerator",
+      "agent": "agents/gemini-image-generator.md"
+    },
+    {
+      "name": "brand-customizer",
+      "description": "Applies advisor branding to content",
+      "trigger": "/brandcustomizer",
+      "agent": "agents/brand-customizer.md"
+    },
+    {
+      "name": "compliance-validator",
+      "description": "Ensures SEBI and WhatsApp compliance",
+      "trigger": "/compliancevalidator",
+      "agent": "agents/compliance-validator.md"
+    },
+    {
+      "name": "quality-scorer",
+      "description": "Scores content quality for auto-approval",
+      "trigger": "/qualityscorer",
+      "agent": "agents/quality-scorer.md"
+    },
+    {
+      "name": "fatigue-checker",
+      "description": "Prevents content repetition",
+      "trigger": "/fatiguechecker",
+      "agent": "agents/fatigue-checker.md"
+    },
+    {
+      "name": "distribution-controller",
+      "description": "Manages content distribution",
+      "trigger": "/distributioncontroller",
+      "agent": "agents/distribution-controller.md"
+    },
+    {
+      "name": "analytics-tracker",
+      "description": "Tracks performance metrics",
+      "trigger": "/analyticstracker",
+      "agent": "agents/analytics-tracker.md"
+    },
+    {
+      "name": "feedback-processor",
+      "description": "Processes feedback for improvements",
+      "trigger": "/feedbackprocessor",
+      "agent": "agents/feedback-processor.md"
+    },
+    {
+      "name": "finadvise-true-orchestration",
+      "description": "TRUE multi-agent orchestration using real Task tool invocations",
+      "trigger": "/finadvise",
+      "agent": "agents/true-task-orchestrator.md",
+      "orchestration_mode": "task-based",
+      "use_task_tool": true,
+      "no_hooks_intercept": true,
+      "single_voice": "Samantha"
+    }
+  ]
+}

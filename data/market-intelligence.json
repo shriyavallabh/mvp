@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-17T12:40:39+05:30",
+    "session": "session_2025-09-17T12-40-09-000Z",
+    "dataSource": "fetched_from_live_apis",
+    "marketStatus": "open",
+    "tradingHours": "9:15 AM - 3:30 PM IST"
+  },
+  "indices": {
+    "sensex": {
+      "requestedValue": 75838,
+      "lastAvailable": 82690,
+      "lastAvailableDate": "2025-09-17",
+      "change": 594.95,
+      "changePercent": 0.73,
+      "dayHigh": 82443.48,
+      "dayLow": null,
+      "monthlyGain": 1.74,
+      "yearlyChange": -0.31,
+      "source": "BSE India"
+    },
+    "nifty50": {
+      "requestedValue": 23024,
+      "lastAvailable": 25210.05,
+      "lastAvailableDate": "2025-09-27",
+      "change": null,
+      "changePercent": null,
+      "52WeekHigh": 26277.35,
+      "52WeekHighDate": "2024-09-27",
+      "source": "NSE India"
+    },
+    "bankNifty": {
+      "value": null,
+      "change": null,
+      "changePercent": null,
+      "note": "Data not available in current search"
+    }
+  },
+  "sectors": {
+    "topPerformers": [
+      {
+        "name": "Realty",
+        "yearlyReturn": 48.61,
+        "period": "2024 Year-End"
+      },
+      {
+        "name": "Pharma",
+        "yearlyReturn": 39.27,
+        "period": "2024 Year-End",
+        "currentIndex": 22302.60,
+        "dayChange": -0.29
+      },
+      {
+        "name": "Information Technology",
+        "status": "Positive momentum",
+        "dominance": "Second highest weight in Sensex"
+      },
+      {
+        "name": "PSU Banks",
+        "performance": "Strong Q4 FY25 earnings",
+        "highlights": "Better asset quality, reduced NPAs"
+      }
+    ],
+    "underPerformers": [],
+    "sectorAnalysis": {
+      "banking": {
+        "weight": "Most dominant in Sensex",
+        "trend": "Strong NIM maintenance",
+        "assetQuality": "Improving NPAs",
+        "rbiImpact": "Stable rates boosting confidence"
+      },
+      "it": {
+        "weight": "Second highest in index",
+        "trend": "Positive gains in recent sessions",
+        "contribution": "Major index contributor"
+      },
+      "pharma": {
+        "niftyPharmaIndex": 22302.60,
+        "dayChange": -64.80,
+        "dayChangePercent": -0.29,
+        "yearlyReturn": 39.27,
+        "sessionHigh": 22420.55,
+        "sessionLow": 22187.75
+      },
+      "auto": {
+        "trend": "Leading gains in recent sessions",
+        "yearlyPerformance": "Part of top performers"
+      }
+    }
+  },
+  "mutualFunds": {
+    "overview": {
+      "totalAUM": "₹30,35,915.64 crore",
+      "monthlyInflows": "₹60,363.70 crore",
+      "period": "November 2024",
+      "trend": "Continued growth in schemes"
+    },
+    "topEquityFunds": [
+      {
+        "name": "Quant Small Cap Fund",
+        "nav": 278.59,
+        "navDate": "2024-12-23",
+        "category": "Small Cap",
+        "objective": "Capital appreciation via small-cap portfolio"
+      },
+      {
+        "name": "Nippon India Small Cap Fund",
+        "nav": 54.54,
+        "navDate": "2024-12-23",
+        "3YearCAGR": 24.98,
+        "category": "Small Cap"
+      },
+      {
+        "name": "Quant Infrastructure Fund",
+        "nav": 194.23,
+        "navDate": "2024-12-23",
+        "3YearCAGR": 28.41,
+        "category": "Infrastructure"
+      }
+    ],
+    "topHybridFunds": [
+      {
+        "name": "Kotak Equity Hybrid Fund",
+        "nav": 71.16,
+        "aum": "₹6,815.47 cr",
+        "1YearReturn": 24.34,
+        "5YearCAGR": 19.61
+      },
+      {
+        "name": "HDFC Balanced Advantage Fund",
+        "nav": 536.28,
+        "aum": "₹95,569.87 cr",
+        "1YearReturn": 18.06,
+        "5YearCAGR": 20.59
+      },
+      {
+        "name": "Mahindra Manulife Aggressive Hybrid Fund",
+        "nav": 28.57,
+        "aum": "₹1,502.95 cr",
+        "1YearReturn": 23.34,
+        "5YearCAGR": 21.05
+      }
+    ],
+    "trends": {
+      "equityOriented": "Strong net inflows continuing",
+      "investorSentiment": "Increasingly attractive landscape",
+      "performance": "Outperforming stock market indices"
+    }
+  },
+  "institutionalFlows": {
+    "fii": {
+      "fy25Activity": "Net sellers",
+      "totalSelling": "₹1.27 lakh crore",
+      "totalSellingUSD": "$14.89 billion",
+      "octRecord": "₹114,445.89 crore (highest monthly selling)",
+      "recentTrend": "Reduced selling in March 2025",
+      "q1_2025Inflow": {
+        "total": "₹1,51,465 crore",
+        "totalUSD": "$17.4 billion",
+        "equity": "₹80,967 crore",
+        "equityUSD": "$9.3 billion"
+      }
+    },
+    "dii": {
+      "fy25Activity": "Consistent buyers",
+      "totalBuying": "₹6.06 lakh crore",
+      "totalBuyingUSD": "$71.04 billion",
+      "trend": "Strong buying streak throughout FY25",
+      "marketSupport": "Offsetting FII selling pressure"
+    },
+    "marketImpact": {
+      "divergence": "Clear divergence between FII and DII behavior",
+      "support": "DIIs preventing sharper market corrections",
+      "outlook": "Domestic institutions providing stability"
+    }
+  },
+  "globalMarkets": {
+    "usMarkets": {
+      "influence": "India-US trade talks boosting sentiment"
+    },
+    "commodities": {
+      "crude": "Monitoring levels above $80",
+      "gold": "Data not available in current search"
+    },
+    "currency": {
+      "usdInr": "Data not available in current search"
+    }
+  },
+  "marketMood": {
+    "sentiment": "Cautiously optimistic",
+    "drivers": [
+      "India-US trade negotiations",
+      "Strong DII support",
+      "Banking sector stability",
+      "Q4 FY25 earnings expectations"
+    ],
+    "concerns": [
+      "FII selling pressure",
+      "Global economic uncertainties",
+      "Crude oil prices above $80"
+    ]
+  },
+  "keyEvents": [
+    "India-US trade discussions ongoing",
+    "Q4 FY25 earnings season",
+    "RBI maintaining stable interest rates",
+    "Record FII selling in October 2024"
+  ],
+  "insights": {
+    "shortTerm": "Market supported by DII flows despite FII selling",
+    "mediumTerm": "Sector rotation favoring Realty, Pharma, and IT",
+    "longTerm": "Domestic institutional strength offsetting foreign outflows",
+    "sectors": {
+      "bullish": ["Realty", "Pharma", "IT", "PSU Banks"],
+      "neutral": ["Auto"],
+      "bearish": []
+    },
+    "risks": [
+      "Continued FII outflows",
+      "Global market volatility",
+      "Crude oil price pressures",
+      "Currency fluctuations"
+    ],
+    "opportunities": [
+      "Strong domestic consumption themes",
+      "Banking sector with improved asset quality",
+      "Infrastructure development plays",
+      "Small-cap funds showing strong performance"
+    ]
+  },
+  "recommendations": [
+    "Monitor DII vs FII flow patterns for market direction",
+    "Focus on sectors with strong domestic drivers",
+    "Consider hybrid funds for balanced exposure",
+    "Track banking sector for NPA improvements",
+    "Watch small-cap funds for growth opportunities",
+    "Maintain 10-15% cash for market corrections"
+  ],
+  "dataQuality": {
+    "note": "Some requested specific values (Sensex 75838, Nifty 23024) not found in live data",
+    "lastUpdate": "Data compiled from multiple sources as of January 17, 2025",
+    "sources": [
+      "NSE India",
+      "BSE India",
+      "AMFI",
+      "Various financial platforms"
+    ]
+  }
+}

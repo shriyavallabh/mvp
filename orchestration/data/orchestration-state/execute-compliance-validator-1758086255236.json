@@ -1,0 +1,10 @@
+{
+  "workflowId": "workflow_1758086111002",
+  "agent": "compliance-validator",
+  "timestamp": 1758086255236,
+  "color": "brightred",
+  "voice": "Bruce",
+  "personality": "authoritative",
+  "taskCommand": "Task tool with subagent_type: compliance-validator",
+  "status": "ready-for-execution"
+}

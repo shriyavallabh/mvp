@@ -1,0 +1,65 @@
+{
+  "workflowId": "workflow_1758086111002",
+  "startTime": 1758086121111,
+  "status": "initializing",
+  "mcpServerEnabled": false,
+  "audioEnabled": true,
+  "agents": [
+    {
+      "name": "advisor-data-manager",
+      "status": "pending"
+    },
+    {
+      "name": "market-intelligence",
+      "status": "pending"
+    },
+    {
+      "name": "segment-analyzer",
+      "status": "pending"
+    },
+    {
+      "name": "linkedin-post-generator",
+      "status": "pending"
+    },
+    {
+      "name": "whatsapp-message-creator",
+      "status": "pending"
+    },
+    {
+      "name": "status-image-designer",
+      "status": "pending"
+    },
+    {
+      "name": "gemini-image-generator",
+      "status": "pending"
+    },
+    {
+      "name": "brand-customizer",
+      "status": "pending"
+    },
+    {
+      "name": "compliance-validator",
+      "status": "pending"
+    },
+    {
+      "name": "quality-scorer",
+      "status": "pending"
+    },
+    {
+      "name": "fatigue-checker",
+      "status": "pending"
+    },
+    {
+      "name": "distribution-controller",
+      "status": "pending"
+    },
+    {
+      "name": "analytics-tracker",
+      "status": "pending"
+    },
+    {
+      "name": "feedback-processor",
+      "status": "pending"
+    }
+  ]
+}

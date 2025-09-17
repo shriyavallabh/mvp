@@ -1,0 +1,10 @@
+{
+  "workflowId": "workflow_1758086111002",
+  "agent": "whatsapp-message-creator",
+  "timestamp": 1758086182563,
+  "color": "green",
+  "voice": "Karen",
+  "personality": "engaging",
+  "taskCommand": "Task tool with subagent_type: whatsapp-message-creator",
+  "status": "ready-for-execution"
+}

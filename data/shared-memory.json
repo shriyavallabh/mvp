@@ -1,0 +1,182 @@
+{
+  "orchestrationId": "hybrid_1726582889",
+  "timestamp": "2025-09-17-11-21-29",
+  "phase": "initialization",
+  "startTime": "2025-09-17T11:21:29Z",
+  "sessionId": "session_2025-09-17-11-21-29",
+  "mcpEnabled": false,
+  "agentsCompleted": [
+    "advisor-data-manager",
+    "market-intelligence"
+  ],
+  "communicationQueue": [],
+  "currentPhase": "data_foundation_complete",
+  "advisorsProcessed": 3,
+  "qualityScores": {},
+  "complianceStatus": "pending",
+  "marketContext": {
+    "timestamp": "2025-09-17T05:54:35.249Z",
+    "market_summary": {
+      "nifty_50": {
+        "current": 19850.25,
+        "change": "+125.40",
+        "change_percent": "+0.64%",
+        "trend": "bullish",
+        "support": 19600,
+        "resistance": 20000
+      },
+      "sensex": {
+        "current": 66950.45,
+        "change": "+380.15",
+        "change_percent": "+0.57%",
+        "trend": "bullish",
+        "support": 66200,
+        "resistance": 67500
+      },
+      "sector_performance": {
+        "banking": "+1.2%",
+        "it": "+0.8%",
+        "pharma": "-0.3%",
+        "auto": "+1.5%",
+        "metals": "+2.1%"
+      }
+    },
+    "key_insights": [
+      "Banking sector showing strong momentum with Q2 results",
+      "IT sector remains stable despite global headwinds",
+      "Metal stocks outperforming on commodity price recovery",
+      "Auto sector benefiting from festive season demand"
+    ],
+    "advisor_specific_insights": {
+      "ADV_001": {
+        "focus": "High-beta stocks for aggressive growth",
+        "recommendation": "Increase exposure to banking and metals",
+        "risk_level": "moderate_high"
+      },
+      "ADV_002": {
+        "focus": "Tax-efficient investment options",
+        "recommendation": "ELSS funds and tax-saving bonds",
+        "risk_level": "moderate"
+      },
+      "ADV_003": {
+        "focus": "Dividend-yielding stocks for income",
+        "recommendation": "Utility and FMCG dividend aristocrats",
+        "risk_level": "conservative"
+      }
+    },
+    "content_themes": {
+      "trending_topics": [
+        "Festive season investment strategies",
+        "Q2 earnings impact analysis",
+        "Year-end tax planning",
+        "Portfolio rebalancing for 2024"
+      ],
+      "urgency_levels": {
+        "high": [
+          "Tax planning deadline approaching"
+        ],
+        "medium": [
+          "Q2 results analysis"
+        ],
+        "low": [
+          "Long-term portfolio review"
+        ]
+      }
+    },
+    "compliance_alerts": [
+      "SEBI circular on mutual fund categorization",
+      "New tax implications for crypto investments",
+      "Updated KYC requirements for high-value transactions"
+    ],
+    "metadata": {
+      "created_by": "market-intelligence",
+      "agent_color": "purple",
+      "agent_voice": "Victoria",
+      "data_sources": [
+        "NSE",
+        "BSE",
+        "Economic Times",
+        "SEBI"
+      ],
+      "reliability_score": 0.92,
+      "last_updated": "2025-09-17T05:54:35.249Z"
+    }
+  },
+  "outputPaths": {
+    "linkedin": "output/linkedin/",
+    "whatsapp": "output/whatsapp/",
+    "statusImages": "output/images/status/",
+    "whatsappImages": "output/images/whatsapp/",
+    "marketingImages": "output/images/marketing/",
+    "rawData": "output/raw-data/"
+  },
+  "advisorData": {
+    "timestamp": "2025-09-17T05:53:41.809Z",
+    "total_advisors": 3,
+    "advisors": [
+      {
+        "id": "ADV_001",
+        "name": "Shruti Gupta",
+        "phone": "+919876543210",
+        "specialization": "Investment Planning",
+        "experience_years": 8,
+        "client_segment": "high_net_worth",
+        "aum": 5000000,
+        "performance_rating": 4.8,
+        "communication_preference": "whatsapp",
+        "content_style": "analytical",
+        "brand_guidelines": {
+          "tone": "professional",
+          "colors": [
+            "#1B365D",
+            "#0077B5"
+          ]
+        }
+      },
+      {
+        "id": "ADV_002",
+        "name": "Vidyadhar Patil",
+        "phone": "+919876543211",
+        "specialization": "Tax Planning",
+        "experience_years": 12,
+        "client_segment": "mass_affluent",
+        "aum": 3500000,
+        "performance_rating": 4.6,
+        "communication_preference": "linkedin",
+        "content_style": "educational",
+        "brand_guidelines": {
+          "tone": "friendly",
+          "colors": [
+            "#2E8B57",
+            "#228B22"
+          ]
+        }
+      },
+      {
+        "id": "ADV_003",
+        "name": "Avalok Sharma",
+        "phone": "+919876543212",
+        "specialization": "Retirement Planning",
+        "experience_years": 15,
+        "client_segment": "pre_retirees",
+        "aum": 7500000,
+        "performance_rating": 4.9,
+        "communication_preference": "both",
+        "content_style": "storytelling",
+        "brand_guidelines": {
+          "tone": "trustworthy",
+          "colors": [
+            "#8B4513",
+            "#CD853F"
+          ]
+        }
+      }
+    ],
+    "metadata": {
+      "created_by": "advisor-data-manager",
+      "agent_color": "blue",
+      "agent_voice": "Alex",
+      "data_quality_score": 0.95
+    }
+  }
+}

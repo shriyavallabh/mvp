@@ -1,0 +1,10 @@
+{
+  "workflowId": "workflow_1758086111002",
+  "agent": "market-intelligence",
+  "timestamp": 1758086149762,
+  "color": "purple",
+  "voice": "Victoria",
+  "personality": "authoritative",
+  "taskCommand": "Task tool with subagent_type: market-intelligence",
+  "status": "ready-for-execution"
+}

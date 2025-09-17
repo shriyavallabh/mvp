@@ -1,0 +1,10 @@
+{
+  "workflowId": "workflow_1758086111002",
+  "agent": "brand-customizer",
+  "timestamp": 1758086233282,
+  "color": "magenta",
+  "voice": "Kathy",
+  "personality": "professional",
+  "taskCommand": "Task tool with subagent_type: brand-customizer",
+  "status": "ready-for-execution"
+}

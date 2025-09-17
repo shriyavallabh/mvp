@@ -1,0 +1,10 @@
+{
+  "workflowId": "workflow_1758086111002",
+  "agent": "advisor-data-manager",
+  "timestamp": 1758086138991,
+  "color": "blue",
+  "voice": "Alex",
+  "personality": "analytical",
+  "taskCommand": "Task tool with subagent_type: advisor-data-manager",
+  "status": "ready-for-execution"
+}

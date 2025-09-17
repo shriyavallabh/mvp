@@ -1,0 +1,30 @@
+{
+  "name": "finadvise-orchestrator-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for FinAdvise Hybrid Agent Orchestration",
+  "type": "module",
+  "main": "finadvise-orchestrator.js",
+  "scripts": {
+    "start": "node finadvise-orchestrator.js",
+    "dev": "node --inspect finadvise-orchestrator.js",
+    "test": "node test-orchestrator.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "claude-code",
+    "agent-orchestration",
+    "finadvise",
+    "multi-agent"
+  ],
+  "author": "FinAdvise Team",
+  "license": "MIT"
+}

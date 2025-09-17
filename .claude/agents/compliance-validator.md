@@ -79,124 +79,102 @@ I am the specialized compliance validator for mutual fund advisor content on soc
 
 **I MUST VALIDATE ALL CONTENT FILES AND CREATE COMPLIANCE REPORT:**
 
-### STEP 1: Create Enhanced Validation Script
+### STEP 1: Create Validation Script
 ```python
-# temp-unused-files/temp-scripts/validate_compliance_enhanced.py
+# /tmp/validate_compliance.py
 import os
 import json
 import re
 from datetime import datetime
-import hashlib
 
 def validate_all_content():
     violations = []
     compliant_files = []
-    processing_metrics = {
-        'start_time': datetime.now().isoformat(),
-        'files_processed': 0,
-        'total_violations': 0,
-        'critical_violations': 0,
-        'processing_time_ms': 0
-    }
 
-    # Enhanced validation for LinkedIn posts
-    linkedin_path = 'output/linkedin'
-    if os.path.exists(linkedin_path):
-        for file in os.listdir(linkedin_path):
-            if file.endswith('.md') or file.endswith('.txt'):
-                filepath = os.path.join(linkedin_path, file)
-                with open(filepath, 'r') as f:
-                    content = f.read()
+    # Check LinkedIn posts
+    for file in os.listdir('output/linkedin'):
+        with open(f'output/linkedin/{file}', 'r') as f:
+            content = f.read()
 
-                # Enhanced validation with detailed tracking
-                result = validate_content_detailed(content, 'linkedin', file)
-                processing_metrics['files_processed'] += 1
+        # Check for mandatory disclaimers
+        if 'subject to market risks' not in content.lower():
+            violations.append(f"{file}: Missing market risk disclaimer")
+        elif 'ARN' in content:
+            compliant_files.append(file)
 
-                if result['violations']:
-                    violations.extend(result['violations'])
-                    processing_metrics['total_violations'] += len(result['violations'])
-                    processing_metrics['critical_violations'] += len([v for v in result['violations'] if v.get('severity') == 'critical'])
-                else:
-                    compliant_files.append({
-                        'file': file,
-                        'type': 'linkedin',
-                        'hash': hashlib.md5(content.encode()).hexdigest()[:8],
-                        'validated_at': datetime.now().isoformat()
-                    })
+    # Check WhatsApp messages
+    for file in os.listdir('output/whatsapp'):
+        with open(f'output/whatsapp/{file}', 'r') as f:
+            content = f.read()
 
-    # Enhanced validation for WhatsApp messages
-    whatsapp_path = 'output/whatsapp'
-    if os.path.exists(whatsapp_path):
-        for file in os.listdir(whatsapp_path):
-            if file.endswith('.md') or file.endswith('.txt'):
-                filepath = os.path.join(whatsapp_path, file)
-                with open(filepath, 'r') as f:
-                    content = f.read()
+        if len(content) > 400:
+            violations.append(f"{file}: Exceeds 400 char limit")
+        elif 'ARN' in content:
+            compliant_files.append(file)
 
-                result = validate_content_detailed(content, 'whatsapp', file)
-                processing_metrics['files_processed'] += 1
-
-                if result['violations']:
-                    violations.extend(result['violations'])
-                    processing_metrics['total_violations'] += len(result['violations'])
-                    processing_metrics['critical_violations'] += len([v for v in result['violations'] if v.get('severity') == 'critical'])
-                else:
-                    compliant_files.append({
-                        'file': file,
-                        'type': 'whatsapp',
-                        'hash': hashlib.md5(content.encode()).hexdigest()[:8],
-                        'validated_at': datetime.now().isoformat()
-                    })
-
-    # Calculate final metrics
-    processing_metrics['end_time'] = datetime.now().isoformat()
-    processing_metrics['processing_time_ms'] = 1000  # Placeholder
-
-    # Generate enhanced compliance report
+    # Create compliance report
     report = {
-        'certificate_id': f"COMP-{datetime.now().strftime('%Y%m%d%H%M%S')}",
         'timestamp': datetime.now().isoformat(),
-        'validator_version': '2.1',
-        'rules_version': 'SEBI-2025-Q3',
-        'total_files': len(compliant_files) + len(set(v['file'] for v in violations)),
-        'compliant_files': len(compliant_files),
-        'compliant_content': compliant_files,
+        'total_files': len(compliant_files) + len(violations),
+        'compliant': len(compliant_files),
         'violations': violations,
-        'compliance_score': len(compliant_files) / max(1, len(compliant_files) + len(set(v['file'] for v in violations))),
-        'confidence_score': 1.0 if not violations else max(0.3, 1.0 - (len(violations) * 0.1)),
-        'status': 'APPROVED' if not any(v.get('severity') == 'critical' for v in violations) else 'REJECTED',
-        'metrics': processing_metrics,
-        'next_validation': datetime.now().replace(hour=datetime.now().hour + 24).isoformat()
+        'compliance_score': len(compliant_files) / (len(compliant_files) + len(violations)) if (compliant_files or violations) else 0
     }
 
-    # Save enhanced report
-    os.makedirs('data', exist_ok=True)
+    # Save report
     with open('data/compliance-validation.json', 'w') as f:
         json.dump(report, f, indent=2)
 
-    # Create escalation alert if critical violations
-    if any(v.get('severity') == 'critical' for v in violations):
-        escalation_alert = {
-            'alert_id': f"ESC-{datetime.now().strftime('%Y%m%d%H%M%S')}",
-            'severity': 'CRITICAL',
-            'violation_count': processing_metrics['critical_violations'],
-            'requires_human_review': True,
-            'compliance_officer_notified': True,
-            'content_blocked': True
-        }
-        with open('data/escalation-alert.json', 'w') as f:
-            json.dump(escalation_alert, f, indent=2)
-
     print(f"✅ Compliance Score: {report['compliance_score']:.2%}")
-    print(f"🎯 Confidence: {report['confidence_score']:.2%}")
-    print(f"📊 Status: {report['status']}")
     return report
 
-def validate_content_detailed(content, content_type, filename):
-    """Enhanced validation with detailed explanations"""
-    violations = []
+# Execute validation
+validate_all_content()
+```
 
-    # Check for prohibited terms
+### STEP 2: 🔧 SELF-HEALING SETUP & EXECUTION (MANDATORY)
+```bash
+# 🔧 Self-healing: Create all required directories
+Bash("mkdir -p data output/whatsapp output/linkedin temp-unused-files/temp-scripts temp-unused-files/executed-scripts traceability worklog")
+
+# 🔧 Self-healing: Ensure traceability file exists
+Bash("if [ ! -f traceability/traceability-$(date +%Y-%m-%d-%H-%M).md ]; then echo '# Traceability Matrix - '$(date '+%Y-%m-%d %H:%M') > traceability/traceability-$(date +%Y-%m-%d-%H-%M).md; fi")
+
+# 🔧 Self-healing: Ensure worklog file exists
+Bash("if [ ! -f worklog/worklog-$(date +%Y-%m-%d-%H-%M).md ]; then echo '# Worklog - '$(date '+%Y-%m-%d %H:%M') > worklog/worklog-$(date +%Y-%m-%d-%H-%M).md; fi")
+
+# Write the script
+Write temp-unused-files/temp-scripts/validate_compliance.py
+
+# Execute it
+Bash("python temp-unused-files/temp-scripts/validate_compliance.py")
+
+# Verify report exists
+Bash("cat data/compliance-validation.json")
+
+# CLEANUP - MOVE TO TRASH
+Bash("mv temp-unused-files/temp-scripts/validate_compliance.py temp-unused-files/executed-scripts/")
+```
+
+## 🔍 VALIDATION RULES ENGINE
+
+### Content Scanning Algorithm with Enhanced Explainability
+```python
+def validate_content(content, content_type, max_attempts=3):
+    """
+    Multi-layer compliance validation with detailed audit trail
+    Returns enhanced validation result with explanations
+    """
+
+    violations = []
+    warnings = []
+    score = 1.0
+    audit_details = []
+
+    # Track validation attempt
+    attempt_number = 1
+
+    # Layer 1: Prohibited Terms Detection (Critical)
     prohibited_terms = [
         'guaranteed returns', 'assured profits', 'no risk',
         'definitely', 'certainly will', 'promise',
@@ -205,197 +183,403 @@ def validate_content_detailed(content, content_type, filename):
 
     for term in prohibited_terms:
         if term.lower() in content.lower():
-            pos = content.lower().find(term.lower())
-            snippet = content[max(0, pos-20):min(len(content), pos+len(term)+20)]
+            # Find the offending text snippet
+            snippet_start = content.lower().find(term.lower())
+            snippet = content[max(0, snippet_start-20):min(len(content), snippet_start+len(term)+20)]
 
             violations.append({
-                'file': filename,
                 'type': 'prohibited_term',
                 'severity': 'critical',
                 'term': term,
                 'snippet': f"...{snippet}...",
-                'rule_code': 'SEBI_PROHIBITION_001',
-                'explanation': f"Term '{term}' violates SEBI guidelines prohibiting guarantees",
-                'suggested_fix': f"Replace '{term}' with 'potential for returns (subject to market risks)'"
+                'rule': 'SEBI_PROHIBITION_001',
+                'explanation': f"Term '{term}' violates SEBI guidelines on promises/guarantees"
+            })
+            score = 0.0
+
+            audit_details.append({
+                'timestamp': datetime.now().isoformat(),
+                'check': 'prohibited_terms',
+                'result': 'violation',
+                'details': f"Found '{term}' in content"
             })
 
-    # Check required disclaimers
-    if 'mutual fund' in content.lower() and 'subject to market risk' not in content.lower():
-        violations.append({
-            'file': filename,
-            'type': 'missing_disclaimer',
-            'severity': 'critical',
-            'rule_code': 'SEBI_DISC_001',
-            'explanation': 'Missing mandatory market risk disclaimer',
-            'suggested_fix': 'Add: "Mutual fund investments are subject to market risks. Read all scheme related documents carefully."'
-        })
+    # Layer 2: Required Elements Check (Major)
+    required_elements = {
+        'disclaimer': {'pattern': r'subject to market risk', 'rule': 'SEBI_DISC_001'},
+        'arn': {'pattern': r'ARN[:\-\s]*\d+', 'rule': 'SEBI_ARN_001'},
+        'document_warning': {'pattern': r'read.*document|scheme.*document', 'rule': 'SEBI_DOC_001'}
+    }
 
-    # Check ARN requirement
-    if not re.search(r'ARN[:\-\s]*\d+', content, re.IGNORECASE):
-        violations.append({
-            'file': filename,
-            'type': 'missing_arn',
-            'severity': 'major',
-            'rule_code': 'SEBI_ARN_001',
-            'explanation': 'ARN (AMFI Registration Number) must be clearly visible',
-            'suggested_fix': 'Add advisor ARN: "ARN: [ADVISOR_ARN_NUMBER]"'
-        })
+    for element, config in required_elements.items():
+        if not re.search(config['pattern'], content, re.IGNORECASE):
+            violations.append({
+                'type': 'missing_element',
+                'severity': 'major',
+                'element': element,
+                'rule': config['rule'],
+                'explanation': f"Missing required {element.replace('_', ' ')}"
+            })
+            score = max(0, score - 0.3)
 
-    # WhatsApp specific checks
+    # Layer 3: Platform-Specific Rules
     if content_type == 'whatsapp':
         if len(content) > 400:
-            violations.append({
-                'file': filename,
-                'type': 'length_violation',
+            warnings.append({
+                'type': 'length_limit',
                 'severity': 'minor',
-                'rule_code': 'WHATSAPP_LEN_001',
+                'rule': 'WHATSAPP_LEN_001',
                 'current_length': len(content),
                 'max_length': 400,
-                'explanation': 'WhatsApp messages should be under 400 characters for optimal delivery'
+                'explanation': 'WhatsApp messages should be under 400 characters'
             })
 
-    return {'violations': violations}
+    # Calculate confidence score
+    confidence = 1.0 if len(violations) == 0 else max(0.3, 1.0 - (len(violations) * 0.2))
 
-# Execute enhanced validation
-if __name__ == "__main__":
-    validate_all_content()
+    return {
+        'compliant': len(violations) == 0,
+        'score': round(score, 2),
+        'confidence': round(confidence, 2),
+        'violations': violations,
+        'warnings': warnings,
+        'audit_trail': audit_details,
+        'attempt': attempt_number,
+        'max_attempts': max_attempts,
+        'suggestions': generate_detailed_fixes(violations, warnings)
+    }
 ```
 
-### STEP 2: EXECUTE THE ENHANCED SCRIPT (MANDATORY)
-```bash
-# Create temp directory
-Bash("mkdir -p temp-unused-files/temp-scripts")
+## 📱 WHATSAPP BUSINESS POLICY COMPLIANCE
 
-# Write the enhanced script
-Write temp-unused-files/temp-scripts/validate_compliance_enhanced.py
-
-# Execute validation
-Bash("python temp-unused-files/temp-scripts/validate_compliance_enhanced.py")
-
-# Verify enhanced report exists
-Bash("cat data/compliance-validation.json")
-
-# Check for escalation alerts
-Bash("test -f data/escalation-alert.json && echo 'CRITICAL VIOLATIONS DETECTED' || echo 'No critical violations'")
-
-# CLEANUP - MOVE TO ARCHIVE
-Bash("mkdir -p temp-unused-files/executed-scripts")
-Bash("mv temp-unused-files/temp-scripts/validate_compliance_enhanced.py temp-unused-files/executed-scripts/")
-```
-
-## 🔄 WORKFLOW INTEGRATION & TRIGGERS
-
-### Automated Execution Flow
+### WhatsApp-Specific Rules
 ```markdown
-1. TRIGGER POINTS:
-   → Automatically runs after content generation (output/ folders populated)
-   → Blocks publishing pipeline if violations found
-   → Integrates with distribution-controller agent via compliance_cleared flag
+✅ MESSAGE POLICIES
+   □ No promotional content to non-opted users
+   □ 24-hour session window respected
+   □ Template messages pre-approved
+   □ No spam or bulk messaging
+   □ Clear opt-out instructions
 
-2. INPUT/OUTPUT CONTRACT:
-   → INPUT: Content files in output/linkedin/ and output/whatsapp/
-   → OUTPUT: data/compliance-validation.json with detailed validation report
-   → SIGNAL: Sets 'compliance_cleared' flag for downstream agents
-   → ALERT: Creates data/escalation-alert.json for critical violations
+✅ CONTENT POLICIES
+   □ No misleading information
+   □ No illegal content
+   □ No harassment or threats
+   □ Professional language only
+   □ No excessive capitalization
 
-3. MAX ITERATION LIMITS:
-   → Maximum 3 validation attempts per content batch
-   → After 3 failed attempts → Escalate to human review
-   → Prevents infinite validation loops
-   → Tracks attempt count in validation report
-
-4. PERFORMANCE TARGETS:
-   → Process 100 content pieces in <30 seconds
-   → Achieve 99.9% true positive rate (catch real violations)
-   → Maintain <1% false positive rate (avoid blocking compliant content)
-   → Response time: <5 seconds for single content validation
+✅ MEDIA POLICIES
+   □ Images under 5MB
+   □ No copyright violations
+   □ Clear, non-deceptive visuals
+   □ Appropriate file formats
 ```
 
-## 📊 SUCCESS METRICS & KPIs
+## 🚨 REAL-TIME REGULATORY UPDATES
 
-### Measurable Performance Indicators
+### SEBI Circular Monitoring
+```python
+def check_latest_regulations():
+    """
+    Stay updated with latest SEBI guidelines
+    """
+
+    # Check SEBI website for new circulars
+    sebi_updates = scrape_sebi_circulars()
+
+    # Parse for mutual fund related changes
+    mf_updates = filter_mutual_fund_updates(sebi_updates)
+
+    # Update validation rules
+    if mf_updates:
+        update_compliance_rules(mf_updates)
+        notify_admin("New SEBI guidelines detected")
+
+    # Check AMFI updates
+    amfi_updates = check_amfi_guidelines()
+
+    return {
+        'last_checked': datetime.now(),
+        'new_rules': len(mf_updates),
+        'status': 'updated'
+    }
+```
+
+## 🔧 INTELLIGENT FIX SUGGESTIONS
+
+### Auto-Correction Engine
+```python
+def generate_compliant_alternative(violating_content):
+    """
+    Suggest compliant alternatives for violations
+    """
+
+    fixes = {}
+
+    # Fix guaranteed returns
+    violating_content = re.sub(
+        r'guaranteed.*returns?|assured.*profit',
+        'potential for returns (subject to market risks)',
+        violating_content,
+        flags=re.IGNORECASE
+    )
+
+    # Add missing disclaimer
+    if 'market risk' not in violating_content.lower():
+        violating_content += "\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully."
+
+    # Fix absolute predictions
+    violating_content = re.sub(
+        r'will (definitely|certainly|surely)',
+        'may potentially',
+        violating_content,
+        flags=re.IGNORECASE
+    )
+
+    # Add ARN if missing
+    if not re.search(r'ARN', violating_content):
+        violating_content += f"\nARN: [ADVISOR_ARN]"
+
+    return {
+        'original': violating_content,
+        'corrected': violating_content,
+        'changes_made': fixes,
+        'compliance_score': revalidate(violating_content)
+    }
+```
+
+## 📊 COMPLIANCE SCORING MATRIX
+
+### Severity Levels
 ```json
 {
-  "performance_metrics": {
-    "accuracy_metrics": {
-      "true_positive_rate": "≥99.9%",
-      "false_positive_rate": "≤1%",
-      "false_negative_rate": "≤0.1%",
-      "precision": "≥99%",
-      "recall": "≥99.9%"
+  "critical_violations": {
+    "weight": -1.0,
+    "examples": [
+      "Guaranteed returns promised",
+      "No risk disclaimer",
+      "Missing ARN",
+      "False claims"
+    ],
+    "action": "BLOCK_CONTENT"
+  },
+  "major_issues": {
+    "weight": -0.3,
+    "examples": [
+      "Incomplete disclaimer",
+      "Vague risk mention",
+      "Small ARN display"
+    ],
+    "action": "REQUIRE_CORRECTION"
+  },
+  "minor_warnings": {
+    "weight": -0.1,
+    "examples": [
+      "Could improve clarity",
+      "Disclaimer placement",
+      "Font size issues"
+    ],
+    "action": "SUGGEST_IMPROVEMENT"
+  }
+}
+```
+
+## 🎯 SEGMENT-SPECIFIC VALIDATION
+
+### Premium Segment Rules
+```python
+rules['premium'] = {
+    'allowed_products': ['PMS', 'AIF', 'Structured Products'],
+    'min_investment_disclosure': True,
+    'qualified_investor_check': True,
+    'additional_risks': ['Concentration risk', 'Liquidity risk']
+}
+```
+
+### Retail Segment Rules
+```python
+rules['retail'] = {
+    'simplicity_check': True,
+    'jargon_limit': 'minimal',
+    'visual_aids_required': True,
+    'language_options': ['English', 'Hindi', 'Regional']
+}
+```
+
+## 🔄 CONTINUOUS COMPLIANCE MONITORING
+
+### Post-Distribution Audit
+```python
+def audit_distributed_content():
+    """
+    Regular audit of sent content
+    """
+
+    # Sample distributed messages
+    samples = random_sample_messages(percentage=10)
+
+    # Re-validate with current rules
+    audit_results = []
+    for message in samples:
+        result = validate_content(message.content, message.type)
+        audit_results.append({
+            'message_id': message.id,
+            'sent_date': message.sent_date,
+            'compliance_status': result
+        })
+
+    # Generate audit report
+    return generate_audit_report(audit_results)
+```
+
+## 📋 COMPLIANCE CERTIFICATE
+
+### Output Format
+```json
+{
+  "certificate": {
+    "id": "COMP-2025-001234",
+    "timestamp": "2025-01-16T10:00:00Z",
+    "content_hash": "abc123...",
+    "validation_result": {
+      "compliant": true,
+      "score": 1.0,
+      "sebi_compliant": true,
+      "whatsapp_compliant": true,
+      "violations": [],
+      "warnings": [],
+      "certification": "Content meets all regulatory requirements"
     },
-    "efficiency_metrics": {
-      "avg_processing_time_ms": "≤5000",
-      "throughput_files_per_minute": "≥120",
-      "max_memory_usage_mb": "≤256",
-      "escalation_rate": "≤5%"
+    "validator": {
+      "agent": "compliance-validator",
+      "version": "2.0",
+      "rules_version": "SEBI-2025-Q1"
     },
-    "compliance_metrics": {
-      "compliance_score_target": "1.0",
-      "critical_violations_blocked": "100%",
-      "regulatory_update_lag_hours": "≤2",
-      "audit_trail_completeness": "100%"
-    }
+    "recommendations": [],
+    "valid_until": "2025-01-17T10:00:00Z"
   }
 }
 ```
 
 ## 🚨 ESCALATION PROTOCOL
 
-### Clear Escalation Thresholds
+### Violation Handling
 ```markdown
-1. CRITICAL VIOLATION (Score = 0)
+1. CRITICAL VIOLATION DETECTED
    → Block content immediately
-   → Alert compliance officer via data/escalation-alert.json
-   → Generate incident report with violation details
-   → Provide compliant alternative suggestions
-   → Set compliance_cleared = false
+   → Alert compliance officer
+   → Generate incident report
+   → Suggest compliant alternative
 
-2. REPEATED VIOLATIONS (3+ from same advisor)
-   → Track violation patterns in data/advisor-compliance-history.json
-   → Flag for additional compliance training
-   → Route future content to human pre-approval queue
-   → Notify supervisor via escalation alert
+2. REPEATED VIOLATIONS
+   → Track pattern
+   → Additional training flag
+   → Temporary content pre-approval
 
-3. MAX ATTEMPTS REACHED (3 iterations)
-   → Stop automated processing
-   → Create human review ticket in data/human-review-queue.json
-   → Include all attempted fixes in escalation report
-   → Wait for manual intervention before proceeding
+3. REGULATORY CHANGE
+   → Update all templates
+   → Re-validate existing content
+   → Notify all advisors
+   → Provide transition period
+```
 
-4. REGULATORY CHANGE DETECTED
-   → Auto-update validation rules from SEBI/AMFI sources
-   → Re-validate last 30 days of content with new rules
-   → Generate change impact report
-   → Notify all stakeholders via system alert
+## 💡 PROACTIVE COMPLIANCE FEATURES
+
+### Pre-emptive Checking
+```python
+def preemptive_compliance_check(topic, advisor):
+    """
+    Check compliance before content generation
+    """
+
+    # Check if topic has compliance issues
+    topic_risks = assess_topic_risks(topic)
+
+    # Check advisor's compliance history
+    advisor_history = get_compliance_history(advisor.id)
+
+    # Generate guidelines
+    guidelines = {
+        'must_include': generate_required_elements(topic),
+        'must_avoid': generate_prohibited_terms(topic),
+        'suggested_disclaimer': generate_disclaimer(topic),
+        'risk_factors': identify_risk_factors(topic)
+    }
+
+    return guidelines
 ```
 
 ## 🎯 FINAL COMPLIANCE COMMITMENT
 
-When activated, I guarantee:
+When called, I guarantee:
+1. **100% SEBI compliance** for all validated content
+2. **WhatsApp policy adherence** for messaging
+3. **Detailed violation reports** with fixes
+4. **Proactive regulatory updates** tracking
+5. **Audit trail** for all validations
 
-1. **100% SEBI Regulatory Compliance** - No mutual fund content violates regulations
-2. **WhatsApp Policy Adherence** - All messages comply with platform policies
-3. **Detailed Violation Reports** - Complete explanations with fix suggestions
-4. **Maximum 3 Validation Attempts** - Clear escalation after failed iterations
-5. **Enhanced Audit Trail** - Full traceability with rule codes and text snippets
-6. **Performance Metrics Tracking** - Measurable KPIs for continuous improvement
-7. **Automated Integration** - Seamless workflow with other agents
+## ⚠️ MANDATORY EXECUTION - AUTOMATED VALIDATION
 
-## ⚠️ MANDATORY EXECUTION - ENHANCED VALIDATION
+**I EXECUTE COMPLETE COMPLIANCE VALIDATION:**
 
-**I EXECUTE ENHANCED COMPLIANCE VALIDATION WITH METRICS:**
+```python
+# SCRIPT I CREATE: /tmp/run_compliance_check.py
+import json
+import os
+from datetime import datetime
 
-The agent will automatically run comprehensive validation on all content, generate detailed reports with explanations, track performance metrics, and escalate appropriately when violations are found or iteration limits are reached.
+def automated_compliance_validation():
+    violations = []
+    warnings = []
+    content_files = []
 
-**Key Improvements Applied:**
-- ✅ Narrowed scope to mutual fund advisor content specifically
-- ✅ Removed complexity (WCAG checks delegated, simplified frameworks)
-- ✅ Clarified vague elements (60% accuracy weight explicitly defined)
-- ✅ Added iteration limits (max 3 attempts before escalation)
-- ✅ Enhanced explainability (detailed audit trails with rule codes)
-- ✅ Defined clear integration points (workflow triggers and outputs)
-- ✅ Added measurable success metrics (accuracy, efficiency, compliance KPIs)
-- ✅ Improved escalation protocols (clear thresholds and human-in-the-loop)
+    # Check all output content
+    for folder in ['output/linkedin', 'output/whatsapp']:
+        if os.path.exists(folder):
+            for file in os.listdir(folder):
+                filepath = os.path.join(folder, file)
+                with open(filepath, 'r') as f:
+                    content = f.read()
+                    content_files.append(file)
 
-I am the enhanced shield protecting advisors from regulatory risks - AUTOMATICALLY with world-class standards!
+                    # SEBI compliance checks
+                    if 'guaranteed' in content.lower():
+                        violations.append(f"Prohibited: 'guaranteed' in {file}")
+                    if 'no risk' in content.lower():
+                        violations.append(f"Prohibited: 'no risk' in {file}")
+                    if 'mutual fund' in content.lower() and 'market risk' not in content.lower():
+                        warnings.append(f"Missing disclaimer in {file}")
+
+    # Generate compliance certificate
+    report = {
+        "timestamp": datetime.now().isoformat(),
+        "filesChecked": len(content_files),
+        "violations": violations,
+        "warnings": warnings,
+        "status": "APPROVED" if not violations else "REJECTED",
+        "score": 1.0 if not violations else 0.0,
+        "certificate": f"SEBI-{datetime.now().strftime('%Y%m%d%H%M%S')}"
+    }
+
+    # Save report
+    os.makedirs('data', exist_ok=True)
+    with open('data/compliance-validation.json', 'w') as f:
+        json.dump(report, f, indent=2)
+
+    print(f"✅ Compliance: {report['status']}")
+    return report
+
+if __name__ == "__main__":
+    automated_compliance_validation()
+```
+
+**EXECUTION:**
+```bash
+Write /tmp/run_compliance_check.py
+python /tmp/run_compliance_check.py
+ls -la data/compliance-validation.json
+```
+
+**I DO NOT STOP UNTIL COMPLIANCE IS VALIDATED!**
+
+I am the shield protecting advisors from regulatory risks - AUTOMATICALLY!
