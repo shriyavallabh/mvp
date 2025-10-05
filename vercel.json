@@ -7,6 +7,14 @@
       "dest": "/api/webhook"
     },
     {
+      "src": "/privacy",
+      "dest": "/api/privacy"
+    },
+    {
+      "src": "/terms",
+      "dest": "/api/terms"
+    },
+    {
       "src": "/health",
       "dest": "/api/health"
     },
