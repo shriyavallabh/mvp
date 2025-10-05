@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Your Daily Content - JarvisDaily</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            border-radius: 20px 20px 0 0;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .content-card {
+            background: white;
+            padding: 0;
+            margin-top: 2px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        .content-card:last-child {
+            border-radius: 0 0 20px 20px;
+        }
+
+        .card-header {
+            padding: 20px;
+            border-bottom: 2px solid #f0f0f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-header h2 {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .content-text {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 15px;
+            font-size: 15px;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 15px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:active {
+            transform: scale(0.98);
+        }
+
+        .btn-success {
+            background: #10b981;
+            color: white;
+        }
+
+        .image-preview {
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+            font-size: 18px;
+        }
+
+        .error {
+            background: white;
+            border-radius: 20px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #e74c3c;
+        }
+
+        .phone-input {
+            background: white;
+            border-radius: 20px;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .phone-input input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 12px;
+            font-size: 16px;
+            margin: 20px 0;
+        }
+
+        .char-count {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .date-badge {
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .content-card {
+            animation: fadeIn 0.5s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="loading" class="loading">
+            <div>Loading your content...</div>
+        </div>
+
+        <div id="phone-input" class="phone-input" style="display: none;">
+            <h2 style="margin-bottom: 10px;">Enter Your WhatsApp Number</h2>
+            <p style="color: #666; margin-bottom: 20px;">We'll show you today's content</p>
+            <input type="tel" id="phoneNumber" placeholder="Enter 10-digit number" maxlength="10">
+            <button class="btn btn-primary" onclick="loadContent()">View Content</button>
+        </div>
+
+        <div id="error" class="error" style="display: none;">
+            <h2>Content Not Available</h2>
+            <p id="error-message"></p>
+        </div>
+
+        <div id="content" style="display: none;"></div>
+    </div>
+
+    <script>
+        // Get phone from URL or prompt
+        const urlParams = new URLSearchParams(window.location.search);
+        let phone = urlParams.get('phone');
+
+        if (phone) {
+            loadContent();
+        } else {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('phone-input').style.display = 'block';
+        }
+
+        async function loadContent() {
+            const loadingEl = document.getElementById('loading');
+            const errorEl = document.getElementById('error');
+            const contentEl = document.getElementById('content');
+            const phoneInputEl = document.getElementById('phone-input');
+
+            // Get phone number
+            if (!phone) {
+                phone = document.getElementById('phoneNumber').value.trim();
+                if (!phone) {
+                    alert('Please enter your phone number');
+                    return;
+                }
+            }
+
+            // Show loading
+            loadingEl.style.display = 'block';
+            errorEl.style.display = 'none';
+            contentEl.style.display = 'none';
+            phoneInputEl.style.display = 'none';
+
+            try {
+                const response = await fetch(`/api/dashboard?phone=${phone}`);
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.error || 'Failed to load content');
+                }
+
+                // Render content
+                renderContent(data);
+            } catch (e) {
+                loadingEl.style.display = 'none';
+                errorEl.style.display = 'block';
+                document.getElementById('error-message').textContent = e.message;
+            }
+        }
+
+        function renderContent(data) {
+            const { advisor, content } = data;
+            const contentEl = document.getElementById('content');
+
+            const html = `
+                <div class="header">
+                    <h1>Hello, ${advisor.name}!</h1>
+                    <p>Your daily content is ready to share</p>
+                    <div style="margin-top: 15px;">
+                        <span class="date-badge">${formatDate(content.sessionDate)}</span>
+                    </div>
+                </div>
+
+                ${content.whatsappMessage ? `
+                <div class="content-card">
+                    <div class="card-header">
+                        <h2>📱 WhatsApp Message</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="content-text">${escapeHtml(content.whatsappMessage)}</div>
+                        <div class="char-count">${content.whatsappMessage.length} characters</div>
+                        <button class="btn btn-primary" onclick="copyText('whatsapp', \`${escapeForJs(content.whatsappMessage)}\`)">
+                            📋 Copy Message
+                        </button>
+                    </div>
+                </div>
+                ` : ''}
+
+                ${content.linkedinPost ? `
+                <div class="content-card">
+                    <div class="card-header">
+                        <h2>💼 LinkedIn Post</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="content-text">${escapeHtml(content.linkedinPost)}</div>
+                        <div class="char-count">${content.linkedinPost.length} characters</div>
+                        <button class="btn btn-primary" onclick="copyText('linkedin', \`${escapeForJs(content.linkedinPost)}\`)">
+                            📋 Copy Post
+                        </button>
+                    </div>
+                </div>
+                ` : ''}
+
+                ${content.statusImage ? `
+                <div class="content-card">
+                    <div class="card-header">
+                        <h2>📸 Status Image</h2>
+                    </div>
+                    <div class="card-body">
+                        <img src="${content.statusImage}" class="image-preview" alt="Status Image">
+                        <a href="${content.statusImage}" download="status-${content.sessionDate}.png">
+                            <button class="btn btn-primary">
+                                ⬇️ Download Image
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                ` : ''}
+            `;
+
+            contentEl.innerHTML = html;
+            document.getElementById('loading').style.display = 'none';
+            contentEl.style.display = 'block';
+        }
+
+        function copyText(type, text) {
+            navigator.clipboard.writeText(text).then(() => {
+                const btn = event.target;
+                const originalText = btn.innerHTML;
+                btn.innerHTML = '✅ Copied!';
+                btn.classList.remove('btn-primary');
+                btn.classList.add('btn-success');
+
+                setTimeout(() => {
+                    btn.innerHTML = originalText;
+                    btn.classList.remove('btn-success');
+                    btn.classList.add('btn-primary');
+                }, 2000);
+            });
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function escapeForJs(text) {
+            return text.replace(/`/g, '\\`').replace(/\$/g, '\\$');
+        }
+
+        function formatDate(dateStr) {
+            try {
+                const date = new Date(dateStr);
+                return date.toLocaleDateString('en-IN', {
+                    weekday: 'short',
+                    year: 'numeric',
+                    month: 'short',
+                    day: 'numeric'
+                });
+            } catch (e) {
+                return dateStr;
+            }
+        }
+    </script>
+</body>
+</html>

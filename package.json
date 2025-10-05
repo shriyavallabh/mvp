@@ -4,8 +4,13 @@
   "description": "FinAdvise WhatsApp Webhook for Vercel",
   "main": "api/webhook.js",
   "scripts": {
-    "dev": "vercel dev",
-    "start": "vercel --prod"
+    "dev": "node test-server.js",
+    "deploy": "vercel --prod",
+    "test-content": "node scripts/generate-test-content.js",
+    "send-notifications": "node scripts/send-aisensy.js",
+    "daily-workflow": "node scripts/daily-automation.js",
+    "upload-images": "node scripts/upload-images-cloudinary.js",
+    "test-dashboard": "npm run test-content && npm run dev"
   },
   "dependencies": {
     "@anthropic-ai/claude-agent-sdk": "^0.1.1",

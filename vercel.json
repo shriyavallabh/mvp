@@ -3,6 +3,18 @@
   "outputDirectory": ".",
   "routes": [
     {
+      "src": "/dashboard",
+      "dest": "/public/dashboard.html"
+    },
+    {
+      "src": "/api/dashboard",
+      "dest": "/api/dashboard"
+    },
+    {
+      "src": "/api/image",
+      "dest": "/api/image"
+    },
+    {
       "src": "/webhook",
       "dest": "/api/webhook"
     },
@@ -17,14 +29,6 @@
     {
       "src": "/health",
       "dest": "/api/health"
-    },
-    {
-      "src": "/test",
-      "dest": "/api/test"
-    },
-    {
-      "src": "/send-template",
-      "dest": "/api/send-template"
     }
   ]
 }
