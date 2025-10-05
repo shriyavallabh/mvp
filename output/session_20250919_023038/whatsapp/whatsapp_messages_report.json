@@ -1,0 +1,48 @@
+{
+  "session_id": "session_20250919_023038",
+  "timestamp": "2025-09-19T02:48:28.612822",
+  "messages_created": {
+    "Standard": 3,
+    "Active": 3,
+    "Gold": 3
+  },
+  "total_messages": 9,
+  "topics_covered": [
+    "Global Diversification",
+    "Portfolio Strategies for HNIs",
+    "SEBI F&O Changes Warning",
+    "Estate Planning & Wealth Transfer",
+    "Rate Cutting Cycle Benefits",
+    "Tax Saving Deadline",
+    "Fixed Deposit Rate Cuts",
+    "Market Correction as Opportunity",
+    "Market Correction Strategy"
+  ],
+  "emotional_tones": [
+    "Urgent, Professional",
+    "Sophisticated, Exclusive",
+    "Analytical, Action-focused",
+    "Trustworthy, Private",
+    "Alert, Solution-oriented",
+    "Opportunistic, Expert",
+    "Urgent, Helpful",
+    "Elite, International",
+    "Reassuring, Educational"
+  ],
+  "character_compliance": "All messages between 280-420 characters",
+  "files_saved_to": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/whatsapp",
+  "segment_breakdown": {
+    "Standard": {
+      "count": 3,
+      "focus": "Education, tax saving, simple investing"
+    },
+    "Active": {
+      "count": 3,
+      "focus": "Market analysis, SEBI alerts, opportunities"
+    },
+    "Gold": {
+      "count": 3,
+      "focus": "Exclusive insights, global diversification, estate planning"
+    }
+  }
+}

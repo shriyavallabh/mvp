@@ -1,0 +1,31 @@
+{
+  "sessionId": "session_1759397686841",
+  "timestamp": "2025-10-02T09:47:15.778Z",
+  "contentMetrics": {
+    "linkedInPosts": 6,
+    "whatsappMessages": 6,
+    "statusImages": 5,
+    "totalAssets": 17
+  },
+  "qualityMetrics": {
+    "avgQualityScore": 7.64,
+    "grammyLevelContent": 3,
+    "complianceScore": 9
+  },
+  "advisorCoverage": {
+    "totalAdvisors": 4,
+    "premium": 2,
+    "gold": 1,
+    "silver": 1
+  },
+  "estimatedReach": {
+    "linkedIn": 2400,
+    "whatsApp": 1200,
+    "status": 1000
+  },
+  "performance": {
+    "sessionDuration": "8 minutes",
+    "agentsExecuted": 11,
+    "successRate": "95%"
+  }
+}

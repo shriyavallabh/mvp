@@ -1,0 +1,57 @@
+{
+  "919765071249": {
+    "phoneNumber": "919765071249",
+    "name": "Shriya Vallabh",
+    "optedIn": true,
+    "optInDate": "2025-09-21T05:59:41.465Z",
+    "optInSource": "website_signup",
+    "marketingConsent": true,
+    "lastMessageSent": "2025-09-21T05:59:42.458Z",
+    "unsubscribed": false,
+    "unsubscribeDate": null
+  },
+  "919022810769": {
+    "phoneNumber": "919022810769",
+    "name": "Tranquil Veda",
+    "optedIn": true,
+    "optInDate": "2025-09-21T05:59:41.466Z",
+    "optInSource": "qr_code",
+    "marketingConsent": true,
+    "lastMessageSent": "2025-09-21T05:59:45.349Z",
+    "unsubscribed": false,
+    "unsubscribeDate": null
+  },
+  "918433915020": {
+    "phoneNumber": "918433915020",
+    "name": "Avalokiteshwar",
+    "optedIn": true,
+    "optInDate": "2025-09-21T05:59:41.466Z",
+    "optInSource": "email_campaign",
+    "marketingConsent": true,
+    "lastMessageSent": "2025-09-21T05:59:48.250Z",
+    "unsubscribed": false,
+    "unsubscribeDate": null
+  },
+  "919112251232": {
+    "phoneNumber": "919112251232",
+    "name": "Vidyadhar",
+    "optedIn": true,
+    "optInDate": "2025-09-21T05:59:41.467Z",
+    "optInSource": "social_media",
+    "marketingConsent": true,
+    "lastMessageSent": "2025-09-21T05:59:51.154Z",
+    "unsubscribed": false,
+    "unsubscribeDate": null
+  },
+  "919019844875": {
+    "phoneNumber": "919019844875",
+    "name": "Shruti",
+    "optedIn": true,
+    "optInDate": "2025-09-21T05:59:41.467Z",
+    "optInSource": "referral",
+    "marketingConsent": true,
+    "lastMessageSent": "2025-09-21T05:59:55.351Z",
+    "unsubscribed": false,
+    "unsubscribeDate": null
+  }
+}

@@ -1,0 +1,1703 @@
+{
+  "timestamp": "2025-09-18T00:07:20.350956",
+  "session_id": "session_1758130725",
+  "phase": "Phase 4 - Brand Customization",
+  "validation_mode": "ZERO_TOLERANCE",
+  "summary": {
+    "total_items": 77,
+    "compliant_items": 54,
+    "violations_found": 30,
+    "warnings_found": 69,
+    "compliance_rate": "70.1%",
+    "overall_score": 0.77,
+    "status": "REJECTED"
+  },
+  "content_breakdown": {
+    "linkedin": {
+      "total": 14,
+      "compliant": 0,
+      "violations": 21,
+      "warnings": 15
+    },
+    "whatsapp": {
+      "total": 9,
+      "compliant": 0,
+      "violations": 9,
+      "warnings": 0
+    },
+    "images": {
+      "total": 54,
+      "compliant": 54,
+      "violations": 0,
+      "warnings": 54
+    }
+  },
+  "detailed_results": {
+    "linkedin_posts": [
+      {
+        "file": "premium_shruti_posts.json_unknown",
+        "type": "linkedin_post",
+        "advisor": "Unknown",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN",
+            "detail": "ARN number not found or improperly formatted",
+            "remediation": "Add valid ARN number (e.g., ARN-123456)"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "MAJOR",
+            "rule": "SEBI_ADVICE_DISCLOSURE",
+            "detail": "Investment content without advice disclaimer",
+            "remediation": "Add: \"This is for educational purposes only, not investment advice\""
+          }
+        ],
+        "compliant": false,
+        "score": 0.5
+      },
+      {
+        "file": "premium_shruti_posts.json_unknown",
+        "type": "linkedin_post",
+        "advisor": "Unknown",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN",
+            "detail": "ARN number not found or improperly formatted",
+            "remediation": "Add valid ARN number (e.g., ARN-123456)"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "MAJOR",
+            "rule": "SEBI_ADVICE_DISCLOSURE",
+            "detail": "Investment content without advice disclaimer",
+            "remediation": "Add: \"This is for educational purposes only, not investment advice\""
+          }
+        ],
+        "compliant": false,
+        "score": 0.5
+      },
+      {
+        "file": "premium_shruti_posts.json_unknown",
+        "type": "linkedin_post",
+        "advisor": "Unknown",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN",
+            "detail": "ARN number not found or improperly formatted",
+            "remediation": "Add valid ARN number (e.g., ARN-123456)"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "MAJOR",
+            "rule": "SEBI_ADVICE_DISCLOSURE",
+            "detail": "Investment content without advice disclaimer",
+            "remediation": "Add: \"This is for educational purposes only, not investment advice\""
+          }
+        ],
+        "compliant": false,
+        "score": 0.5
+      },
+      {
+        "file": "gold_rajesh_posts.json_unknown",
+        "type": "linkedin_post",
+        "advisor": "Unknown",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_DISCLAIMER",
+            "detail": "Missing market risk disclaimer in mutual fund content",
+            "remediation": "Add: \"Mutual fund investments are subject to market risks\""
+          },
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN",
+            "detail": "ARN number not found or improperly formatted",
+            "remediation": "Add valid ARN number (e.g., ARN-123456)"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "MAJOR",
+            "rule": "SEBI_ADVICE_DISCLOSURE",
+            "detail": "Investment content without advice disclaimer",
+            "remediation": "Add: \"This is for educational purposes only, not investment advice\""
+          }
+        ],
+        "compliant": false,
+        "score": 0
+      },
+      {
+        "file": "gold_rajesh_posts.json_unknown",
+        "type": "linkedin_post",
+        "advisor": "Unknown",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_DISCLAIMER",
+            "detail": "Missing market risk disclaimer in mutual fund content",
+            "remediation": "Add: \"Mutual fund investments are subject to market risks\""
+          },
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN",
+            "detail": "ARN number not found or improperly formatted",
+            "remediation": "Add valid ARN number (e.g., ARN-123456)"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "MAJOR",
+            "rule": "SEBI_ADVICE_DISCLOSURE",
+            "detail": "Investment content without advice disclaimer",
+            "remediation": "Add: \"This is for educational purposes only, not investment advice\""
+          },
+          {
+            "type": "MAJOR",
+            "rule": "SEBI_PAST_PERFORMANCE",
+            "detail": "Historical data without performance disclaimer",
+            "remediation": "Add: \"Past performance may not be sustained in future\""
+          }
+        ],
+        "compliant": false,
+        "score": 0
+      },
+      {
+        "file": "gold_rajesh_posts.json_unknown",
+        "type": "linkedin_post",
+        "advisor": "Unknown",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN",
+            "detail": "ARN number not found or improperly formatted",
+            "remediation": "Add valid ARN number (e.g., ARN-123456)"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "MAJOR",
+            "rule": "SEBI_ADVICE_DISCLOSURE",
+            "detail": "Investment content without advice disclaimer",
+            "remediation": "Add: \"This is for educational purposes only, not investment advice\""
+          }
+        ],
+        "compliant": false,
+        "score": 0.5
+      },
+      {
+        "file": "gold_rajesh_posts.json_unknown",
+        "type": "linkedin_post",
+        "advisor": "Unknown",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_DISCLAIMER",
+            "detail": "Missing market risk disclaimer in mutual fund content",
+            "remediation": "Add: \"Mutual fund investments are subject to market risks\""
+          },
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN",
+            "detail": "ARN number not found or improperly formatted",
+            "remediation": "Add valid ARN number (e.g., ARN-123456)"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "MAJOR",
+            "rule": "SEBI_ADVICE_DISCLOSURE",
+            "detail": "Investment content without advice disclaimer",
+            "remediation": "Add: \"This is for educational purposes only, not investment advice\""
+          }
+        ],
+        "compliant": false,
+        "score": 0
+      },
+      {
+        "file": "gold_rajesh_posts.json_unknown",
+        "type": "linkedin_post",
+        "advisor": "Unknown",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN",
+            "detail": "ARN number not found or improperly formatted",
+            "remediation": "Add valid ARN number (e.g., ARN-123456)"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "MAJOR",
+            "rule": "SEBI_ADVICE_DISCLOSURE",
+            "detail": "Investment content without advice disclaimer",
+            "remediation": "Add: \"This is for educational purposes only, not investment advice\""
+          }
+        ],
+        "compliant": false,
+        "score": 0.5
+      },
+      {
+        "file": "silver_priya_posts.json_unknown",
+        "type": "linkedin_post",
+        "advisor": "Unknown",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_DISCLAIMER",
+            "detail": "Missing market risk disclaimer in mutual fund content",
+            "remediation": "Add: \"Mutual fund investments are subject to market risks\""
+          },
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN",
+            "detail": "ARN number not found or improperly formatted",
+            "remediation": "Add valid ARN number (e.g., ARN-123456)"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "MAJOR",
+            "rule": "SEBI_ADVICE_DISCLOSURE",
+            "detail": "Investment content without advice disclaimer",
+            "remediation": "Add: \"This is for educational purposes only, not investment advice\""
+          }
+        ],
+        "compliant": false,
+        "score": 0
+      },
+      {
+        "file": "silver_priya_posts.json_unknown",
+        "type": "linkedin_post",
+        "advisor": "Unknown",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_DISCLAIMER",
+            "detail": "Missing market risk disclaimer in mutual fund content",
+            "remediation": "Add: \"Mutual fund investments are subject to market risks\""
+          },
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN",
+            "detail": "ARN number not found or improperly formatted",
+            "remediation": "Add valid ARN number (e.g., ARN-123456)"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "MAJOR",
+            "rule": "SEBI_ADVICE_DISCLOSURE",
+            "detail": "Investment content without advice disclaimer",
+            "remediation": "Add: \"This is for educational purposes only, not investment advice\""
+          }
+        ],
+        "compliant": false,
+        "score": 0
+      },
+      {
+        "file": "silver_priya_posts.json_unknown",
+        "type": "linkedin_post",
+        "advisor": "Unknown",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN",
+            "detail": "ARN number not found or improperly formatted",
+            "remediation": "Add valid ARN number (e.g., ARN-123456)"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "MAJOR",
+            "rule": "SEBI_ADVICE_DISCLOSURE",
+            "detail": "Investment content without advice disclaimer",
+            "remediation": "Add: \"This is for educational purposes only, not investment advice\""
+          }
+        ],
+        "compliant": false,
+        "score": 0.5
+      },
+      {
+        "file": "silver_priya_posts.json_unknown",
+        "type": "linkedin_post",
+        "advisor": "Unknown",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_DISCLAIMER",
+            "detail": "Missing market risk disclaimer in mutual fund content",
+            "remediation": "Add: \"Mutual fund investments are subject to market risks\""
+          },
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN",
+            "detail": "ARN number not found or improperly formatted",
+            "remediation": "Add valid ARN number (e.g., ARN-123456)"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "MAJOR",
+            "rule": "SEBI_ADVICE_DISCLOSURE",
+            "detail": "Investment content without advice disclaimer",
+            "remediation": "Add: \"This is for educational purposes only, not investment advice\""
+          }
+        ],
+        "compliant": false,
+        "score": 0
+      },
+      {
+        "file": "silver_priya_posts.json_unknown",
+        "type": "linkedin_post",
+        "advisor": "Unknown",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN",
+            "detail": "ARN number not found or improperly formatted",
+            "remediation": "Add valid ARN number (e.g., ARN-123456)"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "MAJOR",
+            "rule": "SEBI_ADVICE_DISCLOSURE",
+            "detail": "Investment content without advice disclaimer",
+            "remediation": "Add: \"This is for educational purposes only, not investment advice\""
+          }
+        ],
+        "compliant": false,
+        "score": 0.5
+      },
+      {
+        "file": "silver_priya_posts.json_unknown",
+        "type": "linkedin_post",
+        "advisor": "Unknown",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_DISCLAIMER",
+            "detail": "Missing market risk disclaimer in mutual fund content",
+            "remediation": "Add: \"Mutual fund investments are subject to market risks\""
+          },
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN",
+            "detail": "ARN number not found or improperly formatted",
+            "remediation": "Add valid ARN number (e.g., ARN-123456)"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "MAJOR",
+            "rule": "SEBI_ADVICE_DISCLOSURE",
+            "detail": "Investment content without advice disclaimer",
+            "remediation": "Add: \"This is for educational purposes only, not investment advice\""
+          }
+        ],
+        "compliant": false,
+        "score": 0
+      }
+    ],
+    "whatsapp_messages": [
+      {
+        "file": "ADV_002_messages_2025-09-17T23-40-33-000Z_msg_1",
+        "type": "whatsapp_message",
+        "message_type": "educational",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN_WHATSAPP",
+            "detail": "ARN number missing in WhatsApp message",
+            "remediation": "Add ARN number at the end"
+          }
+        ],
+        "warnings": [],
+        "compliant": false,
+        "score": 0.5,
+        "char_count": 0
+      },
+      {
+        "file": "ADV_002_messages_2025-09-17T23-40-33-000Z_msg_2",
+        "type": "whatsapp_message",
+        "message_type": "goal_planning",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN_WHATSAPP",
+            "detail": "ARN number missing in WhatsApp message",
+            "remediation": "Add ARN number at the end"
+          }
+        ],
+        "warnings": [],
+        "compliant": false,
+        "score": 0.5,
+        "char_count": 0
+      },
+      {
+        "file": "ADV_002_messages_2025-09-17T23-40-33-000Z_msg_3",
+        "type": "whatsapp_message",
+        "message_type": "sip_education",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN_WHATSAPP",
+            "detail": "ARN number missing in WhatsApp message",
+            "remediation": "Add ARN number at the end"
+          }
+        ],
+        "warnings": [],
+        "compliant": false,
+        "score": 0.5,
+        "char_count": 0
+      },
+      {
+        "file": "ADV_003_messages_2025-09-17T23-40-33-000Z_msg_1",
+        "type": "whatsapp_message",
+        "message_type": "simple_update",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN_WHATSAPP",
+            "detail": "ARN number missing in WhatsApp message",
+            "remediation": "Add ARN number at the end"
+          }
+        ],
+        "warnings": [],
+        "compliant": false,
+        "score": 0.5,
+        "char_count": 0
+      },
+      {
+        "file": "ADV_003_messages_2025-09-17T23-40-33-000Z_msg_2",
+        "type": "whatsapp_message",
+        "message_type": "beginner_tip",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN_WHATSAPP",
+            "detail": "ARN number missing in WhatsApp message",
+            "remediation": "Add ARN number at the end"
+          }
+        ],
+        "warnings": [],
+        "compliant": false,
+        "score": 0.5,
+        "char_count": 0
+      },
+      {
+        "file": "ADV_003_messages_2025-09-17T23-40-33-000Z_msg_3",
+        "type": "whatsapp_message",
+        "message_type": "digital_investment",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN_WHATSAPP",
+            "detail": "ARN number missing in WhatsApp message",
+            "remediation": "Add ARN number at the end"
+          }
+        ],
+        "warnings": [],
+        "compliant": false,
+        "score": 0.5,
+        "char_count": 0
+      },
+      {
+        "file": "ADV_001_messages_2025-09-17T23-40-33-000Z_msg_1",
+        "type": "whatsapp_message",
+        "message_type": "market_alert",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN_WHATSAPP",
+            "detail": "ARN number missing in WhatsApp message",
+            "remediation": "Add ARN number at the end"
+          }
+        ],
+        "warnings": [],
+        "compliant": false,
+        "score": 0.5,
+        "char_count": 0
+      },
+      {
+        "file": "ADV_001_messages_2025-09-17T23-40-33-000Z_msg_2",
+        "type": "whatsapp_message",
+        "message_type": "global_impact",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN_WHATSAPP",
+            "detail": "ARN number missing in WhatsApp message",
+            "remediation": "Add ARN number at the end"
+          }
+        ],
+        "warnings": [],
+        "compliant": false,
+        "score": 0.5,
+        "char_count": 0
+      },
+      {
+        "file": "ADV_001_messages_2025-09-17T23-40-33-000Z_msg_3",
+        "type": "whatsapp_message",
+        "message_type": "strategy",
+        "violations": [
+          {
+            "type": "CRITICAL",
+            "rule": "SEBI_ARN_WHATSAPP",
+            "detail": "ARN number missing in WhatsApp message",
+            "remediation": "Add ARN number at the end"
+          }
+        ],
+        "warnings": [],
+        "compliant": false,
+        "score": 0.5,
+        "char_count": 0
+      }
+    ],
+    "status_images": [
+      {
+        "file": "ADV_002_educational_20250917_234848.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.1
+      },
+      {
+        "file": "ADV_003_tax_tips_20250917_234849.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.11
+      },
+      {
+        "file": "ADV_001_checklist_20250917_234848.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.1
+      },
+      {
+        "file": "ADV_003_sector_spotlight_20250917_234849.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.09
+      },
+      {
+        "file": "ADV_001_educational_20250917_234848.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.07
+      },
+      {
+        "file": "ADV_002_sector_spotlight_20250917_234849.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.12
+      },
+      {
+        "file": "ADV_003_motivational_20250917_234849.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.06
+      },
+      {
+        "file": "ADV_002_market_update_20250917_234848.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.12
+      },
+      {
+        "file": "ADV_001_sector_spotlight_20250917_234848.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.12
+      },
+      {
+        "file": "ADV_002_checklist_20250917_234849.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.1
+      },
+      {
+        "file": "ADV_001_motivational_20250917_234848.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.06
+      },
+      {
+        "file": "ADV_003_market_update_20250917_234849.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.11
+      },
+      {
+        "file": "ADV_002_tax_tips_20250917_234849.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.11
+      },
+      {
+        "file": "ADV_002_motivational_20250917_234849.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.06
+      },
+      {
+        "file": "ADV_001_market_update_20250917_234848.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.12
+      },
+      {
+        "file": "ADV_003_educational_20250917_234849.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.1
+      },
+      {
+        "file": "ADV_001_tax_tips_20250917_234848.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.12
+      },
+      {
+        "file": "ADV_003_checklist_20250917_234849.png",
+        "type": "status_image",
+        "directory": "images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.09
+      },
+      {
+        "file": "branded_ADV_001_market_update_20250917_234848.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.12
+      },
+      {
+        "file": "branded_ADV_003_sector_spotlight_20250917_234849.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.09
+      },
+      {
+        "file": "branded_ADV_002_educational_20250917_234848.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.1
+      },
+      {
+        "file": "branded_ADV_002_checklist_20250917_234849.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.1
+      },
+      {
+        "file": "branded_ADV_003_motivational_20250917_234849.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.06
+      },
+      {
+        "file": "branded_ADV_003_market_update_20250917_234849.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.11
+      },
+      {
+        "file": "branded_ADV_002_sector_spotlight_20250917_234849.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.12
+      },
+      {
+        "file": "branded_ADV_003_checklist_20250917_234849.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.09
+      },
+      {
+        "file": "branded_ADV_001_tax_tips_20250917_234848.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.12
+      },
+      {
+        "file": "branded_ADV_002_tax_tips_20250917_234849.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.11
+      },
+      {
+        "file": "branded_ADV_001_educational_20250917_234848.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.07
+      },
+      {
+        "file": "branded_ADV_002_market_update_20250917_234848.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.12
+      },
+      {
+        "file": "branded_ADV_003_tax_tips_20250917_234849.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.11
+      },
+      {
+        "file": "branded_ADV_002_motivational_20250917_234849.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.06
+      },
+      {
+        "file": "branded_ADV_001_motivational_20250917_234848.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.06
+      },
+      {
+        "file": "branded_ADV_003_educational_20250917_234849.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.1
+      },
+      {
+        "file": "branded_ADV_001_sector_spotlight_20250917_234848.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.12
+      },
+      {
+        "file": "branded_ADV_001_checklist_20250917_234848.png",
+        "type": "status_image",
+        "directory": "status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.1
+      },
+      {
+        "file": "branded_whatsapp_ADV_003_motivational_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.03
+      },
+      {
+        "file": "branded_whatsapp_ADV_003_educational_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.03
+      },
+      {
+        "file": "branded_whatsapp_ADV_001_motivational_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.04
+      },
+      {
+        "file": "branded_whatsapp_ADV_002_market_update_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.05
+      },
+      {
+        "file": "branded_linkedin_premium_1_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.03
+      },
+      {
+        "file": "branded_whatsapp_ADV_002_educational_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.05
+      },
+      {
+        "file": "branded_linkedin_premium_3_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.03
+      },
+      {
+        "file": "branded_linkedin_premium_2_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.03
+      },
+      {
+        "file": "branded_whatsapp_ADV_003_market_update_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.03
+      },
+      {
+        "file": "branded_whatsapp_ADV_001_educational_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.04
+      },
+      {
+        "file": "branded_linkedin_gold_2_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.03
+      },
+      {
+        "file": "branded_linkedin_silver_2_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.02
+      },
+      {
+        "file": "branded_whatsapp_ADV_002_motivational_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.04
+      },
+      {
+        "file": "branded_linkedin_silver_3_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.02
+      },
+      {
+        "file": "branded_linkedin_gold_3_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.03
+      },
+      {
+        "file": "branded_whatsapp_ADV_001_market_update_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.04
+      },
+      {
+        "file": "branded_linkedin_gold_1_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.03
+      },
+      {
+        "file": "branded_linkedin_silver_1_20250917_235427.png",
+        "type": "status_image",
+        "directory": "gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata or filename"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95,
+        "size_mb": 0.02
+      }
+    ]
+  },
+  "critical_issues": [
+    {
+      "file": "premium_shruti_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_ARN",
+      "detail": "ARN number not found or improperly formatted",
+      "remediation": "Add valid ARN number (e.g., ARN-123456)"
+    },
+    {
+      "file": "premium_shruti_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_ARN",
+      "detail": "ARN number not found or improperly formatted",
+      "remediation": "Add valid ARN number (e.g., ARN-123456)"
+    },
+    {
+      "file": "premium_shruti_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_ARN",
+      "detail": "ARN number not found or improperly formatted",
+      "remediation": "Add valid ARN number (e.g., ARN-123456)"
+    },
+    {
+      "file": "gold_rajesh_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_DISCLAIMER",
+      "detail": "Missing market risk disclaimer in mutual fund content",
+      "remediation": "Add: \"Mutual fund investments are subject to market risks\""
+    },
+    {
+      "file": "gold_rajesh_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_ARN",
+      "detail": "ARN number not found or improperly formatted",
+      "remediation": "Add valid ARN number (e.g., ARN-123456)"
+    },
+    {
+      "file": "gold_rajesh_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_DISCLAIMER",
+      "detail": "Missing market risk disclaimer in mutual fund content",
+      "remediation": "Add: \"Mutual fund investments are subject to market risks\""
+    },
+    {
+      "file": "gold_rajesh_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_ARN",
+      "detail": "ARN number not found or improperly formatted",
+      "remediation": "Add valid ARN number (e.g., ARN-123456)"
+    },
+    {
+      "file": "gold_rajesh_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_ARN",
+      "detail": "ARN number not found or improperly formatted",
+      "remediation": "Add valid ARN number (e.g., ARN-123456)"
+    },
+    {
+      "file": "gold_rajesh_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_DISCLAIMER",
+      "detail": "Missing market risk disclaimer in mutual fund content",
+      "remediation": "Add: \"Mutual fund investments are subject to market risks\""
+    },
+    {
+      "file": "gold_rajesh_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_ARN",
+      "detail": "ARN number not found or improperly formatted",
+      "remediation": "Add valid ARN number (e.g., ARN-123456)"
+    },
+    {
+      "file": "gold_rajesh_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_ARN",
+      "detail": "ARN number not found or improperly formatted",
+      "remediation": "Add valid ARN number (e.g., ARN-123456)"
+    },
+    {
+      "file": "silver_priya_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_DISCLAIMER",
+      "detail": "Missing market risk disclaimer in mutual fund content",
+      "remediation": "Add: \"Mutual fund investments are subject to market risks\""
+    },
+    {
+      "file": "silver_priya_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_ARN",
+      "detail": "ARN number not found or improperly formatted",
+      "remediation": "Add valid ARN number (e.g., ARN-123456)"
+    },
+    {
+      "file": "silver_priya_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_DISCLAIMER",
+      "detail": "Missing market risk disclaimer in mutual fund content",
+      "remediation": "Add: \"Mutual fund investments are subject to market risks\""
+    },
+    {
+      "file": "silver_priya_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_ARN",
+      "detail": "ARN number not found or improperly formatted",
+      "remediation": "Add valid ARN number (e.g., ARN-123456)"
+    },
+    {
+      "file": "silver_priya_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_ARN",
+      "detail": "ARN number not found or improperly formatted",
+      "remediation": "Add valid ARN number (e.g., ARN-123456)"
+    },
+    {
+      "file": "silver_priya_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_DISCLAIMER",
+      "detail": "Missing market risk disclaimer in mutual fund content",
+      "remediation": "Add: \"Mutual fund investments are subject to market risks\""
+    },
+    {
+      "file": "silver_priya_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_ARN",
+      "detail": "ARN number not found or improperly formatted",
+      "remediation": "Add valid ARN number (e.g., ARN-123456)"
+    },
+    {
+      "file": "silver_priya_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_ARN",
+      "detail": "ARN number not found or improperly formatted",
+      "remediation": "Add valid ARN number (e.g., ARN-123456)"
+    },
+    {
+      "file": "silver_priya_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_DISCLAIMER",
+      "detail": "Missing market risk disclaimer in mutual fund content",
+      "remediation": "Add: \"Mutual fund investments are subject to market risks\""
+    },
+    {
+      "file": "silver_priya_posts.json_unknown",
+      "content_type": "linkedin_post",
+      "rule": "SEBI_ARN",
+      "detail": "ARN number not found or improperly formatted",
+      "remediation": "Add valid ARN number (e.g., ARN-123456)"
+    },
+    {
+      "file": "ADV_002_messages_2025-09-17T23-40-33-000Z_msg_1",
+      "content_type": "whatsapp_message",
+      "rule": "SEBI_ARN_WHATSAPP",
+      "detail": "ARN number missing in WhatsApp message",
+      "remediation": "Add ARN number at the end"
+    },
+    {
+      "file": "ADV_002_messages_2025-09-17T23-40-33-000Z_msg_2",
+      "content_type": "whatsapp_message",
+      "rule": "SEBI_ARN_WHATSAPP",
+      "detail": "ARN number missing in WhatsApp message",
+      "remediation": "Add ARN number at the end"
+    },
+    {
+      "file": "ADV_002_messages_2025-09-17T23-40-33-000Z_msg_3",
+      "content_type": "whatsapp_message",
+      "rule": "SEBI_ARN_WHATSAPP",
+      "detail": "ARN number missing in WhatsApp message",
+      "remediation": "Add ARN number at the end"
+    },
+    {
+      "file": "ADV_003_messages_2025-09-17T23-40-33-000Z_msg_1",
+      "content_type": "whatsapp_message",
+      "rule": "SEBI_ARN_WHATSAPP",
+      "detail": "ARN number missing in WhatsApp message",
+      "remediation": "Add ARN number at the end"
+    },
+    {
+      "file": "ADV_003_messages_2025-09-17T23-40-33-000Z_msg_2",
+      "content_type": "whatsapp_message",
+      "rule": "SEBI_ARN_WHATSAPP",
+      "detail": "ARN number missing in WhatsApp message",
+      "remediation": "Add ARN number at the end"
+    },
+    {
+      "file": "ADV_003_messages_2025-09-17T23-40-33-000Z_msg_3",
+      "content_type": "whatsapp_message",
+      "rule": "SEBI_ARN_WHATSAPP",
+      "detail": "ARN number missing in WhatsApp message",
+      "remediation": "Add ARN number at the end"
+    },
+    {
+      "file": "ADV_001_messages_2025-09-17T23-40-33-000Z_msg_1",
+      "content_type": "whatsapp_message",
+      "rule": "SEBI_ARN_WHATSAPP",
+      "detail": "ARN number missing in WhatsApp message",
+      "remediation": "Add ARN number at the end"
+    },
+    {
+      "file": "ADV_001_messages_2025-09-17T23-40-33-000Z_msg_2",
+      "content_type": "whatsapp_message",
+      "rule": "SEBI_ARN_WHATSAPP",
+      "detail": "ARN number missing in WhatsApp message",
+      "remediation": "Add ARN number at the end"
+    },
+    {
+      "file": "ADV_001_messages_2025-09-17T23-40-33-000Z_msg_3",
+      "content_type": "whatsapp_message",
+      "rule": "SEBI_ARN_WHATSAPP",
+      "detail": "ARN number missing in WhatsApp message",
+      "remediation": "Add ARN number at the end"
+    }
+  ],
+  "remediation_required": true,
+  "certificate": {
+    "id": "SEBI-COMP-20250918000720",
+    "valid_until": "2025-09-18T00:07:20.350989",
+    "validator": "comprehensive-compliance-validator-v3.0",
+    "rules_version": "SEBI-2025-Q1-WHATSAPP-v2"
+  }
+}

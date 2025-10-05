@@ -1,0 +1,94 @@
+{
+  "type": "market_update_infographic",
+  "title": "Market Pulse Today",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "aspect_ratio": "9:16"
+  },
+  "content": {
+    "headline": "\ud83d\udcc8 Markets Today",
+    "sensex": {
+      "value": "82,690",
+      "change": "+385 (+0.47%)",
+      "color": "#00C853"
+    },
+    "nifty": {
+      "value": "25,383",
+      "change": "+112 (+0.44%)",
+      "color": "#00C853"
+    },
+    "sectors": {
+      "top_gainers": [
+        {
+          "name": "Banking",
+          "change": "+1.2%",
+          "icon": "\ud83c\udfe6"
+        },
+        {
+          "name": "IT",
+          "change": "+0.8%",
+          "icon": "\ud83d\udcbb"
+        },
+        {
+          "name": "Pharma",
+          "change": "+0.6%",
+          "icon": "\ud83d\udc8a"
+        }
+      ],
+      "top_losers": [
+        {
+          "name": "Auto",
+          "change": "-0.4%",
+          "icon": "\ud83d\ude97"
+        },
+        {
+          "name": "Realty",
+          "change": "-0.3%",
+          "icon": "\ud83c\udfe2"
+        }
+      ]
+    },
+    "key_insight": "Strong banking sector leads market rally"
+  },
+  "visual_elements": {
+    "style": "modern_dashboard",
+    "charts": [
+      "line_chart",
+      "sector_heatmap"
+    ],
+    "animations": [
+      "counter_animation",
+      "pulse_effect"
+    ],
+    "background": "gradient_mesh",
+    "data_visualization": "infographic_cards"
+  },
+  "color_scheme": {
+    "primary": "#1A73E8",
+    "secondary": "#34A853",
+    "background": [
+      "#0F1419",
+      "#1C2733"
+    ],
+    "accent": "#FFD700",
+    "text": "#FFFFFF"
+  },
+  "branding": {
+    "advisor_name": "Smart Invest",
+    "tagline": "Smart Investing Made Simple",
+    "arn": "ARN-345678",
+    "logo_position": "bottom_center",
+    "branding_style": "subtle_professional"
+  },
+  "gemini_prompt": "Create a sophisticated WhatsApp Status image (1080x1920px):\n\nDESIGN: Modern financial dashboard infographic\nTHEME: Today's Market Performance\n\nLAYOUT (Top to Bottom):\n1. TOP SECTION (20%):\n   - Bold headline \"Markets Today\" with pulse line graphic\n   - Current date and time indicator\n   - Live market status badge\n\n2. MAIN INDICES (30%):\n   - SENSEX: 82,690 \u2191 +385 (+0.47%) in green\n   - NIFTY: 25,383 \u2191 +112 (+0.44%) in green\n   - Display as modern cards with subtle glow effect\n   - Include mini sparkline charts\n\n3. SECTOR PERFORMANCE (25%):\n   - Heatmap or circular progress indicators\n   - Top Gainers: Banking (+1.2%), IT (+0.8%), Pharma (+0.6%)\n   - Top Losers: Auto (-0.4%), Realty (-0.3%)\n   - Use icons for each sector\n\n4. KEY INSIGHT (10%):\n   - \"Strong banking sector leads market rally\"\n   - Displayed as highlighted insight card\n\n5. BRANDING (15%):\n   - Smart Invest\n   - Tagline: Smart Investing Made Simple\n   - ARN: ARN-345678\n   - Contact CTA button style\n\nVISUAL STYLE:\n- Dark theme with gradient background (#0F1419 to #1C2733)\n- Neon accents for data points\n- Glass morphism effect on cards\n- Professional, tech-forward aesthetic\n- Brand colors: #1A73E8 and #34A853\n\nMOOD: Professional, trustworthy, data-driven, modern",
+  "metadata": {
+    "advisor_id": "ADV_003",
+    "advisor_name": "Priya Sharma",
+    "design_number": 1,
+    "created_at": "2025-09-17T21:22:46.028713",
+    "session": "session_2025-09-17T21-08-34-000Z",
+    "content_category": "market_update_infographic",
+    "expires_in": "24_hours"
+  }
+}

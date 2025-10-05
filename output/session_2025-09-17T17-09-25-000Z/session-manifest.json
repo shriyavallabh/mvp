@@ -1,0 +1,93 @@
+{
+  "sessionId": "session_2025-09-17T17-09-25-000Z",
+  "startTime": "2025-09-17T17:09:25.000Z",
+  "phase": "Phase 1 - Data Collection",
+  "agent": "advisor-data-manager",
+  "status": "advisor-data-completed",
+  "outputStructure": {
+    "linkedin": {
+      "description": "LinkedIn post content and formatting",
+      "expectedFiles": [
+        "linkedin-posts.json",
+        "engagement-metrics.json"
+      ]
+    },
+    "whatsapp": {
+      "description": "WhatsApp message content and templates",
+      "expectedFiles": [
+        "whatsapp-messages.json",
+        "message-templates.json"
+      ]
+    },
+    "images": {
+      "description": "Generated and customized images",
+      "expectedFiles": [
+        "generated-images.json",
+        "brand-assets/",
+        "social-media-graphics/"
+      ]
+    },
+    "raw-data": {
+      "description": "Source data from advisor and market intelligence",
+      "expectedFiles": [
+        "advisor-data.json",
+        "market-data.json",
+        "segment-analysis.json"
+      ]
+    },
+    "market-intelligence": {
+      "description": "Market insights and analysis",
+      "expectedFiles": [
+        "market-trends.json",
+        "competitive-analysis.json"
+      ]
+    },
+    "compliance": {
+      "description": "Compliance validation and reports",
+      "expectedFiles": [
+        "compliance-report.json",
+        "validation-results.json"
+      ]
+    },
+    "analytics": {
+      "description": "Performance analytics and tracking",
+      "expectedFiles": [
+        "distribution-metrics.json",
+        "engagement-analytics.json"
+      ]
+    },
+    "traceability": {
+      "description": "Session traceability and audit trail",
+      "expectedFiles": [
+        "execution-trace.md",
+        "agent-workflows.json"
+      ]
+    }
+  },
+  "totalExpectedFiles": 16,
+  "directoryPermissions": "755",
+  "lastUpdated": "2025-09-17T17:09:25.000Z",
+  "linkedinPosts": [
+    {
+      "filename": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-17T17-09-25-000Z/linkedin/ADV_001_linkedin_2025-09-17T22-59-17-000Z.txt",
+      "advisorId": "ADV_001",
+      "timestamp": "2025-09-17T22:59:17.197440",
+      "characterCount": 1516,
+      "contentHash": "b4de33f2"
+    },
+    {
+      "filename": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-17T17-09-25-000Z/linkedin/ADV_002_linkedin_2025-09-17T22-59-17-000Z.txt",
+      "advisorId": "ADV_002",
+      "timestamp": "2025-09-17T22:59:17.198118",
+      "characterCount": 1501,
+      "contentHash": "f403ec1a"
+    },
+    {
+      "filename": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-17T17-09-25-000Z/linkedin/ADV_003_linkedin_2025-09-17T22-59-17-000Z.txt",
+      "advisorId": "ADV_003",
+      "timestamp": "2025-09-17T22:59:17.198827",
+      "characterCount": 1328,
+      "contentHash": "47abc558"
+    }
+  ]
+}

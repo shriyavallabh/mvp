@@ -1,0 +1,80 @@
+{
+  "timestamp": "2025-09-17T19:41:49.744254",
+  "agent": "advisor-data-manager",
+  "status": "success",
+  "total_advisors": 3,
+  "active_advisors": 3,
+  "advisors": [
+    {
+      "advisor_id": "ADV_001",
+      "name": "Shruti Petkar",
+      "phone": "+919022810769",
+      "arn": "ARN-SHRUTI-001",
+      "segment": "Retail",
+      "city": "Mumbai",
+      "experience_years": 8,
+      "client_base": 350,
+      "specialization": "Equity Mutual Funds",
+      "preferences": {
+        "content_tone": "professional",
+        "posting_time": "9:00 AM",
+        "languages": [
+          "English",
+          "Hindi"
+        ],
+        "logo_url": "",
+        "brand_colors": "#1E3A8A"
+      },
+      "active": true
+    },
+    {
+      "advisor_id": "ADV_002",
+      "name": "Vidyadhar Kulkarni",
+      "phone": "+919850123456",
+      "arn": "ARN-VID-002",
+      "segment": "HNI",
+      "city": "Pune",
+      "experience_years": 12,
+      "client_base": 180,
+      "specialization": "Portfolio Management",
+      "preferences": {
+        "content_tone": "sophisticated",
+        "posting_time": "8:30 AM",
+        "languages": [
+          "English",
+          "Marathi"
+        ],
+        "logo_url": "",
+        "brand_colors": "#059669"
+      },
+      "active": true
+    },
+    {
+      "advisor_id": "ADV_003",
+      "name": "Avalok Shah",
+      "phone": "+919876543210",
+      "arn": "ARN-AVL-003",
+      "segment": "Corporate",
+      "city": "Ahmedabad",
+      "experience_years": 15,
+      "client_base": 75,
+      "specialization": "Corporate Treasury",
+      "preferences": {
+        "content_tone": "technical",
+        "posting_time": "7:30 AM",
+        "languages": [
+          "English",
+          "Gujarati"
+        ],
+        "logo_url": "",
+        "brand_colors": "#7C3AED"
+      },
+      "active": true
+    }
+  ],
+  "metadata": {
+    "source": "google_sheets",
+    "sheet_id": "simulated_for_demo",
+    "last_updated": "2025-09-17T19:41:49.744261"
+  }
+}

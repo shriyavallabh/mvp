@@ -1,0 +1,180 @@
+{
+  "timestamp": "2025-09-17T19:50:26.291436",
+  "agent": "distribution-controller",
+  "status": "success",
+  "advisors_served": 3,
+  "total_distributions": 12,
+  "distribution_results": [
+    {
+      "advisor_id": "ADV_001",
+      "advisor_name": "Shruti Petkar",
+      "channels": [
+        {
+          "channel": "whatsapp",
+          "result": {
+            "phone": "+919022810769",
+            "message_type": "text",
+            "status": "delivered",
+            "message_id": "msg_1758118825_4909",
+            "delivered_at": "2025-09-17T19:50:25.136395",
+            "read_receipt": false,
+            "platform": "whatsapp_business_api"
+          }
+        },
+        {
+          "channel": "whatsapp_status",
+          "result": {
+            "phone": "+919022810769",
+            "message_type": "image",
+            "status": "delivered",
+            "message_id": "msg_1758118825_1444",
+            "delivered_at": "2025-09-17T19:50:25.358717",
+            "read_receipt": false,
+            "platform": "whatsapp_business_api"
+          }
+        },
+        {
+          "channel": "email",
+          "result": {
+            "email": "shruti.petkar@example.com",
+            "subject": "Your Daily LinkedIn Post is Ready!",
+            "status": "sent",
+            "message_id": "email_1758118825_1929",
+            "sent_at": "2025-09-17T19:50:25.358784",
+            "platform": "sendgrid"
+          }
+        },
+        {
+          "channel": "linkedin_draft",
+          "result": {
+            "status": "draft_created",
+            "draft_id": "li_ADV_001_1758118825",
+            "scheduled_for": "9:00 AM"
+          }
+        }
+      ],
+      "distributed_at": "2025-09-17T19:50:25.358809",
+      "total_channels": 4
+    },
+    {
+      "advisor_id": "ADV_002",
+      "advisor_name": "Vidyadhar Kulkarni",
+      "channels": [
+        {
+          "channel": "whatsapp",
+          "result": {
+            "phone": "+919850123456",
+            "message_type": "text",
+            "status": "delivered",
+            "message_id": "msg_1758118825_5269",
+            "delivered_at": "2025-09-17T19:50:25.588136",
+            "read_receipt": false,
+            "platform": "whatsapp_business_api"
+          }
+        },
+        {
+          "channel": "whatsapp_status",
+          "result": {
+            "phone": "+919850123456",
+            "message_type": "image",
+            "status": "delivered",
+            "message_id": "msg_1758118825_6130",
+            "delivered_at": "2025-09-17T19:50:25.864749",
+            "read_receipt": false,
+            "platform": "whatsapp_business_api"
+          }
+        },
+        {
+          "channel": "email",
+          "result": {
+            "email": "vidyadhar.kulkarni@example.com",
+            "subject": "Your Daily LinkedIn Post is Ready!",
+            "status": "sent",
+            "message_id": "email_1758118825_4028",
+            "sent_at": "2025-09-17T19:50:25.864830",
+            "platform": "sendgrid"
+          }
+        },
+        {
+          "channel": "linkedin_draft",
+          "result": {
+            "status": "draft_created",
+            "draft_id": "li_ADV_002_1758118825",
+            "scheduled_for": "8:30 AM"
+          }
+        }
+      ],
+      "distributed_at": "2025-09-17T19:50:25.864852",
+      "total_channels": 4
+    },
+    {
+      "advisor_id": "ADV_003",
+      "advisor_name": "Avalok Shah",
+      "channels": [
+        {
+          "channel": "whatsapp",
+          "result": {
+            "phone": "+919876543210",
+            "message_type": "text",
+            "status": "delivered",
+            "message_id": "msg_1758118826_7724",
+            "delivered_at": "2025-09-17T19:50:26.119812",
+            "read_receipt": false,
+            "platform": "whatsapp_business_api"
+          }
+        },
+        {
+          "channel": "whatsapp_status",
+          "result": {
+            "phone": "+919876543210",
+            "message_type": "image",
+            "status": "delivered",
+            "message_id": "msg_1758118826_9030",
+            "delivered_at": "2025-09-17T19:50:26.291260",
+            "read_receipt": false,
+            "platform": "whatsapp_business_api"
+          }
+        },
+        {
+          "channel": "email",
+          "result": {
+            "email": "avalok.shah@example.com",
+            "subject": "Your Daily LinkedIn Post is Ready!",
+            "status": "sent",
+            "message_id": "email_1758118826_7405",
+            "sent_at": "2025-09-17T19:50:26.291331",
+            "platform": "sendgrid"
+          }
+        },
+        {
+          "channel": "linkedin_draft",
+          "result": {
+            "status": "draft_created",
+            "draft_id": "li_ADV_003_1758118826",
+            "scheduled_for": "7:30 AM"
+          }
+        }
+      ],
+      "distributed_at": "2025-09-17T19:50:26.291353",
+      "total_channels": 4
+    }
+  ],
+  "metrics": {
+    "whatsapp": {
+      "sent": 3,
+      "delivered": 3,
+      "delivery_rate": 1.0
+    },
+    "email": {
+      "sent": 3
+    },
+    "linkedin": {
+      "drafts_created": 3
+    }
+  },
+  "summary": {
+    "start_time": "2025-09-17T19:50:25.358809",
+    "end_time": "2025-09-17T19:50:26.291353",
+    "total_time": "0.6 seconds"
+  }
+}

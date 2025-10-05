@@ -1,0 +1,110 @@
+{
+  "sessionId": "session_20250918_090828",
+  "registeredAt": "2025-09-18T09:08:28.000Z",
+  "mcpEnabled": true,
+  "agents": {
+    "state-manager": {
+      "id": "state-manager",
+      "capabilities": ["state-persistence", "learning-capture", "session-management"],
+      "status": "pending",
+      "sharedMemory": "data/shared-memory/session_20250918_090828",
+      "learnings": "learnings/sessions/session_20250918_090828",
+      "heartbeat": null,
+      "lastSeen": null
+    },
+    "communication-bus": {
+      "id": "communication-bus",
+      "capabilities": ["message-routing", "broadcast", "queue-management"],
+      "status": "pending",
+      "channels": "data/agent-communication/session_20250918_090828",
+      "heartbeat": null,
+      "lastSeen": null
+    },
+    "hybrid-orchestrator": {
+      "id": "hybrid-orchestrator",
+      "capabilities": ["workflow-coordination", "agent-sequencing", "error-handling"],
+      "status": "pending",
+      "coordinationChannel": "data/agent-communication/session_20250918_090828/coordination",
+      "heartbeat": null,
+      "lastSeen": null
+    },
+    "compliance-validator": {
+      "id": "compliance-validator",
+      "capabilities": ["sebi-compliance", "content-validation", "risk-assessment"],
+      "status": "pending",
+      "complianceChannel": "data/agent-communication/session_20250918_090828/compliance",
+      "heartbeat": null,
+      "lastSeen": null
+    },
+    "market-intelligence": {
+      "id": "market-intelligence",
+      "capabilities": ["market-analysis", "data-gathering", "trend-identification"],
+      "status": "pending",
+      "dataPath": "output/session_20250918_090828/market-intelligence",
+      "heartbeat": null,
+      "lastSeen": null
+    },
+    "advisor-data-manager": {
+      "id": "advisor-data-manager",
+      "capabilities": ["advisor-management", "google-sheets-sync", "data-validation"],
+      "status": "pending",
+      "dataPath": "output/session_20250918_090828/advisor-data",
+      "heartbeat": null,
+      "lastSeen": null
+    },
+    "linkedin-post-generator": {
+      "id": "linkedin-post-generator",
+      "capabilities": ["content-generation", "linkedin-formatting", "engagement-optimization"],
+      "status": "pending",
+      "outputPath": "output/session_20250918_090828/linkedin",
+      "heartbeat": null,
+      "lastSeen": null
+    },
+    "whatsapp-message-creator": {
+      "id": "whatsapp-message-creator",
+      "capabilities": ["whatsapp-messaging", "template-management", "personalization"],
+      "status": "pending",
+      "outputPath": "output/session_20250918_090828/whatsapp",
+      "heartbeat": null,
+      "lastSeen": null
+    },
+    "gemini-image-generator": {
+      "id": "gemini-image-generator",
+      "capabilities": ["image-generation", "visual-content", "brand-customization"],
+      "status": "pending",
+      "outputPath": "output/session_20250918_090828/images",
+      "heartbeat": null,
+      "lastSeen": null
+    },
+    "status-image-designer": {
+      "id": "status-image-designer",
+      "capabilities": ["status-images", "template-design", "advisor-customization"],
+      "status": "pending",
+      "outputPath": "output/session_20250918_090828/status-images",
+      "heartbeat": null,
+      "lastSeen": null
+    },
+    "distribution-controller": {
+      "id": "distribution-controller",
+      "capabilities": ["content-distribution", "channel-management", "delivery-tracking"],
+      "status": "pending",
+      "outputPath": "output/session_20250918_090828/distribution",
+      "heartbeat": null,
+      "lastSeen": null
+    },
+    "learning-agent": {
+      "id": "learning-agent",
+      "capabilities": ["pattern-recognition", "performance-analysis", "optimization-suggestions"],
+      "status": "pending",
+      "learningsPath": "learnings/sessions/session_20250918_090828",
+      "heartbeat": null,
+      "lastSeen": null
+    }
+  },
+  "healthMonitoring": {
+    "heartbeatInterval": 10000,
+    "maxMissedHeartbeats": 3,
+    "healthCheckEnabled": true,
+    "autoRecovery": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "sessionId": "mcp_session_2025-09-17T22-05-42",
+  "agentName": "image-generator",
+  "status": "pending",
+  "data": {
+    "images": [],
+    "specifications": {},
+    "branding": {},
+    "optimization": {},
+    "variants": {}
+  },
+  "metadata": {
+    "imagesGenerated": 0,
+    "variantsCreated": 0,
+    "platformsOptimized": 0,
+    "brandConsistency": "pending"
+  },
+  "structure": {
+    "images": "Generated images with metadata and paths",
+    "specifications": "Image specifications per platform/content",
+    "branding": "Brand consistency and style guide application",
+    "optimization": "Platform-specific optimization data",
+    "variants": "Image variants for different use cases"
+  },
+  "dependencies": {
+    "requires": ["linkedin-content", "whatsapp-content", "brand-guidelines"],
+    "provides": ["visual-content", "image-metadata", "brand-assets"]
+  },
+  "timestamp": "2025-09-17T22:05:42Z"
+}

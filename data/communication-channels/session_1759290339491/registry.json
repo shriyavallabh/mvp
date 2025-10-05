@@ -1,0 +1,77 @@
+{
+  "sessionId": "session_1759290339491",
+  "registeredAt": "2025-10-01T00:00:00.000Z",
+  "agents": {
+    "mcp-coordinator": {
+      "capabilities": ["infrastructure-setup", "session-isolation"],
+      "status": "initialized"
+    },
+    "state-manager": {
+      "capabilities": ["state-persistence", "learning-capture"],
+      "sharedMemory": "data/shared-memory/session_1759290339491",
+      "learnings": "learnings/sessions/session_1759290339491",
+      "status": "ready"
+    },
+    "communication-bus": {
+      "capabilities": ["message-routing", "broadcast"],
+      "channels": "data/communication-channels/session_1759290339491",
+      "status": "ready"
+    },
+    "advisor-data-manager": {
+      "capabilities": ["data-loading", "advisor-management"],
+      "status": "ready"
+    },
+    "market-intelligence": {
+      "capabilities": ["market-data", "trend-analysis"],
+      "status": "ready"
+    },
+    "segment-analyzer": {
+      "capabilities": ["segment-analysis", "content-strategy"],
+      "status": "ready"
+    },
+    "linkedin-post-generator": {
+      "capabilities": ["viral-content", "linkedin-posts"],
+      "status": "ready"
+    },
+    "whatsapp-message-creator": {
+      "capabilities": ["viral-content", "whatsapp-messages"],
+      "status": "ready"
+    },
+    "status-image-designer": {
+      "capabilities": ["image-design", "status-content"],
+      "status": "ready"
+    },
+    "gemini-image-generator": {
+      "capabilities": ["image-generation", "gemini-api"],
+      "status": "ready"
+    },
+    "brand-customizer": {
+      "capabilities": ["branding", "customization"],
+      "status": "ready"
+    },
+    "compliance-validator": {
+      "capabilities": ["compliance-check", "sebi-validation"],
+      "status": "ready"
+    },
+    "quality-scorer": {
+      "capabilities": ["quality-scoring", "virality-validation"],
+      "status": "ready"
+    },
+    "fatigue-checker": {
+      "capabilities": ["fatigue-check", "content-freshness"],
+      "status": "ready"
+    },
+    "distribution-controller": {
+      "capabilities": ["distribution", "delivery-management"],
+      "status": "ready"
+    },
+    "analytics-tracker": {
+      "capabilities": ["analytics", "performance-tracking"],
+      "status": "ready"
+    },
+    "feedback-processor": {
+      "capabilities": ["feedback-processing", "learning-extraction"],
+      "status": "ready"
+    }
+  }
+}

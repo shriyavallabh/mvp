@@ -1,0 +1,25 @@
+{
+  "sessionId": "session_2025-09-18T15-03-58Z",
+  "infrastructureState": {
+    "initialized": true,
+    "timestamp": "2025-09-18T15:03:58Z",
+    "mcpEnabled": true,
+    "sessionIsolation": true,
+    "communicationChannels": 5,
+    "registeredAgents": 0,
+    "maxAgents": 12
+  },
+  "sessionPaths": {
+    "sharedMemory": "data/mcp-infrastructure/session_2025-09-18T15-03-58Z/shared-memory",
+    "communication": "data/agent-communication/session_2025-09-18T15-03-58Z",
+    "output": "output/session_2025-09-18T15-03-58Z",
+    "learnings": "learnings/sessions/session_2025-09-18T15-03-58Z",
+    "channels": "data/mcp-infrastructure/session_2025-09-18T15-03-58Z/channels",
+    "registry": "data/mcp-infrastructure/session_2025-09-18T15-03-58Z/registry"
+  },
+  "cleanupPolicy": {
+    "maxSessionAge": "24h",
+    "archiveOldSessions": true,
+    "retentionPeriod": "7d"
+  }
+}

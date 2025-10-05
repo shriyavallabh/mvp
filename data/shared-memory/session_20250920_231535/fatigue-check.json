@@ -1,0 +1,163 @@
+{
+  "session_id": "session_20250920_231535",
+  "analysis_timestamp": "2025-09-20T23:45:00Z",
+  "previous_session_analyzed": "session_20250919_211030",
+
+  "content_comparison": {
+    "current_session_themes": {
+      "linkedin": {
+        "main_theme": "FII_EXODUS_PARADOX",
+        "angle": "₹2.35 lakh crore exodus with market resilience",
+        "viral_style": "Ankur Warikoo Personal Story",
+        "key_data_points": [
+          "₹2.35 lakh crore FII exit",
+          "₹1.2 lakh crore DII entry",
+          "77,378 Sensex level",
+          "3.6% drop vs expected 40%"
+        ],
+        "emotional_triggers": ["Fear to Hope", "Underdog Victory", "Contrarian Wisdom"]
+      },
+      "whatsapp": {
+        "main_theme": "FII_EXODUS_PARADOX",
+        "angle": "Secret domestic buyers saving market",
+        "style": "warikoo_confession",
+        "key_hooks": [
+          "₹2.35 LAKH CRORE left. Market still UP!",
+          "DII bought EVERY share FIIs dumped"
+        ]
+      }
+    },
+
+    "previous_session_themes": {
+      "linkedin": {
+        "main_theme": "FII_PARADOX",
+        "angle": "₹1.2 lakh crore exodus paradox",
+        "key_data_points": [
+          "₹1.2 lakh crore FII exit",
+          "₹1.16 lakh crore DII entry",
+          "83,014 Sensex level"
+        ]
+      },
+      "whatsapp": {
+        "main_theme": "FII dumps with driver tips",
+        "angle": "Exit when drivers give tips",
+        "key_hooks": [
+          "Lost ₹2.4 Cr? No. SAVED ₹8 Cr",
+          "FPIs dumped ₹1.2L Cr"
+        ]
+      }
+    }
+  },
+
+  "fatigue_analysis": {
+    "theme_repetition": {
+      "status": "WARNING",
+      "severity": "HIGH",
+      "reason": "Both sessions focus heavily on FII exodus theme",
+      "specific_overlap": [
+        "FII capital flight narrative used in both",
+        "DII counter-buying story repeated",
+        "Similar data points (just different numbers)"
+      ],
+      "recommendation": "DIVERSIFY to other market themes immediately"
+    },
+
+    "viral_strategy_variety": {
+      "status": "PARTIAL_PASS",
+      "current": "Ankur Warikoo style",
+      "previous": "Ankur Warikoo style",
+      "issue": "Same viral personality style used consecutively",
+      "recommendation": "Rotate to Rachana Ranade or Sharan styles"
+    },
+
+    "data_point_freshness": {
+      "status": "PASS",
+      "analysis": "Different specific numbers used (₹2.35L cr vs ₹1.2L cr)",
+      "positive": "Updated data points reflect recent market changes"
+    },
+
+    "emotional_trigger_diversity": {
+      "status": "WARNING",
+      "current": ["Fear to Hope", "Underdog Victory"],
+      "previous": ["Fear to Hope"],
+      "overlap": "Fear to Hope trigger repeated",
+      "recommendation": "Try greed, inspiration, or FOMO triggers"
+    },
+
+    "hook_variety": {
+      "status": "PARTIAL_PASS",
+      "analysis": "Different specific hooks but similar shock value approach",
+      "recommendation": "Vary hook types - try questions, quotes, or statistics"
+    }
+  },
+
+  "diversity_recommendations": [
+    {
+      "priority": "URGENT",
+      "action": "Switch from FII exodus theme",
+      "alternatives": [
+        "Trump tariff impact on Indian tech",
+        "Bitcoin crash and crypto winter lessons",
+        "Budget 2025 tax implications",
+        "Gold vs equity in uncertain times",
+        "Small-cap bubble warning signs"
+      ]
+    },
+    {
+      "priority": "HIGH",
+      "action": "Rotate viral personality style",
+      "next_styles": [
+        "Rachana Ranade analytical approach",
+        "Sharan Hegde entertainment style",
+        "Akshat Shrivastava data-driven format"
+      ]
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Diversify emotional triggers",
+      "unused_triggers": [
+        "FOMO - fear of missing out",
+        "Greed - wealth multiplication stories",
+        "Inspiration - rags to riches",
+        "Authority - expert predictions",
+        "Social proof - what wealthy are doing"
+      ]
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Vary content formats",
+      "suggestions": [
+        "Use numbered lists instead of stories",
+        "Try Q&A format posts",
+        "Include infographic-style data",
+        "Add poll-based engagement"
+      ]
+    }
+  ],
+
+  "freshness_scores": {
+    "overall_freshness": 45,
+    "theme_diversity": 20,
+    "style_variety": 40,
+    "data_freshness": 85,
+    "hook_innovation": 60,
+    "emotional_range": 35
+  },
+
+  "final_verdict": {
+    "pass_check": false,
+    "confidence_score": 0.75,
+    "override_allowed": true,
+    "critical_issue": "Heavy repetition of FII exodus theme across sessions",
+    "immediate_action": "Must diversify to Trump tariff or Bitcoin crash angles",
+    "suggestion": "Implement at least 2 of the recommended alternatives before next distribution"
+  },
+
+  "metrics": {
+    "analysis_time_ms": 1250,
+    "content_pieces_analyzed": 28,
+    "historical_sessions_checked": 5,
+    "similarity_threshold_used": 0.70,
+    "max_similarity_found": 0.82
+  }
+}

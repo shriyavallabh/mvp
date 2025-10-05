@@ -1,0 +1,157 @@
+{
+  "session_id": "session_20250919_023038",
+  "analysis_timestamp": "2025-09-19T03:06:00.000Z",
+  "critical_flags": {
+    "high_similarity_content": [
+      {
+        "content_pair": [
+          "ARN_SHRIYA_003_standard_sip_education_20250919_024828.txt",
+          "ARN_SHRUTI_001_standard_sip_education_20250919_024828.txt"
+        ],
+        "similarity_score": 0.87,
+        "risk_level": "high",
+        "action_required": "One content piece should be rewritten or removed",
+        "identical_elements": [
+          "Market down messaging",
+          "SIP unit calculation example",
+          "Call-to-action structure",
+          "Formatting pattern"
+        ],
+        "recommendation": "Keep one, rewrite the other with different angle (e.g., focus on behavioral aspects vs mathematical benefits)"
+      },
+      {
+        "content_pair": [
+          "ADV_005_standard_tax_planning_20250919_024828.txt",
+          "ARN_VIDYADHAR_002_standard_tax_planning_20250919_024828.txt"
+        ],
+        "similarity_score": 0.83,
+        "risk_level": "high",
+        "action_required": "Differentiate messaging approach",
+        "identical_elements": [
+          "ELSS benefits structure",
+          "Tax saving calculation",
+          "Timeline urgency messaging"
+        ],
+        "recommendation": "Vary the focus - one on ELSS benefits, other on comparison with PPF/NSC"
+      }
+    ],
+    "topic_concentration_risk": [
+      {
+        "topic": "sip_education",
+        "concentration": 28.5,
+        "threshold_exceeded": true,
+        "content_count": 10,
+        "risk_assessment": "Audience likely to experience fatigue",
+        "immediate_action": "Reduce SIP content in next batch, introduce new topics"
+      },
+      {
+        "topic": "tax_planning",
+        "concentration": 25.7,
+        "threshold_exceeded": true,
+        "content_count": 9,
+        "risk_assessment": "Approaching saturation point",
+        "immediate_action": "Space out tax content, add variety"
+      }
+    ],
+    "repetitive_messaging_patterns": [
+      {
+        "pattern": "Market down + SIP benefits",
+        "occurrences": 8,
+        "risk_level": "medium",
+        "affected_content": [
+          "ARN_SHRIYA_003_standard_sip_education",
+          "STD_ADV_006_001",
+          "Multiple WhatsApp messages"
+        ],
+        "action_required": "Vary market commentary approach"
+      },
+      {
+        "pattern": "Tax deadline urgency",
+        "occurrences": 6,
+        "risk_level": "medium",
+        "recommendation": "Add positive framing alongside urgency"
+      }
+    ]
+  },
+  "moderate_flags": {
+    "hook_monotony": {
+      "missing_hook_types": ["story", "statistic"],
+      "overused_hooks": ["question", "statement"],
+      "recommendation": "Introduce client stories and market statistics"
+    },
+    "cta_repetition": {
+      "overused_ctas": ["Contact", "Reply"],
+      "underused_ctas": ["Download", "Calculate", "Register"],
+      "recommendation": "Implement CTA rotation schedule"
+    },
+    "visual_concentration": {
+      "theme_concentration": "Financial charts and graphics",
+      "variety_score": 60,
+      "recommendation": "Add lifestyle and educational visual themes"
+    }
+  },
+  "content_requiring_immediate_revision": [
+    {
+      "file": "ARN_SHRIYA_003_standard_sip_education_20250919_024828.txt",
+      "freshness_score": 35,
+      "primary_issues": [
+        "Near-identical to ARN_SHRUTI content",
+        "Overused market down messaging",
+        "Generic SIP explanation"
+      ],
+      "revision_suggestions": [
+        "Focus on behavioral psychology of SIP investing",
+        "Use different market scenario (growth phase)",
+        "Add personal success story element"
+      ],
+      "priority": "high"
+    },
+    {
+      "file": "ARN_SHRUTI_001_standard_sip_education_20250919_024828.txt",
+      "freshness_score": 37,
+      "primary_issues": [
+        "High similarity to other SIP content",
+        "Generic messaging structure"
+      ],
+      "revision_suggestions": [
+        "Emphasize women-centric investment approach",
+        "Include specific examples relevant to working women",
+        "Different CTA approach"
+      ],
+      "priority": "high"
+    }
+  ],
+  "preventive_measures": {
+    "immediate_implementation": [
+      "Create topic distribution tracker",
+      "Implement similarity checking before content creation",
+      "Establish hook type rotation schedule",
+      "Set up CTA variety monitoring"
+    ],
+    "weekly_practices": [
+      "Review previous week's content for patterns",
+      "Check topic concentration percentages",
+      "Verify hook and CTA variety",
+      "Plan diversification for upcoming content"
+    ],
+    "quality_gates": [
+      "No content below freshness score of 70",
+      "No topic exceeding 20% concentration",
+      "Minimum 4 hook types per week",
+      "Maximum 3 consecutive similar CTAs"
+    ]
+  },
+  "success_indicators": [
+    "Freshness scores consistently above 75",
+    "No similar content pairs above 0.75 similarity",
+    "Balanced topic distribution (<20% per topic)",
+    "Regular use of all hook types",
+    "Varied and engaging CTAs"
+  ],
+  "escalation_triggers": [
+    "Freshness score drops below 50",
+    "Three consecutive content pieces flagged for similarity",
+    "Topic concentration exceeds 35%",
+    "Engagement metrics show declining pattern"
+  ]
+}

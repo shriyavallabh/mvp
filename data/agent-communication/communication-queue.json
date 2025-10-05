@@ -1,0 +1,46 @@
+{
+  "sessionId": "mcp_session_2025-09-17T22-05-42",
+  "messageQueue": {
+    "pending": [],
+    "processing": [],
+    "completed": []
+  },
+  "routingTable": {
+    "feedback_loop": {
+      "source": "*",
+      "destination": "*",
+      "bidirectional": true
+    },
+    "quality_chain": {
+      "source": "content_generator",
+      "destination": "quality_refiner",
+      "bidirectional": false
+    },
+    "compliance_validation": {
+      "source": "*",
+      "destination": "compliance_validator",
+      "bidirectional": true
+    }
+  },
+  "messageProtocol": {
+    "format": {
+      "messageId": "string",
+      "timestamp": "ISO-8601",
+      "sourceAgent": "string",
+      "targetAgent": "string|*",
+      "messageType": "feedback|quality|compliance|state",
+      "payload": "object",
+      "priority": "low|medium|high|critical"
+    }
+  },
+  "statistics": {
+    "totalMessages": 0,
+    "messagesByType": {
+      "feedback": 0,
+      "quality": 0,
+      "compliance": 0,
+      "state": 0
+    },
+    "averageProcessingTime": 0
+  }
+}

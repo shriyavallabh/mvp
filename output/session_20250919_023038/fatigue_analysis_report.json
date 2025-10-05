@@ -1,0 +1,225 @@
+{
+  "session_id": "session_20250919_023038",
+  "analysis_timestamp": "2025-09-19T03:06:00.000Z",
+  "fatigue_checker_version": "1.0.0",
+  "content_analyzed": {
+    "total_items": 36,
+    "linkedin_posts": 10,
+    "whatsapp_messages": 18,
+    "status_images": 8
+  },
+  "freshness_analysis": {
+    "overall_freshness_score": 72,
+    "category_scores": {
+      "topic_diversity": 85,
+      "hook_variety": 75,
+      "cta_rotation": 60,
+      "messaging_patterns": 70,
+      "visual_diversity": 80
+    }
+  },
+  "topic_analysis": {
+    "topics_identified": [
+      "sip_continuation",
+      "tax_saving",
+      "emergency_fund",
+      "market_correction",
+      "investment_alternatives",
+      "sip_education",
+      "tax_planning"
+    ],
+    "topic_distribution": {
+      "sip_education": 28.5,
+      "tax_planning": 25.7,
+      "investment_alternatives": 17.1,
+      "market_correction": 11.4,
+      "emergency_fund": 8.6,
+      "sip_continuation": 5.7,
+      "tax_saving": 2.9
+    },
+    "concentration_risk": "medium",
+    "repetition_flags": [
+      {
+        "topic": "sip_education",
+        "frequency": 10,
+        "risk_level": "high",
+        "reason": "Topic appears in 28.5% of content, exceeding 25% threshold"
+      },
+      {
+        "topic": "tax_planning",
+        "frequency": 9,
+        "risk_level": "high",
+        "reason": "Topic appears in 25.7% of content, approaching threshold"
+      }
+    ]
+  },
+  "messaging_patterns": {
+    "hook_analysis": {
+      "question_hooks": 15,
+      "statement_hooks": 12,
+      "emoji_hooks": 8,
+      "quote_hooks": 1,
+      "statistic_hooks": 0,
+      "story_hooks": 0
+    },
+    "hook_diversity_score": 75,
+    "cta_analysis": {
+      "contact_ctas": 14,
+      "reply_ctas": 10,
+      "learn_more_ctas": 8,
+      "share_ctas": 4
+    },
+    "cta_diversity_score": 60,
+    "repetitive_phrases": [
+      {
+        "phrase": "Mutual fund investments are subject to market risks",
+        "occurrences": 36,
+        "context": "disclaimer",
+        "flag": false,
+        "reason": "Required compliance text"
+      },
+      {
+        "phrase": "Building Wealth, Creating Trust",
+        "occurrences": 18,
+        "context": "tagline",
+        "flag": false,
+        "reason": "Brand tagline consistency"
+      },
+      {
+        "phrase": "Keep calm, keep investing",
+        "occurrences": 6,
+        "context": "messaging",
+        "flag": true,
+        "reason": "Overused messaging pattern"
+      },
+      {
+        "phrase": "Market down",
+        "occurrences": 8,
+        "context": "hook",
+        "flag": true,
+        "reason": "Repetitive market reference"
+      }
+    ]
+  },
+  "similarity_analysis": {
+    "high_similarity_pairs": [
+      {
+        "content_1": "ARN_SHRIYA_003_standard_sip_education",
+        "content_2": "ARN_SHRUTI_001_standard_sip_education",
+        "similarity_score": 0.87,
+        "flag": true,
+        "reason": "Nearly identical SIP education messaging"
+      },
+      {
+        "content_1": "ADV_005_standard_tax_planning",
+        "content_2": "ARN_VIDYADHAR_002_standard_tax_planning",
+        "similarity_score": 0.83,
+        "flag": true,
+        "reason": "Very similar tax planning content structure"
+      }
+    ],
+    "moderate_similarity_pairs": [
+      {
+        "content_1": "STD_ADV_006_001_sip_continuation",
+        "content_2": "ARN_SHRIYA_003_standard_sip_education",
+        "similarity_score": 0.72,
+        "flag": false,
+        "reason": "Similar topic but different angle"
+      }
+    ]
+  },
+  "engagement_fatigue_prediction": {
+    "risk_level": "medium",
+    "predicted_engagement_drop": 15.5,
+    "contributing_factors": [
+      "High concentration on SIP-related topics",
+      "Repetitive market downturn messaging",
+      "Limited hook variety (missing stories, statistics)",
+      "Overuse of emoji-heavy formatting"
+    ],
+    "recommendations": [
+      "Introduce more diverse topics (insurance, retirement planning, goal-based investing)",
+      "Add story-based hooks and statistical insights",
+      "Vary the market commentary approach",
+      "Reduce emoji density in professional content"
+    ]
+  },
+  "content_flagged_for_revision": [
+    {
+      "content_id": "ARN_SHRIYA_003_standard_sip_education",
+      "flags": ["high_similarity", "repetitive_messaging"],
+      "freshness_score": 35,
+      "recommendation": "Rewrite with unique angle or defer publication"
+    },
+    {
+      "content_id": "ARN_SHRUTI_001_standard_sip_education",
+      "flags": ["high_similarity", "repetitive_messaging"],
+      "freshness_score": 37,
+      "recommendation": "Differentiate messaging or combine with unique insights"
+    }
+  ],
+  "diversification_recommendations": {
+    "immediate_actions": [
+      "Create content on insurance and retirement planning",
+      "Develop story-based posts featuring client success stories",
+      "Add statistical insights and market data",
+      "Introduce goal-based investment planning content"
+    ],
+    "content_gaps": [
+      "Personal finance basics",
+      "Insurance planning",
+      "Retirement strategies",
+      "International investing",
+      "Real estate investment",
+      "Cryptocurrency basics"
+    ],
+    "hook_variety_suggestions": [
+      "Client success stories",
+      "Market statistics and data",
+      "Historical investment examples",
+      "Myth-busting content",
+      "Step-by-step guides"
+    ],
+    "cta_rotation_plan": [
+      "Schedule consultation",
+      "Download investment guide",
+      "Register for webinar",
+      "Read detailed article",
+      "Share with family",
+      "Calculate returns"
+    ]
+  },
+  "historical_comparison": {
+    "content_available": true,
+    "sessions_compared": 3,
+    "topic_drift": {
+      "current_focus": ["SIP", "Tax Planning"],
+      "historical_focus": ["Market Updates", "Portfolio Strategy"],
+      "shift_analysis": "Positive shift toward educational content, but risk of over-concentration"
+    },
+    "messaging_evolution": {
+      "improvement": "More structured and professional messaging",
+      "concern": "Reduced personalization and variety"
+    }
+  },
+  "compliance_impact": {
+    "disclaimer_consistency": "excellent",
+    "brand_attribution": "consistent",
+    "regulatory_compliance": "maintained",
+    "freshness_vs_compliance": "balanced"
+  },
+  "performance_metrics": {
+    "analysis_time_ms": 1847,
+    "content_processed": 36,
+    "flags_generated": 8,
+    "suggestions_provided": 24,
+    "confidence_score": 0.92
+  },
+  "next_steps": [
+    "Diversify topic selection for next content batch",
+    "Implement hook rotation strategy",
+    "Create content calendar to ensure topic spacing",
+    "Develop template variations for common topics",
+    "Monitor engagement metrics for fatigue indicators"
+  ]
+}

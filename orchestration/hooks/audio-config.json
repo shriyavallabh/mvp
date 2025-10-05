@@ -1,0 +1,80 @@
+{
+  "enabled": true,
+  "voice": {
+    "type": "female",
+    "engine": "say",
+    "voice_name": "Samantha",
+    "rate": 200,
+    "volume": 0.8
+  },
+  "agents": {
+    "mcp-coordinator": {
+      "start": "MCP Coordinator is initializing infrastructure",
+      "complete": "MCP Coordinator has completed infrastructure setup"
+    },
+    "state-manager": {
+      "start": "State Manager is setting up session management",
+      "complete": "State Manager has completed session setup"
+    },
+    "communication-bus": {
+      "start": "Communication Bus is establishing agent connections",
+      "complete": "Communication Bus is now operational"
+    },
+    "advisor-data-manager": {
+      "start": "Advisor Data Manager is loading advisor information",
+      "complete": "Advisor Data Manager has loaded all advisor profiles"
+    },
+    "market-intelligence": {
+      "start": "Market Intelligence is gathering latest market data",
+      "complete": "Market Intelligence has completed market analysis"
+    },
+    "segment-analyzer": {
+      "start": "Segment Analyzer is analyzing audience segments",
+      "complete": "Segment Analyzer has completed segment analysis"
+    },
+    "linkedin-post-generator-enhanced": {
+      "start": "LinkedIn Post Generator is creating viral content",
+      "complete": "LinkedIn Post Generator has completed content creation"
+    },
+    "whatsapp-message-creator": {
+      "start": "WhatsApp Message Creator is crafting messages",
+      "complete": "WhatsApp Message Creator has completed message creation"
+    },
+    "status-image-designer": {
+      "start": "Status Image Designer is designing visual content",
+      "complete": "Status Image Designer has completed image design"
+    },
+    "gemini-image-generator": {
+      "start": "Gemini Image Generator is generating branded images",
+      "complete": "Gemini Image Generator has completed image generation"
+    },
+    "brand-customizer": {
+      "start": "Brand Customizer is applying advisor branding",
+      "complete": "Brand Customizer has completed branding customization"
+    },
+    "compliance-validator": {
+      "start": "Compliance Validator is checking SEBI compliance",
+      "complete": "Compliance Validator has completed validation"
+    },
+    "quality-scorer": {
+      "start": "Quality Scorer is evaluating content quality",
+      "complete": "Quality Scorer has completed quality assessment"
+    },
+    "fatigue-checker": {
+      "start": "Fatigue Checker is analyzing content freshness",
+      "complete": "Fatigue Checker has completed freshness analysis"
+    },
+    "distribution-controller": {
+      "start": "Distribution Controller is preparing content delivery",
+      "complete": "Distribution Controller has completed distribution"
+    },
+    "analytics-tracker": {
+      "start": "Analytics Tracker is monitoring performance metrics",
+      "complete": "Analytics Tracker has completed metrics analysis"
+    },
+    "feedback-processor": {
+      "start": "Feedback Processor is processing user feedback",
+      "complete": "Feedback Processor has completed feedback analysis"
+    }
+  }
+}

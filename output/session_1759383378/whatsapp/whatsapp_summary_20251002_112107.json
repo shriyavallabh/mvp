@@ -1,0 +1,195 @@
+{
+  "session_id": "session_1759383378",
+  "timestamp": "20251002_112107",
+  "total_advisors": 4,
+  "total_messages": 8,
+  "advisors": [
+    {
+      "advisor_id": "ADV001",
+      "advisor_name": "Shruti Petkar",
+      "segment": "Premium",
+      "messages_created": 2,
+      "messages": [
+        {
+          "advisor_id": "ADV001",
+          "advisor_name": "Shruti Petkar",
+          "timestamp": "20251002_112107",
+          "message_number": 1,
+          "message": "🎯 Shruti, Premium Tax Alert!\n\n₹2 LAKH tax deduction possible (not just ₹1.5L!)\n\n80C: ₹1.5L ✓\n80CCD(1B): ₹50K via NPS ✓\nTotal: ₹2L deduction = ₹62,400 saved*\n\nOnly 6 months to March 31. HNIs act fast.\n\nWhat top wealth managers know, you deserve.\n\n📞 Executive tax planning session?\n\n*30% tax bracket\nShruti Petkar\nARN: ARN-125847",
+          "virality_score": 9.2,
+          "character_count": 327,
+          "segment": "Premium",
+          "hook_used": "VH005 - ₹2 Lakh Tax Secret",
+          "emotional_triggers": [
+            "Exclusivity",
+            "Tax savings",
+            "Insider knowledge"
+          ],
+          "cta": "Executive consultation",
+          "grammy_certified": true,
+          "ready_for_distribution": true
+        },
+        {
+          "advisor_id": "ADV001",
+          "advisor_name": "Shruti Petkar",
+          "timestamp": "20251002_112107",
+          "message_number": 2,
+          "message": "⏰ October Alert: 6 Months Left!\n\nSave ₹62,400 in taxes before March 31!\n\n= One luxury watch OR smart wealth move?\n\nELSS: Tax saving + Equity returns\n3-year lock-in (shortest!)\n\nMarket corrected = Good entry point 📊\n\nSmart people act in October.\nStressed people rush in March.\n\nBe smart. Start NOW! ✅\n\nShruti Petkar\nARN: ARN-125847",
+          "virality_score": 8.5,
+          "character_count": 330,
+          "segment": "Premium",
+          "hook_used": "VH003 - Tax Season Alert (customized)",
+          "emotional_triggers": [
+            "Urgency",
+            "Smart choice",
+            "Timeliness"
+          ],
+          "cta": "Start tax planning now",
+          "grammy_certified": true,
+          "ready_for_distribution": true
+        }
+      ]
+    },
+    {
+      "advisor_id": "ADV002",
+      "advisor_name": "Vidyadhar Petkar",
+      "segment": "Gold",
+      "messages_created": 2,
+      "messages": [
+        {
+          "advisor_id": "ADV002",
+          "advisor_name": "Vidyadhar Petkar",
+          "timestamp": "20251002_112107",
+          "message_number": 1,
+          "message": "💪 Vidyadhar, You're Part of History!\n\nSIP Revolution: ₹27,269 Crore monthly\nThat's ₹906 Cr DAILY! 🚀\n\n30% investors now hold SIPs 5+ years\n(Up from 5% in 2020)\n\nFrom panic sellers → Patient wealth builders\n\nYour ₹5K SIP? You're in India's top investor league.\n\nKeep the discipline. Results coming! 📈\n\nVidyadhar Petkar\nARN: ARN-138924",
+          "virality_score": 9.0,
+          "character_count": 332,
+          "segment": "Gold",
+          "hook_used": "VH001 - SIP Revolution",
+          "emotional_triggers": [
+            "Pride",
+            "Validation",
+            "FOMO"
+          ],
+          "cta": "Continue discipline",
+          "grammy_certified": true,
+          "ready_for_distribution": true
+        },
+        {
+          "advisor_id": "ADV002",
+          "advisor_name": "Vidyadhar Petkar",
+          "timestamp": "20251002_112107",
+          "message_number": 2,
+          "message": "⏰ October Alert: 6 Months Left!\n\nSave ₹46,800 in taxes before March 31!\n\n= 3 months groceries OR smart ELSS?\n\nELSS: Tax saving + Equity returns\n3-year lock-in (shortest!)\n\nMarket corrected = Good entry point 📊\n\nSmart people act in October.\nStressed people rush in March.\n\nBe smart. Start NOW! ✅\n\nVidyadhar Petkar\nARN: ARN-138924",
+          "virality_score": 8.5,
+          "character_count": 328,
+          "segment": "Gold",
+          "hook_used": "VH003 - Tax Season Alert (customized)",
+          "emotional_triggers": [
+            "Urgency",
+            "Smart choice",
+            "Timeliness"
+          ],
+          "cta": "Start tax planning now",
+          "grammy_certified": true,
+          "ready_for_distribution": true
+        }
+      ]
+    },
+    {
+      "advisor_id": "ADV003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "segment": "Premium",
+      "messages_created": 2,
+      "messages": [
+        {
+          "advisor_id": "ADV003",
+          "advisor_name": "Shriya Vallabh Petkar",
+          "timestamp": "20251002_112107",
+          "message_number": 1,
+          "message": "📚 Shriya, Tax Mastery 101\n\nMost advisors: \"Invest ₹1.5L under 80C\"\nSmart advisors: \"Here's ₹2L deduction\"\n\nHow?\n• 80C: ₹1.5L (ELSS/PPF/NPS Tier-I)\n• 80CCD(1B): ₹50K (NPS Tier-I extra)\n• 80D: ₹25K (Health insurance)\n\nTotal deductions: ₹2.75L possible!\nTax saved at 30%: ₹82,500 💰\n\nKnowledge = Wealth. Always.\n\nShriya Vallabh Petkar\nARN: ARN-147852",
+          "virality_score": 8.8,
+          "character_count": 346,
+          "segment": "Premium-Educational",
+          "hook_used": "VH005 - Educational variant",
+          "emotional_triggers": [
+            "Empowerment",
+            "Knowledge",
+            "Completeness"
+          ],
+          "cta": "Learn more",
+          "grammy_certified": true,
+          "ready_for_distribution": true
+        },
+        {
+          "advisor_id": "ADV003",
+          "advisor_name": "Shriya Vallabh Petkar",
+          "timestamp": "20251002_112107",
+          "message_number": 2,
+          "message": "⏰ October Alert: 6 Months Left!\n\nSave ₹62,400 in taxes before March 31!\n\n= One luxury watch OR smart wealth move?\n\nELSS: Tax saving + Equity returns\n3-year lock-in (shortest!)\n\nMarket corrected = Good entry point 📊\n\nSmart people act in October.\nStressed people rush in March.\n\nBe smart. Start NOW! ✅\n\nShriya Vallabh Petkar\nARN: ARN-147852",
+          "virality_score": 8.5,
+          "character_count": 338,
+          "segment": "Premium",
+          "hook_used": "VH003 - Tax Season Alert (customized)",
+          "emotional_triggers": [
+            "Urgency",
+            "Smart choice",
+            "Timeliness"
+          ],
+          "cta": "Start tax planning now",
+          "grammy_certified": true,
+          "ready_for_distribution": true
+        }
+      ]
+    },
+    {
+      "advisor_id": "ADV004",
+      "advisor_name": "Avalok Langer",
+      "segment": "Silver",
+      "messages_created": 2,
+      "messages": [
+        {
+          "advisor_id": "ADV004",
+          "advisor_name": "Avalok Langer",
+          "timestamp": "20251002_112107",
+          "message_number": 1,
+          "message": "🌟 Avalok, Inspiring News!\n\nIndians investing ₹906 CRORE daily via SIPs! 🇮🇳\n\nYou can start with just ₹500/month! 💯\n\nReal story: ₹1,000/month for 15 years\n= ₹6.7 Lakhs at 12% returns!\n\nSmall start. Big dreams. Smart future.\n\n97% wait. 3% act. Which are you?\n\nStart your ₹500 SIP today! 🚀\n\nAvalok Langer\nARN: ARN-169741",
+          "virality_score": 9.0,
+          "character_count": 316,
+          "segment": "Silver",
+          "hook_used": "VH001 - Simplified for beginners",
+          "emotional_triggers": [
+            "Inspiration",
+            "Simplicity",
+            "FOMO",
+            "Hope"
+          ],
+          "cta": "Start ₹500 SIP",
+          "grammy_certified": true,
+          "ready_for_distribution": true
+        },
+        {
+          "advisor_id": "ADV004",
+          "advisor_name": "Avalok Langer",
+          "timestamp": "20251002_112107",
+          "message_number": 2,
+          "message": "⏰ October Alert: 6 Months Left!\n\nSave ₹15,600 in taxes before March 31!\n\n= New iPhone case OR first investment?\n\nELSS: Tax saving + Equity returns\n3-year lock-in (shortest!)\n\nMarket corrected = Good entry point 📊\n\nSmart people act in October.\nStressed people rush in March.\n\nBe smart. Start NOW! ✅\n\nAvalok Langer\nARN: ARN-169741",
+          "virality_score": 8.5,
+          "character_count": 328,
+          "segment": "Silver",
+          "hook_used": "VH003 - Tax Season Alert (customized)",
+          "emotional_triggers": [
+            "Urgency",
+            "Smart choice",
+            "Timeliness"
+          ],
+          "cta": "Start tax planning now",
+          "grammy_certified": true,
+          "ready_for_distribution": true
+        }
+      ]
+    }
+  ],
+  "overall_virality_avg": 8.75,
+  "grammy_certification": "APPROVED"
+}

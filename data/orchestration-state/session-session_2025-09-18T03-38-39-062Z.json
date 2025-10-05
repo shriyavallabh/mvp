@@ -1,0 +1,74 @@
+{
+  "sessionId": "session_2025-09-18T03-38-39-062Z",
+  "timestamp": "2025-09-18T03:38:39.062Z",
+  "orchestrationStatus": "initialized",
+  "currentPhase": "initialization",
+  "agentQueue": {
+    "pending": [
+      "advisor-data-manager",
+      "market-intelligence",
+      "segment-analyzer",
+      "linkedin-post-generator",
+      "whatsapp-message-creator",
+      "status-image-designer",
+      "gemini-image-generator",
+      "brand-customizer",
+      "compliance-validator",
+      "quality-scorer",
+      "fatigue-checker",
+      "distribution-controller",
+      "analytics-tracker",
+      "feedback-processor"
+    ],
+    "running": [],
+    "completed": [],
+    "failed": []
+  },
+  "phaseManagement": {
+    "currentPhase": "initialization",
+    "phaseHistory": [],
+    "nextPhase": "1-data-foundation",
+    "parallelExecution": {
+      "enabled": true,
+      "maxConcurrent": 3,
+      "currentRunning": 0
+    }
+  },
+  "dependencyGraph": {
+    "resolved": [],
+    "unresolved": [
+      "advisor-data-manager",
+      "market-intelligence",
+      "segment-analyzer",
+      "linkedin-post-generator",
+      "whatsapp-message-creator",
+      "status-image-designer",
+      "gemini-image-generator",
+      "brand-customizer",
+      "compliance-validator",
+      "quality-scorer",
+      "fatigue-checker",
+      "distribution-controller",
+      "analytics-tracker",
+      "feedback-processor"
+    ]
+  },
+  "executionMetrics": {
+    "startTime": "2025-09-18T03:38:39.062Z",
+    "estimatedDuration": "12-15 minutes",
+    "agentsCompleted": 0,
+    "totalAgents": 14,
+    "completionPercentage": 0
+  },
+  "stateCheckpoints": [],
+  "errorRecovery": {
+    "enabled": true,
+    "maxRetries": 3,
+    "backoffStrategy": "exponential"
+  },
+  "isolation": {
+    "sessionBoundary": true,
+    "stateEncapsulation": true
+  },
+  "lastUpdated": "2025-09-18T03:38:39.062Z"
+}

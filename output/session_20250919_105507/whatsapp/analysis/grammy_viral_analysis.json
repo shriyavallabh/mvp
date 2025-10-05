@@ -1,0 +1,76 @@
+{
+  "session_metadata": {
+    "session_id": "session_20250919_105507",
+    "generation_timestamp": "2025-09-19T11:16:25.547632",
+    "total_advisors_processed": 5,
+    "total_messages_generated": 25,
+    "quality_standard": "Grammy Award Level (8.0+ virality score)"
+  },
+  "quality_metrics": {
+    "average_virality_score": 4.9,
+    "messages_above_8_0": 0,
+    "messages_above_9_0": 0,
+    "sidney_sheldon_pass_rate": 0.0,
+    "grammy_award_standard_met": false
+  },
+  "viral_strategies_used": [
+    "shrivastava_contrarian_shockers",
+    "ranade_kitchen_analogies",
+    "warikoo_success_stories",
+    "sharan_pop_culture_hooks",
+    "village_wisdom_revelations"
+  ],
+  "advisor_performance": [
+    {
+      "advisor_name": "Shruti Petkar",
+      "advisor_id": "ARN_SHRUTI_001",
+      "messages_generated": 5,
+      "average_virality_score": 4.8,
+      "minimum_virality_score": 0.5,
+      "all_pass_threshold": false,
+      "grammy_worthy": false
+    },
+    {
+      "advisor_name": "Vidyadhar Petkar",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "messages_generated": 5,
+      "average_virality_score": 4.8,
+      "minimum_virality_score": 0.5,
+      "all_pass_threshold": false,
+      "grammy_worthy": false
+    },
+    {
+      "advisor_name": "Shriya Vallabh Petkar",
+      "advisor_id": "ARN_SHRIYA_003",
+      "messages_generated": 5,
+      "average_virality_score": 4.8,
+      "minimum_virality_score": 0.5,
+      "all_pass_threshold": false,
+      "grammy_worthy": false
+    },
+    {
+      "advisor_name": "Mr. Tranquil Veda",
+      "advisor_id": "ADV_004",
+      "messages_generated": 5,
+      "average_virality_score": 4.8,
+      "minimum_virality_score": 0.5,
+      "all_pass_threshold": false,
+      "grammy_worthy": false
+    },
+    {
+      "advisor_name": "Unknown Advisor",
+      "advisor_id": "ADV_005",
+      "messages_generated": 5,
+      "average_virality_score": 5.4,
+      "minimum_virality_score": 1.5,
+      "all_pass_threshold": false,
+      "grammy_worthy": false
+    }
+  ],
+  "market_intelligence_applied": {
+    "f_o_loss_statistics": "93% trader loss rate",
+    "sip_behavioral_data": "39 lakh SIPs stopped",
+    "village_crorepati_story": "\u20b9100+ crore wealth with simple lifestyle",
+    "mutual_fund_growth": "\u20b970 trillion AUM growth"
+  }
+}

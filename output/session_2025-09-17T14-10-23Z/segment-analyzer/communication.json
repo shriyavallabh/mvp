@@ -1,0 +1,15 @@
+{
+  "from": "segment-analyzer",
+  "to": [
+    "linkedin-post-generator",
+    "whatsapp-message-creator"
+  ],
+  "timestamp": "2025-09-17T19:43:03.063553",
+  "message": "Segment analysis complete, ready for content generation",
+  "data_location": "output/session_2025-09-17T14-10-23Z/segment-analyzer/segment_analysis.json",
+  "segments_identified": [
+    "Retail",
+    "HNI",
+    "Corporate"
+  ]
+}

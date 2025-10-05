@@ -1,0 +1,136 @@
+{
+  "executionSummary": {
+    "agent": "advisor-data-manager",
+    "executionTime": "2025-09-17T09:54:52.295550",
+    "status": "COMPLETED",
+    "dataQuality": "98%",
+    "totalAdvisorsProcessed": 8
+  },
+  "advisorSegmentBreakdown": {
+    "Premium": {
+      "count": 3,
+      "advisors": ["Shruti Petkar", "Vidyadhar Kulkarni", "Suresh Nair"],
+      "characteristics": {
+        "avgAUM": "₹135 Crores",
+        "avgExperience": "15.7 years",
+        "avgClientCount": 456,
+        "primaryDemographics": ["HNI Clients", "Retirees", "Family Offices"],
+        "contentTone": ["Professional", "Conservative", "Traditional"],
+        "brandingStyle": "Premium, established, trustworthy"
+      }
+    },
+    "Gold": {
+      "count": 3,
+      "advisors": ["Raj Kumar Singh", "Avalok Mehta", "Anita Desai"],
+      "characteristics": {
+        "avgAUM": "₹48 Crores",
+        "avgExperience": "8.3 years",
+        "avgClientCount": 180,
+        "primaryDemographics": ["Young Professionals", "Entrepreneurs", "Working Women"],
+        "contentTone": ["Friendly", "Motivational", "Empowering"],
+        "brandingStyle": "Dynamic, growth-oriented, inspiring"
+      }
+    },
+    "Silver": {
+      "count": 2,
+      "advisors": ["Priya Sharma", "Rohit Agarwal"],
+      "characteristics": {
+        "avgAUM": "₹23 Crores",
+        "avgExperience": "5 years",
+        "avgClientCount": 85,
+        "primaryDemographics": ["Tech Professionals", "Millennials", "Fresh Graduates"],
+        "contentTone": ["Educational", "Modern"],
+        "brandingStyle": "Tech-savvy, minimal, contemporary"
+      }
+    }
+  },
+  "geographicDistribution": {
+    "majorCities": 8,
+    "locations": {
+      "Mumbai": "Premium - Wealth Creators Advisory",
+      "Delhi": "Gold - Money Matters Financial Services",
+      "Bangalore": "Silver - InvestWise Solutions",
+      "Pune": "Premium - Secure Wealth Management",
+      "Ahmedabad": "Gold - Growth Advisors LLP",
+      "Chennai": "Gold - Women Wealth Advisors",
+      "Hyderabad": "Silver - NextGen Wealth Solutions",
+      "Kochi": "Premium - Traditional Wealth Builders"
+    }
+  },
+  "customizationRequirements": {
+    "customLogos": 6,
+    "uniqueColorSchemes": 8,
+    "customTaglines": 8,
+    "multiLanguageSupport": {
+      "English": 8,
+      "Hindi": 6,
+      "Marathi": 2,
+      "Tamil": 1,
+      "Gujarati": 1,
+      "Malayalam": 1
+    },
+    "contentToneVariations": [
+      "Professional",
+      "Friendly",
+      "Educational",
+      "Conservative",
+      "Motivational",
+      "Empowering",
+      "Modern",
+      "Traditional"
+    ]
+  },
+  "specializationAreas": [
+    "Wealth Management",
+    "Financial Planning",
+    "Tech-Savvy Planning",
+    "Conservative Wealth Management",
+    "Growth-Oriented Planning",
+    "Women Financial Empowerment",
+    "Digital-First Planning",
+    "Traditional Investment Planning"
+  ],
+  "contentStrategyInsights": {
+    "premiumSegmentNeeds": [
+      "Professional tone with detailed market analysis",
+      "Conservative investment focus",
+      "Premium branding with trust elements",
+      "Traditional communication channels"
+    ],
+    "goldSegmentNeeds": [
+      "Balanced educational and promotional content",
+      "Growth-oriented messaging",
+      "Personalized branding",
+      "Multi-channel distribution"
+    ],
+    "silverSegmentNeeds": [
+      "Modern, tech-focused content",
+      "Educational and simplified messaging",
+      "Digital-first approach",
+      "Mobile-optimized delivery"
+    ]
+  },
+  "communicationBusMessages": {
+    "marketIntelligence": {
+      "sent": true,
+      "file": "output/market_intelligence_communication.json",
+      "keyData": "Segment analysis, demographics, focus areas"
+    },
+    "brandCustomizer": {
+      "sent": true,
+      "file": "output/brand_customizer_communication.json",
+      "keyData": "Branding requirements, color schemes, logo needs"
+    }
+  },
+  "dataFiles": {
+    "primary": "/Users/shriyavallabh/Desktop/mvp/data/advisors.json",
+    "traceability": "traceability/traceability-2025-09-17-09-54.md",
+    "worklog": "worklog/worklog-2025-09-17-09-54.md"
+  },
+  "nextAgentRecommendations": {
+    "marketIntelligence": "Process segment analysis and generate market insights for each advisor category",
+    "brandCustomizer": "Create custom branding templates for 6 advisors requiring logos and unique color schemes",
+    "contentGenerator": "Use segment-specific tone and focus areas for personalized content creation",
+    "distributionController": "Consider posting times and language preferences for delivery optimization"
+  }
+}

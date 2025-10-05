@@ -1,0 +1,255 @@
+{
+  "success": true,
+  "timestamp": "2025-10-02T09:37:35.790Z",
+  "sessionId": "session_1759397686841",
+  "totalAdvisors": 4,
+  "segmentBreakdown": {
+    "Premium": 2,
+    "Gold": 1,
+    "Silver": 1
+  },
+  "advisorSegments": [
+    {
+      "advisorId": "ADV001",
+      "advisorName": "Shruti Petkar",
+      "segment": "Premium",
+      "contentTone": "professional",
+      "approvalMode": "manual",
+      "recommendedStrategy": {
+        "primaryTopics": [
+          "Portfolio strategy",
+          "Tax optimization",
+          "Estate planning",
+          "Alternative investments",
+          "Global diversification"
+        ],
+        "contentComplexity": "High",
+        "tone": "Executive, authoritative, consultative",
+        "viralApproach": "Warikoo deep stories + data hooks",
+        "marketFocus": "Alternative investments, tax efficiency"
+      },
+      "marketAlignment": {
+        "currentTrend": "Information Technology",
+        "recommendedAngle": "Deep dive into IT sector earnings quality, margin analysis, global exposure benefits"
+      }
+    },
+    {
+      "advisorId": "ADV002",
+      "advisorName": "Vidyadhar Petkar",
+      "segment": "Gold",
+      "contentTone": "analytical",
+      "approvalMode": "auto",
+      "recommendedStrategy": {
+        "primaryTopics": [
+          "Goal planning",
+          "SIPs",
+          "Asset allocation",
+          "Sector rotation",
+          "Market timing"
+        ],
+        "contentComplexity": "Medium",
+        "tone": "Professional, friendly, expert guide",
+        "viralApproach": "Ranade analogies + practical steps",
+        "marketFocus": "Growth sectors, strategic allocation"
+      },
+      "marketAlignment": {
+        "currentTrend": "Information Technology",
+        "recommendedAngle": "Sector rotation opportunity - when to book profits in IT, rebalance to defensives"
+      }
+    },
+    {
+      "advisorId": "ADV003",
+      "advisorName": "Shriya Vallabh Petkar",
+      "segment": "Premium",
+      "contentTone": "educational",
+      "approvalMode": "manual",
+      "recommendedStrategy": {
+        "primaryTopics": [
+          "Portfolio strategy",
+          "Tax optimization",
+          "Estate planning",
+          "Alternative investments",
+          "Global diversification"
+        ],
+        "contentComplexity": "High",
+        "tone": "Executive, authoritative, consultative",
+        "viralApproach": "Warikoo deep stories + data hooks",
+        "marketFocus": "Alternative investments, tax efficiency"
+      },
+      "marketAlignment": {
+        "currentTrend": "Information Technology",
+        "recommendedAngle": "Deep dive into IT sector earnings quality, margin analysis, global exposure benefits"
+      }
+    },
+    {
+      "advisorId": "ADV004",
+      "advisorName": "Avalok Langer",
+      "segment": "Silver",
+      "contentTone": "modern",
+      "approvalMode": "auto",
+      "recommendedStrategy": {
+        "primaryTopics": [
+          "Investing basics",
+          "Starting SIPs",
+          "Savings strategies",
+          "Emergency funds",
+          "First investments"
+        ],
+        "contentComplexity": "Low",
+        "tone": "Conversational, encouraging, mentor-like",
+        "viralApproach": "Shrivastava simple hooks + emotional stories",
+        "marketFocus": "Simple SIPs, emergency planning"
+      },
+      "marketAlignment": {
+        "currentTrend": "Information Technology",
+        "recommendedAngle": "Simple story: How IT sector growth affects your SIP returns over time"
+      }
+    }
+  ],
+  "contentStrategies": {
+    "Premium": {
+      "profile": {
+        "clientProfile": "HNI, Ultra-HNI",
+        "minInvestment": "₹50 lakhs+",
+        "contentStyle": "Sophisticated, data-heavy, exclusive insights",
+        "topics": [
+          "Portfolio strategy",
+          "Tax optimization",
+          "Estate planning",
+          "Alternative investments",
+          "Global diversification"
+        ],
+        "tone": "Executive, authoritative, consultative",
+        "complexity": "High",
+        "vocabularyLevel": "Advanced financial terminology",
+        "dataDensity": "High - charts, metrics, analysis",
+        "ctaStyle": "Invitation to exclusive consultation",
+        "viralStrategy": "Warikoo deep stories + data hooks"
+      },
+      "advisorCount": 2,
+      "linkedInStrategy": {
+        "length": "2500-3000 chars",
+        "structure": "Thesis → Data → Analysis → Implications → Action",
+        "viralFormula": "Warikoo deep stories + data hooks",
+        "hashtags": -2,
+        "dataPoints": "5-8 metrics"
+      },
+      "whatsAppStrategy": {
+        "length": "300-400 chars",
+        "hook": "Exclusive insight",
+        "structure": "Hook → Key Point → Benefit → CTA",
+        "emoji": "Minimal, professional",
+        "cta": "Invitation to exclusive consultation"
+      },
+      "statusImageStrategy": {
+        "designStyle": "Minimalist, Bloomberg-esque, dark mode",
+        "dataDisplay": "Dense charts, multiple metrics",
+        "brandColors": {
+          "primary": "#1B365D",
+          "secondary": "#0077B5"
+        },
+        "textComplexity": "High"
+      },
+      "marketContext": {
+        "currentOpportunity": "🎯 IT sector explosion: +2.8% surge on strong earnings - TCS, Infosys leading charge",
+        "segmentAngle": "Tax-loss harvesting opportunity as IT rallies - restructure holdings for March-end optimization"
+      }
+    },
+    "Gold": {
+      "profile": {
+        "clientProfile": "Affluent professionals, entrepreneurs",
+        "minInvestment": "₹5-50 lakhs",
+        "contentStyle": "Balanced, educational, actionable",
+        "topics": [
+          "Goal planning",
+          "SIPs",
+          "Asset allocation",
+          "Sector rotation",
+          "Market timing"
+        ],
+        "tone": "Professional, friendly, expert guide",
+        "complexity": "Medium",
+        "vocabularyLevel": "Moderate financial terms with explanations",
+        "dataDensity": "Medium - key metrics with context",
+        "ctaStyle": "Action-oriented call to discuss",
+        "viralStrategy": "Ranade analogies + practical steps"
+      },
+      "advisorCount": 1,
+      "linkedInStrategy": {
+        "length": "1500-2000 chars",
+        "structure": "Hook → Story → Key Points → Action Steps",
+        "viralFormula": "Ranade analogies + practical steps",
+        "hashtags": -2,
+        "dataPoints": "3-5 metrics"
+      },
+      "whatsAppStrategy": {
+        "length": "300-400 chars",
+        "hook": "Strategic update",
+        "structure": "Hook → Key Point → Benefit → CTA",
+        "emoji": "Moderate, purposeful",
+        "cta": "Action-oriented call to discuss"
+      },
+      "statusImageStrategy": {
+        "designStyle": "Professional, balanced, data-viz",
+        "dataDisplay": "Key chart, 3-4 metrics",
+        "brandColors": {
+          "primary": "#2E8B57",
+          "secondary": "#228B22"
+        },
+        "textComplexity": "Medium"
+      },
+      "marketContext": {
+        "currentOpportunity": "🎯 IT sector explosion: +2.8% surge on strong earnings - TCS, Infosys leading charge",
+        "segmentAngle": "Momentum play in IT - consider 5-10% portfolio tilt, book profits at 15%+ gains"
+      }
+    },
+    "Silver": {
+      "profile": {
+        "clientProfile": "Mass affluent, young professionals, beginners",
+        "minInvestment": "₹500+",
+        "contentStyle": "Simple, relatable, confidence-building",
+        "topics": [
+          "Investing basics",
+          "Starting SIPs",
+          "Savings strategies",
+          "Emergency funds",
+          "First investments"
+        ],
+        "tone": "Conversational, encouraging, mentor-like",
+        "complexity": "Low",
+        "vocabularyLevel": "Everyday language, minimal jargon",
+        "dataDensity": "Low - simple examples, stories",
+        "ctaStyle": "Encouraging first step, no-pressure",
+        "viralStrategy": "Shrivastava simple hooks + emotional stories"
+      },
+      "advisorCount": 1,
+      "linkedInStrategy": {
+        "length": "800-1200 chars",
+        "structure": "Viral Hook → Simple Story → 3 Bullet Takeaways → Easy CTA",
+        "viralFormula": "Shrivastava simple hooks + emotional stories",
+        "hashtags": -3,
+        "dataPoints": "1-2 simple stats"
+      },
+      "whatsAppStrategy": {
+        "length": "300-400 chars",
+        "hook": "Quick win tip",
+        "structure": "Hook → Key Point → Benefit → CTA",
+        "emoji": "Liberal, engaging",
+        "cta": "Encouraging first step, no-pressure"
+      },
+      "statusImageStrategy": {
+        "designStyle": "Colorful, friendly, visual-first",
+        "dataDisplay": "Single stat, big visual",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "textComplexity": "Low"
+      },
+      "marketContext": {
+        "currentOpportunity": "🎯 IT sector explosion: +2.8% surge on strong earnings - TCS, Infosys leading charge",
+        "segmentAngle": "IT sector SIPs showing 12% returns - perfect time to start your investment journey"
+      }
+    }
+  }
+}

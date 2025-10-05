@@ -1,0 +1,31 @@
+CONTENT DISTRIBUTION REPORT
+==================================================
+
+Date: 2025-09-17T19:50:26.294664
+Advisors Served: 3
+Total Distributions: 12
+
+Channel Performance:
+  WhatsApp: 3/3 delivered
+  Email: 3 sent
+  LinkedIn: 3 drafts created
+
+Distribution Details:
+
+Shruti Petkar (ADV_001):
+  - whatsapp: delivered
+  - whatsapp_status: delivered
+  - email: sent
+  - linkedin_draft: draft_created
+
+Vidyadhar Kulkarni (ADV_002):
+  - whatsapp: delivered
+  - whatsapp_status: delivered
+  - email: sent
+  - linkedin_draft: draft_created
+
+Avalok Shah (ADV_003):
+  - whatsapp: delivered
+  - whatsapp_status: delivered
+  - email: sent
+  - linkedin_draft: draft_created

@@ -1,0 +1,55 @@
+{
+  "sessionId": "session_2025-09-17T17-09-25-000Z",
+  "infrastructureStatus": "initialized",
+  "mcpEnabled": true,
+  "globalContext": {
+    "platform": "FinAdvise",
+    "orchestrationType": "Hybrid Multi-Agent MCP-Enabled",
+    "workingDirectory": "/Users/shriyavallabh/Desktop/mvp",
+    "sessionOutputDirectory": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-17T17-09-25-000Z",
+    "communicationChannels": 5,
+    "infrastructureReady": true
+  },
+  "advisorData": null,
+  "marketIntelligence": null,
+  "segmentAnalysis": null,
+  "contentGenerated": {
+    "linkedinPosts": [],
+    "whatsappMessages": []
+  },
+  "mediaAssets": {
+    "generatedImages": [],
+    "brandedAssets": []
+  },
+  "validation": {
+    "complianceResults": null,
+    "qualityScores": null
+  },
+  "distribution": {
+    "distributionResults": null,
+    "deliveryStatus": []
+  },
+  "analytics": {
+    "performanceMetrics": null,
+    "feedbackData": null
+  },
+  "crossAgentData": {
+    "sharedVariables": {},
+    "dataFlows": {},
+    "dependencyMap": {}
+  },
+  "crossAgentMessages": [],
+  "communicationProtocols": {
+    "messageFormat": "JSON",
+    "queueType": "FIFO",
+    "routingEnabled": true,
+    "audioFeedbackEnabled": true
+  },
+  "stateSync": {
+    "lastUpdate": "2025-09-17T21:35:00.000Z",
+    "syncEnabled": true,
+    "conflictResolution": "timestamp-based",
+    "learningEnabled": true
+  },
+  "lastUpdated": "2025-09-17T21:35:00.000Z"
+}

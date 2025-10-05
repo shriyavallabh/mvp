@@ -1,0 +1,388 @@
+{
+  "report": {
+    "distributionId": "DIST_1758135448876",
+    "sessionId": "session_1758130725",
+    "timestamp": "2025-09-17T18:57:46.914Z",
+    "duration": "18.04 seconds",
+    "summary": {
+      "total_recipients": 18,
+      "delivered_first_try": 18,
+      "delivered_after_retries": 0,
+      "failed": 0,
+      "blocked": 2,
+      "delivery_rate": "100.00%"
+    },
+    "content_distribution": {
+      "images": {
+        "status": "DISTRIBUTED",
+        "count": 18,
+        "channels": [
+          "whatsapp_status"
+        ],
+        "compliance": "APPROVED"
+      },
+      "linkedin": {
+        "status": "BLOCKED",
+        "reason": "Compliance violations - Missing ARN numbers",
+        "action_required": "Add ARN numbers to all posts"
+      },
+      "whatsapp": {
+        "status": "BLOCKED",
+        "reason": "Compliance violations - Missing ARN and disclaimers",
+        "action_required": "Add ARN numbers and compliance footer"
+      }
+    },
+    "kpi_compliance": {
+      "first_attempt_success_rate": "100.00%",
+      "overall_delivery_rate": "100.00%",
+      "average_delivery_time": "0ms",
+      "sla_met": true,
+      "circuit_breaker_triggered": false
+    },
+    "delivery_details": {
+      "successful": [
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135448876_ADV_001",
+          "advisorId": "ADV_001",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 1,
+          "timestamp": "2025-09-17T18:57:28.877Z",
+          "attempt": 1
+        },
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135449879_ADV_001",
+          "advisorId": "ADV_001",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 0,
+          "timestamp": "2025-09-17T18:57:29.879Z",
+          "attempt": 1
+        },
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135450881_ADV_001",
+          "advisorId": "ADV_001",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 1,
+          "timestamp": "2025-09-17T18:57:30.882Z",
+          "attempt": 1
+        },
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135451883_ADV_001",
+          "advisorId": "ADV_001",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 0,
+          "timestamp": "2025-09-17T18:57:31.883Z",
+          "attempt": 1
+        },
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135452885_ADV_001",
+          "advisorId": "ADV_001",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 0,
+          "timestamp": "2025-09-17T18:57:32.885Z",
+          "attempt": 1
+        },
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135453888_ADV_001",
+          "advisorId": "ADV_001",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 0,
+          "timestamp": "2025-09-17T18:57:33.888Z",
+          "attempt": 1
+        },
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135454889_ADV_002",
+          "advisorId": "ADV_002",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 0,
+          "timestamp": "2025-09-17T18:57:34.889Z",
+          "attempt": 1
+        },
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135455892_ADV_002",
+          "advisorId": "ADV_002",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 0,
+          "timestamp": "2025-09-17T18:57:35.892Z",
+          "attempt": 1
+        },
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135456894_ADV_002",
+          "advisorId": "ADV_002",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 0,
+          "timestamp": "2025-09-17T18:57:36.894Z",
+          "attempt": 1
+        },
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135457896_ADV_002",
+          "advisorId": "ADV_002",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 0,
+          "timestamp": "2025-09-17T18:57:37.896Z",
+          "attempt": 1
+        },
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135458898_ADV_002",
+          "advisorId": "ADV_002",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 0,
+          "timestamp": "2025-09-17T18:57:38.898Z",
+          "attempt": 1
+        },
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135459900_ADV_002",
+          "advisorId": "ADV_002",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 0,
+          "timestamp": "2025-09-17T18:57:39.900Z",
+          "attempt": 1
+        },
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135460902_ADV_003",
+          "advisorId": "ADV_003",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 0,
+          "timestamp": "2025-09-17T18:57:40.902Z",
+          "attempt": 1
+        },
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135461905_ADV_003",
+          "advisorId": "ADV_003",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 0,
+          "timestamp": "2025-09-17T18:57:41.905Z",
+          "attempt": 1
+        },
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135462907_ADV_003",
+          "advisorId": "ADV_003",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 0,
+          "timestamp": "2025-09-17T18:57:42.907Z",
+          "attempt": 1
+        },
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135463909_ADV_003",
+          "advisorId": "ADV_003",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 0,
+          "timestamp": "2025-09-17T18:57:43.909Z",
+          "attempt": 1
+        },
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135464911_ADV_003",
+          "advisorId": "ADV_003",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 0,
+          "timestamp": "2025-09-17T18:57:44.911Z",
+          "attempt": 1
+        },
+        {
+          "success": true,
+          "deliveryId": "DEL_1758135465913_ADV_003",
+          "advisorId": "ADV_003",
+          "contentType": "status_image",
+          "channel": "whatsapp_status",
+          "deliveryTime": 0,
+          "timestamp": "2025-09-17T18:57:45.913Z",
+          "attempt": 1
+        }
+      ],
+      "retried": [],
+      "failed": [],
+      "blocked": [
+        {
+          "type": "linkedin",
+          "count": 14,
+          "reason": "Missing ARN numbers and disclaimers",
+          "action": "Requires compliance fixes before distribution"
+        },
+        {
+          "type": "whatsapp",
+          "count": 9,
+          "reason": "Missing ARN numbers and compliance footer",
+          "action": "Requires compliance fixes before distribution"
+        }
+      ]
+    },
+    "recommendations": [
+      "Fix ARN violations in LinkedIn posts before next distribution",
+      "Add compliance disclaimers to WhatsApp messages",
+      "Consider implementing automated compliance fixes",
+      "Schedule revalidation after compliance updates"
+    ]
+  },
+  "deliveryLog": [
+    {
+      "timestamp": "2025-09-17T18:57:28.876Z",
+      "advisorId": "ADV_001",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_001_checklist_20250917_234848.png",
+      "status": "uploaded"
+    },
+    {
+      "timestamp": "2025-09-17T18:57:29.879Z",
+      "advisorId": "ADV_001",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_001_educational_20250917_234848.png",
+      "status": "uploaded"
+    },
+    {
+      "timestamp": "2025-09-17T18:57:30.881Z",
+      "advisorId": "ADV_001",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_001_market_update_20250917_234848.png",
+      "status": "uploaded"
+    },
+    {
+      "timestamp": "2025-09-17T18:57:31.883Z",
+      "advisorId": "ADV_001",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_001_motivational_20250917_234848.png",
+      "status": "uploaded"
+    },
+    {
+      "timestamp": "2025-09-17T18:57:32.885Z",
+      "advisorId": "ADV_001",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_001_sector_spotlight_20250917_234848.png",
+      "status": "uploaded"
+    },
+    {
+      "timestamp": "2025-09-17T18:57:33.888Z",
+      "advisorId": "ADV_001",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_001_tax_tips_20250917_234848.png",
+      "status": "uploaded"
+    },
+    {
+      "timestamp": "2025-09-17T18:57:34.889Z",
+      "advisorId": "ADV_002",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_002_checklist_20250917_234849.png",
+      "status": "uploaded"
+    },
+    {
+      "timestamp": "2025-09-17T18:57:35.892Z",
+      "advisorId": "ADV_002",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_002_educational_20250917_234848.png",
+      "status": "uploaded"
+    },
+    {
+      "timestamp": "2025-09-17T18:57:36.894Z",
+      "advisorId": "ADV_002",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_002_market_update_20250917_234848.png",
+      "status": "uploaded"
+    },
+    {
+      "timestamp": "2025-09-17T18:57:37.896Z",
+      "advisorId": "ADV_002",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_002_motivational_20250917_234849.png",
+      "status": "uploaded"
+    },
+    {
+      "timestamp": "2025-09-17T18:57:38.898Z",
+      "advisorId": "ADV_002",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_002_sector_spotlight_20250917_234849.png",
+      "status": "uploaded"
+    },
+    {
+      "timestamp": "2025-09-17T18:57:39.900Z",
+      "advisorId": "ADV_002",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_002_tax_tips_20250917_234849.png",
+      "status": "uploaded"
+    },
+    {
+      "timestamp": "2025-09-17T18:57:40.902Z",
+      "advisorId": "ADV_003",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_003_checklist_20250917_234849.png",
+      "status": "uploaded"
+    },
+    {
+      "timestamp": "2025-09-17T18:57:41.905Z",
+      "advisorId": "ADV_003",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_003_educational_20250917_234849.png",
+      "status": "uploaded"
+    },
+    {
+      "timestamp": "2025-09-17T18:57:42.907Z",
+      "advisorId": "ADV_003",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_003_market_update_20250917_234849.png",
+      "status": "uploaded"
+    },
+    {
+      "timestamp": "2025-09-17T18:57:43.909Z",
+      "advisorId": "ADV_003",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_003_motivational_20250917_234849.png",
+      "status": "uploaded"
+    },
+    {
+      "timestamp": "2025-09-17T18:57:44.911Z",
+      "advisorId": "ADV_003",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_003_sector_spotlight_20250917_234849.png",
+      "status": "uploaded"
+    },
+    {
+      "timestamp": "2025-09-17T18:57:45.913Z",
+      "advisorId": "ADV_003",
+      "channel": "whatsapp_status",
+      "file": "branded_ADV_003_tax_tips_20250917_234849.png",
+      "status": "uploaded"
+    }
+  ],
+  "kpiMetrics": {
+    "firstAttemptSuccessRate": 1,
+    "overallDeliveryRate": 1,
+    "averageDeliveryTime": 0,
+    "slaCompliance": true
+  },
+  "circuitBreakerEvents": {
+    "triggered": false,
+    "failures": 0,
+    "attempts": 0
+  }
+}

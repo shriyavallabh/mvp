@@ -1,0 +1,997 @@
+{
+  "session_id": "session_20251002_180551",
+  "timestamp": "2025-10-02T18:05:51+05:30",
+  "total_images": 12,
+  "images_per_advisor": 3,
+  "format": "WhatsApp Status (1080x1920 vertical)",
+  "content_standard": "Grammy-level viral design (8.5+ virality)",
+  "image_specifications": [
+    {
+      "advisor": "Shruti Petkar",
+      "advisor_id": "ADV001",
+      "segment": "Premium",
+      "arn": "ARN-125847",
+      "branding": {
+        "primaryColor": "#1B365D",
+        "secondaryColor": "#0077B5",
+        "tagline": "Building Wealth, Creating Trust",
+        "logo_url": "/assets/logos/shruti-petkar.png"
+      },
+      "image_id": "shruti_status_1",
+      "format": "1080x1920",
+      "theme": "RBI Rs 1 Crore Loan Against Shares",
+      "visual_type": "comparison_infographic",
+      "headline": "Rs 1 CRORE Leverage Unlocked!",
+      "subheadline": "RBI's Game-Changing Reform",
+      "data_points": [
+        {
+          "label": "Before",
+          "value": "Rs 20 Lakh",
+          "color": "#999999"
+        },
+        {
+          "label": "After",
+          "value": "Rs 1 CRORE",
+          "color": "#0077B5",
+          "emphasis": true
+        },
+        {
+          "label": "Increase",
+          "value": "5X OVERNIGHT",
+          "color": "#FFD700"
+        }
+      ],
+      "layout": {
+        "structure": "vertical_comparison",
+        "headline_position": "top_15%",
+        "data_visualization": "central_60%",
+        "branding_zone": "bottom_20%",
+        "visual_flow": "before_after_arrow"
+      },
+      "fonts": {
+        "headline": "Montserrat Bold 84pt",
+        "subheadline": "Montserrat SemiBold 56pt",
+        "data_primary": "Montserrat ExtraBold 120pt",
+        "data_label": "Open Sans SemiBold 48pt",
+        "body_text": "Open Sans Regular 42pt",
+        "tagline": "Open Sans Light 36pt",
+        "arn": "Open Sans Regular 28pt"
+      },
+      "color_scheme": {
+        "background": "linear_gradient(#1B365D, #0A1929)",
+        "accent": "#0077B5",
+        "highlight": "#FFD700",
+        "text_primary": "#FFFFFF",
+        "text_secondary": "#E0E0E0"
+      },
+      "visual_elements": [
+        "Arrow graphic showing 5x multiplication",
+        "Currency symbol (₹) emphasized",
+        "Subtle stock chart pattern in background",
+        "Professional geometric shapes"
+      ],
+      "cta_text": "Unlock Your Stock Wealth",
+      "footer_elements": [
+        "Advisor tagline",
+        "ARN number",
+        "Disclaimer: *Leverage wisely. Market risks apply."
+      ],
+      "viral_score_target": 8.8,
+      "mobile_optimization": "High contrast, large numerals visible in thumbnail",
+      "gemini_prompt": "Create a professional WhatsApp Status image (1080x1920px vertical) for financial advisor. Theme: RBI increases loan against shares from Rs 20 Lakh to Rs 1 Crore. Visual style: Premium executive infographic with navy blue gradient background (#1B365D to #0A1929). Central focus: Large before/after comparison with golden arrow showing 5X increase. Headline 'Rs 1 CRORE Leverage Unlocked!' at top in Montserrat Bold 84pt white text. Display Rs 20L in gray, Rs 1 CRORE in bright blue (#0077B5) 120pt, and '5X OVERNIGHT' in gold. Include subtle stock chart pattern in background. Bottom 20% reserved for logo placement (150px), tagline 'Building Wealth, Creating Trust' and 'ARN: ARN-125847' in small text. Professional, premium, executive aesthetic. High contrast for mobile visibility."
+    },
+    {
+      "advisor": "Shruti Petkar",
+      "advisor_id": "ADV001",
+      "segment": "Premium",
+      "arn": "ARN-125847",
+      "branding": {
+        "primaryColor": "#1B365D",
+        "secondaryColor": "#0077B5",
+        "tagline": "Building Wealth, Creating Trust",
+        "logo_url": "/assets/logos/shruti-petkar.png"
+      },
+      "image_id": "shruti_status_2",
+      "format": "1080x1920",
+      "theme": "Tata Capital IPO - Biggest of 2025",
+      "visual_type": "timeline_infographic",
+      "headline": "Rs 15,512 Cr",
+      "subheadline": "2025's BIGGEST IPO",
+      "data_points": [
+        {
+          "label": "IPO Size",
+          "value": "Rs 15,512 Cr",
+          "icon": "trophy"
+        },
+        {
+          "label": "Anchor Date",
+          "value": "Oct 3, 2025",
+          "icon": "calendar"
+        },
+        {
+          "label": "Expected",
+          "value": "4X Oversubscription",
+          "icon": "rocket"
+        }
+      ],
+      "layout": {
+        "structure": "vertical_timeline",
+        "headline_position": "top_20%",
+        "timeline_section": "middle_50%",
+        "branding_zone": "bottom_20%",
+        "visual_hierarchy": "size_date_demand"
+      },
+      "fonts": {
+        "headline": "Montserrat Black 96pt",
+        "subheadline": "Montserrat Bold 64pt",
+        "data_value": "Montserrat ExtraBold 72pt",
+        "data_label": "Open Sans SemiBold 48pt",
+        "body_text": "Open Sans Regular 42pt",
+        "tagline": "Open Sans Light 36pt"
+      },
+      "color_scheme": {
+        "background": "#1B365D",
+        "accent": "#FFD700",
+        "highlight": "#0077B5",
+        "text_primary": "#FFFFFF",
+        "timeline_line": "#0077B5"
+      },
+      "visual_elements": [
+        "Vertical timeline with 3 key milestones",
+        "Trophy icon at top (biggest IPO)",
+        "Calendar icon for anchor date",
+        "Rocket icon for oversubscription",
+        "Tata brand colors integrated subtly"
+      ],
+      "cta_text": "Plan HNI Allocation Strategy",
+      "footer_elements": [
+        "Advisor tagline",
+        "ARN number",
+        "Disclaimer: *IPO investments subject to market risks"
+      ],
+      "viral_score_target": 9.0,
+      "mobile_optimization": "Bold numerals, gold accents catch eye immediately",
+      "gemini_prompt": "Create a premium WhatsApp Status image (1080x1920px vertical) for Tata Capital IPO announcement. Background: Deep navy blue (#1B365D). Headline 'Rs 15,512 Cr' in huge white text (96pt Montserrat Black) at top. Subheadline '2025's BIGGEST IPO' in gold (#FFD700). Central vertical timeline with 3 milestones: trophy icon + 'IPO Size: Rs 15,512 Cr', calendar icon + 'Anchor: Oct 3, 2025', rocket icon + 'Expected: 4X Oversubscription'. Each milestone 72pt bold white text with blue (#0077B5) connecting line. Bottom 20% for advisor logo, 'Building Wealth, Creating Trust' tagline, and 'ARN: ARN-125847'. Professional premium design with gold accents. High contrast, mobile-optimized."
+    },
+    {
+      "advisor": "Shruti Petkar",
+      "advisor_id": "ADV001",
+      "segment": "Premium",
+      "arn": "ARN-125847",
+      "branding": {
+        "primaryColor": "#1B365D",
+        "secondaryColor": "#0077B5",
+        "tagline": "Building Wealth, Creating Trust",
+        "logo_url": "/assets/logos/shruti-petkar.png"
+      },
+      "image_id": "shruti_status_3",
+      "format": "1080x1920",
+      "theme": "Rate Cut Cycle Portfolio Positioning",
+      "visual_type": "sectoral_positioning_matrix",
+      "headline": "Rate Cut Cycle Starting",
+      "subheadline": "Position Before The Crowd",
+      "data_points": [
+        {
+          "sector": "Banking",
+          "icon": "bank",
+          "opportunity": "Policy Beneficiary",
+          "color": "#0077B5"
+        },
+        {
+          "sector": "Real Estate",
+          "icon": "building",
+          "opportunity": "Liquidity Boost",
+          "color": "#2E8B57"
+        },
+        {
+          "sector": "Auto",
+          "icon": "car",
+          "opportunity": "Demand Recovery",
+          "color": "#FF6B35"
+        }
+      ],
+      "layout": {
+        "structure": "three_column_matrix",
+        "headline_position": "top_15%",
+        "sector_cards": "middle_60%",
+        "branding_zone": "bottom_20%",
+        "visual_flow": "three_equal_focus_cards"
+      },
+      "fonts": {
+        "headline": "Montserrat Bold 76pt",
+        "subheadline": "Montserrat SemiBold 52pt",
+        "sector_name": "Montserrat Bold 64pt",
+        "opportunity_text": "Open Sans SemiBold 44pt",
+        "timeline": "Open Sans Bold 56pt",
+        "tagline": "Open Sans Light 36pt"
+      },
+      "color_scheme": {
+        "background": "linear_gradient(#0A1929, #1B365D)",
+        "card_backgrounds": ["#0077B5", "#2E8B57", "#FF6B35"],
+        "text_primary": "#FFFFFF",
+        "accent": "#FFD700"
+      },
+      "visual_elements": [
+        "Three horizontal cards with icons",
+        "Banking icon (columns)",
+        "Real estate icon (building)",
+        "Auto icon (car)",
+        "Timeline indicator 'December 2025'",
+        "Upward arrow graphics"
+      ],
+      "cta_text": "Rebalance Portfolio Now",
+      "footer_elements": [
+        "Advisor tagline",
+        "ARN number",
+        "Disclaimer: *Mutual funds subject to market risks"
+      ],
+      "viral_score_target": 8.6,
+      "mobile_optimization": "Color-coded sectors, clear hierarchy",
+      "gemini_prompt": "Create a professional WhatsApp Status image (1080x1920px vertical) for rate cut investment strategy. Background: Dark blue gradient (#0A1929 to #1B365D). Top headline 'Rate Cut Cycle Starting' in white Montserrat Bold 76pt. Subheadline 'Position Before The Crowd' 52pt. Central section: 3 horizontal cards stacked vertically showing sectors - Banking (blue #0077B5, bank icon), Real Estate (green #2E8B57, building icon), Auto (orange #FF6B35, car icon). Each card 64pt sector name + 44pt opportunity description. Golden timeline badge 'December 2025' in top right. Bottom 20% for advisor logo, 'Building Wealth, Creating Trust', 'ARN: ARN-125847'. Premium executive design with sector color coding. Mobile-optimized high contrast."
+    },
+    {
+      "advisor": "Vidyadhar Petkar",
+      "advisor_id": "ADV002",
+      "segment": "Gold",
+      "arn": "ARN-138924",
+      "branding": {
+        "primaryColor": "#2E8B57",
+        "secondaryColor": "#228B22",
+        "tagline": "Your Financial Growth Partner",
+        "logo_url": "/assets/logos/vidyadhar-petkar.png"
+      },
+      "image_id": "vidyadhar_status_1",
+      "format": "1080x1920",
+      "theme": "DII vs FII Battle - Indian Investors Winning",
+      "visual_type": "comparison_battle_chart",
+      "headline": "Desi Money CRUSHING",
+      "subheadline": "Foreign Panic",
+      "data_points": [
+        {
+          "label": "FII Outflows",
+          "value": "$15.5 Billion",
+          "arrow": "down",
+          "color": "#DC3545",
+          "flag": "global"
+        },
+        {
+          "label": "DII Inflows",
+          "value": "Rs 5.73 TRILLION",
+          "arrow": "up",
+          "color": "#2E8B57",
+          "flag": "india"
+        }
+      ],
+      "layout": {
+        "structure": "vs_comparison_split_screen",
+        "headline_position": "top_15%",
+        "comparison_section": "middle_60%",
+        "branding_zone": "bottom_20%",
+        "visual_split": "red_left_green_right"
+      },
+      "fonts": {
+        "headline": "Montserrat ExtraBold 88pt",
+        "subheadline": "Montserrat Bold 64pt",
+        "data_value": "Montserrat Black 100pt",
+        "data_label": "Open Sans Bold 52pt",
+        "vs_text": "Montserrat Black 72pt",
+        "tagline": "Open Sans Regular 36pt"
+      },
+      "color_scheme": {
+        "background": "#1A1A1A",
+        "left_side": "#DC3545",
+        "right_side": "#2E8B57",
+        "text_primary": "#FFFFFF",
+        "vs_divider": "#FFD700"
+      },
+      "visual_elements": [
+        "Split screen design - red vs green",
+        "Downward arrow (red) for FII",
+        "Upward arrow (green) for DII",
+        "Indian flag colors integrated",
+        "Golden 'VS' in center divider",
+        "Triumph trophy icon on DII side"
+      ],
+      "cta_text": "Join The Winning Team",
+      "footer_elements": [
+        "Advisor tagline",
+        "ARN number",
+        "Disclaimer: *Mutual funds subject to market risks"
+      ],
+      "viral_score_target": 9.2,
+      "mobile_optimization": "High contrast red vs green, patriotic appeal",
+      "gemini_prompt": "Create a dynamic WhatsApp Status image (1080x1920px vertical) showing India vs Foreign money battle. Black background (#1A1A1A). Split screen design: left side red-tinted (#DC3545), right side green-tinted (#2E8B57). Top headline 'Desi Money CRUSHING' in white 88pt bold. Subheadline 'Foreign Panic' 64pt. Golden 'VS' divider in center (72pt). Left side: downward red arrow, 'FII Outflows', '$15.5 Billion' in 100pt. Right side: upward green arrow, 'DII Inflows', 'Rs 5.73 TRILLION' in 100pt with trophy icon. Bottom 20% for advisor logo, 'Your Financial Growth Partner', 'ARN: ARN-138924'. Patriotic, high-energy, triumph design. Mobile-optimized high contrast."
+    },
+    {
+      "advisor": "Vidyadhar Petkar",
+      "advisor_id": "ADV002",
+      "segment": "Gold",
+      "arn": "ARN-138924",
+      "branding": {
+        "primaryColor": "#2E8B57",
+        "secondaryColor": "#228B22",
+        "tagline": "Your Financial Growth Partner",
+        "logo_url": "/assets/logos/vidyadhar-petkar.png"
+      },
+      "image_id": "vidyadhar_status_2",
+      "format": "1080x1920",
+      "theme": "IT Sector Recovery - From H1B Panic to Rally",
+      "visual_type": "recovery_journey_graph",
+      "headline": "IT Sector Recovery",
+      "subheadline": "Rs 97,598 Cr Comeback",
+      "data_points": [
+        {
+          "phase": "August",
+          "event": "H1B Panic",
+          "impact": "Market Cap Loss",
+          "sentiment": "crash"
+        },
+        {
+          "phase": "October",
+          "event": "TCS Recovery",
+          "impact": "ENTIRE Loss Recovered",
+          "sentiment": "recovery"
+        }
+      ],
+      "layout": {
+        "structure": "v_shaped_recovery_graph",
+        "headline_position": "top_15%",
+        "graph_section": "middle_60%",
+        "branding_zone": "bottom_20%",
+        "visual_flow": "crash_to_recovery_v_curve"
+      },
+      "fonts": {
+        "headline": "Montserrat Bold 80pt",
+        "subheadline": "Montserrat SemiBold 58pt",
+        "data_value": "Montserrat ExtraBold 92pt",
+        "phase_label": "Open Sans Bold 48pt",
+        "lesson_text": "Open Sans SemiBold 52pt",
+        "tagline": "Open Sans Regular 36pt"
+      },
+      "color_scheme": {
+        "background": "linear_gradient(#0A1929, #1B4F72)",
+        "crash_color": "#DC3545",
+        "recovery_color": "#2E8B57",
+        "line_color": "#FFD700",
+        "text_primary": "#FFFFFF"
+      },
+      "visual_elements": [
+        "V-shaped recovery graph line",
+        "August crash point (red)",
+        "October recovery point (green)",
+        "Rupee symbol (₹) emphasized",
+        "TCS logo reference",
+        "Light bulb icon for 'lesson'"
+      ],
+      "cta_text": "Quality IT Stocks = Long Term Wins",
+      "key_lesson": "Markets Panic. Smart Investors Accumulate.",
+      "footer_elements": [
+        "Advisor tagline",
+        "ARN number",
+        "Disclaimer: *Stock investments subject to market risks"
+      ],
+      "viral_score_target": 8.9,
+      "mobile_optimization": "Clear V-curve, bold recovery number stands out",
+      "gemini_prompt": "Create an analytical WhatsApp Status image (1080x1920px vertical) for IT sector recovery story. Background: Deep blue gradient (#0A1929 to #1B4F72). Headline 'IT Sector Recovery' white 80pt top. Subheadline 'Rs 97,598 Cr Comeback' 58pt. Central dramatic V-shaped graph: left side red downward line labeled 'August H1B Panic' (48pt), bottom point, then green upward line to 'October TCS Recovery' (48pt). Big number 'Rs 97,598 Cr' in 92pt at recovery peak. Light bulb icon with lesson text 'Markets Panic. Smart Investors Accumulate.' in 52pt. Bottom 20% for advisor logo, 'Your Financial Growth Partner', 'ARN: ARN-138924'. Professional analytical design with vindication narrative. Mobile-optimized."
+    },
+    {
+      "advisor": "Vidyadhar Petkar",
+      "advisor_id": "ADV002",
+      "segment": "Gold",
+      "arn": "ARN-138924",
+      "branding": {
+        "primaryColor": "#2E8B57",
+        "secondaryColor": "#228B22",
+        "tagline": "Your Financial Growth Partner",
+        "logo_url": "/assets/logos/vidyadhar-petkar.png"
+      },
+      "image_id": "vidyadhar_status_3",
+      "format": "1080x1920",
+      "theme": "RBI 22 Reforms - Market Rally Drivers",
+      "visual_type": "stats_celebration_dashboard",
+      "headline": "RBI's 22 Reforms",
+      "subheadline": "Market Rally Fuel",
+      "data_points": [
+        {
+          "metric": "Sensex",
+          "value": "+715 points",
+          "percentage": "+0.89%",
+          "color": "#2E8B57"
+        },
+        {
+          "metric": "Nifty IT",
+          "value": "+573 points",
+          "percentage": "+1.72%",
+          "color": "#0077B5"
+        },
+        {
+          "metric": "Inflation",
+          "value": "2.1%",
+          "label": "Historic Low",
+          "color": "#FFD700"
+        }
+      ],
+      "layout": {
+        "structure": "three_metric_cards",
+        "headline_position": "top_15%",
+        "metrics_section": "middle_55%",
+        "insight_section": "middle_60-75%",
+        "branding_zone": "bottom_20%"
+      },
+      "fonts": {
+        "headline": "Montserrat Bold 78pt",
+        "subheadline": "Montserrat SemiBold 56pt",
+        "metric_value": "Montserrat ExtraBold 88pt",
+        "metric_label": "Open Sans Bold 48pt",
+        "insight_text": "Open Sans SemiBold 46pt",
+        "tagline": "Open Sans Regular 36pt"
+      },
+      "color_scheme": {
+        "background": "#1B365D",
+        "card_1": "#2E8B57",
+        "card_2": "#0077B5",
+        "card_3": "#FFD700",
+        "text_primary": "#FFFFFF",
+        "text_dark": "#1A1A1A"
+      },
+      "visual_elements": [
+        "Three rounded stat cards",
+        "Upward arrow icons",
+        "Trophy icon for top performer",
+        "Checkmark icons for reforms",
+        "Celebration confetti elements"
+      ],
+      "cta_text": "Position for Beneficiaries Now",
+      "key_insight": "Rate Cuts by December 2025",
+      "footer_elements": [
+        "Advisor tagline",
+        "ARN number",
+        "Disclaimer: *Market investments subject to risks"
+      ],
+      "viral_score_target": 8.7,
+      "mobile_optimization": "Color-coded metrics, celebration theme",
+      "gemini_prompt": "Create a celebratory WhatsApp Status image (1080x1920px vertical) for RBI reforms market impact. Background: Navy blue (#1B365D). Top headline 'RBI's 22 Reforms' white 78pt. Subheadline 'Market Rally Fuel' 56pt. Three colorful rounded cards stacked vertically: Card 1 (green #2E8B57): 'Sensex +715 points (+0.89%)' 88pt. Card 2 (blue #0077B5): 'Nifty IT +573 points (+1.72%)' 88pt with trophy icon. Card 3 (gold #FFD700): 'Inflation 2.1% Historic Low' 88pt dark text. Subtle celebration confetti elements. Key insight banner 'Rate Cuts by December 2025' 46pt. Bottom 20% for advisor logo, 'Your Financial Growth Partner', 'ARN: ARN-138924'. Professional analytical celebration design. Mobile-optimized."
+    },
+    {
+      "advisor": "Shriya Vallabh Petkar",
+      "advisor_id": "ADV003",
+      "segment": "Premium",
+      "arn": "ARN-147852",
+      "branding": {
+        "primaryColor": "#8B4513",
+        "secondaryColor": "#CD853F",
+        "tagline": "Empowering Financial Decisions",
+        "logo_url": "/assets/logos/shriya-vallabh.png"
+      },
+      "image_id": "shriya_status_1",
+      "format": "1080x1920",
+      "theme": "Tata Motors Demerger - Wealth Creation Magic",
+      "visual_type": "transformation_visual",
+      "headline": "1 Stock → 2 Stocks",
+      "subheadline": "Tata Motors Demerger Magic",
+      "data_points": [
+        {
+          "event": "Demerger Effective",
+          "date": "Oct 1, 2025",
+          "icon": "calendar"
+        },
+        {
+          "event": "Record Date",
+          "date": "Oct 14, 2025",
+          "icon": "star",
+          "urgency": "high"
+        },
+        {
+          "benefit": "Zero Extra Payment",
+          "description": "Get shares in BOTH companies",
+          "icon": "gift"
+        }
+      ],
+      "layout": {
+        "structure": "transformation_flow",
+        "headline_position": "top_15%",
+        "transformation_visual": "middle_50%",
+        "branding_zone": "bottom_20%",
+        "visual_flow": "one_stock_splits_to_two"
+      },
+      "fonts": {
+        "headline": "Montserrat ExtraBold 92pt",
+        "subheadline": "Montserrat Bold 62pt",
+        "date_value": "Montserrat Bold 68pt",
+        "date_label": "Open Sans SemiBold 46pt",
+        "benefit_text": "Open Sans Bold 52pt",
+        "tagline": "Open Sans Regular 36pt"
+      },
+      "color_scheme": {
+        "background": "linear_gradient(#8B4513, #5D2F0C)",
+        "accent": "#CD853F",
+        "highlight": "#FFD700",
+        "text_primary": "#FFFFFF",
+        "card_backgrounds": "rgba(205, 133, 63, 0.2)"
+      },
+      "visual_elements": [
+        "Single stock icon transforming into two",
+        "Split animation graphic",
+        "Calendar with Oct 14 highlighted",
+        "Gift box icon",
+        "Tata logo colors",
+        "Wealth creation arrows"
+      ],
+      "cta_text": "Check Your Portfolio Before Oct 14",
+      "key_lesson": "Patient Investors Win - Corporate Actions Create Wealth",
+      "footer_elements": [
+        "Advisor tagline",
+        "ARN number",
+        "Disclaimer: *Equity investments subject to market risks"
+      ],
+      "viral_score_target": 8.8,
+      "mobile_optimization": "Clear transformation visual, urgent date highlighted",
+      "gemini_prompt": "Create an educational WhatsApp Status image (1080x1920px vertical) for Tata Motors demerger opportunity. Background: Rich brown gradient (#8B4513 to #5D2F0C). Headline '1 Stock → 2 Stocks' white 92pt at top. Subheadline 'Tata Motors Demerger Magic' 62pt. Central visual: single stock certificate icon splitting into TWO with golden glow. Timeline badges: 'Oct 1, 2025 Demerger Effective' and highlighted 'Oct 14, 2025 Record Date' (gold #FFD700, 68pt). Gift box icon with 'Zero Extra Payment' text 52pt. Educational tone, premium brown theme. Bottom 20% for advisor logo, 'Empowering Financial Decisions', 'ARN: ARN-147852'. Wealth creation educational design. Mobile-optimized."
+    },
+    {
+      "advisor": "Shriya Vallabh Petkar",
+      "advisor_id": "ADV003",
+      "segment": "Premium",
+      "arn": "ARN-147852",
+      "branding": {
+        "primaryColor": "#8B4513",
+        "secondaryColor": "#CD853F",
+        "tagline": "Empowering Financial Decisions",
+        "logo_url": "/assets/logos/shriya-vallabh.png"
+      },
+      "image_id": "shriya_status_2",
+      "format": "1080x1920",
+      "theme": "RBI's Pre-Diwali Gift - Rate Cut Positioning",
+      "visual_type": "festive_opportunity_infographic",
+      "headline": "RBI's Diwali Gift",
+      "subheadline": "Rate Cuts Incoming!",
+      "data_points": [
+        {
+          "reform": "22 Reforms Announced",
+          "icon": "checklist"
+        },
+        {
+          "loan": "5X Loan Boost",
+          "detail": "Rs 20L → Rs 1 Cr",
+          "icon": "arrow_up"
+        },
+        {
+          "timing": "December 2025",
+          "event": "First Rate Cut Expected",
+          "icon": "calendar"
+        }
+      ],
+      "layout": {
+        "structure": "festive_card_design",
+        "headline_position": "top_15%",
+        "gift_visual": "top_30-40%",
+        "data_cards": "middle_40-70%",
+        "branding_zone": "bottom_20%"
+      },
+      "fonts": {
+        "headline": "Montserrat Bold 86pt",
+        "subheadline": "Montserrat SemiBold 64pt",
+        "data_primary": "Montserrat ExtraBold 76pt",
+        "data_label": "Open Sans Bold 48pt",
+        "insight_text": "Open Sans SemiBold 50pt",
+        "tagline": "Open Sans Regular 36pt"
+      },
+      "color_scheme": {
+        "background": "linear_gradient(#8B4513, #CD853F)",
+        "accent": "#FFD700",
+        "highlight": "#FF6347",
+        "text_primary": "#FFFFFF",
+        "festive_elements": "#FFD700"
+      },
+      "visual_elements": [
+        "Diwali diya (lamp) icon",
+        "Gift box with ribbon",
+        "Golden sparkles",
+        "Three benefit cards",
+        "Rate cut arrow downward",
+        "Festive border elements"
+      ],
+      "cta_text": "Schedule Pre-Diwali Portfolio Review",
+      "key_insight": "Markets Front-Run Rate Cuts - Position Now",
+      "footer_elements": [
+        "Advisor tagline",
+        "ARN number",
+        "Disclaimer: *Investments subject to market risks"
+      ],
+      "viral_score_target": 8.9,
+      "mobile_optimization": "Festive appeal, golden accents, clear timeline",
+      "gemini_prompt": "Create a festive WhatsApp Status image (1080x1920px vertical) for RBI rate cut opportunity. Background: Warm brown-gold gradient (#8B4513 to #CD853F). Top: Diwali diya icon. Headline 'RBI's Diwali Gift' white 86pt. Subheadline 'Rate Cuts Incoming!' 64pt. Gift box icon with three cards: '22 Reforms', '5X Loan Boost (Rs 20L → Rs 1 Cr)' 76pt, 'December 2025 Rate Cut' with calendar icon. Golden sparkles throughout. Key insight 'Markets Front-Run - Position Now' 50pt. Bottom 20% for advisor logo, 'Empowering Financial Decisions', 'ARN: ARN-147852'. Festive professional design with golden accents. Mobile-optimized."
+    },
+    {
+      "advisor": "Shriya Vallabh Petkar",
+      "advisor_id": "ADV003",
+      "segment": "Premium",
+      "arn": "ARN-147852",
+      "branding": {
+        "primaryColor": "#8B4513",
+        "secondaryColor": "#CD853F",
+        "tagline": "Empowering Financial Decisions",
+        "logo_url": "/assets/logos/shriya-vallabh.png"
+      },
+      "image_id": "shriya_status_3",
+      "format": "1080x1920",
+      "theme": "Tata Capital IPO Masterclass",
+      "visual_type": "educational_framework",
+      "headline": "IPO Masterclass",
+      "subheadline": "Rs 15,512 Cr Tata Capital",
+      "data_points": [
+        {
+          "framework_point": "Quality > Quantity",
+          "icon": "balance"
+        },
+        {
+          "advantage": "Tata Brand Credibility",
+          "icon": "shield"
+        },
+        {
+          "timing": "Post-RBI Dovish Advantage",
+          "icon": "clock"
+        },
+        {
+          "strategy": "4X Oversubscription Expected",
+          "icon": "graph"
+        }
+      ],
+      "layout": {
+        "structure": "educational_framework_cards",
+        "headline_position": "top_15%",
+        "framework_section": "middle_60%",
+        "branding_zone": "bottom_20%",
+        "visual_hierarchy": "title_principles_strategy"
+      },
+      "fonts": {
+        "headline": "Montserrat Bold 82pt",
+        "subheadline": "Montserrat SemiBold 60pt",
+        "principle_text": "Montserrat Bold 54pt",
+        "detail_text": "Open Sans SemiBold 46pt",
+        "date": "Montserrat ExtraBold 64pt",
+        "tagline": "Open Sans Regular 36pt"
+      },
+      "color_scheme": {
+        "background": "#8B4513",
+        "accent": "#CD853F",
+        "card_backgrounds": "rgba(205, 133, 63, 0.3)",
+        "text_primary": "#FFFFFF",
+        "highlight": "#FFD700"
+      },
+      "visual_elements": [
+        "Four educational cards with icons",
+        "Balance scale icon",
+        "Shield for brand trust",
+        "Clock for timing advantage",
+        "Growth graph icon",
+        "Golden checkmark for each point",
+        "Oct 3 date badge"
+      ],
+      "cta_text": "Learn Smart IPO Framework",
+      "key_lesson": "Strategic Allocation Matters More Than Application Size",
+      "footer_elements": [
+        "Advisor tagline",
+        "ARN number",
+        "Disclaimer: *IPO investments subject to market risks"
+      ],
+      "viral_score_target": 8.7,
+      "mobile_optimization": "Clear framework, educational yet premium",
+      "gemini_prompt": "Create an educational WhatsApp Status image (1080x1920px vertical) for Tata Capital IPO strategy framework. Background: Rich brown (#8B4513). Headline 'IPO Masterclass' white 82pt. Subheadline 'Rs 15,512 Cr Tata Capital' 60pt. Four stacked cards with golden borders: 1) Balance icon + 'Quality > Quantity' 54pt, 2) Shield icon + 'Tata Brand Credibility', 3) Clock icon + 'Post-RBI Timing', 4) Graph icon + '4X Oversubscription Expected'. Golden 'Oct 3' date badge. Educational framework design, premium brown theme. Bottom 20% for advisor logo, 'Empowering Financial Decisions', 'ARN: ARN-147852'. Professional educational premium design. Mobile-optimized."
+    },
+    {
+      "advisor": "Avalok Langer",
+      "advisor_id": "ADV004",
+      "segment": "Silver",
+      "arn": "ARN-169741",
+      "branding": {
+        "primaryColor": "#1A73E8",
+        "secondaryColor": "#34A853",
+        "tagline": "Smart Investments, Secure Future",
+        "logo_url": "/assets/logos/avalok-langer.png"
+      },
+      "image_id": "avalok_status_1",
+      "format": "1080x1920",
+      "theme": "Gandhi Jayanti - SIP Magic",
+      "visual_type": "calendar_timeline_story",
+      "headline": "Markets Closed Today",
+      "subheadline": "But Your SIP Didn't Stop!",
+      "data_points": [
+        {
+          "day": "Oct 1",
+          "event": "Sensex +715 points",
+          "icon": "chart_up",
+          "emoji": "📈"
+        },
+        {
+          "day": "Oct 2",
+          "event": "Market Holiday (Gandhi Jayanti)",
+          "icon": "calendar",
+          "emoji": "🏖️"
+        },
+        {
+          "day": "Oct 3",
+          "event": "Rally Resumes!",
+          "icon": "rocket",
+          "emoji": "🚀"
+        }
+      ],
+      "layout": {
+        "structure": "vertical_timeline_calendar",
+        "headline_position": "top_15%",
+        "timeline_section": "middle_55%",
+        "insight_box": "middle_70-80%",
+        "branding_zone": "bottom_20%"
+      },
+      "fonts": {
+        "headline": "Montserrat Bold 80pt",
+        "subheadline": "Montserrat SemiBold 62pt",
+        "day_label": "Montserrat ExtraBold 72pt",
+        "event_text": "Open Sans Bold 52pt",
+        "insight_text": "Open Sans SemiBold 48pt",
+        "tagline": "Open Sans Regular 36pt"
+      },
+      "color_scheme": {
+        "background": "linear_gradient(#1A73E8, #0D47A1)",
+        "timeline_line": "#34A853",
+        "day_1_color": "#34A853",
+        "day_2_color": "#FFEB3B",
+        "day_3_color": "#FF6B35",
+        "text_primary": "#FFFFFF"
+      },
+      "visual_elements": [
+        "Vertical timeline with 3 nodes",
+        "Calendar page icons",
+        "Upward chart arrow (Oct 1)",
+        "Beach umbrella icon (Oct 2)",
+        "Rocket icon (Oct 3)",
+        "Connecting timeline line",
+        "Large emojis for relatability"
+      ],
+      "cta_text": "Start Your SIP Before Next Rally",
+      "key_insight": "SIP Magic: You Don't Time Markets. You STAY IN Markets.",
+      "footer_elements": [
+        "Advisor tagline",
+        "ARN number",
+        "Disclaimer: *Mutual funds subject to market risks"
+      ],
+      "viral_score_target": 8.6,
+      "mobile_optimization": "Relatable emojis, simple timeline, bright colors",
+      "gemini_prompt": "Create a friendly WhatsApp Status image (1080x1920px vertical) for Gandhi Jayanti market timing. Background: Bright blue gradient (#1A73E8 to #0D47A1). Headline 'Markets Closed Today' white 80pt. Subheadline 'But Your SIP Didn't Stop!' 62pt. Vertical timeline with 3 colorful nodes: Oct 1 (green) - '📈 Sensex +715 points' 52pt, Oct 2 (yellow) - '🏖️ Market Holiday' with calendar, Oct 3 (orange) - '🚀 Rally Resumes!'. Green connecting line. Insight box 'SIP Magic: Stay IN Markets' 48pt. Bottom 20% for advisor logo, 'Smart Investments, Secure Future', 'ARN: ARN-169741'. Modern friendly design with emojis. Mobile-optimized high contrast."
+    },
+    {
+      "advisor": "Avalok Langer",
+      "advisor_id": "ADV004",
+      "segment": "Silver",
+      "arn": "ARN-169741",
+      "branding": {
+        "primaryColor": "#1A73E8",
+        "secondaryColor": "#34A853",
+        "tagline": "Smart Investments, Secure Future",
+        "logo_url": "/assets/logos/avalok-langer.png"
+      },
+      "image_id": "avalok_status_2",
+      "format": "1080x1920",
+      "theme": "Inflation vs Savings Account - Historic Moment",
+      "visual_type": "comparison_win_graphic",
+      "headline": "Historic Moment!",
+      "subheadline": "Savings > Inflation",
+      "data_points": [
+        {
+          "metric": "Inflation",
+          "value": "2.1%",
+          "icon": "down_arrow",
+          "color": "#34A853"
+        },
+        {
+          "metric": "Savings Account",
+          "value": "2.7%",
+          "icon": "bank",
+          "color": "#1A73E8"
+        },
+        {
+          "fact": "First Time Since Jan 2019",
+          "icon": "calendar"
+        }
+      ],
+      "layout": {
+        "structure": "winner_comparison",
+        "headline_position": "top_15%",
+        "comparison_section": "middle_50%",
+        "explanation_box": "middle_65-75%",
+        "branding_zone": "bottom_20%"
+      },
+      "fonts": {
+        "headline": "Montserrat ExtraBold 88pt",
+        "subheadline": "Montserrat Bold 68pt",
+        "data_value": "Montserrat Black 120pt",
+        "data_label": "Open Sans Bold 52pt",
+        "explanation": "Open Sans SemiBold 46pt",
+        "tagline": "Open Sans Regular 36pt"
+      },
+      "color_scheme": {
+        "background": "linear_gradient(#0D47A1, #1A73E8)",
+        "inflation_color": "#34A853",
+        "savings_color": "#FFD700",
+        "text_primary": "#FFFFFF",
+        "highlight": "#FFEB3B"
+      },
+      "visual_elements": [
+        "Large percentage comparison",
+        "Downward arrow for inflation",
+        "Bank building icon",
+        "Trophy or celebration icon",
+        "Golden highlight on winning 2.7%",
+        "Simple comparison bars"
+      ],
+      "cta_text": "Time to Move Beyond Savings?",
+      "key_insight": "Your Money GROWS in Real Terms!",
+      "footer_elements": [
+        "Advisor tagline",
+        "ARN number",
+        "Disclaimer: *Investments subject to market risks"
+      ],
+      "viral_score_target": 8.7,
+      "mobile_optimization": "Large bold numbers, celebration theme, simple concept",
+      "gemini_prompt": "Create a celebratory WhatsApp Status image (1080x1920px vertical) for historic inflation moment. Background: Blue gradient (#0D47A1 to #1A73E8). Headline 'Historic Moment!' white 88pt with celebration emoji. Subheadline 'Savings > Inflation' 68pt. Two large percentage displays: 'Inflation 2.1%' (green #34A853) with down arrow, 'Savings 2.7%' (gold #FFD700) with bank icon and trophy - WINNER emphasized. Smaller text 'First Time Since Jan 2019' 46pt. Insight box 'Your Money GROWS in Real Terms!' 46pt. Bottom 20% for advisor logo, 'Smart Investments, Secure Future', 'ARN: ARN-169741'. Modern celebratory beginner-friendly design. Mobile-optimized."
+    },
+    {
+      "advisor": "Avalok Langer",
+      "advisor_id": "ADV004",
+      "segment": "Silver",
+      "arn": "ARN-169741",
+      "branding": {
+        "primaryColor": "#1A73E8",
+        "secondaryColor": "#34A853",
+        "tagline": "Smart Investments, Secure Future",
+        "logo_url": "/assets/logos/avalok-langer.png"
+      },
+      "image_id": "avalok_status_3",
+      "format": "1080x1920",
+      "theme": "Indian vs Foreign Investors - Join Winning Team",
+      "visual_type": "team_battle_scoreboard",
+      "headline": "Who's Winning? 🏆",
+      "subheadline": "Indian vs Foreign Investors",
+      "data_points": [
+        {
+          "team": "Foreign Investors",
+          "action": "SOLD",
+          "value": "$15.5 Billion",
+          "emoji": "😰",
+          "status": "losing"
+        },
+        {
+          "team": "Indian Investors",
+          "action": "BOUGHT",
+          "value": "Rs 5.73 TRILLION",
+          "emoji": "💪",
+          "status": "winning"
+        }
+      ],
+      "layout": {
+        "structure": "scoreboard_comparison",
+        "headline_position": "top_12%",
+        "scoreboard_section": "middle_55%",
+        "call_to_action": "middle_75-85%",
+        "branding_zone": "bottom_20%"
+      },
+      "fonts": {
+        "headline": "Montserrat ExtraBold 84pt",
+        "subheadline": "Montserrat Bold 58pt",
+        "team_label": "Open Sans Bold 50pt",
+        "action_text": "Montserrat SemiBold 60pt",
+        "value_text": "Montserrat Black 96pt",
+        "cta_text": "Open Sans Bold 52pt",
+        "tagline": "Open Sans Regular 36pt"
+      },
+      "color_scheme": {
+        "background": "linear_gradient(#1A73E8, #34A853)",
+        "losing_side": "#DC3545",
+        "winning_side": "#FFD700",
+        "text_primary": "#FFFFFF",
+        "flag_colors": ["#FF9933", "#FFFFFF", "#138808"]
+      },
+      "visual_elements": [
+        "Scoreboard design",
+        "Red card for foreign (losing)",
+        "Gold card for Indian (winning)",
+        "Indian flag colors",
+        "Trophy icon on winning side",
+        "Large emojis for emotion",
+        "VS divider in center"
+      ],
+      "cta_text": "Join The Winning Team - Start Your SIP Today! 🇮🇳",
+      "key_message": "Be Part of India's Growth Story",
+      "footer_elements": [
+        "Advisor tagline",
+        "ARN number",
+        "Disclaimer: *Mutual funds subject to market risks"
+      ],
+      "viral_score_target": 8.8,
+      "mobile_optimization": "Patriotic colors, clear winner/loser, emojis for engagement",
+      "gemini_prompt": "Create a patriotic WhatsApp Status image (1080x1920px vertical) for India investor power. Background: Blue-green gradient (#1A73E8 to #34A853). Headline 'Who's Winning? 🏆' white 84pt. Subheadline 'Indian vs Foreign Investors' 58pt. Scoreboard design: Top half red card - 'Foreign Investors 😰 SOLD $15.5 Billion' 96pt. Bottom half gold card with trophy - 'Indian Investors 💪 BOUGHT Rs 5.73 TRILLION' 96pt - WINNER emphasized. Indian flag colors integrated. Large CTA 'Join The Winning Team!' 52pt. Bottom 20% for advisor logo, 'Smart Investments, Secure Future', 'ARN: ARN-169741'. Patriotic empowering beginner-friendly design with emojis. Mobile-optimized."
+    }
+  ],
+  "design_summary": {
+    "total_images": 12,
+    "advisors_covered": 4,
+    "images_per_advisor": 3,
+    "format": "1080x1920 (9:16 vertical)",
+    "average_virality_target": 8.78,
+    "design_diversity": {
+      "comparison_infographics": 3,
+      "timeline_infographics": 2,
+      "stat_dashboards": 2,
+      "educational_frameworks": 2,
+      "battle_comparisons": 2,
+      "celebration_graphics": 1
+    },
+    "visual_themes": {
+      "Premium_segment": "Executive professional with navy/brown gradients, sophisticated data viz",
+      "Gold_segment": "Analytical with bold colors, data-driven narratives, vindication stories",
+      "Silver_segment": "Bright friendly colors, relatable emojis, simple concepts, patriotic appeal"
+    },
+    "color_psychology": {
+      "Blue_tones": "Trust, professionalism (Banking, IT)",
+      "Green_tones": "Growth, recovery (DII strength, IT comeback)",
+      "Gold_accents": "Premium, opportunity (IPO, reforms)",
+      "Brown_tones": "Stability, education (Premium educational content)",
+      "Red_vs_Green": "Loss vs gain comparisons (FII vs DII)"
+    },
+    "mobile_optimization": {
+      "minimum_font_size": "36pt (ARN/disclaimers)",
+      "headline_font_size": "76-96pt",
+      "data_emphasis": "88-120pt for key numbers",
+      "high_contrast": "All designs use white text on dark/colored backgrounds",
+      "emoji_usage": "Silver segment 4-5 per image, Premium 2-3 per image"
+    },
+    "compliance": {
+      "all_include_arn": true,
+      "all_include_tagline": true,
+      "all_include_disclaimer": true,
+      "logo_space_reserved": "Bottom 20% on all designs",
+      "sebi_compliant": true
+    }
+  },
+  "viral_content_angles_covered": [
+    "RBI Rs 1 Cr loan against shares (shock value)",
+    "Tata Capital Rs 15,512 Cr IPO (FOMO)",
+    "DII Rs 5.73T vs FII $15.5B (patriotic pride)",
+    "IT sector Rs 97,598 Cr recovery (vindication)",
+    "Rate cut cycle positioning (strategic urgency)",
+    "Tata Motors demerger (wealth creation magic)",
+    "Gandhi Jayanti SIP timing (relatable)",
+    "Inflation 2.1% historic low (shock + celebration)"
+  ],
+  "segment_customization": {
+    "Premium": {
+      "visual_style": "Sophisticated executive infographics",
+      "color_palette": "Navy, brown, gold - premium tones",
+      "data_density": "High - multiple data points, complex comparisons",
+      "font_style": "Montserrat Bold/ExtraBold for authority",
+      "virality_drivers": "Exclusive opportunities, strategic insights, wealth management"
+    },
+    "Gold": {
+      "visual_style": "Analytical data-driven visuals",
+      "color_palette": "Bold contrasts - green, blue, red for clarity",
+      "data_density": "Medium - key metrics with clear interpretation",
+      "font_style": "Montserrat Bold with Open Sans for readability",
+      "virality_drivers": "Market patterns, vindication stories, investment lessons"
+    },
+    "Silver": {
+      "visual_style": "Friendly relatable graphics with emojis",
+      "color_palette": "Bright blues, greens, golds - approachable",
+      "data_density": "Low - single clear concept per image",
+      "font_style": "Montserrat Bold with large friendly text",
+      "virality_drivers": "Simplicity, patriotic pride, encouragement, relatability"
+    }
+  },
+  "next_steps": [
+    "Pass specifications to Gemini Image Generator agent",
+    "Generate 12 images using Gemini 2.5 Flash with reference image technique",
+    "Apply mandatory AI visual quality validation",
+    "Auto-regenerate any failed images with specific feedback",
+    "Pass validated images to Brand Customizer for logo/ARN overlay",
+    "Store final branded images in session output directory"
+  ]
+}

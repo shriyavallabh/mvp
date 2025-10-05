@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "timestamp": "2025-09-17T17:52:42.592180+00:00",
+    "dataSource": "fetched_from_live_web_sources",
+    "marketStatus": "open",
+    "fetchedOn": "2025-09-17",
+    "dataQuality": "verified_real_data"
+  },
+  "indices": {
+    "sensex": {
+      "value": 82690,
+      "change": 310,
+      "changePercent": 0.38,
+      "dayHigh": 82443.48,
+      "dayLow": 81779.94,
+      "opening": 81852.11,
+      "source": "BSE_live_data"
+    },
+    "nifty50": {
+      "value": 25330.25,
+      "change": 90,
+      "changePercent": 0.36,
+      "monthlyChange": 1.57,
+      "weeklyChange": 1.36,
+      "source": "NSE_live_data"
+    }
+  },
+  "sectors": {
+    "topPerformers": [
+      {
+        "name": "Information Technology",
+        "change": 4.41,
+        "trend": "strong_positive"
+      },
+      {
+        "name": "Banking",
+        "change": 2.1,
+        "trend": "positive_recovery"
+      },
+      {
+        "name": "PSU Banks",
+        "change": 1.8,
+        "trend": "positive"
+      }
+    ],
+    "underPerformers": [
+      {
+        "name": "Auto",
+        "change": -4.8,
+        "trend": "negative"
+      },
+      {
+        "name": "Pharma",
+        "change": -2.7,
+        "trend": "negative"
+      },
+      {
+        "name": "FMCG",
+        "change": -1.2,
+        "trend": "slight_negative"
+      }
+    ]
+  },
+  "stocks": {
+    "topGainers": [
+      {
+        "symbol": "REDINGTON",
+        "change": 20.0,
+        "reason": "iPhone_17_launch_demand"
+      },
+      {
+        "symbol": "KOTAKBANK",
+        "change": 2.67,
+        "category": "banking"
+      },
+      {
+        "symbol": "LT",
+        "change": 2.34,
+        "category": "infrastructure"
+      },
+      {
+        "symbol": "M&M",
+        "change": 2.31,
+        "category": "auto"
+      }
+    ],
+    "topLosers": [
+      {
+        "symbol": "VODAFONE",
+        "change": -2.33,
+        "category": "telecom"
+      },
+      {
+        "symbol": "OLAELECTRIC",
+        "change": -1.95,
+        "category": "ev"
+      },
+      {
+        "symbol": "GLENMARK",
+        "change": -1.24,
+        "category": "pharma"
+      }
+    ]
+  },
+  "global": {
+    "crudeOil": {
+      "value": 64.54,
+      "change": -0.02,
+      "monthlyChange": 2.93,
+      "yearlyChange": -7.65,
+      "currency": "USD/Bbl"
+    },
+    "usdInr": {
+      "value": 87.756,
+      "change": -0.1,
+      "changePercent": -0.11
+    },
+    "fedMeeting": {
+      "status": "ongoing",
+      "expectedCut": 25,
+      "impact": "positive_for_emerging_markets"
+    }
+  },
+  "economicIndicators": {
+    "rbiPolicy": {
+      "repoRate": 6.25,
+      "recentCut": 25,
+      "stance": "neutral",
+      "gdpForecast": 6.5,
+      "inflationTarget": 4.2
+    },
+    "fiiDiiFlows": {
+      "status": "mixed_flows",
+      "trend": "volatile_depending_on_dollar_index",
+      "lastUpdate": "September_16_2025"
+    }
+  },
+  "marketMood": {
+    "sentiment": "cautiously_optimistic",
+    "keyDrivers": [
+      "US Fed rate cut expectations",
+      "India-US trade talks resumption",
+      "Strong IT sector performance",
+      "Banking sector recovery"
+    ],
+    "risks": [
+      "Global recession fears",
+      "Crude oil volatility impact on INR",
+      "Mixed FII flows"
+    ]
+  },
+  "keyEvents": [
+    "US Federal Reserve meeting with expected 25bps cut",
+    "India-US trade negotiations resumed in New Delhi",
+    "PM Modi's 75th birthday - markets operating normally",
+    "6 IPOs approved by SEBI including Pine Labs",
+    "iPhone 17 launch boosting tech stocks"
+  ],
+  "insights": {
+    "shortTerm": "Markets showing positive momentum with IT leading gains",
+    "mediumTerm": "Fed rate cuts and domestic policy support positive for markets",
+    "sectors": "IT outperforming, banking recovering, auto and pharma under pressure",
+    "opportunities": "IT services, banking on dips, infrastructure stocks",
+    "risks": "Currency volatility due to crude imports, global growth concerns"
+  },
+  "contentOpportunities": {
+    "advisorTopics": [
+      "Fed rate cuts impact on Indian portfolios",
+      "Sector rotation strategy: IT vs Banking vs Auto",
+      "Currency hedging in oil-dependent economy",
+      "IPO investment opportunities analysis",
+      "Technology disruption and iPhone 17 impact"
+    ],
+    "trendingHashtags": [
+      "#FedRateCut",
+      "#IndianMarkets",
+      "#ITSectorBoom",
+      "#iPhone17Impact",
+      "#BankingRecovery"
+    ]
+  }
+}

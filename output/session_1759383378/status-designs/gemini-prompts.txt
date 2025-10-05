@@ -1,0 +1,401 @@
+GEMINI 2.5 FLASH - BATCH IMAGE GENERATION PROMPTS
+Session: session_1759383378
+Total Images: 12
+Format: 1080x1920 PNG (WhatsApp Status)
+=======================================================================
+
+=======================================================================
+IMAGE 1/12: STATUS_ADV001_001
+Advisor: Shruti Petkar (Premium)
+Hook: The ₹2 Lakh Tax Secret
+=======================================================================
+
+Create a sophisticated WhatsApp Status image (1080x1920 pixels) for premium financial advisor:
+
+STYLE: Executive, professional, high-end corporate design with subtle gradients
+COLOR SCHEME: Deep navy blue (#1B365D) primary, professional blue (#0077B5) secondary, light gray (#F8F9FA) background, gold (#FFD700) accent for highlights
+
+LAYOUT (Mobile vertical 9:16):
+- TOP 20%: Bold headline '₹2 Lakh Tax Secret' in 96px deep navy blue, centered, 100px top padding
+- 30-40%: Subheading 'Most advisors tell you ₹1.5L | Top advisors unlock ₹2L' in 72px professional blue
+- MIDDLE 40-60%: Split comparison visual - Left: '80C Only ₹1.5L' (gray), Right: '80C + NPS ₹2L' (highlighted in gold) - Use elegant divider line
+- BOTTOM 30%: CTA button 'Know All Tax-Saving Options' - 64px white text on navy blue rounded rectangle
+- BOTTOM 15%: Logo 150x150px bottom-right + 'Building Wealth, Creating Trust' tagline in 42px + ARN-125847 in small 32px
+
+VISUAL ELEMENTS:
+- Subtle gradient background (light gray to white)
+- Minimalist icons (tax shield, calculator, rupee symbol)
+- Clean lines and professional spacing
+- Mobile-optimized: Readable in 1 second glance
+- Premium feel: Sophisticated, not flashy
+
+MOOD: Exclusive, authoritative, trustworthy - Appeals to HNI clients seeking insider knowledge
+
+Ensure 100px padding on all critical content to avoid WhatsApp UI overlap.
+
+=======================================================================
+IMAGE 2/12: STATUS_ADV001_002
+Advisor: Shruti Petkar (Premium)
+Hook: Tax Season Alert
+=======================================================================
+
+Create an urgency-driven WhatsApp Status image (1080x1920 pixels) for premium financial advisor:
+
+STYLE: Professional urgency with premium feel - Not panic-inducing but action-oriented
+COLOR SCHEME: Deep navy (#1B365D) primary, urgent orange (#FF6B35) for alerts, white background, gold (#FFD700) highlights
+
+LAYOUT:
+- TOP 20%: Red/orange badge 'TAX SEASON ALERT' in 64px bold white text on orange rounded rectangle
+- 30-40%: Countdown 'Only 6 Months Left!' in 88px bold orange text
+- MIDDLE 40-60%: Large '₹46,800' in 108px navy blue + 'Per family member' in 56px + Golden highlight 'Family of 4 = ₹1,87,200 savings!'
+- BOTTOM 30%: CTA 'Free Family Tax Planning' in 64px white on navy button
+- BOTTOM 15%: Logo + tagline + ARN
+
+VISUAL ELEMENTS:
+- Calendar icon with circled March 31
+- Family silhouette icons (4 people)
+- Rupee symbols and calculator graphics
+- Urgency indicators (clock, countdown)
+
+MOOD: Time-sensitive opportunity, family-focused wealth preservation, professional urgency
+
+Mobile-optimized with high contrast for sunlight readability.
+
+=======================================================================
+IMAGE 3/12: STATUS_ADV001_003
+Advisor: Shruti Petkar (Premium)
+Hook: Gold vs Mutual Funds
+=======================================================================
+
+Create a professional comparison WhatsApp Status image (1080x1920 pixels):
+
+STYLE: Sophisticated data visualization, investment comparison, premium feel
+COLOR SCHEME: Navy blue (#1B365D) primary, gold (#FFD700) for gold, professional blue (#0077B5) for equities
+
+LAYOUT:
+- TOP 20%: Headline '10-Year Performance Battle' in 96px bold navy
+- MIDDLE: Split screen VS comparison
+  LEFT: Gold bar icon + 'Physical Gold +176%' in large 88px gold color
+  CENTER: Bold 'VS' divider
+  RIGHT: Portfolio icon + 'Equity MFs +____%' with question 'What's yours?'
+- INSIGHT: 'Smart investors did BOTH' in 72px + 'Diversification wins 🏆' in 56px
+- BOTTOM 30%: CTA 'Portfolio Rebalancing Review'
+- BOTTOM 15%: Logo + branding
+
+VISUAL ELEMENTS:
+- Clean bar chart or growth curve comparing both
+- Gold bar and portfolio icons
+- Trophy icon for diversification
+- Professional gradient background
+
+MOOD: Analytical, strategic, wealth preservation mindset - Appeals to HNI portfolio thinking
+
+Ensure mobile-friendly spacing and high contrast.
+
+=======================================================================
+IMAGE 4/12: STATUS_ADV002_001
+Advisor: Vidyadhar Petkar (Gold)
+Hook: The SIP Revolution
+=======================================================================
+
+Create an inspiring data-driven WhatsApp Status image (1080x1920 pixels) for Gold segment advisor:
+
+STYLE: Professional infographic with patriotic pride, data visualization, growth-oriented
+COLOR SCHEME: Forest green (#2E8B57) primary, bright green (#228B22) secondary, white background, gold (#FFD700) highlights
+
+LAYOUT:
+- TOP 20%: Bold headline 'India's SIP Revolution' in 96px forest green
+- 30%: MEGA number '₹27,269 Crore' in huge 108px bright green + 'Monthly SIP inflows' subtitle
+- MIDDLE: '₹906 Crore invested DAILY' with upward arrow icon in 72px
+- KEY INSIGHT: '30% SIPs held 5+ years' in gold highlight + '(Up from 5% in 2020!)' celebration
+- VALIDATION: 'You're part of this movement! 🇮🇳' with Indian flag emoji
+- BOTTOM 30%: Green CTA button 'Maximize Your SIP Strategy'
+- BOTTOM 15%: Logo + tagline + ARN
+
+VISUAL ELEMENTS:
+- Growth chart showing SIP trend 2020-2025
+- Upward arrows and positive momentum graphics
+- Subtle Indian flag colors (saffron, white, green accents)
+- Professional graphs and infographic elements
+
+MOOD: Pride, validation, inspiration - Appeals to disciplined SIP investors feeling part of larger movement
+
+Mobile-optimized with clear hierarchy and high contrast.
+
+=======================================================================
+IMAGE 5/12: STATUS_ADV002_002
+Advisor: Vidyadhar Petkar (Gold)
+Hook: The ₹2 Lakh Tax Secret
+=======================================================================
+
+Create an educational WhatsApp Status image (1080x1920 pixels) for Gold segment professionals:
+
+STYLE: Clean educational infographic, step-by-step breakdown, professional and clear
+COLOR SCHEME: Forest green (#2E8B57), bright green (#228B22), light blue background (#F0F8FF), orange (#FF6B35) highlights
+
+LAYOUT:
+- TOP 20%: 'Smart Tax Planning for Professionals' in 88px green
+- EDUCATION SECTION: Step-by-step visual breakdown:
+  ✓ Step 1: '80C Deduction = ₹1.5 Lakh' with checkmark
+  ➕ Step 2: '+ 80CCD(1B) via NPS = ₹50,000' (highlighted in orange)
+  🏆 Total: '₹2 LAKH' in large 96px gold
+- BENEFIT: 'Save ₹62,400 in taxes (30% bracket)' in 64px
+- BOTTOM 30%: Green CTA 'Get Full ₹2L Deduction Guide'
+- BOTTOM 15%: Logo + branding
+
+VISUAL ELEMENTS:
+- Clear mathematical breakdown with icons
+- Calculator and document graphics
+- Step numbers (1, 2, 3)
+- Professional charts showing tax savings
+
+MOOD: Educational empowerment, smart professional choices, data-driven confidence
+
+Ensure mobile readability with clear typography and spacing.
+
+=======================================================================
+IMAGE 6/12: STATUS_ADV002_003
+Advisor: Vidyadhar Petkar (Gold)
+Hook: RBI's Growth Bet
+=======================================================================
+
+Create a macroeconomic insight WhatsApp Status image (1080x1920 pixels):
+
+STYLE: Professional economic update, patriotic optimism, data-driven confidence
+COLOR SCHEME: Forest green (#2E8B57), professional blue (#0077B5), white background, gold accents
+
+LAYOUT:
+- TOP 20%: 'RBI Upgrades India! 🇮🇳' in 96px bold green with Indian flag
+- 30%: MEGA stat '6.8% GDP Growth' in 108px blue + badge 'Upgraded from 6.5%'
+- MIDDLE: 'Fastest among major economies' + key highlights:
+  • Inflation: 2.6% (Down!)
+  • Rates: 5.5% (Stable)
+- STRATEGY: 'Why your SIPs should continue' in 72px semibold
+- BOTTOM 30%: CTA 'Review Your Portfolio Strategy'
+- BOTTOM 15%: Logo + branding
+
+VISUAL ELEMENTS:
+- Indian map silhouette
+- Upward trending graphs
+- RBI building icon or Reserve Bank symbol
+- Comparative bar chart (India vs other economies)
+
+MOOD: National pride, economic confidence, investment conviction - Builds confidence in continuing SIPs
+
+Mobile-friendly with patriotic yet professional design.
+
+=======================================================================
+IMAGE 7/12: STATUS_ADV003_001
+Advisor: Shriya Vallabh Petkar (Premium)
+Hook: The ₹2 Lakh Tax Secret
+=======================================================================
+
+Create an educational deep-dive WhatsApp Status image (1080x1920 pixels) for Premium educational segment:
+
+STYLE: Comprehensive educational breakdown, trustworthy guide, empowerment-focused
+COLOR SCHEME: Saddle brown (#8B4513) primary, tan (#CD853F) secondary, cornsilk (#FFF8DC) background, gold highlights
+
+LAYOUT:
+- TOP 20%: 'Tax-Saving Puzzle Explained' in 96px bold brown
+- EDUCATION BREAKDOWN:
+  📊 Section 80C: 'ELSS, PPF, EPF' | Limit: ₹1.5 Lakh
+  ⚠️ Section 80CCD(1B): 'NPS (Additional)' | + ₹50,000 - Badge: 'Often Missed!'
+  🏥 Section 80D: 'Health Insurance' | + ₹25-50K (Senior: ₹50K)
+
+  🏆 TOTAL DEDUCTION: ₹2.25 Lakh (in large 96px gold)
+- BOTTOM 30%: CTA 'Learn Complete Tax Strategy'
+- BOTTOM 15%: Logo + empowering tagline
+
+VISUAL ELEMENTS:
+- Puzzle pieces fitting together (tax sections)
+- Checkboxes and document icons
+- Clear section dividers
+- Educational infographic style
+
+MOOD: Empowerment through knowledge, comprehensive education, family financial literacy
+
+Mobile-optimized with warm, trustworthy color palette and clear hierarchy.
+
+=======================================================================
+IMAGE 8/12: STATUS_ADV003_002
+Advisor: Shriya Vallabh Petkar (Premium)
+Hook: The SIP Revolution
+=======================================================================
+
+Create a behavioral finance story WhatsApp Status image (1080x1920 pixels):
+
+STYLE: Educational journey, transformation narrative, psychology-focused
+COLOR SCHEME: Saddle brown (#8B4513), tan (#CD853F), white background, green (#2E8B57) for growth
+
+LAYOUT:
+- TOP 20%: 'India's Investing Evolution' in 96px bold brown
+- BEHAVIORAL JOURNEY (timeline visualization):
+
+  2020: 'Panic Sellers 😰'
+  40% hold <1 year (red/orange color)
+
+  [Transformation arrow with 'Behavioral Shift']
+
+  2025: 'Patient Investors 💪'
+  30% hold 5+ years (green color)
+
+- KEY INSIGHT: 'How investors conquered fear' in 72px semibold
+- BOTTOM 30%: CTA 'Build Long-Term Discipline'
+- BOTTOM 15%: Logo + empowering tagline
+
+VISUAL ELEMENTS:
+- Timeline with before/after comparison
+- Emotional journey indicators
+- Growth chart showing behavioral maturity
+- Psychology symbols (brain, heart)
+
+MOOD: Educational transformation, behavioral insight, empowerment through understanding
+
+Mobile-optimized storytelling with clear visual progression.
+
+=======================================================================
+IMAGE 9/12: STATUS_ADV003_003
+Advisor: Shriya Vallabh Petkar (Premium)
+Hook: Gold vs Mutual Funds
+=======================================================================
+
+Create a comprehensive educational comparison WhatsApp Status image (1080x1920 pixels):
+
+STYLE: Complete asset allocation guide, educational framework, strategic thinking
+COLOR SCHEME: Saddle brown (#8B4513), tan, light gray background, gold (#FFD700), green, blue for assets
+
+LAYOUT:
+- TOP 20%: 'Diversification Explained' in 96px bold brown
+- ASSET BREAKDOWN (3-column educational grid):
+
+  🥇 GOLD (+176% 10yr)
+  Role: Wealth Preservation
+  Allocation: 10-15%
+  When: Inflation hedge
+
+  📈 EQUITY MFs (12-15% CAGR)
+  Role: Wealth Creation
+  Allocation: 60-70%
+  When: Long-term growth
+
+  🛡️ DEBT (7-8% CAGR)
+  Role: Stability
+  Allocation: 15-25%
+  When: Capital protection
+
+  💡 WISDOM: 'Smart investors did ALL THREE'
+
+- BOTTOM 30%: CTA 'Learn Asset Allocation'
+- BOTTOM 15%: Logo + tagline
+
+VISUAL ELEMENTS:
+- Pie chart showing 60-70-10-15 allocation
+- Asset icons (gold bar, chart, shield)
+- Educational framework layout
+
+MOOD: Comprehensive education, strategic portfolio thinking, family wealth planning
+
+Mobile-optimized with clear educational structure.
+
+=======================================================================
+IMAGE 10/12: STATUS_ADV004_001
+Advisor: Avalok Langer (Silver)
+Hook: The SIP Revolution
+=======================================================================
+
+Create a bold, inspirational WhatsApp Status image (1080x1920 pixels) for young investors (Silver segment):
+
+STYLE: Modern, vibrant, motivational - Instagram/social media aesthetic
+COLOR SCHEME: Bright blue (#1A73E8), Google green (#34A853), white background, yellow (#FBBC04) highlights
+
+LAYOUT:
+- TOP 20%: MASSIVE number '₹906 Crore' in 120px bold blue (eye-catching)
+- 30%: 'Indians invest THIS MUCH\nEVERY. SINGLE. DAY. 🇮🇳' in 72px bold green with flag
+- MIDDLE: 'You can start with just\n₹500/month' in 84px yellow + rocket emoji 🚀
+- SOCIAL PROOF: 'Join India's investing revolution! 💪' in 64px
+- BOTTOM 30%: Bold green button 'Start Your ₹500 SIP Today'
+- BOTTOM 15%: Logo + modern tagline
+
+VISUAL ELEMENTS:
+- Bold gradient background (light to vibrant)
+- Rocket or upward arrow graphics
+- Indian flag colors subtly integrated
+- Modern, energetic design
+- Large emoji for relatability
+
+MOOD: Inspirational, accessible, FOMO, national pride, youth energy - 'You can do this too!'
+
+Mobile-first design with maximum visual impact and bold colors for sunlight readability.
+
+=======================================================================
+IMAGE 11/12: STATUS_ADV004_002
+Advisor: Avalok Langer (Silver)
+Hook: Tax Season Alert
+=======================================================================
+
+Create a relatable choice-based WhatsApp Status image (1080x1920 pixels) for young professionals:
+
+STYLE: Fun, relatable, decision-focused - Social media viral format
+COLOR SCHEME: Bright blue (#1A73E8), green (#34A853), light gray background, red (#EA4335) urgency
+
+LAYOUT:
+- TOP 20%: 'Save ₹46,800 in Taxes 💰' in 96px bold blue
+- CHOICE SECTION:
+  'That's equal to:'
+
+  📱 New iPhone 16 (in red)
+  OR
+  🏠 3 months rent (in red)
+  OR
+  📈 Smart ELSS that GROWS (in green with 'Best Choice!' badge)
+
+- URGENCY: 'Only 6 months left! ⏰' in 72px bold red
+- BOTTOM 30%: Green CTA button 'Start Tax-Saving SIP'
+- BOTTOM 15%: Logo + tagline
+
+VISUAL ELEMENTS:
+- Large emoji for each option
+- Checkmark or star on best choice
+- Urgency indicators (clock, countdown)
+- Clean, modern layout
+
+MOOD: Relatable comparisons, smart choice validation, fun yet practical - Appeals to Gen Z/Millennial decision-making
+
+Mobile-optimized with bold emoji and clear visual hierarchy.
+
+=======================================================================
+IMAGE 12/12: STATUS_ADV004_003
+Advisor: Avalok Langer (Silver)
+Hook: RBI's Growth Bet
+=======================================================================
+
+Create a patriotic, simple WhatsApp Status image (1080x1920 pixels) for young Indian investors:
+
+STYLE: National pride, simple messaging, confidence-building - Patriotic yet modern
+COLOR SCHEME: Bright blue (#1A73E8), green (#34A853), white background, saffron (#FF9933) for India theme
+
+LAYOUT:
+- TOP 20%: 'India is Growing! 🇮🇳' in 96px bold saffron with Indian flag
+- 30%: '6.8% GDP Growth' in huge 108px blue + badge 'Fastest Major Economy'
+- MIDDLE: 'Your ₹500 SIP is betting\non this growth! 📈' in 72px semibold green
+- CONFIDENCE: 'India growing faster than\nChina, US, Europe 🚀' in 64px
+- BOTTOM 30%: Green CTA 'Invest in India's Future' (tricolor green)
+- BOTTOM 15%: Logo + tagline
+
+VISUAL ELEMENTS:
+- Subtle Indian flag colors (saffron, white, green)
+- India map silhouette
+- Upward trending arrow
+- Rocket emoji and chart emoji
+- Clean, patriotic design
+
+MOOD: National pride, youthful optimism, investment confidence - 'Be part of India's growth story'
+
+Mobile-first with bold patriotic colors and simple messaging for quick comprehension.
+
+=======================================================================
+END OF BATCH PROMPTS
+Total: 12 images for 4 advisors
+Next: Feed to Gemini 2.5 Flash API for generation
+Output: /output/session_1759383378/status-images/
+=======================================================================

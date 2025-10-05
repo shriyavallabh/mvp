@@ -1,0 +1,111 @@
+{
+  "type": "sector_spotlight",
+  "layout": "focus_card",
+  "elements": {
+    "background": {
+      "style": "blurred_chart",
+      "overlay": "#2E7D32",
+      "opacity": 0.8
+    },
+    "headline": {
+      "text": "Information Technology Surges!",
+      "fontSize": 96,
+      "color": "#FFFFFF",
+      "position": {
+        "x": "center",
+        "y": 200
+      }
+    },
+    "performance": {
+      "change": "+4.41%",
+      "fontSize": 120,
+      "style": "bold_number",
+      "color": "#4CAF50",
+      "position": {
+        "x": "center",
+        "y": 500
+      }
+    },
+    "key_drivers": {
+      "title": "What's Driving Growth?",
+      "items": [
+        "AI adoption",
+        "Cloud migration",
+        "Digital transformation"
+      ],
+      "fontSize": 56,
+      "position": {
+        "x": 100,
+        "y": 800
+      }
+    },
+    "outlook": {
+      "text": "Positive on global tech spending recovery",
+      "fontSize": 48,
+      "style": "quote",
+      "position": {
+        "x": "center",
+        "y": 1200
+      }
+    },
+    "action": {
+      "text": "Explore IT Funds \u2192",
+      "fontSize": 64,
+      "style": "button",
+      "position": {
+        "x": "center",
+        "y": 1450
+      }
+    },
+    "branding": {
+      "advisorName": "Tranquil Wealth Advisory",
+      "fontSize": 42,
+      "position": {
+        "x": "center",
+        "y": 1800
+      }
+    }
+  },
+  "metadata": {
+    "advisorId": "ADV_004",
+    "advisorName": "Mr. Tranquil Veda",
+    "arn": "ADV_004",
+    "tier": "Standard",
+    "sessionId": "session_20250918_221309",
+    "timestamp": "2025-09-18T22:43:32.120406",
+    "fontStandards": {
+      "headline": {
+        "size": 96,
+        "weight": "bold",
+        "position": "top 20%",
+        "purpose": "Primary hook, must be readable in 1 second"
+      },
+      "subheading": {
+        "size": 72,
+        "weight": "semibold",
+        "position": "top 30-40%",
+        "purpose": "Supporting information"
+      },
+      "body_text": {
+        "size": 56,
+        "weight": "regular",
+        "position": "middle 40-60%",
+        "purpose": "Key details and data"
+      },
+      "call_to_action": {
+        "size": 64,
+        "weight": "bold",
+        "position": "bottom 30%",
+        "purpose": "Action trigger"
+      },
+      "footer_disclaimer": {
+        "size": 42,
+        "weight": "light",
+        "position": "bottom 10%",
+        "purpose": "Compliance text (still readable)"
+      }
+    },
+    "isVariation": false
+  },
+  "geminiPrompt": "\n    Create a WhatsApp Status image (1080x1920px vertical format):\n\n    DESIGN TYPE: sector_spotlight\n    LAYOUT: focus_card\n\n    VISUAL SPECIFICATIONS:\n    - Canvas: 1080x1920px, 9:16 aspect ratio\n    - Mobile-optimized with thumb-zone awareness\n    - High contrast for outdoor viewing\n    - 3-second comprehension rule applied\n\n    BRAND IDENTITY:\n    - Advisor: Tranquil Wealth Advisory\n    - Primary Color: #2E7D32\n    - Secondary Color: #66BB6A\n    - Tagline: Creating Peaceful Wealth Journey\n\n    FONT HIERARCHY (Mobile Optimized):\n    - Headlines: 96px bold (top 20% of screen)\n    - Subheadings: 72px semibold\n    - Body Text: 56px regular\n    - CTAs: 64px bold\n    - Footer/Disclaimer: 42px minimum\n\n    CONTENT ELEMENTS:\n    {\n  \"background\": {\n    \"style\": \"blurred_chart\",\n    \"overlay\": \"#2E7D32\",\n    \"opacity\": 0.8\n  },\n  \"headline\": {\n    \"text\": \"Information Technology Surges!\",\n    \"fontSize\": 96,\n    \"color\": \"#FFFFFF\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 200\n    }\n  },\n  \"performance\": {\n    \"change\": \"+4.41%\",\n    \"fontSize\": 120,\n    \"style\": \"bold_number\",\n    \"color\": \"#4CAF50\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 500\n    }\n  },\n  \"key_drivers\": {\n    \"title\": \"What's Driving Growth?\",\n    \"items\": [\n      \"AI adoption\",\n      \"Cloud migration\",\n      \"Digital transformation\"\n    ],\n    \"fontSize\": 56,\n    \"position\": {\n      \"x\": 100,\n      \"y\": 800\n    }\n  },\n  \"outlook\": {\n    \"text\": \"Positive on global tech spending recovery\",\n    \"fontSize\": 48,\n    \"style\": \"quote\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1200\n    }\n  },\n  \"action\": {\n    \"text\": \"Explore IT Funds \\u2192\",\n    \"fontSize\": 64,\n    \"style\": \"button\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1450\n    }\n  },\n  \"branding\": {\n    \"advisorName\": \"Tranquil Wealth Advisory\",\n    \"fontSize\": 42,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1800\n    }\n  }\n}\n\n    STYLE GUIDELINES:\n    - Modern, clean, professional\n    - Use brand colors prominently\n    - Ensure text has proper contrast\n    - Include subtle animations/transitions feel\n    - Bottom 15% clear for WhatsApp reply bar\n\n    COMPLIANCE:\n    - Include disclaimer: \"Mutual fund investments are subject to market risks. Please read all scheme-related documents carefully.\"\n    - ARN: ADV_004\n\n    OUTPUT: High-quality status image optimized for mobile viewing\n    "
+}

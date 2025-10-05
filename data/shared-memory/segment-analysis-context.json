@@ -1,0 +1,70 @@
+{
+  "timestamp": "2025-09-17T22:47:55.000Z",
+  "session": "session_2025-09-17T17-09-25-000Z",
+  "analysisComplete": true,
+  "segmentProfiles": {
+    "Premium_ADV_001": {
+      "sophisticationLevel": "HIGH",
+      "contentComplexity": "Advanced financial concepts welcome",
+      "preferredTopics": ["Portfolio Management", "Tax Optimization", "Estate Planning", "Market Analysis"],
+      "tone": "Executive-level, Authoritative, Professional",
+      "visualStyle": "Professional charts, data visualizations",
+      "averageInvestment": "₹25 Lakhs",
+      "clientType": "HNI, Business Owners",
+      "brandColors": {"primary": "#1A73E8", "secondary": "#34A853", "accent": "#FFD700"}
+    },
+    "Gold_ADV_002": {
+      "sophisticationLevel": "MEDIUM",
+      "contentComplexity": "Educational with clear explanations",
+      "preferredTopics": ["SIP Planning", "Goal-based Investment", "Insurance", "Financial Literacy"],
+      "tone": "Educational, Friendly, Trustworthy",
+      "visualStyle": "Clean, educational graphics",
+      "averageInvestment": "₹8 Lakhs",
+      "clientType": "Salaried Professionals, Young Families",
+      "brandColors": {"primary": "#FF6B6B", "secondary": "#4ECDC4", "accent": "#45B7D1"}
+    },
+    "Silver_ADV_003": {
+      "sophisticationLevel": "BASIC",
+      "contentComplexity": "Simple, avoid jargon",
+      "preferredTopics": ["Investment Basics", "Digital Investing", "ETFs", "Financial Literacy"],
+      "tone": "Casual, Encouraging, Simple",
+      "visualStyle": "Modern, colorful, infographic-style",
+      "averageInvestment": "₹4 Lakhs",
+      "clientType": "Millennials, New Investors",
+      "brandColors": {"primary": "#008080", "secondary": "#F0F8FF", "accent": "#20B2AA"}
+    }
+  },
+  "marketContextForContent": {
+    "currentSentiment": "Cautiously Positive",
+    "keyOpportunities": [
+      "IT sector outperformance (+2.63%)",
+      "PSU Banks strength (+2.09%)",
+      "Asian markets at record highs",
+      "Fed rate cut expectations"
+    ],
+    "segmentSpecificAngles": {
+      "Premium": "Advanced portfolio rebalancing and global diversification strategies",
+      "Gold": "SIP opportunities in outperforming sectors and goal-based planning",
+      "Silver": "Simple ETF investing and digital investment opportunities"
+    }
+  },
+  "contentGenerationInstructions": {
+    "linkedin": {
+      "Premium": "Professional analysis posts with data and charts",
+      "Gold": "Educational posts with practical tips and examples",
+      "Silver": "Simple tips and beginner-friendly content"
+    },
+    "whatsapp": {
+      "Premium": "Daily market insights with actionable recommendations",
+      "Gold": "Educational tips 5x per week with practical application",
+      "Silver": "Simple tips 3x per week, bite-sized and encouraging"
+    },
+    "images": {
+      "Premium": "Corporate style with detailed data visualization",
+      "Gold": "Clean educational design with moderate complexity",
+      "Silver": "Modern minimalist with single-concept focus"
+    }
+  },
+  "phase3Ready": true,
+  "nextAgents": ["linkedin-post-generator", "whatsapp-message-creator", "status-image-designer"]
+}

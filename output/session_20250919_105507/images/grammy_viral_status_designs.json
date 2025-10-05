@@ -1,0 +1,550 @@
+{
+  "session_id": "session_20250919_105507",
+  "timestamp": "2025-09-19T11:15:39.340566",
+  "viral_image_count": 5,
+  "format": "WhatsApp Status",
+  "dimensions": "1080x1920px",
+  "padding": "100px all sides",
+  "font_standards": {
+    "headline": "76-92px bold",
+    "subheading": "52-64px semibold",
+    "body": "48-56px regular",
+    "cta": "52-64px bold",
+    "branding": "28-32px regular"
+  },
+  "virality_criteria": {
+    "shock_value": "8.0+",
+    "visual_impact": "Grammy Award level",
+    "mobile_optimization": "100%",
+    "social_proof": "Real statistics",
+    "emotional_trigger": "FOMO/Success"
+  },
+  "designs": [
+    {
+      "id": "village_crorepati_shock",
+      "title": "Village Crorepati Shock",
+      "virality_score": 9.2,
+      "design_spec": {
+        "canvas": {
+          "width": 1080,
+          "height": 1920,
+          "padding": 100
+        },
+        "background": {
+          "type": "gradient",
+          "colors": [
+            "#1a1a2e",
+            "#16213e",
+            "#0f3460"
+          ],
+          "direction": "diagonal"
+        },
+        "elements": [
+          {
+            "type": "headline",
+            "text": "VILLAGE BOY\n\u20b9100 CRORE!",
+            "font_size": 92,
+            "font_weight": "black",
+            "color": "#FFD700",
+            "position": {
+              "x": 540,
+              "y": 400
+            },
+            "alignment": "center",
+            "stroke": {
+              "color": "#000",
+              "width": 3
+            }
+          },
+          {
+            "type": "shock_visual",
+            "description": "Simple village man in white kurta with shocked expression, golden glow around him",
+            "position": {
+              "x": 540,
+              "y": 800
+            },
+            "size": 400
+          },
+          {
+            "type": "subtext",
+            "text": "Started with \u20b9500 SIP\n20 years ago",
+            "font_size": 56,
+            "color": "#FFFFFF",
+            "position": {
+              "x": 540,
+              "y": 1200
+            }
+          },
+          {
+            "type": "call_to_action",
+            "text": "Your turn next?",
+            "font_size": 64,
+            "color": "#FF4444",
+            "position": {
+              "x": 540,
+              "y": 1400
+            },
+            "pulse_effect": true
+          }
+        ]
+      },
+      "gemini_prompt": "Create a viral WhatsApp status image (1080x1920px) showing a simple village man in white kurta with SHOCKED expression, golden divine glow around him. Dark gradient background. Bold yellow text '\u20b9100 CRORE!' at top. Include small village hut in background. Photorealistic style with dramatic lighting. Text overlay: 'VILLAGE BOY \u20b9100 CRORE!' in 92px bold font, 'Started with \u20b9500 SIP 20 years ago' in 56px, 'Your turn next?' in 64px red pulsing text. 100px padding all sides.",
+      "advisor_customization": {
+        "advisor_id": "ARN_SHRUTI_001",
+        "advisor_name": "Shruti Petkar",
+        "arn": "ARN_SHRUTI_001",
+        "brand_colors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "branding_elements": [
+          {
+            "type": "logo_placeholder",
+            "position": {
+              "x": 980,
+              "y": 1820
+            },
+            "size": 80,
+            "color": "#1A73E8"
+          },
+          {
+            "type": "arn_text",
+            "text": "ARN: ARN_SHRUTI_001",
+            "font_size": 28,
+            "color": "#888888",
+            "position": {
+              "x": 540,
+              "y": 1850
+            }
+          },
+          {
+            "type": "advisor_name",
+            "text": "Shruti Petkar",
+            "font_size": 32,
+            "color": "#1A73E8",
+            "position": {
+              "x": 540,
+              "y": 1780
+            }
+          }
+        ]
+      },
+      "enhanced_gemini_prompt": "Create a viral WhatsApp status image (1080x1920px) showing a simple village man in white kurta with SHOCKED expression, golden divine glow around him. Dark gradient background. Bold yellow text '\u20b9100 CRORE!' at top. Include small village hut in background. Photorealistic style with dramatic lighting. Text overlay: 'VILLAGE BOY \u20b9100 CRORE!' in 92px bold font, 'Started with \u20b9500 SIP 20 years ago' in 56px, 'Your turn next?' in 64px red pulsing text. 100px padding all sides. Include subtle branding: 'Shruti Petkar' in #1A73E8 color at bottom, ARN text 'ARN: ARN_SHRUTI_001' in small gray font. Professional financial advisor branding integrated seamlessly."
+    },
+    {
+      "id": "fo_reality_shock",
+      "title": "F&O Reality Check",
+      "virality_score": 8.8,
+      "design_spec": {
+        "canvas": {
+          "width": 1080,
+          "height": 1920,
+          "padding": 100
+        },
+        "background": {
+          "type": "split_screen",
+          "left_color": "#FF0000",
+          "right_color": "#00FF00"
+        },
+        "elements": [
+          {
+            "type": "headline",
+            "text": "F&O REALITY",
+            "font_size": 84,
+            "font_weight": "black",
+            "color": "#FFFFFF",
+            "position": {
+              "x": 540,
+              "y": 300
+            }
+          },
+          {
+            "type": "stat_comparison",
+            "left_stat": "93%\nLOSE MONEY",
+            "right_stat": "7%\nMAKE MONEY",
+            "font_size": 72,
+            "position": {
+              "x": 540,
+              "y": 800
+            }
+          },
+          {
+            "type": "visual_metaphor",
+            "description": "93 crying faces vs 7 happy faces with money",
+            "position": {
+              "x": 540,
+              "y": 1200
+            }
+          },
+          {
+            "type": "reality_text",
+            "text": "Still want to gamble\nwith your money?",
+            "font_size": 48,
+            "color": "#FFFFFF",
+            "position": {
+              "x": 540,
+              "y": 1500
+            }
+          }
+        ]
+      },
+      "gemini_prompt": "Create viral WhatsApp status (1080x1920px) with split-screen design. Left side RED background with '93% LOSE MONEY' in white 72px bold text and crying emoji faces. Right side GREEN background with '7% MAKE MONEY' in white 72px bold text and happy money emoji faces. Top headline 'F&O REALITY' in 84px bold white. Bottom text 'Still want to gamble with your money?' in 48px. Dramatic contrast, realistic trading floor background. 100px padding.",
+      "advisor_customization": {
+        "advisor_id": "ARN_SHRUTI_001",
+        "advisor_name": "Shruti Petkar",
+        "arn": "ARN_SHRUTI_001",
+        "brand_colors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "branding_elements": [
+          {
+            "type": "logo_placeholder",
+            "position": {
+              "x": 980,
+              "y": 1820
+            },
+            "size": 80,
+            "color": "#1A73E8"
+          },
+          {
+            "type": "arn_text",
+            "text": "ARN: ARN_SHRUTI_001",
+            "font_size": 28,
+            "color": "#888888",
+            "position": {
+              "x": 540,
+              "y": 1850
+            }
+          },
+          {
+            "type": "advisor_name",
+            "text": "Shruti Petkar",
+            "font_size": 32,
+            "color": "#1A73E8",
+            "position": {
+              "x": 540,
+              "y": 1780
+            }
+          }
+        ]
+      },
+      "enhanced_gemini_prompt": "Create viral WhatsApp status (1080x1920px) with split-screen design. Left side RED background with '93% LOSE MONEY' in white 72px bold text and crying emoji faces. Right side GREEN background with '7% MAKE MONEY' in white 72px bold text and happy money emoji faces. Top headline 'F&O REALITY' in 84px bold white. Bottom text 'Still want to gamble with your money?' in 48px. Dramatic contrast, realistic trading floor background. 100px padding. Include subtle branding: 'Shruti Petkar' in #1A73E8 color at bottom, ARN text 'ARN: ARN_SHRUTI_001' in small gray font. Professional financial advisor branding integrated seamlessly."
+    },
+    {
+      "id": "coffee_wealth_calculator",
+      "title": "Coffee Wealth Calculator",
+      "virality_score": 9.0,
+      "design_spec": {
+        "canvas": {
+          "width": 1080,
+          "height": 1920,
+          "padding": 100
+        },
+        "background": {
+          "type": "coffee_shop",
+          "color": "#8B4513",
+          "overlay": 0.7
+        },
+        "elements": [
+          {
+            "type": "coffee_cup",
+            "description": "Realistic coffee cup with steam",
+            "position": {
+              "x": 540,
+              "y": 500
+            },
+            "size": 300
+          },
+          {
+            "type": "equation",
+            "text": "\u20b9200 Coffee",
+            "font_size": 64,
+            "color": "#FFFFFF",
+            "position": {
+              "x": 540,
+              "y": 750
+            }
+          },
+          {
+            "type": "transformation_arrow",
+            "description": "Glowing transformation arrow",
+            "position": {
+              "x": 540,
+              "y": 900
+            }
+          },
+          {
+            "type": "wealth_result",
+            "text": "\u20b967 LAKHS\nin 30 years!",
+            "font_size": 84,
+            "font_weight": "black",
+            "color": "#FFD700",
+            "position": {
+              "x": 540,
+              "y": 1200
+            },
+            "glow_effect": true
+          },
+          {
+            "type": "cta",
+            "text": "Skip coffee.\nBuild wealth.",
+            "font_size": 52,
+            "color": "#00FF00",
+            "position": {
+              "x": 540,
+              "y": 1500
+            }
+          }
+        ]
+      },
+      "gemini_prompt": "Create viral WhatsApp status (1080x1920px) showing realistic coffee cup with steam on wooden table background. Overlay equation '\u20b9200 Coffee' in 64px white text with glowing transformation arrow pointing down to '\u20b967 LAKHS in 30 years!' in 84px golden text with glow effect. Bottom text 'Skip coffee. Build wealth.' in 52px green. Coffee shop ambiance with warm lighting. Mathematical wealth transformation visual. 100px padding.",
+      "advisor_customization": {
+        "advisor_id": "ARN_SHRUTI_001",
+        "advisor_name": "Shruti Petkar",
+        "arn": "ARN_SHRUTI_001",
+        "brand_colors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "branding_elements": [
+          {
+            "type": "logo_placeholder",
+            "position": {
+              "x": 980,
+              "y": 1820
+            },
+            "size": 80,
+            "color": "#1A73E8"
+          },
+          {
+            "type": "arn_text",
+            "text": "ARN: ARN_SHRUTI_001",
+            "font_size": 28,
+            "color": "#888888",
+            "position": {
+              "x": 540,
+              "y": 1850
+            }
+          },
+          {
+            "type": "advisor_name",
+            "text": "Shruti Petkar",
+            "font_size": 32,
+            "color": "#1A73E8",
+            "position": {
+              "x": 540,
+              "y": 1780
+            }
+          }
+        ]
+      },
+      "enhanced_gemini_prompt": "Create viral WhatsApp status (1080x1920px) showing realistic coffee cup with steam on wooden table background. Overlay equation '\u20b9200 Coffee' in 64px white text with glowing transformation arrow pointing down to '\u20b967 LAKHS in 30 years!' in 84px golden text with glow effect. Bottom text 'Skip coffee. Build wealth.' in 52px green. Coffee shop ambiance with warm lighting. Mathematical wealth transformation visual. 100px padding. Include subtle branding: 'Shruti Petkar' in #1A73E8 color at bottom, ARN text 'ARN: ARN_SHRUTI_001' in small gray font. Professional financial advisor branding integrated seamlessly."
+    },
+    {
+      "id": "auto_driver_success",
+      "title": "Auto Driver Success Story",
+      "virality_score": 9.5,
+      "design_spec": {
+        "canvas": {
+          "width": 1080,
+          "height": 1920,
+          "padding": 100
+        },
+        "background": {
+          "type": "success_journey",
+          "colors": [
+            "#000000",
+            "#FFD700"
+          ]
+        },
+        "elements": [
+          {
+            "type": "auto_visual",
+            "description": "Split image: old rickshaw on left, luxury car on right",
+            "position": {
+              "x": 540,
+              "y": 600
+            },
+            "transformation": true
+          },
+          {
+            "type": "headline",
+            "text": "AUTO DRIVER\nBECAME CROREPATI",
+            "font_size": 80,
+            "font_weight": "black",
+            "color": "#FFD700",
+            "position": {
+              "x": 540,
+              "y": 400
+            }
+          },
+          {
+            "type": "journey_stats",
+            "text": "\u20b91000 monthly SIP\n\u00d7 25 years\n= \u20b91.2 CRORE",
+            "font_size": 56,
+            "color": "#FFFFFF",
+            "position": {
+              "x": 540,
+              "y": 1100
+            }
+          },
+          {
+            "type": "inspiration",
+            "text": "If he can, YOU can!",
+            "font_size": 64,
+            "color": "#FF4444",
+            "position": {
+              "x": 540,
+              "y": 1400
+            },
+            "bold": true
+          }
+        ]
+      },
+      "gemini_prompt": "Create inspiring WhatsApp status (1080x1920px) with split transformation visual: left side shows humble auto-rickshaw in black & white, right side shows luxury car in golden colors. Center headline 'AUTO DRIVER BECAME CROREPATI' in 80px golden bold text. Middle shows journey: '\u20b91000 monthly SIP \u00d7 25 years = \u20b91.2 CRORE' in 56px white. Bottom 'If he can, YOU can!' in 64px red bold. Dramatic lighting, success story theme. 100px padding.",
+      "advisor_customization": {
+        "advisor_id": "ARN_SHRUTI_001",
+        "advisor_name": "Shruti Petkar",
+        "arn": "ARN_SHRUTI_001",
+        "brand_colors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "branding_elements": [
+          {
+            "type": "logo_placeholder",
+            "position": {
+              "x": 980,
+              "y": 1820
+            },
+            "size": 80,
+            "color": "#1A73E8"
+          },
+          {
+            "type": "arn_text",
+            "text": "ARN: ARN_SHRUTI_001",
+            "font_size": 28,
+            "color": "#888888",
+            "position": {
+              "x": 540,
+              "y": 1850
+            }
+          },
+          {
+            "type": "advisor_name",
+            "text": "Shruti Petkar",
+            "font_size": 32,
+            "color": "#1A73E8",
+            "position": {
+              "x": 540,
+              "y": 1780
+            }
+          }
+        ]
+      },
+      "enhanced_gemini_prompt": "Create inspiring WhatsApp status (1080x1920px) with split transformation visual: left side shows humble auto-rickshaw in black & white, right side shows luxury car in golden colors. Center headline 'AUTO DRIVER BECAME CROREPATI' in 80px golden bold text. Middle shows journey: '\u20b91000 monthly SIP \u00d7 25 years = \u20b91.2 CRORE' in 56px white. Bottom 'If he can, YOU can!' in 64px red bold. Dramatic lighting, success story theme. 100px padding. Include subtle branding: 'Shruti Petkar' in #1A73E8 color at bottom, ARN text 'ARN: ARN_SHRUTI_001' in small gray font. Professional financial advisor branding integrated seamlessly."
+    },
+    {
+      "id": "grammy_portfolio",
+      "title": "Grammy Portfolio Diversification",
+      "virality_score": 8.9,
+      "design_spec": {
+        "canvas": {
+          "width": 1080,
+          "height": 1920,
+          "padding": 100
+        },
+        "background": {
+          "type": "awards_stage",
+          "color": "#1a1a2e",
+          "spotlight": true
+        },
+        "elements": [
+          {
+            "type": "grammy_trophy",
+            "description": "Golden Grammy award trophy with spotlight",
+            "position": {
+              "x": 540,
+              "y": 500
+            },
+            "size": 350
+          },
+          {
+            "type": "headline",
+            "text": "GRAMMY PORTFOLIO\nWINS EVERY YEAR",
+            "font_size": 76,
+            "font_weight": "black",
+            "color": "#FFD700",
+            "position": {
+              "x": 540,
+              "y": 800
+            }
+          },
+          {
+            "type": "diversification_visual",
+            "text": "Equity + Debt + Gold\n= Award-Winning Returns",
+            "font_size": 52,
+            "color": "#FFFFFF",
+            "position": {
+              "x": 540,
+              "y": 1200
+            }
+          },
+          {
+            "type": "cta",
+            "text": "Build your Grammy\nPortfolio today!",
+            "font_size": 56,
+            "color": "#00FF00",
+            "position": {
+              "x": 540,
+              "y": 1500
+            }
+          }
+        ]
+      },
+      "gemini_prompt": "Create premium WhatsApp status (1080x1920px) featuring golden Grammy award trophy under dramatic spotlight on dark stage background. Headline 'GRAMMY PORTFOLIO WINS EVERY YEAR' in 76px golden bold text. Show diversification concept: 'Equity + Debt + Gold = Award-Winning Returns' in 52px white. Bottom CTA 'Build your Grammy Portfolio today!' in 56px green. Awards ceremony atmosphere with red carpet elements. 100px padding. Premium, award-winning aesthetic.",
+      "advisor_customization": {
+        "advisor_id": "ARN_SHRUTI_001",
+        "advisor_name": "Shruti Petkar",
+        "arn": "ARN_SHRUTI_001",
+        "brand_colors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "branding_elements": [
+          {
+            "type": "logo_placeholder",
+            "position": {
+              "x": 980,
+              "y": 1820
+            },
+            "size": 80,
+            "color": "#1A73E8"
+          },
+          {
+            "type": "arn_text",
+            "text": "ARN: ARN_SHRUTI_001",
+            "font_size": 28,
+            "color": "#888888",
+            "position": {
+              "x": 540,
+              "y": 1850
+            }
+          },
+          {
+            "type": "advisor_name",
+            "text": "Shruti Petkar",
+            "font_size": 32,
+            "color": "#1A73E8",
+            "position": {
+              "x": 540,
+              "y": 1780
+            }
+          }
+        ]
+      },
+      "enhanced_gemini_prompt": "Create premium WhatsApp status (1080x1920px) featuring golden Grammy award trophy under dramatic spotlight on dark stage background. Headline 'GRAMMY PORTFOLIO WINS EVERY YEAR' in 76px golden bold text. Show diversification concept: 'Equity + Debt + Gold = Award-Winning Returns' in 52px white. Bottom CTA 'Build your Grammy Portfolio today!' in 56px green. Awards ceremony atmosphere with red carpet elements. 100px padding. Premium, award-winning aesthetic. Include subtle branding: 'Shruti Petkar' in #1A73E8 color at bottom, ARN text 'ARN: ARN_SHRUTI_001' in small gray font. Professional financial advisor branding integrated seamlessly."
+    }
+  ]
+}

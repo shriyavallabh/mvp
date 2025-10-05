@@ -1,0 +1,12 @@
+{
+  "channelType": "quality-improvement-chain",
+  "sessionId": "session_2025-09-17T17-09-25-000Z",
+  "status": "active",
+  "initialized": "2025-09-17T17:09:25.000Z",
+  "messageQueue": [],
+  "protocols": {
+    "messageFormat": "JSON",
+    "priority": "high",
+    "retention": "session-only"
+  }
+}

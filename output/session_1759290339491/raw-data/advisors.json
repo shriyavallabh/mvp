@@ -1,0 +1,208 @@
+{
+  "success": true,
+  "timestamp": "2025-10-01T00:05:39.491Z",
+  "sessionId": "session_1759290339491",
+  "advisorCount": 4,
+  "dataSource": "local_json",
+  "advisors": [
+    {
+      "advisorId": "ADV001",
+      "personalInfo": {
+        "name": "Shruti Petkar",
+        "phone": "919673758777",
+        "email": "shruti.petkar@finadvise.com",
+        "arn": "ARN-125847"
+      },
+      "businessInfo": {
+        "firmName": "Shruti Petkar Financial Services",
+        "advisorType": "Premium",
+        "experience": "8+ years",
+        "aum": "₹5 Crores+",
+        "clientCount": 150
+      },
+      "segmentInfo": {
+        "primarySegment": "Premium",
+        "clientDemographics": ["High Net Worth", "Young Professionals"],
+        "focusAreas": ["Investment Planning", "Wealth Management"]
+      },
+      "customization": {
+        "brandName": "Shruti Petkar",
+        "logoUrl": "/assets/logos/shruti-petkar.png",
+        "brandColors": {
+          "primary": "#1B365D",
+          "secondary": "#0077B5"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "SEBI Registered Investment Advisor | ARN-125847"
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "contentStyle": "professional",
+        "postingTime": "09:00",
+        "approvalMode": "manual",
+        "languages": ["English"],
+        "timezone": "Asia/Kolkata"
+      },
+      "subscription": {
+        "plan": "Premium",
+        "status": "Active",
+        "activeSubscription": true
+      }
+    },
+    {
+      "advisorId": "ADV002",
+      "personalInfo": {
+        "name": "Vidyadhar Petkar",
+        "phone": "918975758513",
+        "email": "vidyadhar.petkar@finadvise.com",
+        "arn": "ARN-138924"
+      },
+      "businessInfo": {
+        "firmName": "Vidyadhar Petkar Advisory",
+        "advisorType": "Gold",
+        "experience": "12+ years",
+        "aum": "₹3.5 Crores",
+        "clientCount": 200
+      },
+      "segmentInfo": {
+        "primarySegment": "Gold",
+        "clientDemographics": ["Mass Affluent", "Tax Planners"],
+        "focusAreas": ["Tax Planning", "Retirement Planning"]
+      },
+      "customization": {
+        "brandName": "Vidyadhar Petkar",
+        "logoUrl": "/assets/logos/vidyadhar-petkar.png",
+        "brandColors": {
+          "primary": "#2E8B57",
+          "secondary": "#228B22"
+        },
+        "tagline": "Your Financial Growth Partner",
+        "disclaimer": "SEBI Registered Investment Advisor | ARN-138924"
+      },
+      "preferences": {
+        "contentTone": "Analytical",
+        "contentStyle": "analytical",
+        "postingTime": "09:30",
+        "approvalMode": "auto",
+        "languages": ["English", "Hindi"],
+        "timezone": "Asia/Kolkata"
+      },
+      "subscription": {
+        "plan": "Gold",
+        "status": "Active",
+        "activeSubscription": true
+      }
+    },
+    {
+      "advisorId": "ADV003",
+      "personalInfo": {
+        "name": "Shriya Vallabh Petkar",
+        "phone": "919765071249",
+        "email": "shriya.vallabh@finadvise.com",
+        "arn": "ARN-147852"
+      },
+      "businessInfo": {
+        "firmName": "Shriya Vallabh Financial Advisors",
+        "advisorType": "Premium",
+        "experience": "15+ years",
+        "aum": "₹7.5 Crores",
+        "clientCount": 180
+      },
+      "segmentInfo": {
+        "primarySegment": "Premium",
+        "clientDemographics": ["Pre-retirees", "Conservative Investors"],
+        "focusAreas": ["Retirement Planning", "Educational Savings"]
+      },
+      "customization": {
+        "brandName": "Shriya Vallabh Petkar",
+        "logoUrl": "/assets/logos/shriya-vallabh.png",
+        "brandColors": {
+          "primary": "#8B4513",
+          "secondary": "#CD853F"
+        },
+        "tagline": "Empowering Financial Decisions",
+        "disclaimer": "SEBI Registered Investment Advisor | ARN-147852"
+      },
+      "preferences": {
+        "contentTone": "Educational",
+        "contentStyle": "educational",
+        "postingTime": "10:00",
+        "approvalMode": "manual",
+        "languages": ["English"],
+        "timezone": "Asia/Kolkata"
+      },
+      "subscription": {
+        "plan": "Premium",
+        "status": "Active",
+        "activeSubscription": true
+      }
+    },
+    {
+      "advisorId": "ADV004",
+      "personalInfo": {
+        "name": "Avalok Langer",
+        "phone": "919022810769",
+        "email": "avalok.langer@finadvise.com",
+        "arn": "ARN-169741"
+      },
+      "businessInfo": {
+        "firmName": "Avalok Langer Investment Solutions",
+        "advisorType": "Silver",
+        "experience": "6+ years",
+        "aum": "₹2 Crores",
+        "clientCount": 120
+      },
+      "segmentInfo": {
+        "primarySegment": "Silver",
+        "clientDemographics": ["Young Professionals", "First-time Investors"],
+        "focusAreas": ["Equity Investment", "SIP Planning"]
+      },
+      "customization": {
+        "brandName": "Avalok Langer",
+        "logoUrl": "/assets/logos/avalok-langer.png",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Smart Investments, Secure Future",
+        "disclaimer": "SEBI Registered Investment Advisor | ARN-169741"
+      },
+      "preferences": {
+        "contentTone": "Modern",
+        "contentStyle": "modern",
+        "postingTime": "09:00",
+        "approvalMode": "auto",
+        "languages": ["English", "Hindi"],
+        "timezone": "Asia/Kolkata"
+      },
+      "subscription": {
+        "plan": "Silver",
+        "status": "Active",
+        "activeSubscription": true
+      }
+    }
+  ],
+  "metadata": {
+    "activeSubscriptions": 4,
+    "premiumAdvisors": 2,
+    "goldAdvisors": 1,
+    "silverAdvisors": 1,
+    "customBranding": 4,
+    "dataQuality": 1.0,
+    "totalAUM": "₹18 Crores",
+    "averageExperience": "10+ years",
+    "created_by": "advisor-data-manager",
+    "agent_color": "blue",
+    "agent_voice": "Alex"
+  },
+  "segmentBreakdown": {
+    "Premium": 2,
+    "Gold": 1,
+    "Silver": 1
+  },
+  "approvalModes": {
+    "manual": 2,
+    "auto": 2
+  },
+  "warnings": []
+}

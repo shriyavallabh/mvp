@@ -1,0 +1,52 @@
+{
+  "sessionId": "session_20250920_231535",
+  "registeredAt": "2025-09-20T23:15:35.000Z",
+  "agents": {
+    "state-manager": {
+      "capabilities": ["state-persistence", "learning-capture"],
+      "sharedMemory": "data/shared-memory/session_20250920_231535",
+      "learnings": "learnings/sessions/session_20250920_231535"
+    },
+    "communication-bus": {
+      "capabilities": ["message-routing", "broadcast"],
+      "channels": "data/agent-communication/session_20250920_231535"
+    },
+    "market-intelligence": {
+      "capabilities": ["market-analysis", "content-intelligence"],
+      "sharedMemory": "data/shared-memory/session_20250920_231535",
+      "output": "output/session_20250920_231535"
+    },
+    "linkedin-post-generator": {
+      "capabilities": ["content-generation", "platform-optimization"],
+      "output": "output/session_20250920_231535/linkedin"
+    },
+    "whatsapp-message-creator": {
+      "capabilities": ["message-creation", "template-management"],
+      "output": "output/session_20250920_231535/whatsapp"
+    },
+    "gemini-image-generator": {
+      "capabilities": ["image-generation", "visual-content"],
+      "output": "output/session_20250920_231535/images"
+    },
+    "status-image-designer": {
+      "capabilities": ["status-design", "visual-branding"],
+      "output": "output/session_20250920_231535/images"
+    },
+    "compliance-validator": {
+      "capabilities": ["compliance-check", "content-validation"],
+      "channels": "data/agent-communication/session_20250920_231535/compliance"
+    },
+    "quality-scorer": {
+      "capabilities": ["quality-assessment", "content-scoring"],
+      "channels": "data/agent-communication/session_20250920_231535/quality"
+    },
+    "distribution-controller": {
+      "capabilities": ["content-distribution", "channel-management"],
+      "sharedMemory": "data/shared-memory/session_20250920_231535"
+    },
+    "advisor-data-manager": {
+      "capabilities": ["data-management", "advisor-coordination"],
+      "sharedMemory": "data/shared-memory/session_20250920_231535"
+    }
+  }
+}

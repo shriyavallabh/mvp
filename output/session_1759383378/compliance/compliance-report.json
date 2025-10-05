@@ -1,0 +1,657 @@
+{
+  "sessionId": "session_1759383378",
+  "timestamp": "2025-10-02T12:21:07.588493",
+  "agentName": "compliance-validator",
+  "phase": "Phase 5 - Validation",
+  "agentNumber": 9,
+  "executiveSummary": {
+    "status": "PASS",
+    "complianceScore": 1.5,
+    "contentAnalyzed": 16,
+    "compliantFiles": 24,
+    "criticalViolations": 0,
+    "totalViolations": 0,
+    "warnings": 0
+  },
+  "sebiCompliance": {
+    "arnDisclosure": "REQUIRED",
+    "arnFound": 16,
+    "marketRiskDisclaimers": 8,
+    "prohibitedClaims": 0,
+    "status": "COMPLIANT"
+  },
+  "whatsappCompliance": {
+    "characterLimitViolations": 0,
+    "spamIndicators": 0,
+    "status": "COMPLIANT"
+  },
+  "violations": [],
+  "warnings": [],
+  "compliantFiles": [
+    {
+      "file": "ADV002_post_2.txt",
+      "type": "linkedin",
+      "checks_passed": [
+        "sebi_disclaimers",
+        "arn_disclosure",
+        "prohibited_claims",
+        "whatsapp_policies"
+      ]
+    },
+    {
+      "file": "ADV002_post_1.txt",
+      "type": "linkedin",
+      "checks_passed": [
+        "sebi_disclaimers",
+        "arn_disclosure",
+        "prohibited_claims",
+        "whatsapp_policies"
+      ]
+    },
+    {
+      "file": "ADV003_post_2.txt",
+      "type": "linkedin",
+      "checks_passed": [
+        "sebi_disclaimers",
+        "arn_disclosure",
+        "prohibited_claims",
+        "whatsapp_policies"
+      ]
+    },
+    {
+      "file": "ADV003_post_1.txt",
+      "type": "linkedin",
+      "checks_passed": [
+        "sebi_disclaimers",
+        "arn_disclosure",
+        "prohibited_claims",
+        "whatsapp_policies"
+      ]
+    },
+    {
+      "file": "ADV001_post_2.txt",
+      "type": "linkedin",
+      "checks_passed": [
+        "sebi_disclaimers",
+        "arn_disclosure",
+        "prohibited_claims",
+        "whatsapp_policies"
+      ]
+    },
+    {
+      "file": "ADV001_post_1.txt",
+      "type": "linkedin",
+      "checks_passed": [
+        "sebi_disclaimers",
+        "arn_disclosure",
+        "prohibited_claims",
+        "whatsapp_policies"
+      ]
+    },
+    {
+      "file": "ADV004_post_1.txt",
+      "type": "linkedin",
+      "checks_passed": [
+        "sebi_disclaimers",
+        "arn_disclosure",
+        "prohibited_claims",
+        "whatsapp_policies"
+      ]
+    },
+    {
+      "file": "ADV004_post_2.txt",
+      "type": "linkedin",
+      "checks_passed": [
+        "sebi_disclaimers",
+        "arn_disclosure",
+        "prohibited_claims",
+        "whatsapp_policies"
+      ]
+    },
+    {
+      "file": "ADV001_whatsapp_20251002_112107_msg1.txt",
+      "type": "whatsapp",
+      "checks_passed": [
+        "sebi_disclaimers",
+        "arn_disclosure",
+        "prohibited_claims",
+        "whatsapp_policies"
+      ]
+    },
+    {
+      "file": "ADV001_whatsapp_20251002_112107_msg2.txt",
+      "type": "whatsapp",
+      "checks_passed": [
+        "sebi_disclaimers",
+        "arn_disclosure",
+        "prohibited_claims",
+        "whatsapp_policies"
+      ]
+    },
+    {
+      "file": "ADV003_whatsapp_20251002_112107_msg2.txt",
+      "type": "whatsapp",
+      "checks_passed": [
+        "sebi_disclaimers",
+        "arn_disclosure",
+        "prohibited_claims",
+        "whatsapp_policies"
+      ]
+    },
+    {
+      "file": "ADV003_whatsapp_20251002_112107_msg1.txt",
+      "type": "whatsapp",
+      "checks_passed": [
+        "sebi_disclaimers",
+        "arn_disclosure",
+        "prohibited_claims",
+        "whatsapp_policies"
+      ]
+    },
+    {
+      "file": "ADV002_whatsapp_20251002_112107_msg2.txt",
+      "type": "whatsapp",
+      "checks_passed": [
+        "sebi_disclaimers",
+        "arn_disclosure",
+        "prohibited_claims",
+        "whatsapp_policies"
+      ]
+    },
+    {
+      "file": "ADV002_whatsapp_20251002_112107_msg1.txt",
+      "type": "whatsapp",
+      "checks_passed": [
+        "sebi_disclaimers",
+        "arn_disclosure",
+        "prohibited_claims",
+        "whatsapp_policies"
+      ]
+    },
+    {
+      "file": "ADV004_whatsapp_20251002_112107_msg1.txt",
+      "type": "whatsapp",
+      "checks_passed": [
+        "sebi_disclaimers",
+        "arn_disclosure",
+        "prohibited_claims",
+        "whatsapp_policies"
+      ]
+    },
+    {
+      "file": "ADV004_whatsapp_20251002_112107_msg2.txt",
+      "type": "whatsapp",
+      "checks_passed": [
+        "sebi_disclaimers",
+        "arn_disclosure",
+        "prohibited_claims",
+        "whatsapp_policies"
+      ]
+    },
+    {
+      "file": "STATUS_ADV001_001",
+      "type": "status_image",
+      "checks_passed": [
+        "arn_disclosure",
+        "branding_compliance"
+      ]
+    },
+    {
+      "file": "STATUS_ADV001_002",
+      "type": "status_image",
+      "checks_passed": [
+        "arn_disclosure",
+        "branding_compliance"
+      ]
+    },
+    {
+      "file": "STATUS_ADV002_001",
+      "type": "status_image",
+      "checks_passed": [
+        "arn_disclosure",
+        "branding_compliance"
+      ]
+    },
+    {
+      "file": "STATUS_ADV002_002",
+      "type": "status_image",
+      "checks_passed": [
+        "arn_disclosure",
+        "branding_compliance"
+      ]
+    },
+    {
+      "file": "STATUS_ADV003_001",
+      "type": "status_image",
+      "checks_passed": [
+        "arn_disclosure",
+        "branding_compliance"
+      ]
+    },
+    {
+      "file": "STATUS_ADV003_002",
+      "type": "status_image",
+      "checks_passed": [
+        "arn_disclosure",
+        "branding_compliance"
+      ]
+    },
+    {
+      "file": "STATUS_ADV004_001",
+      "type": "status_image",
+      "checks_passed": [
+        "arn_disclosure",
+        "branding_compliance"
+      ]
+    },
+    {
+      "file": "STATUS_ADV004_002",
+      "type": "status_image",
+      "checks_passed": [
+        "arn_disclosure",
+        "branding_compliance"
+      ]
+    }
+  ],
+  "auditTrail": [
+    {
+      "timestamp": "2025-10-02T12:21:07.584639",
+      "check": "sebi_disclaimer",
+      "file": "ADV002_post_2.txt",
+      "result": "PASS",
+      "details": "Market risk disclaimer found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.584688",
+      "check": "arn_disclosure",
+      "file": "ADV002_post_2.txt",
+      "result": "PASS",
+      "details": "ARN found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.584923",
+      "check": "prohibited_claims",
+      "file": "ADV002_post_2.txt",
+      "result": "PASS",
+      "details": "No prohibited terms"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.585176",
+      "check": "sebi_disclaimer",
+      "file": "ADV002_post_1.txt",
+      "result": "PASS",
+      "details": "Market risk disclaimer found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.585180",
+      "check": "arn_disclosure",
+      "file": "ADV002_post_1.txt",
+      "result": "PASS",
+      "details": "ARN found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.585260",
+      "check": "prohibited_claims",
+      "file": "ADV002_post_1.txt",
+      "result": "PASS",
+      "details": "No prohibited terms"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.585434",
+      "check": "sebi_disclaimer",
+      "file": "ADV003_post_2.txt",
+      "result": "PASS",
+      "details": "Market risk disclaimer found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.585438",
+      "check": "arn_disclosure",
+      "file": "ADV003_post_2.txt",
+      "result": "PASS",
+      "details": "ARN found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.585515",
+      "check": "prohibited_claims",
+      "file": "ADV003_post_2.txt",
+      "result": "PASS",
+      "details": "No prohibited terms"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.585641",
+      "check": "sebi_disclaimer",
+      "file": "ADV003_post_1.txt",
+      "result": "PASS",
+      "details": "Market risk disclaimer found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.585644",
+      "check": "arn_disclosure",
+      "file": "ADV003_post_1.txt",
+      "result": "PASS",
+      "details": "ARN found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.585730",
+      "check": "prohibited_claims",
+      "file": "ADV003_post_1.txt",
+      "result": "PASS",
+      "details": "No prohibited terms"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.585874",
+      "check": "sebi_disclaimer",
+      "file": "ADV001_post_2.txt",
+      "result": "PASS",
+      "details": "Market risk disclaimer found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.585877",
+      "check": "arn_disclosure",
+      "file": "ADV001_post_2.txt",
+      "result": "PASS",
+      "details": "ARN found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.585953",
+      "check": "prohibited_claims",
+      "file": "ADV001_post_2.txt",
+      "result": "PASS",
+      "details": "No prohibited terms"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.586125",
+      "check": "sebi_disclaimer",
+      "file": "ADV001_post_1.txt",
+      "result": "PASS",
+      "details": "Market risk disclaimer found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.586127",
+      "check": "arn_disclosure",
+      "file": "ADV001_post_1.txt",
+      "result": "PASS",
+      "details": "ARN found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.586215",
+      "check": "prohibited_claims",
+      "file": "ADV001_post_1.txt",
+      "result": "PASS",
+      "details": "No prohibited terms"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.586361",
+      "check": "sebi_disclaimer",
+      "file": "ADV004_post_1.txt",
+      "result": "PASS",
+      "details": "Market risk disclaimer found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.586364",
+      "check": "arn_disclosure",
+      "file": "ADV004_post_1.txt",
+      "result": "PASS",
+      "details": "ARN found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.586453",
+      "check": "prohibited_claims",
+      "file": "ADV004_post_1.txt",
+      "result": "PASS",
+      "details": "No prohibited terms"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.586627",
+      "check": "sebi_disclaimer",
+      "file": "ADV004_post_2.txt",
+      "result": "PASS",
+      "details": "Market risk disclaimer found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.586631",
+      "check": "arn_disclosure",
+      "file": "ADV004_post_2.txt",
+      "result": "PASS",
+      "details": "ARN found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.586713",
+      "check": "prohibited_claims",
+      "file": "ADV004_post_2.txt",
+      "result": "PASS",
+      "details": "No prohibited terms"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.586908",
+      "check": "arn_disclosure",
+      "file": "ADV001_whatsapp_20251002_112107_msg1.txt",
+      "result": "PASS",
+      "details": "ARN found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.586927",
+      "check": "prohibited_claims",
+      "file": "ADV001_whatsapp_20251002_112107_msg1.txt",
+      "result": "PASS",
+      "details": "No prohibited terms"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.586930",
+      "check": "whatsapp_length",
+      "file": "ADV001_whatsapp_20251002_112107_msg1.txt",
+      "result": "PASS",
+      "details": "Length: 327"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587111",
+      "check": "arn_disclosure",
+      "file": "ADV001_whatsapp_20251002_112107_msg2.txt",
+      "result": "PASS",
+      "details": "ARN found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587129",
+      "check": "prohibited_claims",
+      "file": "ADV001_whatsapp_20251002_112107_msg2.txt",
+      "result": "PASS",
+      "details": "No prohibited terms"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587131",
+      "check": "whatsapp_length",
+      "file": "ADV001_whatsapp_20251002_112107_msg2.txt",
+      "result": "PASS",
+      "details": "Length: 330"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587596",
+      "check": "arn_disclosure",
+      "file": "ADV003_whatsapp_20251002_112107_msg2.txt",
+      "result": "PASS",
+      "details": "ARN found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587618",
+      "check": "prohibited_claims",
+      "file": "ADV003_whatsapp_20251002_112107_msg2.txt",
+      "result": "PASS",
+      "details": "No prohibited terms"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587621",
+      "check": "whatsapp_length",
+      "file": "ADV003_whatsapp_20251002_112107_msg2.txt",
+      "result": "PASS",
+      "details": "Length: 338"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587694",
+      "check": "arn_disclosure",
+      "file": "ADV003_whatsapp_20251002_112107_msg1.txt",
+      "result": "PASS",
+      "details": "ARN found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587713",
+      "check": "prohibited_claims",
+      "file": "ADV003_whatsapp_20251002_112107_msg1.txt",
+      "result": "PASS",
+      "details": "No prohibited terms"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587715",
+      "check": "whatsapp_length",
+      "file": "ADV003_whatsapp_20251002_112107_msg1.txt",
+      "result": "PASS",
+      "details": "Length: 346"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587773",
+      "check": "arn_disclosure",
+      "file": "ADV002_whatsapp_20251002_112107_msg2.txt",
+      "result": "PASS",
+      "details": "ARN found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587791",
+      "check": "prohibited_claims",
+      "file": "ADV002_whatsapp_20251002_112107_msg2.txt",
+      "result": "PASS",
+      "details": "No prohibited terms"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587792",
+      "check": "whatsapp_length",
+      "file": "ADV002_whatsapp_20251002_112107_msg2.txt",
+      "result": "PASS",
+      "details": "Length: 328"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587843",
+      "check": "arn_disclosure",
+      "file": "ADV002_whatsapp_20251002_112107_msg1.txt",
+      "result": "PASS",
+      "details": "ARN found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587860",
+      "check": "prohibited_claims",
+      "file": "ADV002_whatsapp_20251002_112107_msg1.txt",
+      "result": "PASS",
+      "details": "No prohibited terms"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587862",
+      "check": "whatsapp_length",
+      "file": "ADV002_whatsapp_20251002_112107_msg1.txt",
+      "result": "PASS",
+      "details": "Length: 332"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587920",
+      "check": "arn_disclosure",
+      "file": "ADV004_whatsapp_20251002_112107_msg1.txt",
+      "result": "PASS",
+      "details": "ARN found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587937",
+      "check": "prohibited_claims",
+      "file": "ADV004_whatsapp_20251002_112107_msg1.txt",
+      "result": "PASS",
+      "details": "No prohibited terms"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587938",
+      "check": "whatsapp_length",
+      "file": "ADV004_whatsapp_20251002_112107_msg1.txt",
+      "result": "PASS",
+      "details": "Length: 316"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.587995",
+      "check": "arn_disclosure",
+      "file": "ADV004_whatsapp_20251002_112107_msg2.txt",
+      "result": "PASS",
+      "details": "ARN found"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.588013",
+      "check": "prohibited_claims",
+      "file": "ADV004_whatsapp_20251002_112107_msg2.txt",
+      "result": "PASS",
+      "details": "No prohibited terms"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.588015",
+      "check": "whatsapp_length",
+      "file": "ADV004_whatsapp_20251002_112107_msg2.txt",
+      "result": "PASS",
+      "details": "Length: 328"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.588477",
+      "check": "status_image",
+      "file": "STATUS_ADV001_001",
+      "result": "PASS",
+      "details": "ARN in branding"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.588479",
+      "check": "status_image",
+      "file": "STATUS_ADV001_002",
+      "result": "PASS",
+      "details": "ARN in branding"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.588480",
+      "check": "status_image",
+      "file": "STATUS_ADV002_001",
+      "result": "PASS",
+      "details": "ARN in branding"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.588481",
+      "check": "status_image",
+      "file": "STATUS_ADV002_002",
+      "result": "PASS",
+      "details": "ARN in branding"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.588483",
+      "check": "status_image",
+      "file": "STATUS_ADV003_001",
+      "result": "PASS",
+      "details": "ARN in branding"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.588484",
+      "check": "status_image",
+      "file": "STATUS_ADV003_002",
+      "result": "PASS",
+      "details": "ARN in branding"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.588485",
+      "check": "status_image",
+      "file": "STATUS_ADV004_001",
+      "result": "PASS",
+      "details": "ARN in branding"
+    },
+    {
+      "timestamp": "2025-10-02T12:21:07.588486",
+      "check": "status_image",
+      "file": "STATUS_ADV004_002",
+      "result": "PASS",
+      "details": "ARN in branding"
+    }
+  ],
+  "recommendations": [],
+  "outputFiles": {
+    "complianceReport": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/compliance/compliance-report.json",
+    "violationsDetail": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/compliance/violations.json",
+    "auditTrail": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/compliance/audit-trail.json",
+    "summary": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/compliance/COMPLIANCE_SUMMARY.md"
+  }
+}

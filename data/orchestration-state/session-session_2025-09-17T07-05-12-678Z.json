@@ -1,0 +1,113 @@
+{
+  "id": "session_2025-09-17T07-05-12-678Z",
+  "startTime": 1758092712679,
+  "agents": {
+    "advisor-data-manager": {
+      "status": "completed",
+      "startTime": 1758092712683,
+      "lastUpdate": 1758092713295,
+      "duration": 612
+    },
+    "market-intelligence": {
+      "status": "completed",
+      "startTime": 1758092712684,
+      "lastUpdate": 1758092713892,
+      "duration": 1208
+    },
+    "segment-analyzer": {
+      "status": "completed",
+      "startTime": 1758092713893,
+      "lastUpdate": 1758092714569,
+      "duration": 676
+    },
+    "linkedin-post-generator": {
+      "status": "completed",
+      "startTime": 1758092716972,
+      "lastUpdate": 1758092718169,
+      "duration": 1197
+    },
+    "whatsapp-message-creator": {
+      "status": "completed",
+      "startTime": 1758092714572,
+      "lastUpdate": 1758092715487,
+      "duration": 915
+    },
+    "gemini-image-generator": {
+      "status": "completed",
+      "startTime": 1758092715891,
+      "lastUpdate": 1758092716775,
+      "duration": 884
+    },
+    "compliance-validator": {
+      "status": "completed",
+      "startTime": 1758092716775,
+      "lastUpdate": 1758092718363,
+      "duration": 1588
+    },
+    "quality-scorer": {
+      "status": "completed",
+      "startTime": 1758092716775,
+      "lastUpdate": 1758092717835,
+      "duration": 1059
+    },
+    "fatigue-checker": {
+      "status": "completed",
+      "startTime": 1758092716776,
+      "lastUpdate": 1758092718004,
+      "duration": 1227
+    },
+    "distribution-controller": {
+      "status": "completed",
+      "startTime": 1758092718364,
+      "lastUpdate": 1758092719275,
+      "duration": 911
+    },
+    "analytics-tracker": {
+      "status": "completed",
+      "startTime": 1758092718364,
+      "lastUpdate": 1758092719023,
+      "duration": 659
+    },
+    "feedback-processor": {
+      "status": "completed",
+      "startTime": 1758092719277,
+      "lastUpdate": 1758092720298,
+      "duration": 1021
+    }
+  },
+  "outputs": {
+    "advisor-data-manager": {
+      "advisors": {
+        "advisors": [
+          {
+            "id": "ADV_001",
+            "name": "Advisor 1",
+            "arn": "ARN-001"
+          },
+          {
+            "id": "ADV_002",
+            "name": "Advisor 2",
+            "arn": "ARN-002"
+          }
+        ]
+      }
+    },
+    "market-intelligence": {
+      "market": {
+        "sensex": 75838,
+        "nifty": 23024,
+        "trends": [
+          "IT +2%",
+          "Banking -1%"
+        ]
+      }
+    },
+    "whatsapp-message-creator": {
+      "whatsapp": "Sample WhatsApp message..."
+    },
+    "linkedin-post-generator": {
+      "linkedin": "Sample LinkedIn post content..."
+    }
+  },
+  "validations": {}
+}

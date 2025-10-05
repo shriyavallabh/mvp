@@ -1,0 +1,90 @@
+{
+  "advisors": [
+    {
+      "id": "adv_001",
+      "name": "Rajesh Kumar",
+      "email": "rajesh.kumar@finadvise.in",
+      "phone": "+919876543210",
+      "preferences": {
+        "tone": "professional",
+        "topics": ["equity", "mutual_funds", "tax_planning"],
+        "complexity": "intermediate",
+        "language": "en",
+        "post_frequency": "daily"
+      },
+      "branding": {
+        "company": "Kumar Financial Advisors",
+        "logo_url": "https://example.com/logo1.png",
+        "colors": {
+          "primary": "#1E3A8A",
+          "secondary": "#F59E0B"
+        },
+        "tagline": "Building Wealth, Securing Future"
+      },
+      "social_media": {
+        "linkedin": "linkedin.com/in/rajeshkumar",
+        "whatsapp": "+919876543210"
+      },
+      "segments": ["HNI", "retail"],
+      "location": "Mumbai"
+    },
+    {
+      "id": "adv_002",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@wealthwise.com",
+      "phone": "+919988776655",
+      "preferences": {
+        "tone": "friendly",
+        "topics": ["sip", "retirement_planning", "insurance"],
+        "complexity": "simple",
+        "language": "hi",
+        "post_frequency": "twice_weekly"
+      },
+      "branding": {
+        "company": "WealthWise Consultants",
+        "logo_url": "https://example.com/logo2.png",
+        "colors": {
+          "primary": "#10B981",
+          "secondary": "#6366F1"
+        },
+        "tagline": "समृद्धि की राह"
+      },
+      "social_media": {
+        "linkedin": "linkedin.com/in/priyasharma",
+        "whatsapp": "+919988776655"
+      },
+      "segments": ["women", "millennials"],
+      "location": "Delhi"
+    },
+    {
+      "id": "adv_003",
+      "name": "Arun Patel",
+      "email": "arun@investsmart.in",
+      "phone": "+919123456789",
+      "preferences": {
+        "tone": "analytical",
+        "topics": ["market_analysis", "portfolio_management", "derivatives"],
+        "complexity": "advanced",
+        "language": "en",
+        "post_frequency": "weekly"
+      },
+      "branding": {
+        "company": "InvestSmart Advisory",
+        "logo_url": "https://example.com/logo3.png",
+        "colors": {
+          "primary": "#DC2626",
+          "secondary": "#1F2937"
+        },
+        "tagline": "Smart Investing, Proven Results"
+      },
+      "social_media": {
+        "linkedin": "linkedin.com/in/arunpatel",
+        "whatsapp": "+919123456789"
+      },
+      "segments": ["UHNI", "corporate"],
+      "location": "Bangalore"
+    }
+  ],
+  "timestamp": "2025-09-17T16:01:43Z",
+  "source": "advisor-data-manager"
+}

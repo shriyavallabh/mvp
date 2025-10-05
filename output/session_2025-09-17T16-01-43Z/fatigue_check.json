@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-09-17T16:01:43Z",
+  "source": "fatigue-checker",
+  "analysis": {
+    "adv_001": {
+      "last_30_days_posts": 28,
+      "topic_distribution": {
+        "market_updates": 10,
+        "mutual_funds": 8,
+        "tax_planning": 5,
+        "portfolio_tips": 5
+      },
+      "current_content_check": {
+        "similarity_score": 0.23,
+        "status": "✅ FRESH",
+        "recommendation": "Content is sufficiently different from recent posts"
+      }
+    },
+    "adv_002": {
+      "last_30_days_posts": 12,
+      "topic_distribution": {
+        "financial_literacy": 5,
+        "sip_education": 4,
+        "women_empowerment": 3
+      },
+      "current_content_check": {
+        "similarity_score": 0.18,
+        "status": "✅ FRESH",
+        "recommendation": "Good variety, continue with current approach"
+      }
+    },
+    "adv_003": {
+      "last_30_days_posts": 8,
+      "topic_distribution": {
+        "technical_analysis": 3,
+        "market_outlook": 3,
+        "derivatives": 2
+      },
+      "current_content_check": {
+        "similarity_score": 0.31,
+        "status": "⚠️ MODERATE",
+        "recommendation": "Consider varying the technical analysis format"
+      }
+    }
+  },
+  "suggestions": [
+    "Advisor 001: Explore new topics like ESG investing",
+    "Advisor 002: Add more video content for better engagement",
+    "Advisor 003: Include more case studies and real examples"
+  ]
+}

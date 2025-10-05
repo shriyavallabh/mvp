@@ -1,0 +1,412 @@
+{
+  "designId": "viral_003_bitcoin_crash",
+  "title": "$109K → $94K: Bitcoin Reality Check",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920
+  },
+  "layers": [
+    {
+      "layerId": 1,
+      "type": "background",
+      "properties": {
+        "gradient": {
+          "type": "linear",
+          "colors": ["#0A0A0A", "#1A0000", "#000000"],
+          "direction": "diagonal"
+        },
+        "overlay": {
+          "type": "bitcoin_pattern",
+          "opacity": 0.08,
+          "effect": "falling",
+          "speed": "slow"
+        }
+      }
+    },
+    {
+      "layerId": 2,
+      "type": "text",
+      "content": "$109,356",
+      "properties": {
+        "font": "Arial Black",
+        "fontSize": 96,
+        "fontWeight": "900",
+        "color": "#00FF00",
+        "position": {"x": 270, "y": 192},
+        "align": "left",
+        "effects": [
+          {
+            "type": "strike_through",
+            "color": "#FF0000",
+            "thickness": 8
+          },
+          {
+            "type": "glow",
+            "radius": 10,
+            "color": "#00FF00",
+            "opacity": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 3,
+      "type": "shape",
+      "subtype": "arrow",
+      "properties": {
+        "type": "diagonal_down",
+        "startPoint": {"x": 380, "y": 240},
+        "endPoint": {"x": 700, "y": 380},
+        "color": "#FF0000",
+        "width": 12,
+        "headSize": 40,
+        "effects": [
+          {
+            "type": "animated_path",
+            "duration": 2,
+            "style": "trace"
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 4,
+      "type": "text",
+      "content": "$94,500",
+      "properties": {
+        "font": "Arial Black",
+        "fontSize": 96,
+        "fontWeight": "900",
+        "color": "#FF0000",
+        "position": {"x": 810, "y": 345},
+        "align": "right",
+        "effects": [
+          {
+            "type": "glow",
+            "radius": 15,
+            "color": "#FF0000",
+            "opacity": 0.8
+          },
+          {
+            "type": "shake",
+            "intensity": 2,
+            "duration": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 5,
+      "type": "text",
+      "content": "-$14,856",
+      "properties": {
+        "font": "Impact",
+        "fontSize": 120,
+        "fontWeight": "900",
+        "color": "#FF0000",
+        "position": {"x": 540, "y": 672},
+        "align": "center",
+        "effects": [
+          {
+            "type": "dripping",
+            "color": "#8B0000",
+            "speed": "slow"
+          },
+          {
+            "type": "shadow",
+            "offsetX": 0,
+            "offsetY": 8,
+            "blur": 15,
+            "color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 6,
+      "type": "shape",
+      "subtype": "rectangle",
+      "properties": {
+        "position": {"x": 540, "y": 864},
+        "size": {"width": 600, "height": 100},
+        "fill": "#000000",
+        "stroke": {
+          "color": "#FF6666",
+          "width": 3
+        },
+        "borderRadius": 50
+      }
+    },
+    {
+      "layerId": 7,
+      "type": "text",
+      "content": "-13.6% CRASH",
+      "properties": {
+        "font": "Arial Black",
+        "fontSize": 84,
+        "fontWeight": "900",
+        "color": "#FF6666",
+        "position": {"x": 540, "y": 864},
+        "align": "center",
+        "effects": [
+          {
+            "type": "shake",
+            "intensity": 3,
+            "duration": 0.3,
+            "repeat": "infinite"
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 8,
+      "type": "chart",
+      "subtype": "candlestick",
+      "properties": {
+        "position": {"x": 540, "y": 1200},
+        "size": {"width": 900, "height": 400},
+        "data": {
+          "timeframe": "Jan 17-20, 2025",
+          "candles": [
+            {"date": "Jan 17", "open": 105000, "high": 109356, "low": 104500, "close": 108000, "color": "#00FF00"},
+            {"date": "Jan 18", "open": 108000, "high": 108500, "low": 102000, "close": 103000, "color": "#FF0000"},
+            {"date": "Jan 19", "open": 103000, "high": 104000, "low": 98000, "close": 99000, "color": "#FF0000"},
+            {"date": "Jan 20", "open": 99000, "high": 100000, "low": 94500, "close": 94500, "color": "#FF0000"}
+          ]
+        },
+        "style": {
+          "gridColor": "#333333",
+          "textColor": "#FFFFFF",
+          "volumeBars": {
+            "color": "#FF0000",
+            "opacity": 0.6
+          }
+        },
+        "annotations": [
+          {
+            "type": "marker",
+            "position": {"date": "Jan 17", "price": 109356},
+            "icon": "gold_star",
+            "label": "PEAK",
+            "color": "#FFD700"
+          },
+          {
+            "type": "marker",
+            "position": {"date": "Jan 20", "price": 94500},
+            "icon": "red_cross",
+            "label": "CRASH",
+            "color": "#FF0000"
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 9,
+      "type": "shape",
+      "subtype": "bitcoin_logo",
+      "properties": {
+        "position": {"x": 940, "y": 100},
+        "size": 120,
+        "color": "#F7931A",
+        "opacity": 0.2,
+        "effects": [
+          {
+            "type": "crack",
+            "lines": 5,
+            "color": "#FF0000",
+            "animation": "spread"
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 10,
+      "type": "text",
+      "content": "Gold: +3% Same Period ✨",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 56,
+        "fontWeight": "bold",
+        "color": "#FFD700",
+        "position": {"x": 540, "y": 1480},
+        "align": "center"
+      }
+    },
+    {
+      "layerId": 11,
+      "type": "text",
+      "content": "FD Returns: Peaceful Sleep 😴",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 56,
+        "fontWeight": "bold",
+        "color": "#00FF00",
+        "position": {"x": 540, "y": 1560},
+        "align": "center"
+      }
+    },
+    {
+      "layerId": 12,
+      "type": "text",
+      "content": "Crypto Bros: -₹50L Loss 💸",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 56,
+        "fontWeight": "bold",
+        "color": "#FF6666",
+        "position": {"x": 540, "y": 1640},
+        "align": "center"
+      }
+    },
+    {
+      "layerId": 13,
+      "type": "text",
+      "content": "\"Volatility is not your friend\"",
+      "properties": {
+        "font": "Georgia",
+        "fontSize": 48,
+        "fontWeight": "normal",
+        "fontStyle": "italic",
+        "color": "#FFFFFF",
+        "position": {"x": 540, "y": 1740},
+        "align": "center",
+        "opacity": 0.8
+      }
+    },
+    {
+      "layerId": 14,
+      "type": "shape",
+      "subtype": "rectangle",
+      "properties": {
+        "position": {"x": 540, "y": 1840},
+        "size": {"width": 880, "height": 100},
+        "fill": {
+          "type": "gradient",
+          "colors": ["#1A1A1A", "#2D2D2D"],
+          "direction": "horizontal"
+        },
+        "stroke": {
+          "color": "#FFD700",
+          "width": 2
+        },
+        "borderRadius": 50
+      }
+    },
+    {
+      "layerId": 15,
+      "type": "text",
+      "content": "Learn: Why Smart Money Exited at $105K",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 64,
+        "fontWeight": "bold",
+        "color": "#FFD700",
+        "position": {"x": 540, "y": 1840},
+        "align": "center",
+        "effects": [
+          {
+            "type": "subtle_glow",
+            "radius": 8,
+            "color": "#FFD700",
+            "opacity": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 16,
+      "type": "overlay",
+      "properties": {
+        "type": "comparison_bars",
+        "position": {"x": 540, "y": 1100},
+        "size": {"width": 800, "height": 250},
+        "data": [
+          {"asset": "Bitcoin", "value": -13.6, "color": "#FF0000"},
+          {"asset": "Gold", "value": 3, "color": "#FFD700"},
+          {"asset": "FD", "value": 1.8, "color": "#00FF00"}
+        ],
+        "style": {
+          "barWidth": 200,
+          "spacing": 100,
+          "showValues": true,
+          "animation": "grow"
+        }
+      }
+    },
+    {
+      "layerId": 17,
+      "type": "particles",
+      "properties": {
+        "type": "falling_bitcoins",
+        "count": 20,
+        "color": "#F7931A",
+        "opacity": 0.1,
+        "speed": "slow",
+        "size": {"min": 20, "max": 40}
+      }
+    }
+  ],
+  "animations": [
+    {
+      "targetLayer": 3,
+      "type": "trace_path",
+      "duration": 2000,
+      "delay": 500,
+      "repeat": "once"
+    },
+    {
+      "targetLayer": 5,
+      "type": "drip",
+      "duration": 3000,
+      "repeat": "infinite"
+    },
+    {
+      "targetLayer": 7,
+      "type": "shake",
+      "intensity": 3,
+      "duration": 300,
+      "repeat": "infinite"
+    },
+    {
+      "targetLayer": 9,
+      "type": "crack_spread",
+      "duration": 3000,
+      "delay": 1000
+    },
+    {
+      "targetLayer": 15,
+      "type": "glow_pulse",
+      "duration": 2000,
+      "repeat": "infinite"
+    },
+    {
+      "targetLayer": 17,
+      "type": "fall",
+      "duration": 10000,
+      "repeat": "infinite"
+    }
+  ],
+  "effects": [
+    {
+      "type": "red_overlay",
+      "color": "#FF0000",
+      "opacity": 0.1,
+      "blendMode": "multiply"
+    },
+    {
+      "type": "vignette",
+      "color": "#000000",
+      "intensity": 0.4
+    },
+    {
+      "type": "professional_finish",
+      "style": "matte"
+    }
+  ],
+  "exportSettings": {
+    "format": "PNG",
+    "quality": 100,
+    "optimization": "web",
+    "colorProfile": "sRGB"
+  }
+}

@@ -1,0 +1,1029 @@
+{
+  "totalAdvisors": 101,
+  "whatsappSent": 4,
+  "whatsappFailed": 0,
+  "linkedinDelivered": 3,
+  "imagesDelivered": 3,
+  "details": [
+    {
+      "advisorId": "ARN_SHRUTI_001",
+      "name": "Shruti Petkar",
+      "phone": "91919673758777",
+      "whatsappStatus": "sent",
+      "linkedinStatus": "ready",
+      "imageStatus": "ready",
+      "timestamp": "2025-09-18T17:48:27.868Z",
+      "errors": [],
+      "whatsappMessageId": "wamid.HBgOOTE5MTk2NzM3NTg3NzcVAgARGBJDQjZDMUNFQjRCQUExMDM5MzAA",
+      "imagePath": "/Users/shriyavallabh/Desktop/mvp/output/session_20250918_221309/generated-images/ARN_SHRUTI_001_v2_tax_saving_tips_20250918_225146.png"
+    },
+    {
+      "advisorId": "ARN_VIDYADHAR_002",
+      "name": "Vidyadhar Petkar",
+      "phone": "91918975758513",
+      "whatsappStatus": "sent",
+      "linkedinStatus": "ready",
+      "imageStatus": "ready",
+      "timestamp": "2025-09-18T17:48:30.043Z",
+      "errors": [],
+      "whatsappMessageId": "wamid.HBgOOTE5MTg5NzU3NTg1MTMVAgARGBJFQjRGMjE2MTZFNzMzMENEQzAA",
+      "imagePath": "/Users/shriyavallabh/Desktop/mvp/output/session_20250918_221309/generated-images/ARN_VIDYADHAR_002_educational_animation_20250918_225146.png"
+    },
+    {
+      "advisorId": "ARN_SHRIYA_003",
+      "name": "Shriya Vallabh Petkar",
+      "phone": "91919765071249",
+      "whatsappStatus": "sent",
+      "linkedinStatus": "ready",
+      "imageStatus": "ready",
+      "timestamp": "2025-09-18T17:48:31.694Z",
+      "errors": [],
+      "whatsappMessageId": "wamid.HBgOOTE5MTk3NjUwNzEyNDkVAgARGBJDQjcyRDhFREVBNkE3NUZENDEA",
+      "imagePath": "/Users/shriyavallabh/Desktop/mvp/output/session_20250918_221309/generated-images/ARN_SHRIYA_003_infographic_20250918_225146.png"
+    },
+    {
+      "advisorId": "ADV_004",
+      "name": "Mr. Tranquil Veda",
+      "phone": "919022810769",
+      "whatsappStatus": "sent",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:33.440Z",
+      "errors": [],
+      "whatsappMessageId": "wamid.HBgMOTE5MDIyODEwNzY5FQIAERgSQzM2OUUwMzE5NzkwNzY2NUZBAA=="
+    },
+    {
+      "advisorId": "ARN_005",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:35.046Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_006",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:36.049Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_007",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:37.050Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_008",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:38.052Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_009",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:39.054Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_010",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:40.055Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_011",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:41.057Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_012",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:42.058Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_013",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:43.060Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_014",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:44.061Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_015",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:45.062Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_016",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:46.064Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_017",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:47.065Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_018",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:48.067Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_019",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:49.069Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_020",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:50.071Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_021",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:51.073Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_022",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:52.075Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_023",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:53.078Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_024",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:54.079Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_025",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:55.081Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_026",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:56.282Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_027",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:57.284Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_028",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:58.285Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_029",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:48:59.287Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_030",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:00.289Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_031",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:01.291Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_032",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:02.292Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_033",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:03.294Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_034",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:04.295Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_035",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:05.297Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_036",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:06.298Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_037",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:07.298Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_038",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:08.299Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_039",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:09.301Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_040",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:10.303Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_041",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:11.304Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_042",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:12.306Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_043",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:13.307Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_044",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:14.308Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_045",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:15.309Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_046",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:16.310Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_047",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:17.312Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_048",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:18.312Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_049",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:19.314Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_050",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:20.315Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_051",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:21.318Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_052",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:22.320Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_053",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:23.321Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_054",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:24.323Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_055",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:25.323Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_056",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:26.324Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_057",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:27.325Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_058",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:28.327Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_059",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:29.328Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_060",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:30.330Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_061",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:31.331Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_062",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:32.333Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_063",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:33.337Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_064",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:34.338Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_065",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:35.339Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_066",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:36.341Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_067",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:37.342Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_068",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:38.343Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_069",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:39.345Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_070",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:40.346Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_071",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:41.347Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_072",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:42.348Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_073",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:43.349Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_074",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:44.351Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_075",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:45.353Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_076",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:46.353Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_077",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:47.353Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_078",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:48.356Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_079",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:49.357Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_080",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:50.358Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_081",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:51.359Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_082",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:52.360Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_083",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:53.361Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_084",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:54.362Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_085",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:55.363Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_086",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:56.364Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_087",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:57.364Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_088",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:58.366Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_089",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:49:59.367Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_090",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:50:00.369Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_091",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:50:01.369Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_092",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:50:02.371Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_093",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:50:03.372Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_094",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:50:04.373Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_095",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:50:05.375Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_096",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:50:06.376Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_097",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:50:07.377Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_098",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:50:08.378Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_099",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:50:09.380Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_100",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:50:10.381Z",
+      "errors": []
+    },
+    {
+      "advisorId": "ARN_101",
+      "name": "Unknown Advisor",
+      "phone": "",
+      "whatsappStatus": "no_content",
+      "linkedinStatus": "no_content",
+      "imageStatus": "no_content",
+      "timestamp": "2025-09-18T17:50:11.382Z",
+      "errors": []
+    }
+  ],
+  "startTime": "2025-09-18T17:48:27.839Z",
+  "endTime": "2025-09-18T17:50:11.383Z",
+  "errors": []
+}

@@ -1,0 +1,114 @@
+{
+  "generationSummary": {
+    "timestamp": "2025-09-17T23:48:00Z",
+    "sessionId": "session_1758130725",
+    "phase": "LinkedIn Content Generation",
+    "totalPostsGenerated": 14,
+    "breakdown": {
+      "Premium": {
+        "count": 3,
+        "themes": ["Fed Rate Strategy", "Tech Opportunity", "Estate Planning"],
+        "averageLength": 1922,
+        "engagementStrategy": "Data-heavy insights, exclusive opportunities, advanced strategies"
+      },
+      "Gold": {
+        "count": 5,
+        "themes": ["SIP Benefits", "Tax Saving", "Goal Planning", "Banking Recovery", "Insurance"],
+        "averageLength": 1106,
+        "engagementStrategy": "Educational content, practical tips, success stories"
+      },
+      "Silver": {
+        "count": 6,
+        "themes": ["Fed Basics", "Investment Apps", "Success Story", "Tech Trends", "Common Mistakes", "Banking"],
+        "averageLength": 375,
+        "engagementStrategy": "Simple explanations, relatable content, beginner-friendly"
+      }
+    }
+  },
+  "marketThemesIncorporated": [
+    "Fed rate cut impact (25 bps expected)",
+    "IT sector outperformance (+4.41%)",
+    "Banking sector recovery (+2.1%)",
+    "iPhone 17 launch effect (Redington +20%)",
+    "Sensex at 82,690 levels",
+    "Currency dynamics (USD/INR at 87.756)"
+  ],
+  "contentStrategies": {
+    "Premium": {
+      "approach": "Position as exclusive insights provider",
+      "hooks": [
+        "Strategic inflection points",
+        "₹50,000 Cr opportunities",
+        "Tax saving case studies"
+      ],
+      "ctas": [
+        "Schedule personalized portfolio review",
+        "Connect for sector allocation report",
+        "Book comprehensive estate review"
+      ],
+      "hashtagStrategy": "7-8 professional tags focusing on wealth management"
+    },
+    "Gold": {
+      "approach": "Friendly educator building trust",
+      "hooks": [
+        "Big news announcements",
+        "Deadline urgency",
+        "Success stories"
+      ],
+      "ctas": [
+        "Drop questions or DM",
+        "Connect for personalized plan",
+        "Share your experience"
+      ],
+      "hashtagStrategy": "4-5 educational tags for discovery"
+    },
+    "Silver": {
+      "approach": "Simple, encouraging guide",
+      "hooks": [
+        "30-second explanations",
+        "Numbered lists",
+        "Relatable stories"
+      ],
+      "ctas": [
+        "Start today",
+        "Try one app",
+        "Share your mistakes"
+      ],
+      "hashtagStrategy": "3-4 trending beginner tags"
+    }
+  },
+  "engagementOptimization": {
+    "Premium": {
+      "expectedEngagementRate": "8-12%",
+      "targetAudience": "HNIs, Business Owners, C-suite",
+      "bestPostingTime": "9:00 AM",
+      "frequencyStrategy": "Daily for thought leadership"
+    },
+    "Gold": {
+      "expectedEngagementRate": "10-15%",
+      "targetAudience": "Salaried professionals, SME owners",
+      "bestPostingTime": "10:00 AM",
+      "frequencyStrategy": "5x week for consistent presence"
+    },
+    "Silver": {
+      "expectedEngagementRate": "12-18%",
+      "targetAudience": "Young professionals, beginners",
+      "bestPostingTime": "8:30 AM",
+      "frequencyStrategy": "3x week to avoid overwhelm"
+    }
+  },
+  "complianceChecklist": {
+    "SEBIGuidelines": "✓ All posts reviewed for compliance",
+    "RiskDisclosures": "✓ Appropriate warnings included",
+    "ARNDisplay": "✓ Registration numbers in premium posts",
+    "NoAssuredReturns": "✓ Historical data with disclaimers",
+    "EducationalFocus": "✓ Gold and Silver segments emphasize education"
+  },
+  "nextSteps": [
+    "Phase 4: Visual enhancement with segment-specific graphics",
+    "A/B testing different hooks for optimization",
+    "Performance tracking after posting",
+    "Engagement monitoring and response management",
+    "Content calendar scheduling"
+  ]
+}

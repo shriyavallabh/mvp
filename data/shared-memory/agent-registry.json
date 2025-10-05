@@ -1,0 +1,52 @@
+{
+  "sessionId": "session_2025-09-17T17-09-25-000Z",
+  "mcpInfrastructure": "initialized",
+  "agentRegistry": {
+    "available_agents": {
+      "hybrid_orchestrator": {
+        "capabilities": ["orchestration", "workflow_management", "agent_coordination"],
+        "communication_endpoint": "hybrid-orchestrator",
+        "state_access": ["read", "write"],
+        "feedback_connections": ["all"],
+        "dependencies": []
+      },
+      "learning_agent": {
+        "capabilities": ["feedback_processing", "performance_optimization", "pattern_recognition"],
+        "communication_endpoint": "learning-agent",
+        "state_access": ["read", "write"],
+        "feedback_connections": ["all"],
+        "dependencies": []
+      },
+      "linkedin_post_generator": {
+        "capabilities": ["content_generation", "linkedin_formatting", "professional_content"],
+        "communication_endpoint": "linkedin-generator",
+        "state_access": ["read"],
+        "feedback_connections": ["quality_refiner", "compliance_validator"],
+        "dependencies": ["advisor_data"]
+      }
+    },
+    "registered_agents": [],
+    "active_agents": [],
+    "communication_matrix": {
+      "bidirectional_channels": ["feedback", "state"],
+      "unidirectional_channels": ["quality", "compliance"]
+    }
+  },
+  "hooks": {
+    "state_update_hooks": {
+      "enabled": true,
+      "auto_sync": true,
+      "conflict_resolution": "timestamp_priority"
+    },
+    "communication_hooks": {
+      "message_logging": true,
+      "routing_validation": true,
+      "delivery_confirmation": true
+    }
+  },
+  "permissions": {
+    "state_write_access": ["hybrid_orchestrator", "learning_agent"],
+    "broadcast_permissions": ["hybrid_orchestrator"],
+    "priority_messaging": ["hybrid_orchestrator", "compliance_validator"]
+  }
+}

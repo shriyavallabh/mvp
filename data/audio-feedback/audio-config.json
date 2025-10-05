@@ -1,0 +1,39 @@
+{
+  "sessionId": "session_2025-09-17T17-09-25-000Z",
+  "audioSettings": {
+    "voice": "Samantha",
+    "rate": 175,
+    "enabled": true,
+    "nonBlocking": true,
+    "maxAnnouncementLength": 50
+  },
+  "agentNameMappings": {
+    "advisor-data-manager": "advisor data manager",
+    "market-intelligence": "market intelligence",
+    "segment-analyzer": "segment analyzer",
+    "linkedin-post-generator": "LinkedIn post generator",
+    "whatsapp-message-creator": "WhatsApp message creator",
+    "status-image-designer": "status image designer",
+    "gemini-image-generator": "Gemini image generator",
+    "brand-customizer": "brand customizer",
+    "compliance-validator": "compliance validator",
+    "quality-scorer": "quality scorer",
+    "fatigue-checker": "fatigue checker",
+    "distribution-controller": "distribution controller",
+    "analytics-tracker": "analytics tracker",
+    "feedback-processor": "feedback processor"
+  },
+  "phaseAnnouncements": {
+    "1-data-foundation": "Starting data foundation phase",
+    "2-analysis": "Beginning market analysis",
+    "3-content-generation": "Starting content generation",
+    "4-enhancement": "Beginning content enhancement",
+    "5-validation-and-distribution": "Starting validation and distribution"
+  },
+  "completionMessages": {
+    "phase": "Phase {phase_name} completed successfully",
+    "agent": "{agent_name} completed successfully",
+    "session": "FinAdvise orchestration completed successfully"
+  },
+  "lastUpdated": "2025-09-17T17:09:25.000Z"
+}

@@ -1,0 +1,153 @@
+{
+  "designId": "viral_001_fii_mystery",
+  "theme": "₹2.35L Cr EXIT: Who's Buying?",
+  "targetSegment": "Standard",
+  "viralScore": 9.8,
+  "layout": {
+    "type": "split-screen-mystery",
+    "sections": {
+      "top": {
+        "height": "40%",
+        "content": "headline_mystery",
+        "background": "dark_gradient"
+      },
+      "middle": {
+        "height": "40%",
+        "content": "battle_visualization",
+        "background": "contrast_split"
+      },
+      "bottom": {
+        "height": "20%",
+        "content": "cta_reveal",
+        "background": "accent_bar"
+      }
+    }
+  },
+  "content": {
+    "headline": {
+      "text": "₹2.35L Cr EXIT",
+      "fontSize": 120,
+      "color": "#FF3333",
+      "effect": "bold_shadow",
+      "position": {
+        "x": "center",
+        "y": "15%"
+      }
+    },
+    "subheadline": {
+      "text": "Who's Buying?",
+      "fontSize": 96,
+      "color": "#FFFFFF",
+      "effect": "glow",
+      "position": {
+        "x": "center",
+        "y": "25%"
+      }
+    },
+    "battleVisualization": {
+      "leftSide": {
+        "label": "FIIs SELLING",
+        "value": "₹2,35,000 Cr",
+        "icon": "red_down_arrow",
+        "color": "#FF4444",
+        "animation": "pulse"
+      },
+      "versus": {
+        "text": "VS",
+        "fontSize": 84,
+        "color": "#FFD700",
+        "effect": "lightning"
+      },
+      "rightSide": {
+        "label": "DIIs BUYING",
+        "value": "₹2,20,000 Cr",
+        "icon": "green_up_arrow",
+        "color": "#00FF00",
+        "animation": "glow"
+      }
+    },
+    "shockingStats": [
+      {
+        "text": "Biggest Exit in History",
+        "fontSize": 56,
+        "highlight": true
+      },
+      {
+        "text": "Markets Still UP 0.59%",
+        "fontSize": 56,
+        "highlight": true
+      },
+      {
+        "text": "DIIs Save the Day!",
+        "fontSize": 56,
+        "highlight": true
+      }
+    ],
+    "callToAction": {
+      "text": "Swipe Up: See Which Stocks DIIs Are Buying",
+      "fontSize": 64,
+      "color": "#00FF00",
+      "background": "#000000",
+      "animation": "slide_up"
+    }
+  },
+  "visualElements": {
+    "backgroundPattern": "financial_grid",
+    "colorScheme": {
+      "primary": "#FF3333",
+      "secondary": "#00FF00",
+      "accent": "#FFD700",
+      "background": [
+        "#1A1A1A",
+        "#2D2D2D"
+      ],
+      "text": "#FFFFFF"
+    },
+    "graphicsElements": [
+      {
+        "type": "animated_chart",
+        "style": "bar_chart_battle",
+        "position": "center"
+      },
+      {
+        "type": "money_flow_arrows",
+        "direction": "bidirectional",
+        "animation": "continuous"
+      },
+      {
+        "type": "rupee_symbols",
+        "effect": "floating",
+        "opacity": 0.2
+      }
+    ],
+    "effects": [
+      "gradient_overlay",
+      "neon_glow",
+      "particle_system"
+    ]
+  },
+  "geminiPrompt": "Create a dramatic WhatsApp Status image (1080x1920px) with a mystery theme about ₹2.35 Lakh Crore FII exit. Use split-screen design showing FII vs DII battle. Left side: Red downward arrows with '₹2.35L Cr SELLING' in bold red. Right side: Green upward arrows with 'DIIs BUYING ₹2.20L Cr' in green. Center: Large 'VS' in gold with lightning effect. Top: '₹2.35L Cr EXIT' in 120px red font. Subtitle: 'Who's Buying?' in 96px white with glow. Dark background with financial grid pattern. Include shocking stat: 'Biggest Exit in History - Markets Still UP!' Bottom CTA: 'Swipe Up: See Which Stocks DIIs Are Buying' in green. Use high contrast, neon effects, dramatic lighting. Make it look like a financial war poster.",
+  "psychology": {
+    "emotionalTrigger": "Mystery + Conflict",
+    "viralHook": "Institutional battle narrative",
+    "shareMotivation": "Exclusive insider knowledge"
+  },
+  "brand_elements": {
+    "advisor_name": "Vidyadhar Petkar",
+    "firm_name": "Vidyadhar Petkar",
+    "logo_url": "",
+    "tagline": "Building Wealth, Creating Trust",
+    "colors": {
+      "primary": "#1A73E8",
+      "secondary": "#34A853"
+    },
+    "arn": "ARN_VIDYADHAR_002"
+  },
+  "branding_instructions": {
+    "logo_position": "bottom-right",
+    "logo_size": "10%",
+    "text_overlay": "Vidyadhar Petkar | Building Wealth, Creating Trust",
+    "color_scheme": "use_brand_colors",
+    "watermark": "ARN_VIDYADHAR_002"
+  }
+}

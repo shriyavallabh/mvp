@@ -1,0 +1,72 @@
+{
+  "sessionId": "session_2025-09-18T15-03-58Z",
+  "registeredAt": "2025-09-18T15:03:58Z",
+  "registeredAgents": [],
+  "agentCapabilities": {
+    "hybrid-orchestrator": {
+      "capabilities": ["workflow-management", "agent-coordination", "decision-making"],
+      "channels": ["coordination", "state"],
+      "priority": 1
+    },
+    "state-manager": {
+      "capabilities": ["state-persistence", "learning-capture", "session-management"],
+      "channels": ["state", "coordination"],
+      "priority": 2
+    },
+    "market-intelligence": {
+      "capabilities": ["market-analysis", "trend-detection", "data-synthesis"],
+      "channels": ["feedback", "state"],
+      "priority": 3
+    },
+    "advisor-data-manager": {
+      "capabilities": ["advisor-segmentation", "data-processing", "profile-management"],
+      "channels": ["feedback", "state"],
+      "priority": 3
+    },
+    "linkedin-post-generator": {
+      "capabilities": ["content-creation", "linkedin-optimization", "engagement-focus"],
+      "channels": ["feedback", "quality"],
+      "priority": 4
+    },
+    "gemini-image-generator": {
+      "capabilities": ["image-generation", "visual-content", "brand-consistency"],
+      "channels": ["feedback", "quality"],
+      "priority": 4
+    },
+    "whatsapp-message-creator": {
+      "capabilities": ["whatsapp-content", "personalization", "compliance-awareness"],
+      "channels": ["feedback", "quality", "compliance"],
+      "priority": 4
+    },
+    "status-image-designer": {
+      "capabilities": ["status-visualization", "data-presentation", "image-design"],
+      "channels": ["feedback", "quality"],
+      "priority": 5
+    },
+    "quality-scorer": {
+      "capabilities": ["content-evaluation", "quality-metrics", "scoring"],
+      "channels": ["quality", "feedback"],
+      "priority": 6
+    },
+    "compliance-validator": {
+      "capabilities": ["compliance-checking", "risk-assessment", "validation"],
+      "channels": ["compliance", "feedback"],
+      "priority": 6
+    },
+    "distribution-controller": {
+      "capabilities": ["content-distribution", "delivery-management", "execution"],
+      "channels": ["compliance", "state"],
+      "priority": 7
+    },
+    "learning-agent": {
+      "capabilities": ["pattern-recognition", "continuous-improvement", "feedback-analysis"],
+      "channels": ["feedback", "state"],
+      "priority": 8
+    }
+  },
+  "discoveryMechanism": {
+    "enabled": true,
+    "scanInterval": 5000,
+    "registrationTimeout": 30000
+  }
+}

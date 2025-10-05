@@ -1,0 +1,867 @@
+{
+  "timestamp": "2025-09-20T23:46:42.033714",
+  "session_id": "session_20250920_231535",
+  "minimum_required_score": 8.0,
+  "linkedin_posts": {
+    "branded_post_ADV_010_16.json": {
+      "advisor_id": "branded_post_ADV_010_16",
+      "content_type": "linkedin",
+      "final_score": 7.9,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 9.5,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 8.5,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 4 viral elements detected",
+        "story": "✅ Strong narrative progression",
+        "data": "✅ Excellent: 40 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 5.0 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(9.5 × 7.0 × 9.0)/100 + (8.5 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.034300"
+    },
+    "branded_post_ADV_011_17.json": {
+      "advisor_id": "branded_post_ADV_011_17",
+      "content_type": "linkedin",
+      "final_score": 7.9,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 9.5,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 8.5,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 4 viral elements detected",
+        "story": "✅ Strong narrative progression",
+        "data": "✅ Excellent: 40 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 5.0 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(9.5 × 7.0 × 9.0)/100 + (8.5 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.034547"
+    },
+    "branded_post_ARN_VIDYADHAR_002_8.json": {
+      "advisor_id": "branded_post_ARN_VIDYADHAR_002_8",
+      "content_type": "linkedin",
+      "final_score": 6.9,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 7.5,
+        "story": 5.0,
+        "data": 9.0,
+        "shareability": 8.5,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook",
+        "story": "",
+        "data": "✅ Excellent: 39 specific data points | ✅ Bitcoin crash range shows drama",
+        "shareability": "✅ Clear value proposition | ✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 11.6 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(7.5 × 5.0 × 9.0)/100 + (8.5 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.034817"
+    },
+    "branded_post_ARN_SHRIYA_003_9.json": {
+      "advisor_id": "branded_post_ARN_SHRIYA_003_9",
+      "content_type": "linkedin",
+      "final_score": 6.9,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 7.5,
+        "story": 5.0,
+        "data": 9.0,
+        "shareability": 8.5,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook",
+        "story": "",
+        "data": "✅ Excellent: 39 specific data points | ✅ Bitcoin crash range shows drama",
+        "shareability": "✅ Clear value proposition | ✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 11.7 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(7.5 × 5.0 × 9.0)/100 + (8.5 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.035077"
+    },
+    "branded_post_ARN_VIDYADHAR_002_5.json": {
+      "advisor_id": "branded_post_ARN_VIDYADHAR_002_5",
+      "content_type": "linkedin",
+      "final_score": 8.3,
+      "status": "APPROVED",
+      "scores": {
+        "hook": 8.5,
+        "story": 7.5,
+        "data": 9.0,
+        "shareability": 10.0,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ Personal element creates connection",
+        "story": "✅ Strong narrative progression | ❌ Lacks emotional connection | ✅ Real example adds credibility",
+        "data": "✅ Excellent: 34 specific data points | ✅ Trump tariff creates urgency",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Clear value proposition | ✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 10.1 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "✅ APPROVED - Meets viral quality standards",
+      "viral_formula": "(8.5 × 7.5 × 9.0)/100 + (10.0 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.035305"
+    },
+    "branded_post_ADV_006_12.json": {
+      "advisor_id": "branded_post_ADV_006_12",
+      "content_type": "linkedin",
+      "final_score": 7.9,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 9.5,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 8.5,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 4 viral elements detected",
+        "story": "✅ Strong narrative progression",
+        "data": "✅ Excellent: 40 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 5.0 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(9.5 × 7.0 × 9.0)/100 + (8.5 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.035524"
+    },
+    "branded_post_ADV_007_13.json": {
+      "advisor_id": "branded_post_ADV_007_13",
+      "content_type": "linkedin",
+      "final_score": 7.9,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 9.5,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 8.5,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 4 viral elements detected",
+        "story": "✅ Strong narrative progression",
+        "data": "✅ Excellent: 40 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 5.0 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(9.5 × 7.0 × 9.0)/100 + (8.5 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.035736"
+    },
+    "branded_post_ARN_VIDYADHAR_002_2.json": {
+      "advisor_id": "branded_post_ARN_VIDYADHAR_002_2",
+      "content_type": "linkedin",
+      "final_score": 6.7,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 9.5,
+        "story": 5.0,
+        "data": 9.0,
+        "shareability": 6.5,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 4 viral elements detected",
+        "story": "",
+        "data": "✅ Excellent: 40 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 5.0 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(9.5 × 5.0 × 9.0)/100 + (6.5 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.035945"
+    },
+    "branded_post_ARN_SHRIYA_003_3.json": {
+      "advisor_id": "branded_post_ARN_SHRIYA_003_3",
+      "content_type": "linkedin",
+      "final_score": 6.7,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 9.5,
+        "story": 5.0,
+        "data": 9.0,
+        "shareability": 6.5,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 4 viral elements detected",
+        "story": "",
+        "data": "✅ Excellent: 40 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 5.1 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(9.5 × 5.0 × 9.0)/100 + (6.5 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.036153"
+    },
+    "branded_post_ARN_SHRUTI_001_4.json": {
+      "advisor_id": "branded_post_ARN_SHRUTI_001_4",
+      "content_type": "linkedin",
+      "final_score": 8.3,
+      "status": "APPROVED",
+      "scores": {
+        "hook": 8.5,
+        "story": 7.5,
+        "data": 9.0,
+        "shareability": 10.0,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ Personal element creates connection",
+        "story": "✅ Strong narrative progression | ❌ Lacks emotional connection | ✅ Real example adds credibility",
+        "data": "✅ Excellent: 34 specific data points | ✅ Trump tariff creates urgency",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Clear value proposition | ✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 10.1 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "✅ APPROVED - Meets viral quality standards",
+      "viral_formula": "(8.5 × 7.5 × 9.0)/100 + (10.0 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.036370"
+    },
+    "branded_post_ARN_SHRUTI_001_7.json": {
+      "advisor_id": "branded_post_ARN_SHRUTI_001_7",
+      "content_type": "linkedin",
+      "final_score": 6.9,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 7.5,
+        "story": 5.0,
+        "data": 9.0,
+        "shareability": 8.5,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook",
+        "story": "",
+        "data": "✅ Excellent: 39 specific data points | ✅ Bitcoin crash range shows drama",
+        "shareability": "✅ Clear value proposition | ✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 11.6 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(7.5 × 5.0 × 9.0)/100 + (8.5 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.036614"
+    },
+    "branded_post_ADV_005_11.json": {
+      "advisor_id": "branded_post_ADV_005_11",
+      "content_type": "linkedin",
+      "final_score": 7.9,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 9.5,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 8.5,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 4 viral elements detected",
+        "story": "✅ Strong narrative progression",
+        "data": "✅ Excellent: 40 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 5.0 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(9.5 × 7.0 × 9.0)/100 + (8.5 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.036819"
+    },
+    "branded_post_ADV_004_10.json": {
+      "advisor_id": "branded_post_ADV_004_10",
+      "content_type": "linkedin",
+      "final_score": 6.7,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 9.5,
+        "story": 5.0,
+        "data": 9.0,
+        "shareability": 6.5,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 4 viral elements detected",
+        "story": "",
+        "data": "✅ Excellent: 40 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 5.0 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(9.5 × 5.0 × 9.0)/100 + (6.5 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.037032"
+    },
+    "branded_post_ADV_013_19.json": {
+      "advisor_id": "branded_post_ADV_013_19",
+      "content_type": "linkedin",
+      "final_score": 7.9,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 9.5,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 8.5,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 4 viral elements detected",
+        "story": "✅ Strong narrative progression",
+        "data": "✅ Excellent: 40 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 5.0 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(9.5 × 7.0 × 9.0)/100 + (8.5 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.037241"
+    },
+    "branded_post_ADV_012_18.json": {
+      "advisor_id": "branded_post_ADV_012_18",
+      "content_type": "linkedin",
+      "final_score": 7.9,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 9.5,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 8.5,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 4 viral elements detected",
+        "story": "✅ Strong narrative progression",
+        "data": "✅ Excellent: 40 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 5.0 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(9.5 × 7.0 × 9.0)/100 + (8.5 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.037441"
+    },
+    "branded_post_ARN_SHRUTI_001_1.json": {
+      "advisor_id": "branded_post_ARN_SHRUTI_001_1",
+      "content_type": "linkedin",
+      "final_score": 6.7,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 9.5,
+        "story": 5.0,
+        "data": 9.0,
+        "shareability": 6.5,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 4 viral elements detected",
+        "story": "",
+        "data": "✅ Excellent: 40 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 5.0 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(9.5 × 5.0 × 9.0)/100 + (6.5 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.037641"
+    },
+    "branded_post_ADV_009_15.json": {
+      "advisor_id": "branded_post_ADV_009_15",
+      "content_type": "linkedin",
+      "final_score": 7.9,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 9.5,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 8.5,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 4 viral elements detected",
+        "story": "✅ Strong narrative progression",
+        "data": "✅ Excellent: 40 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 5.0 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(9.5 × 7.0 × 9.0)/100 + (8.5 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.037841"
+    },
+    "branded_post_ADV_008_14.json": {
+      "advisor_id": "branded_post_ADV_008_14",
+      "content_type": "linkedin",
+      "final_score": 7.9,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 9.5,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 8.5,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 4 viral elements detected",
+        "story": "✅ Strong narrative progression",
+        "data": "✅ Excellent: 40 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 5.0 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(9.5 × 7.0 × 9.0)/100 + (8.5 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.038038"
+    },
+    "branded_post_ARN_SHRIYA_003_6.json": {
+      "advisor_id": "branded_post_ARN_SHRIYA_003_6",
+      "content_type": "linkedin",
+      "final_score": 8.3,
+      "status": "APPROVED",
+      "scores": {
+        "hook": 8.5,
+        "story": 7.5,
+        "data": 9.0,
+        "shareability": 10.0,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ Personal element creates connection",
+        "story": "✅ Strong narrative progression | ❌ Lacks emotional connection | ✅ Real example adds credibility",
+        "data": "✅ Excellent: 34 specific data points | ✅ Trump tariff creates urgency",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Clear value proposition | ✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 10.1 words/sentence | ✅ Good visual structure"
+      },
+      "recommendation": "✅ APPROVED - Meets viral quality standards",
+      "viral_formula": "(8.5 × 7.5 × 9.0)/100 + (10.0 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.038257"
+    }
+  },
+  "whatsapp_messages": {
+    "branded_message_ADV_010_10.json": {
+      "advisor_id": "branded_message_ADV_010_10",
+      "content_type": "whatsapp",
+      "final_score": 8.5,
+      "status": "APPROVED",
+      "scores": {
+        "hook": 10.0,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 10.0,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 3 viral elements detected | ✅ Personal element creates connection",
+        "story": "✅ Multiple emotions (2) create impact",
+        "data": "✅ Excellent: 10 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Clear value proposition | ✅ Engaging CTA encourages interaction",
+        "simplicity": "✅ Clear and concise: 6.2 words/sentence | ✅ Jargon-free and accessible"
+      },
+      "recommendation": "✅ APPROVED - Meets viral quality standards",
+      "viral_formula": "(10.0 × 7.0 × 9.0)/100 + (10.0 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.038411"
+    },
+    "branded_message_ADV_004_4.json": {
+      "advisor_id": "branded_message_ADV_004_4",
+      "content_type": "whatsapp",
+      "final_score": 8.5,
+      "status": "APPROVED",
+      "scores": {
+        "hook": 10.0,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 10.0,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 3 viral elements detected | ✅ Personal element creates connection",
+        "story": "✅ Multiple emotions (2) create impact",
+        "data": "✅ Excellent: 10 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Clear value proposition | ✅ Engaging CTA encourages interaction",
+        "simplicity": "✅ Clear and concise: 5.8 words/sentence | ✅ Jargon-free and accessible"
+      },
+      "recommendation": "✅ APPROVED - Meets viral quality standards",
+      "viral_formula": "(10.0 × 7.0 × 9.0)/100 + (10.0 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.038510"
+    },
+    "branded_message_ADV_011_11.json": {
+      "advisor_id": "branded_message_ADV_011_11",
+      "content_type": "whatsapp",
+      "final_score": 8.5,
+      "status": "APPROVED",
+      "scores": {
+        "hook": 10.0,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 10.0,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 3 viral elements detected | ✅ Personal element creates connection",
+        "story": "✅ Multiple emotions (2) create impact",
+        "data": "✅ Excellent: 10 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Clear value proposition | ✅ Engaging CTA encourages interaction",
+        "simplicity": "✅ Clear and concise: 6.2 words/sentence | ✅ Jargon-free and accessible"
+      },
+      "recommendation": "✅ APPROVED - Meets viral quality standards",
+      "viral_formula": "(10.0 × 7.0 × 9.0)/100 + (10.0 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.038604"
+    },
+    "branded_message_ADV_008_8.json": {
+      "advisor_id": "branded_message_ADV_008_8",
+      "content_type": "whatsapp",
+      "final_score": 8.5,
+      "status": "APPROVED",
+      "scores": {
+        "hook": 10.0,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 10.0,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 3 viral elements detected | ✅ Personal element creates connection",
+        "story": "✅ Multiple emotions (2) create impact",
+        "data": "✅ Excellent: 10 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Clear value proposition | ✅ Engaging CTA encourages interaction",
+        "simplicity": "✅ Clear and concise: 6.2 words/sentence | ✅ Jargon-free and accessible"
+      },
+      "recommendation": "✅ APPROVED - Meets viral quality standards",
+      "viral_formula": "(10.0 × 7.0 × 9.0)/100 + (10.0 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.038692"
+    },
+    "branded_message_ADV_007_7.json": {
+      "advisor_id": "branded_message_ADV_007_7",
+      "content_type": "whatsapp",
+      "final_score": 8.5,
+      "status": "APPROVED",
+      "scores": {
+        "hook": 10.0,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 10.0,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 3 viral elements detected | ✅ Personal element creates connection",
+        "story": "✅ Multiple emotions (2) create impact",
+        "data": "✅ Excellent: 10 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Clear value proposition | ✅ Engaging CTA encourages interaction",
+        "simplicity": "✅ Clear and concise: 6.2 words/sentence | ✅ Jargon-free and accessible"
+      },
+      "recommendation": "✅ APPROVED - Meets viral quality standards",
+      "viral_formula": "(10.0 × 7.0 × 9.0)/100 + (10.0 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.038778"
+    },
+    "branded_message_ARN_SHRUTI_001_1.json": {
+      "advisor_id": "branded_message_ARN_SHRUTI_001_1",
+      "content_type": "whatsapp",
+      "final_score": 8.5,
+      "status": "APPROVED",
+      "scores": {
+        "hook": 10.0,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 10.0,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 3 viral elements detected | ✅ Personal element creates connection",
+        "story": "✅ Multiple emotions (2) create impact",
+        "data": "✅ Excellent: 10 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Clear value proposition | ✅ Engaging CTA encourages interaction",
+        "simplicity": "✅ Clear and concise: 6.2 words/sentence | ✅ Jargon-free and accessible"
+      },
+      "recommendation": "✅ APPROVED - Meets viral quality standards",
+      "viral_formula": "(10.0 × 7.0 × 9.0)/100 + (10.0 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.038866"
+    },
+    "branded_message_ARN_VIDYADHAR_002_2.json": {
+      "advisor_id": "branded_message_ARN_VIDYADHAR_002_2",
+      "content_type": "whatsapp",
+      "final_score": 6.6,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 9.5,
+        "story": 3.0,
+        "data": 9.0,
+        "shareability": 8.5,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 2 viral elements detected",
+        "story": "❌ No story arc detected | ❌ Lacks emotional connection",
+        "data": "✅ Excellent: 9 specific data points | ✅ Trump tariff creates urgency",
+        "shareability": "✅ Clear value proposition | ✅ Unexpected angle increases shares",
+        "simplicity": "✅ Clear and concise: 10.7 words/sentence | ✅ Jargon-free and accessible | ✅ Good visual structure"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(9.5 × 3.0 × 9.0)/100 + (8.5 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.038964"
+    },
+    "branded_message_ADV_013_13.json": {
+      "advisor_id": "branded_message_ADV_013_13",
+      "content_type": "whatsapp",
+      "final_score": 8.5,
+      "status": "APPROVED",
+      "scores": {
+        "hook": 10.0,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 10.0,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 3 viral elements detected | ✅ Personal element creates connection",
+        "story": "✅ Multiple emotions (2) create impact",
+        "data": "✅ Excellent: 10 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Clear value proposition | ✅ Engaging CTA encourages interaction",
+        "simplicity": "✅ Clear and concise: 6.2 words/sentence | ✅ Jargon-free and accessible"
+      },
+      "recommendation": "✅ APPROVED - Meets viral quality standards",
+      "viral_formula": "(10.0 × 7.0 × 9.0)/100 + (10.0 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.039052"
+    },
+    "branded_message_ADV_005_5.json": {
+      "advisor_id": "branded_message_ADV_005_5",
+      "content_type": "whatsapp",
+      "final_score": 8.5,
+      "status": "APPROVED",
+      "scores": {
+        "hook": 10.0,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 10.0,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 3 viral elements detected | ✅ Personal element creates connection",
+        "story": "✅ Multiple emotions (2) create impact",
+        "data": "✅ Excellent: 10 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Clear value proposition | ✅ Engaging CTA encourages interaction",
+        "simplicity": "✅ Clear and concise: 6.2 words/sentence | ✅ Jargon-free and accessible"
+      },
+      "recommendation": "✅ APPROVED - Meets viral quality standards",
+      "viral_formula": "(10.0 × 7.0 × 9.0)/100 + (10.0 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.039137"
+    },
+    "branded_message_ADV_012_12.json": {
+      "advisor_id": "branded_message_ADV_012_12",
+      "content_type": "whatsapp",
+      "final_score": 8.5,
+      "status": "APPROVED",
+      "scores": {
+        "hook": 10.0,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 10.0,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 3 viral elements detected | ✅ Personal element creates connection",
+        "story": "✅ Multiple emotions (2) create impact",
+        "data": "✅ Excellent: 10 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Clear value proposition | ✅ Engaging CTA encourages interaction",
+        "simplicity": "✅ Clear and concise: 6.2 words/sentence | ✅ Jargon-free and accessible"
+      },
+      "recommendation": "✅ APPROVED - Meets viral quality standards",
+      "viral_formula": "(10.0 × 7.0 × 9.0)/100 + (10.0 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.039220"
+    },
+    "branded_message_ADV_009_9.json": {
+      "advisor_id": "branded_message_ADV_009_9",
+      "content_type": "whatsapp",
+      "final_score": 8.5,
+      "status": "APPROVED",
+      "scores": {
+        "hook": 10.0,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 10.0,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 3 viral elements detected | ✅ Personal element creates connection",
+        "story": "✅ Multiple emotions (2) create impact",
+        "data": "✅ Excellent: 10 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Clear value proposition | ✅ Engaging CTA encourages interaction",
+        "simplicity": "✅ Clear and concise: 6.2 words/sentence | ✅ Jargon-free and accessible"
+      },
+      "recommendation": "✅ APPROVED - Meets viral quality standards",
+      "viral_formula": "(10.0 × 7.0 × 9.0)/100 + (10.0 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.039302"
+    },
+    "branded_message_ADV_006_6.json": {
+      "advisor_id": "branded_message_ADV_006_6",
+      "content_type": "whatsapp",
+      "final_score": 8.5,
+      "status": "APPROVED",
+      "scores": {
+        "hook": 10.0,
+        "story": 7.0,
+        "data": 9.0,
+        "shareability": 10.0,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 3 viral elements detected | ✅ Personal element creates connection",
+        "story": "✅ Multiple emotions (2) create impact",
+        "data": "✅ Excellent: 10 specific data points | ✅ FII exodus number creates shock",
+        "shareability": "✅ Strong urgency drives sharing | ✅ Clear value proposition | ✅ Engaging CTA encourages interaction",
+        "simplicity": "✅ Clear and concise: 6.2 words/sentence | ✅ Jargon-free and accessible"
+      },
+      "recommendation": "✅ APPROVED - Meets viral quality standards",
+      "viral_formula": "(10.0 × 7.0 × 9.0)/100 + (10.0 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.039386"
+    },
+    "branded_message_ARN_SHRIYA_003_3.json": {
+      "advisor_id": "branded_message_ARN_SHRIYA_003_3",
+      "content_type": "whatsapp",
+      "final_score": 6.8,
+      "status": "REJECTED",
+      "scores": {
+        "hook": 9.5,
+        "story": 5.0,
+        "data": 9.0,
+        "shareability": 7.0,
+        "simplicity": 10.0
+      },
+      "feedback": {
+        "hook": "✅ Strong numerical hook | ✅ 3 viral elements detected",
+        "story": "",
+        "data": "✅ Excellent: 6 specific data points | ✅ Bitcoin crash range shows drama",
+        "shareability": "✅ Clear value proposition",
+        "simplicity": "✅ Clear and concise: 7.2 words/sentence | ✅ Jargon-free and accessible"
+      },
+      "recommendation": "❌ REJECTED - Complete regeneration required",
+      "viral_formula": "(9.5 × 5.0 × 9.0)/100 + (7.0 + 10.0)/2",
+      "timestamp": "2025-09-20T23:46:42.039486"
+    }
+  },
+  "status_images": {},
+  "summary": {
+    "total_content": 32,
+    "approved": 14,
+    "rejected": 18,
+    "average_score": 7.83,
+    "excellence_count": 0
+  },
+  "rejections": [
+    {
+      "file": "branded_post_ADV_010_16.json",
+      "score": 7.9,
+      "issues": []
+    },
+    {
+      "file": "branded_post_ADV_011_17.json",
+      "score": 7.9,
+      "issues": []
+    },
+    {
+      "file": "branded_post_ARN_VIDYADHAR_002_8.json",
+      "score": 6.9,
+      "issues": [
+        "story: "
+      ]
+    },
+    {
+      "file": "branded_post_ARN_SHRIYA_003_9.json",
+      "score": 6.9,
+      "issues": [
+        "story: "
+      ]
+    },
+    {
+      "file": "branded_post_ADV_006_12.json",
+      "score": 7.9,
+      "issues": []
+    },
+    {
+      "file": "branded_post_ADV_007_13.json",
+      "score": 7.9,
+      "issues": []
+    },
+    {
+      "file": "branded_post_ARN_VIDYADHAR_002_2.json",
+      "score": 6.7,
+      "issues": [
+        "story: ",
+        "shareability: ✅ Unexpected angle increases shares"
+      ]
+    },
+    {
+      "file": "branded_post_ARN_SHRIYA_003_3.json",
+      "score": 6.7,
+      "issues": [
+        "story: ",
+        "shareability: ✅ Unexpected angle increases shares"
+      ]
+    },
+    {
+      "file": "branded_post_ARN_SHRUTI_001_7.json",
+      "score": 6.9,
+      "issues": [
+        "story: "
+      ]
+    },
+    {
+      "file": "branded_post_ADV_005_11.json",
+      "score": 7.9,
+      "issues": []
+    },
+    {
+      "file": "branded_post_ADV_004_10.json",
+      "score": 6.7,
+      "issues": [
+        "story: ",
+        "shareability: ✅ Unexpected angle increases shares"
+      ]
+    },
+    {
+      "file": "branded_post_ADV_013_19.json",
+      "score": 7.9,
+      "issues": []
+    },
+    {
+      "file": "branded_post_ADV_012_18.json",
+      "score": 7.9,
+      "issues": []
+    },
+    {
+      "file": "branded_post_ARN_SHRUTI_001_1.json",
+      "score": 6.7,
+      "issues": [
+        "story: ",
+        "shareability: ✅ Unexpected angle increases shares"
+      ]
+    },
+    {
+      "file": "branded_post_ADV_009_15.json",
+      "score": 7.9,
+      "issues": []
+    },
+    {
+      "file": "branded_post_ADV_008_14.json",
+      "score": 7.9,
+      "issues": []
+    },
+    {
+      "file": "branded_message_ARN_VIDYADHAR_002_2.json",
+      "score": 6.6,
+      "issues": [
+        "story: ❌ No story arc detected | ❌ Lacks emotional connection"
+      ]
+    },
+    {
+      "file": "branded_message_ARN_SHRIYA_003_3.json",
+      "score": 6.8,
+      "issues": [
+        "story: "
+      ]
+    }
+  ]
+}

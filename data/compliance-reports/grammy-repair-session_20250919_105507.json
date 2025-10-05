@@ -1,0 +1,1110 @@
+{
+  "timestamp": "2025-09-19T11:33:35.188592",
+  "session_id": "session_20250919_105507",
+  "summary": {
+    "total_files": 136,
+    "repaired_files": 131,
+    "unchanged_files": 5,
+    "total_fixes": 149
+  },
+  "repair_log": [
+    {
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_002_score_9.2.txt",
+      "status": "repaired",
+      "fixes": [
+        "Removed prohibited term: guarantee",
+        "Fixed ARN placeholder format",
+        "Enhanced SEBI disclaimer",
+        "Removed guarantee claim"
+      ],
+      "backup_created": "output/session_20250919_105507/linkedin/text/VIRAL_002_score_9.2.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_001_score_9.5.txt",
+      "status": "repaired",
+      "fixes": [
+        "Removed prohibited term: guarantee",
+        "Fixed ARN placeholder format",
+        "Enhanced SEBI disclaimer",
+        "Removed guarantee claim"
+      ],
+      "backup_created": "output/session_20250919_105507/linkedin/text/VIRAL_001_score_9.5.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_005_score_8.5.txt",
+      "status": "repaired",
+      "fixes": [
+        "Removed prohibited term: guarantee",
+        "Fixed ARN placeholder format",
+        "Enhanced SEBI disclaimer",
+        "Removed guarantee claim"
+      ],
+      "backup_created": "output/session_20250919_105507/linkedin/text/VIRAL_005_score_8.5.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_004_score_8.8.txt",
+      "status": "repaired",
+      "fixes": [
+        "Removed prohibited term: guarantee",
+        "Fixed ARN placeholder format",
+        "Enhanced SEBI disclaimer",
+        "Removed guarantee claim"
+      ],
+      "backup_created": "output/session_20250919_105507/linkedin/text/VIRAL_004_score_8.8.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_006_score_8.7.txt",
+      "status": "repaired",
+      "fixes": [
+        "Removed prohibited term: guarantee",
+        "Fixed ARN placeholder format",
+        "Enhanced SEBI disclaimer",
+        "Removed guarantee claim"
+      ],
+      "backup_created": "output/session_20250919_105507/linkedin/text/VIRAL_006_score_8.7.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_003_score_9.0.txt",
+      "status": "repaired",
+      "fixes": [
+        "Removed prohibited term: guarantee",
+        "Fixed ARN placeholder format",
+        "Enhanced SEBI disclaimer",
+        "Removed guarantee claim"
+      ],
+      "backup_created": "output/session_20250919_105507/linkedin/text/VIRAL_003_score_9.0.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_1_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_1_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_3_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_3_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_4_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_4_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_1_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_1_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_4_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_4_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_1_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_1_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_4_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_4_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_4_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_4_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_4_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_4_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_3_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_3_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_5_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_5_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_3_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_3_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_2_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_2_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_1_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_1_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_2_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_2_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_1_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_viral_1_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_5_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_5_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_2_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_2_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_5_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_5_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_1_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_1_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_4_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_4_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_5_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_5_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_2_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_2_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_4_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_4_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_5_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_5_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_2_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_2_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_1_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_1_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_1_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_1_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_3_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_3_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_1_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_1_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_1_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_grammy_1_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_1_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_1_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_4_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_4_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_2_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_2_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_3_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_3_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_5_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_5_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_5_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_5_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_3_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_3_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_5_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_5_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_4_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_4_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_3_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_grammy_3_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_3_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_3_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_2_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_grammy_2_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_1_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_1_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_2_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_2_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_2_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_2_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_4_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_4_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_4_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_4_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_2_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_2_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_3_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_3_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_5_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_5_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_4_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_grammy_4_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_3_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_3_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_5_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_grammy_5_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_5_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_5_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_1_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_1_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_3_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_3_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_3_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_3_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_1_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_1_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_1_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_viral_1_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_2_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_2_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_3_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_3_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_4_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_4_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_5_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_grammy_5_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_1_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_1_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_5_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_5_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_3_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_3_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_3_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_3_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_4_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_4_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_4_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_grammy_4_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_5_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_5_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_3_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_viral_3_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_4_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_viral_4_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_5_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_5_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_4_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_4_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_2_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_2_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_5_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_5_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_2_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_2_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_1_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_grammy_1_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_5_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_5_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_5_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_5_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_5_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_5_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_1_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_1_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_3_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_3_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_1_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_1_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_1_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_1_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_2_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_grammy_2_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_5_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_viral_5_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_2_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_viral_2_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_3_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_3_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_3_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_grammy_3_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_2_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_2_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_4_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_4_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_4_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_4_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_1_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_1_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_4_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_viral_4_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_3_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_viral_3_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_2_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_2_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_2_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_2_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_5_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_5_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_5_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_5_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_2_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_2_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_2_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_2_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_4_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_4_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_3_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_3_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_4_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_4_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_5_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_5_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_4_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_4_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_3_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_3_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_3_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_3_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_1_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_1_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_1_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_1_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_2_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_2_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_2_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_viral_2_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_1_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_1_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_4_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_4_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_2_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_2_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_5_whatsapp.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_viral_5_whatsapp.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_5_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_5_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_1_grammy_complete.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_1_grammy_complete.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_2_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_2_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_2_enhanced.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_2_enhanced.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_4_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_4_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_3_grammy.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_3_grammy.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_3_final.txt",
+      "status": "repaired",
+      "fixes": [
+        "Added proper disclaimer and ARN"
+      ],
+      "backup_created": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_3_final.txt.backup"
+    },
+    {
+      "file": "output/session_20250919_105507/images/village_crorepati_shock_viral_status_request.json",
+      "status": "no_changes_needed",
+      "fixes": []
+    },
+    {
+      "file": "output/session_20250919_105507/images/auto_driver_success_viral_status_request.json",
+      "status": "no_changes_needed",
+      "fixes": []
+    },
+    {
+      "file": "output/session_20250919_105507/images/grammy_portfolio_viral_status_request.json",
+      "status": "no_changes_needed",
+      "fixes": []
+    },
+    {
+      "file": "output/session_20250919_105507/images/coffee_wealth_calculator_viral_status_request.json",
+      "status": "no_changes_needed",
+      "fixes": []
+    },
+    {
+      "file": "output/session_20250919_105507/images/fo_reality_shock_viral_status_request.json",
+      "status": "no_changes_needed",
+      "fixes": []
+    }
+  ],
+  "fixes_applied": [
+    "Fixed ARN placeholder format",
+    "Removed prohibited term: guarantee",
+    "Enhanced SEBI disclaimer",
+    "Added proper disclaimer and ARN",
+    "Removed guarantee claim"
+  ]
+}

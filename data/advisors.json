@@ -1,154 +1,86 @@
-{
-  "success": true,
-  "timestamp": "2025-01-17T12:40:09.000Z",
-  "sessionId": "session_2025-09-17T12-40-09-000Z",
-  "advisorCount": 3,
-  "advisors": [
-    {
-      "advisorId": "ADV_001",
-      "personalInfo": {
-        "name": "Shruti Petkar",
-        "phone": "919876543210",
-        "email": "shruti.petkar@wealthcreators.in",
-        "arn": "ARN-123456"
-      },
-      "businessInfo": {
-        "firmName": "Wealth Creators Financial Advisory",
-        "experience": "12 years",
-        "aum": "₹75 Crores",
-        "clientCount": 250
-      },
-      "segmentInfo": {
-        "primarySegment": "Premium",
-        "clientDemographics": ["Young Professionals", "HNI Clients", "Business Owners"],
-        "focusAreas": ["Equity Markets", "Portfolio Management", "Tax Planning", "Retirement Planning"]
-      },
-      "customization": {
-        "brandName": "Wealth Creators",
-        "logoUrl": "https://drive.google.com/file/d/1abc123wealthcreators/view",
-        "brandColors": {
-          "primary": "#1A73E8",
-          "secondary": "#34A853"
-        },
-        "tagline": "Building Wealth, Creating Trust",
-        "disclaimer": "Investment decisions should be made after careful consideration of your financial goals. Past performance is not indicative of future results."
-      },
-      "preferences": {
-        "contentTone": "Professional",
-        "postingTime": "9:00 AM",
-        "languages": ["English", "Hindi"],
-        "avoidTopics": ["Crypto", "F&O Trading", "Penny Stocks"],
-        "reviewMode": "manual",
-        "notificationPreference": "email"
-      },
-      "subscription": {
-        "plan": "Premium",
-        "status": "Active",
-        "validUntil": "2025-12-31",
-        "features": ["Custom Branding", "Daily Posts", "Analytics Dashboard", "Priority Support"]
-      }
+[
+  {
+    "id": "ADV001",
+    "name": "Shruti Petkar",
+    "phone": "919673758777",
+    "email": "shruti.petkar@finadvise.com",
+    "arn": "ARN-125847",
+    "advisorType": "Premium",
+    "activeSubscription": true,
+    "branding": {
+      "logo": "/assets/logos/shruti-petkar.png",
+      "primaryColor": "#1B365D",
+      "secondaryColor": "#0077B5",
+      "tagline": "Building Wealth, Creating Trust"
     },
-    {
-      "advisorId": "ADV_002",
-      "personalInfo": {
-        "name": "Rajesh Kumar",
-        "phone": "919876543211",
-        "email": "rajesh.kumar@moneymatters.co.in",
-        "arn": "ARN-789012"
-      },
-      "businessInfo": {
-        "firmName": "Money Matters Investment Services",
-        "experience": "8 years",
-        "aum": "₹45 Crores",
-        "clientCount": 180
-      },
-      "segmentInfo": {
-        "primarySegment": "Gold",
-        "clientDemographics": ["Salaried Professionals", "First-time Investors", "Young Families"],
-        "focusAreas": ["Mutual Funds", "SIP Planning", "Insurance", "Goal-based Investment"]
-      },
-      "customization": {
-        "brandName": "Money Matters",
-        "logoUrl": "https://drive.google.com/file/d/2def456moneymatters/view",
-        "brandColors": {
-          "primary": "#FF6B6B",
-          "secondary": "#4ECDC4"
-        },
-        "tagline": "Your Financial Growth Partner",
-        "disclaimer": "All investments are subject to market risks. Please read scheme documents carefully before investing."
-      },
-      "preferences": {
-        "contentTone": "Educational",
-        "postingTime": "10:00 AM",
-        "languages": ["English", "Hindi", "Marathi"],
-        "avoidTopics": ["Day Trading", "Derivatives"],
-        "reviewMode": "auto-approve",
-        "notificationPreference": "whatsapp"
-      },
-      "subscription": {
-        "plan": "Gold",
-        "status": "Active",
-        "validUntil": "2025-06-30",
-        "features": ["Semi-Custom Branding", "5 Posts/Week", "Basic Analytics", "Email Support"]
-      }
-    },
-    {
-      "advisorId": "ADV_003",
-      "personalInfo": {
-        "name": "Priya Sharma",
-        "phone": "919876543212",
-        "email": "priya.sharma@smartinvest.net",
-        "arn": "ARN-345678"
-      },
-      "businessInfo": {
-        "firmName": "Smart Investment Advisors",
-        "experience": "5 years",
-        "aum": "₹25 Crores",
-        "clientCount": 120
-      },
-      "segmentInfo": {
-        "primarySegment": "Silver",
-        "clientDemographics": ["Millennials", "New Investors", "Small Business Owners"],
-        "focusAreas": ["Digital Gold", "Small Case Investments", "ETFs", "Financial Literacy"]
-      },
-      "customization": {
-        "brandName": "Smart Invest",
-        "logoUrl": "",
-        "brandColors": {
-          "primary": "#008080",
-          "secondary": "#F0F8FF"
-        },
-        "tagline": "Smart Investing Made Simple",
-        "disclaimer": "Investment advice is personalized. Please consult before making investment decisions."
-      },
-      "preferences": {
-        "contentTone": "Casual",
-        "postingTime": "8:30 AM",
-        "languages": ["English"],
-        "avoidTopics": ["Complex Derivatives", "International Markets"],
-        "reviewMode": "manual",
-        "notificationPreference": "both"
-      },
-      "subscription": {
-        "plan": "Silver",
-        "status": "Active",
-        "validUntil": "2025-09-30",
-        "features": ["Basic Branding", "3 Posts/Week", "Monthly Reports", "Community Support"]
-      }
+    "preferences": {
+      "contentStyle": "professional",
+      "approvalMode": "manual",
+      "deliveryTime": "09:00",
+      "timezone": "Asia/Kolkata"
     }
-  ],
-  "metadata": {
-    "activeSubscriptions": 3,
-    "premiumAdvisors": 1,
-    "goldAdvisors": 1,
-    "silverAdvisors": 1,
-    "customBranding": 2,
-    "dataQuality": 0.95,
-    "averageAUM": "₹48.33 Crores",
-    "totalClients": 550,
-    "lastUpdated": "2025-01-17T12:40:09.000Z"
   },
-  "warnings": [
-    "ADV_003 missing logo URL - using default branding"
-  ]
-}
+  {
+    "id": "ADV002",
+    "name": "Vidyadhar Petkar",
+    "phone": "918975758513",
+    "email": "vidyadhar.petkar@finadvise.com",
+    "arn": "ARN-138924",
+    "advisorType": "Gold",
+    "activeSubscription": true,
+    "branding": {
+      "logo": "/assets/logos/vidyadhar-petkar.png",
+      "primaryColor": "#2E8B57",
+      "secondaryColor": "#228B22",
+      "tagline": "Your Financial Growth Partner"
+    },
+    "preferences": {
+      "contentStyle": "analytical",
+      "approvalMode": "auto",
+      "deliveryTime": "09:30",
+      "timezone": "Asia/Kolkata"
+    }
+  },
+  {
+    "id": "ADV003",
+    "name": "Shriya Vallabh Petkar",
+    "phone": "919765071249",
+    "email": "shriya.vallabh@finadvise.com",
+    "arn": "ARN-147852",
+    "advisorType": "Premium",
+    "activeSubscription": true,
+    "branding": {
+      "logo": "/assets/logos/shriya-vallabh.png",
+      "primaryColor": "#8B4513",
+      "secondaryColor": "#CD853F",
+      "tagline": "Empowering Financial Decisions"
+    },
+    "preferences": {
+      "contentStyle": "educational",
+      "approvalMode": "manual",
+      "deliveryTime": "10:00",
+      "timezone": "Asia/Kolkata"
+    }
+  },
+  {
+    "id": "ADV004",
+    "name": "Avalok Langer",
+    "phone": "919022810769",
+    "email": "avalok.langer@finadvise.com",
+    "arn": "ARN-169741",
+    "advisorType": "Silver",
+    "activeSubscription": true,
+    "branding": {
+      "logo": "/assets/logos/avalok-langer.png",
+      "primaryColor": "#1A73E8",
+      "secondaryColor": "#34A853",
+      "tagline": "Smart Investments, Secure Future"
+    },
+    "preferences": {
+      "contentStyle": "modern",
+      "approvalMode": "auto",
+      "deliveryTime": "09:00",
+      "timezone": "Asia/Kolkata"
+    }
+  }
+]

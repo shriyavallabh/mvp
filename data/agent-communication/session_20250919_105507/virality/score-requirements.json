@@ -1,0 +1,61 @@
+{
+  "sessionId": "session_20250919_105507",
+  "viralityRequirements": {
+    "minimumScore": 8.0,
+    "targetScore": 9.0,
+    "theme": "grammy-award-viral",
+    "scoringCriteria": {
+      "emotional_impact": {
+        "weight": 0.25,
+        "minimum": 8.0,
+        "description": "Content must evoke strong emotional response"
+      },
+      "shareability": {
+        "weight": 0.20,
+        "minimum": 8.5,
+        "description": "Content must be highly shareable"
+      },
+      "relevance": {
+        "weight": 0.20,
+        "minimum": 8.0,
+        "description": "Must be relevant to financial advisory audience"
+      },
+      "uniqueness": {
+        "weight": 0.15,
+        "minimum": 8.0,
+        "description": "Content must be unique and memorable"
+      },
+      "professional_value": {
+        "weight": 0.10,
+        "minimum": 8.0,
+        "description": "Must provide professional value"
+      },
+      "timing": {
+        "weight": 0.10,
+        "minimum": 7.5,
+        "description": "Must be timely and relevant"
+      }
+    },
+    "qualityGates": [
+      "All individual scores must meet minimums",
+      "Weighted average must exceed 8.0",
+      "Content must pass compliance validation",
+      "Must align with Grammy Award theme"
+    ]
+  },
+  "contentTypes": {
+    "linkedin": {
+      "viralElements": ["compelling-hook", "story-driven", "professional-inspiration"],
+      "engagementTargets": ["likes", "shares", "comments", "saves"]
+    },
+    "whatsapp": {
+      "viralElements": ["personalized", "shareable", "actionable"],
+      "engagementTargets": ["forwards", "replies", "click-through"]
+    },
+    "images": {
+      "viralElements": ["grammy-aesthetic", "golden-theme", "achievement-focus"],
+      "engagementTargets": ["saves", "shares", "inspiration"]
+    }
+  },
+  "createdAt": "2025-09-19T10:55:07Z"
+}

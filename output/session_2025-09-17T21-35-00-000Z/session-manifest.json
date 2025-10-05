@@ -1,0 +1,37 @@
+{
+  "sessionId": "session_2025-09-17T21-35-00-000Z",
+  "sessionInfo": {
+    "startTime": "2025-09-17T21:35:00.000Z",
+    "status": "initialized",
+    "totalAgents": 14,
+    "estimatedDuration": "12-15 minutes"
+  },
+  "outputStructure": {
+    "advisorData": "advisor-data-summary.json",
+    "marketIntelligence": "market-intelligence-report.json",
+    "segmentAnalysis": "segment-analysis-output.json",
+    "contentGenerated": {
+      "linkedin": "linkedin/",
+      "whatsapp": "whatsapp/"
+    },
+    "images": "images/",
+    "validation": "validation/",
+    "distribution": "distribution/",
+    "analytics": "analytics/",
+    "traceability": "traceability.md"
+  },
+  "expectedOutputs": [
+    "advisor-data-summary.json",
+    "market-intelligence-report.json",
+    "segment-analysis-output.json",
+    "linkedin/posts.json",
+    "whatsapp/messages.json",
+    "images/generated-assets.json",
+    "validation/compliance-report.json",
+    "validation/quality-scores.json",
+    "distribution/distribution-results.json",
+    "analytics/performance-metrics.json",
+    "traceability.md"
+  ],
+  "lastUpdated": "2025-09-17T21:35:00.000Z"
+}

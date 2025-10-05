@@ -1,0 +1,22 @@
+{
+  "advisor_id": "ARN_VIDYADHAR_002",
+  "brand_name": "Vidyadhar Petkar",
+  "plan": "Standard",
+  "colors": {
+    "primary": "#16A085",
+    "secondary": "#2ECC71",
+    "accent": "#27AE60"
+  },
+  "logo_placement": "bottom-right",
+  "font_style": "professional",
+  "text_overlay": {
+    "signature": "Vidyadhar Petkar | ARN_VIDYADHAR_002",
+    "position": "bottom",
+    "color": "#16A085"
+  },
+  "premium_features": {
+    "gold_border": false,
+    "premium_typography": false,
+    "enhanced_logo": false
+  }
+}

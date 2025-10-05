@@ -1,0 +1,167 @@
+{
+  "agents": {
+    "advisor-data-manager": {
+      "type": "data-foundation",
+      "phase": 1,
+      "dependencies": [],
+      "outputs": ["advisor-data", "segment-analysis"],
+      "communicationEndpoints": {
+        "state": "read-write",
+        "feedback": "receive",
+        "coordination": "participant"
+      },
+      "capabilities": ["data-fetching", "profile-analysis", "segment-classification"],
+      "priority": "high"
+    },
+    "market-intelligence": {
+      "type": "data-foundation",
+      "phase": 1,
+      "dependencies": [],
+      "outputs": ["market-data", "intelligence-insights"],
+      "communicationEndpoints": {
+        "state": "read-write",
+        "feedback": "receive",
+        "coordination": "participant"
+      },
+      "capabilities": ["market-analysis", "trend-detection", "intelligence-gathering"],
+      "priority": "high"
+    },
+    "linkedin-post-generator": {
+      "type": "content-generator",
+      "phase": 3,
+      "dependencies": ["advisor-data-manager", "market-intelligence"],
+      "outputs": ["linkedin-posts"],
+      "communicationEndpoints": {
+        "state": "read-write",
+        "feedback": "send-receive",
+        "compliance": "receive",
+        "quality": "send",
+        "coordination": "participant"
+      },
+      "capabilities": ["content-creation", "platform-optimization", "engagement-optimization"],
+      "priority": "medium"
+    },
+    "whatsapp-message-creator": {
+      "type": "content-generator",
+      "phase": 3,
+      "dependencies": ["advisor-data-manager", "market-intelligence"],
+      "outputs": ["whatsapp-messages"],
+      "communicationEndpoints": {
+        "state": "read-write",
+        "feedback": "send-receive",
+        "compliance": "receive",
+        "quality": "send",
+        "coordination": "participant"
+      },
+      "capabilities": ["whatsapp-content", "personalization", "template-creation"],
+      "priority": "medium"
+    },
+    "gemini-image-generator": {
+      "type": "enhancement",
+      "phase": 4,
+      "dependencies": ["linkedin-post-generator", "whatsapp-message-creator"],
+      "outputs": ["generated-images"],
+      "communicationEndpoints": {
+        "state": "read-write",
+        "feedback": "receive",
+        "coordination": "participant"
+      },
+      "capabilities": ["image-generation", "visual-content", "brand-alignment"],
+      "priority": "low"
+    },
+    "compliance-validator": {
+      "type": "validator",
+      "phase": 5,
+      "dependencies": ["all-content-generators"],
+      "outputs": ["compliance-reports", "validation-results"],
+      "communicationEndpoints": {
+        "state": "read-write",
+        "feedback": "send",
+        "compliance": "broadcast",
+        "quality": "participate",
+        "coordination": "participant"
+      },
+      "capabilities": ["sebi-compliance", "regulatory-validation", "risk-assessment"],
+      "priority": "critical"
+    },
+    "quality-scorer": {
+      "type": "validator",
+      "phase": 5,
+      "dependencies": ["all-content-generators"],
+      "outputs": ["quality-scores", "improvement-suggestions"],
+      "communicationEndpoints": {
+        "state": "read-write",
+        "feedback": "send",
+        "quality": "coordinate",
+        "coordination": "participant"
+      },
+      "capabilities": ["quality-assessment", "scoring-algorithms", "improvement-recommendations"],
+      "priority": "high"
+    },
+    "learning-agent": {
+      "type": "infrastructure",
+      "phase": 0,
+      "dependencies": [],
+      "outputs": ["learning-patterns", "performance-insights"],
+      "communicationEndpoints": {
+        "state": "read-write",
+        "feedback": "receive-all",
+        "coordination": "observer"
+      },
+      "capabilities": ["pattern-recognition", "performance-analysis", "adaptive-learning"],
+      "priority": "medium"
+    },
+    "hybrid-orchestrator": {
+      "type": "infrastructure",
+      "phase": 0,
+      "dependencies": [],
+      "outputs": ["orchestration-state", "workflow-coordination"],
+      "communicationEndpoints": {
+        "state": "read-write",
+        "coordination": "master",
+        "feedback": "monitor"
+      },
+      "capabilities": ["workflow-management", "agent-coordination", "execution-control"],
+      "priority": "critical"
+    },
+    "state-manager": {
+      "type": "infrastructure",
+      "phase": 0,
+      "dependencies": [],
+      "outputs": ["state-sync", "shared-memory"],
+      "communicationEndpoints": {
+        "state": "coordinator",
+        "coordination": "participant"
+      },
+      "capabilities": ["state-management", "memory-coordination", "data-synchronization"],
+      "priority": "critical"
+    },
+    "communication-bus": {
+      "type": "infrastructure",
+      "phase": 0,
+      "dependencies": [],
+      "outputs": ["message-routing", "communication-logs"],
+      "communicationEndpoints": {
+        "feedback": "router",
+        "quality": "router",
+        "compliance": "router",
+        "coordination": "router"
+      },
+      "capabilities": ["message-routing", "communication-management", "cross-agent-messaging"],
+      "priority": "critical"
+    }
+  },
+  "dependencyMapping": {
+    "phase1": ["advisor-data-manager", "market-intelligence"],
+    "phase3": ["linkedin-post-generator", "whatsapp-message-creator"],
+    "phase4": ["gemini-image-generator"],
+    "phase5": ["compliance-validator", "quality-scorer"],
+    "infrastructure": ["state-manager", "communication-bus", "hybrid-orchestrator", "learning-agent"]
+  },
+  "communicationMatrix": {
+    "all-to-state": ["state-manager"],
+    "validators-to-generators": ["compliance-validator", "quality-scorer"],
+    "generators-to-validators": ["linkedin-post-generator", "whatsapp-message-creator"],
+    "orchestration-control": ["hybrid-orchestrator"]
+  }
+}

@@ -1,0 +1,68 @@
+CONTENT QUALITY ASSESSMENT REPORT
+==================================================
+
+Date: 2025-09-17T19:47:40.824681
+Total Content Scored: 6
+High Quality Content (≥0.8): 0
+Average Quality Score: 0.66
+
+
+LINKEDIN_POST - Shruti Petkar
+Overall Score: 0.79
+Dimension Scores:
+  - Readability: 0.80
+  - Engagement: 0.90
+  - Personalization: 0.60
+  - Value: 0.72
+  - Structure: 0.95
+Recommendations: Content quality is excellent!
+
+LINKEDIN_POST - Vidyadhar Kulkarni
+Overall Score: 0.63
+Dimension Scores:
+  - Readability: 0.80
+  - Engagement: 0.45
+  - Personalization: 0.40
+  - Value: 0.54
+  - Structure: 0.95
+Recommendations: Add more engaging elements like questions or CTAs, Include more personalized content, Add more valuable insights and data points
+
+LINKEDIN_POST - Avalok Shah
+Overall Score: 0.73
+Dimension Scores:
+  - Readability: 0.80
+  - Engagement: 0.60
+  - Personalization: 0.60
+  - Value: 0.72
+  - Structure: 0.95
+Recommendations: Add more engaging elements like questions or CTAs
+
+WHATSAPP_MESSAGE - Shruti Petkar
+Overall Score: 0.69
+Dimension Scores:
+  - Readability: 0.80
+  - Engagement: 0.60
+  - Personalization: 0.40
+  - Value: 0.72
+  - Structure: 0.95
+Recommendations: Add more engaging elements like questions or CTAs, Include more personalized content
+
+WHATSAPP_MESSAGE - Vidyadhar Kulkarni
+Overall Score: 0.64
+Dimension Scores:
+  - Readability: 0.80
+  - Engagement: 0.30
+  - Personalization: 0.60
+  - Value: 0.72
+  - Structure: 0.80
+Recommendations: Add more engaging elements like questions or CTAs
+
+WHATSAPP_MESSAGE - Avalok Shah
+Overall Score: 0.48
+Dimension Scores:
+  - Readability: 0.80
+  - Engagement: 0.30
+  - Personalization: 0.00
+  - Value: 0.36
+  - Structure: 0.95
+Recommendations: Add more engaging elements like questions or CTAs, Include more personalized content, Add more valuable insights and data points

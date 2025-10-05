@@ -1,0 +1,61 @@
+{
+  "sessionId": "session_20250919_090313",
+  "persistence": {
+    "enabled": true,
+    "strategy": "incremental",
+    "autoSave": {
+      "enabled": true,
+      "interval": 30000,
+      "triggers": ["state-change", "agent-completion", "phase-transition"]
+    },
+    "compression": {
+      "enabled": true,
+      "algorithm": "gzip",
+      "level": 6
+    },
+    "retention": {
+      "maxAge": 604800000,
+      "maxSize": 1073741824,
+      "cleanupSchedule": "daily"
+    }
+  },
+  "storage": {
+    "primary": "data/orchestration-state/session_20250919_090313",
+    "backup": "data/orchestration-state/session_20250919_090313/backups",
+    "snapshots": "data/orchestration-state/session_20250919_090313/snapshots",
+    "exports": "output/session_20250919_090313/exports"
+  },
+  "dataTypes": {
+    "sessionState": {
+      "path": "session-state.json",
+      "backupFrequency": "on-change",
+      "compression": true
+    },
+    "agentRegistry": {
+      "path": "agent-registry.json",
+      "backupFrequency": "on-change",
+      "compression": true
+    },
+    "coordinationState": {
+      "path": "coordination-state.json",
+      "backupFrequency": "on-change",
+      "compression": true
+    },
+    "learnings": {
+      "path": "learnings/sessions/session_20250919_090313",
+      "backupFrequency": "hourly",
+      "compression": true
+    },
+    "agentOutputs": {
+      "path": "output/session_20250919_090313",
+      "backupFrequency": "on-completion",
+      "compression": false
+    }
+  },
+  "monitoring": {
+    "performanceMetrics": true,
+    "integrityChecks": true,
+    "corruptionDetection": true,
+    "healingEnabled": true
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "sessionId": "session_1759397686841",
+  "timestamp": "2025-10-02T09:45:09.418Z",
+  "summary": {
+    "totalItems": 12,
+    "compliant": 6,
+    "needsReview": 6,
+    "violations": 6,
+    "avgScore": 9,
+    "overallCompliance": "PASS",
+    "sebiCompliant": false,
+    "whatsappCompliant": false
+  },
+  "linkedin": {
+    "totalPosts": 6,
+    "results": [
+      {
+        "file": "ADV001_post_1.txt",
+        "advisorId": "ADV001",
+        "score": 10,
+        "violations": [],
+        "warnings": [],
+        "compliant": true,
+        "needsReview": false
+      },
+      {
+        "file": "ADV001_post_2.txt",
+        "advisorId": "ADV001",
+        "score": 10,
+        "violations": [],
+        "warnings": [],
+        "compliant": true,
+        "needsReview": false
+      },
+      {
+        "file": "ADV002_post_1.txt",
+        "advisorId": "ADV002",
+        "score": 10,
+        "violations": [],
+        "warnings": [],
+        "compliant": true,
+        "needsReview": false
+      },
+      {
+        "file": "ADV003_post_1.txt",
+        "advisorId": "ADV003",
+        "score": 10,
+        "violations": [],
+        "warnings": [],
+        "compliant": true,
+        "needsReview": false
+      },
+      {
+        "file": "ADV003_post_2.txt",
+        "advisorId": "ADV003",
+        "score": 10,
+        "violations": [],
+        "warnings": [],
+        "compliant": true,
+        "needsReview": false
+      },
+      {
+        "file": "ADV004_post_1.txt",
+        "advisorId": "ADV004",
+        "score": 10,
+        "violations": [],
+        "warnings": [],
+        "compliant": true,
+        "needsReview": false
+      }
+    ]
+  },
+  "whatsapp": {
+    "totalMessages": 6,
+    "results": [
+      {
+        "messageId": "WA_ADV001_001",
+        "advisorId": "ADV001",
+        "score": 8,
+        "violations": [
+          "Missing market risk disclaimer"
+        ],
+        "warnings": [],
+        "compliant": false,
+        "needsReview": true
+      },
+      {
+        "messageId": "WA_ADV001_002",
+        "advisorId": "ADV001",
+        "score": 8,
+        "violations": [
+          "Missing market risk disclaimer"
+        ],
+        "warnings": [],
+        "compliant": false,
+        "needsReview": true
+      },
+      {
+        "messageId": "WA_ADV002_001",
+        "advisorId": "ADV002",
+        "score": 8,
+        "violations": [
+          "Missing market risk disclaimer"
+        ],
+        "warnings": [],
+        "compliant": false,
+        "needsReview": true
+      },
+      {
+        "messageId": "WA_ADV003_001",
+        "advisorId": "ADV003",
+        "score": 8,
+        "violations": [
+          "Missing market risk disclaimer"
+        ],
+        "warnings": [],
+        "compliant": false,
+        "needsReview": true
+      },
+      {
+        "messageId": "WA_ADV003_002",
+        "advisorId": "ADV003",
+        "score": 8,
+        "violations": [
+          "Missing market risk disclaimer"
+        ],
+        "warnings": [],
+        "compliant": false,
+        "needsReview": true
+      },
+      {
+        "messageId": "WA_ADV004_001",
+        "advisorId": "ADV004",
+        "score": 8,
+        "violations": [
+          "Missing market risk disclaimer"
+        ],
+        "warnings": [],
+        "compliant": false,
+        "needsReview": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "type": "motivational_wisdom",
+  "title": "Investment Wisdom",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "aspect_ratio": "9:16"
+  },
+  "content": {
+    "quote": "Compound interest is the eighth wonder of the world. He who understands it, earns it.",
+    "author": "Albert Einstein",
+    "context": "Let your money work for you",
+    "supporting_message": "Your journey to financial freedom starts with a single step",
+    "stats": {
+      "fact_1": "\u20b910,000 monthly SIP for 20 years = \u20b91 Crore*",
+      "fact_2": "Start 5 years early, retire 10 years early",
+      "disclaimer": "*Assuming 12% annual returns"
+    }
+  },
+  "visual_elements": {
+    "style": "elegant_minimal",
+    "imagery": "abstract_wealth_growth",
+    "animations": [
+      "text_reveal",
+      "gentle_float"
+    ],
+    "background": "premium_gradient",
+    "typography": "elegant_serif_sans_combo"
+  },
+  "color_scheme": {
+    "primary": "#FF5722",
+    "secondary": "#FFC107",
+    "background": [
+      "#1A237E",
+      "#3949AB",
+      "#5C6BC0"
+    ],
+    "accent": "#FFD700",
+    "text": "#FFFFFF"
+  },
+  "branding": {
+    "advisor_name": "Smart Invest",
+    "tagline": "Smart Investing Made Simple",
+    "arn": "ARN-345678",
+    "cta": "Let's discuss your financial goals",
+    "branding_style": "premium_inspirational"
+  },
+  "gemini_prompt": "Create a motivational WhatsApp Status image (1080x1920px):\n\nDESIGN: Elegant motivational quote with investment wisdom\nTHEME: Inspiring financial action\n\nLAYOUT:\n1. BACKGROUND:\n   - Premium gradient from deep blue (#1A237E) through purple (#3949AB) to light purple (#5C6BC0)\n   - Subtle geometric patterns or abstract wealth symbols\n   - Soft bokeh effect for depth\n\n2. MAIN QUOTE (40% - Center):\n   - \"Compound interest is the eighth wonder of the world. He who understands it, earns it.\"\n   - Large, elegant typography\n   - Golden accent on key words\n   - Quotation marks as design element\n\n3. ATTRIBUTION (10%):\n   - \"- Albert Einstein\"\n   - Smaller, italicized text\n   - Subtle divider line\n\n4. CONTEXT MESSAGE (20%):\n   - \"Let your money work for you\"\n   - \"Your journey to financial freedom starts with a single step\"\n   - Modern, clean font\n\n5. INSPIRING STATS (15%):\n   - Visual fact: \"\u20b910,000 monthly SIP for 20 years = \u20b91 Crore*\"\n   - \"Start 5 years early, retire 10 years early\"\n   - Display as elegant info cards\n   - *Disclaimer in small text\n\n6. BRANDING (15%):\n   - Smart Invest\n   - \"Smart Investing Made Simple\"\n   - Subtle CTA: \"Let's discuss your financial goals\"\n   - ARN: ARN-345678\n\nVISUAL STYLE:\n- Premium, sophisticated design\n- Gold accents (#FFD700) for emphasis\n- Elegant typography mixing serif and sans-serif\n- Subtle animations and glow effects\n- Brand colors: #FF5722 and #FFC107\n- Minimalist with focus on message\n\nMOOD: Inspirational, premium, trustworthy, action-oriented",
+  "metadata": {
+    "advisor_id": "ADV_003",
+    "advisor_name": "Priya Sharma",
+    "design_number": 3,
+    "created_at": "2025-09-17T21:22:46.029238",
+    "session": "session_2025-09-17T21-08-34-000Z",
+    "content_category": "motivational_wisdom",
+    "expires_in": "24_hours"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-09-17T16:01:43Z",
+  "source": "analytics-tracker",
+  "real_time_metrics": {
+    "linkedin": {
+      "posts_published_today": 3,
+      "total_impressions": 12456,
+      "engagement_rate": 4.8,
+      "click_through_rate": 2.3,
+      "shares": 89,
+      "comments": 156,
+      "new_connections": 34
+    },
+    "whatsapp": {
+      "messages_sent": 521,
+      "delivery_rate": 98.5,
+      "read_rate": 76.3,
+      "response_rate": 12.4,
+      "click_rate": 8.7,
+      "opt_outs": 2
+    }
+  },
+  "performance_trends": {
+    "week_over_week": {
+      "engagement": "+15.3%",
+      "reach": "+22.7%",
+      "conversions": "+8.9%"
+    },
+    "top_performing_content": {
+      "type": "market_update",
+      "topic": "IT_sector_analysis",
+      "engagement_score": 9.2
+    },
+    "audience_insights": {
+      "most_active_time": "09:00-11:00 AM",
+      "most_engaged_segment": "HNI",
+      "preferred_content_type": "actionable_insights"
+    }
+  },
+  "roi_metrics": {
+    "leads_generated": 47,
+    "appointments_booked": 12,
+    "estimated_aum_impact": "₹3.2 Cr",
+    "cost_per_lead": "₹125",
+    "conversion_rate": 25.5
+  },
+  "recommendations": [
+    "Increase frequency of market update posts",
+    "Test video content for better engagement",
+    "Focus on morning slots for distribution",
+    "Create more localized content for regional audiences"
+  ]
+}

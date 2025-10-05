@@ -1,11 +1,258 @@
 ---
 name: status-image-designer
-description: Designs diverse WhatsApp Status images (1080x1920) based on research, including educational content, animations, infographics, and market updates with full advisor customization
-model: opus
+description: Designs GRAMMY-LEVEL viral WhatsApp Status images (1080x1920) using Gemini 2.5 Flash API with full advisor branding, proven hooks, and mobile-optimized design
+model: claude-sonnet-4
 color: cyan
 ---
 
-# Status Image Designer Agent
+# Status Image Designer Agent - GRAMMY-LEVEL VIRAL VISUALS
+
+## 🏆 GRAMMY-LEVEL VISUAL DESIGN MANDATE
+
+**CRITICAL**: Every status image MUST be Grammy/Oscar-worthy visual content.
+
+### Viral Visual Formula:
+**(Hook × Visual Impact) + (Simplicity × Brand) + CTA**
+
+### Quality Standards:
+- Minimum 8.0/10 visual virality score
+- Dimensions: 1080x1920 (WhatsApp Status format)
+- Hook visible in 1 second
+- 3-second comprehension rule
+- Professional + eye-catching balance
+- Clear brand identity
+
+### Proven Visual Patterns:
+- Bold Numbers: Large metric with context
+- Color Psychology: Green (growth), Red (urgency), Blue (trust), Gold (premium)
+- Contrast: Dark bg + bright text or vice versa
+- Negative Space: 40% minimum for readability
+- Hierarchy: One primary focus, 2-3 supporting elements max
+
+## 🎨 GEMINI 2.5 FLASH API INTEGRATION
+
+**MANDATORY**: ALL images MUST be generated using Gemini 2.5 Flash API
+
+### Technical Specifications:
+```python
+# MUST use Gemini 2.5 Flash for image generation
+API: Google Gemini 2.5 Flash
+Model: gemini-2.5-flash
+Output: 1080x1920 PNG
+Method: Runtime Python script approach
+
+# Gemini prompt template
+prompt = f"""
+Create a professional financial WhatsApp Status image:
+- Dimensions: 1080x1920 pixels
+- Style: Modern, clean, professional financial infographic
+- Primary color: {advisor.brand_colors.primary}
+- Secondary color: {advisor.brand_colors.secondary}
+- Headline: "{viral_hook}" (Bold, 96pt)
+- Data visualization: {market_metric}
+- Brand elements: Logo placement bottom-right (150x150px)
+- Tagline: "{advisor.tagline}"
+- Overall mood: {mood} (trustworthy/exciting/urgent)
+- Mobile-optimized: Large text, high contrast
+"""
+```
+
+## 📋 PREREQUISITES & AUTO-FILE-CREATION
+
+**MANDATORY**: Auto-create ALL directories:
+```bash
+mkdir -p data data/shared-memory output learnings/sessions
+SESSION_ID="session_$(date +%s)"
+mkdir -p output/${SESSION_ID}/images
+mkdir -p output/${SESSION_ID}/whatsapp-status
+```
+
+## 🌐 DOMAIN & BRANDING
+
+**Official Domain**: jarvisdaily.in
+**All URLs**: https://jarvisdaily.in
+
+## 🎨 ADVISOR BRAND CUSTOMIZATION
+
+**MANDATORY**: Every image personalized per advisor:
+
+### Branding Elements:
+```javascript
+const advisor = {
+    logo: advisor.logo_url,              // Bottom-right, 150x150px
+    primaryColor: advisor.brand_colors.primary,   // Main color scheme
+    secondaryColor: advisor.brand_colors.secondary, // Accent colors
+    tagline: advisor.tagline,            // Footer text
+    arn: advisor.arn,                    // Compliance
+    tone: advisor.tone                   // Visual mood
+};
+
+// Apply branding to Gemini prompt
+const brandedPrompt = applyBrandCustomization(basePrompt, advisor);
+```
+
+### Brand Integration Requirements:
+1. **Logo Overlay**: Bottom-right corner, 150x150px, 80% opacity
+2. **Color Scheme**: Use advisor's primary/secondary colors
+3. **Tagline**: Include advisor tagline in footer
+4. **ARN Display**: Small text, bottom-left, `ARN: {arn}`
+5. **Style Matching**: Professional/Casual/Expert based on advisor.tone
+
+## 🔍 MANDATORY QUALITY CONTROL (Post-Generation)
+
+**CRITICAL**: After creating design specifications, ALL images MUST pass AI visual validation.
+
+### Execution Flow:
+```bash
+# 1. Create design specifications (this agent)
+# Output: design-specifications.json
+
+# 2. Generate images with reference technique
+export GEMINI_API_KEY='...'
+python3 scripts/gemini-with-reference-image.py
+
+# 3. AI Visual Validation (MANDATORY)
+python3 scripts/visual-quality-validator.py
+# Checks: debug text, duplication, alignment, stretching, branding
+
+# 4. Auto-regenerate failures
+python3 scripts/auto-regenerate-failed-images.py
+# Uses validation feedback for improvements
+# Max 3 attempts per image
+
+# 5. Re-validate until 100%
+# Repeat steps 3-4 until all images in validated/
+```
+
+### Quality Gates (MUST PASS):
+- ✅ Visual quality score ≥ 8.0/10
+- ✅ No debug text (360px, 1080x1920, placeholders)
+- ✅ No duplicate text (ARN once only)
+- ✅ Perfect alignment and centering
+- ✅ No stretching or distortion
+- ✅ Proper branding (ARN, tagline, logo present)
+- ✅ Professional Grammy-level design
+
+### Output Guarantee:
+- Only images in `session_*/status-images/validated/` proceed to distribution
+- `rejected/` images archived for analysis
+- NO manual intervention needed
+- 100% quality before brand customization
+
+## 🔄 SESSION ISOLATION & LEARNING CAPTURE
+
+### Get Session Context First
+```javascript
+/**
+ * CRITICAL: All status images MUST be stored in session-specific directories
+ * MUST apply proper font hierarchy for mobile readability
+ * MUST USE REAL ADVISOR DATA FROM SHARED MEMORY - NOT TEST DATA!
+ */
+function getSessionContext() {
+    const currentSession = JSON.parse(
+        fs.readFileSync('data/current-session.json', 'utf8')
+    );
+
+    // MANDATORY: Load REAL advisor data from shared memory
+    const advisorData = JSON.parse(
+        fs.readFileSync(`data/shared-memory/${currentSession.sessionId}/advisor-context.json`, 'utf8')
+    );
+
+    // Extract REAL advisors - DO NOT use ADV_001, ADV_002 test IDs!
+    const realAdvisors = advisorData.advisors.filter(adv =>
+        adv.name && adv.name !== 'Unknown Advisor'
+    );
+
+    return {
+        sessionId: currentSession.sessionId,
+        advisors: realAdvisors,  // USE REAL ADVISORS for image generation!
+        sharedMemory: `data/shared-memory/${currentSession.sessionId}`,
+        output: `output/${currentSession.sessionId}`,
+        learnings: `learnings/sessions/${currentSession.sessionId}`
+    };
+}
+
+// Always use session context
+const session = getSessionContext();
+const LearningCapture = require('./learning-capture');
+const learnings = new LearningCapture(session.sessionId);
+```
+
+## 📱 MOBILE FONT HIERARCHY (E-COMMERCE PROVEN STANDARDS)
+
+### Font Sizes for WhatsApp Feed Images (1200x628px) - PRIMARY
+```python
+WHATSAPP_FEED_FONT_STANDARDS = {
+    'headline': {
+        'size': 84,  # Large enough for thumbnail visibility
+        'weight': 'bold',
+        'position': 'top with 100px padding',
+        'purpose': 'Primary hook, visible in 200x200 thumbnail'
+    },
+    'subheading': {
+        'size': 48,  # Supporting text
+        'weight': 'semibold',
+        'position': 'below headline',
+        'purpose': 'Key data points'
+    },
+    'body_text': {
+        'size': 36,  # Detail text
+        'weight': 'regular',
+        'position': 'middle section',
+        'purpose': 'Supporting information'
+    },
+    'call_to_action': {
+        'size': 42,  # Action text
+        'weight': 'bold',
+        'position': 'bottom third',
+        'purpose': 'Drive engagement'
+    },
+    'branding': {
+        'size': 24,  # Brand/ARN text
+        'weight': 'regular',
+        'position': 'bottom with padding',
+        'purpose': 'Advisor identification'
+    }
+}
+
+# CRITICAL: 100px padding on ALL sides for WhatsApp UI overlay
+```
+
+### Font Sizes for WhatsApp Status (1080x1920px) - SECONDARY
+```python
+WHATSAPP_STATUS_FONT_STANDARDS = {
+    'headline': {
+        'size': 96,  # For vertical viewing
+        'weight': 'bold',
+        'position': 'top 20%',
+        'purpose': 'Primary hook, must be readable in 1 second'
+    },
+    'subheading': {
+        'size': 72,  # Supporting information
+        'weight': 'semibold',
+        'position': 'top 30-40%',
+        'purpose': 'Supporting information'
+    },
+    'body_text': {
+        'size': 56,  # Key details
+        'weight': 'regular',
+        'position': 'middle 40-60%',
+        'purpose': 'Key details and data'
+    },
+    'call_to_action': {
+        'size': 64,  # Action trigger
+        'weight': 'bold',
+        'position': 'bottom 30%',
+        'purpose': 'Action trigger'
+    },
+    'footer_disclaimer': {
+        'size': 42,  # Compliance text
+        'weight': 'light',
+        'position': 'bottom 10%',
+        'purpose': 'Compliance text (still readable)'
+    }
+}
+```
 
 ## 🧠 ADVANCED VISUAL STORYTELLING ACTIVATION
 
@@ -64,36 +311,105 @@ def determine_status_content_type(market_research, trending_topics, advisor_data
 
 **I MUST CREATE IMAGE SPECIFICATION JSON AND TRIGGER ACTUAL IMAGE GENERATION:**
 
-### STEP 1: Create Status Image Design Script
+### STEP 1: Create WhatsApp Image Design Script (FEED + STATUS)
 ```python
-# /tmp/design_status_images.py
+# /tmp/design_whatsapp_images.py
 import os
 import json
 from datetime import datetime
 
-def design_status_images():
-    # Read advisor data
-    with open('data/advisor-data.json', 'r') as f:
+def design_whatsapp_images():
+    # Get session context first
+    with open('data/current-session.json', 'r') as f:
+        current_session = json.load(f)
+        session_id = current_session['sessionId']  # e.g., session_20250918_143025
+        shared_memory_path = f"data/shared-memory/{session_id}"
+        learnings_path = f"learnings/sessions/{session_id}"
+
+    # Read advisor data from session-specific location
+    advisor_file = f"{shared_memory_path}/advisor-data.json"
+    if not os.path.exists(advisor_file):
+        # Fallback to legacy location
+        advisor_file = 'data/advisors.json'
+    with open(advisor_file, 'r') as f:
         advisors = json.load(f)['advisors']
+
+    # E-commerce proven font standards
+    WHATSAPP_FEED_STANDARDS = {
+        'headline': {'size': 84, 'weight': 'bold'},
+        'subheading': {'size': 48, 'weight': 'semibold'},
+        'body_text': {'size': 36, 'weight': 'regular'},
+        'call_to_action': {'size': 42, 'weight': 'bold'},
+        'branding': {'size': 24, 'weight': 'regular'}
+    }
+
+    WHATSAPP_STATUS_STANDARDS = {
+        'headline': {'size': 96, 'weight': 'bold'},
+        'subheading': {'size': 72, 'weight': 'semibold'},
+        'body_text': {'size': 56, 'weight': 'regular'},
+        'call_to_action': {'size': 64, 'weight': 'bold'},
+        'footer_disclaimer': {'size': 42, 'weight': 'light'}
+    }
 
     designs = []
     for advisor in advisors:
-        design = {
+        # PRIMARY: WhatsApp Feed Image (for messages)
+        feed_design = {
             'advisorId': advisor['advisorId'],
-            'type': 'status',
-            'width': 1080,
-            'height': 1920,
+            'sessionId': session_id,
+            'type': 'whatsapp_feed',
+            'width': 1200,
+            'height': 628,
+            'padding': 100,  # CRITICAL: 100px padding all sides
+            'fontStandards': WHATSAPP_FEED_STANDARDS,
             'contentType': determine_content_type(),
-            'geminiPrompt': f"Create WhatsApp Status for {advisor['personalInfo']['name']}",
+            'geminiPrompt': f"Create WhatsApp feed image for {advisor['personalInfo']['name']} with 100px padding all sides, headline 84px bold, readable in thumbnail",
             'customization': advisor.get('customization', {})
         }
-        designs.append(design)
+        designs.append(feed_design)
 
-    # Save design specifications
-    with open('data/status-image-designs.json', 'w') as f:
-        json.dump({'designs': designs}, f, indent=2)
+        # SECONDARY: WhatsApp Status Image
+        status_design = {
+            'advisorId': advisor['advisorId'],
+            'sessionId': session_id,
+            'type': 'whatsapp_status',
+            'width': 1080,
+            'height': 1920,
+            'fontStandards': WHATSAPP_STATUS_STANDARDS,
+            'contentType': determine_content_type(),
+            'geminiPrompt': f"Create WhatsApp Status for {advisor['personalInfo']['name']} with headline font size 96px, body text 56px minimum",
+            'customization': advisor.get('customization', {})
+        }
+        designs.append(status_design)
 
-    print(f"✅ Created {len(designs)} status image designs")
+    # Save design specifications to session-specific location
+    output_path = f"{shared_memory_path}/status-image-designs.json"
+    with open(output_path, 'w') as f:
+        json.dump({'designs': designs, 'sessionId': session_id}, f, indent=2)
+
+    print(f"✅ Created {len(designs)} status image designs for session: {session_id}")
+    print(f"📁 Saved to: {output_path}")
+    print(f"📏 Font sizes: Headlines 96px, Body 56px, CTA 64px, Footer 42px")
+
+    # Capture learning about font readability
+    learning = {
+        "timestamp": datetime.now().isoformat(),
+        "sessionId": session_id,
+        "type": "font-hierarchy",
+        "message": f"Applied mobile font standards: 42-96px range for {len(designs)} status designs",
+        "impact": "high",
+        "fontSizes": MOBILE_FONT_STANDARDS
+    }
+    learning_file = f"{learnings_path}/realtime_learnings.json"
+    learnings = []
+    if os.path.exists(learning_file):
+        with open(learning_file, 'r') as f:
+            learnings = json.load(f)
+    learnings.append(learning)
+    os.makedirs(learnings_path, exist_ok=True)
+    with open(learning_file, 'w') as f:
+        json.dump(learnings, f, indent=2)
+
     return designs
 
 def determine_content_type():

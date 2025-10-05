@@ -1,0 +1,143 @@
+{
+  "memoryType": "linkedin_content_for_enhancement",
+  "timestamp": "2025-09-17T23:49:00Z",
+  "sessionId": "session_1758130725",
+  "phase": "Phase_3_LinkedIn_Generation_Complete",
+  "contentGenerated": {
+    "Premium": {
+      "advisorId": "ADV_001",
+      "name": "Shruti Petkar",
+      "postsCreated": 3,
+      "averageCharacterCount": 1922,
+      "keyThemes": [
+        "Fed Rate Cut Portfolio Strategy",
+        "iPhone 17 Tech Investment Opportunity",
+        "Estate Planning Tax Optimization"
+      ],
+      "topPerformingHooks": [
+        "The Fed's anticipated 25 bps rate cut isn't just another market event",
+        "While retail investors chase Redington's 20% surge",
+        "Critical update for families with ₹5 Cr+ estates"
+      ],
+      "visualRequirements": {
+        "style": "Professional data visualizations",
+        "colors": ["#1A73E8", "#34A853", "#FFD700"],
+        "elements": ["Charts", "Market data", "Infographics"]
+      }
+    },
+    "Gold": {
+      "advisorId": "ADV_002",
+      "name": "Rajesh Kumar",
+      "postsCreated": 5,
+      "averageCharacterCount": 1106,
+      "keyThemes": [
+        "SIP Benefits from Fed Cuts",
+        "Tax Saving Last Minute Guide",
+        "Goal-based Wealth Journey",
+        "Banking Sector Entry Strategy",
+        "Insurance Coverage Importance"
+      ],
+      "topPerformingHooks": [
+        "Big news for all my SIP investors",
+        "September is ending! Have you claimed all tax benefits",
+        "Every crorepati was once at your starting point"
+      ],
+      "visualRequirements": {
+        "style": "Educational infographics",
+        "colors": ["#FF6B6B", "#4ECDC4", "#45B7D1"],
+        "elements": ["Step-by-step guides", "Comparison charts", "Checklists"]
+      }
+    },
+    "Silver": {
+      "advisorId": "ADV_003",
+      "name": "Priya Sharma",
+      "postsCreated": 6,
+      "averageCharacterCount": 375,
+      "keyThemes": [
+        "Fed Rate Cuts Simplified",
+        "Investment Apps Guide",
+        "Small Start Success Story",
+        "Tech Stock Opportunities",
+        "Common Money Mistakes",
+        "Banking Sector Basics"
+      ],
+      "topPerformingHooks": [
+        "Everyone's talking about Fed rate cuts",
+        "Still thinking investing is complicated",
+        "We all make these mistakes"
+      ],
+      "visualRequirements": {
+        "style": "Simple, modern graphics",
+        "colors": ["#008080", "#F0F8FF", "#20B2AA"],
+        "elements": ["Icons", "Simple charts", "Mobile mockups"]
+      }
+    }
+  },
+  "marketIntelligenceIntegrated": {
+    "fedRateCut": "All segments addressed 25bps cut impact",
+    "sectorPerformance": {
+      "IT": "Featured in tech opportunity posts (+4.41%)",
+      "Banking": "Covered recovery theme (+2.1%)",
+      "Auto": "Mentioned as underperformer (-4.8%)"
+    },
+    "specificStocks": {
+      "Redington": "iPhone 17 distribution story (+20%)",
+      "Kotak": "Banking recovery example (+2.67%)"
+    },
+    "indices": {
+      "Sensex": "82,690 level mentioned for context",
+      "Nifty": "25,330 reference in posts"
+    }
+  },
+  "engagementFeatures": {
+    "Premium": {
+      "questions": 0,
+      "dataPoints": 15,
+      "exclusiveInsights": 3,
+      "caseStudies": 1
+    },
+    "Gold": {
+      "questions": 3,
+      "stories": 2,
+      "tips": 8,
+      "checklists": 2
+    },
+    "Silver": {
+      "questions": 2,
+      "simplifications": 6,
+      "relatable": 4,
+      "emoji": 12
+    }
+  },
+  "complianceStatus": {
+    "SEBICompliant": true,
+    "riskWarnings": "Included appropriately",
+    "arnNumbers": "Added where required",
+    "educationalFocus": "Maintained for retail segments"
+  },
+  "phase4Requirements": {
+    "visualEnhancement": {
+      "Premium": "Data-rich infographics with market metrics",
+      "Gold": "Educational charts and process flows",
+      "Silver": "Simple icons and mobile-friendly graphics"
+    },
+    "distributionStrategy": {
+      "Premium": "LinkedIn primary, WhatsApp follow-up",
+      "Gold": "LinkedIn + WhatsApp equal priority",
+      "Silver": "WhatsApp primary, LinkedIn secondary"
+    },
+    "performanceMetrics": [
+      "Track engagement rates by segment",
+      "Monitor click-through on CTAs",
+      "Measure DM inquiries generated",
+      "Calculate lead quality scores"
+    ]
+  },
+  "outputLocation": "/Users/shriyavallabh/Desktop/mvp/output/session_1758130725/linkedin/",
+  "filesGenerated": [
+    "premium_shruti_posts.json",
+    "gold_rajesh_posts.json",
+    "silver_priya_posts.json",
+    "generation_summary.json"
+  ]
+}

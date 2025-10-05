@@ -1,0 +1,387 @@
+{
+  "analysis_metadata": {
+    "timestamp": "2025-09-17T21:08:34.000Z",
+    "sessionId": "session_2025-09-17T21-08-34-000Z",
+    "analysisType": "Advanced Psychographic Segmentation",
+    "totalSegments": 3,
+    "dataSource": "advisors.json"
+  },
+  "segment_profiles": {
+    "Premium": {
+      "advisor": {
+        "advisorId": "ADV_001",
+        "name": "Shruti Petkar",
+        "firmName": "Wealth Creators Financial Advisory",
+        "aum": "₹75 Crores",
+        "clientCount": 250,
+        "experience": "12 years"
+      },
+      "demographic_profile": {
+        "primary_demographics": ["HNI Clients", "Ultra-HNI", "Business Owners"],
+        "age_range": "35-65 years",
+        "income_bracket": "₹50L+ annual",
+        "min_investment": "₹50 lakhs+",
+        "education_level": "Post-graduate, Professional degrees",
+        "location_type": "Metro cities, Tier-1",
+        "occupation": "C-Suite executives, Business owners, Senior professionals"
+      },
+      "psychographic_profile": {
+        "values": [
+          "Wealth preservation",
+          "Legacy building",
+          "Status consciousness",
+          "Risk-adjusted returns",
+          "Privacy and exclusivity"
+        ],
+        "aspirations": [
+          "Generational wealth transfer",
+          "Early retirement",
+          "International investments",
+          "Tax optimization",
+          "Philanthropic goals"
+        ],
+        "fears": [
+          "Wealth erosion",
+          "Tax inefficiency",
+          "Market volatility impact",
+          "Regulatory changes",
+          "Inflation outpacing returns"
+        ],
+        "decision_triggers": [
+          "Significant life events",
+          "Tax saving deadlines",
+          "Market corrections",
+          "Bonus/windfall receipts",
+          "Regulatory changes"
+        ],
+        "behavioral_biases": [
+          "Confirmation bias (seeking validation)",
+          "Loss aversion (capital protection focus)",
+          "Anchoring bias (past performance)",
+          "Status quo bias (portfolio inertia)"
+        ]
+      },
+      "content_strategy": {
+        "complexity_level": "High",
+        "data_density": "Heavy (charts, tables, research reports)",
+        "vocabulary": "Sophisticated financial terminology",
+        "tone": "Executive, authoritative, exclusive",
+        "emotional_appeal": "Logic-driven with subtle status reinforcement",
+        "preferred_formats": [
+          "Detailed market analysis",
+          "Portfolio strategy papers",
+          "Tax optimization guides",
+          "Estate planning frameworks",
+          "Global market insights"
+        ],
+        "topics": [
+          "Advanced portfolio strategies",
+          "Alternative investments",
+          "Tax-efficient structures",
+          "Estate planning",
+          "Global diversification",
+          "Private equity/debt opportunities",
+          "Art and collectibles investment"
+        ],
+        "content_depth": "Deep dive with multiple data points",
+        "visual_style": "Premium, minimalist, data-rich infographics",
+        "cta_style": "Exclusive consultation, private banking services"
+      },
+      "engagement_tactics": {
+        "personalization": "Hyper-personalized with client name and portfolio specifics",
+        "frequency": "2-3 times per week",
+        "timing": "Early morning (7-9 AM) or late evening (7-9 PM)",
+        "channels": ["Email", "LinkedIn", "Exclusive WhatsApp groups"],
+        "cultural_adaptations": [
+          "Diwali portfolio rebalancing",
+          "Year-end tax planning",
+          "Budget impact analysis"
+        ]
+      },
+      "micro_segments": {
+        "tech_entrepreneurs": {
+          "focus": "ESOP planning, startup investments",
+          "tone": "Innovation-focused, growth-oriented"
+        },
+        "traditional_business": {
+          "focus": "Business succession, debt optimization",
+          "tone": "Conservative, relationship-driven"
+        },
+        "retired_executives": {
+          "focus": "Income generation, capital preservation",
+          "tone": "Risk-averse, stability-focused"
+        }
+      }
+    },
+    "Gold": {
+      "advisor": {
+        "advisorId": "ADV_002",
+        "name": "Rajesh Kumar",
+        "firmName": "Money Matters Investment Services",
+        "aum": "₹45 Crores",
+        "clientCount": 180,
+        "experience": "8 years"
+      },
+      "demographic_profile": {
+        "primary_demographics": ["Salaried Professionals", "Young Families", "First-time Investors"],
+        "age_range": "28-45 years",
+        "income_bracket": "₹10-50L annual",
+        "min_investment": "₹5-50 lakhs",
+        "education_level": "Graduate, Professional certifications",
+        "location_type": "Metro, Tier-1, Tier-2 cities",
+        "occupation": "Mid to senior managers, IT professionals, Doctors, CAs"
+      },
+      "psychographic_profile": {
+        "values": [
+          "Financial security",
+          "Work-life balance",
+          "Children's future",
+          "Home ownership",
+          "Career growth"
+        ],
+        "aspirations": [
+          "Children's higher education",
+          "Dream home purchase",
+          "Foreign vacation",
+          "Comfortable retirement",
+          "Emergency cushion"
+        ],
+        "fears": [
+          "Job loss",
+          "Medical emergencies",
+          "Insufficient retirement corpus",
+          "Children's education costs",
+          "EMI burden"
+        ],
+        "decision_triggers": [
+          "Annual appraisals/bonuses",
+          "Life stage changes (marriage, kids)",
+          "Peer recommendations",
+          "Tax saving season",
+          "Festival bonuses"
+        ],
+        "behavioral_biases": [
+          "Herd mentality (following colleagues)",
+          "Recency bias (recent returns focus)",
+          "Mental accounting (goal buckets)",
+          "Optimism bias (income growth expectations)"
+        ]
+      },
+      "content_strategy": {
+        "complexity_level": "Medium",
+        "data_density": "Balanced (key metrics with explanations)",
+        "vocabulary": "Professional yet accessible",
+        "tone": "Educational, supportive, encouraging",
+        "emotional_appeal": "Family-focused, aspiration-driven",
+        "preferred_formats": [
+          "Goal planning calculators",
+          "SIP benefit illustrations",
+          "Tax saving comparisons",
+          "Success stories",
+          "Step-by-step guides"
+        ],
+        "topics": [
+          "SIP strategies",
+          "Goal-based planning",
+          "Tax-saving investments",
+          "Insurance planning",
+          "Children's education planning",
+          "Home loan optimization",
+          "Emergency fund building"
+        ],
+        "content_depth": "Moderate with practical examples",
+        "visual_style": "Clean, colorful, relatable imagery",
+        "cta_style": "Free consultation, SIP calculator, goal planner"
+      },
+      "engagement_tactics": {
+        "personalization": "Goal-specific with life stage relevance",
+        "frequency": "3-4 times per week",
+        "timing": "Lunch breaks (12-2 PM) or post-work (6-8 PM)",
+        "channels": ["WhatsApp", "Email", "LinkedIn"],
+        "cultural_adaptations": [
+          "Festival investment themes",
+          "New Year financial resolutions",
+          "School admission planning",
+          "Bonus investment strategies"
+        ]
+      },
+      "micro_segments": {
+        "young_families": {
+          "focus": "Child planning, insurance, home loans",
+          "tone": "Family-centric, protective"
+        },
+        "mid_career_professionals": {
+          "focus": "Wealth accumulation, tax optimization",
+          "tone": "Growth-focused, efficiency-driven"
+        },
+        "pre_retirees": {
+          "focus": "Retirement planning, debt reduction",
+          "tone": "Security-focused, conservative"
+        }
+      }
+    },
+    "Silver": {
+      "advisor": {
+        "advisorId": "ADV_003",
+        "name": "Priya Sharma",
+        "firmName": "Smart Investment Advisors",
+        "aum": "₹25 Crores",
+        "clientCount": 120,
+        "experience": "5 years"
+      },
+      "demographic_profile": {
+        "primary_demographics": ["Millennials", "New Investors", "Small Business Owners"],
+        "age_range": "22-35 years",
+        "income_bracket": "₹3-15L annual",
+        "min_investment": "₹500+",
+        "education_level": "Graduate, Young professionals",
+        "location_type": "All cities including Tier-3",
+        "occupation": "Entry to mid-level professionals, Freelancers, Small entrepreneurs"
+      },
+      "psychographic_profile": {
+        "values": [
+          "Financial independence",
+          "Flexibility",
+          "Digital convenience",
+          "Instant gratification",
+          "Social validation"
+        ],
+        "aspirations": [
+          "Early financial freedom",
+          "Side income generation",
+          "Travel experiences",
+          "Latest gadgets/lifestyle",
+          "Startup dreams"
+        ],
+        "fears": [
+          "Missing out (FOMO)",
+          "Complex procedures",
+          "Hidden charges",
+          "Lock-in periods",
+          "Being scammed"
+        ],
+        "decision_triggers": [
+          "Social media trends",
+          "Peer success stories",
+          "App notifications",
+          "Influencer recommendations",
+          "Market hype"
+        ],
+        "behavioral_biases": [
+          "Overconfidence bias",
+          "FOMO-driven decisions",
+          "Present bias (immediate rewards)",
+          "Availability heuristic (recent news impact)"
+        ]
+      },
+      "content_strategy": {
+        "complexity_level": "Low",
+        "data_density": "Light (simple visuals, bullet points)",
+        "vocabulary": "Simple, conversational, relatable",
+        "tone": "Friendly, encouraging, non-intimidating",
+        "emotional_appeal": "Aspiration and empowerment focused",
+        "preferred_formats": [
+          "Infographics",
+          "Short videos",
+          "Memes with financial lessons",
+          "Quick tips",
+          "Interactive quizzes"
+        ],
+        "topics": [
+          "Investment basics",
+          "Starting your first SIP",
+          "Building credit score",
+          "Budgeting hacks",
+          "Small savings tips",
+          "Digital gold benefits",
+          "Micro-investing apps"
+        ],
+        "content_depth": "Bite-sized with immediate actionability",
+        "visual_style": "Vibrant, meme-friendly, mobile-optimized",
+        "cta_style": "Start with ₹500, Free account opening, Instant KYC"
+      },
+      "engagement_tactics": {
+        "personalization": "Age and lifestyle-specific",
+        "frequency": "Daily short content",
+        "timing": "Social media prime time (8-10 PM)",
+        "channels": ["Instagram", "WhatsApp Status", "YouTube Shorts"],
+        "cultural_adaptations": [
+          "Festival shopping savings",
+          "IPL/Cricket themed investments",
+          "Movie/pop culture references",
+          "Millennial life events"
+        ]
+      },
+      "micro_segments": {
+        "fresh_graduates": {
+          "focus": "First salary planning, basic investing",
+          "tone": "Educational, hand-holding"
+        },
+        "young_entrepreneurs": {
+          "focus": "Business finances, growth capital",
+          "tone": "Ambitious, risk-taking"
+        },
+        "gig_workers": {
+          "focus": "Irregular income planning, flexibility",
+          "tone": "Practical, adaptive"
+        }
+      }
+    }
+  },
+  "cross_segment_insights": {
+    "content_progression": {
+      "Silver_to_Gold": "As wealth grows, shift from basics to goal-planning",
+      "Gold_to_Premium": "From accumulation to preservation and optimization"
+    },
+    "universal_themes": [
+      "Tax optimization (adapted to segment)",
+      "Market updates (complexity varies)",
+      "Regulatory changes (impact analysis depth varies)",
+      "Festival investment themes"
+    ],
+    "segment_migration_indicators": {
+      "Silver_to_Gold": ["Income >₹10L", "Investment >₹5L", "Multiple goals"],
+      "Gold_to_Premium": ["AUM >₹50L", "Complex needs", "Business ownership"]
+    }
+  },
+  "implementation_recommendations": {
+    "Premium": {
+      "content_calendar": "Quarterly strategy papers, Weekly market insights, Monthly portfolio reviews",
+      "personalization_level": "95% customized",
+      "automation": "20% (mainly data aggregation)",
+      "human_review": "Always required",
+      "success_metrics": ["Portfolio performance", "Tax saved", "Client retention"]
+    },
+    "Gold": {
+      "content_calendar": "Weekly educational content, Bi-weekly goal trackers, Monthly newsletters",
+      "personalization_level": "60% customized",
+      "automation": "50% (templates with personalization)",
+      "human_review": "Periodic sampling",
+      "success_metrics": ["Goal achievement rate", "SIP consistency", "Referrals"]
+    },
+    "Silver": {
+      "content_calendar": "Daily tips, Weekly basics, Monthly challenges",
+      "personalization_level": "30% customized",
+      "automation": "80% (pre-approved content)",
+      "human_review": "Exception-based",
+      "success_metrics": ["Engagement rate", "Account activations", "First investment"]
+    }
+  },
+  "cultural_calendar_integration": {
+    "Diwali": {
+      "Premium": "Wealth restructuring, Gold bonds",
+      "Gold": "Dhanteras investment planning",
+      "Silver": "Festival savings challenge"
+    },
+    "New_Financial_Year": {
+      "Premium": "Tax planning strategies",
+      "Gold": "Salary revision planning",
+      "Silver": "First investment of the year"
+    },
+    "Bonus_Season": {
+      "Premium": "Alternative investment allocation",
+      "Gold": "Bonus investment calculator",
+      "Silver": "Smart bonus spending guide"
+    }
+  }
+}

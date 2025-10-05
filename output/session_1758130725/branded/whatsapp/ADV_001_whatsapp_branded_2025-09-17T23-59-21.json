@@ -1,0 +1,36 @@
+{
+  "advisor_id": "ADV_001",
+  "brand_name": "Wealth Creators",
+  "segment": "Premium",
+  "branding_level": "premium",
+  "messages": [
+    {
+      "type": "market_alert",
+      "text": "\ud83d\udcca Shruti, IT sector surged 4.41% today!\n\nSensex: 82,690 (+0.38%)\nKey: Redington +20% on iPhone 17\n\n\ud83d\udc8e Action: Book partial profits in tech stocks over 30% YTD\n\nReply 'PORTFOLIO' for detailed review\n\nBuilding Wealth, Creating Trust\nWealth Creators | ARN-123456",
+      "character_count": 227,
+      "brand_applied": true,
+      "branding_level": "premium"
+    },
+    {
+      "type": "global_impact",
+      "text": "\ud83c\udf10 Fed Rate Cut Impact Analysis\n\nExpected: 25bps cut tonight\nImpact: +ve for emerging markets\n\nStrategy for HNI clients:\n\u2022 Increase equity allocation 5%\n\u2022 Focus on IT & Banking\n\nDM for personalized strategy\n\nBuilding Wealth, Creating Trust\n\nBuilding Wealth, Creating Trust\nWealth Creators | ARN-123456",
+      "character_count": 238,
+      "brand_applied": true,
+      "branding_level": "premium"
+    },
+    {
+      "type": "strategy",
+      "text": "\u26a1 Sector Rotation Alert!\n\nOUT: Auto (-4.8%), Pharma (-2.7%)\nIN: IT (+4.4%), Banking (+2.1%)\n\n\u20b985Cr AUM Strategy:\nReallocate 15% to tech leaders\n\nTax tip: Use losses for harvesting\n\nSchedule review: Reply 'MEET'\n\nBuilding Wealth, Creating Trust\nWealth Creators | ARN-123456",
+      "character_count": 210,
+      "brand_applied": true,
+      "branding_level": "premium"
+    }
+  ],
+  "branding_applied": {
+    "signature": true,
+    "brand_name": true,
+    "arn": true,
+    "tagline": true
+  },
+  "timestamp": "2025-09-17T23-59-21"
+}

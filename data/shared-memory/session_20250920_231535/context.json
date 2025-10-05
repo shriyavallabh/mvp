@@ -1,0 +1,19 @@
+{
+  "sessionId": "session_20250920_231535",
+  "format": "session_YYYYMMDD_HHMMSS",
+  "mcpEnabled": true,
+  "startTime": "2025-09-20T23:15:35.000Z",
+  "agents": [],
+  "communicationChannels": {
+    "feedback": "session_20250920_231535/feedback",
+    "quality": "session_20250920_231535/quality",
+    "compliance": "session_20250920_231535/compliance",
+    "state": "session_20250920_231535/state",
+    "coordination": "session_20250920_231535/coordination"
+  },
+  "sharedMemory": "data/shared-memory/session_20250920_231535",
+  "learnings": "learnings/sessions/session_20250920_231535",
+  "output": "output/session_20250920_231535",
+  "isolation": "enabled",
+  "status": "active"
+}

@@ -1,0 +1,2156 @@
+{
+  "timestamp": "2025-09-19T03:09:06.142997",
+  "session_id": "session_20250919_023038",
+  "total_files_validated": 28,
+  "compliant_files": 0,
+  "non_compliant_files": 28,
+  "compliance_score": 0.0,
+  "critical_violations": 0,
+  "total_violations": 94,
+  "total_warnings": 18,
+  "status": "REJECTED",
+  "detailed_results": [
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_SHRUTI_001_branded_posts.json",
+      "type": "linkedin",
+      "compliant": false,
+      "score": 0,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+          "element": "market_risk_disclaimer",
+          "explanation": "Missing required market risk disclaimer"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [],
+      "suggestions": [
+        "Add: 'Mutual fund investments are subject to market risks'",
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_007_branded_posts.json",
+      "type": "linkedin",
+      "compliant": false,
+      "score": 0,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+          "element": "market_risk_disclaimer",
+          "explanation": "Missing required market risk disclaimer"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [],
+      "suggestions": [
+        "Add: 'Mutual fund investments are subject to market risks'",
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_SHRIYA_003_branded_posts.json",
+      "type": "linkedin",
+      "compliant": false,
+      "score": 0,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+          "element": "market_risk_disclaimer",
+          "explanation": "Missing required market risk disclaimer"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [],
+      "suggestions": [
+        "Add: 'Mutual fund investments are subject to market risks'",
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_VIDYADHAR_002_branded_posts.json",
+      "type": "linkedin",
+      "compliant": false,
+      "score": 0,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+          "element": "market_risk_disclaimer",
+          "explanation": "Missing required market risk disclaimer"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [],
+      "suggestions": [
+        "Add: 'Mutual fund investments are subject to market risks'",
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_009_branded_posts.json",
+      "type": "linkedin",
+      "compliant": false,
+      "score": 0,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+          "element": "market_risk_disclaimer",
+          "explanation": "Missing required market risk disclaimer"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [],
+      "suggestions": [
+        "Add: 'Mutual fund investments are subject to market risks'",
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_004_branded_posts.json",
+      "type": "linkedin",
+      "compliant": false,
+      "score": 0,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+          "element": "market_risk_disclaimer",
+          "explanation": "Missing required market risk disclaimer"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [],
+      "suggestions": [
+        "Add: 'Mutual fund investments are subject to market risks'",
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_008_branded_posts.json",
+      "type": "linkedin",
+      "compliant": false,
+      "score": 0,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+          "element": "market_risk_disclaimer",
+          "explanation": "Missing required market risk disclaimer"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [],
+      "suggestions": [
+        "Add: 'Mutual fund investments are subject to market risks'",
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_005_branded_posts.json",
+      "type": "linkedin",
+      "compliant": false,
+      "score": 0,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+          "element": "market_risk_disclaimer",
+          "explanation": "Missing required market risk disclaimer"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [],
+      "suggestions": [
+        "Add: 'Mutual fund investments are subject to market risks'",
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_006_branded_posts.json",
+      "type": "linkedin",
+      "compliant": false,
+      "score": 0,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+          "element": "market_risk_disclaimer",
+          "explanation": "Missing required market risk disclaimer"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [],
+      "suggestions": [
+        "Add: 'Mutual fund investments are subject to market risks'",
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_010_branded_posts.json",
+      "type": "linkedin",
+      "compliant": false,
+      "score": 0,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+          "element": "market_risk_disclaimer",
+          "explanation": "Missing required market risk disclaimer"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [],
+      "suggestions": [
+        "Add: 'Mutual fund investments are subject to market risks'",
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_sip_education_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 479,
+          "max_length": 400,
+          "explanation": "Message length 479 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_tax_planning_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 453,
+          "max_length": 400,
+          "explanation": "Message length 453 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_sip_education_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 523,
+          "max_length": 400,
+          "explanation": "Message length 523 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_tax_planning_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 557,
+          "max_length": 400,
+          "explanation": "Message length 557 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_exclusive_insight_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 595,
+          "max_length": 400,
+          "explanation": "Message length 595 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_sip_education_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 583,
+          "max_length": 400,
+          "explanation": "Message length 583 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_investment_alternative_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 480,
+          "max_length": 400,
+          "explanation": "Message length 480 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_sip_education_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 521,
+          "max_length": 400,
+          "explanation": "Message length 521 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_tax_planning_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 495,
+          "max_length": 400,
+          "explanation": "Message length 495 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_sip_education_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 515,
+          "max_length": 400,
+          "explanation": "Message length 515 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_tax_planning_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 497,
+          "max_length": 400,
+          "explanation": "Message length 497 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_wealth_preservation_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 582,
+          "max_length": 400,
+          "explanation": "Message length 582 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_investment_alternative_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 548,
+          "max_length": 400,
+          "explanation": "Message length 548 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_investment_alternative_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 444,
+          "max_length": 400,
+          "explanation": "Message length 444 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_investment_alternative_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 488,
+          "max_length": 400,
+          "explanation": "Message length 488 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_alternative_investment_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 594,
+          "max_length": 400,
+          "explanation": "Message length 594 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_tax_planning_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 489,
+          "max_length": 400,
+          "explanation": "Message length 489 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_investment_alternative_20250919_024828.txt",
+      "type": "whatsapp",
+      "compliant": false,
+      "score": 0.09999999999999998,
+      "violations": [
+        {
+          "type": "major",
+          "rule": "SEBI_DOCUMENT_READING_001",
+          "element": "document_reading",
+          "explanation": "Missing required document reading"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_PAST_PERFORMANCE_001",
+          "element": "past_performance",
+          "explanation": "Missing required past performance"
+        },
+        {
+          "type": "major",
+          "rule": "SEBI_ARN_DISPLAY_001",
+          "element": "arn_display",
+          "explanation": "Missing required arn display"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "length_limit",
+          "rule": "WHATSAPP_LEN_001",
+          "current_length": 486,
+          "max_length": 400,
+          "explanation": "Message length 486 exceeds WhatsApp recommended limit of 400 characters"
+        }
+      ],
+      "suggestions": [
+        "Add: 'Read all scheme related documents carefully'",
+        "Add: 'Past performance may not be sustained in future'",
+        "Add ARN number in format 'ARN: XXXXXX'"
+      ]
+    }
+  ],
+  "violations_summary": [
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_SHRUTI_001_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+        "element": "market_risk_disclaimer",
+        "explanation": "Missing required market risk disclaimer"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_SHRUTI_001_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_SHRUTI_001_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_SHRUTI_001_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_007_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+        "element": "market_risk_disclaimer",
+        "explanation": "Missing required market risk disclaimer"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_007_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_007_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_007_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_SHRIYA_003_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+        "element": "market_risk_disclaimer",
+        "explanation": "Missing required market risk disclaimer"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_SHRIYA_003_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_SHRIYA_003_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_SHRIYA_003_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_VIDYADHAR_002_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+        "element": "market_risk_disclaimer",
+        "explanation": "Missing required market risk disclaimer"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_VIDYADHAR_002_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_VIDYADHAR_002_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_VIDYADHAR_002_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_009_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+        "element": "market_risk_disclaimer",
+        "explanation": "Missing required market risk disclaimer"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_009_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_009_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_009_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_004_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+        "element": "market_risk_disclaimer",
+        "explanation": "Missing required market risk disclaimer"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_004_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_004_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_004_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_008_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+        "element": "market_risk_disclaimer",
+        "explanation": "Missing required market risk disclaimer"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_008_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_008_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_008_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_005_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+        "element": "market_risk_disclaimer",
+        "explanation": "Missing required market risk disclaimer"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_005_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_005_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_005_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_006_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+        "element": "market_risk_disclaimer",
+        "explanation": "Missing required market risk disclaimer"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_006_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_006_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_006_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_010_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+        "element": "market_risk_disclaimer",
+        "explanation": "Missing required market risk disclaimer"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_010_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_010_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_010_branded_posts.json",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_sip_education_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_sip_education_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_sip_education_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_tax_planning_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_tax_planning_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_tax_planning_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_sip_education_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_sip_education_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_sip_education_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_tax_planning_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_tax_planning_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_tax_planning_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_exclusive_insight_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_exclusive_insight_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_exclusive_insight_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_sip_education_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_sip_education_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_sip_education_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_investment_alternative_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_investment_alternative_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_investment_alternative_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_sip_education_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_sip_education_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_sip_education_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_tax_planning_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_tax_planning_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_tax_planning_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_sip_education_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_sip_education_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_sip_education_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_tax_planning_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_tax_planning_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_tax_planning_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_wealth_preservation_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_wealth_preservation_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_wealth_preservation_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_investment_alternative_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_investment_alternative_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_investment_alternative_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_investment_alternative_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_investment_alternative_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_investment_alternative_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_investment_alternative_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_investment_alternative_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_investment_alternative_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_alternative_investment_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_alternative_investment_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_alternative_investment_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_tax_planning_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_tax_planning_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_tax_planning_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_investment_alternative_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "element": "document_reading",
+        "explanation": "Missing required document reading"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_investment_alternative_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "element": "past_performance",
+        "explanation": "Missing required past performance"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_investment_alternative_20250919_024828.txt",
+      "violation": {
+        "type": "major",
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "element": "arn_display",
+        "explanation": "Missing required arn display"
+      }
+    }
+  ],
+  "warnings_summary": [
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_sip_education_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 479,
+        "max_length": 400,
+        "explanation": "Message length 479 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_tax_planning_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 453,
+        "max_length": 400,
+        "explanation": "Message length 453 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_sip_education_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 523,
+        "max_length": 400,
+        "explanation": "Message length 523 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_tax_planning_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 557,
+        "max_length": 400,
+        "explanation": "Message length 557 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_exclusive_insight_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 595,
+        "max_length": 400,
+        "explanation": "Message length 595 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_sip_education_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 583,
+        "max_length": 400,
+        "explanation": "Message length 583 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_investment_alternative_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 480,
+        "max_length": 400,
+        "explanation": "Message length 480 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_sip_education_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 521,
+        "max_length": 400,
+        "explanation": "Message length 521 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_tax_planning_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 495,
+        "max_length": 400,
+        "explanation": "Message length 495 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_sip_education_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 515,
+        "max_length": 400,
+        "explanation": "Message length 515 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_tax_planning_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 497,
+        "max_length": 400,
+        "explanation": "Message length 497 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_wealth_preservation_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 582,
+        "max_length": 400,
+        "explanation": "Message length 582 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_investment_alternative_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 548,
+        "max_length": 400,
+        "explanation": "Message length 548 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_investment_alternative_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 444,
+        "max_length": 400,
+        "explanation": "Message length 444 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_investment_alternative_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 488,
+        "max_length": 400,
+        "explanation": "Message length 488 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_alternative_investment_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 594,
+        "max_length": 400,
+        "explanation": "Message length 594 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_tax_planning_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 489,
+        "max_length": 400,
+        "explanation": "Message length 489 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    },
+    {
+      "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_investment_alternative_20250919_024828.txt",
+      "warning": {
+        "type": "length_limit",
+        "rule": "WHATSAPP_LEN_001",
+        "current_length": 486,
+        "max_length": 400,
+        "explanation": "Message length 486 exceeds WhatsApp recommended limit of 400 characters"
+      }
+    }
+  ],
+  "compliant_files_list": [],
+  "remediation_required": true
+}

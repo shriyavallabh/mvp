@@ -1,0 +1,20 @@
+{
+  "premium_advisors": {
+    "topicFocus": "Wealth preservation and growth",
+    "clientProfile": "HNI clients with \u20b91Cr+ portfolios",
+    "marketOpportunity": "Gold diversification at current highs",
+    "contentAngle": "Tax-efficient portfolio rebalancing post-repo cut"
+  },
+  "gold_advisors": {
+    "topicFocus": "Goal-based investing and SIPs",
+    "clientProfile": "Middle-class professionals, \u20b910L-\u20b91Cr portfolios",
+    "marketOpportunity": "Systematic equity investing during market strength",
+    "contentAngle": "How to benefit from current market momentum via SIPs"
+  },
+  "silver_advisors": {
+    "topicFocus": "Financial literacy and basic investing",
+    "clientProfile": "Young professionals, \u20b91L-\u20b910L portfolios",
+    "marketOpportunity": "Starting investment journey with current opportunities",
+    "contentAngle": "Simple ways to benefit from falling EMIs and rising markets"
+  }
+}

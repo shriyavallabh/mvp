@@ -1,0 +1,38 @@
+{
+  "timestamp": "2025-09-18T09:54:30.000Z",
+  "from": "feedback-processor-agent",
+  "to": ["whatsapp-message-creator", "linkedin-post-generator"],
+  "type": "regeneration_request",
+  "priority": "critical",
+  "session_id": "session_2025-09-18T03-38-39-062Z",
+  "message": "Content regeneration required due to compliance violations and quality issues",
+  "regeneration_batches": {
+    "batch_1_critical_compliance": {
+      "agent": "whatsapp-message-creator",
+      "priority": "CRITICAL",
+      "items": 28,
+      "issue": "Missing SEBI disclaimers",
+      "fix": "Add mandatory disclaimer: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'",
+      "deadline": "2025-09-18T12:00:00.000Z"
+    },
+    "batch_2_quality_improvement": {
+      "agent": "linkedin-post-generator",
+      "priority": "HIGH",
+      "items": 12,
+      "issue": "Poor readability and engagement",
+      "targets": {
+        "flesch_score": "50+",
+        "quality_score": "75+",
+        "hook_strength": "0.85+",
+        "cta_effectiveness": "0.70+"
+      },
+      "deadline": "2025-09-18T15:00:00.000Z"
+    }
+  },
+  "validation_required": {
+    "compliance": "All regenerated content must pass compliance validation",
+    "quality": "All content must meet minimum quality thresholds",
+    "approval": "Final distribution approval required after regeneration"
+  },
+  "detailed_requirements": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/regeneration-requirements.json"
+}

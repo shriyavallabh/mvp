@@ -1,0 +1,114 @@
+{
+  "segmentationData": {
+    "timestamp": "2025-09-17T23:35:00Z",
+    "sessionId": "session_1758130725",
+    "advisorSegments": {
+      "Premium": {
+        "advisors": ["ADV_001"],
+        "profile": {
+          "tier": "Premium",
+          "clientBase": "HNI & Ultra HNI",
+          "avgAUM": "₹85 Crores",
+          "avgClients": 280,
+          "investmentRange": "₹25+ Lakhs",
+          "riskAppetite": "Moderate to High",
+          "contentStyle": "Professional & Sophisticated",
+          "brandingRequirement": "Full Custom Branding",
+          "serviceLevel": "White Glove"
+        },
+        "demographics": ["Young Professionals", "HNI Clients", "Business Owners", "NRIs"],
+        "focusAreas": ["Equity Markets", "Portfolio Management", "Tax Planning", "Retirement Planning", "Estate Planning"],
+        "contentPreferences": {
+          "frequency": "Daily",
+          "tone": "Professional",
+          "complexity": "Advanced",
+          "topics": ["Market Analysis", "Portfolio Diversification", "Tax Optimization"],
+          "channels": ["LinkedIn", "WhatsApp", "Email"],
+          "timing": "Morning (9:00 AM)"
+        }
+      },
+      "Gold": {
+        "advisors": ["ADV_002"],
+        "profile": {
+          "tier": "Gold",
+          "clientBase": "Mass Affluent",
+          "avgAUM": "₹55 Crores",
+          "avgClients": 220,
+          "investmentRange": "₹5-15 Lakhs",
+          "riskAppetite": "Low to Moderate",
+          "contentStyle": "Educational & Informative",
+          "brandingRequirement": "Semi-Custom Branding",
+          "serviceLevel": "Comprehensive"
+        },
+        "demographics": ["Salaried Professionals", "First-time Investors", "Young Families", "Middle Class"],
+        "focusAreas": ["Mutual Funds", "SIP Planning", "Insurance", "Goal-based Investment", "Child Education Planning"],
+        "contentPreferences": {
+          "frequency": "5x per week",
+          "tone": "Educational",
+          "complexity": "Intermediate",
+          "topics": ["SIP Benefits", "Goal Planning", "Financial Literacy"],
+          "channels": ["WhatsApp", "Email", "Social Media"],
+          "timing": "Morning (10:00 AM)"
+        }
+      },
+      "Silver": {
+        "advisors": ["ADV_003"],
+        "profile": {
+          "tier": "Silver",
+          "clientBase": "Emerging Wealth",
+          "avgAUM": "₹35 Crores",
+          "avgClients": 150,
+          "investmentRange": "₹1-5 Lakhs",
+          "riskAppetite": "Low to Moderate",
+          "contentStyle": "Simple & Accessible",
+          "brandingRequirement": "Basic Branding",
+          "serviceLevel": "Essential"
+        },
+        "demographics": ["Millennials", "New Investors", "Small Business Owners", "Tech Professionals"],
+        "focusAreas": ["Digital Gold", "Small Case Investments", "ETFs", "Financial Literacy", "Systematic Investment"],
+        "contentPreferences": {
+          "frequency": "3x per week",
+          "tone": "Casual",
+          "complexity": "Basic",
+          "topics": ["Simple Investment Tips", "Beginner Guides", "Technology in Finance"],
+          "channels": ["WhatsApp", "Social Media"],
+          "timing": "Early Morning (8:30 AM)"
+        }
+      }
+    },
+    "crossSegmentInsights": {
+      "commonTopics": ["Financial Planning", "Market Updates", "Investment Basics"],
+      "differentiationFactors": ["Content Complexity", "Investment Amounts", "Risk Tolerance", "Service Expectations"],
+      "contentApproach": {
+        "Premium": "In-depth analysis with sophisticated strategies",
+        "Gold": "Balanced education with practical application",
+        "Silver": "Simple explanations with step-by-step guidance"
+      },
+      "communicationChannels": {
+        "Primary": "WhatsApp",
+        "Secondary": ["Email", "LinkedIn", "Social Media"],
+        "Frequency": {
+          "Premium": "Daily",
+          "Gold": "5x weekly",
+          "Silver": "3x weekly"
+        }
+      }
+    },
+    "contentGeneration": {
+      "requiresPersonalization": true,
+      "brandingVariations": 3,
+      "languageSupport": ["English", "Hindi", "Marathi"],
+      "complianceLevel": "High",
+      "reviewWorkflow": {
+        "manual": ["Premium", "Silver"],
+        "autoApprove": ["Gold"]
+      }
+    }
+  },
+  "marketIntelligenceRequirements": {
+    "segments": ["Premium", "Gold", "Silver"],
+    "contentTypes": ["Market Analysis", "Investment Tips", "Financial Education"],
+    "updateFrequency": "Daily",
+    "sources": ["Market Data", "Regulatory Updates", "Economic Indicators"]
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "success": true,
+  "timestamp": "2025-10-02T05:37:49.722Z",
+  "sessionId": "session_1759383378",
+  "advisorCount": 4,
+  "advisors": [
+    {
+      "advisorId": "ADV001",
+      "personalInfo": {
+        "name": "Shruti Petkar",
+        "phone": "919673758777",
+        "email": "shruti.petkar@finadvise.com",
+        "arn": "ARN-125847"
+      },
+      "businessInfo": {
+        "firmName": "Shruti Petkar",
+        "advisorType": "Premium",
+        "experience": "Not specified",
+        "aum": "₹0 Crores",
+        "clientCount": 0
+      },
+      "segmentInfo": {
+        "primarySegment": "Premium",
+        "clientDemographics": [],
+        "focusAreas": []
+      },
+      "customization": {
+        "brandName": "Shruti Petkar",
+        "logoUrl": "/assets/logos/shruti-petkar.png",
+        "brandColors": {
+          "primary": "#1B365D",
+          "secondary": "#0077B5"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": null
+      },
+      "preferences": {
+        "contentStyle": "professional",
+        "approvalMode": "manual",
+        "deliveryTime": "09:00",
+        "timezone": "Asia/Kolkata",
+        "languages": [
+          "English"
+        ]
+      },
+      "subscription": {
+        "plan": "Premium",
+        "status": "Active",
+        "validUntil": "2025-12-31"
+      }
+    },
+    {
+      "advisorId": "ADV002",
+      "personalInfo": {
+        "name": "Vidyadhar Petkar",
+        "phone": "918975758513",
+        "email": "vidyadhar.petkar@finadvise.com",
+        "arn": "ARN-138924"
+      },
+      "businessInfo": {
+        "firmName": "Vidyadhar Petkar",
+        "advisorType": "Gold",
+        "experience": "Not specified",
+        "aum": "₹0 Crores",
+        "clientCount": 0
+      },
+      "segmentInfo": {
+        "primarySegment": "Gold",
+        "clientDemographics": [],
+        "focusAreas": []
+      },
+      "customization": {
+        "brandName": "Vidyadhar Petkar",
+        "logoUrl": "/assets/logos/vidyadhar-petkar.png",
+        "brandColors": {
+          "primary": "#2E8B57",
+          "secondary": "#228B22"
+        },
+        "tagline": "Your Financial Growth Partner",
+        "disclaimer": null
+      },
+      "preferences": {
+        "contentStyle": "analytical",
+        "approvalMode": "auto",
+        "deliveryTime": "09:30",
+        "timezone": "Asia/Kolkata",
+        "languages": [
+          "English"
+        ]
+      },
+      "subscription": {
+        "plan": "Gold",
+        "status": "Active",
+        "validUntil": "2025-12-31"
+      }
+    },
+    {
+      "advisorId": "ADV003",
+      "personalInfo": {
+        "name": "Shriya Vallabh Petkar",
+        "phone": "919765071249",
+        "email": "shriya.vallabh@finadvise.com",
+        "arn": "ARN-147852"
+      },
+      "businessInfo": {
+        "firmName": "Shriya Vallabh Petkar",
+        "advisorType": "Premium",
+        "experience": "Not specified",
+        "aum": "₹0 Crores",
+        "clientCount": 0
+      },
+      "segmentInfo": {
+        "primarySegment": "Premium",
+        "clientDemographics": [],
+        "focusAreas": []
+      },
+      "customization": {
+        "brandName": "Shriya Vallabh Petkar",
+        "logoUrl": "/assets/logos/shriya-vallabh.png",
+        "brandColors": {
+          "primary": "#8B4513",
+          "secondary": "#CD853F"
+        },
+        "tagline": "Empowering Financial Decisions",
+        "disclaimer": null
+      },
+      "preferences": {
+        "contentStyle": "educational",
+        "approvalMode": "manual",
+        "deliveryTime": "10:00",
+        "timezone": "Asia/Kolkata",
+        "languages": [
+          "English"
+        ]
+      },
+      "subscription": {
+        "plan": "Premium",
+        "status": "Active",
+        "validUntil": "2025-12-31"
+      }
+    },
+    {
+      "advisorId": "ADV004",
+      "personalInfo": {
+        "name": "Avalok Langer",
+        "phone": "919022810769",
+        "email": "avalok.langer@finadvise.com",
+        "arn": "ARN-169741"
+      },
+      "businessInfo": {
+        "firmName": "Avalok Langer",
+        "advisorType": "Silver",
+        "experience": "Not specified",
+        "aum": "₹0 Crores",
+        "clientCount": 0
+      },
+      "segmentInfo": {
+        "primarySegment": "Silver",
+        "clientDemographics": [],
+        "focusAreas": []
+      },
+      "customization": {
+        "brandName": "Avalok Langer",
+        "logoUrl": "/assets/logos/avalok-langer.png",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Smart Investments, Secure Future",
+        "disclaimer": null
+      },
+      "preferences": {
+        "contentStyle": "modern",
+        "approvalMode": "auto",
+        "deliveryTime": "09:00",
+        "timezone": "Asia/Kolkata",
+        "languages": [
+          "English"
+        ]
+      },
+      "subscription": {
+        "plan": "Silver",
+        "status": "Active",
+        "validUntil": "2025-12-31"
+      }
+    }
+  ],
+  "metadata": {
+    "activeSubscriptions": 4,
+    "premiumAdvisors": 2,
+    "goldAdvisors": 1,
+    "silverAdvisors": 1,
+    "customBranding": 4,
+    "dataQuality": 1,
+    "brandingStats": {
+      "withLogos": 4,
+      "withColors": 4,
+      "withTaglines": 4,
+      "totalAUM": 0
+    }
+  },
+  "warnings": []
+}

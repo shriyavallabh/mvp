@@ -1,0 +1,52 @@
+{
+  "sessionId": "session_20250919_023038",
+  "communicationBus": {
+    "enabled": true,
+    "bidirectional": true,
+    "channels": {
+      "feedback": {
+        "path": "session_20250919_023038/feedback",
+        "enabled": true,
+        "priority": "high"
+      },
+      "quality": {
+        "path": "session_20250919_023038/quality",
+        "enabled": true,
+        "priority": "high"
+      },
+      "compliance": {
+        "path": "session_20250919_023038/compliance",
+        "enabled": true,
+        "priority": "critical"
+      },
+      "state": {
+        "path": "session_20250919_023038/state",
+        "enabled": true,
+        "priority": "medium"
+      },
+      "coordination": {
+        "path": "session_20250919_023038/coordination",
+        "enabled": true,
+        "priority": "medium"
+      }
+    }
+  },
+  "stateSync": {
+    "enabled": true,
+    "mode": "bidirectional",
+    "syncInterval": 5000,
+    "conflictResolution": "timestamp-priority",
+    "isolationLevel": "session-scoped"
+  },
+  "agentMessaging": {
+    "enabled": true,
+    "messageQueue": [],
+    "deliveryGuarantee": "at-least-once",
+    "ordering": "timestamp"
+  },
+  "metadata": {
+    "createdAt": "2025-09-19T02:30:38.000Z",
+    "lastActivity": "2025-09-19T02:30:38.000Z",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "sessionId": "session_20250919_023038",
+  "createdAt": "2025-09-19T02:30:38.000Z",
+  "format": "session_YYYYMMDD_HHMMSS",
+  "isolationConfig": {
+    "enforceStrictIsolation": true,
+    "preventCrossSessionContamination": true,
+    "sessionTimeoutHours": 24,
+    "cleanupOldSessions": true,
+    "maxConcurrentSessions": 5
+  },
+  "communicationConfig": {
+    "enableBidirectional": true,
+    "messageQueueSize": 1000,
+    "messageRetentionHours": 48,
+    "compressionEnabled": true,
+    "encryptionEnabled": false
+  },
+  "stateManagement": {
+    "persistToFile": true,
+    "persistenceInterval": 300000,
+    "stateValidation": true,
+    "rollbackSupport": true,
+    "maxStateHistory": 10
+  },
+  "sessionPaths": {
+    "base": "data/shared-memory/session_20250919_023038",
+    "communication": "data/agent-communication/session_20250919_023038",
+    "orchestrationState": "data/orchestration-state/session_20250919_023038",
+    "learnings": "learnings/sessions/session_20250919_023038",
+    "output": "output/session_20250919_023038"
+  },
+  "agentRegistry": {
+    "allowDynamicRegistration": true,
+    "requireAuthentication": false,
+    "maxAgentsPerSession": 20,
+    "heartbeatIntervalMs": 30000
+  },
+  "archivalPolicy": {
+    "archiveAfterHours": 24,
+    "compressionLevel": 6,
+    "archivePath": "archives/sessions",
+    "retainArchiveDays": 30
+  }
+}

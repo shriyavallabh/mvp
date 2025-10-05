@@ -1,0 +1,167 @@
+{
+  "state_management_config": {
+    "version": "1.0",
+    "persistence": {
+      "enabled": true,
+      "auto_save": true,
+      "save_frequency_ms": 5000,
+      "backup_enabled": true,
+      "backup_frequency_minutes": 15,
+      "retention_days": 30
+    },
+    "synchronization": {
+      "mode": "real_time",
+      "conflict_resolution": "last_writer_wins",
+      "lock_timeout_ms": 30000,
+      "retry_attempts": 3,
+      "retry_delay_ms": 1000
+    },
+    "memory_areas": {
+      "advisor_data": {
+        "max_size_mb": 50,
+        "compression": true,
+        "validation_schema": "advisor_data_v1.json"
+      },
+      "market_intelligence": {
+        "max_size_mb": 25,
+        "compression": true,
+        "validation_schema": "market_intelligence_v1.json"
+      },
+      "segment_analysis": {
+        "max_size_mb": 30,
+        "compression": true,
+        "validation_schema": "segment_analysis_v1.json"
+      },
+      "content_generation": {
+        "max_size_mb": 100,
+        "compression": true,
+        "validation_schema": "content_generation_v1.json"
+      },
+      "validation_results": {
+        "max_size_mb": 20,
+        "compression": false,
+        "validation_schema": "validation_results_v1.json"
+      },
+      "distribution_tracking": {
+        "max_size_mb": 40,
+        "compression": true,
+        "validation_schema": "distribution_tracking_v1.json"
+      }
+    },
+    "agent_communication": {
+      "message_queue_size": 1000,
+      "message_ttl_minutes": 60,
+      "priority_levels": ["critical", "high", "normal", "low"],
+      "retry_failed_messages": true
+    },
+    "monitoring": {
+      "performance_tracking": true,
+      "memory_usage_alerts": true,
+      "sync_failure_alerts": true,
+      "agent_timeout_alerts": true,
+      "metrics_collection_interval_ms": 10000
+    },
+    "security": {
+      "encrypt_sensitive_data": true,
+      "access_control_enabled": true,
+      "audit_logging": true,
+      "secure_communication": true
+    }
+  },
+  "session_defaults": {
+    "timeout_minutes": 120,
+    "max_concurrent_agents": 5,
+    "error_recovery_enabled": true,
+    "auto_cleanup_on_completion": false,
+    "debug_mode": false
+  },
+  "state_schemas": {
+    "shared_memory": {
+      "required_fields": ["session_metadata", "memory_areas", "workflow_dependencies", "synchronization"],
+      "version": "1.0"
+    },
+    "agent_outputs": {
+      "required_fields": ["session_id", "agent_outputs", "execution_summary"],
+      "version": "1.0"
+    },
+    "workflow_progress": {
+      "required_fields": ["session_id", "workflow_phases", "overall_progress", "agent_readiness"],
+      "version": "1.0"
+    }
+  },
+  "file_paths": {
+    "shared_memory": "state/shared_memory.json",
+    "agent_outputs": "state/agent_outputs.json",
+    "workflow_progress": "state/workflow_progress.json",
+    "communication_log": "communication/message_log.json",
+    "traceability": "traceability/execution_trace.json"
+  },
+  "agent_registry": {
+    "advisor-data-manager": {
+      "type": "data_collector",
+      "max_execution_time_minutes": 15,
+      "memory_requirement_mb": 50,
+      "output_format": "advisor_data_v1"
+    },
+    "market-intelligence": {
+      "type": "data_collector",
+      "max_execution_time_minutes": 10,
+      "memory_requirement_mb": 25,
+      "output_format": "market_intelligence_v1"
+    },
+    "segment-analyzer": {
+      "type": "analyzer",
+      "max_execution_time_minutes": 20,
+      "memory_requirement_mb": 75,
+      "output_format": "segment_analysis_v1"
+    },
+    "linkedin-post-generator": {
+      "type": "content_generator",
+      "max_execution_time_minutes": 15,
+      "memory_requirement_mb": 30,
+      "output_format": "linkedin_content_v1"
+    },
+    "whatsapp-message-generator": {
+      "type": "content_generator",
+      "max_execution_time_minutes": 15,
+      "memory_requirement_mb": 30,
+      "output_format": "whatsapp_content_v1"
+    },
+    "image-generator": {
+      "type": "content_generator",
+      "max_execution_time_minutes": 25,
+      "memory_requirement_mb": 100,
+      "output_format": "image_content_v1"
+    },
+    "brand-customizer": {
+      "type": "enhancer",
+      "max_execution_time_minutes": 20,
+      "memory_requirement_mb": 50,
+      "output_format": "branded_content_v1"
+    },
+    "compliance-validator": {
+      "type": "validator",
+      "max_execution_time_minutes": 10,
+      "memory_requirement_mb": 20,
+      "output_format": "compliance_results_v1"
+    },
+    "quality-scorer": {
+      "type": "validator",
+      "max_execution_time_minutes": 10,
+      "memory_requirement_mb": 20,
+      "output_format": "quality_results_v1"
+    },
+    "fatigue-checker": {
+      "type": "validator",
+      "max_execution_time_minutes": 5,
+      "memory_requirement_mb": 15,
+      "output_format": "fatigue_results_v1"
+    },
+    "distribution-manager": {
+      "type": "distributor",
+      "max_execution_time_minutes": 30,
+      "memory_requirement_mb": 40,
+      "output_format": "distribution_results_v1"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "channel": "advisor-data",
+  "status": "active",
+  "timestamp": "2025-09-17T23:35:00Z",
+  "sessionId": "session_1758130725",
+  "message": {
+    "type": "data-available",
+    "source": "advisor-data-manager",
+    "data": {
+      "advisorCount": 3,
+      "segments": ["Premium", "Gold", "Silver"],
+      "totalAUM": "₹175 Crores",
+      "dataQuality": 0.98,
+      "processingComplete": true,
+      "location": "/Users/shriyavallabh/Desktop/mvp/output/session_1758130725/raw-data/",
+      "files": [
+        "advisor-profiles.json",
+        "segment-analysis-input.json"
+      ],
+      "warnings": [
+        "ADV_003 missing logo URL - using default branding",
+        "ADV_003 subscription expires soon - renewal reminder needed"
+      ]
+    }
+  },
+  "subscribers": [
+    "segment-analyzer",
+    "market-intelligence",
+    "content-generator",
+    "brand-customizer"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "from": "linkedin-post-generator",
+  "to": [
+    "compliance-validator",
+    "quality-scorer"
+  ],
+  "timestamp": "2025-09-17T19:44:19.030632",
+  "message": "LinkedIn posts generated successfully",
+  "data_location": "output/session_2025-09-17T14-10-23Z/linkedin-post-generator/linkedin_posts.json",
+  "posts_generated": 3,
+  "avg_length": 1887.6666666666667
+}

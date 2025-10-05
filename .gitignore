@@ -57,3 +57,7 @@ __pycache__/
 
 # Test outputs
 gemini_verification_*.png
+.mcp.json
+.vercel
+.env
+config/google-credentials.json

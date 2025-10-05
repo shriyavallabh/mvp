@@ -1,0 +1,24 @@
+{
+  "type": "advisor-data-ready",
+  "timestamp": "2025-09-18T03:49:42.772Z",
+  "sessionId": "session_2025-09-18T03-38-39-062Z",
+  "data": {
+    "advisorCount": 3,
+    "dataPath": "data/shared-memory/session_2025-09-18T03-38-39-062Z/advisor-data-memory.json",
+    "summary": {
+      "totalFetched": 3,
+      "validAdvisors": 3,
+      "dataQualityScore": 0.88,
+      "segments": {
+        "HNI": 1,
+        "Retail": 2,
+        "Corporate": 0
+      },
+      "subscriptions": {
+        "Premium": 1,
+        "Gold": 1,
+        "Standard": 1
+      }
+    }
+  }
+}

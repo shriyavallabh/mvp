@@ -1,0 +1,34 @@
+{
+  "session": "session_1759397686841",
+  "total_designs": 6,
+  "generated": [
+    {
+      "designId": "STATUS_ADV001_001",
+      "advisorId": "ADV001",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_1759397686841/images/status/STATUS_ADV001_001.png"
+    },
+    {
+      "designId": "STATUS_ADV001_002",
+      "advisorId": "ADV001",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_1759397686841/images/status/STATUS_ADV001_002.png"
+    },
+    {
+      "designId": "STATUS_ADV002_001",
+      "advisorId": "ADV002",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_1759397686841/images/status/STATUS_ADV002_001.png"
+    },
+    {
+      "designId": "STATUS_ADV003_002",
+      "advisorId": "ADV003",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_1759397686841/images/status/STATUS_ADV003_002.png"
+    },
+    {
+      "designId": "STATUS_ADV004_001",
+      "advisorId": "ADV004",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_1759397686841/images/status/STATUS_ADV004_001.png"
+    }
+  ],
+  "failed": [
+    "STATUS_ADV003_001"
+  ]
+}

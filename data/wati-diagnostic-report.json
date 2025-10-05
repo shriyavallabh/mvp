@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-09-22T01:30:36.830Z",
+  "configuration": {
+    "fromNumber": "919022009052",
+    "template": "valentine_combo",
+    "testNumbers": [
+      "919765071249",
+      "919022810769"
+    ]
+  },
+  "results": [
+    {
+      "number": "919765071249",
+      "success": true,
+      "response": {
+        "result": true,
+        "errors": {
+          "error": "",
+          "invalidWhatsappNumbers": [],
+          "invalidCustomParameters": []
+        }
+      },
+      "timestamp": "2025-09-22T01:30:32.194Z"
+    },
+    {
+      "number": "919022810769",
+      "success": true,
+      "response": {
+        "result": true,
+        "errors": {
+          "error": "",
+          "invalidWhatsappNumbers": [],
+          "invalidCustomParameters": []
+        }
+      },
+      "timestamp": "2025-09-22T01:30:34.717Z"
+    }
+  ],
+  "summary": {
+    "total": 2,
+    "successful": 2,
+    "failed": 0
+  }
+}

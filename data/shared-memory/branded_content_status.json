@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-09-17T23-59-21",
+  "session_id": "session_1758130725",
+  "branded_content_paths": {
+    "linkedin": "/Users/shriyavallabh/Desktop/mvp/output/session_1758130725/branded/linkedin",
+    "whatsapp": "/Users/shriyavallabh/Desktop/mvp/output/session_1758130725/branded/whatsapp",
+    "status_images": "/Users/shriyavallabh/Desktop/mvp/output/session_1758130725/branded/status-images",
+    "gemini_images": "/Users/shriyavallabh/Desktop/mvp/output/session_1758130725/branded/gemini-images",
+    "reports": "/Users/shriyavallabh/Desktop/mvp/output/session_1758130725/branded/reports"
+  },
+  "branding_status": "completed",
+  "compliance_score": 100.0,
+  "ready_for_validation": true
+}

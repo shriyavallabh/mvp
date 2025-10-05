@@ -1,0 +1,89 @@
+{
+  "advisors": [
+    {
+      "id": "ADV001",
+      "name": "Shruti Petkar",
+      "phone": "919673758777",
+      "email": "shruti.petkar@finadvise.com",
+      "arn": "ARN-125847",
+      "advisorType": "Premium",
+      "activeSubscription": true,
+      "branding": {
+        "logo": "/assets/logos/shruti-petkar.png",
+        "primaryColor": "#1B365D",
+        "secondaryColor": "#0077B5",
+        "tagline": "Building Wealth, Creating Trust"
+      },
+      "preferences": {
+        "contentStyle": "professional",
+        "approvalMode": "manual",
+        "deliveryTime": "09:00",
+        "timezone": "Asia/Kolkata"
+      }
+    },
+    {
+      "id": "ADV002",
+      "name": "Vidyadhar Petkar",
+      "phone": "918975758513",
+      "email": "vidyadhar.petkar@finadvise.com",
+      "arn": "ARN-138924",
+      "advisorType": "Gold",
+      "activeSubscription": true,
+      "branding": {
+        "logo": "/assets/logos/vidyadhar-petkar.png",
+        "primaryColor": "#2E8B57",
+        "secondaryColor": "#228B22",
+        "tagline": "Your Financial Growth Partner"
+      },
+      "preferences": {
+        "contentStyle": "analytical",
+        "approvalMode": "auto",
+        "deliveryTime": "09:30",
+        "timezone": "Asia/Kolkata"
+      }
+    },
+    {
+      "id": "ADV003",
+      "name": "Shriya Vallabh Petkar",
+      "phone": "919765071249",
+      "email": "shriya.vallabh@finadvise.com",
+      "arn": "ARN-147852",
+      "advisorType": "Premium",
+      "activeSubscription": true,
+      "branding": {
+        "logo": "/assets/logos/shriya-vallabh.png",
+        "primaryColor": "#8B4513",
+        "secondaryColor": "#CD853F",
+        "tagline": "Empowering Financial Decisions"
+      },
+      "preferences": {
+        "contentStyle": "educational",
+        "approvalMode": "manual",
+        "deliveryTime": "10:00",
+        "timezone": "Asia/Kolkata"
+      }
+    },
+    {
+      "id": "ADV004",
+      "name": "Avalok Langer",
+      "phone": "919022810769",
+      "email": "avalok.langer@finadvise.com",
+      "arn": "ARN-169741",
+      "advisorType": "Silver",
+      "activeSubscription": true,
+      "branding": {
+        "logo": "/assets/logos/avalok-langer.png",
+        "primaryColor": "#1A73E8",
+        "secondaryColor": "#34A853",
+        "tagline": "Smart Investments, Secure Future"
+      },
+      "preferences": {
+        "contentStyle": "modern",
+        "approvalMode": "auto",
+        "deliveryTime": "09:00",
+        "timezone": "Asia/Kolkata"
+      }
+    }
+  ],
+  "session": "session_1759289833929"
+}

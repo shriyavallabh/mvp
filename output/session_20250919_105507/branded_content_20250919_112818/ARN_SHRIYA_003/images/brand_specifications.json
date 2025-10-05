@@ -1,0 +1,22 @@
+{
+  "advisor_id": "ARN_SHRIYA_003",
+  "brand_name": "Shriya Vallabh Petkar",
+  "plan": "Standard",
+  "colors": {
+    "primary": "#8B5CF6",
+    "secondary": "#EC4899",
+    "accent": "#A855F7"
+  },
+  "logo_placement": "bottom-right",
+  "font_style": "professional",
+  "text_overlay": {
+    "signature": "Shriya Vallabh Petkar | ARN_SHRIYA_003",
+    "position": "bottom",
+    "color": "#8B5CF6"
+  },
+  "premium_features": {
+    "gold_border": false,
+    "premium_typography": false,
+    "enhanced_logo": false
+  }
+}

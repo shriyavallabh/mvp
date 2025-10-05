@@ -1,0 +1,46 @@
+[
+  {
+    "advisorId": "ADV001",
+    "advisorName": "Shruti Petkar",
+    "status": {
+      "headline": "Markets Dip - 22/9/2025",
+      "summary": "SENSEX: 83091 | NIFTY: 25352",
+      "highlight": "IT +4.41%",
+      "cta": "Tap to view detailed analysis"
+    },
+    "timestamp": "2025-09-22T00:35:00.346Z"
+  },
+  {
+    "advisorId": "ADV002",
+    "advisorName": "Vidyadhar Petkar",
+    "status": {
+      "headline": "Markets Dip - 22/9/2025",
+      "summary": "SENSEX: 83091 | NIFTY: 25352",
+      "highlight": "IT +4.41%",
+      "cta": "Tap to view detailed analysis"
+    },
+    "timestamp": "2025-09-22T00:35:00.346Z"
+  },
+  {
+    "advisorId": "ADV003",
+    "advisorName": "Shriya Vallabh Petkar",
+    "status": {
+      "headline": "Markets Dip - 22/9/2025",
+      "summary": "SENSEX: 83091 | NIFTY: 25352",
+      "highlight": "IT +4.41%",
+      "cta": "Tap to view detailed analysis"
+    },
+    "timestamp": "2025-09-22T00:35:00.346Z"
+  },
+  {
+    "advisorId": "ADV004",
+    "advisorName": "Avalok Langer",
+    "status": {
+      "headline": "Markets Dip - 22/9/2025",
+      "summary": "SENSEX: 83091 | NIFTY: 25352",
+      "highlight": "IT +4.41%",
+      "cta": "Tap to view detailed analysis"
+    },
+    "timestamp": "2025-09-22T00:35:00.346Z"
+  }
+]

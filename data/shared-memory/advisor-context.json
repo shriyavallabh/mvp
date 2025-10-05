@@ -1,0 +1,205 @@
+{
+  "timestamp": "2025-09-17T22:47:55.310455",
+  "advisorContext": {
+    "totalAdvisors": 3,
+    "segments": [
+      "Premium",
+      "Gold",
+      "Silver"
+    ],
+    "focusAreas": [
+      "ETFs",
+      "Goal-based Investment",
+      "Systematic Investment",
+      "Mutual Funds",
+      "Equity Markets",
+      "Tax Planning",
+      "Estate Planning",
+      "SIP Planning",
+      "Child Education Planning",
+      "Financial Literacy",
+      "Portfolio Management",
+      "Small Case Investments",
+      "Insurance",
+      "Digital Gold",
+      "Retirement Planning"
+    ],
+    "demographics": [
+      "Middle Class",
+      "Young Families",
+      "Small Business Owners",
+      "New Investors",
+      "Business Owners",
+      "Young Professionals",
+      "Tech Professionals",
+      "NRIs",
+      "Salaried Professionals",
+      "First-time Investors",
+      "HNI Clients",
+      "Millennials"
+    ]
+  },
+  "segmentationCriteria": {
+    "segments": {
+      "Premium": {
+        "advisors": [
+          "ADV_001"
+        ],
+        "characteristics": {
+          "averageAUM": "\u20b9100+ Crores",
+          "clientProfile": "HNI, Business Owners",
+          "averageTicketSize": "\u20b910+ Lakhs",
+          "contentTone": "Professional/Educational"
+        }
+      },
+      "Gold": {
+        "advisors": [
+          "ADV_002"
+        ],
+        "characteristics": {
+          "averageAUM": "\u20b925-100 Crores",
+          "clientProfile": "Middle Class, Professionals",
+          "averageTicketSize": "\u20b91-10 Lakhs",
+          "contentTone": "Friendly/Educational"
+        }
+      },
+      "Silver": {
+        "advisors": [
+          "ADV_003"
+        ],
+        "characteristics": {
+          "averageAUM": "\u20b95-25 Crores",
+          "clientProfile": "New Investors, Small Savers",
+          "averageTicketSize": "\u20b950K-5 Lakhs",
+          "contentTone": "Simple/Educational"
+        }
+      }
+    },
+    "focusAreas": {
+      "Equity": [],
+      "Debt": [],
+      "Hybrid": [],
+      "Tax Planning": [
+        "ADV_001"
+      ],
+      "Insurance": [
+        "ADV_002"
+      ],
+      "SIP": [],
+      "Retirement Planning": [
+        "ADV_001"
+      ]
+    },
+    "demographics": {
+      "Young Professionals": [
+        "ADV_001"
+      ],
+      "Middle Class Families": [],
+      "HNI Families": [],
+      "Senior Citizens": [],
+      "Business Owners": [
+        "ADV_001"
+      ]
+    }
+  },
+  "brandingRequirements": {
+    "advisors": {
+      "ADV_001": {
+        "brandName": "Wealth Creators",
+        "logoUrl": "https://drive.google.com/file/d/1abc123wealthcreators/view",
+        "colors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853",
+          "accent": "#FFD700"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Investment decisions should be made after careful consideration of your financial goals. Past performance is not indicative of future results.",
+        "contentTone": "Professional",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "ADV_002": {
+        "brandName": "Money Matters",
+        "logoUrl": "https://drive.google.com/file/d/2def456moneymatters/view",
+        "colors": {
+          "primary": "#FF6B6B",
+          "secondary": "#4ECDC4",
+          "accent": "#45B7D1"
+        },
+        "tagline": "Your Financial Growth Partner",
+        "disclaimer": "All investments are subject to market risks. Please read scheme documents carefully before investing.",
+        "contentTone": "Educational",
+        "languages": [
+          "English",
+          "Hindi",
+          "Marathi"
+        ]
+      },
+      "ADV_003": {
+        "brandName": "Smart Invest",
+        "logoUrl": "",
+        "colors": {
+          "primary": "#008080",
+          "secondary": "#F0F8FF",
+          "accent": "#20B2AA"
+        },
+        "tagline": "Smart Investing Made Simple",
+        "disclaimer": "Investment advice is personalized. Please consult before making investment decisions.",
+        "contentTone": "Casual",
+        "languages": [
+          "English"
+        ]
+      }
+    },
+    "brandingAssets": {
+      "logos": [
+        {
+          "advisor": "ADV_001",
+          "url": "https://drive.google.com/file/d/1abc123wealthcreators/view"
+        },
+        {
+          "advisor": "ADV_002",
+          "url": "https://drive.google.com/file/d/2def456moneymatters/view"
+        }
+      ],
+      "colorPalettes": [
+        {
+          "advisor": "ADV_001",
+          "colors": {
+            "primary": "#1A73E8",
+            "secondary": "#34A853",
+            "accent": "#FFD700"
+          }
+        },
+        {
+          "advisor": "ADV_002",
+          "colors": {
+            "primary": "#FF6B6B",
+            "secondary": "#4ECDC4",
+            "accent": "#45B7D1"
+          }
+        },
+        {
+          "advisor": "ADV_003",
+          "colors": {
+            "primary": "#008080",
+            "secondary": "#F0F8FF",
+            "accent": "#20B2AA"
+          }
+        }
+      ],
+      "fonts": []
+    },
+    "templates": {
+      "required": [
+        "LinkedIn Post",
+        "WhatsApp Message",
+        "Market Update",
+        "Educational Content"
+      ],
+      "customizations": []
+    }
+  }
+}

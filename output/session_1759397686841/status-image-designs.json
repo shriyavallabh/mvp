@@ -1,0 +1,214 @@
+{
+  "sessionId": "session_1759397686841",
+  "timestamp": "2025-10-02T09:42:35.134Z",
+  "totalDesigns": 6,
+  "dimensions": "1080x1920",
+  "format": "PNG",
+  "generationMethod": "gemini-2.5-flash",
+  "qualityControl": {
+    "minViralityScore": 8,
+    "validationRequired": true,
+    "autoRegenerate": true,
+    "maxAttempts": 3
+  },
+  "designs": [
+    {
+      "designId": "STATUS_ADV001_001",
+      "advisorId": "ADV001",
+      "advisorName": "Shruti Petkar",
+      "segment": "Premium",
+      "dimensions": "1080x1920",
+      "format": "PNG",
+      "contentType": "market_update",
+      "headline": "IT SECTOR EXPLOSION",
+      "subheadline": "+2.8%",
+      "bodyText": "TCS: +4.8%\nInfosys: +3.2%\nWipro: +2.9%",
+      "ctaText": "Tax optimization opportunity",
+      "designStyle": "Minimalist, Bloomberg-esque, dark mode",
+      "brandColors": {
+        "primary": "#1B365D",
+        "secondary": "#0077B5"
+      },
+      "branding": {
+        "logo": "/assets/logos/shruti-petkar.png",
+        "tagline": "Building Wealth, Creating Trust",
+        "arn": "ARN-125847"
+      },
+      "geminiPrompt": "Create a professional financial WhatsApp Status image (1080x1920 portrait):\n\nLAYOUT & STRUCTURE:\n- Top 30%: Bold headline \"IT SECTOR EXPLOSION\" in large white text (120pt)\n- Middle 40%: Data visualization showing +2.8% with upward arrow\n  * TCS: +4.8% (green)\n  * Infosys: +3.2% (green)\n  * Wipro: +2.9% (green)\n- Bottom 30%: \"Tax optimization opportunity\" message\n\nDESIGN STYLE: Minimalist, Bloomberg-esque, dark mode\n- Dark navy blue gradient background\n- Gold accents for premium feel\n- Clean, minimalist Bloomberg-esque design\n- High contrast for mobile readability\n\nBRANDING:\n- Bottom-left: \"ARN: ARN-125847\" (small white text, 24pt)\n- Bottom-right: Logo placeholder area (150x150px)\n- Footer: \"Building Wealth, Creating Trust\" (30pt)\n\nCOLOR SCHEME:\n- Primary: #1B365D\n- Secondary: #0077B5\n- Accent: Gold #FFD700 for data points\n\nMOBILE OPTIMIZATION:\n- Large, bold fonts (minimum 24pt for small text)\n- High contrast ratios\n- Clear visual hierarchy\n- Professional financial aesthetic\n- No debug text, no \"1080x1920\" watermarks",
+      "fontSizes": {
+        "headline": 120,
+        "subheadline": 96,
+        "bodyText": 48,
+        "cta": 42,
+        "branding": 24
+      },
+      "viralityScore": 9
+    },
+    {
+      "designId": "STATUS_ADV001_002",
+      "advisorId": "ADV001",
+      "advisorName": "Shruti Petkar",
+      "segment": "Premium",
+      "dimensions": "1080x1920",
+      "format": "PNG",
+      "contentType": "wealth_insight",
+      "headline": "SMART MONEY MOVED",
+      "subheadline": "₹3,200",
+      "bodyText": "FII net buyers after 3 weeks\nPortfolio rebalancing signal\nOpportunity window open",
+      "ctaText": "Are you positioned?",
+      "designStyle": "Minimalist, Bloomberg-esque, dark mode",
+      "brandColors": {
+        "primary": "#1B365D",
+        "secondary": "#0077B5"
+      },
+      "branding": {
+        "logo": "/assets/logos/shruti-petkar.png",
+        "tagline": "Building Wealth, Creating Trust",
+        "arn": "ARN-125847"
+      },
+      "geminiPrompt": "Create an exclusive HNI-focused WhatsApp Status image (1080x1920 portrait):\n\nLAYOUT:\n- Top 25%: \"SMART MONEY MOVED\" in bold white capitals (110pt)\n- Center 50%: Huge \"₹3,200 Cr\" number (140pt) with upward trend arrow\n- Bottom 25%: \"FII net buyers | Portfolio signal | Act now\" + branding\n\nDESIGN:\n- Dark charcoal background with subtle texture\n- Gold/blue premium gradient overlays\n- Sophisticated, executive-level aesthetic\n- High-end financial publication quality\n\nCOLORS:\n- Primary: #1B365D\n- Gold accents: #C9A961\n- White text: High contrast\n\nBRANDING:\n- ARN: ARN-125847 (bottom-left, 24pt)\n- Tagline: Building Wealth, Creating Trust (bottom, 28pt)\n- Logo area: bottom-right 150x150px\n\nQUALITY:\n- Grammy-level design standards\n- No debug text\n- Perfect centering\n- Mobile-optimized fonts",
+      "fontSizes": {
+        "headline": 110,
+        "subheadline": 140,
+        "bodyText": 42,
+        "cta": 38,
+        "branding": 24
+      },
+      "viralityScore": 8.8
+    },
+    {
+      "designId": "STATUS_ADV002_001",
+      "advisorId": "ADV002",
+      "advisorName": "Vidyadhar Petkar",
+      "segment": "Gold",
+      "dimensions": "1080x1920",
+      "format": "PNG",
+      "contentType": "market_strategy",
+      "headline": "SECTOR ROTATION",
+      "subheadline": "Your Action Plan",
+      "bodyText": "IT +2.8%: Book Profits\nPharma +1.9%: Accumulate\nCash: Keep 15-20% Ready",
+      "ctaText": "Strategic Rebalancing",
+      "designStyle": "Professional, balanced, data-viz",
+      "brandColors": {
+        "primary": "#2E8B57",
+        "secondary": "#228B22"
+      },
+      "branding": {
+        "logo": "/assets/logos/vidyadhar-petkar.png",
+        "tagline": "Your Financial Growth Partner",
+        "arn": "ARN-138924"
+      },
+      "geminiPrompt": "Create a professional actionable WhatsApp Status image (1080x1920 portrait):\n\nLAYOUT:\n- Top: \"SECTOR ROTATION\" headline (100pt, bold)\n- Upper-middle: \"Your Action Plan\" (70pt)\n- Middle: 3-step visual checklist with icons:\n  ✓ IT +2.8%: Book Profits (green checkmark)\n  ✓ Pharma +1.9%: Accumulate (blue)\n  ✓ Cash: Keep 15-20% (yellow)\n- Bottom: Branding + CTA\n\nDESIGN STYLE: Professional, balanced, data-viz\n- Clean professional layout\n- Balanced data visualization\n- Teal-green color scheme\n- Clear action-oriented design\n\nCOLORS:\n- Primary: #2E8B57\n- Secondary: #228B22\n- Action green: #34A853 for checkmarks\n\nBRANDING:\n- ARN: ARN-138924 (bottom-left, 26pt)\n- \"Your Financial Growth Partner\" (bottom center, 32pt)\n- Logo space: bottom-right 150x150px\n\nMOBILE OPTIMIZED:\n- Large fonts (min 26pt)\n- High contrast\n- Scannable layout\n- Professional credibility",
+      "fontSizes": {
+        "headline": 100,
+        "subheadline": 70,
+        "bodyText": 46,
+        "cta": 40,
+        "branding": 26
+      },
+      "viralityScore": 8.9
+    },
+    {
+      "designId": "STATUS_ADV003_001",
+      "advisorId": "ADV003",
+      "advisorName": "Shriya Vallabh Petkar",
+      "segment": "Premium",
+      "dimensions": "1080x1920",
+      "format": "PNG",
+      "contentType": "market_update",
+      "headline": "IT SECTOR EXPLOSION",
+      "subheadline": "+2.8%",
+      "bodyText": "TCS: +4.8%\nInfosys: +3.2%\nWipro: +2.9%",
+      "ctaText": "Tax optimization opportunity",
+      "designStyle": "Minimalist, Bloomberg-esque, dark mode",
+      "brandColors": {
+        "primary": "#8B4513",
+        "secondary": "#CD853F"
+      },
+      "branding": {
+        "logo": "/assets/logos/shriya-vallabh.png",
+        "tagline": "Empowering Financial Decisions",
+        "arn": "ARN-147852"
+      },
+      "geminiPrompt": "Create a professional financial WhatsApp Status image (1080x1920 portrait):\n\nLAYOUT & STRUCTURE:\n- Top 30%: Bold headline \"IT SECTOR EXPLOSION\" in large white text (120pt)\n- Middle 40%: Data visualization showing +2.8% with upward arrow\n  * TCS: +4.8% (green)\n  * Infosys: +3.2% (green)\n  * Wipro: +2.9% (green)\n- Bottom 30%: \"Tax optimization opportunity\" message\n\nDESIGN STYLE: Minimalist, Bloomberg-esque, dark mode\n- Dark navy blue gradient background\n- Gold accents for premium feel\n- Clean, minimalist Bloomberg-esque design\n- High contrast for mobile readability\n\nBRANDING:\n- Bottom-left: \"ARN: ARN-147852\" (small white text, 24pt)\n- Bottom-right: Logo placeholder area (150x150px)\n- Footer: \"Empowering Financial Decisions\" (30pt)\n\nCOLOR SCHEME:\n- Primary: #8B4513\n- Secondary: #CD853F\n- Accent: Gold #FFD700 for data points\n\nMOBILE OPTIMIZATION:\n- Large, bold fonts (minimum 24pt for small text)\n- High contrast ratios\n- Clear visual hierarchy\n- Professional financial aesthetic\n- No debug text, no \"1080x1920\" watermarks",
+      "fontSizes": {
+        "headline": 120,
+        "subheadline": 96,
+        "bodyText": 48,
+        "cta": 42,
+        "branding": 24
+      },
+      "viralityScore": 9
+    },
+    {
+      "designId": "STATUS_ADV003_002",
+      "advisorId": "ADV003",
+      "advisorName": "Shriya Vallabh Petkar",
+      "segment": "Premium",
+      "dimensions": "1080x1920",
+      "format": "PNG",
+      "contentType": "wealth_insight",
+      "headline": "SMART MONEY MOVED",
+      "subheadline": "₹3,200",
+      "bodyText": "FII net buyers after 3 weeks\nPortfolio rebalancing signal\nOpportunity window open",
+      "ctaText": "Are you positioned?",
+      "designStyle": "Minimalist, Bloomberg-esque, dark mode",
+      "brandColors": {
+        "primary": "#8B4513",
+        "secondary": "#CD853F"
+      },
+      "branding": {
+        "logo": "/assets/logos/shriya-vallabh.png",
+        "tagline": "Empowering Financial Decisions",
+        "arn": "ARN-147852"
+      },
+      "geminiPrompt": "Create an exclusive HNI-focused WhatsApp Status image (1080x1920 portrait):\n\nLAYOUT:\n- Top 25%: \"SMART MONEY MOVED\" in bold white capitals (110pt)\n- Center 50%: Huge \"₹3,200 Cr\" number (140pt) with upward trend arrow\n- Bottom 25%: \"FII net buyers | Portfolio signal | Act now\" + branding\n\nDESIGN:\n- Dark charcoal background with subtle texture\n- Gold/blue premium gradient overlays\n- Sophisticated, executive-level aesthetic\n- High-end financial publication quality\n\nCOLORS:\n- Primary: #8B4513\n- Gold accents: #C9A961\n- White text: High contrast\n\nBRANDING:\n- ARN: ARN-147852 (bottom-left, 24pt)\n- Tagline: Empowering Financial Decisions (bottom, 28pt)\n- Logo area: bottom-right 150x150px\n\nQUALITY:\n- Grammy-level design standards\n- No debug text\n- Perfect centering\n- Mobile-optimized fonts",
+      "fontSizes": {
+        "headline": 110,
+        "subheadline": 140,
+        "bodyText": 42,
+        "cta": 38,
+        "branding": 24
+      },
+      "viralityScore": 8.8
+    },
+    {
+      "designId": "STATUS_ADV004_001",
+      "advisorId": "ADV004",
+      "advisorName": "Avalok Langer",
+      "segment": "Silver",
+      "dimensions": "1080x1920",
+      "format": "PNG",
+      "contentType": "simple_motivation",
+      "headline": "START YOUR SIP",
+      "subheadline": "₹5,000/month",
+      "bodyText": "10 years → ₹11.5 L\n15 years → ₹23.8 L\n20 years → ₹49.5 L",
+      "ctaText": "Begin Your Journey Today!",
+      "designStyle": "Colorful, friendly, visual-first",
+      "brandColors": {
+        "primary": "#1A73E8",
+        "secondary": "#34A853"
+      },
+      "branding": {
+        "logo": "/assets/logos/avalok-langer.png",
+        "tagline": "Smart Investments, Secure Future",
+        "arn": "ARN-169741"
+      },
+      "geminiPrompt": "Create a friendly encouraging WhatsApp Status image (1080x1920 portrait):\n\nLAYOUT:\n- Top 20%: \"START YOUR SIP\" in friendly bold font (110pt)\n- Middle 60%: Upward growth chart showing:\n  * ₹5,000/month starting point\n  * 10 years → ₹11.5 Lakhs (milestone 1)\n  * 15 years → ₹23.8 Lakhs (milestone 2)\n  * 20 years → ₹49.5 Lakhs (celebration!)\n- Bottom 20%: \"Begin Your Journey Today!\" + branding\n\nDESIGN STYLE: Colorful, friendly, visual-first\n- Colorful, friendly, approachable\n- Bright engaging colors\n- Visual growth metaphor (seedling to tree)\n- Celebratory, encouraging vibe\n\nCOLORS:\n- Primary: #1A73E8\n- Secondary: #34A853\n- Bright accents: #4CAF50 (growth green), #FF9800 (warm orange)\n\nVISUAL ELEMENTS:\n- Upward trending arrow or growth chart\n- Celebration icons (🎯, 🚀, 💚 incorporated in design)\n- Friendly, non-intimidating aesthetic\n\nBRANDING:\n- ARN: ARN-169741 (bottom-left, 28pt)\n- \"Smart Investments, Secure Future\" (bottom, 34pt)\n- Logo area: bottom-right 150x150px\n\nEMOTION: Empowering, encouraging, achievable\nQUALITY: High visual appeal, scroll-stopping design",
+      "fontSizes": {
+        "headline": 110,
+        "subheadline": 90,
+        "bodyText": 52,
+        "cta": 46,
+        "branding": 28
+      },
+      "viralityScore": 8.7
+    }
+  ],
+  "outputDirectories": {
+    "specifications": "/Users/shriyavallabh/Desktop/mvp/output/session_1759397686841/status-image-designs.json",
+    "generated": "/Users/shriyavallabh/Desktop/mvp/output/session_1759397686841/images/status",
+    "validated": "/Users/shriyavallabh/Desktop/mvp/output/session_1759397686841/images/status/validated",
+    "rejected": "/Users/shriyavallabh/Desktop/mvp/output/session_1759397686841/images/status/rejected"
+  }
+}

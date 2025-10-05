@@ -1,0 +1,327 @@
+{
+  "designId": "viral_001_fii_mystery",
+  "title": "₹2.35L Cr EXIT: Who's Buying?",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920
+  },
+  "layers": [
+    {
+      "layerId": 1,
+      "type": "background",
+      "properties": {
+        "gradient": {
+          "type": "radial",
+          "colors": ["#0A0A0A", "#1A1A1A", "#2D2D2D"],
+          "center": {"x": 540, "y": 960}
+        },
+        "pattern": {
+          "type": "financial_grid",
+          "opacity": 0.1,
+          "color": "#FFD700"
+        }
+      }
+    },
+    {
+      "layerId": 2,
+      "type": "text",
+      "content": "₹2.35L Cr EXIT",
+      "properties": {
+        "font": "Arial Black",
+        "fontSize": 120,
+        "fontWeight": "900",
+        "color": "#FF3333",
+        "position": {"x": 540, "y": 288},
+        "align": "center",
+        "effects": [
+          {
+            "type": "shadow",
+            "offsetX": 4,
+            "offsetY": 4,
+            "blur": 8,
+            "color": "#000000"
+          },
+          {
+            "type": "glow",
+            "radius": 20,
+            "color": "#FF0000",
+            "opacity": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 3,
+      "type": "text",
+      "content": "Who's Buying?",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 96,
+        "fontWeight": "bold",
+        "color": "#FFFFFF",
+        "position": {"x": 540, "y": 480},
+        "align": "center",
+        "effects": [
+          {
+            "type": "glow",
+            "radius": 15,
+            "color": "#FFD700",
+            "opacity": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 4,
+      "type": "shape",
+      "subtype": "rectangle",
+      "properties": {
+        "position": {"x": 270, "y": 960},
+        "size": {"width": 500, "height": 400},
+        "fill": {
+          "type": "gradient",
+          "colors": ["#660000", "#330000"],
+          "direction": "vertical"
+        },
+        "stroke": {
+          "color": "#FF0000",
+          "width": 3
+        },
+        "borderRadius": 20
+      }
+    },
+    {
+      "layerId": 5,
+      "type": "text",
+      "content": "FIIs SELLING",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 48,
+        "fontWeight": "bold",
+        "color": "#FF4444",
+        "position": {"x": 270, "y": 820},
+        "align": "center"
+      }
+    },
+    {
+      "layerId": 6,
+      "type": "text",
+      "content": "₹2,35,000 Cr",
+      "properties": {
+        "font": "Arial Black",
+        "fontSize": 72,
+        "fontWeight": "900",
+        "color": "#FF0000",
+        "position": {"x": 270, "y": 960},
+        "align": "center",
+        "effects": [
+          {
+            "type": "pulse",
+            "duration": 2,
+            "scale": 1.1
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 7,
+      "type": "icon",
+      "content": "arrow_down",
+      "properties": {
+        "size": 100,
+        "color": "#FF0000",
+        "position": {"x": 270, "y": 1080},
+        "animation": "bounce"
+      }
+    },
+    {
+      "layerId": 8,
+      "type": "shape",
+      "subtype": "rectangle",
+      "properties": {
+        "position": {"x": 810, "y": 960},
+        "size": {"width": 500, "height": 400},
+        "fill": {
+          "type": "gradient",
+          "colors": ["#004400", "#002200"],
+          "direction": "vertical"
+        },
+        "stroke": {
+          "color": "#00FF00",
+          "width": 3
+        },
+        "borderRadius": 20
+      }
+    },
+    {
+      "layerId": 9,
+      "type": "text",
+      "content": "DIIs BUYING",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 48,
+        "fontWeight": "bold",
+        "color": "#00FF00",
+        "position": {"x": 810, "y": 820},
+        "align": "center"
+      }
+    },
+    {
+      "layerId": 10,
+      "type": "text",
+      "content": "₹2,20,000 Cr",
+      "properties": {
+        "font": "Arial Black",
+        "fontSize": 72,
+        "fontWeight": "900",
+        "color": "#00FF00",
+        "position": {"x": 810, "y": 960},
+        "align": "center",
+        "effects": [
+          {
+            "type": "glow",
+            "radius": 10,
+            "color": "#00FF00",
+            "opacity": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 11,
+      "type": "icon",
+      "content": "arrow_up",
+      "properties": {
+        "size": 100,
+        "color": "#00FF00",
+        "position": {"x": 810, "y": 1080},
+        "animation": "bounce"
+      }
+    },
+    {
+      "layerId": 12,
+      "type": "text",
+      "content": "VS",
+      "properties": {
+        "font": "Impact",
+        "fontSize": 84,
+        "fontWeight": "900",
+        "color": "#FFD700",
+        "position": {"x": 540, "y": 960},
+        "align": "center",
+        "effects": [
+          {
+            "type": "lightning",
+            "color": "#FFFF00",
+            "frequency": 3
+          },
+          {
+            "type": "glow",
+            "radius": 30,
+            "color": "#FFD700",
+            "opacity": 1
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 13,
+      "type": "text",
+      "content": "Biggest Exit in History!",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 56,
+        "fontWeight": "bold",
+        "color": "#FFFF00",
+        "position": {"x": 540, "y": 1300},
+        "align": "center",
+        "background": {
+          "color": "#000000",
+          "padding": 10,
+          "borderRadius": 10
+        }
+      }
+    },
+    {
+      "layerId": 14,
+      "type": "text",
+      "content": "Markets Still UP 0.59%",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 56,
+        "fontWeight": "bold",
+        "color": "#00FF00",
+        "position": {"x": 540, "y": 1400},
+        "align": "center"
+      }
+    },
+    {
+      "layerId": 15,
+      "type": "shape",
+      "subtype": "rectangle",
+      "properties": {
+        "position": {"x": 540, "y": 1680},
+        "size": {"width": 900, "height": 120},
+        "fill": "#000000",
+        "stroke": {
+          "color": "#00FF00",
+          "width": 2
+        },
+        "borderRadius": 60
+      }
+    },
+    {
+      "layerId": 16,
+      "type": "text",
+      "content": "↑ See Which Stocks DIIs Are Buying",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 64,
+        "fontWeight": "bold",
+        "color": "#00FF00",
+        "position": {"x": 540, "y": 1680},
+        "align": "center",
+        "animation": "slide_up"
+      }
+    }
+  ],
+  "animations": [
+    {
+      "targetLayer": 6,
+      "type": "pulse",
+      "duration": 2000,
+      "repeat": "infinite"
+    },
+    {
+      "targetLayer": 7,
+      "type": "bounce",
+      "duration": 1000,
+      "repeat": "infinite"
+    },
+    {
+      "targetLayer": 11,
+      "type": "bounce",
+      "duration": 1000,
+      "repeat": "infinite"
+    },
+    {
+      "targetLayer": 12,
+      "type": "flash",
+      "duration": 3000,
+      "repeat": "infinite"
+    },
+    {
+      "targetLayer": 16,
+      "type": "slide",
+      "direction": "up",
+      "distance": 20,
+      "duration": 1500,
+      "repeat": "infinite"
+    }
+  ],
+  "exportSettings": {
+    "format": "PNG",
+    "quality": 100,
+    "optimization": "web"
+  }
+}

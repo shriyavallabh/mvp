@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "sessionId": "session_20250919_023038",
+    "timestamp": "2025-09-19T02:35:00Z",
+    "totalAdvisors": 101,
+    "designsPerAdvisor": 3,
+    "totalDesigns": 303
+  },
+
+  "advisorDesigns": {
+    "ARN_SHRUTI_001": {
+      "segment": "Active",
+      "designs": [
+        {
+          "designId": "SHRUTI_SEBI_001",
+          "baseDesign": "EDU_002",
+          "theme": "SEBI F&O Changes Impact",
+          "customization": {
+            "brandName": "Shruti Petkar",
+            "brandColors": {
+              "primary": "#1A73E8",
+              "secondary": "#34A853"
+            },
+            "tagline": "Building Wealth, Creating Trust",
+            "arnNumber": "ARN_SHRUTI_001"
+          },
+          "geminiPrompt": "Create a WhatsApp Status image (1080x1920px) for Active segment advisor Shruti Petkar featuring SEBI F&O regulation changes. Use dark professional gradient #1A237E to #283593 with brand colors #1A73E8 and #34A853. Show before/after comparison of contract sizes, weekly expiry changes, and margin impacts. Headline 96px 'F&O Rules Changed!', subheading 72px, body text 56px with data points. Include 'Building Wealth, Creating Trust' tagline and ARN_SHRUTI_001 at bottom. Professional data visualization style."
+        },
+        {
+          "designId": "SHRUTI_DASHBOARD_001",
+          "baseDesign": "PERF_001",
+          "theme": "Weekly Market Performance",
+          "customization": {
+            "brandName": "Shruti Petkar",
+            "dataFocus": "Active trader metrics",
+            "updateFrequency": "Twice daily"
+          }
+        },
+        {
+          "designId": "SHRUTI_SMALLCAP_001",
+          "baseDesign": "ALERT_001",
+          "theme": "Small Cap Opportunity Alert",
+          "customization": {
+            "riskDisclosure": "Enhanced for active segment",
+            "technicalIndicators": "Added RSI, MACD references"
+          }
+        }
+      ]
+    },
+
+    "ARN_VIDYADHAR_002": {
+      "segment": "Active",
+      "designs": [
+        {
+          "designId": "VIDYA_PSU_001",
+          "baseDesign": "PSU_001",
+          "theme": "PSU Banks Sector Analysis",
+          "customization": {
+            "brandName": "Vidyadhar Petkar",
+            "brandColors": {
+              "primary": "#FF6B35",
+              "secondary": "#004E89"
+            },
+            "focusArea": "Investment opportunities",
+            "arnNumber": "ARN_VIDYADHAR_002"
+          },
+          "geminiPrompt": "Create a WhatsApp Status image (1080x1920px) for Active segment advisor Vidyadhar Petkar analyzing PSU Banks rally near 52-week highs. Use banking blue gradient #0277BD to #0288D1 with brand accents #FF6B35 and #004E89. Display PSU Banks +2% performance with Q3 results preview, asset quality metrics, and profit booking advice. Professional sector analysis layout with 96px headline, 72px subheading, 56px data points. Include ARN_VIDYADHAR_002."
+        },
+        {
+          "designId": "VIDYA_COMPARE_001",
+          "baseDesign": "COMPARE_001",
+          "theme": "FD vs Debt Funds After-Tax Returns"
+        },
+        {
+          "designId": "VIDYA_MARKET_001",
+          "baseDesign": "PERF_001",
+          "theme": "Market Dashboard with Technical Levels"
+        }
+      ]
+    },
+
+    "ARN_AVALOK_003": {
+      "segment": "Gold",
+      "designs": [
+        {
+          "designId": "AVALOK_GLOBAL_001",
+          "baseDesign": "GOLD_001",
+          "theme": "Global Portfolio Strategy",
+          "customization": {
+            "brandName": "Avalok Advisors",
+            "brandColors": {
+              "primary": "#D4A574",
+              "secondary": "#2C3E50"
+            },
+            "exclusiveTag": "HNI Exclusive Insights",
+            "arnNumber": "ARN_AVALOK_003"
+          },
+          "geminiPrompt": "Create an exclusive WhatsApp Status image (1080x1920px) for Gold segment HNI clients featuring global portfolio strategy with Dollar at ₹86. Premium black gradient background with gold accents #D4A574. Minimalist world map showing 15-20% international allocation strategy. Focus on US tech correction as entry opportunity, geographic hedging against INR volatility. Sophisticated typography with 96px headline 'Dollar at ₹86', elegant 72px subheading, 56px insight points. Include 'HNI Exclusive Insights' tag and discrete ARN_AVALOK_003. Executive brief style with generous white space."
+        },
+        {
+          "designId": "AVALOK_ESTATE_001",
+          "theme": "Estate Planning Strategies",
+          "content": "Wealth preservation through trusts and succession planning"
+        },
+        {
+          "designId": "AVALOK_ALTERNATIVE_001",
+          "theme": "Alternative Investments",
+          "content": "Private equity and REIT opportunities"
+        }
+      ]
+    }
+  },
+
+  "standardSegmentTemplates": {
+    "description": "Templates for 97 Standard segment advisors",
+    "designs": [
+      {
+        "templateId": "STD_EDU_001",
+        "baseDesign": "EDU_001",
+        "theme": "Market Correction Explained Simply",
+        "geminiPromptTemplate": "Create a WhatsApp Status image (1080x1920px) for Standard segment advisor [ADVISOR_NAME] explaining market corrections simply. Use friendly gradient #E8F5E9 to #C8E6C9 with colors [BRAND_PRIMARY] and [BRAND_SECONDARY]. Show 'Market Dip = Opportunity!' with simple line graph, SIP benefits during corrections. Include easy-to-understand bullet points with emojis. Headline 96px, body 56px, CTA 64px 'Start Your SIP Today'. Add [BRAND_NAME] logo at bottom with [ARN_NUMBER]. Educational and encouraging tone."
+      },
+      {
+        "templateId": "STD_TAX_001",
+        "baseDesign": "TAX_001",
+        "theme": "Tax Saving Countdown",
+        "customizableElements": ["countdown_days", "savings_amount", "advisor_branding"]
+      },
+      {
+        "templateId": "STD_CALC_001",
+        "baseDesign": "CALC_001",
+        "theme": "SIP Calculator Visual",
+        "customizableElements": ["monthly_amount", "target_corpus", "years", "advisor_branding"]
+      },
+      {
+        "templateId": "STD_MYTH_001",
+        "baseDesign": "MYTH_001",
+        "theme": "Investment Myths Busted",
+        "rotatingMyths": [
+          "Need large capital to start",
+          "Stock market is gambling",
+          "Only for experts",
+          "Can't beat inflation with safe investments"
+        ]
+      },
+      {
+        "templateId": "STD_GOAL_001",
+        "baseDesign": "GOAL_001",
+        "theme": "Goal Planning Visualizer",
+        "goalTypes": ["Education", "Retirement", "Home", "Marriage"]
+      }
+    ]
+  },
+
+  "contentRotationStrategy": {
+    "daily": {
+      "morning": "Market updates, motivational content",
+      "afternoon": "Educational content, calculators",
+      "evening": "Tips, myth busters"
+    },
+    "weekly": {
+      "monday": "Week ahead outlook",
+      "tuesday": "Educational series",
+      "wednesday": "Market pulse",
+      "thursday": "Tax and compliance",
+      "friday": "Portfolio review reminders",
+      "weekend": "Goal planning, motivation"
+    },
+    "monthly": {
+      "week1": "Market review and outlook",
+      "week2": "Investment education",
+      "week3": "Tax planning",
+      "week4": "Goal setting and review"
+    }
+  },
+
+  "emergencyContentTemplates": {
+    "marketCrash": {
+      "template": "Stay Calm, Stay Invested",
+      "elements": "Historical recovery data, SIP continuation importance"
+    },
+    "policyChange": {
+      "template": "What This Means for You",
+      "elements": "Simple explanation, action items"
+    },
+    "opportunity": {
+      "template": "Opportunity Alert",
+      "elements": "Entry points, risk-appropriate advice"
+    }
+  },
+
+  "performanceMetrics": {
+    "expectedEngagement": {
+      "standard": "50-100 views per status",
+      "active": "100-200 views per status",
+      "gold": "20-50 views (exclusive circle)"
+    },
+    "optimalPostingTime": {
+      "standard": "9:00 AM, 6:00 PM",
+      "active": "8:30 AM, 3:30 PM (market hours)",
+      "gold": "Tuesday/Thursday mornings"
+    }
+  },
+
+  "complianceElements": {
+    "mandatoryDisclosures": [
+      "Mutual fund investments are subject to market risks",
+      "Read all scheme related documents carefully",
+      "Past performance is not indicative of future results"
+    ],
+    "arnDisplay": {
+      "visibility": "Always visible",
+      "minSize": "42px",
+      "placement": "Bottom area"
+    },
+    "sebiGuidelines": {
+      "claims": "No assured returns",
+      "comparisons": "Fair and factual",
+      "risksDisclosure": "Prominent display"
+    }
+  },
+
+  "deliverySummary": {
+    "readyForGeneration": true,
+    "totalUniqueDesigns": 15,
+    "totalAdvisorCustomizations": 303,
+    "segmentBreakdown": {
+      "standard": {
+        "advisors": 97,
+        "designsEach": 3,
+        "total": 291
+      },
+      "active": {
+        "advisors": 3,
+        "designsEach": 3,
+        "total": 9
+      },
+      "gold": {
+        "advisors": 1,
+        "designsEach": 3,
+        "total": 3
+      }
+    },
+    "geminiPrompts": "Included for each design",
+    "mobileOptimized": true,
+    "fontHierarchy": "96px headline, 72px subheading, 56px body, 64px CTA, 42px footer"
+  }
+}

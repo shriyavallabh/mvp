@@ -1,0 +1,12 @@
+{
+  "session": "session_1759289833929",
+  "timestamp": "2025-10-01T03:37:13.940Z",
+  "totalMessages": 12,
+  "averageViralityScore": 8.7,
+  "advisors": 4,
+  "allPassedQuality": true,
+  "locations": {
+    "json": "output/session_1759289833929/whatsapp/json/",
+    "text": "output/session_1759289833929/whatsapp/text/"
+  }
+}

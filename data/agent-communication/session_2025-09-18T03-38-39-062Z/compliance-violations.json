@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-09-18T09:44:48.254140",
+  "from": "compliance-validator",
+  "to": "whatsapp-message-creator",
+  "type": "compliance_violations",
+  "priority": "critical",
+  "data": {
+    "session_id": "session_2025-09-18T03-38-39-062Z",
+    "violations_found": 28,
+    "status": "REJECTED",
+    "required_fixes": [
+      "Add market risk disclaimers to ALL WhatsApp messages",
+      "Ensure ARN numbers are visible in all content",
+      "Add document reading advisories where missing"
+    ],
+    "regeneration_required": true
+  }
+}

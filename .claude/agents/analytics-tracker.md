@@ -1,7 +1,7 @@
 ---
 name: analytics-tracker
 description: Monitors and analyzes content performance metrics, providing actionable insights for continuous improvement
-model: opus
+model: claude-sonnet-4
 color: navy
 ---
 

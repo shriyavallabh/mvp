@@ -1,0 +1,92 @@
+{
+  "session_id": "session_20250919_105507",
+  "analysis_timestamp": "2025-09-19T11:15:39.341286",
+  "overall_virality_score": 9.08,
+  "design_analysis": [
+    {
+      "design_id": "village_crorepati_shock",
+      "virality_score": 9.2,
+      "viral_elements": [
+        "Success story",
+        "Visual metaphor",
+        "Strong call-to-action",
+        "Emotional trigger"
+      ],
+      "target_emotions": [
+        "Shock",
+        "FOMO",
+        "Aspiration",
+        "Urgency"
+      ],
+      "predicted_engagement": "92.0% above average"
+    },
+    {
+      "design_id": "fo_reality_shock",
+      "virality_score": 8.8,
+      "viral_elements": [
+        "Success story",
+        "Visual metaphor",
+        "Strong call-to-action",
+        "Emotional trigger"
+      ],
+      "target_emotions": [
+        "Shock",
+        "FOMO",
+        "Aspiration",
+        "Urgency"
+      ],
+      "predicted_engagement": "88.0% above average"
+    },
+    {
+      "design_id": "coffee_wealth_calculator",
+      "virality_score": 9.0,
+      "viral_elements": [
+        "Success story",
+        "Visual metaphor",
+        "Strong call-to-action",
+        "Emotional trigger"
+      ],
+      "target_emotions": [
+        "Shock",
+        "FOMO",
+        "Aspiration",
+        "Urgency"
+      ],
+      "predicted_engagement": "90.0% above average"
+    },
+    {
+      "design_id": "auto_driver_success",
+      "virality_score": 9.5,
+      "viral_elements": [
+        "Success story",
+        "Visual metaphor",
+        "Strong call-to-action",
+        "Emotional trigger"
+      ],
+      "target_emotions": [
+        "Shock",
+        "FOMO",
+        "Aspiration",
+        "Urgency"
+      ],
+      "predicted_engagement": "95.0% above average"
+    },
+    {
+      "design_id": "grammy_portfolio",
+      "virality_score": 8.9,
+      "viral_elements": [
+        "Success story",
+        "Visual metaphor",
+        "Strong call-to-action",
+        "Emotional trigger"
+      ],
+      "target_emotions": [
+        "Shock",
+        "FOMO",
+        "Aspiration",
+        "Urgency"
+      ],
+      "predicted_engagement": "89.0% above average"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "immediate": [
+    "🔍 Check if you received \"Hello World\" test message",
+    "📱 Test if any of the 3 phone numbers received emergency test",
+    "⚙️ Check quality rating and account restrictions above",
+    "🔐 Verify business verification status",
+    "📧 Contact WhatsApp Business Support if account restricted"
+  ],
+  "shortTerm": [
+    "🎯 Deploy QR code engagement strategy immediately",
+    "🌐 Add click-to-WhatsApp buttons on website",
+    "📧 Email existing customers with engagement links",
+    "📱 Get 1-2 customers to message you first as test",
+    "🔄 Try different WhatsApp Business Account if available"
+  ],
+  "mediumTerm": [
+    "🏢 Complete business verification if not done",
+    "📋 Create UTILITY templates instead of MARKETING",
+    "📞 Consider using different phone number",
+    "🤝 Partner with verified WhatsApp Business provider",
+    "📊 Build reputation gradually with engaged users"
+  ],
+  "nuclear": [
+    "💼 Create new WhatsApp Business Account",
+    "📱 Use different phone number completely",
+    "🏢 Get business verified through Facebook representative",
+    "🤝 Use WhatsApp Business API partner (like WATI)",
+    "📧 Switch to email + SMS until WhatsApp resolved"
+  ]
+}

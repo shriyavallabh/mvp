@@ -1,0 +1,30 @@
+{
+  "sessionId": "mcp_session_2025-09-17T22-05-42",
+  "agentName": "compliance-validator",
+  "status": "pending",
+  "data": {
+    "validations": {},
+    "compliance": {},
+    "violations": [],
+    "recommendations": {},
+    "approvals": {}
+  },
+  "metadata": {
+    "itemsValidated": 0,
+    "complianceScore": "pending",
+    "violationsFound": 0,
+    "approvalsGranted": 0
+  },
+  "structure": {
+    "validations": "Validation results for all content types",
+    "compliance": "Compliance scores and assessments",
+    "violations": "Identified compliance violations",
+    "recommendations": "Recommendations for compliance improvement",
+    "approvals": "Content approval status and workflows"
+  },
+  "dependencies": {
+    "requires": ["linkedin-content", "whatsapp-content", "branded-content"],
+    "provides": ["compliance-status", "validation-results", "approval-workflow"]
+  },
+  "timestamp": "2025-09-17T22:05:42Z"
+}

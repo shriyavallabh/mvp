@@ -1,0 +1,72 @@
+{
+  "timestamp": "2025-09-17T19:48:30.191835",
+  "agent": "fatigue-checker",
+  "status": "success",
+  "total_content_analyzed": 6,
+  "uniqueness_score": 0.8979811643364631,
+  "average_similarity": 0.10201883566353682,
+  "average_diversity": 0.575,
+  "high_similarity_count": 0,
+  "similarity_matrix": [
+    {
+      "content1": "linkedin_ADV_001",
+      "content2": "linkedin_ADV_002",
+      "similarity": 0.16119402985074627
+    },
+    {
+      "content1": "linkedin_ADV_001",
+      "content2": "linkedin_ADV_003",
+      "similarity": 0.16666666666666666
+    },
+    {
+      "content1": "linkedin_ADV_001",
+      "content2": "whatsapp_ADV_001",
+      "similarity": 0.11160714285714286
+    },
+    {
+      "content1": "linkedin_ADV_001",
+      "content2": "whatsapp_ADV_002",
+      "similarity": 0.10714285714285714
+    },
+    {
+      "content1": "linkedin_ADV_001",
+      "content2": "whatsapp_ADV_003",
+      "similarity": 0.043668122270742356
+    },
+    {
+      "content1": "linkedin_ADV_002",
+      "content2": "linkedin_ADV_003",
+      "similarity": 0.2073170731707317
+    },
+    {
+      "content1": "linkedin_ADV_002",
+      "content2": "whatsapp_ADV_001",
+      "similarity": 0.0423728813559322
+    },
+    {
+      "content1": "linkedin_ADV_002",
+      "content2": "whatsapp_ADV_002",
+      "similarity": 0.11363636363636363
+    },
+    {
+      "content1": "linkedin_ADV_002",
+      "content2": "whatsapp_ADV_003",
+      "similarity": 0.039647577092511016
+    },
+    {
+      "content1": "linkedin_ADV_003",
+      "content2": "whatsapp_ADV_001",
+      "similarity": 0.053497942386831275
+    }
+  ],
+  "diversity_scores": {
+    "opening_phrases": 0.6666666666666666,
+    "closing_phrases": 0.6666666666666666,
+    "key_themes": 0.3,
+    "cta_variations": 0.6666666666666666
+  },
+  "recommendations": [
+    "Vary opening phrases more for better engagement",
+    "Use different call-to-action formats"
+  ]
+}

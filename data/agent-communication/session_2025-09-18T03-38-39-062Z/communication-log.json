@@ -1,0 +1,36 @@
+{
+  "sessionId": "session_2025-09-18T03-38-39-062Z",
+  "timestamp": "2025-09-18T03:38:39.062Z",
+  "communicationLog": [],
+  "channels": {
+    "agentToAgent": {
+      "messages": [],
+      "lastActivity": null
+    },
+    "orchestratorToAgent": {
+      "messages": [],
+      "lastActivity": null
+    },
+    "agentToOrchestrator": {
+      "messages": [],
+      "lastActivity": null
+    }
+  },
+  "messageQueue": {
+    "pending": [],
+    "processing": [],
+    "completed": []
+  },
+  "communicationMetrics": {
+    "totalMessages": 0,
+    "messagesByType": {},
+    "messagesByAgent": {},
+    "averageResponseTime": null
+  },
+  "isolation": {
+    "sessionBoundary": true,
+    "messagingEncapsulation": true,
+    "crossSessionMessaging": false
+  },
+  "lastUpdated": "2025-09-18T03:38:39.062Z"
+}

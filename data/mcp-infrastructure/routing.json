@@ -1,0 +1,93 @@
+{
+  "sessionId": "session_20250919_023038",
+  "createdAt": "2025-09-19T02:30:38.000Z",
+  "routingRules": {
+    "feedback": {
+      "defaultRoute": "data/agent-communication/session_20250919_023038/feedback",
+      "rules": [
+        {
+          "condition": "messageType === 'feedback'",
+          "action": "broadcast",
+          "targets": ["all"]
+        },
+        {
+          "condition": "messageType === 'correction'",
+          "action": "direct",
+          "targets": ["sender-specific"]
+        }
+      ]
+    },
+    "quality": {
+      "defaultRoute": "data/agent-communication/session_20250919_023038/quality",
+      "rules": [
+        {
+          "condition": "messageType === 'quality-score'",
+          "action": "multicast",
+          "targets": ["compliance-validator", "distribution-controller"]
+        },
+        {
+          "condition": "priority === 'critical'",
+          "action": "immediate-broadcast",
+          "targets": ["all"]
+        }
+      ]
+    },
+    "compliance": {
+      "defaultRoute": "data/agent-communication/session_20250919_023038/compliance",
+      "rules": [
+        {
+          "condition": "messageType === 'violation'",
+          "action": "immediate-alert",
+          "targets": ["distribution-controller", "state-manager"]
+        },
+        {
+          "condition": "messageType === 'approval'",
+          "action": "notify",
+          "targets": ["requesting-agent"]
+        }
+      ]
+    },
+    "state": {
+      "defaultRoute": "data/agent-communication/session_20250919_023038/state",
+      "rules": [
+        {
+          "condition": "messageType === 'state-sync'",
+          "action": "persist-and-broadcast",
+          "targets": ["state-manager", "all"]
+        },
+        {
+          "condition": "sessionId !== currentSession",
+          "action": "reject",
+          "reason": "Cross-session contamination prevention"
+        }
+      ]
+    },
+    "coordination": {
+      "defaultRoute": "data/agent-communication/session_20250919_023038/coordination",
+      "rules": [
+        {
+          "condition": "messageType === 'task-assignment'",
+          "action": "direct",
+          "targets": ["assigned-agent"]
+        },
+        {
+          "condition": "messageType === 'completion-notification'",
+          "action": "cascade",
+          "targets": ["dependent-agents"]
+        }
+      ]
+    }
+  },
+  "isolationRules": {
+    "sessionBoundary": {
+      "enforceSessionIsolation": true,
+      "allowCrossSession": false,
+      "sessionPrefix": "session_20250919_023038"
+    },
+    "messageDelivery": {
+      "maxRetries": 3,
+      "timeoutMs": 5000,
+      "fallbackRoute": "coordination"
+    }
+  }
+}

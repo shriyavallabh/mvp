@@ -45,10 +45,6 @@ hooks:
     - command: "node orchestration/hooks/check-feedback-loops.js"
       description: "Evaluate if feedback loops need to be triggered"
 
-    # Trigger audio feedback
-    - command: "node orchestration/hooks/trigger-audio.js"
-      description: "Play appropriate audio feedback for completion"
-
     # Check workflow completion status
     - command: "node orchestration/hooks/check-workflow-status.js"
       description: "Determine if workflow is complete or needs continuation"
@@ -76,6 +72,10 @@ hooks:
 
   # These hooks fire for specific agent events
   pre-agent-execution:
+    # Audio announcement for agent start (ALL AGENTS)
+    - command: "bash orchestration/hooks/universal-agent-hook.sh ${AGENT_NAME} start"
+      description: "🔊 Announce agent start with professional female voice"
+
     # Setup agent-specific environment
     - command: "bash orchestration/hooks/setup-agent-env.sh"
       description: "Prepare environment for specific agent execution"
@@ -83,10 +83,6 @@ hooks:
     # Check agent readiness
     - command: "node orchestration/hooks/check-agent-readiness.js"
       description: "Validate agent prerequisites and data availability"
-
-    # Trigger start audio feedback
-    - command: "node orchestration/hooks/agent-start-audio.js"
-      description: "Play agent-specific start audio feedback"
 
   post-agent-execution:
     # Validate agent output
@@ -105,9 +101,9 @@ hooks:
     - command: "node orchestration/hooks/handle-agent-communication.js"
       description: "Process any agent-to-agent communication requests"
 
-    # Trigger completion audio feedback
-    - command: "node orchestration/hooks/agent-completion-audio.js"
-      description: "Play agent-specific completion audio feedback"
+    # Audio announcement for agent completion (ALL AGENTS)
+    - command: "bash orchestration/hooks/universal-agent-hook.sh ${AGENT_NAME} complete"
+      description: "🔊 Announce agent completion with professional female voice"
 
   # ========================================
   # ERROR HANDLING HOOKS
@@ -160,11 +156,11 @@ settings:
 
   # Audio feedback settings
   audio:
-    enabled: true
-    voice_synthesis: "Samantha"  # Use single female voice
+    enabled: true  # Set to false to disable all audio announcements
+    voice_synthesis: "Samantha"  # Professional female voice
     voice: "Samantha"
-    volume: 0.7
-    speed: 1.0
+    volume: 0.8
+    rate: 200  # Words per minute
 
   # Monitoring settings
   monitoring:
@@ -187,7 +183,8 @@ conditions:
   orchestration_commands:
     - "/orchestrate"
     - "/master"
-    # - "/finadvise"  # DISABLED - Now using real Task tool orchestration
+    - "/o"  # ENABLED - Real Task tool orchestration with audio
+    - "/finadvise"  # ENABLED - Full agent execution
     - "/orchestrate-hybrid"
     - "mcp__finadvise-orchestrator"
 

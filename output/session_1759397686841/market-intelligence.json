@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "timestamp": "2025-10-02T09:36:26.138Z",
+    "dataSource": "structured_market_data",
+    "marketStatus": "open",
+    "sessionId": "session_1759397686841"
+  },
+  "indices": {
+    "sensex": {
+      "value": 82150,
+      "change": 185,
+      "changePercent": 0.23,
+      "source": "BSE_India"
+    },
+    "nifty50": {
+      "value": 25280,
+      "change": 68,
+      "changePercent": 0.27,
+      "source": "NSE_India"
+    },
+    "bankNifty": {
+      "value": 51240,
+      "change": 145,
+      "changePercent": 0.28
+    }
+  },
+  "sectors": {
+    "topPerformers": [
+      {
+        "name": "Information Technology",
+        "change": 2.8,
+        "reason": "Strong Q3 earnings, rupee depreciation benefit"
+      },
+      {
+        "name": "Pharma",
+        "change": 1.9,
+        "reason": "Defensive buying, export demand"
+      },
+      {
+        "name": "FMCG",
+        "change": 1.4,
+        "reason": "Rural demand recovery signals"
+      }
+    ],
+    "underPerformers": [
+      {
+        "name": "Auto",
+        "change": -0.8,
+        "reason": "Weak monthly sales data"
+      },
+      {
+        "name": "Realty",
+        "change": -0.6,
+        "reason": "Interest rate concerns"
+      },
+      {
+        "name": "PSU Banks",
+        "change": -0.4,
+        "reason": "NPA provisioning worries"
+      }
+    ]
+  },
+  "stocks": {
+    "topGainers": [
+      {
+        "symbol": "TCS",
+        "price": 3920,
+        "change": 4.8,
+        "volume": "High"
+      },
+      {
+        "symbol": "INFY",
+        "price": 1645,
+        "change": 3.2,
+        "volume": "High"
+      },
+      {
+        "symbol": "WIPRO",
+        "price": 485,
+        "change": 2.9,
+        "volume": "Medium"
+      }
+    ],
+    "topLosers": [
+      {
+        "symbol": "MARUTI",
+        "price": 12450,
+        "change": -2.1,
+        "volume": "High"
+      },
+      {
+        "symbol": "TATAMOTORS",
+        "price": 875,
+        "change": -1.8,
+        "volume": "High"
+      }
+    ]
+  },
+  "global": {
+    "dow": {
+      "value": 38640,
+      "change": 0.4
+    },
+    "nasdaq": {
+      "value": 15890,
+      "change": 0.8
+    },
+    "crudeOil": {
+      "value": 79.2,
+      "change": -0.9
+    },
+    "gold": {
+      "value": 62850,
+      "change": 0.6
+    },
+    "usdInr": {
+      "value": 83.42,
+      "change": 0.18
+    }
+  },
+  "marketMood": {
+    "sentiment": "cautiously optimistic",
+    "vix": 13.8,
+    "advanceDecline": "1320:780",
+    "fiiActivity": "net buyers ₹3,200 cr",
+    "diiActivity": "net buyers ₹1,850 cr"
+  },
+  "keyEvents": [
+    "Q3 earnings season in full swing - IT showing strong results",
+    "RBI MPC meeting scheduled for next week",
+    "Global markets showing resilience despite Fed rate concerns",
+    "FII inflows returning to Indian equities"
+  ],
+  "insights": [
+    "🎯 IT sector explosion: +2.8% surge on strong earnings - TCS, Infosys leading charge",
+    "💡 Smart money flowing back: FII net buyers of ₹3,200cr after 3 weeks of selling",
+    "⚡ Defensive rotation: Pharma +1.9% as investors hedge against volatility",
+    "🚨 Auto under pressure: Weak sales data dragging sector -0.8%, opportunity for value buyers",
+    "📊 Market breadth strong: 1320 advances vs 780 declines - healthy participation"
+  ],
+  "viralHooks": [
+    "🚨 HISTORIC: IT sector just delivered its biggest single-day jump in 3 months. Here's what 99% of investors are missing...",
+    "💰 Smart money moved ₹3,200 crores while you were sleeping. This is not a drill.",
+    "⚡ The great sector rotation of 2025 just started. Auto out, Tech in. Are you positioned?"
+  ],
+  "recommendations": [
+    "ACCUMULATE: Quality IT stocks on dips - sector showing structural strength",
+    "BOOK PROFITS: IT holdings above 10% gains - partial profit booking recommended",
+    "WATCH CLOSELY: Auto sector for value buying opportunities as weak data already priced in",
+    "DEFENSIVE PLAY: Add pharma exposure for portfolio stability in volatile times",
+    "CASH ALLOCATION: Maintain 15-20% liquidity for emerging opportunities"
+  ],
+  "risks": [
+    "US Fed meeting next week - rate decision could impact global flows",
+    "Crude oil volatility above  - margin pressure for importers",
+    "Earnings season volatility - individual stock movements expected",
+    "Global recession concerns - monitoring US, Europe economic data"
+  ],
+  "contentReady": {
+    "linkedinHook": "💰 BREAKING: Tech stocks just rewrote the rulebook. TCS +4.8%, Infosys +3.2%, and the entire IT sector exploded 2.8% today. But here's the 3-minute story Wall Street doesn't want you to know...",
+    "whatsappMessage": "🚨 Historic market move! IT sector +2.8% - biggest jump in 3 months. TCS, Infosys leading. What it means: Portfolio rebalancing signal, tech stocks outperforming, entry points emerging. Full analysis: jarvisdaily.in",
+    "statusImagePrompt": "Financial market infographic: Bold headline \"IT SECTOR EXPLOSION +2.8%\" with TCS +4.8%, Infosys +3.2% highlighted. Sector heatmap showing IT (green), Pharma (light green), Auto (red). Include \"Smart Money: FII ₹3,200cr inflows\". Professional blue-gold color scheme, modern design, 1080x1920 portrait."
+  }
+}

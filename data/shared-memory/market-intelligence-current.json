@@ -1,0 +1,44 @@
+{
+  "lastUpdated": "2025-09-17T17:52:42.592180+00:00",
+  "status": "ready_for_content_generation",
+  "dataSource": "market-intelligence-agent",
+  "marketSnapshot": {
+    "sensex": {
+      "value": 82690,
+      "change": "+0.38%",
+      "mood": "positive"
+    },
+    "nifty": {
+      "value": 25330.25,
+      "change": "+0.36%",
+      "mood": "positive"
+    },
+    "topTheme": "US Fed rate cuts driving optimism",
+    "starPerformer": "Redington (+20% on iPhone 17 demand)",
+    "topSector": "Information Technology (+4.41%)",
+    "worstSector": "Auto (-4.8%)"
+  },
+  "contentHooks": {
+    "primary": "Fed rate cuts: How Indian portfolios benefit",
+    "secondary": "Sector rotation time: IT soars while auto stumbles",
+    "viral": "iPhone 17 launch sends Redington stock up 20%"
+  },
+  "advisorInsights": {
+    "opportunities": [
+      "IT sector benefiting from rate cut expectations",
+      "Banking stocks showing recovery signs",
+      "Infrastructure plays gaining momentum"
+    ],
+    "warnings": [
+      "Auto sector under pressure",
+      "Pharma facing headwinds",
+      "Currency volatility from oil prices"
+    ]
+  },
+  "readyForAgents": [
+    "linkedin-post-generator",
+    "whatsapp-content-creator",
+    "status-image-generator",
+    "advisor-data-manager"
+  ]
+}

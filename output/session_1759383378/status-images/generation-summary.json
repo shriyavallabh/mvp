@@ -1,0 +1,99 @@
+{
+  "sessionId": "session_1759383378",
+  "timestamp": "2025-10-02T12:14:44.553236",
+  "totalDesigns": 8,
+  "imagesGenerated": 8,
+  "geminiGenerated": 0,
+  "placeholderGenerated": 8,
+  "images": [
+    {
+      "designId": "STATUS_ADV001_001",
+      "advisorId": "ADV001",
+      "advisorName": "Shruti Petkar",
+      "filename": "STATUS_ADV001_001.png",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/status-images/generated/STATUS_ADV001_001.png",
+      "fileSize": 76593,
+      "dimensions": "1080x1920",
+      "viralityScore": 9.3,
+      "generationMethod": "placeholder"
+    },
+    {
+      "designId": "STATUS_ADV001_002",
+      "advisorId": "ADV001",
+      "advisorName": "Shruti Petkar",
+      "filename": "STATUS_ADV001_002.png",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/status-images/generated/STATUS_ADV001_002.png",
+      "fileSize": 74221,
+      "dimensions": "1080x1920",
+      "viralityScore": 8.9,
+      "generationMethod": "placeholder"
+    },
+    {
+      "designId": "STATUS_ADV002_001",
+      "advisorId": "ADV002",
+      "advisorName": "Vidyadhar Petkar",
+      "filename": "STATUS_ADV002_001.png",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/status-images/generated/STATUS_ADV002_001.png",
+      "fileSize": 73988,
+      "dimensions": "1080x1920",
+      "viralityScore": 9.5,
+      "generationMethod": "placeholder"
+    },
+    {
+      "designId": "STATUS_ADV002_002",
+      "advisorId": "ADV002",
+      "advisorName": "Vidyadhar Petkar",
+      "filename": "STATUS_ADV002_002.png",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/status-images/generated/STATUS_ADV002_002.png",
+      "fileSize": 60632,
+      "dimensions": "1080x1920",
+      "viralityScore": 9.1,
+      "generationMethod": "placeholder"
+    },
+    {
+      "designId": "STATUS_ADV003_001",
+      "advisorId": "ADV003",
+      "advisorName": "Shriya Vallabh Petkar",
+      "filename": "STATUS_ADV003_001.png",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/status-images/generated/STATUS_ADV003_001.png",
+      "fileSize": 72370,
+      "dimensions": "1080x1920",
+      "viralityScore": 9.0,
+      "generationMethod": "placeholder"
+    },
+    {
+      "designId": "STATUS_ADV003_002",
+      "advisorId": "ADV003",
+      "advisorName": "Shriya Vallabh Petkar",
+      "filename": "STATUS_ADV003_002.png",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/status-images/generated/STATUS_ADV003_002.png",
+      "fileSize": 70614,
+      "dimensions": "1080x1920",
+      "viralityScore": 8.8,
+      "generationMethod": "placeholder"
+    },
+    {
+      "designId": "STATUS_ADV004_001",
+      "advisorId": "ADV004",
+      "advisorName": "Avalok Langer",
+      "filename": "STATUS_ADV004_001.png",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/status-images/generated/STATUS_ADV004_001.png",
+      "fileSize": 71882,
+      "dimensions": "1080x1920",
+      "viralityScore": 9.7,
+      "generationMethod": "placeholder"
+    },
+    {
+      "designId": "STATUS_ADV004_002",
+      "advisorId": "ADV004",
+      "advisorName": "Avalok Langer",
+      "filename": "STATUS_ADV004_002.png",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/status-images/generated/STATUS_ADV004_002.png",
+      "fileSize": 54939,
+      "dimensions": "1080x1920",
+      "viralityScore": 9.4,
+      "generationMethod": "placeholder"
+    }
+  ],
+  "errors": []
+}

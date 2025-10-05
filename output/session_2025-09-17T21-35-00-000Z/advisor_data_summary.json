@@ -1,0 +1,99 @@
+{
+  "timestamp": "2025-09-17T22:30:34.362Z",
+  "sessionId": "session_2025-09-17T21-35-00-000Z",
+  "agent": "advisor-data-manager",
+  "status": "completed",
+  "summary": {
+    "totalAdvisors": 3,
+    "activeSubscriptions": 3,
+    "totalAUM": "₹175 Crores",
+    "totalClients": 650,
+    "dataQuality": 0.98,
+    "averageExperience": "8.3 years"
+  },
+  "segmentBreakdown": {
+    "Premium": {
+      "count": 1,
+      "advisors": ["ADV_001"],
+      "totalAUM": "₹85 Crores",
+      "avgClientCount": 280,
+      "contentFrequency": "daily",
+      "characteristics": {
+        "experienceLevel": "high",
+        "clientProfile": "HNI",
+        "riskTolerance": "moderate-high",
+        "focusAreas": ["Portfolio Management", "Tax Planning", "Estate Planning"]
+      }
+    },
+    "Gold": {
+      "count": 1,
+      "advisors": ["ADV_002"],
+      "totalAUM": "₹55 Crores",
+      "avgClientCount": 220,
+      "contentFrequency": "5x per week",
+      "characteristics": {
+        "experienceLevel": "medium",
+        "clientProfile": "middle-class",
+        "riskTolerance": "low-moderate",
+        "focusAreas": ["Mutual Funds", "SIP Planning", "Goal-based Investment"]
+      }
+    },
+    "Silver": {
+      "count": 1,
+      "advisors": ["ADV_003"],
+      "totalAUM": "₹35 Crores",
+      "avgClientCount": 150,
+      "contentFrequency": "3x per week",
+      "characteristics": {
+        "experienceLevel": "entry",
+        "clientProfile": "millennials",
+        "riskTolerance": "low-moderate",
+        "focusAreas": ["Digital Investments", "Financial Literacy", "ETFs"]
+      }
+    }
+  },
+  "contentPreferences": {
+    "tones": {
+      "Professional": 1,
+      "Educational": 1,
+      "Casual": 1
+    },
+    "languages": {
+      "English": 3,
+      "Hindi": 2,
+      "Marathi": 1
+    },
+    "reviewModes": {
+      "manual": 2,
+      "auto-approve": 1
+    },
+    "avoidTopics": [
+      "Crypto",
+      "F&O Trading",
+      "Penny Stocks",
+      "Day Trading",
+      "Derivatives",
+      "High-risk Strategies"
+    ]
+  },
+  "brandingData": {
+    "customLogos": 2,
+    "defaultBranding": 1,
+    "colorSchemes": [
+      {"primary": "#1A73E8", "secondary": "#34A853"},
+      {"primary": "#FF6B6B", "secondary": "#4ECDC4"},
+      {"primary": "#008080", "secondary": "#F0F8FF"}
+    ]
+  },
+  "performanceMetrics": {
+    "avgContentEngagement": 0.77,
+    "avgClientAcquisition": 11.67,
+    "avgPortfolioPerformance": 0.113,
+    "avgSatisfaction": 4.33
+  },
+  "dataSource": "Google Sheets API",
+  "nextAgents": ["market-intelligence", "segment-analyzer"],
+  "outputFiles": [
+    "data/advisors.json"
+  ]
+}

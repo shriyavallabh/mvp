@@ -1,0 +1,42 @@
+{
+  "sessionId": "session_2025-09-17T21-08-34-000Z",
+  "timestamp": "2025-09-17T21-08-34-000Z",
+  "marketData": {
+    "sensex": 82690,
+    "sensex_change": "+0.73%",
+    "top_sector": "Realty +48%",
+    "pharma": "+39%",
+    "dii_buying": "₹6.06L cr",
+    "fii_selling": "₹1.27L cr"
+  },
+  "messages": [
+    {
+      "advisorId": "ADV_001",
+      "advisorName": "Shruti Petkar (Premium)",
+      "filename": "output/session_2025-09-17T21-08-34-000Z/ADV_001_whatsapp_2025-09-17T21-08-34-000Z.txt",
+      "characterCount": 322,
+      "emojiCount": 4,
+      "segment": "Premium",
+      "cta": "PORTFOLIO"
+    },
+    {
+      "advisorId": "ADV_002",
+      "advisorName": "Rajesh Kumar (Gold)",
+      "filename": "output/session_2025-09-17T21-08-34-000Z/ADV_002_whatsapp_2025-09-17T21-08-34-000Z.txt",
+      "characterCount": 350,
+      "emojiCount": 4,
+      "segment": "Gold",
+      "cta": "SIP"
+    },
+    {
+      "advisorId": "ADV_003",
+      "advisorName": "Priya Sharma (Silver)",
+      "filename": "output/session_2025-09-17T21-08-34-000Z/ADV_003_whatsapp_2025-09-17T21-08-34-000Z.txt",
+      "characterCount": 356,
+      "emojiCount": 4,
+      "segment": "Silver",
+      "cta": "START"
+    }
+  ],
+  "totalMessages": 3
+}

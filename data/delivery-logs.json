@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2025-09-29T05:15:07.088Z",
+    "advisor": "Shriya",
+    "phone": "9765071249",
+    "status": "failed",
+    "error": "Request failed with status code 400"
+  }
+]

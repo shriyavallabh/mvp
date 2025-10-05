@@ -1,0 +1,30 @@
+{
+  "session": "session_20250919_093116",
+  "timestamp": "2025-09-19T09:31:16.624738",
+  "total_posts": 3,
+  "average_virality_score": 8.833333333333334,
+  "files": {
+    "json": "output/session_20250919_093116/linkedin/json/viral_posts.json",
+    "text": [
+      "output/session_20250919_093116/linkedin/text/Conservative_Majority_post_1.txt",
+      "output/session_20250919_093116/linkedin/text/Active_Traders_post_2.txt",
+      "output/session_20250919_093116/linkedin/text/Premium_Segment_post_3.txt"
+    ]
+  },
+  "best_hook": "I lost ₹15 lakhs in 2008.",
+  "market_data_used": {
+    "sensex": 83014,
+    "inflation": 2.1,
+    "gold_return": "176% (vs 2500/gram in 2015)"
+  },
+  "segments_covered": [
+    "Conservative Majority (98 advisors)",
+    "Active Traders (3 advisors)",
+    "Premium Segment"
+  ],
+  "viral_formulas_applied": [
+    "Rachana Ranade - Simple Analogies",
+    "Akshat Shrivastava - Contrarian Data",
+    "Ankur Warikoo - Personal Success Stories"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "sessionId": "session_2025-09-17T17-09-25-000Z",
+  "lastUpdated": "2025-09-17T17:09:25.000Z",
+  "sharedContext": {
+    "advisorData": null,
+    "marketIntelligence": null,
+    "segmentAnalysis": null,
+    "linkedinContent": null,
+    "whatsappContent": null,
+    "statusImages": null,
+    "generatedImages": null,
+    "brandCustomization": null,
+    "complianceStatus": null,
+    "qualityScores": null,
+    "fatigueAnalysis": null,
+    "distributionResults": null,
+    "analyticsData": null,
+    "feedbackData": null
+  },
+  "crossAgentDependencies": {
+    "advisor-data-manager": {
+      "provides": ["advisorData"],
+      "consumes": []
+    },
+    "market-intelligence": {
+      "provides": ["marketIntelligence"],
+      "consumes": []
+    },
+    "segment-analyzer": {
+      "provides": ["segmentAnalysis"],
+      "consumes": ["advisorData", "marketIntelligence"]
+    },
+    "linkedin-post-generator": {
+      "provides": ["linkedinContent"],
+      "consumes": ["advisorData", "marketIntelligence", "segmentAnalysis"]
+    },
+    "whatsapp-message-creator": {
+      "provides": ["whatsappContent"],
+      "consumes": ["advisorData", "marketIntelligence", "segmentAnalysis"]
+    },
+    "status-image-designer": {
+      "provides": ["statusImages"],
+      "consumes": ["advisorData", "marketIntelligence", "segmentAnalysis"]
+    },
+    "gemini-image-generator": {
+      "provides": ["generatedImages"],
+      "consumes": ["linkedinContent", "whatsappContent", "statusImages"]
+    },
+    "brand-customizer": {
+      "provides": ["brandCustomization"],
+      "consumes": ["generatedImages"]
+    },
+    "compliance-validator": {
+      "provides": ["complianceStatus"],
+      "consumes": ["linkedinContent", "whatsappContent", "statusImages"]
+    },
+    "quality-scorer": {
+      "provides": ["qualityScores"],
+      "consumes": ["linkedinContent", "whatsappContent", "complianceStatus"]
+    },
+    "fatigue-checker": {
+      "provides": ["fatigueAnalysis"],
+      "consumes": ["linkedinContent", "whatsappContent"]
+    },
+    "distribution-controller": {
+      "provides": ["distributionResults"],
+      "consumes": ["complianceStatus", "qualityScores", "fatigueAnalysis", "brandCustomization"]
+    },
+    "analytics-tracker": {
+      "provides": ["analyticsData"],
+      "consumes": ["distributionResults"]
+    },
+    "feedback-processor": {
+      "provides": ["feedbackData"],
+      "consumes": ["analyticsData"]
+    }
+  }
+}

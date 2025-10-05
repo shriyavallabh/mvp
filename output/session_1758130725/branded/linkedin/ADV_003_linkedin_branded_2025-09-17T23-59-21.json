@@ -1,0 +1,189 @@
+{
+  "advisor_id": "ADV_003",
+  "brand_name": "Smart Invest",
+  "segment": "Silver",
+  "branding_level": "silver",
+  "posts": [
+    {
+      "postId": "SILVER_001_BASICS",
+      "title": "Fed Rate Cut? Here's What It Means For You",
+      "content": "\ud83e\udd14 Everyone's talking about Fed rate cuts. Let me explain in 30 seconds!\n\nTHINK OF IT LIKE THIS:\n\ud83c\udfe6 US is making borrowing cheaper\n\ud83d\udcb8 More money flows to India\n\ud83d\udcc8 Your investments can grow more!\n\nWHAT TO DO:\n\u2705 Keep your SIPs running\n\u2705 Don't panic or get too excited\n\u2705 Stick to your plan\n\nIT stocks up 4.4% today - that's why your mutual fund NAV looks good! \ud83d\ude80\n\nInvesting is simple when you understand the basics.\n\n#Investing101 #FedRateCut #SimpleInvesting #FinancialBasics\n\nPriya Sharma | Smart Investment Advisors | ARN: 345678",
+      "characterCount": 438,
+      "hashtags": [
+        "#Investing101",
+        "#FedRateCut",
+        "#SimpleInvesting",
+        "#FinancialBasics"
+      ],
+      "postingTime": "8:30 AM",
+      "engagementHooks": [
+        "30-second promise",
+        "Simple analogy",
+        "Clear action items"
+      ],
+      "cta": "Keep learning the basics",
+      "brand_metadata": {
+        "brand_name": "Smart Invest",
+        "colors": {
+          "primary": "#008080",
+          "secondary": "#F0F8FF",
+          "accent": "#20B2AA"
+        },
+        "branding_level": "silver",
+        "platform": "linkedin"
+      }
+    },
+    {
+      "postId": "SILVER_002_APP",
+      "title": "5 Apps That Make Investing Super Easy!",
+      "content": "\ud83d\udcf1 Still thinking investing is complicated? Not anymore!\n\nMY TOP 5 APPS:\n\n1\ufe0f\u20e3 For mutual funds (start with \u20b9100!)\n2\ufe0f\u20e3 For tracking all investments\n3\ufe0f\u20e3 For learning (free courses!)\n4\ufe0f\u20e3 For tax saving\n5\ufe0f\u20e3 For goal planning\n\n\ud83d\udca1 PRO TIP: Start with just one app. Master it. Then add more.\n\nI started investing with just \u20b9500/month using an app. Now managing lakhs! You can too! \ud83d\udcaa\n\n#DigitalInvesting #AppsForInvesting #TechSavvy #ModernInvesting\n\nPriya Sharma | Smart Investment Advisors | ARN: 345678",
+      "characterCount": 386,
+      "hashtags": [
+        "#DigitalInvesting",
+        "#AppsForInvesting",
+        "#TechSavvy",
+        "#ModernInvesting"
+      ],
+      "postingTime": "8:30 AM",
+      "engagementHooks": [
+        "Tool recommendations",
+        "Personal journey",
+        "Encouraging message"
+      ],
+      "cta": "Start with one app today",
+      "brand_metadata": {
+        "brand_name": "Smart Invest",
+        "colors": {
+          "primary": "#008080",
+          "secondary": "#F0F8FF",
+          "accent": "#20B2AA"
+        },
+        "branding_level": "silver",
+        "platform": "linkedin"
+      }
+    },
+    {
+      "postId": "SILVER_003_STORY",
+      "title": "From \u20b9500 to \u20b950,000 - Real Story!",
+      "content": "\ud83c\udf1f My client Sarah, 25, started with just \u20b9500/month.\n\nTODAY (2 years later):\n\ud83d\udcb0 Total saved: \u20b950,000+\n\ud83d\udcc8 Returns: 14%\n\ud83d\ude0a Confidence: 100%!\n\nHER SECRET?\n\u2022 Automated SIP (set and forget)\n\u2022 Increased by \u20b9500 every 6 months\n\u2022 Never checked daily prices\n\u2022 Focused on her goal\n\nYou don't need lakhs to start. You need to START! \ud83d\ude80\n\n#SuccessStory #YoungInvestors #StartSmall #FinancialJourney\n\nPriya Sharma | Smart Investment Advisors | ARN: 345678",
+      "characterCount": 367,
+      "hashtags": [
+        "#SuccessStory",
+        "#YoungInvestors",
+        "#StartSmall",
+        "#FinancialJourney"
+      ],
+      "postingTime": "8:30 AM",
+      "engagementHooks": [
+        "Relatable story",
+        "Specific numbers",
+        "Motivational message"
+      ],
+      "cta": "Start your journey today",
+      "brand_metadata": {
+        "brand_name": "Smart Invest",
+        "colors": {
+          "primary": "#008080",
+          "secondary": "#F0F8FF",
+          "accent": "#20B2AA"
+        },
+        "branding_level": "silver",
+        "platform": "linkedin"
+      }
+    },
+    {
+      "postId": "SILVER_004_TECH",
+      "title": "Why Tech Stocks Are \ud83d\udd25 Right Now",
+      "content": "\ud83d\udcf1 iPhone 17 launched and tech stocks are flying!\n\nSIMPLE EXPLANATION:\n\u2022 New iPhone = More sales for tech companies\n\u2022 Redington (iPhone seller) up 20% in one day!\n\u2022 IT sector best performer today (+4.4%)\n\n\ud83d\udca1 HOW TO BENEFIT:\nDon't buy individual stocks. Get a tech mutual fund instead. Safer and simpler!\n\n\ud83c\udfaf One tech fund covers 30+ companies. Smart, right?\n\n#TechStocks #iPhone17 #SmartInvesting #TechBoom\n\nPriya Sharma | Smart Investment Advisors | ARN: 345678",
+      "characterCount": 379,
+      "hashtags": [
+        "#TechStocks",
+        "#iPhone17",
+        "#SmartInvesting",
+        "#TechBoom"
+      ],
+      "postingTime": "8:30 AM",
+      "engagementHooks": [
+        "Trending topic",
+        "Simple explanation",
+        "Practical advice"
+      ],
+      "cta": "Consider tech mutual funds",
+      "brand_metadata": {
+        "brand_name": "Smart Invest",
+        "colors": {
+          "primary": "#008080",
+          "secondary": "#F0F8FF",
+          "accent": "#20B2AA"
+        },
+        "branding_level": "silver",
+        "platform": "linkedin"
+      }
+    },
+    {
+      "postId": "SILVER_005_TIPS",
+      "title": "3 Money Mistakes I See Daily",
+      "content": "\ud83d\ude05 We all make these mistakes!\n\n1\ufe0f\u20e3 Waiting for 'perfect time' to invest\n   (Hint: It's always NOW)\n\n2\ufe0f\u20e3 Checking portfolio daily\n   (Check monthly, live peacefully)\n\n3\ufe0f\u20e3 Following hot tips from WhatsApp\n   (Follow a plan, not the crowd)\n\n\ud83d\udcaa FIXING these = WEALTH in future!\n\nWhich one are you guilty of? \ud83e\udd14\n\n#MoneyMistakes #InvestmentTips #FinancialWisdom #LearnAndGrow\n\nPriya Sharma | Smart Investment Advisors | ARN: 345678",
+      "characterCount": 340,
+      "hashtags": [
+        "#MoneyMistakes",
+        "#InvestmentTips",
+        "#FinancialWisdom",
+        "#LearnAndGrow"
+      ],
+      "postingTime": "8:30 AM",
+      "engagementHooks": [
+        "Relatable mistakes",
+        "Interactive question",
+        "Simple solutions"
+      ],
+      "cta": "Which mistake do you make?",
+      "brand_metadata": {
+        "brand_name": "Smart Invest",
+        "colors": {
+          "primary": "#008080",
+          "secondary": "#F0F8FF",
+          "accent": "#20B2AA"
+        },
+        "branding_level": "silver",
+        "platform": "linkedin"
+      }
+    },
+    {
+      "postId": "SILVER_006_BANKS",
+      "title": "Banking Stocks Rising - Should You Care?",
+      "content": "\ud83c\udfe6 Banks up 2.1% today! What does it mean for beginners?\n\nQUICK TAKE:\n\u2705 Good sign for economy\n\u2705 Your mutual funds probably have bank stocks\n\u2705 No need to buy individual bank stocks\n\n\ud83d\udca1 BEGINNER TIP:\nLet mutual fund managers handle sector selection. Your job? Keep investing monthly!\n\nSmart Investing Made Simple \ud83c\udfaf\n\n#BankingStocks #BeginnerInvesting #KeepItSimple #MarketUpdate\n\nPriya Sharma | Smart Investment Advisors | ARN: 345678",
+      "characterCount": 344,
+      "hashtags": [
+        "#BankingStocks",
+        "#BeginnerInvesting",
+        "#KeepItSimple",
+        "#MarketUpdate"
+      ],
+      "postingTime": "8:30 AM",
+      "engagementHooks": [
+        "Current event",
+        "Beginner focus",
+        "Simple advice"
+      ],
+      "cta": "Keep it simple",
+      "brand_metadata": {
+        "brand_name": "Smart Invest",
+        "colors": {
+          "primary": "#008080",
+          "secondary": "#F0F8FF",
+          "accent": "#20B2AA"
+        },
+        "branding_level": "silver",
+        "platform": "linkedin"
+      }
+    }
+  ],
+  "branding_applied": {
+    "signature": true,
+    "tagline": true,
+    "contact_info": true,
+    "brand_colors": true
+  },
+  "timestamp": "2025-09-17T23-59-21"
+}

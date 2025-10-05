@@ -1,0 +1,111 @@
+{
+  "advisor_id": "ARN_SHRIYA_003",
+  "session_id": "session_20250919_105507",
+  "timestamp": "2025-09-19T11:19:13.455281",
+  "viral_messages": [
+    {
+      "message_id": "ARN_SHRIYA_003_manual_viral_1",
+      "strategy": "confession_shock",
+      "text": "\ud83d\udc94 I lost \u20b915 lakhs in F&O trading.\n\n93% of F&O traders lose money - SEBI report.\nAverage loss: \u20b92 lakh per person.\n\nI was devastated. Then grateful.\nMy panic taught me real investing.\n\nShriya, ready for wealth building truth?\nReply 'TRUTH'\n\nShriya Vallabh Petkar | ARN_SHRIYA_003",
+      "character_count": 279,
+      "virality_score": 6.0,
+      "expected_score": 8.5,
+      "viral_elements": [
+        "personal_confession",
+        "shocking_statistics",
+        "specific_amounts",
+        "emotional_vulnerability"
+      ],
+      "grammy_worthy": false,
+      "sidney_sheldon_test": {
+        "passes": true,
+        "first_line": "\ud83d\udc94 I lost \u20b915 lakhs in F&O trading.",
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ARN_SHRIYA_003_manual_viral_2",
+      "strategy": "coffee_mathematics",
+      "text": "\u2615 SHOCKING: Your \u20b9200 daily coffee = \u20b967 LAKHS gone!\n\n30-year mathematics:\n\u2615 Coffee habit: \u20b967L vanished\n\ud83d\udcc8 SIP instead: \u20b92.3 CRORES created\n\nShriya, coffee or crores? Math doesn't lie.\nCalculate yours - Reply 'MATH'\n\nShriya Vallabh Petkar | ARN_SHRIYA_003",
+      "character_count": 255,
+      "virality_score": 3.0,
+      "expected_score": 8.2,
+      "viral_elements": [
+        "shocking_revelation",
+        "specific_large_amounts",
+        "relatable_analogy",
+        "mathematical_proof"
+      ],
+      "grammy_worthy": false,
+      "sidney_sheldon_test": {
+        "passes": true,
+        "first_line": "\u2615 SHOCKING: Your \u20b9200 daily coffee = \u20b967 LAKHS gone!",
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ARN_SHRIYA_003_manual_viral_3",
+      "strategy": "underdog_inspiration",
+      "text": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio\n\nStarted \u20b9500 SIP in 2010.\nNever stopped once. Not in COVID crashes.\n\nToday: Crorepati status achieved.\n\nShriya, you earn more than \u20b9500.\nWhat's stopping your wealth journey?\n\nStart NOW - Reply 'DRIVE'\n\nShriya Vallabh Petkar | ARN_SHRIYA_003",
+      "character_count": 287,
+      "virality_score": 2.0,
+      "expected_score": 8.0,
+      "viral_elements": [
+        "underdog_success",
+        "specific_achievement",
+        "inspirational_challenge",
+        "relatable_comparison"
+      ],
+      "grammy_worthy": false,
+      "sidney_sheldon_test": {
+        "passes": true,
+        "first_line": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio",
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ARN_SHRIYA_003_manual_viral_4",
+      "strategy": "village_wisdom_shock",
+      "text": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth\n\nLives simply. Uses Nokia phone.\nCycles to market. Holds L&T for decades.\n\nCity people: \u20b92L credit limit, \u20b92K savings.\n\nShriya, lifestyle inflation or wealth creation?\nChoose wisely - Reply 'WISDOM'\n\nShriya Vallabh Petkar | ARN_SHRIYA_003",
+      "character_count": 274,
+      "virality_score": 1.5,
+      "expected_score": 8.7,
+      "viral_elements": [
+        "lifestyle_contrast",
+        "wealth_revelation",
+        "cultural_shock",
+        "philosophical_choice"
+      ],
+      "grammy_worthy": false,
+      "sidney_sheldon_test": {
+        "passes": true,
+        "first_line": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth",
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ARN_SHRIYA_003_manual_viral_5",
+      "strategy": "sip_psychology",
+      "text": "\u26a0\ufe0f TRUTH: 39 lakh SIPs stopped in November\n\nIndians start investing with excitement.\nStop at first red month. Psychology fail.\n\nMeanwhile: SIP AUM hits \u20b913.54 lakh crores!\n\nShriya, are you a starter or finisher?\nCommit to wealth - Reply 'COMMIT'\n\nShriya Vallabh Petkar | ARN_SHRIYA_003",
+      "character_count": 285,
+      "virality_score": 0.5,
+      "expected_score": 8.3,
+      "viral_elements": [
+        "behavioral_psychology",
+        "shocking_statistics",
+        "achievement_contrast",
+        "personal_challenge"
+      ],
+      "grammy_worthy": false,
+      "sidney_sheldon_test": {
+        "passes": true,
+        "first_line": "\u26a0\ufe0f TRUTH: 39 lakh SIPs stopped in November",
+        "scroll_stopping_power": "High"
+      }
+    }
+  ],
+  "quality_metrics": {
+    "average_virality": 2.6,
+    "all_grammy_worthy": false
+  }
+}

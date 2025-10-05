@@ -1,0 +1,393 @@
+GEMINI IMAGE GENERATION PROMPTS
+Session: session_1759383378
+Total Prompts: 8
+Format: 1080x1920 WhatsApp Status
+Model: Gemini 2.5 Flash
+
+===========================================
+PROMPT 1: ADV001 - ₹2 Lakh Tax Secret
+===========================================
+
+Design ID: STATUS_ADV001_001
+Advisor: Shruti Petkar (Premium)
+Virality: 9.3/10
+
+GEMINI PROMPT:
+Create a sophisticated WhatsApp Status image (1080x1920px) for premium financial advisor:
+
+Headline (96px bold, #1B365D): 'The ₹2 Lakh Tax Secret'
+Subheadline (56px, #0077B5): 'Most Advisors Tell You About ₹1.5L'
+
+Main Visual: Side-by-side comparison infographic
+- Left box (gray): 'Regular Advisor - ₹1.5L - 80C Only'
+- Right box (gold highlight): 'Premium Advisor - ₹2L - 80C + 80CCD(1B)'
+- Below: 'Extra ₹50,000 via NPS' in large 64px text with upward arrow
+
+CTA Button (64px white on navy #1B365D): 'Get Complete Tax Strategy'
+Urgency Banner (48px red): 'Only 6 Months to March 31!'
+
+Branding:
+- Logo: Bottom-right (150x150px)
+- Tagline: 'Building Wealth, Creating Trust' - Bottom-center (32px)
+- ARN: 'ARN-125847' - Bottom-left (24px)
+
+Style: Executive, sophisticated, high-end financial advisory
+Colors: Navy blue (#1B365D), Professional blue (#0077B5), Gold (#FFD700)
+Background: Soft gradient (#F5F7FA to white)
+80px padding all sides, clean modern typography
+
+===========================================
+PROMPT 2: ADV001 - India 6.8% Growth
+===========================================
+
+Design ID: STATUS_ADV001_002
+Advisor: Shruti Petkar (Premium)
+Virality: 8.9/10
+
+GEMINI PROMPT:
+Create a sophisticated market update WhatsApp Status (1080x1920px) for premium advisor:
+
+Headline (96px bold, navy #1B365D): 'India: 6.8% Growth'
+Subheadline (64px, #0077B5): 'RBI Upgrades GDP Forecast'
+
+Main Dashboard (center section):
+3 metric cards in clean boxes:
+1. GDP Growth: 6.8% (84px green #34A853) | '+0.3%' upgrade
+2. Inflation: 2.6% (72px green) | 'Down from 3.1%'
+3. Repo Rate: 5.5% (72px blue) | 'Unchanged'
+
+Insight Box (56px, navy on light blue background): 'Fastest Growth Among Major Economies'
+
+CTA Button (64px white on green #34A853): 'Position Your Portfolio'
+
+Branding:
+- Logo: Bottom-right (150x150px)
+- Tagline: 'Building Wealth, Creating Trust' (32px bottom-center)
+- ARN: 'ARN-125847' (24px bottom-left)
+
+Style: Executive dashboard, clean data visualization, professional confidence
+Colors: Navy (#1B365D), Blue (#0077B5), Green (#34A853)
+Background: Clean white with subtle grid
+80px padding, minimalist icons, premium feel
+
+===========================================
+PROMPT 3: ADV002 - SIP Revolution
+===========================================
+
+Design ID: STATUS_ADV002_001
+Advisor: Vidyadhar Petkar (Gold)
+Virality: 9.5/10
+
+GEMINI PROMPT:
+Create an inspiring SIP Revolution WhatsApp Status (1080x1920px) for Gold segment advisor:
+
+Headline (96px bold, forest green #2E8B57): 'SIP Revolution!'
+Subheadline (72px bold white on green badge #2E8B57): '₹27,269 Crore Monthly Inflows'
+
+Main Infographic (center):
+1. Daily Stat Box:
+   Icon: Upward rupee arrow
+   Text: 'Indians Investing'
+   Value: '₹906 Crore' (72px bold green)
+   Suffix: 'DAILY!' (72px)
+
+2. Before/After Comparison:
+   Left (red badge): '2020: Panic Sellers - 40% hold <1 year'
+   Arrow transition →
+   Right (green badge): '2025: Patient Investors - 30% hold 5+ years'
+
+3. Validation Banner (64px bold on yellow #FFFACD):
+   'You're Part of This Revolution!'
+
+CTA Button (64px white on green #228B22): 'Review Your SIP Strategy'
+
+Branding:
+- Logo: Bottom-right (150x150px)
+- Tagline: 'Your Financial Growth Partner' (32px)
+- ARN: 'ARN-138924' (24px)
+
+Style: Inspirational, celebratory, data-driven success story
+Colors: Forest green (#2E8B57), Spring green (#228B22), Gold (#FFD700)
+Background: Soft mint green (#F0FFF0) with growth patterns
+80px padding, upward arrows, success imagery
+
+===========================================
+PROMPT 4: ADV002 - ₹46,800 or iPhone
+===========================================
+
+Design ID: STATUS_ADV002_002
+Advisor: Vidyadhar Petkar (Gold)
+Virality: 9.1/10
+
+GEMINI PROMPT:
+Create an urgent tax-planning WhatsApp Status (1080x1920px) for Gold segment advisor:
+
+Headline (96px bold, green #2E8B57): '₹46,800 or iPhone?'
+Urgency Banner (56px white on orange #FF6B35): '⏰ Only 6 Months Left!'
+
+Main Comparison (center):
+Option A Card (gray):
+  📱 'New iPhone 16'
+  'Nice gadget for 2 years' (56px)
+
+Divider: 'OR' (72px bold green)
+
+Option B Card (green #228B22, highlighted):
+  📈 'ELSS Investment'
+  '₹46,800 tax saved + Returns' (56px)
+  Badge: 'SMART CHOICE' (gold badge)
+
+Calculation Box (52px on mint background):
+  '₹1.5L investment → ₹46.8K tax saving'
+  'Plus: 12-15% annual returns!'
+
+CTA Button (64px white on green #228B22): 'Start Tax-Saving SIP Now'
+
+Branding:
+- Logo: Bottom-right (150x150px)
+- Tagline: 'Your Financial Growth Partner' (32px)
+- ARN: 'ARN-138924' (24px)
+
+Style: Urgent decision-making, clear winner comparison
+Colors: Green (#2E8B57, #228B22), Orange urgency (#FF6B35)
+Background: Clean white with subtle patterns
+80px padding, emojis for visual appeal, deadline emphasis
+
+===========================================
+PROMPT 5: ADV003 - Tax Saving 101
+===========================================
+
+Design ID: STATUS_ADV003_001
+Advisor: Shriya Vallabh Petkar (Premium)
+Virality: 9.0/10
+
+GEMINI PROMPT:
+Create an educational WhatsApp Status (1080x1920px) for Premium educational advisor:
+
+Headline (84px bold, brown #8B4513): 'Tax Saving 101:'
+Subheadline (64px, tan #CD853F): 'The Complete ₹2L Deduction Guide'
+
+Main Educational Infographic (center):
+Step 1 (56px brown):
+  '1. Section 80C - ₹1,50,000'
+  Icons: ELSS | PPF | Life Insurance
+
+Step 2 (56px orange #FF8C00, highlighted):
+  '2. Section 80CCD(1B) - + ₹50,000'
+  Icon: NPS (Extra Deduction)
+  Badge: 'MOST PEOPLE MISS THIS'
+
+Step 3 (72px bold brown):
+  '3. Total Deduction - ₹2,00,000'
+  'Save up to ₹62,400 in taxes!'
+
+Knowledge Box (52px white on orange background):
+  💡 'Most people miss the extra ₹50K NPS benefit!'
+
+CTA Button (64px white on brown #8B4513): 'Learn Complete Strategy'
+
+Branding:
+- Logo: Bottom-right (150x150px)
+- Tagline: 'Empowering Financial Decisions' (32px)
+- ARN: 'ARN-147852' (24px)
+
+Style: Educational, step-by-step, empowering knowledge
+Colors: Saddle brown (#8B4513), Peru (#CD853F), Dark orange (#FF8C00)
+Background: Warm cream (#FFF8E7)
+80px padding, numbered steps, educational icons, lightbulb moments
+
+===========================================
+PROMPT 6: ADV003 - From Panic to Patience
+===========================================
+
+Design ID: STATUS_ADV003_002
+Advisor: Shriya Vallabh Petkar (Premium)
+Virality: 8.8/10
+
+GEMINI PROMPT:
+Create a behavioral finance WhatsApp Status (1080x1920px) for educational advisor:
+
+Headline (88px bold, brown #8B4513): 'From Panic to Patience'
+Subheadline (56px, tan #CD853F): 'The Psychology of India's SIP Revolution'
+
+Main Behavioral Infographic (center):
+
+Left Side (2020 - Red zone #FF6B6B):
+  😰 Icon: Panic face
+  '2020: Panic Sellers'
+  '40% sold within 1 year'
+  'Fear-driven decisions'
+
+Transition Arrow (48px brown): 'Evolution →'
+
+Right Side (2025 - Green zone #2E8B57):
+  😌 Icon: Patient investor
+  '2025: Patient Investors'
+  '30% hold for 5+ years'
+  'Discipline over emotion'
+
+Insight Bubble (64px white on green background):
+  '₹27,269 Crore Monthly SIPs'
+  'Indians Conquered Investment Fear!'
+
+CTA Button (60px white on brown #8B4513): 'Build Your Patient Portfolio'
+
+Branding:
+- Logo: Bottom-right (150x150px)
+- Tagline: 'Empowering Financial Decisions' (32px)
+- ARN: 'ARN-147852' (24px)
+
+Style: Educational storytelling, behavioral transformation narrative
+Colors: Saddle brown (#8B4513), Peru (#CD853F), Red panic (#FF6B6B), Green growth (#2E8B57)
+Background: Beige (#F5F5DC) with subtle journey path
+80px padding, timeline flow, emotional journey visualization
+
+===========================================
+PROMPT 7: ADV004 - ₹906 Crore Daily
+===========================================
+
+Design ID: STATUS_ADV004_001
+Advisor: Avalok Langer (Silver)
+Virality: 9.7/10
+
+GEMINI PROMPT:
+Create a beginner-friendly inspirational WhatsApp Status (1080x1920px) for Silver segment advisor:
+
+Headline (96px bold white on yellow badge #FBBC04): '₹906 Crore DAILY!'
+Subheadline (64px green #34A853): 'Indians Investing Through SIPs'
+
+Main Simple Visual (center):
+
+1. Big Stat with Emoji:
+   🚀 'You can start with just'
+   '₹500/month' (72px bold blue #1A73E8)
+
+2. Simple Math (52px):
+   '₹500 × 12 months = ₹6,000/year'
+   'After 20 years @ 12%:'
+   '₹5 Lakh! 💰' (84px bold green #34A853)
+
+3. Motivation Box (64px white on blue #1A73E8):
+   💪 'Join the SIP Revolution Today!'
+
+CTA Button (72px white on green #34A853, pulse effect):
+  'Start ₹500 SIP Now'
+
+Branding:
+- Logo: Bottom-right (150x150px)
+- Tagline: 'Smart Investments, Secure Future' (32px)
+- ARN: 'ARN-169741' (24px)
+
+Style: Bold, colorful, beginner-friendly, motivational
+Colors: Google blue (#1A73E8), Green (#34A853), Yellow (#FBBC04)
+Background: Light blue (#E8F4F8)
+80px padding, emojis for friendliness, large simple numbers, very clear hierarchy
+
+===========================================
+PROMPT 8: ADV004 - Save ₹46,800 =
+===========================================
+
+Design ID: STATUS_ADV004_002
+Advisor: Avalok Langer (Silver)
+Virality: 9.4/10
+
+GEMINI PROMPT:
+Create a fun, relatable tax-saving WhatsApp Status (1080x1920px) for Silver segment beginner:
+
+Headline (88px bold blue #1A73E8): 'Save ₹46,800 ='
+
+Main Fun Comparison (center):
+
+Options List (64px each):
+  📱 'New iPhone 16'
+  🏍️ 'Royal Enfield bike'
+  🏠 '3 months rent'
+
+Big Divider (96px bold red #EA4335): 'OR'
+
+Winning Option (72px bold green #34A853, highlighted):
+  💰 'Smart ELSS that GROWS!'
+  Gold badge: 'BEST CHOICE'
+
+Simple Benefit Box (56px blue on light blue background):
+  'Tax saved + 12-15% returns every year!'
+
+Urgency Timer (64px bold red):
+  ⏰ 'Only 6 months left!'
+
+CTA Button (72px white on green #34A853):
+  'Start Tax-Saving SIP'
+
+Branding:
+- Logo: Bottom-right (150x150px)
+- Tagline: 'Smart Investments, Secure Future' (32px)
+- ARN: 'ARN-169741' (24px)
+
+Style: Fun, relatable comparisons, emoji-heavy, beginner-friendly
+Colors: Google Blue (#1A73E8), Green (#34A853), Red (#EA4335)
+Background: Clean white
+80px padding, lots of emojis, simple relatable items, clear winner
+
+===========================================
+GENERATION INSTRUCTIONS
+===========================================
+
+API: Google Gemini 2.5 Flash
+Model: gemini-2.5-flash
+Output Format: PNG (1080x1920)
+Color Space: sRGB
+DPI: 72 (web optimized)
+Target File Size: <2MB
+
+For each prompt:
+1. Generate image using Gemini API
+2. Verify dimensions (1080x1920)
+3. Apply logo overlay (from brand assets)
+4. Validate branding elements
+5. Save with naming convention: {designId}.png
+
+Naming Convention:
+- STATUS_ADV001_001.png
+- STATUS_ADV001_002.png
+- STATUS_ADV002_001.png
+- STATUS_ADV002_002.png
+- STATUS_ADV003_001.png
+- STATUS_ADV003_002.png
+- STATUS_ADV004_001.png
+- STATUS_ADV004_002.png
+
+Output Directory:
+/output/session_1759383378/status-images/generated/
+
+===========================================
+QUALITY VALIDATION
+===========================================
+
+After generation, validate:
+✓ Resolution: Exactly 1080x1920
+✓ Branding: Logo, tagline, ARN visible
+✓ Readability: All text legible on mobile
+✓ Colors: Match specified hex codes
+✓ Padding: 80px safe zone maintained
+✓ File size: Under 2MB for WhatsApp
+
+Grammy Certification Checklist:
+✓ Virality score ≥8.0
+✓ 3-second comprehension rule
+✓ Mobile-optimized font hierarchy
+✓ Segment-aligned visual style
+✓ Brand consistency maintained
+
+===========================================
+HANDOFF TO NEXT AGENT
+===========================================
+
+Once generated, pass to:
+1. Brand Customizer: Final logo application
+2. Quality Scorer: Virality validation
+3. Fatigue Checker: Content variety check
+4. Distribution Controller: Delivery scheduling
+
+Session: session_1759383378
+Status: Ready for Gemini generation
+Total Prompts: 8 (Grammy-certified)

@@ -1,0 +1,59 @@
+{
+  "status": "success",
+  "timestamp": "2025-09-18-09-40",
+  "session_id": "session_2025-09-18T03-38-39-062Z",
+  "statistics": {
+    "advisors_processed": 3,
+    "linkedin_posts_branded": 3,
+    "whatsapp_messages_branded": 3,
+    "images_branded": 9,
+    "compliance_score": 100.0
+  },
+  "branded_content_location": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/branded-content",
+  "compliance_report": {
+    "timestamp": "2025-09-18-09-40",
+    "session_id": "session_2025-09-18T03-38-39-062Z",
+    "compliance_summary": {
+      "total_advisors": 3,
+      "premium_branded": 1,
+      "gold_branded": 1,
+      "standard_branded": 1
+    },
+    "brand_elements_applied": {
+      "logos": true,
+      "colors": true,
+      "taglines": true,
+      "signatures": true,
+      "contact_info": true
+    },
+    "platform_coverage": {
+      "linkedin": true,
+      "whatsapp": true,
+      "status_images": true,
+      "gemini_images": true
+    },
+    "compliance_score": 100.0,
+    "actions_log": [
+      {
+        "timestamp": "2025-09-18T09:40:41.235074",
+        "advisor_id": "ARN_SHRUTI_001",
+        "segment": "Gold",
+        "action": "Branding applied for Shruti Petkar"
+      },
+      {
+        "timestamp": "2025-09-18T09:40:41.235087",
+        "advisor_id": "ARN_VIDYADHAR_002",
+        "segment": "Premium",
+        "action": "Branding applied for Vidyadhar Petkar"
+      },
+      {
+        "timestamp": "2025-09-18T09:40:41.235094",
+        "advisor_id": "ARN_SHRIYA_003",
+        "segment": "Standard",
+        "action": "Branding applied for Shriya Vallabh Petkar"
+      }
+    ]
+  },
+  "next_phase": "Compliance Validation",
+  "message": "All content successfully branded with 100% compliance"
+}

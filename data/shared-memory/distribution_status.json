@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-09-17T18:57:46.914Z",
+  "distributionId": "DIST_1758135448876",
+  "sessionId": "session_1758130725",
+  "phase": "Phase 6 - Distribution",
+  "status": "SELECTIVE_DISTRIBUTION",
+  "summary": {
+    "total_recipients": 18,
+    "delivered_first_try": 18,
+    "delivered_after_retries": 0,
+    "failed": 0,
+    "blocked": 2,
+    "delivery_rate": "100.00%"
+  },
+  "content_status": {
+    "images": {
+      "status": "DISTRIBUTED",
+      "count": 18,
+      "channels": [
+        "whatsapp_status"
+      ],
+      "compliance": "APPROVED"
+    },
+    "linkedin": {
+      "status": "BLOCKED",
+      "reason": "Compliance violations - Missing ARN numbers",
+      "action_required": "Add ARN numbers to all posts"
+    },
+    "whatsapp": {
+      "status": "BLOCKED",
+      "reason": "Compliance violations - Missing ARN and disclaimers",
+      "action_required": "Add ARN numbers and compliance footer"
+    }
+  },
+  "kpis": {
+    "first_attempt_success_rate": "100.00%",
+    "overall_delivery_rate": "100.00%",
+    "average_delivery_time": "0ms",
+    "sla_met": true,
+    "circuit_breaker_triggered": false
+  },
+  "next_actions": [
+    "Fix ARN violations in LinkedIn posts before next distribution",
+    "Add compliance disclaimers to WhatsApp messages",
+    "Consider implementing automated compliance fixes",
+    "Schedule revalidation after compliance updates"
+  ]
+}

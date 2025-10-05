@@ -1,0 +1,188 @@
+{
+  "designId": "viral_003_bitcoin_crash",
+  "theme": "$109K → $94K: Bitcoin Reality Check",
+  "targetSegment": "Gold",
+  "viralScore": 9.2,
+  "layout": {
+    "type": "dramatic_crash_visualization",
+    "sections": {
+      "top": {
+        "height": "25%",
+        "content": "peak_to_crash",
+        "background": "gradient_fall"
+      },
+      "middle": {
+        "height": "55%",
+        "content": "crash_chart",
+        "background": "dark_chart_bg"
+      },
+      "bottom": {
+        "height": "20%",
+        "content": "wisdom_cta",
+        "background": "professional_bar"
+      }
+    }
+  },
+  "content": {
+    "headline": {
+      "text": "$109,356",
+      "fontSize": 96,
+      "color": "#00FF00",
+      "effect": "strike_through",
+      "position": {
+        "x": "left",
+        "y": "10%"
+      }
+    },
+    "crashArrow": {
+      "type": "animated_arrow",
+      "direction": "diagonal_down",
+      "color": "#FF0000",
+      "size": "large",
+      "animation": "falling"
+    },
+    "currentPrice": {
+      "text": "$94,500",
+      "fontSize": 96,
+      "color": "#FF0000",
+      "effect": "glow_red",
+      "position": {
+        "x": "right",
+        "y": "18%"
+      }
+    },
+    "shockValue": {
+      "text": "-$14,856",
+      "fontSize": 120,
+      "color": "#FF0000",
+      "effect": "dripping_blood",
+      "position": {
+        "x": "center",
+        "y": "35%"
+      }
+    },
+    "percentageDrop": {
+      "text": "-13.6% CRASH",
+      "fontSize": 84,
+      "color": "#FF6666",
+      "background": "#000000",
+      "effect": "shake",
+      "position": {
+        "x": "center",
+        "y": "45%"
+      }
+    },
+    "chartVisualization": {
+      "type": "candlestick_cliff",
+      "timeframe": "Jan 17-20",
+      "peakPoint": {
+        "date": "Jan 17",
+        "value": "$109,356",
+        "marker": "gold_star"
+      },
+      "crashPoint": {
+        "date": "Jan 20",
+        "value": "$94,500",
+        "marker": "red_cross"
+      },
+      "volumeBars": {
+        "color": "#FF0000",
+        "label": "Panic Selling"
+      }
+    },
+    "comparisonStats": [
+      {
+        "text": "Gold: +3% Same Period",
+        "fontSize": 56,
+        "color": "#FFD700"
+      },
+      {
+        "text": "FD Returns: Peaceful Sleep",
+        "fontSize": 56,
+        "color": "#00FF00"
+      },
+      {
+        "text": "Crypto Bros: -₹50 Lakh Loss",
+        "fontSize": 56,
+        "color": "#FF6666"
+      }
+    ],
+    "wisdomQuote": {
+      "text": "\"Volatility is not your friend\"",
+      "fontSize": 48,
+      "color": "#FFFFFF",
+      "style": "italic"
+    },
+    "callToAction": {
+      "text": "Learn: Why Smart Money Exited at $105K",
+      "fontSize": 64,
+      "color": "#FFD700",
+      "background": "#1A1A1A",
+      "animation": "subtle_glow"
+    }
+  },
+  "visualElements": {
+    "backgroundPattern": "falling_bitcoin_symbols",
+    "colorScheme": {
+      "primary": "#FF0000",
+      "secondary": "#000000",
+      "accent": "#FFD700",
+      "background": [
+        "#0A0A0A",
+        "#1A0000"
+      ],
+      "text": "#FFFFFF"
+    },
+    "graphicsElements": [
+      {
+        "type": "cliff_chart",
+        "style": "dramatic_drop",
+        "animation": "trace_fall"
+      },
+      {
+        "type": "bitcoin_logo",
+        "effect": "cracking",
+        "position": "watermark"
+      },
+      {
+        "type": "comparison_bars",
+        "assets": [
+          "Bitcoin",
+          "Gold",
+          "FD"
+        ],
+        "style": "side_by_side"
+      }
+    ],
+    "effects": [
+      "red_gradient_overlay",
+      "falling_particles",
+      "crack_animation",
+      "professional_finish"
+    ]
+  },
+  "geminiPrompt": "Create a dramatic WhatsApp Status image (1080x1920px) showing Bitcoin's crash from $109,356 to $94,500. Top section: '$109,356' in green with strike-through, large red diagonal arrow pointing down to '$94,500' in red. Center: Huge '-$14,856' in 120px blood-red dripping font. Show '-13.6% CRASH' in shaking red text on black bar. Include dramatic candlestick chart showing cliff-like drop from Jan 17-20. Add comparison: 'Gold: +3% Same Period' in gold, 'FD Returns: Peaceful Sleep' in green, 'Crypto Bros: -₹50L Loss' in red. Bottom: Professional bar with 'Learn: Why Smart Money Exited at $105K' in gold. Dark background with falling Bitcoin symbols at 20% opacity. Use red gradient overlay, crack effects on Bitcoin logo. Make it look like a financial disaster visualization with professional data presentation.",
+  "psychology": {
+    "emotionalTrigger": "Schadenfreude + Wisdom",
+    "viralHook": "Dramatic loss visualization",
+    "shareMotivation": "I told you so / Warning"
+  },
+  "brand_elements": {
+    "advisor_name": "Shruti Petkar",
+    "firm_name": "Shruti Petkar",
+    "logo_url": "",
+    "tagline": "Building Wealth, Creating Trust",
+    "colors": {
+      "primary": "#1A73E8",
+      "secondary": "#34A853"
+    },
+    "arn": "ARN_SHRUTI_001"
+  },
+  "branding_instructions": {
+    "logo_position": "bottom-right",
+    "logo_size": "10%",
+    "text_overlay": "Shruti Petkar | Building Wealth, Creating Trust",
+    "color_scheme": "use_brand_colors",
+    "watermark": "ARN_SHRUTI_001"
+  }
+}

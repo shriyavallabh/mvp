@@ -1,0 +1,81 @@
+{
+  "registryVersion": "1.0.0",
+  "lastUpdated": "2025-09-17T17:09:25.000Z",
+  "sessionId": "session_2025-09-17T17-09-25-000Z",
+  "agents": {
+    "hybrid-orchestrator": {
+      "id": "hybrid-orchestrator",
+      "type": "orchestrator",
+      "status": "ready",
+      "capabilities": ["workflow-coordination", "agent-routing", "state-management"],
+      "communicationEndpoints": {
+        "input": "/data/orchestration-state/orchestrator-input.json",
+        "output": "/data/orchestration-state/orchestrator-output.json",
+        "feedback": "/data/agent-communication/feedback-queue.json"
+      },
+      "dependencies": ["compliance-validator", "learning-agent"],
+      "permissions": ["read-all", "write-coordination", "manage-state"]
+    },
+    "advisor-data-manager": {
+      "id": "advisor-data-manager",
+      "type": "data-processor",
+      "status": "ready",
+      "capabilities": ["data-extraction", "advisor-analysis", "portfolio-insights"],
+      "communicationEndpoints": {
+        "input": "/data/agent-communication/advisor-data-input.json",
+        "output": "/data/agent-communication/advisor-data-output.json",
+        "feedback": "/data/agent-communication/feedback-queue.json"
+      },
+      "dependencies": ["compliance-validator"],
+      "permissions": ["read-data", "write-analysis"]
+    },
+    "linkedin-post-generator": {
+      "id": "linkedin-post-generator",
+      "type": "content-generator",
+      "status": "ready",
+      "capabilities": ["linkedin-content", "post-generation", "engagement-optimization"],
+      "communicationEndpoints": {
+        "input": "/data/agent-communication/linkedin-input.json",
+        "output": "/data/agent-communication/linkedin-output.json",
+        "feedback": "/data/agent-communication/feedback-queue.json"
+      },
+      "dependencies": ["compliance-validator", "advisor-data-manager"],
+      "permissions": ["read-data", "write-content"]
+    },
+    "compliance-validator": {
+      "id": "compliance-validator",
+      "type": "validator",
+      "status": "ready",
+      "capabilities": ["content-validation", "compliance-checking", "quality-assurance"],
+      "communicationEndpoints": {
+        "input": "/data/agent-communication/compliance-input.json",
+        "output": "/data/agent-communication/compliance-output.json",
+        "feedback": "/data/agent-communication/compliance-queue.json"
+      },
+      "dependencies": [],
+      "permissions": ["read-all", "write-validation"]
+    },
+    "learning-agent": {
+      "id": "learning-agent",
+      "type": "learning-system",
+      "status": "ready",
+      "capabilities": ["pattern-recognition", "improvement-suggestions", "feedback-analysis"],
+      "communicationEndpoints": {
+        "input": "/data/agent-communication/learning-input.json",
+        "output": "/data/agent-communication/learning-output.json",
+        "feedback": "/data/agent-communication/feedback-queue.json"
+      },
+      "dependencies": [],
+      "permissions": ["read-all", "write-learnings"]
+    }
+  },
+  "communicationProtocol": {
+    "messageFormat": "json",
+    "routingMethod": "file-based",
+    "fallbackMode": "direct-communication",
+    "retryPolicy": {
+      "maxRetries": 3,
+      "backoffMultiplier": 2
+    }
+  }
+}

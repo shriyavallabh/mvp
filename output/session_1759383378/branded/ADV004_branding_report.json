@@ -1,0 +1,441 @@
+{
+  "advisorId": "ADV004",
+  "advisorName": "Avalok Langer",
+  "branding": {
+    "brandName": "Avalok Langer",
+    "logo": "/assets/logos/avalok-langer.png",
+    "primaryColor": "#1A73E8",
+    "secondaryColor": "#34A853",
+    "tagline": "Smart Investments, Secure Future",
+    "arn": "ARN-169741"
+  },
+  "contentCount": {
+    "linkedin": 2,
+    "whatsapp": 2,
+    "statusImages": 2
+  },
+  "complianceStatus": "COMPLIANT",
+  "linkedinPosts": [
+    {
+      "advisorId": "ADV004",
+      "advisorName": "Avalok Langer",
+      "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/linkedin/text/ADV004_post_1.txt",
+      "contentType": "LinkedIn Post",
+      "originalContent": "Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\n\nLet me tell you about Priya.\n\nAge: 26\nSalary: ₹6 lakh per year\nSIP: Started with ₹1,000\n\nEveryone told her:\n\"Save for marriage\"\n\"₹1,000 is too small\"\n\"Start when salary increases\"\n\nShe started anyway. October 2020.\n\n5 years later (October 2025):\nInvested: ₹60,000\nCurrent value: ₹1,05,000\nGain: ₹45,000 (75% returns!)\n\nBut here's the real win:\n\n→ Built investing habit\n→ Learned about markets\n→ Increased to ₹3,000/month by 2023\n→ Now has ₹2.5 lakh portfolio\n\nShe's part of ₹27,269 CRORE monthly SIP movement.\nIndians investing ₹906 crore DAILY.\n\nThe secret?\n\nNot waiting for \"perfect time\"\nNot waiting for \"big salary\"\nNot waiting for \"market bottom\"\n\nJust. Starting. Now.\n\n₹500 monthly for 25 years = ₹1.15 crore\n₹1,000 monthly for 25 years = ₹2.3 crore\n\nYour coffee budget today.\nYour retirement corpus tomorrow.\n\nPriya's advice to beginners?\n\"Best time to start: 5 years ago.\nSecond best time: TODAY.\"\n\nReady to start your ₹500 SIP journey?\n\nAvalok Langer | Smart Investments, Secure Future\nARN: ARN-169741\n\n#StartInvesting #SIPJourney #FinancialFreedom #YoungInvestor #WealthCreation\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.8/10\nFormula: custom_segment_tailored\nCharacter Count: 1173\nViral Elements: {\n  \"hook\": \"Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\",\n  \"story\": \"From panic sellers to patient investors - 30% SIPs now held for 5+ years. Your parents' generation bought gold, you're building portfolios!\",\n  \"emotion\": \"Pride, FOMO\",\n  \"data\": \"₹27,269 crore peak, 30% long-term holders\",\n  \"cta\": \"Start your ₹1000/month SIP today\"\n}\nHooks: Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\nEmotions: Pride, FOMO\nCTA: Simplify to 'Indians investing ₹906 crore DAILY - You can start with just ₹500/month!'\n",
+      "brandedContent": "Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\n\nLet me tell you about Priya.\n\nAge: 26\nSalary: ₹6 lakh per year\nSIP: Started with ₹1,000\n\nEveryone told her:\n\"Save for marriage\"\n\"₹1,000 is too small\"\n\"Start when salary increases\"\n\nShe started anyway. October 2020.\n\n5 years later (October 2025):\nInvested: ₹60,000\nCurrent value: ₹1,05,000\nGain: ₹45,000 (75% returns!)\n\nBut here's the real win:\n\n→ Built investing habit\n→ Learned about markets\n→ Increased to ₹3,000/month by 2023\n→ Now has ₹2.5 lakh portfolio\n\nShe's part of ₹27,269 CRORE monthly SIP movement.\nIndians investing ₹906 crore DAILY.\n\nThe secret?\n\nNot waiting for \"perfect time\"\nNot waiting for \"big salary\"\nNot waiting for \"market bottom\"\n\nJust. Starting. Now.\n\n₹500 monthly for 25 years = ₹1.15 crore\n₹1,000 monthly for 25 years = ₹2.3 crore\n\nYour coffee budget today.\nYour retirement corpus tomorrow.\n\nPriya's advice to beginners?\n\"Best time to start: 5 years ago.\nSecond best time: TODAY.\"\n\nReady to start your ₹500 SIP journey?\n\nAvalok Langer | Smart Investments, Secure Future\nARN: ARN-169741\n\n#StartInvesting #SIPJourney #FinancialFreedom #YoungInvestor #WealthCreation\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.8/10\nFormula: custom_segment_tailored\nCharacter Count: 1173\nViral Elements: {\n  \"hook\": \"Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\",\n  \"story\": \"From panic sellers to patient investors - 30% SIPs now held for 5+ years. Your parents' generation bought gold, you're building portfolios!\",\n  \"emotion\": \"Pride, FOMO\",\n  \"data\": \"₹27,269 crore peak, 30% long-term holders\",\n  \"cta\": \"Start your ₹1000/month SIP today\"\n}\nHooks: Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\nEmotions: Pride, FOMO\nCTA: Simplify to 'Indians investing ₹906 crore DAILY - You can start with just ₹500/month!'\n",
+      "brandingApplied": {
+        "firmName": true,
+        "arn": true,
+        "tagline": true,
+        "disclaimer": true,
+        "primaryColor": "#1A73E8",
+        "secondaryColor": "#34A853"
+      },
+      "compliance": {
+        "arnPresent": true,
+        "taglinePresent": true,
+        "disclaimerPresent": true,
+        "brandNamePresent": true
+      },
+      "viralityPreserved": true,
+      "timestamp": "2025-10-02T06:45:30.467Z"
+    },
+    {
+      "advisorId": "ADV004",
+      "advisorName": "Avalok Langer",
+      "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/linkedin/text/ADV004_post_2.txt",
+      "contentType": "LinkedIn Post",
+      "originalContent": "₹500 per month. That's all Ramesh started with in 2015.\n\nAuto driver. Two kids. Monthly income: ₹18,000.\n\nEveryone said \"Save for emergencies, don't invest.\"\n\nHe did both. Started ₹500 SIP in equity fund.\n\n10 years later:\n• Invested: ₹60,000 total\n• Current value: ₹1,47,000\n• Daughter: Engineering college (partially funded)\n\nBut here's the real story:\n\n→ 2016: Market crash. He continued.\n→ 2020: COVID panic. He increased to ₹1000.\n→ 2023: Market high. He stayed disciplined.\n→ 2025: Portfolio worth 2.45X his investment.\n\nWhile others with ₹10,000 salary waited for \"right time,\"\nRamesh with ₹18,000 salary STARTED.\n\nToday, India's SIP story is ₹27,269 CRORE monthly.\nThat's ₹906 crore invested DAILY by people like Ramesh.\n\nFrom 2020 to 2025:\n• Short-term SIPs (under 1 year): 40% → 21%\n• Long-term SIPs (over 5 years): 5% → 30%\n\nIndians are finally thinking long-term.\n\nYour salary doesn't matter.\nYour discipline does.\n\nThe question isn't \"How much should I invest?\"\nIt's \"When will I start?\"\n\nRamesh started at ₹500.\nWhat's YOUR excuse?\n\nAvalok Langer | Smart Investments, Secure Future\nARN: ARN-169741\n\n#SIPRevolution #WealthCreation #FinancialDiscipline #MutualFunds #InvestmentJourney\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.2/10\nFormula: warikoo_underdog\nCharacter Count: 1289\nViral Elements: {\n  \"hook\": \"₹500 SIP by auto driver\",\n  \"story\": \"10-year journey through crashes\",\n  \"emotion\": \"Inspiration + Remove excuses\",\n  \"data\": \"₹60K → ₹1.47L, SIP ₹27,269 Cr\",\n  \"cta\": \"What's YOUR excuse?\"\n}\nHooks: Underdog hero (auto driver), Small amount (₹500), Massive transformation (₹1.47L), Remove excuses\nEmotions: inspiration, pride, motivation\nCTA: whats_your_excuse\n",
+      "brandedContent": "₹500 per month. That's all Ramesh started with in 2015.\n\nAuto driver. Two kids. Monthly income: ₹18,000.\n\nEveryone said \"Save for emergencies, don't invest.\"\n\nHe did both. Started ₹500 SIP in equity fund.\n\n10 years later:\n• Invested: ₹60,000 total\n• Current value: ₹1,47,000\n• Daughter: Engineering college (partially funded)\n\nBut here's the real story:\n\n→ 2016: Market crash. He continued.\n→ 2020: COVID panic. He increased to ₹1000.\n→ 2023: Market high. He stayed disciplined.\n→ 2025: Portfolio worth 2.45X his investment.\n\nWhile others with ₹10,000 salary waited for \"right time,\"\nRamesh with ₹18,000 salary STARTED.\n\nToday, India's SIP story is ₹27,269 CRORE monthly.\nThat's ₹906 crore invested DAILY by people like Ramesh.\n\nFrom 2020 to 2025:\n• Short-term SIPs (under 1 year): 40% → 21%\n• Long-term SIPs (over 5 years): 5% → 30%\n\nIndians are finally thinking long-term.\n\nYour salary doesn't matter.\nYour discipline does.\n\nThe question isn't \"How much should I invest?\"\nIt's \"When will I start?\"\n\nRamesh started at ₹500.\nWhat's YOUR excuse?\n\nAvalok Langer | Smart Investments, Secure Future\nARN: ARN-169741\n\n#SIPRevolution #WealthCreation #FinancialDiscipline #MutualFunds #InvestmentJourney\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.2/10\nFormula: warikoo_underdog\nCharacter Count: 1289\nViral Elements: {\n  \"hook\": \"₹500 SIP by auto driver\",\n  \"story\": \"10-year journey through crashes\",\n  \"emotion\": \"Inspiration + Remove excuses\",\n  \"data\": \"₹60K → ₹1.47L, SIP ₹27,269 Cr\",\n  \"cta\": \"What's YOUR excuse?\"\n}\nHooks: Underdog hero (auto driver), Small amount (₹500), Massive transformation (₹1.47L), Remove excuses\nEmotions: inspiration, pride, motivation\nCTA: whats_your_excuse\n",
+      "brandingApplied": {
+        "firmName": true,
+        "arn": true,
+        "tagline": true,
+        "disclaimer": true,
+        "primaryColor": "#1A73E8",
+        "secondaryColor": "#34A853"
+      },
+      "compliance": {
+        "arnPresent": true,
+        "taglinePresent": true,
+        "disclaimerPresent": true,
+        "brandNamePresent": true
+      },
+      "viralityPreserved": true,
+      "timestamp": "2025-10-02T06:45:30.467Z"
+    }
+  ],
+  "whatsappMessages": [
+    {
+      "advisorId": "ADV004",
+      "advisorName": "Avalok Langer",
+      "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/whatsapp/ADV004_whatsapp_20251002_112107_msg1.txt",
+      "contentType": "WhatsApp Message",
+      "originalContent": "🌟 Avalok, Inspiring News!\n\nIndians investing ₹906 CRORE daily via SIPs! 🇮🇳\n\nYou can start with just ₹500/month! 💯\n\nReal story: ₹1,000/month for 15 years\n= ₹6.7 Lakhs at 12% returns!\n\nSmall start. Big dreams. Smart future.\n\n97% wait. 3% act. Which are you?\n\nStart your ₹500 SIP today! 🚀\n\nAvalok Langer\nARN: ARN-169741",
+      "brandedContent": "🌟 Avalok, Inspiring News!\n\nIndians investing ₹906 CRORE daily via SIPs! 🇮🇳\n\nYou can start with just ₹500/month! 💯\n\nReal story: ₹1,000/month for 15 years\n= ₹6.7 Lakhs at 12% returns!\n\nSmall start. Big dreams. Smart future.\n\n97% wait. 3% act. Which are you?\n\nStart your ₹500 SIP today! 🚀\n\nAvalok Langer\nARN: ARN-169741",
+      "brandingApplied": {
+        "firmName": true,
+        "arn": true,
+        "primaryColor": "#1A73E8",
+        "secondaryColor": "#34A853"
+      },
+      "compliance": {
+        "arnPresent": true,
+        "brandNamePresent": true,
+        "characterCount": 321,
+        "withinLimit": true
+      },
+      "viralityPreserved": true,
+      "timestamp": "2025-10-02T06:45:30.468Z"
+    },
+    {
+      "advisorId": "ADV004",
+      "advisorName": "Avalok Langer",
+      "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/whatsapp/ADV004_whatsapp_20251002_112107_msg2.txt",
+      "contentType": "WhatsApp Message",
+      "originalContent": "⏰ October Alert: 6 Months Left!\n\nSave ₹15,600 in taxes before March 31!\n\n= New iPhone case OR first investment?\n\nELSS: Tax saving + Equity returns\n3-year lock-in (shortest!)\n\nMarket corrected = Good entry point 📊\n\nSmart people act in October.\nStressed people rush in March.\n\nBe smart. Start NOW! ✅\n\nAvalok Langer\nARN: ARN-169741",
+      "brandedContent": "⏰ October Alert: 6 Months Left!\n\nSave ₹15,600 in taxes before March 31!\n\n= New iPhone case OR first investment?\n\nELSS: Tax saving + Equity returns\n3-year lock-in (shortest!)\n\nMarket corrected = Good entry point 📊\n\nSmart people act in October.\nStressed people rush in March.\n\nBe smart. Start NOW! ✅\n\nAvalok Langer\nARN: ARN-169741",
+      "brandingApplied": {
+        "firmName": true,
+        "arn": true,
+        "primaryColor": "#1A73E8",
+        "secondaryColor": "#34A853"
+      },
+      "compliance": {
+        "arnPresent": true,
+        "brandNamePresent": true,
+        "characterCount": 329,
+        "withinLimit": true
+      },
+      "viralityPreserved": true,
+      "timestamp": "2025-10-02T06:45:30.468Z"
+    }
+  ],
+  "statusImages": [
+    {
+      "designId": "STATUS_ADV004_001",
+      "advisorId": "ADV004",
+      "advisorName": "Avalok Langer",
+      "contentType": "WhatsApp Status Image",
+      "brandingApplied": {
+        "logo": true,
+        "primaryColor": true,
+        "secondaryColor": true,
+        "tagline": true,
+        "arn": true
+      },
+      "compliance": {
+        "logoPresent": true,
+        "colorsMatched": true,
+        "taglinePresent": true,
+        "arnPresent": true,
+        "dimensions": true
+      },
+      "designSpecification": {
+        "designId": "STATUS_ADV004_001",
+        "advisorId": "ADV004",
+        "advisorName": "Avalok Langer",
+        "advisorSegment": "Silver",
+        "contentType": "beginner_inspiration",
+        "viralHook": "VH001 - The SIP Revolution (Beginner Angle)",
+        "dimensions": {
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": "9:16",
+          "format": "PNG"
+        },
+        "brandingElements": {
+          "logo": {
+            "url": "/assets/logos/avalok-langer.png",
+            "position": "bottom-right",
+            "size": "150x150px",
+            "opacity": 0.9
+          },
+          "colors": {
+            "primary": "#1A73E8",
+            "secondary": "#34A853",
+            "background": "#E8F4F8",
+            "accent": "#FBBC04"
+          },
+          "tagline": {
+            "text": "Smart Investments, Secure Future",
+            "position": "bottom-center",
+            "fontSize": "32px",
+            "color": "#1A73E8"
+          },
+          "arn": {
+            "text": "ARN-169741",
+            "position": "bottom-left",
+            "fontSize": "24px",
+            "color": "#666666"
+          }
+        },
+        "contentLayout": {
+          "headline": {
+            "text": "₹906 Crore DAILY!",
+            "position": "top-18%",
+            "fontSize": "96px",
+            "fontWeight": "bold",
+            "color": "#1A73E8",
+            "alignment": "center",
+            "background": "#FBBC04",
+            "padding": "20px"
+          },
+          "subheadline": {
+            "text": "Indians Investing Through SIPs",
+            "position": "top-32%",
+            "fontSize": "64px",
+            "fontWeight": "semibold",
+            "color": "#34A853",
+            "alignment": "center"
+          },
+          "mainVisual": {
+            "type": "simple_inspiration",
+            "position": "center-42-70%",
+            "elements": [
+              {
+                "type": "big_stat",
+                "emoji": "🚀",
+                "text": "You can start with just",
+                "amount": "₹500/month",
+                "fontSize": "72px",
+                "color": "#1A73E8"
+              },
+              {
+                "type": "simple_math",
+                "calculation": [
+                  {
+                    "line": "₹500 × 12 months = ₹6,000/year",
+                    "fontSize": "52px"
+                  },
+                  {
+                    "line": "After 20 years @ 12%:",
+                    "fontSize": "52px"
+                  },
+                  {
+                    "line": "₹5 Lakh! 💰",
+                    "fontSize": "84px",
+                    "fontWeight": "bold",
+                    "color": "#34A853"
+                  }
+                ]
+              },
+              {
+                "type": "motivation_box",
+                "icon": "💪",
+                "text": "Join the SIP Revolution Today!",
+                "fontSize": "64px",
+                "color": "#FFFFFF",
+                "background": "#1A73E8",
+                "fontWeight": "bold"
+              }
+            ]
+          },
+          "cta": {
+            "text": "Start ₹500 SIP Now",
+            "position": "bottom-30%",
+            "fontSize": "72px",
+            "fontWeight": "bold",
+            "backgroundColor": "#34A853",
+            "textColor": "#FFFFFF",
+            "padding": "25px 45px",
+            "borderRadius": "16px",
+            "pulseEffect": true
+          }
+        },
+        "visualStyle": {
+          "theme": "beginner_friendly_inspiration",
+          "colorScheme": "bold_colorful_modern",
+          "typography": "large_friendly_clear",
+          "mood": "exciting_accessible",
+          "padding": "80px all sides",
+          "emojiUsage": "moderate_friendly",
+          "simplicityLevel": "very_high"
+        },
+        "geminiPrompt": "Create a beginner-friendly inspirational WhatsApp Status (1080x1920px) for Silver segment advisor:\n\nHeadline (96px bold white on yellow badge #FBBC04): '₹906 Crore DAILY!'\nSubheadline (64px green #34A853): 'Indians Investing Through SIPs'\n\nMain Simple Visual (center):\n\n1. Big Stat with Emoji:\n   🚀 'You can start with just'\n   '₹500/month' (72px bold blue #1A73E8)\n\n2. Simple Math (52px):\n   '₹500 × 12 months = ₹6,000/year'\n   'After 20 years @ 12%:'\n   '₹5 Lakh! 💰' (84px bold green #34A853)\n\n3. Motivation Box (64px white on blue #1A73E8):\n   💪 'Join the SIP Revolution Today!'\n\nCTA Button (72px white on green #34A853, pulse effect):\n  'Start ₹500 SIP Now'\n\nBranding:\n- Logo: Bottom-right (150x150px)\n- Tagline: 'Smart Investments, Secure Future' (32px)\n- ARN: 'ARN-169741' (24px)\n\nStyle: Bold, colorful, beginner-friendly, motivational\nColors: Google blue (#1A73E8), Green (#34A853), Yellow (#FBBC04)\nBackground: Light blue (#E8F4F8)\n80px padding, emojis for friendliness, large simple numbers, very clear hierarchy",
+        "viralityElements": {
+          "hook": "₹906 crore daily - mind-blowing stat",
+          "emotion": "Inspiration, FOMO, Hope, Accessibility",
+          "data": "₹500 to ₹5 lakh transformation",
+          "barrier": "Low - Just ₹500 to start",
+          "shareability": "Very High - Beginners share inspiration",
+          "viralityScore": 9.7
+        },
+        "mobileOptimization": {
+          "thumbZoneAware": true,
+          "primeRealEstate": "₹906 crore headline creates wow",
+          "readabilityInSunlight": true,
+          "3SecondRule": "₹500 start amount immediately visible",
+          "motivationalPower": "High - Emojis and simple math inspire"
+        }
+      },
+      "timestamp": "2025-10-02T06:45:30.469Z"
+    },
+    {
+      "designId": "STATUS_ADV004_002",
+      "advisorId": "ADV004",
+      "advisorName": "Avalok Langer",
+      "contentType": "WhatsApp Status Image",
+      "brandingApplied": {
+        "logo": true,
+        "primaryColor": true,
+        "secondaryColor": true,
+        "tagline": true,
+        "arn": true
+      },
+      "compliance": {
+        "logoPresent": true,
+        "colorsMatched": true,
+        "taglinePresent": true,
+        "arnPresent": true,
+        "dimensions": true
+      },
+      "designSpecification": {
+        "designId": "STATUS_ADV004_002",
+        "advisorId": "ADV004",
+        "advisorName": "Avalok Langer",
+        "advisorSegment": "Silver",
+        "contentType": "relatable_tax_saving",
+        "viralHook": "VH003 - Tax Season Alert: ₹46,800 or iPhone? (Simplified)",
+        "dimensions": {
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": "9:16",
+          "format": "PNG"
+        },
+        "brandingElements": {
+          "logo": {
+            "url": "/assets/logos/avalok-langer.png",
+            "position": "bottom-right",
+            "size": "150x150px",
+            "opacity": 0.9
+          },
+          "colors": {
+            "primary": "#1A73E8",
+            "secondary": "#34A853",
+            "background": "#FFFFFF",
+            "accent": "#EA4335"
+          },
+          "tagline": {
+            "text": "Smart Investments, Secure Future",
+            "position": "bottom-center",
+            "fontSize": "32px",
+            "color": "#1A73E8"
+          },
+          "arn": {
+            "text": "ARN-169741",
+            "position": "bottom-left",
+            "fontSize": "24px",
+            "color": "#666666"
+          }
+        },
+        "contentLayout": {
+          "headline": {
+            "text": "Save ₹46,800 =",
+            "position": "top-15%",
+            "fontSize": "88px",
+            "fontWeight": "bold",
+            "color": "#1A73E8",
+            "alignment": "center"
+          },
+          "mainVisual": {
+            "type": "fun_comparison",
+            "position": "center-28-75%",
+            "elements": [
+              {
+                "type": "option_boxes",
+                "options": [
+                  {
+                    "emoji": "📱",
+                    "text": "New iPhone 16",
+                    "fontSize": "64px",
+                    "color": "#666666"
+                  },
+                  {
+                    "emoji": "🏍️",
+                    "text": "Royal Enfield bike",
+                    "fontSize": "64px",
+                    "color": "#666666"
+                  },
+                  {
+                    "emoji": "🏠",
+                    "text": "3 months rent",
+                    "fontSize": "64px",
+                    "color": "#666666"
+                  },
+                  {
+                    "divider": "OR",
+                    "fontSize": "96px",
+                    "fontWeight": "bold",
+                    "color": "#EA4335"
+                  },
+                  {
+                    "emoji": "💰",
+                    "text": "Smart ELSS that GROWS!",
+                    "fontSize": "72px",
+                    "fontWeight": "bold",
+                    "color": "#34A853",
+                    "highlight": true,
+                    "badge": "BEST CHOICE"
+                  }
+                ]
+              },
+              {
+                "type": "simple_benefit",
+                "text": "Tax saved + 12-15% returns every year!",
+                "fontSize": "56px",
+                "color": "#1A73E8",
+                "background": "#E8F4F8",
+                "padding": "20px"
+              },
+              {
+                "type": "urgency_timer",
+                "icon": "⏰",
+                "text": "Only 6 months left!",
+                "fontSize": "64px",
+                "color": "#EA4335",
+                "fontWeight": "bold"
+              }
+            ]
+          },
+          "cta": {
+            "text": "Start Tax-Saving SIP",
+            "position": "bottom-28%",
+            "fontSize": "72px",
+            "fontWeight": "bold",
+            "backgroundColor": "#34A853",
+            "textColor": "#FFFFFF",
+            "padding": "25px 45px",
+            "borderRadius": "16px"
+          }
+        },
+        "visualStyle": {
+          "theme": "relatable_fun_comparison",
+          "colorScheme": "bold_google_colors",
+          "typography": "large_friendly_emojis",
+          "mood": "exciting_relatable",
+          "padding": "80px all sides",
+          "emojiUsage": "high_relatable",
+          "comparisonStyle": "fun_clear_winner"
+        },
+        "geminiPrompt": "Create a fun, relatable tax-saving WhatsApp Status (1080x1920px) for Silver segment beginner:\n\nHeadline (88px bold blue #1A73E8): 'Save ₹46,800 ='\n\nMain Fun Comparison (center):\n\nOptions List (64px each):\n  📱 'New iPhone 16'\n  🏍️ 'Royal Enfield bike'\n  🏠 '3 months rent'\n\nBig Divider (96px bold red #EA4335): 'OR'\n\nWinning Option (72px bold green #34A853, highlighted):\n  💰 'Smart ELSS that GROWS!'\n  Gold badge: 'BEST CHOICE'\n\nSimple Benefit Box (56px blue on light blue background):\n  'Tax saved + 12-15% returns every year!'\n\nUrgency Timer (64px bold red):\n  ⏰ 'Only 6 months left!'\n\nCTA Button (72px white on green #34A853):\n  'Start Tax-Saving SIP'\n\nBranding:\n- Logo: Bottom-right (150x150px)\n- Tagline: 'Smart Investments, Secure Future' (32px)\n- ARN: 'ARN-169741' (24px)\n\nStyle: Fun, relatable comparisons, emoji-heavy, beginner-friendly\nColors: Google Blue (#1A73E8), Green (#34A853), Red (#EA4335)\nBackground: Clean white\n80px padding, lots of emojis, simple relatable items, clear winner",
+        "viralityElements": {
+          "hook": "Relatable comparisons (iPhone, bike, rent)",
+          "emotion": "Fun, Smart choice, Urgency, FOMO",
+          "data": "₹46,800 tangible benefit",
+          "relatability": "Very High - Items young professionals want",
+          "shareability": "Very High - Viral comparison format",
+          "viralityScore": 9.4
+        },
+        "mobileOptimization": {
+          "thumbZoneAware": true,
+          "primeRealEstate": "Save ₹46,800 headline creates interest",
+          "readabilityInSunlight": true,
+          "3SecondRule": "Emoji comparisons scan quickly",
+          "funFactor": "High - Shareable format"
+        }
+      },
+      "timestamp": "2025-10-02T06:45:30.469Z"
+    }
+  ]
+}

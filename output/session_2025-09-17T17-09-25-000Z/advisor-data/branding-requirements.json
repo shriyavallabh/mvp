@@ -1,0 +1,100 @@
+{
+  "advisors": {
+    "ADV_001": {
+      "brandName": "Wealth Creators",
+      "logoUrl": "https://drive.google.com/file/d/1abc123wealthcreators/view",
+      "colors": {
+        "primary": "#1A73E8",
+        "secondary": "#34A853",
+        "accent": "#FFD700"
+      },
+      "tagline": "Building Wealth, Creating Trust",
+      "disclaimer": "Investment decisions should be made after careful consideration of your financial goals. Past performance is not indicative of future results.",
+      "contentTone": "Professional",
+      "languages": [
+        "English",
+        "Hindi"
+      ]
+    },
+    "ADV_002": {
+      "brandName": "Money Matters",
+      "logoUrl": "https://drive.google.com/file/d/2def456moneymatters/view",
+      "colors": {
+        "primary": "#FF6B6B",
+        "secondary": "#4ECDC4",
+        "accent": "#45B7D1"
+      },
+      "tagline": "Your Financial Growth Partner",
+      "disclaimer": "All investments are subject to market risks. Please read scheme documents carefully before investing.",
+      "contentTone": "Educational",
+      "languages": [
+        "English",
+        "Hindi",
+        "Marathi"
+      ]
+    },
+    "ADV_003": {
+      "brandName": "Smart Invest",
+      "logoUrl": "",
+      "colors": {
+        "primary": "#008080",
+        "secondary": "#F0F8FF",
+        "accent": "#20B2AA"
+      },
+      "tagline": "Smart Investing Made Simple",
+      "disclaimer": "Investment advice is personalized. Please consult before making investment decisions.",
+      "contentTone": "Casual",
+      "languages": [
+        "English"
+      ]
+    }
+  },
+  "brandingAssets": {
+    "logos": [
+      {
+        "advisor": "ADV_001",
+        "url": "https://drive.google.com/file/d/1abc123wealthcreators/view"
+      },
+      {
+        "advisor": "ADV_002",
+        "url": "https://drive.google.com/file/d/2def456moneymatters/view"
+      }
+    ],
+    "colorPalettes": [
+      {
+        "advisor": "ADV_001",
+        "colors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853",
+          "accent": "#FFD700"
+        }
+      },
+      {
+        "advisor": "ADV_002",
+        "colors": {
+          "primary": "#FF6B6B",
+          "secondary": "#4ECDC4",
+          "accent": "#45B7D1"
+        }
+      },
+      {
+        "advisor": "ADV_003",
+        "colors": {
+          "primary": "#008080",
+          "secondary": "#F0F8FF",
+          "accent": "#20B2AA"
+        }
+      }
+    ],
+    "fonts": []
+  },
+  "templates": {
+    "required": [
+      "LinkedIn Post",
+      "WhatsApp Message",
+      "Market Update",
+      "Educational Content"
+    ],
+    "customizations": []
+  }
+}

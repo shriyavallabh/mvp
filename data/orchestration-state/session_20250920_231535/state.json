@@ -1,0 +1,19 @@
+{
+  "sessionId": "session_20250920_231535",
+  "phase": "initialization",
+  "startTime": "2025-09-20T23:15:35.000Z",
+  "agentStates": {},
+  "taskQueue": [],
+  "completedTasks": [],
+  "sessionMetrics": {
+    "tasksCompleted": 0,
+    "agentsActive": 0,
+    "errorsEncountered": 0,
+    "qualityScores": []
+  },
+  "isolation": {
+    "enabled": true,
+    "boundaries": "session-scoped",
+    "crossSessionPrevention": true
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "session_id": "session_2025-09-17T16-27-13-000Z",
+  "agent_outputs": {
+    "advisor-data-manager": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "execution_time_ms": null,
+      "output": {},
+      "error": null,
+      "dependencies_met": true,
+      "next_agents": ["segment-analyzer"]
+    },
+    "market-intelligence": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "execution_time_ms": null,
+      "output": {},
+      "error": null,
+      "dependencies_met": true,
+      "next_agents": ["segment-analyzer"]
+    },
+    "segment-analyzer": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "execution_time_ms": null,
+      "output": {},
+      "error": null,
+      "dependencies_met": false,
+      "waiting_for": ["advisor-data-manager", "market-intelligence"],
+      "next_agents": ["linkedin-post-generator", "whatsapp-message-generator", "image-generator"]
+    },
+    "linkedin-post-generator": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "execution_time_ms": null,
+      "output": {},
+      "error": null,
+      "dependencies_met": false,
+      "waiting_for": ["segment-analyzer"],
+      "next_agents": ["brand-customizer"]
+    },
+    "whatsapp-message-generator": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "execution_time_ms": null,
+      "output": {},
+      "error": null,
+      "dependencies_met": false,
+      "waiting_for": ["segment-analyzer"],
+      "next_agents": ["brand-customizer"]
+    },
+    "image-generator": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "execution_time_ms": null,
+      "output": {},
+      "error": null,
+      "dependencies_met": false,
+      "waiting_for": ["segment-analyzer"],
+      "next_agents": ["brand-customizer"]
+    },
+    "brand-customizer": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "execution_time_ms": null,
+      "output": {},
+      "error": null,
+      "dependencies_met": false,
+      "waiting_for": ["linkedin-post-generator", "whatsapp-message-generator", "image-generator"],
+      "next_agents": ["compliance-validator", "quality-scorer", "fatigue-checker"]
+    },
+    "compliance-validator": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "execution_time_ms": null,
+      "output": {},
+      "error": null,
+      "dependencies_met": false,
+      "waiting_for": ["brand-customizer"],
+      "next_agents": ["distribution-manager"]
+    },
+    "quality-scorer": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "execution_time_ms": null,
+      "output": {},
+      "error": null,
+      "dependencies_met": false,
+      "waiting_for": ["brand-customizer"],
+      "next_agents": ["distribution-manager"]
+    },
+    "fatigue-checker": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "execution_time_ms": null,
+      "output": {},
+      "error": null,
+      "dependencies_met": false,
+      "waiting_for": ["brand-customizer"],
+      "next_agents": ["distribution-manager"]
+    },
+    "distribution-manager": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "execution_time_ms": null,
+      "output": {},
+      "error": null,
+      "dependencies_met": false,
+      "waiting_for": ["compliance-validator", "quality-scorer", "fatigue-checker"],
+      "next_agents": []
+    }
+  },
+  "execution_summary": {
+    "total_agents": 10,
+    "completed": 0,
+    "in_progress": 0,
+    "pending": 10,
+    "failed": 0,
+    "overall_status": "pending",
+    "estimated_completion": null
+  }
+}

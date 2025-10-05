@@ -1,0 +1,22 @@
+{
+  "advisor_id": "ADV_004",
+  "brand_name": "Tranquil Wealth Advisory",
+  "plan": "Gold",
+  "colors": {
+    "primary": "#B8860B",
+    "secondary": "#1E3A8A",
+    "accent": "#FFC107"
+  },
+  "logo_placement": "bottom-center",
+  "font_style": "premium",
+  "text_overlay": {
+    "signature": "Tranquil Wealth Advisory | ADV_004 \ud83c\udfc6",
+    "position": "bottom",
+    "color": "#B8860B"
+  },
+  "premium_features": {
+    "gold_border": true,
+    "premium_typography": true,
+    "enhanced_logo": true
+  }
+}

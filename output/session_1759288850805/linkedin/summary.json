@@ -1,0 +1,12 @@
+{
+  "session": "session_1759288850805",
+  "timestamp": "2025-10-01T03:20:50.812Z",
+  "totalPosts": 12,
+  "averageViralityScore": 9.3,
+  "advisors": 4,
+  "allPassedQuality": true,
+  "locations": {
+    "json": "output/session_1759288850805/linkedin/json/",
+    "text": "output/session_1759288850805/linkedin/text/"
+  }
+}

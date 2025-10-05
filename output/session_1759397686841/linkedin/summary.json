@@ -1,0 +1,20 @@
+{
+  "sessionId": "session_1759397686841",
+  "timestamp": "2025-10-02T09:39:56.879Z",
+  "totalPosts": 6,
+  "totalAdvisors": 4,
+  "jsonFiles": 4,
+  "textFiles": 6,
+  "avgViralityScore": 9.333333333333334,
+  "minViralityScore": 8.5,
+  "segmentBreakdown": {
+    "Premium": 4,
+    "Gold": 1,
+    "Silver": 1
+  },
+  "directories": {
+    "json": "/Users/shriyavallabh/Desktop/mvp/output/session_1759397686841/linkedin/json",
+    "text": "/Users/shriyavallabh/Desktop/mvp/output/session_1759397686841/linkedin/text"
+  },
+  "bestHook": "₹5,000 monthly SIP started by a rickshaw driver."
+}

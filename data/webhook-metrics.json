@@ -1,0 +1,40 @@
+{
+  "lastCheck": {
+    "timestamp": "2025-09-18T20:49:20.563Z",
+    "webhook": true,
+    "token": true,
+    "subscription": true,
+    "successRate": 0,
+    "recentFailures": 0
+  },
+  "webhookHealth": false,
+  "subscriptionActive": false,
+  "successRate": 1,
+  "failedFormats": [],
+  "deliveryLog": [
+    {
+      "advisor": "Shriya Vallabh Petkar",
+      "success": true,
+      "reason": null,
+      "timestamp": "2025-09-18T20:49:33.170Z"
+    },
+    {
+      "advisor": "Shruti Petkar",
+      "success": true,
+      "reason": null,
+      "timestamp": "2025-09-18T20:49:38.890Z"
+    },
+    {
+      "advisor": "Vidyadhar Petkar",
+      "success": true,
+      "reason": null,
+      "timestamp": "2025-09-18T20:49:40.947Z"
+    },
+    {
+      "advisor": "Mr. Tranquil Veda",
+      "success": true,
+      "reason": null,
+      "timestamp": "2025-09-18T20:49:42.646Z"
+    }
+  ]
+}

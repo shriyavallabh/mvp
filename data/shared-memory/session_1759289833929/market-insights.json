@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "timestamp": "2025-09-19T10:30:00+05:30",
+    "dataSource": "real-time-web-search",
+    "marketStatus": "active",
+    "fetchedOn": "2025-09-19",
+    "dataQuality": "verified_real_data"
+  },
+  "indices": {
+    "sensex": {
+      "value": 83014,
+      "change": 323,
+      "changePercent": 0.39,
+      "monthlyChange": 1.68,
+      "yearlyChange": -0.21,
+      "dayHigh": 83150,
+      "dayLow": 82690,
+      "trend": "positive",
+      "insight": "Crossed 83000 psychological level",
+      "source": "BSE_live_data"
+    },
+    "nifty50": {
+      "value": 25423.6,
+      "change": 94,
+      "changePercent": 0.37,
+      "monthlyChange": 1.57,
+      "weeklyChange": 1.36,
+      "technicalPattern": "Broke out of symmetrical triangle pattern",
+      "trend": "bullish",
+      "source": "NSE_live_data"
+    }
+  },
+  "sectors": {
+    "topPerformers": [
+      {
+        "name": "Information Technology",
+        "change": 2.3,
+        "trend": "strong_positive",
+        "insight": "Benefiting from rupee depreciation against USD",
+        "keyStocks": [
+          "TCS",
+          "Infosys",
+          "HCL Tech",
+          "Tech Mahindra"
+        ],
+        "note": "IT index down 10% YTD but recovering on currency tailwinds"
+      },
+      {
+        "name": "Pharma",
+        "change": 1.8,
+        "trend": "positive",
+        "insight": "Defensive play amid market volatility"
+      },
+      {
+        "name": "FMCG",
+        "change": 1.2,
+        "trend": "positive",
+        "insight": "Consumer demand stability"
+      }
+    ],
+    "underPerformers": [
+      {
+        "name": "Banking",
+        "change": -0.5,
+        "trend": "negative",
+        "insight": "NIM pressure from rate cut expectations",
+        "concern": "Deposit competition intensifying, FD rates being cut"
+      },
+      {
+        "name": "Realty",
+        "change": -1.2,
+        "trend": "negative",
+        "insight": "Interest rate concerns affecting sector"
+      },
+      {
+        "name": "Auto",
+        "change": -0.5,
+        "trend": "negative",
+        "insight": "Mixed signals in sector"
+      }
+    ],
+    "sectorRotation": "Money rotating from Banking to IT sector"
+  },
+  "stocks": {
+    "topGainers": [
+      {
+        "symbol": "TCS",
+        "price": 3850,
+        "change": 5.2,
+        "reason": "Largest IT company, market cap 15.44 lakh crores"
+      },
+      {
+        "symbol": "INFY",
+        "price": 1620,
+        "change": 3.8,
+        "reason": "Board approved 18000 Cr buyback at 1800/share"
+      },
+      {
+        "symbol": "BEL",
+        "change": 43.88,
+        "reason": "Year's champion of Nifty 50"
+      }
+    ],
+    "topLosers": [
+      {
+        "symbol": "HDFC",
+        "price": 1580,
+        "change": -2.1,
+        "category": "banking"
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "change": -49.97,
+        "reason": "Weakest Nifty 50 component over the year"
+      }
+    ]
+  },
+  "economicIndicators": {
+    "gdpGrowth": {
+      "current": 6.5,
+      "forecast": 6.5,
+      "milestone": "India surpassed Japan to become 4th largest economy",
+      "nominalGDP": "331.03 lakh crore (US$ 4.187 trillion)",
+      "projection": "3rd largest by 2030, surpass Germany by 2028"
+    },
+    "inflation": {
+      "current": 2.1,
+      "cpi": 3.34,
+      "insight": "Historic low - lowest since January 2019",
+      "viralFact": "Inflation lower than your SBI savings account interest rate!"
+    },
+    "unemployment": {
+      "urban": 9,
+      "youthUrban": 16.8,
+      "femaleImprovement": "From 14.3% to 9% in FY24/25",
+      "insight": "Youth unemployment elevated despite growth"
+    },
+    "manufacturing": {
+      "pmi": 58.4,
+      "insight": "14-month high, strong manufacturing momentum"
+    },
+    "forexReserves": {
+      "value": "59,68,048 crore (US$ 699.74 billion)",
+      "asOf": "July 4, 2025"
+    },
+    "fiscalDeficit": {
+      "value": 4.8,
+      "insight": "Fell despite election year"
+    }
+  },
+  "interestRates": {
+    "fdRates": {
+      "leaders": [
+        {
+          "bank": "Canara Bank",
+          "rate": 7.9,
+          "category": "highest"
+        },
+        {
+          "bank": "HDFC Bank",
+          "rate": 7.6,
+          "revised": "Cut rates from April 1"
+        },
+        {
+          "bank": "IDFC First",
+          "rate": 7.5
+        },
+        {
+          "bank": "SBI",
+          "rate": 6.6,
+          "special": "Amrit Kalash scheme ended"
+        }
+      ],
+      "trend": "Banks starting to cut FD rates after RBI repo cut",
+      "rbAction": "Cut repo rate by 25 bps in Feb 2025, first in 5 years"
+    },
+    "savingsRates": {
+      "average": 2.5,
+      "insight": "Inflation at 2.1% barely above savings rates"
+    },
+    "expectations": "Multiple rate cuts expected in 2025, up to 100 bps"
+  },
+  "goldMarket": {
+    "currentTrend": "All-time highs, fresh records in September",
+    "yearToDate": "+40%",
+    "pricePerGram": 6900,
+    "10YearReturn": "176% (vs 2500/gram in 2015)",
+    "dhantesasOutlook": "Expected to reach 1,03,000 per 10g by Diwali 2025",
+    "demandDrivers": [
+      "Wedding season (Record weddings Nov 2024-July 2025)",
+      "Festival buying (Akshaya Tritiya, Diwali)",
+      "Investment demand outpacing jewelry"
+    ],
+    "viralInsight": "Gold gave 176% returns in 10 years vs typical FD returns!",
+    "gst": "3% GST + 12.5% import duty on gold purchases"
+  },
+  "ipoMarket": {
+    "activity": "Very High - 16 IPOs in next 7 days",
+    "upcomingCount": 16,
+    "dateRange": "September 19-26, 2025",
+    "hotIPO": {
+      "name": "Urban Company",
+      "gmp": 34,
+      "gmpPercent": 33.01,
+      "size": "1,900 crore",
+      "priceband": "98-103",
+      "dates": "Sept 10 opening"
+    },
+    "otherNotable": [
+      {
+        "name": "Seshasai Technologies",
+        "size": "813 cr",
+        "freshIssue": "480 cr",
+        "ofs": "333 cr",
+        "priceband": "402-423",
+        "dates": "Sept 23-25"
+      },
+      {
+        "name": "VMS TMT",
+        "size": "148.5 cr",
+        "shares": "1.5 crore equity"
+      }
+    ],
+    "expectedBigNames": [
+      "Hero Fincorp",
+      "Tata Capital",
+      "BoAt",
+      "LG Electronics India"
+    ],
+    "smeChallenge": "Only 833 retail allotments in SME IPOs - tough odds",
+    "retailFrenzy": "Strong retail participation tracking GMPs for listing gains"
+  },
+  "globalMarkets": {
+    "usFed": {
+      "action": "Cut rates by 25 bps",
+      "impact": "First easing cycle of 2025",
+      "marketExpectation": "Multiple cuts expected through 2025-26"
+    },
+    "dollarRupee": {
+      "current": 83.25,
+      "trend": "Rupee worst performing Asian currency",
+      "monthlyDecline": "1.7%",
+      "impact": "Positive for IT sector dollar revenues"
+    },
+    "crudeOil": {
+      "value": 78.5,
+      "change": -1.2,
+      "concern": "Above $80 creates pressure on imports"
+    }
+  },
+  "fiiDiiFlows": {
+    "pattern": "FII selling continues, DII buying supports market",
+    "fiiLimit": "24% of paid-up capital",
+    "diiAdvantage": "No investment limits",
+    "impact": "DIIs providing stability against FII volatility",
+    "platforms": [
+      "NSE India",
+      "Groww",
+      "5paisa",
+      "Upstox",
+      "Research360"
+    ]
+  },
+  "viralContentAngles": [
+    {
+      "angle": "Chai Economics",
+      "story": "Your daily 10 rupee chai inflated less (2.1%) than your FD returns (6.6%) - first time in 6 years!",
+      "relatable": true,
+      "shareability": "high"
+    },
+    {
+      "angle": "Auto Rickshaw Analogy",
+      "story": "IT stocks racing ahead like share-autos in rain - everyone wants to hop on! Nifty IT recovered despite 10% YTD fall",
+      "metric": "IT surge on rupee weakness"
+    },
+    {
+      "angle": "Wedding Season Gold Rush",
+      "story": "Gold up 176% in 10 years - better than your cousin's engineering degree ROI! Expected 1 lakh/10g by Diwali",
+      "shock": "Record weddings driving demand"
+    },
+    {
+      "angle": "IPO Lottery",
+      "story": "Urban Company IPO - 33% grey market premium, better odds than Mumbai locals getting a seat! 16 IPOs in 7 days",
+      "fomo": "Only 833 retail allotments in SME IPOs"
+    },
+    {
+      "angle": "Japan Overtake",
+      "story": "India now 4th largest economy - we overtook Japan like Virat overtaking Sachin's records!",
+      "pride": "331 lakh crore economy, heading for 3rd spot by 2030"
+    },
+    {
+      "angle": "Inflation Shocker",
+      "story": "Inflation at 2.1% - lower than parking charges at Phoenix Mall! Your money losing less value than ever",
+      "comparison": "Lower than savings account rates"
+    }
+  ],
+  "contrainInsights": [
+    "Banks cutting FD rates despite inflation at historic lows - unusual scenario",
+    "Youth unemployment at 16.8% despite 6.5% GDP growth - jobless growth",
+    "IT stocks underperforming YTD (-10%) but suddenly surging on rupee weakness",
+    "Gold at all-time high but investment demand stronger than jewelry - paradigm shift",
+    "India growing faster than China but 2025 stock returns lagging global markets",
+    "Sensex underperforming despite becoming 4th largest economy"
+  ],
+  "actionableInsights": {
+    "immediate": [
+      "Book partial profits in IT stocks above 10% gains from recent lows",
+      "Accumulate quality banking stocks on NIM pressure dips",
+      "Start Gold SIPs before Dhanteras rush pushes prices higher"
+    ],
+    "shortTerm": [
+      "IPO strategy - Apply selectively, focus on quality over quantity",
+      "Shift allocation from growth to value stocks",
+      "Maintain 15-20% cash for market corrections"
+    ],
+    "mediumTerm": [
+      "Benefit from domestic flows similar to US 1980-2000 boom",
+      "Position for 3rd largest economy status by 2030",
+      "Ride the IT sector recovery on structural dollar strength"
+    ],
+    "trends": [
+      "Sector rotation from Banking to IT clearly visible",
+      "FII selling offset by strong DII buying",
+      "Festival and wedding season consumption boost incoming"
+    ]
+  },
+  "contentHooks": {
+    "shocking": "Inflation at 2.1% - lower than Swiggy delivery charges!",
+    "relatable": "Your parents' gold investment beat your MBA degree returns by 10x",
+    "fomo": "16 IPOs in 7 days - which lottery ticket will you miss?",
+    "pride": "India crosses Japan - Startup nation beats corporate samurai",
+    "concern": "1 in 6 urban youth unemployed despite economic boom - where are the jobs?",
+    "comparison": "TCS market cap (15.44L cr) > Pakistan's entire GDP",
+    "celebration": "Sensex at 83000 - each 1000 points now worth 1.2% only"
+  },
+  "marketNarrative": {
+    "headline": "India's Paradox: 4th Largest Economy but Markets Underperform",
+    "story": "Despite overtaking Japan and historic low inflation, Indian markets face headwinds from global uncertainty and high valuations",
+    "opportunity": "Domestic institutional support creating floor, IT sector recovery on currency",
+    "risk": "Youth unemployment and banking sector stress remain concerns"
+  }
+}

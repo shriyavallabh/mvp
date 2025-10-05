@@ -1,0 +1,22 @@
+{
+  "qrCodeBasic": {
+    "url": "https://wa.me/917666684471?text=Hi",
+    "description": "Basic QR code - minimal text"
+  },
+  "qrCodePortfolio": {
+    "url": "https://wa.me/917666684471?text=Portfolio",
+    "description": "Portfolio request QR code"
+  },
+  "qrCodeUpdate": {
+    "url": "https://wa.me/917666684471?text=Update",
+    "description": "Simple update request"
+  },
+  "clickToChat": {
+    "url": "https://wa.me/917666684471",
+    "description": "Direct click-to-chat (no pre-filled text)"
+  },
+  "websiteButton": {
+    "html": "<a href=\"https://wa.me/917666684471?text=Connect\" style=\"background:#25D366;color:white;padding:10px 20px;border-radius:5px;text-decoration:none;\">📱 Connect WhatsApp</a>",
+    "description": "Website button implementation"
+  }
+}

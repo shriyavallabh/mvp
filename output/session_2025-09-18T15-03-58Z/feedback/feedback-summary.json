@@ -1,0 +1,259 @@
+{
+  "sessionId": "session_2025-09-18T15-03-58Z",
+  "timestamp": "2025-09-18T21:10:15.000Z",
+  "feedbackProcessed": 44,
+  "criticalIssues": 1,
+  "highPriorityIssues": 10,
+  "mediumPriorityIssues": 20,
+  "revisionRequests": [
+    {
+      "priority": "CRITICAL",
+      "contentId": "LinkedIn_ADV_001_LI_002",
+      "issue": "Contains prohibited term: 'guaranteed returns'",
+      "action": "IMMEDIATE_REVISION",
+      "suggestedFix": "Replace 'guaranteed returns' with 'potential returns' or 'historical performance' with appropriate disclaimers",
+      "complianceRule": "SEBI_MF_Guidelines_2024",
+      "deadline": "IMMEDIATE"
+    },
+    {
+      "priority": "HIGH",
+      "contentIds": [
+        "WhatsApp_ADV_001_market_update",
+        "WhatsApp_ADV_002_tax_saving",
+        "WhatsApp_ADV_003_investment_tip",
+        "WhatsApp_ADV_004_educational",
+        "WhatsApp_ADV_005_motivational",
+        "WhatsApp_ADV_006_goal_planning",
+        "WhatsApp_ADV_007_market_update",
+        "WhatsApp_ADV_008_tax_saving",
+        "WhatsApp_ADV_009_investment_tip",
+        "WhatsApp_ADV_010_educational"
+      ],
+      "issue": "Missing required risk disclaimer",
+      "action": "ADD_DISCLAIMER",
+      "suggestedFix": "Add mandatory disclaimer: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'",
+      "complianceRule": "SEBI_Circular_IMDR_2024",
+      "deadline": "BEFORE_DISTRIBUTION"
+    },
+    {
+      "priority": "MEDIUM",
+      "contentIds": [
+        "LinkedIn_ADV_001_LI_001",
+        "LinkedIn_ADV_001_LI_002",
+        "LinkedIn_ADV_001_LI_003",
+        "LinkedIn_ADV_002_LI_001",
+        "LinkedIn_ADV_002_LI_002",
+        "LinkedIn_ADV_002_LI_003",
+        "LinkedIn_ADV_003_LI_001",
+        "LinkedIn_ADV_003_LI_002",
+        "LinkedIn_ADV_003_LI_003"
+      ],
+      "issue": "Missing ARN/AMFI registration number",
+      "action": "ADD_REGISTRATION",
+      "suggestedFix": "Include ARN number in advisor signature or footer",
+      "complianceRule": "SEBI_ARN_Display_Requirement",
+      "deadline": "NEXT_BATCH"
+    },
+    {
+      "priority": "MEDIUM",
+      "contentIds": [
+        "WhatsApp_ADV_004_educational",
+        "WhatsApp_ADV_005_motivational",
+        "WhatsApp_ADV_007_market_update",
+        "WhatsApp_ADV_010_educational"
+      ],
+      "issue": "Contains potential spam patterns (excessive caps)",
+      "action": "FORMAT_REVISION",
+      "suggestedFix": "Reduce excessive formatting and ALL CAPS usage to prevent spam filtering",
+      "complianceRule": "WhatsApp_Quality_Guidelines",
+      "deadline": "BEFORE_DISTRIBUTION"
+    },
+    {
+      "priority": "HIGH",
+      "contentIds": [
+        "ADV_001_LI_003",
+        "ADV_002_LI_003",
+        "ADV_003_LI_003"
+      ],
+      "issue": "Duplicate content across advisors (similarity > 75%)",
+      "action": "CONTENT_DIFFERENTIATION",
+      "suggestedFix": "Personalize trending topics with advisor-specific insights and perspectives",
+      "qualityMetric": "freshness_score",
+      "deadline": "BEFORE_DISTRIBUTION"
+    },
+    {
+      "priority": "MEDIUM",
+      "contentType": "linkedin",
+      "issue": "Hook repetition - 88% using emoji hooks",
+      "action": "DIVERSITY_IMPROVEMENT",
+      "suggestedFix": "Vary content openings with questions, statistics, quotes, or stories",
+      "qualityMetric": "hook_diversity",
+      "deadline": "NEXT_BATCH"
+    }
+  ],
+  "learningsCaptured": 12,
+  "learningPatterns": [
+    {
+      "pattern": "COMPLIANCE_CRITICAL",
+      "learning": "Never use absolute terms like 'guaranteed', 'assured', or 'definite' in investment content",
+      "frequency": 1,
+      "impact": "CRITICAL",
+      "preventionStrategy": "Implement pre-generation keyword blacklist"
+    },
+    {
+      "pattern": "DISCLAIMER_REQUIREMENT",
+      "learning": "All WhatsApp messages must include SEBI-mandated risk disclaimer",
+      "frequency": 10,
+      "impact": "HIGH",
+      "preventionStrategy": "Add disclaimer template to all WhatsApp message generation"
+    },
+    {
+      "pattern": "ARN_DISPLAY",
+      "learning": "Professional credibility enhanced by including ARN/AMFI registration",
+      "frequency": 13,
+      "impact": "MEDIUM",
+      "preventionStrategy": "Include ARN field in advisor profile and auto-append to content"
+    },
+    {
+      "pattern": "SPAM_PREVENTION",
+      "learning": "WhatsApp flags excessive formatting as spam - limit ALL CAPS usage",
+      "frequency": 5,
+      "impact": "MEDIUM",
+      "preventionStrategy": "Implement formatting rules in WhatsApp content generator"
+    },
+    {
+      "pattern": "CONTENT_UNIQUENESS",
+      "learning": "Trending topics need advisor-specific personalization to avoid duplication",
+      "frequency": 3,
+      "impact": "HIGH",
+      "preventionStrategy": "Add advisor expertise layer to trending content generation"
+    },
+    {
+      "pattern": "HOOK_DIVERSITY",
+      "learning": "Emoji-heavy openings reduce engagement - vary hook styles",
+      "frequency": 8,
+      "impact": "MEDIUM",
+      "preventionStrategy": "Rotate between 5+ hook templates per batch"
+    },
+    {
+      "pattern": "QUALITY_THRESHOLD",
+      "learning": "Content scoring above 85 correlates with higher engagement",
+      "frequency": 8,
+      "impact": "POSITIVE",
+      "reinforcementStrategy": "Prioritize educational and tax-saving content types"
+    },
+    {
+      "pattern": "PERSONALIZATION_SUCCESS",
+      "learning": "Advisor-specific market insights (ADV_001) scored highest (92)",
+      "frequency": 1,
+      "impact": "POSITIVE",
+      "reinforcementStrategy": "Leverage individual advisor specializations"
+    },
+    {
+      "pattern": "CTA_EFFECTIVENESS",
+      "learning": "Share CTAs (3x) most common but need variety for better engagement",
+      "frequency": 3,
+      "impact": "MEDIUM",
+      "preventionStrategy": "Implement CTA rotation logic"
+    },
+    {
+      "pattern": "TOPIC_BALANCE",
+      "learning": "Market updates and tax-saving content perform best (85+ scores)",
+      "frequency": 5,
+      "impact": "POSITIVE",
+      "reinforcementStrategy": "Maintain 30% allocation to high-performing topics"
+    },
+    {
+      "pattern": "SEGMENT_ALIGNMENT",
+      "learning": "Content aligned with advisor specialization scores 5-7 points higher",
+      "frequency": 3,
+      "impact": "POSITIVE",
+      "reinforcementStrategy": "Match content themes to advisor expertise areas"
+    },
+    {
+      "pattern": "FRESHNESS_METRIC",
+      "learning": "Content freshness below 60% indicates need for template expansion",
+      "frequency": 1,
+      "impact": "MEDIUM",
+      "preventionStrategy": "Expand content template library by 20%"
+    }
+  ],
+  "improvementPlan": {
+    "immediate": [
+      "Fix critical SEBI violation in LinkedIn_ADV_001_LI_002",
+      "Add risk disclaimers to all WhatsApp messages",
+      "Reduce excessive formatting in flagged WhatsApp content"
+    ],
+    "shortTerm": [
+      "Implement ARN auto-append functionality",
+      "Differentiate trending content for each advisor",
+      "Expand hook template variety from 2 to 6 types"
+    ],
+    "longTerm": [
+      "Build compliance pre-check module",
+      "Develop advisor-specific content models",
+      "Create dynamic freshness monitoring system",
+      "Implement A/B testing for CTA effectiveness"
+    ],
+    "metrics": {
+      "targetComplianceScore": 95,
+      "targetQualityScore": 88,
+      "targetFreshnessScore": 75,
+      "expectedImprovementTimeline": "2-3 sessions"
+    }
+  },
+  "feedbackSources": {
+    "complianceValidator": {
+      "itemsProcessed": 27,
+      "criticalFindings": 1,
+      "highFindings": 10,
+      "mediumFindings": 16
+    },
+    "qualityScorer": {
+      "itemsProcessed": 19,
+      "averageScore": 83.7,
+      "autoApproved": 19
+    },
+    "fatigueChecker": {
+      "itemsProcessed": 19,
+      "freshnessScore": 58.9,
+      "duplicatesFound": 0,
+      "similarityIssues": 4
+    }
+  },
+  "actionItems": {
+    "forContentGenerators": [
+      "Implement prohibited keyword blacklist",
+      "Add disclaimer templates",
+      "Increase hook variety",
+      "Personalize trending content"
+    ],
+    "forComplianceTeam": [
+      "Update ARN display requirements",
+      "Review disclaimer templates",
+      "Validate spam prevention rules"
+    ],
+    "forQualityAssurance": [
+      "Monitor freshness metrics",
+      "Track engagement by content type",
+      "Measure CTA effectiveness"
+    ]
+  },
+  "successMetrics": {
+    "contentQuality": {
+      "current": 83.7,
+      "target": 88,
+      "gap": 4.3
+    },
+    "complianceRate": {
+      "current": 42.1,
+      "target": 95,
+      "gap": 52.9
+    },
+    "freshnessScore": {
+      "current": 58.9,
+      "target": 75,
+      "gap": 16.1
+    }
+  }
+}

@@ -1,0 +1,819 @@
+{
+  "timestamp": "2025-09-18T18:06:24.557Z",
+  "session": "session_20250918_221309",
+  "totalAdvisors": 101,
+  "successCount": 4,
+  "failureCount": 97,
+  "successRate": "3.96%",
+  "template": "daily_content_ready_v1",
+  "deliveryResults": [
+    {
+      "advisorId": "ARN_SHRUTI_001",
+      "name": "Shruti Petkar",
+      "phone": "+919673758777",
+      "status": "SUCCESS",
+      "messageId": "wamid.HBgMOTE5NjczNzU4Nzc3FQIAERgSMDU0MTM1NTgyRUUyRkQ1RTVEAA==",
+      "timestamp": "2025-09-18T18:05:36.704Z"
+    },
+    {
+      "advisorId": "ARN_VIDYADHAR_002",
+      "name": "Vidyadhar Petkar",
+      "phone": "+918975758513",
+      "status": "SUCCESS",
+      "messageId": "wamid.HBgMOTE4OTc1NzU4NTEzFQIAERgSNEUwRUJEQTlEODIxMjQxQzU2AA==",
+      "timestamp": "2025-09-18T18:05:37.666Z"
+    },
+    {
+      "advisorId": "ARN_SHRIYA_003",
+      "name": "Shriya Vallabh Petkar",
+      "phone": "+919765071249",
+      "status": "SUCCESS",
+      "messageId": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSQUFFNEJGRDFBMjUyNUM1MUMyAA==",
+      "timestamp": "2025-09-18T18:05:38.415Z"
+    },
+    {
+      "advisorId": "ADV_004",
+      "name": "Mr. Tranquil Veda",
+      "phone": "+919022810769",
+      "status": "SUCCESS",
+      "messageId": "wamid.HBgMOTE5MDIyODEwNzY5FQIAERgSNzk1NEE3NDk0MTE3M0EwQjlFAA==",
+      "timestamp": "2025-09-18T18:05:39.170Z"
+    },
+    {
+      "advisorId": "ADV_005",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:39.639Z"
+    },
+    {
+      "advisorId": "ADV_006",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:40.086Z"
+    },
+    {
+      "advisorId": "ADV_007",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:40.505Z"
+    },
+    {
+      "advisorId": "ADV_008",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:40.954Z"
+    },
+    {
+      "advisorId": "ADV_009",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:41.562Z"
+    },
+    {
+      "advisorId": "ADV_010",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:42.014Z"
+    },
+    {
+      "advisorId": "ADV_011",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:42.436Z"
+    },
+    {
+      "advisorId": "ADV_012",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:42.873Z"
+    },
+    {
+      "advisorId": "ADV_013",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:43.330Z"
+    },
+    {
+      "advisorId": "ADV_014",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:44.104Z"
+    },
+    {
+      "advisorId": "ADV_015",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:44.538Z"
+    },
+    {
+      "advisorId": "ADV_016",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:44.976Z"
+    },
+    {
+      "advisorId": "ADV_017",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:45.406Z"
+    },
+    {
+      "advisorId": "ADV_018",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:45.839Z"
+    },
+    {
+      "advisorId": "ADV_019",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:46.278Z"
+    },
+    {
+      "advisorId": "ADV_020",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:46.751Z"
+    },
+    {
+      "advisorId": "ADV_021",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:47.228Z"
+    },
+    {
+      "advisorId": "ADV_022",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:47.659Z"
+    },
+    {
+      "advisorId": "ADV_023",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:48.093Z"
+    },
+    {
+      "advisorId": "ADV_024",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:48.578Z"
+    },
+    {
+      "advisorId": "ADV_025",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:48.995Z"
+    },
+    {
+      "advisorId": "ADV_026",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:49.679Z"
+    },
+    {
+      "advisorId": "ADV_027",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:50.109Z"
+    },
+    {
+      "advisorId": "ADV_028",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:50.538Z"
+    },
+    {
+      "advisorId": "ADV_029",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:50.976Z"
+    },
+    {
+      "advisorId": "ADV_030",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:51.427Z"
+    },
+    {
+      "advisorId": "ADV_031",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:51.859Z"
+    },
+    {
+      "advisorId": "ADV_032",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:52.281Z"
+    },
+    {
+      "advisorId": "ADV_033",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:52.853Z"
+    },
+    {
+      "advisorId": "ADV_034",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:53.264Z"
+    },
+    {
+      "advisorId": "ADV_035",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:53.705Z"
+    },
+    {
+      "advisorId": "ADV_036",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:54.183Z"
+    },
+    {
+      "advisorId": "ADV_037",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:54.636Z"
+    },
+    {
+      "advisorId": "ADV_038",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:55.143Z"
+    },
+    {
+      "advisorId": "ADV_039",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:55.595Z"
+    },
+    {
+      "advisorId": "ADV_040",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:56.040Z"
+    },
+    {
+      "advisorId": "ADV_041",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:56.563Z"
+    },
+    {
+      "advisorId": "ADV_042",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:57.024Z"
+    },
+    {
+      "advisorId": "ADV_043",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:57.444Z"
+    },
+    {
+      "advisorId": "ADV_044",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:57.862Z"
+    },
+    {
+      "advisorId": "ADV_045",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:58.305Z"
+    },
+    {
+      "advisorId": "ADV_046",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:58.729Z"
+    },
+    {
+      "advisorId": "ADV_047",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:59.164Z"
+    },
+    {
+      "advisorId": "ADV_048",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:05:59.604Z"
+    },
+    {
+      "advisorId": "ADV_049",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:00.036Z"
+    },
+    {
+      "advisorId": "ADV_050",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:00.478Z"
+    },
+    {
+      "advisorId": "ADV_051",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:00.897Z"
+    },
+    {
+      "advisorId": "ADV_052",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:01.355Z"
+    },
+    {
+      "advisorId": "ADV_053",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:01.787Z"
+    },
+    {
+      "advisorId": "ADV_054",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:02.217Z"
+    },
+    {
+      "advisorId": "ADV_055",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:02.656Z"
+    },
+    {
+      "advisorId": "ADV_056",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:03.197Z"
+    },
+    {
+      "advisorId": "ADV_057",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:03.708Z"
+    },
+    {
+      "advisorId": "ADV_058",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:04.118Z"
+    },
+    {
+      "advisorId": "ADV_059",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:04.542Z"
+    },
+    {
+      "advisorId": "ADV_060",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:05.142Z"
+    },
+    {
+      "advisorId": "ADV_061",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:05.575Z"
+    },
+    {
+      "advisorId": "ADV_062",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:06.093Z"
+    },
+    {
+      "advisorId": "ADV_063",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:06.540Z"
+    },
+    {
+      "advisorId": "ADV_064",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:07.087Z"
+    },
+    {
+      "advisorId": "ADV_065",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:07.539Z"
+    },
+    {
+      "advisorId": "ADV_066",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:07.967Z"
+    },
+    {
+      "advisorId": "ADV_067",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:08.398Z"
+    },
+    {
+      "advisorId": "ADV_068",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:08.837Z"
+    },
+    {
+      "advisorId": "ADV_069",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:09.442Z"
+    },
+    {
+      "advisorId": "ADV_070",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:09.857Z"
+    },
+    {
+      "advisorId": "ADV_071",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:10.366Z"
+    },
+    {
+      "advisorId": "ADV_072",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:10.802Z"
+    },
+    {
+      "advisorId": "ADV_073",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:11.286Z"
+    },
+    {
+      "advisorId": "ADV_074",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:11.735Z"
+    },
+    {
+      "advisorId": "ADV_075",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:12.207Z"
+    },
+    {
+      "advisorId": "ADV_076",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:12.645Z"
+    },
+    {
+      "advisorId": "ADV_077",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:13.436Z"
+    },
+    {
+      "advisorId": "ADV_078",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:13.865Z"
+    },
+    {
+      "advisorId": "ADV_079",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:14.460Z"
+    },
+    {
+      "advisorId": "ADV_080",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:14.882Z"
+    },
+    {
+      "advisorId": "ADV_081",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:15.382Z"
+    },
+    {
+      "advisorId": "ADV_082",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:15.817Z"
+    },
+    {
+      "advisorId": "ADV_083",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:16.277Z"
+    },
+    {
+      "advisorId": "ADV_084",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:16.871Z"
+    },
+    {
+      "advisorId": "ADV_085",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:17.325Z"
+    },
+    {
+      "advisorId": "ADV_086",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:17.777Z"
+    },
+    {
+      "advisorId": "ADV_087",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:18.250Z"
+    },
+    {
+      "advisorId": "ADV_088",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:18.716Z"
+    },
+    {
+      "advisorId": "ADV_089",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:19.140Z"
+    },
+    {
+      "advisorId": "ADV_090",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:19.604Z"
+    },
+    {
+      "advisorId": "ADV_091",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:20.026Z"
+    },
+    {
+      "advisorId": "ADV_092",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:20.495Z"
+    },
+    {
+      "advisorId": "ADV_093",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:20.918Z"
+    },
+    {
+      "advisorId": "ADV_094",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:21.335Z"
+    },
+    {
+      "advisorId": "ADV_095",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:21.765Z"
+    },
+    {
+      "advisorId": "ADV_096",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:22.243Z"
+    },
+    {
+      "advisorId": "ADV_097",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:22.657Z"
+    },
+    {
+      "advisorId": "ADV_098",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:23.083Z"
+    },
+    {
+      "advisorId": "ADV_099",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:23.517Z"
+    },
+    {
+      "advisorId": "ADV_100",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:23.946Z"
+    },
+    {
+      "advisorId": "ADV_101",
+      "name": "Unknown Advisor",
+      "phone": "+",
+      "status": "FAILED",
+      "error": "(#100) Invalid parameter",
+      "timestamp": "2025-09-18T18:06:24.457Z"
+    }
+  ]
+}

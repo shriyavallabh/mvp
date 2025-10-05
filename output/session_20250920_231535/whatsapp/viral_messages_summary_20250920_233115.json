@@ -1,0 +1,58 @@
+{
+  "sessionId": "session_20250920_231535",
+  "timestamp": "20250920_233115",
+  "totalMessages": 3,
+  "messages": [
+    {
+      "theme": "FII_EXODUS_PARADOX",
+      "style": "warikoo_confession",
+      "message": "₹2.35 LAKH CRORE left. Market still UP! 😱\n\nI lost ₹7 lakhs panicking when FIIs sold.\nToday learned the SECRET buyer...\n\nDIIs bought EVERY share FIIs dumped!\n₹86,000 crore domestic money vs foreign fear.\n\nMy driver didn't sell. He's up 12%.\nI'm down 15%. Who's smarter?\n\nLesson: Indian money > Foreign panic\n\nReply 'SECRET' to know DII's next move\n\nARN: ARN_SHRUTI_001",
+      "character_count": 367,
+      "virality_score": 10.0,
+      "emotional_triggers": [
+        "confession",
+        "surprise",
+        "regret",
+        "curiosity"
+      ],
+      "scroll_stop_power": "Opens with shocking number + paradox"
+    },
+    {
+      "theme": "TRUMP_TARIFF_SHOCK",
+      "style": "ranade_analogy",
+      "message": "50% TARIFF on India! Your EMI could JUMP 15%! 💸\n\nTrump's tariff = Onion at ₹200/kg\n\nEverything imported gets costly:\n• iPhone: ₹1.5L → ₹2.2L\n• Car parts: 30% price hike\n• Your EMI: ₹50K → ₹57K\n\nBut wait... Rupee at ₹86.40 helps IT!\n\nTCS/Infy earn in $, spend in ₹\nEvery ₹1 fall = ₹500cr profit!\n\nBuy IT, Sell Auto - Reply 'PLAN'\n\nARN: ARN_VIDYADHAR_002",
+      "character_count": 352,
+      "virality_score": 8.0,
+      "emotional_triggers": [
+        "fear",
+        "urgency",
+        "practical_impact",
+        "solution"
+      ],
+      "scroll_stop_power": "Direct EMI impact grabs attention"
+    },
+    {
+      "theme": "BITCOIN_CRASH_STORY",
+      "style": "underdog_story",
+      "message": "$109K to $94K! Bitcoin CRASHED 14% 📉\n\nMy driver Raju's trick shocked me:\n\n\"Sir, I buy ₹100 Bitcoin daily.\nCrash = discount sale for me!\"\n\nHe started at $65K. Down to $30K.\nNever stopped. Today: ₹4.2 lakhs profit!\n\nMeanwhile I waited for \"perfect entry\"\nStill waiting... He's counting money.\n\n₹100 daily > Timing the market\n\nStart YOUR ₹100 journey - Reply 'BEGIN'\n\nARN: ARN_AVALOK_003",
+      "character_count": 384,
+      "virality_score": 8.0,
+      "emotional_triggers": [
+        "underdog_success",
+        "simplicity",
+        "regret",
+        "inspiration"
+      ],
+      "scroll_stop_power": "Crash number + driver story creates curiosity"
+    }
+  ],
+  "validation": {
+    "all_within_limit": true,
+    "all_viral": true,
+    "themes_covered": [
+      "FII_EXODUS_PARADOX",
+      "TRUMP_TARIFF_SHOCK",
+      "BITCOIN_CRASH_STORY"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "sessionId": "session_2025-09-18T15-03-58Z",
+  "timestamp": "2025-09-18T15:18:53.065523+00:00",
+  "segmentationResults": {
+    "totalAdvisorsProcessed": 101,
+    "validAdvisorsAnalyzed": 4,
+    "uniqueSegmentsIdentified": 2
+  },
+  "topSegments": [
+    {
+      "segmentName": "tone_professional_plan_standard_freq_daily",
+      "advisorCount": 3,
+      "primaryCharacteristics": [
+        "Professional tone preferred",
+        "Daily content delivery",
+        "Standard subscription tier"
+      ],
+      "recommendedStrategy": "Professional and data-driven"
+    },
+    {
+      "segmentName": "tone_educational_plan_gold_freq_daily",
+      "advisorCount": 1,
+      "primaryCharacteristics": [
+        "Daily content delivery"
+      ],
+      "recommendedStrategy": "Professional"
+    }
+  ],
+  "contentRecommendations": {
+    "immediateActions": [
+      "Deploy professional tone content for majority segment",
+      "Schedule daily content delivery at 9:00 AM IST",
+      "Focus on tax-saving ELSS content for Q4 planning",
+      "Prepare market insight templates for daily updates"
+    ],
+    "weeklyThemes": {
+      "Monday": "Market outlook and week ahead",
+      "Tuesday": "Sector spotlight and opportunities",
+      "Wednesday": "Investment education and tips",
+      "Thursday": "Tax planning and ELSS insights",
+      "Friday": "Portfolio review and strategies"
+    }
+  },
+  "personalizationMetrics": {
+    "recommendedLevel": "High",
+    "customizationPoints": 5,
+    "contentVariations": 3,
+    "languageOptions": 3
+  },
+  "marketAlignmentScore": {
+    "score": 85,
+    "rationale": "Strong alignment with current market trends including ELSS focus, PSU rally, and IT sector growth"
+  },
+  "nextSteps": [
+    "Generate content templates for each segment",
+    "Set up automated content scheduling",
+    "Implement A/B testing for engagement optimization",
+    "Monitor segment performance metrics"
+  ]
+}

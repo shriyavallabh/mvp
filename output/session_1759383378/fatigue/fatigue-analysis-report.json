@@ -1,0 +1,76 @@
+{
+  "session_id": "session_1759383378",
+  "agent": "fatigue-checker",
+  "phase": 5,
+  "agent_number": 11,
+  "timestamp": "2025-10-02T06:52:07.466Z",
+  "execution_time": "2/10/2025, 12:22:07 pm",
+  "summary": {
+    "freshness_score": 85,
+    "status": "APPROVED",
+    "total_flags": 2,
+    "total_recommendations": 1
+  },
+  "content_analyzed": {
+    "current_session": {
+      "linkedin_posts": 8,
+      "whatsapp_messages": 8,
+      "total_items": 16
+    },
+    "historical_comparison": {
+      "linkedin_posts": 0,
+      "whatsapp_messages": 0,
+      "sessions_analyzed": 5
+    }
+  },
+  "diversity_analysis": {
+    "topics": {
+      "tax_planning": 11,
+      "insurance": 4,
+      "market_update": 1,
+      "fd_comparison": 1,
+      "sip": 4,
+      "rbi_policy": 1
+    },
+    "hooks": {
+      "question": 16
+    },
+    "ctas": {
+      "schedule": 1,
+      "start": 7
+    }
+  },
+  "flags": [
+    {
+      "type": "topic_concentration",
+      "concentration": "0.69",
+      "dominant_topic": "tax_planning",
+      "penalty": 10
+    },
+    {
+      "type": "hook_monotony",
+      "variety": 1,
+      "minimum_expected": 3,
+      "penalty": 5
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "medium",
+      "action": "vary_hooks",
+      "description": "Use more diverse hook styles: questions, stories, statistics, quotes"
+    }
+  ],
+  "thresholds": {
+    "similarity_threshold": 0.7,
+    "topic_rotation_days": 14,
+    "cta_rotation_posts": 3,
+    "approved_score": 70,
+    "review_score": 50
+  },
+  "output_files": {
+    "full_report": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/fatigue/fatigue-analysis-report.json",
+    "summary": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/fatigue/fatigue-summary.md",
+    "recommendations": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/fatigue/diversification-recommendations.json"
+  }
+}

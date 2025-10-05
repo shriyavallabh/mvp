@@ -1,0 +1,5719 @@
+{
+  "sessionId": "session_20250919_105507",
+  "timestamp": "2025-09-19T05:29:13.509Z",
+  "purpose": "Grammy Award viral content orchestration",
+  "totalAdvisors": 101,
+  "activeAdvisors": 101,
+  "segmentBreakdown": {
+    "active": 3,
+    "Gold": 1,
+    "Standard": 97
+  },
+  "planBreakdown": {
+    "Standard": 100,
+    "Gold": 1
+  },
+  "whatsappEnabled": 4,
+  "customBranding": 0,
+  "autoApproveEnabled": 1,
+  "dataQuality": {
+    "completeProfiles": 4,
+    "missingEmails": 97,
+    "missingPhones": 97,
+    "invalidPhones": 0
+  },
+  "advisors": [
+    {
+      "advisorId": "ARN_SHRUTI_001",
+      "personalInfo": {
+        "name": "Shruti Petkar",
+        "phone": "91919673758777",
+        "email": "shruti@finadvise.com",
+        "arn": "ARN_SHRUTI_001"
+      },
+      "businessInfo": {
+        "firmName": "Shruti Petkar",
+        "experience": "#4A90E2,#7ED321",
+        "aum": "professional",
+        "clientCount": "middle",
+        "specializations": [
+          "medium"
+        ],
+        "certifications": [
+          "balanced"
+        ]
+      },
+      "segmentInfo": {
+        "primarySegment": "active",
+        "clientDemographics": [
+          "monthly"
+        ],
+        "focusAreas": [
+          "31/12/2025"
+        ],
+        "riskProfile": "manual",
+        "averageInvestment": "TRUE"
+      },
+      "customization": {
+        "brandName": "Shruti Petkar",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.501Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.502Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.502Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 2
+      }
+    },
+    {
+      "advisorId": "ARN_VIDYADHAR_002",
+      "personalInfo": {
+        "name": "Vidyadhar Petkar",
+        "phone": "91918975758513",
+        "email": "vidyadhar@finadvise.com",
+        "arn": "ARN_VIDYADHAR_002"
+      },
+      "businessInfo": {
+        "firmName": "Vidyadhar Petkar",
+        "experience": "#FF6B35,#004E89",
+        "aum": "friendly",
+        "clientCount": "affluent",
+        "specializations": [
+          "high"
+        ],
+        "certifications": [
+          "investment"
+        ]
+      },
+      "segmentInfo": {
+        "primarySegment": "active",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Vidyadhar Petkar",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.502Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.502Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.502Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 3
+      }
+    },
+    {
+      "advisorId": "ARN_SHRIYA_003",
+      "personalInfo": {
+        "name": "Shriya Vallabh Petkar",
+        "phone": "91919765071249",
+        "email": "shriya@finadvise.com",
+        "arn": "ARN_SHRIYA_003"
+      },
+      "businessInfo": {
+        "firmName": "Shriya Vallabh Petkar",
+        "experience": "#8B5CF6,#EC4899",
+        "aum": "educational",
+        "clientCount": "young",
+        "specializations": [
+          "low"
+        ],
+        "certifications": [
+          "education"
+        ]
+      },
+      "segmentInfo": {
+        "primarySegment": "active",
+        "clientDemographics": [
+          "admin"
+        ],
+        "focusAreas": [
+          "all"
+        ],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Shriya Vallabh Petkar",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.502Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.502Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.502Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 4
+      }
+    },
+    {
+      "advisorId": "ADV_004",
+      "personalInfo": {
+        "name": "Mr. Tranquil Veda",
+        "phone": "919022810769",
+        "email": "tranquil.veda@finadvise.com",
+        "arn": "ADV_004"
+      },
+      "businessInfo": {
+        "firmName": "Tranquil Wealth Advisory",
+        "experience": "7 years",
+        "aum": "25 Crores",
+        "clientCount": "75",
+        "specializations": [
+          "Portfolio Management",
+          "Retirement Planning",
+          "Tax Advisory"
+        ],
+        "certifications": [
+          "CFP",
+          "CFA"
+        ]
+      },
+      "segmentInfo": {
+        "primarySegment": "Gold",
+        "clientDemographics": [
+          "Young Professionals",
+          "Senior Citizens"
+        ],
+        "focusAreas": [
+          "Equity",
+          "Debt",
+          "Mutual Funds"
+        ],
+        "riskProfile": "Balanced",
+        "averageInvestment": "15 Lakhs"
+      },
+      "customization": {
+        "brandName": "Tranquil Wealth Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#2E7D32",
+          "secondary": "#66BB6A"
+        },
+        "tagline": "Creating Peaceful Wealth Journey",
+        "disclaimer": "Mutual fund investments are subject to market risks. Please read all scheme-related documents carefully."
+      },
+      "preferences": {
+        "contentTone": "Educational",
+        "postingTime": "08:30",
+        "languages": [
+          "English",
+          "Hindi",
+          "Marathi"
+        ],
+        "avoidTopics": [],
+        "autoApprove": true,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Gold",
+        "status": "Active",
+        "validUntil": "2026-09-18",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-18"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.502Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 5
+      }
+    },
+    {
+      "advisorId": "ADV_005",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_005"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.502Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.502Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.502Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 6
+      }
+    },
+    {
+      "advisorId": "ADV_006",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_006"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.502Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.502Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.502Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 7
+      }
+    },
+    {
+      "advisorId": "ADV_007",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_007"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.502Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.502Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.502Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 8
+      }
+    },
+    {
+      "advisorId": "ADV_008",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_008"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.502Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.502Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.502Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 9
+      }
+    },
+    {
+      "advisorId": "ADV_009",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_009"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.502Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.502Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.502Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 10
+      }
+    },
+    {
+      "advisorId": "ADV_010",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_010"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 11
+      }
+    },
+    {
+      "advisorId": "ADV_011",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_011"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 12
+      }
+    },
+    {
+      "advisorId": "ADV_012",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_012"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 13
+      }
+    },
+    {
+      "advisorId": "ADV_013",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_013"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 14
+      }
+    },
+    {
+      "advisorId": "ADV_014",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_014"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 15
+      }
+    },
+    {
+      "advisorId": "ADV_015",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_015"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 16
+      }
+    },
+    {
+      "advisorId": "ADV_016",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_016"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 17
+      }
+    },
+    {
+      "advisorId": "ADV_017",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_017"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 18
+      }
+    },
+    {
+      "advisorId": "ADV_018",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_018"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 19
+      }
+    },
+    {
+      "advisorId": "ADV_019",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_019"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 20
+      }
+    },
+    {
+      "advisorId": "ADV_020",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_020"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 21
+      }
+    },
+    {
+      "advisorId": "ADV_021",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_021"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 22
+      }
+    },
+    {
+      "advisorId": "ADV_022",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_022"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 23
+      }
+    },
+    {
+      "advisorId": "ADV_023",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_023"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 24
+      }
+    },
+    {
+      "advisorId": "ADV_024",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_024"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 25
+      }
+    },
+    {
+      "advisorId": "ADV_025",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_025"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 26
+      }
+    },
+    {
+      "advisorId": "ADV_026",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_026"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 27
+      }
+    },
+    {
+      "advisorId": "ADV_027",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_027"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 28
+      }
+    },
+    {
+      "advisorId": "ADV_028",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_028"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 29
+      }
+    },
+    {
+      "advisorId": "ADV_029",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_029"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 30
+      }
+    },
+    {
+      "advisorId": "ADV_030",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_030"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 31
+      }
+    },
+    {
+      "advisorId": "ADV_031",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_031"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 32
+      }
+    },
+    {
+      "advisorId": "ADV_032",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_032"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 33
+      }
+    },
+    {
+      "advisorId": "ADV_033",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_033"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 34
+      }
+    },
+    {
+      "advisorId": "ADV_034",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_034"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 35
+      }
+    },
+    {
+      "advisorId": "ADV_035",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_035"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 36
+      }
+    },
+    {
+      "advisorId": "ADV_036",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_036"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 37
+      }
+    },
+    {
+      "advisorId": "ADV_037",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_037"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 38
+      }
+    },
+    {
+      "advisorId": "ADV_038",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_038"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 39
+      }
+    },
+    {
+      "advisorId": "ADV_039",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_039"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 40
+      }
+    },
+    {
+      "advisorId": "ADV_040",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_040"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 41
+      }
+    },
+    {
+      "advisorId": "ADV_041",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_041"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 42
+      }
+    },
+    {
+      "advisorId": "ADV_042",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_042"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 43
+      }
+    },
+    {
+      "advisorId": "ADV_043",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_043"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 44
+      }
+    },
+    {
+      "advisorId": "ADV_044",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_044"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 45
+      }
+    },
+    {
+      "advisorId": "ADV_045",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_045"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 46
+      }
+    },
+    {
+      "advisorId": "ADV_046",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_046"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 47
+      }
+    },
+    {
+      "advisorId": "ADV_047",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_047"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 48
+      }
+    },
+    {
+      "advisorId": "ADV_048",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_048"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 49
+      }
+    },
+    {
+      "advisorId": "ADV_049",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_049"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 50
+      }
+    },
+    {
+      "advisorId": "ADV_050",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_050"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 51
+      }
+    },
+    {
+      "advisorId": "ADV_051",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_051"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 52
+      }
+    },
+    {
+      "advisorId": "ADV_052",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_052"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 53
+      }
+    },
+    {
+      "advisorId": "ADV_053",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_053"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 54
+      }
+    },
+    {
+      "advisorId": "ADV_054",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_054"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 55
+      }
+    },
+    {
+      "advisorId": "ADV_055",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_055"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 56
+      }
+    },
+    {
+      "advisorId": "ADV_056",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_056"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 57
+      }
+    },
+    {
+      "advisorId": "ADV_057",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_057"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 58
+      }
+    },
+    {
+      "advisorId": "ADV_058",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_058"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 59
+      }
+    },
+    {
+      "advisorId": "ADV_059",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_059"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 60
+      }
+    },
+    {
+      "advisorId": "ADV_060",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_060"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 61
+      }
+    },
+    {
+      "advisorId": "ADV_061",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_061"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 62
+      }
+    },
+    {
+      "advisorId": "ADV_062",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_062"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 63
+      }
+    },
+    {
+      "advisorId": "ADV_063",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_063"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 64
+      }
+    },
+    {
+      "advisorId": "ADV_064",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_064"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 65
+      }
+    },
+    {
+      "advisorId": "ADV_065",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_065"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 66
+      }
+    },
+    {
+      "advisorId": "ADV_066",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_066"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 67
+      }
+    },
+    {
+      "advisorId": "ADV_067",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_067"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 68
+      }
+    },
+    {
+      "advisorId": "ADV_068",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_068"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 69
+      }
+    },
+    {
+      "advisorId": "ADV_069",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_069"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 70
+      }
+    },
+    {
+      "advisorId": "ADV_070",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_070"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 71
+      }
+    },
+    {
+      "advisorId": "ADV_071",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_071"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 72
+      }
+    },
+    {
+      "advisorId": "ADV_072",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_072"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 73
+      }
+    },
+    {
+      "advisorId": "ADV_073",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_073"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 74
+      }
+    },
+    {
+      "advisorId": "ADV_074",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_074"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 75
+      }
+    },
+    {
+      "advisorId": "ADV_075",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_075"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 76
+      }
+    },
+    {
+      "advisorId": "ADV_076",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_076"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 77
+      }
+    },
+    {
+      "advisorId": "ADV_077",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_077"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 78
+      }
+    },
+    {
+      "advisorId": "ADV_078",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_078"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 79
+      }
+    },
+    {
+      "advisorId": "ADV_079",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_079"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 80
+      }
+    },
+    {
+      "advisorId": "ADV_080",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_080"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 81
+      }
+    },
+    {
+      "advisorId": "ADV_081",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_081"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 82
+      }
+    },
+    {
+      "advisorId": "ADV_082",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_082"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 83
+      }
+    },
+    {
+      "advisorId": "ADV_083",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_083"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 84
+      }
+    },
+    {
+      "advisorId": "ADV_084",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_084"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 85
+      }
+    },
+    {
+      "advisorId": "ADV_085",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_085"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 86
+      }
+    },
+    {
+      "advisorId": "ADV_086",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_086"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 87
+      }
+    },
+    {
+      "advisorId": "ADV_087",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_087"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 88
+      }
+    },
+    {
+      "advisorId": "ADV_088",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_088"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 89
+      }
+    },
+    {
+      "advisorId": "ADV_089",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_089"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 90
+      }
+    },
+    {
+      "advisorId": "ADV_090",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_090"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 91
+      }
+    },
+    {
+      "advisorId": "ADV_091",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_091"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 92
+      }
+    },
+    {
+      "advisorId": "ADV_092",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_092"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 93
+      }
+    },
+    {
+      "advisorId": "ADV_093",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_093"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 94
+      }
+    },
+    {
+      "advisorId": "ADV_094",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_094"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 95
+      }
+    },
+    {
+      "advisorId": "ADV_095",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_095"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 96
+      }
+    },
+    {
+      "advisorId": "ADV_096",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_096"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 97
+      }
+    },
+    {
+      "advisorId": "ADV_097",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_097"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 98
+      }
+    },
+    {
+      "advisorId": "ADV_098",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_098"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 99
+      }
+    },
+    {
+      "advisorId": "ADV_099",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_099"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 100
+      }
+    },
+    {
+      "advisorId": "ADV_100",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_100"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 101
+      }
+    },
+    {
+      "advisorId": "ADV_101",
+      "personalInfo": {
+        "name": "Unknown Advisor",
+        "phone": "",
+        "email": "",
+        "arn": "ARN_101"
+      },
+      "businessInfo": {
+        "firmName": "Financial Advisory",
+        "experience": "N/A",
+        "aum": "N/A",
+        "clientCount": 0,
+        "specializations": [],
+        "certifications": []
+      },
+      "segmentInfo": {
+        "primarySegment": "Standard",
+        "clientDemographics": [],
+        "focusAreas": [],
+        "riskProfile": "Moderate",
+        "averageInvestment": "FALSE"
+      },
+      "customization": {
+        "brandName": "Financial Advisory",
+        "logoUrl": "",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "disclaimer": "Mutual fund investments are subject to market risks."
+      },
+      "preferences": {
+        "contentTone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": [
+          "English"
+        ],
+        "avoidTopics": [],
+        "autoApprove": false,
+        "sendFrequency": "daily"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "validUntil": "2026-09-19T05:29:13.503Z",
+        "paymentStatus": "Paid",
+        "onboardingDate": "2025-09-19T05:29:13.503Z"
+      },
+      "metadata": {
+        "lastUpdated": "2025-09-19T05:29:13.503Z",
+        "dataSource": "Google Sheets",
+        "rowNumber": 102
+      }
+    }
+  ]
+}

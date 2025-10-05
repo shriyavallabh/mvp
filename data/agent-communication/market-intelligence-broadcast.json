@@ -1,0 +1,39 @@
+{
+  "messageType": "market_data_ready",
+  "timestamp": "2025-09-17T17:52:42.592180+00:00",
+  "from": "market-intelligence-agent",
+  "to": "all_content_generators",
+  "priority": "high",
+  "payload": {
+    "dataLocation": "/Users/shriyavallabh/Desktop/mvp/data/market-intelligence.json",
+    "summaryLocation": "/Users/shriyavallabh/Desktop/mvp/data/shared-memory/market-intelligence-current.json",
+    "keyMetrics": {
+      "sensex": "82690 (+0.38%)",
+      "nifty": "25330.25 (+0.36%)",
+      "sentiment": "cautiously_optimistic",
+      "topStory": "Fed rate cuts and iPhone 17 launch driving markets"
+    },
+    "contentSuggestions": {
+      "linkedin": [
+        "Fed rate cuts: Impact on Indian equity portfolios",
+        "Sector rotation strategy: IT leads, auto lags",
+        "iPhone 17 effect: Technology disruption continues"
+      ],
+      "whatsapp": [
+        "Market Alert: Sensex up 0.4%, IT sector flying!",
+        "Quick Take: Fed cuts expected - what it means for you",
+        "Stock Spotlight: Redington surges 20% on iPhone demand"
+      ],
+      "statusImages": [
+        "Market Dashboard: Sensex 82,690 (+0.38%)",
+        "Sector Heatmap: IT +4.4%, Auto -4.8%",
+        "Today's Winner: Redington +20%"
+      ]
+    }
+  },
+  "actionRequired": {
+    "immediate": "Generate content using latest market data",
+    "priority": "Focus on Fed rate cuts and sector rotation themes",
+    "compliance": "Ensure all financial advice disclaimers included"
+  }
+}

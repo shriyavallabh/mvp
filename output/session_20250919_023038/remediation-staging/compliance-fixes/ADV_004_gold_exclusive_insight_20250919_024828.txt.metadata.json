@@ -1,0 +1,15 @@
+{
+  "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_exclusive_insight_20250919_024828.txt",
+  "priority": 27.939999999999998,
+  "requirements": {
+    "canBeRemediated": true,
+    "primaryIssue": "compliance",
+    "requiredActions": [
+      "Add document reading requirement",
+      "Add past performance disclaimer",
+      "Add ARN display"
+    ],
+    "estimatedTime": 13
+  },
+  "estimatedTime": 13
+}

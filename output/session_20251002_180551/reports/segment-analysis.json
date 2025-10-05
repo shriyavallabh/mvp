@@ -1,0 +1,225 @@
+{
+  "session_id": "session_20251002_180551",
+  "timestamp": "2025-10-02T18:05:51+05:30",
+  "analysis_completed": true,
+  "total_advisors_analyzed": 4,
+  "segment_distribution": {
+    "Premium": 2,
+    "Gold": 1,
+    "Silver": 1
+  },
+  "advisors": [
+    {
+      "id": "ADV001",
+      "name": "Shruti Petkar",
+      "segment": "Premium",
+      "client_profile": "HNI, Ultra-HNI clients",
+      "strategy": {
+        "tone": "Executive, authoritative, professional",
+        "complexity": "High - data-heavy analysis",
+        "content_style": "Sophisticated insights with deep market analysis",
+        "priority_topics": [
+          "RBI policy implications on wealth portfolios",
+          "Tata Capital IPO strategy for HNI allocation",
+          "Portfolio rebalancing for rate cut cycle",
+          "Loan against shares opportunity (Rs 1 Cr limit increase)",
+          "Tax-efficient wealth restructuring"
+        ],
+        "viral_angles": [
+          {
+            "angle": "RBI's Rs 1 Crore Loan Against Shares - Unlock Your Stock Wealth",
+            "hook": "RBI just increased loan against shares ceiling from Rs 20L to Rs 1 Cr - 5x jump! Your portfolio can now work harder for you.",
+            "story": "High net-worth portfolios sitting idle? RBI's latest reform allows you to leverage quality stocks for wealth opportunities without selling. Strategic arbitrage, business expansion, or diversification - all while keeping your winners.",
+            "cta": "Review your portfolio's leverage potential this quarter",
+            "virality_score": 8.5
+          },
+          {
+            "angle": "Tata Capital IPO - HNI Strategy for Rs 15,512 Cr Opportunity",
+            "hook": "2025's biggest IPO - Rs 15,512 crore Tata Capital. Anchor portion expects 4x oversubscription. Premium allocation strategy matters.",
+            "story": "Quality over quantity for HNI investors. Tata brand, financial services growth story, and strategic timing post-RBI dovish stance. Your IPO allocation strategy determines returns.",
+            "cta": "Plan HNI quota allocation before Oct 3 anchor opens",
+            "virality_score": 8.8
+          }
+        ],
+        "market_alignment": "Rate cut cycle positioning, defensive pharma allocation, IT sector recovery accumulation",
+        "target_virality": 8.5,
+        "approval_mode": "manual",
+        "delivery_time": "09:00 IST"
+      }
+    },
+    {
+      "id": "ADV002",
+      "name": "Vidyadhar Petkar",
+      "segment": "Gold",
+      "client_profile": "Affluent professionals, established investors",
+      "strategy": {
+        "tone": "Analytical, data-driven, professional with friendly touch",
+        "complexity": "Medium - balanced education with insights",
+        "content_style": "Analytical breakdowns with actionable recommendations",
+        "priority_topics": [
+          "Rate cut cycle investment strategy",
+          "IT sector recovery opportunity analysis",
+          "DII vs FII flow patterns - what it means",
+          "Sectoral rotation strategies",
+          "IPO participation framework"
+        ],
+        "viral_angles": [
+          {
+            "angle": "Desi Money vs Foreign Money - Who's Winning?",
+            "hook": "Plot twist: FIIs pulled out $15.5 billion, but DIIs invested Rs 5.73 trillion! Indian investors buying while foreigners panic.",
+            "story": "2025's market story isn't about FII exodus - it's about domestic strength. When global giants retreated, Indian mutual funds, insurance companies, and retail investors stepped up. The market didn't crash because we held the line. This is India's investing maturity moment.",
+            "cta": "Review your systematic investment strategy - be on the right side",
+            "virality_score": 9.0
+          },
+          {
+            "angle": "IT Sector: From H1B Panic to Recovery Rally",
+            "hook": "Remember when IT stocks crashed on H1B visa fears? TCS just recovered entire Rs 97,598 cr market cap loss.",
+            "story": "Markets panic, smart investors accumulate. The H1B fee hike sent IT stocks tumbling in August. Those who bought the dip are now sitting on gains. Lesson: Understand fundamentals, ignore noise. Rupee weakness is now becoming IT sector strength.",
+            "cta": "Quality IT stocks on your accumulation list?",
+            "virality_score": 8.7
+          }
+        ],
+        "market_alignment": "Banking sector strength, IT recovery positioning, defensive pharma stability",
+        "target_virality": 8.5,
+        "approval_mode": "auto",
+        "delivery_time": "09:30 IST"
+      }
+    },
+    {
+      "id": "ADV003",
+      "name": "Shriya Vallabh Petkar",
+      "segment": "Premium",
+      "client_profile": "HNI, sophisticated investors",
+      "strategy": {
+        "tone": "Educational yet premium, empowering decision-making",
+        "complexity": "High - detailed with educational framework",
+        "content_style": "Educational narratives with premium insights",
+        "priority_topics": [
+          "Understanding RBI policy impact on portfolios",
+          "Strategic IPO participation (Tata Capital framework)",
+          "Rate cut cycle wealth creation opportunities",
+          "Corporate action benefits (Tata Motors demerger)",
+          "Global vs domestic flows - portfolio implications"
+        ],
+        "viral_angles": [
+          {
+            "angle": "Tata Motors Demerger: One Stock Becoming Two - Wealth Creation 101",
+            "hook": "Tata Motors demerger effective Oct 1, record date Oct 14. Shareholders getting bonus wealth creation opportunity.",
+            "story": "Corporate actions create wealth in ways most investors miss. Tata Motors splitting into two entities means existing shareholders get shares in BOTH companies. No extra payment needed. This is how patient investors compound wealth - own quality, let corporate strategy work for you.",
+            "cta": "Check your portfolio for corporate action opportunities",
+            "virality_score": 8.6
+          },
+          {
+            "angle": "RBI's Diwali Gift to Your Portfolio - Rate Cuts Incoming",
+            "hook": "RBI turned dovish - rate cuts expected by December! 22 reforms announced including 5x increase in loan against shares.",
+            "story": "Markets don't just react to rate changes, they front-run them. RBI's dovish stance signals liquidity boost ahead. Banking, real estate, and auto sectors typically benefit first. Position before the crowd realizes. This is your pre-Diwali portfolio repositioning opportunity.",
+            "cta": "Schedule portfolio review for rate cut beneficiaries",
+            "virality_score": 8.8
+          }
+        ],
+        "market_alignment": "Educational framework for rate cut positioning, corporate action awareness, quality sector selection",
+        "target_virality": 8.5,
+        "approval_mode": "manual",
+        "delivery_time": "10:00 IST"
+      }
+    },
+    {
+      "id": "ADV004",
+      "name": "Avalok Langer",
+      "segment": "Silver",
+      "client_profile": "Mass affluent, young professionals, beginners",
+      "strategy": {
+        "tone": "Conversational, modern, encouraging, relatable",
+        "complexity": "Low - simple concepts, clear explanations",
+        "content_style": "Modern storytelling with simple actionable steps",
+        "priority_topics": [
+          "Why markets are rising (simple explanation)",
+          "What rate cuts mean for your SIP",
+          "Starting investment basics during good times",
+          "Understanding market holidays and impacts",
+          "Simple sectoral opportunities"
+        ],
+        "viral_angles": [
+          {
+            "angle": "Markets Closed for Gandhi Jayanti, But Your SIP Didn't Stop Working!",
+            "hook": "October 2 market holiday, but your portfolio gained 715 points yesterday! Even holidays can't stop this bull run.",
+            "story": "Here's the beauty of systematic investing - you don't need to time markets. Yesterday (Oct 1), Sensex jumped 715 points on RBI's positive signals. Today markets are closed, but your investments are still working. Tomorrow (Oct 3), we resume. This is why regular SIPs beat trying to time entries.",
+            "cta": "Start your SIP before the next rally",
+            "virality_score": 8.5
+          },
+          {
+            "angle": "Inflation Lower Than Your Savings Account! What This Means",
+            "hook": "Historic moment: Inflation at 2.1% - lower than your SBI savings account interest (2.7%)! First time since January 2019.",
+            "story": "When inflation is lower than interest rates, your money actually grows in real terms. This rarely happens. RBI engineered this through smart policy. Now with rate cuts expected, this is the sweet spot for starting investments. Your purchasing power is protected while markets offer growth.",
+            "cta": "Time to move beyond savings accounts?",
+            "virality_score": 8.4
+          }
+        ],
+        "market_alignment": "Simple SIP benefits in current rally, beginner-friendly sectoral basics, understanding macro trends simply",
+        "target_virality": 8.0,
+        "approval_mode": "auto",
+        "delivery_time": "09:00 IST"
+      }
+    }
+  ],
+  "segment_insights": {
+    "Premium": {
+      "key_differentiator": "Sophisticated, data-heavy content with wealth management focus",
+      "viral_strategy": "Executive narratives with exclusive insights and strategic opportunities",
+      "content_frequency": "Quality over quantity - deep analytical pieces",
+      "engagement_driver": "Actionable wealth strategies and exclusive market intelligence"
+    },
+    "Gold": {
+      "key_differentiator": "Balanced analytical content with professional credibility",
+      "viral_strategy": "Data-backed stories with clear investment lessons",
+      "content_frequency": "Regular analytical updates with systematic frameworks",
+      "engagement_driver": "Proven strategies and market pattern recognition"
+    },
+    "Silver": {
+      "key_differentiator": "Simple, relatable content with encouraging tone",
+      "viral_strategy": "Storytelling approach with beginner-friendly insights",
+      "content_frequency": "Frequent, digestible content building investment literacy",
+      "engagement_driver": "Relatability and simplicity that builds confidence"
+    }
+  },
+  "market_context_integration": {
+    "rbi_policy_angle": "All segments positioned for rate cut cycle - varying complexity levels",
+    "tata_capital_ipo": "Premium/Gold focused on allocation strategy, Silver on participation basics",
+    "dii_strength": "Used as pride/confidence narrative across all segments",
+    "it_recovery": "Premium/Gold: Accumulation strategy, Silver: Simple sector understanding",
+    "market_holiday": "Silver segment: Perfect for SIP consistency narrative"
+  },
+  "virality_framework": {
+    "average_target_score": 8.6,
+    "min_acceptable_score": 8.0,
+    "hook_strength": "High - leveraging RBI policy, IPO FOMO, and market recovery narratives",
+    "story_depth": "Segment-appropriate - complex for Premium, simple for Silver",
+    "emotion_triggers": ["Pride (DII strength)", "FOMO (Tata IPO)", "Celebration (RBI dovish)", "Vindication (IT recovery)"],
+    "cta_clarity": "All strategies include clear, actionable next steps"
+  },
+  "content_customization_rules": {
+    "Premium": {
+      "vocabulary": "Executive level - portfolio rebalancing, strategic arbitrage, tax efficiency",
+      "data_density": "High - specific numbers, percentages, multi-layer analysis",
+      "cta_style": "Strategic consultation prompts"
+    },
+    "Gold": {
+      "vocabulary": "Professional - systematic investment, sectoral rotation, fundamental analysis",
+      "data_density": "Medium - key metrics with clear interpretation",
+      "cta_style": "Action-oriented review prompts"
+    },
+    "Silver": {
+      "vocabulary": "Simple - SIP, savings, growth, inflation in everyday terms",
+      "data_density": "Low - single clear statistic with relatable explanation",
+      "cta_style": "Encouraging first-step prompts"
+    }
+  },
+  "quality_assurance": {
+    "all_strategies_created": true,
+    "virality_threshold_met": true,
+    "market_alignment_verified": true,
+    "segment_customization_complete": true,
+    "approval_modes_respected": true,
+    "delivery_times_scheduled": true
+  }
+}

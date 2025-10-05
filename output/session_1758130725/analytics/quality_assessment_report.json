@@ -1,0 +1,2591 @@
+{
+  "quality_assessment": {
+    "timestamp": "2025-09-18T00:13:32.244729",
+    "session_id": "session_1758130725",
+    "aggregate_statistics": {
+      "total_content_evaluated": 23,
+      "average_quality_score": 0.63,
+      "auto_approved": 1,
+      "manual_review": 11,
+      "rejected": 11,
+      "segment_averages": {
+        "Premium": 0.67,
+        "Gold": 0.66,
+        "Silver": 0.76
+      },
+      "content_type_averages": {
+        "linkedin": 0.67,
+        "whatsapp": 0.57,
+        "status": 0.85
+      }
+    },
+    "top_performers": [
+      {
+        "content_id": "GOLD_002_TAX",
+        "content_type": "linkedin",
+        "segment": "Gold",
+        "timestamp": "2025-09-18T00:13:32.237734",
+        "overall_score": 0.8,
+        "grade": "A",
+        "auto_approval_eligible": true,
+        "breakdown": {
+          "relevance": 0.58,
+          "clarity": 1.0,
+          "engagement": 0.81,
+          "credibility": 0.79,
+          "personalization": 0.75,
+          "technical": 0.92
+        },
+        "detailed_scores": {
+          "relevance": {
+            "market_timing": 0.0,
+            "audience_fit": 1.0,
+            "trending_alignment": 0.3333333333333333,
+            "seasonal_relevance": 1.0
+          },
+          "clarity": {
+            "readability": 1.0,
+            "value_clarity": 1.0,
+            "logical_flow": 1.0,
+            "jargon_score": 1.0
+          },
+          "engagement": {
+            "hook_power": 1.0,
+            "emotional_quotient": 0.25,
+            "cta_effectiveness": 1.0,
+            "viral_potential": 1.0
+          },
+          "credibility": {
+            "data_verification": 0.5,
+            "source_quality": 1.0,
+            "tone_professionalism": 1.0,
+            "expertise_display": 0.6666666666666666
+          },
+          "personalization": {
+            "name_integration": 0.5,
+            "segment_alignment": 1.0,
+            "brand_consistency": 1.0,
+            "local_relevance": 0.5
+          },
+          "technical": {
+            "grammar_check": 0.8,
+            "format_consistency": 1.0,
+            "length_optimization": 0.8891666666666667,
+            "visual_quality": 1.0
+          }
+        },
+        "strengths": [
+          "Clear value proposition and readable content",
+          "Professional formatting and optimal length",
+          "Strong hooks and viral potential"
+        ],
+        "improvements": [],
+        "predictions": {
+          "engagement_rate": 3.4,
+          "viral_probability": 1.0,
+          "conversion_estimate": 0.064
+        },
+        "recommendation": "\u2705 APPROVE - High quality content ready for immediate distribution to Gold segment"
+      },
+      {
+        "content_id": "PREM_001_FED",
+        "content_type": "linkedin",
+        "segment": "Premium",
+        "timestamp": "2025-09-18T00:13:32.234578",
+        "overall_score": 0.79,
+        "grade": "B",
+        "auto_approval_eligible": false,
+        "breakdown": {
+          "relevance": 0.92,
+          "clarity": 0.73,
+          "engagement": 0.53,
+          "credibility": 0.83,
+          "personalization": 0.92,
+          "technical": 0.95
+        },
+        "detailed_scores": {
+          "relevance": {
+            "market_timing": 1.0,
+            "audience_fit": 1.0,
+            "trending_alignment": 0.6666666666666666,
+            "seasonal_relevance": 1.0
+          },
+          "clarity": {
+            "readability": 0.4,
+            "value_clarity": 1.0,
+            "logical_flow": 1.0,
+            "jargon_score": 0.504950495049505
+          },
+          "engagement": {
+            "hook_power": 0.0,
+            "emotional_quotient": 0.5,
+            "cta_effectiveness": 1.0,
+            "viral_potential": 0.6
+          },
+          "credibility": {
+            "data_verification": 1.0,
+            "source_quality": 1.0,
+            "tone_professionalism": 1.0,
+            "expertise_display": 0.3333333333333333
+          },
+          "personalization": {
+            "name_integration": 0.6666666666666666,
+            "segment_alignment": 1.0,
+            "brand_consistency": 1.0,
+            "local_relevance": 1.0
+          },
+          "technical": {
+            "grammar_check": 0.8,
+            "format_consistency": 1.0,
+            "length_optimization": 1.0,
+            "visual_quality": 1.0
+          }
+        },
+        "strengths": [
+          "Professional formatting and optimal length",
+          "Excellent market timing and audience alignment",
+          "Well-personalized for advisor and segment"
+        ],
+        "improvements": [
+          {
+            "issue": "Low engagement potential",
+            "fix": "Strengthen hook, add personal story, clearer CTA",
+            "impact": "high",
+            "priority": 1
+          }
+        ],
+        "predictions": {
+          "engagement_rate": 3.3,
+          "viral_probability": 0.6,
+          "conversion_estimate": 0.063
+        },
+        "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+      },
+      {
+        "content_id": "GOLD_001_SIP",
+        "content_type": "linkedin",
+        "segment": "Gold",
+        "timestamp": "2025-09-18T00:13:32.237180",
+        "overall_score": 0.79,
+        "grade": "B",
+        "auto_approval_eligible": false,
+        "breakdown": {
+          "relevance": 0.44,
+          "clarity": 1.0,
+          "engagement": 0.81,
+          "credibility": 0.75,
+          "personalization": 0.88,
+          "technical": 0.95
+        },
+        "detailed_scores": {
+          "relevance": {
+            "market_timing": 1.0,
+            "audience_fit": 0.75,
+            "trending_alignment": 0.0,
+            "seasonal_relevance": 0.0
+          },
+          "clarity": {
+            "readability": 1.0,
+            "value_clarity": 1.0,
+            "logical_flow": 1.0,
+            "jargon_score": 1.0
+          },
+          "engagement": {
+            "hook_power": 1.0,
+            "emotional_quotient": 0.25,
+            "cta_effectiveness": 1.0,
+            "viral_potential": 1.0
+          },
+          "credibility": {
+            "data_verification": 1.0,
+            "source_quality": 1.0,
+            "tone_professionalism": 1.0,
+            "expertise_display": 0.0
+          },
+          "personalization": {
+            "name_integration": 0.5,
+            "segment_alignment": 1.0,
+            "brand_consistency": 1.0,
+            "local_relevance": 1.0
+          },
+          "technical": {
+            "grammar_check": 0.8,
+            "format_consistency": 1.0,
+            "length_optimization": 1.0,
+            "visual_quality": 1.0
+          }
+        },
+        "strengths": [
+          "Clear value proposition and readable content",
+          "Professional formatting and optimal length",
+          "Well-personalized for advisor and segment"
+        ],
+        "improvements": [],
+        "predictions": {
+          "engagement_rate": 3.3,
+          "viral_probability": 1.0,
+          "conversion_estimate": 0.063
+        },
+        "recommendation": "\u26a0\ufe0f MANUAL REVIEW - Content meets minimum standards but could benefit from improvements"
+      },
+      {
+        "content_id": "PREM_003_ESTATE",
+        "content_type": "linkedin",
+        "segment": "Premium",
+        "timestamp": "2025-09-18T00:13:32.236525",
+        "overall_score": 0.78,
+        "grade": "B",
+        "auto_approval_eligible": false,
+        "breakdown": {
+          "relevance": 0.75,
+          "clarity": 0.77,
+          "engagement": 0.61,
+          "credibility": 0.92,
+          "personalization": 0.79,
+          "technical": 0.95
+        },
+        "detailed_scores": {
+          "relevance": {
+            "market_timing": 0.6,
+            "audience_fit": 0.75,
+            "trending_alignment": 0.6666666666666666,
+            "seasonal_relevance": 1.0
+          },
+          "clarity": {
+            "readability": 0.4,
+            "value_clarity": 0.6666666666666666,
+            "logical_flow": 1.0,
+            "jargon_score": 1.0
+          },
+          "engagement": {
+            "hook_power": 0.3333333333333333,
+            "emotional_quotient": 1.0,
+            "cta_effectiveness": 0.3,
+            "viral_potential": 0.8
+          },
+          "credibility": {
+            "data_verification": 1.0,
+            "source_quality": 1.0,
+            "tone_professionalism": 1.0,
+            "expertise_display": 0.6666666666666666
+          },
+          "personalization": {
+            "name_integration": 0.6666666666666666,
+            "segment_alignment": 1.0,
+            "brand_consistency": 1.0,
+            "local_relevance": 0.5
+          },
+          "technical": {
+            "grammar_check": 0.8,
+            "format_consistency": 1.0,
+            "length_optimization": 1.0,
+            "visual_quality": 1.0
+          }
+        },
+        "strengths": [
+          "Professional formatting and optimal length",
+          "Data-backed insights with professional tone"
+        ],
+        "improvements": [
+          {
+            "issue": "Low engagement potential",
+            "fix": "Strengthen hook, add personal story, clearer CTA",
+            "impact": "high",
+            "priority": 1
+          }
+        ],
+        "predictions": {
+          "engagement_rate": 3.3,
+          "viral_probability": 0.8,
+          "conversion_estimate": 0.062
+        },
+        "recommendation": "\u26a0\ufe0f MANUAL REVIEW - Content meets minimum standards but could benefit from improvements"
+      },
+      {
+        "content_id": "GOLD_003_GOALS",
+        "content_type": "linkedin",
+        "segment": "Gold",
+        "timestamp": "2025-09-18T00:13:32.238284",
+        "overall_score": 0.74,
+        "grade": "B",
+        "auto_approval_eligible": false,
+        "breakdown": {
+          "relevance": 0.39,
+          "clarity": 0.78,
+          "engagement": 0.88,
+          "credibility": 0.83,
+          "personalization": 0.75,
+          "technical": 0.94
+        },
+        "detailed_scores": {
+          "relevance": {
+            "market_timing": 0.8,
+            "audience_fit": 0.25,
+            "trending_alignment": 0.0,
+            "seasonal_relevance": 0.5
+          },
+          "clarity": {
+            "readability": 0.8,
+            "value_clarity": 0.3333333333333333,
+            "logical_flow": 1.0,
+            "jargon_score": 1.0
+          },
+          "engagement": {
+            "hook_power": 1.0,
+            "emotional_quotient": 0.5,
+            "cta_effectiveness": 1.0,
+            "viral_potential": 1.0
+          },
+          "credibility": {
+            "data_verification": 1.0,
+            "source_quality": 1.0,
+            "tone_professionalism": 1.0,
+            "expertise_display": 0.3333333333333333
+          },
+          "personalization": {
+            "name_integration": 0.5,
+            "segment_alignment": 1.0,
+            "brand_consistency": 1.0,
+            "local_relevance": 0.5
+          },
+          "technical": {
+            "grammar_check": 0.8,
+            "format_consistency": 1.0,
+            "length_optimization": 0.9633333333333334,
+            "visual_quality": 1.0
+          }
+        },
+        "strengths": [
+          "Professional formatting and optimal length",
+          "Strong hooks and viral potential",
+          "Data-backed insights with professional tone"
+        ],
+        "improvements": [],
+        "predictions": {
+          "engagement_rate": 3.1,
+          "viral_probability": 1.0,
+          "conversion_estimate": 0.059
+        },
+        "recommendation": "\u26a0\ufe0f MANUAL REVIEW - Content meets minimum standards but could benefit from improvements"
+      }
+    ],
+    "improvement_needed": [
+      {
+        "content_id": "unknown",
+        "content_type": "whatsapp",
+        "segment": "Gold",
+        "timestamp": "2025-09-18T00:13:32.242513",
+        "overall_score": 0.48,
+        "grade": "D",
+        "auto_approval_eligible": false,
+        "breakdown": {
+          "relevance": 0.0,
+          "clarity": 0.78,
+          "engagement": 0.5,
+          "credibility": 0.53,
+          "personalization": 0.33,
+          "technical": 0.95
+        },
+        "detailed_scores": {
+          "relevance": {
+            "market_timing": 0.0,
+            "audience_fit": 0.0,
+            "trending_alignment": 0.0,
+            "seasonal_relevance": 0.0
+          },
+          "clarity": {
+            "readability": 0.8,
+            "value_clarity": 0.3333333333333333,
+            "logical_flow": 1.0,
+            "jargon_score": 1.0
+          },
+          "engagement": {
+            "hook_power": 0.3333333333333333,
+            "emotional_quotient": 0.25,
+            "cta_effectiveness": 1.0,
+            "viral_potential": 0.4
+          },
+          "credibility": {
+            "data_verification": 0.5,
+            "source_quality": 0.6,
+            "tone_professionalism": 1.0,
+            "expertise_display": 0.0
+          },
+          "personalization": {
+            "name_integration": 0.0,
+            "segment_alignment": 0.3333333333333333,
+            "brand_consistency": 1.0,
+            "local_relevance": 0.0
+          },
+          "technical": {
+            "grammar_check": 0.8,
+            "format_consistency": 1.0,
+            "length_optimization": 1.0,
+            "visual_quality": 1.0
+          }
+        },
+        "strengths": [
+          "Professional formatting and optimal length"
+        ],
+        "improvements": [
+          {
+            "issue": "Low engagement potential",
+            "fix": "Strengthen hook, add personal story, clearer CTA",
+            "impact": "high",
+            "priority": 1
+          },
+          {
+            "issue": "Credibility could be stronger",
+            "fix": "Add more data points, include credentials prominently",
+            "impact": "medium",
+            "priority": 2
+          },
+          {
+            "issue": "Insufficient personalization",
+            "fix": "Add advisor name 2-3 times, mention segment specifically",
+            "impact": "medium",
+            "priority": 2
+          }
+        ],
+        "predictions": {
+          "engagement_rate": 2.0,
+          "viral_probability": 0.4,
+          "conversion_estimate": 0.038
+        },
+        "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+      },
+      {
+        "content_id": "unknown",
+        "content_type": "whatsapp",
+        "segment": "Premium",
+        "timestamp": "2025-09-18T00:13:32.243091",
+        "overall_score": 0.5,
+        "grade": "D",
+        "auto_approval_eligible": false,
+        "breakdown": {
+          "relevance": 0.36,
+          "clarity": 0.5,
+          "engagement": 0.35,
+          "credibility": 0.71,
+          "personalization": 0.42,
+          "technical": 0.88
+        },
+        "detailed_scores": {
+          "relevance": {
+            "market_timing": 0.6,
+            "audience_fit": 0.5,
+            "trending_alignment": 0.3333333333333333,
+            "seasonal_relevance": 0.0
+          },
+          "clarity": {
+            "readability": 0.0,
+            "value_clarity": 0.0,
+            "logical_flow": 1.0,
+            "jargon_score": 1.0
+          },
+          "engagement": {
+            "hook_power": 0.0,
+            "emotional_quotient": 0.0,
+            "cta_effectiveness": 1.0,
+            "viral_potential": 0.4
+          },
+          "credibility": {
+            "data_verification": 0.5,
+            "source_quality": 1.0,
+            "tone_professionalism": 1.0,
+            "expertise_display": 0.3333333333333333
+          },
+          "personalization": {
+            "name_integration": 0.0,
+            "segment_alignment": 0.6666666666666666,
+            "brand_consistency": 1.0,
+            "local_relevance": 0.0
+          },
+          "technical": {
+            "grammar_check": 0.8,
+            "format_consistency": 0.7,
+            "length_optimization": 1.0,
+            "visual_quality": 1.0
+          }
+        },
+        "strengths": [
+          "Professional formatting and optimal length"
+        ],
+        "improvements": [
+          {
+            "issue": "Content clarity needs improvement",
+            "fix": "Simplify language, break long sentences, add bullet points",
+            "impact": "high",
+            "priority": 1
+          },
+          {
+            "issue": "Low engagement potential",
+            "fix": "Strengthen hook, add personal story, clearer CTA",
+            "impact": "high",
+            "priority": 1
+          },
+          {
+            "issue": "Insufficient personalization",
+            "fix": "Add advisor name 2-3 times, mention segment specifically",
+            "impact": "medium",
+            "priority": 2
+          }
+        ],
+        "predictions": {
+          "engagement_rate": 2.1,
+          "viral_probability": 0.4,
+          "conversion_estimate": 0.04
+        },
+        "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+      },
+      {
+        "content_id": "SILVER_005_TIPS",
+        "content_type": "linkedin",
+        "segment": "Silver",
+        "timestamp": "2025-09-18T00:13:32.240877",
+        "overall_score": 0.55,
+        "grade": "D",
+        "auto_approval_eligible": false,
+        "breakdown": {
+          "relevance": 0.17,
+          "clarity": 0.82,
+          "engagement": 0.55,
+          "credibility": 0.66,
+          "personalization": 0.5,
+          "technical": 0.7
+        },
+        "detailed_scores": {
+          "relevance": {
+            "market_timing": 0.0,
+            "audience_fit": 0.6666666666666666,
+            "trending_alignment": 0.0,
+            "seasonal_relevance": 0.0
+          },
+          "clarity": {
+            "readability": 0.6,
+            "value_clarity": 0.6666666666666666,
+            "logical_flow": 1.0,
+            "jargon_score": 1.0
+          },
+          "engagement": {
+            "hook_power": 0.3333333333333333,
+            "emotional_quotient": 0.25,
+            "cta_effectiveness": 1.0,
+            "viral_potential": 0.6
+          },
+          "credibility": {
+            "data_verification": 0.3,
+            "source_quality": 1.0,
+            "tone_professionalism": 1.0,
+            "expertise_display": 0.3333333333333333
+          },
+          "personalization": {
+            "name_integration": 1.0,
+            "segment_alignment": 0.0,
+            "brand_consistency": 1.0,
+            "local_relevance": 0.0
+          },
+          "technical": {
+            "grammar_check": 0.8,
+            "format_consistency": 0.7,
+            "length_optimization": 0.2833333333333333,
+            "visual_quality": 1.0
+          }
+        },
+        "strengths": [
+          "Clear value proposition and readable content"
+        ],
+        "improvements": [
+          {
+            "issue": "Low engagement potential",
+            "fix": "Strengthen hook, add personal story, clearer CTA",
+            "impact": "high",
+            "priority": 1
+          },
+          {
+            "issue": "Credibility could be stronger",
+            "fix": "Add more data points, include credentials prominently",
+            "impact": "medium",
+            "priority": 2
+          },
+          {
+            "issue": "Insufficient personalization",
+            "fix": "Add advisor name 2-3 times, mention segment specifically",
+            "impact": "medium",
+            "priority": 2
+          }
+        ],
+        "predictions": {
+          "engagement_rate": 2.3,
+          "viral_probability": 0.6,
+          "conversion_estimate": 0.044
+        },
+        "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+      },
+      {
+        "content_id": "unknown",
+        "content_type": "whatsapp",
+        "segment": "Silver",
+        "timestamp": "2025-09-18T00:13:32.241888",
+        "overall_score": 0.56,
+        "grade": "D",
+        "auto_approval_eligible": false,
+        "breakdown": {
+          "relevance": 0.25,
+          "clarity": 0.75,
+          "engagement": 0.52,
+          "credibility": 0.53,
+          "personalization": 0.54,
+          "technical": 0.95
+        },
+        "detailed_scores": {
+          "relevance": {
+            "market_timing": 0.0,
+            "audience_fit": 1.0,
+            "trending_alignment": 0.0,
+            "seasonal_relevance": 0.0
+          },
+          "clarity": {
+            "readability": 1.0,
+            "value_clarity": 0.0,
+            "logical_flow": 1.0,
+            "jargon_score": 1.0
+          },
+          "engagement": {
+            "hook_power": 0.6666666666666666,
+            "emotional_quotient": 0.0,
+            "cta_effectiveness": 1.0,
+            "viral_potential": 0.4
+          },
+          "credibility": {
+            "data_verification": 0.5,
+            "source_quality": 0.6,
+            "tone_professionalism": 1.0,
+            "expertise_display": 0.0
+          },
+          "personalization": {
+            "name_integration": 0.0,
+            "segment_alignment": 0.6666666666666666,
+            "brand_consistency": 1.0,
+            "local_relevance": 0.5
+          },
+          "technical": {
+            "grammar_check": 0.8,
+            "format_consistency": 1.0,
+            "length_optimization": 1.0,
+            "visual_quality": 1.0
+          }
+        },
+        "strengths": [
+          "Professional formatting and optimal length"
+        ],
+        "improvements": [
+          {
+            "issue": "Low engagement potential",
+            "fix": "Strengthen hook, add personal story, clearer CTA",
+            "impact": "high",
+            "priority": 1
+          },
+          {
+            "issue": "Credibility could be stronger",
+            "fix": "Add more data points, include credentials prominently",
+            "impact": "medium",
+            "priority": 2
+          },
+          {
+            "issue": "Insufficient personalization",
+            "fix": "Add advisor name 2-3 times, mention segment specifically",
+            "impact": "medium",
+            "priority": 2
+          }
+        ],
+        "predictions": {
+          "engagement_rate": 2.3,
+          "viral_probability": 0.4,
+          "conversion_estimate": 0.045
+        },
+        "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+      },
+      {
+        "content_id": "unknown",
+        "content_type": "whatsapp",
+        "segment": "Gold",
+        "timestamp": "2025-09-18T00:13:32.242683",
+        "overall_score": 0.56,
+        "grade": "D",
+        "auto_approval_eligible": false,
+        "breakdown": {
+          "relevance": 0.11,
+          "clarity": 0.75,
+          "engagement": 0.65,
+          "credibility": 0.71,
+          "personalization": 0.46,
+          "technical": 0.88
+        },
+        "detailed_scores": {
+          "relevance": {
+            "market_timing": 0.2,
+            "audience_fit": 0.25,
+            "trending_alignment": 0.0,
+            "seasonal_relevance": 0.0
+          },
+          "clarity": {
+            "readability": 1.0,
+            "value_clarity": 0.0,
+            "logical_flow": 1.0,
+            "jargon_score": 1.0
+          },
+          "engagement": {
+            "hook_power": 1.0,
+            "emotional_quotient": 0.0,
+            "cta_effectiveness": 1.0,
+            "viral_potential": 0.6
+          },
+          "credibility": {
+            "data_verification": 0.5,
+            "source_quality": 1.0,
+            "tone_professionalism": 1.0,
+            "expertise_display": 0.3333333333333333
+          },
+          "personalization": {
+            "name_integration": 0.0,
+            "segment_alignment": 0.3333333333333333,
+            "brand_consistency": 1.0,
+            "local_relevance": 0.5
+          },
+          "technical": {
+            "grammar_check": 0.8,
+            "format_consistency": 0.7,
+            "length_optimization": 1.0,
+            "visual_quality": 1.0
+          }
+        },
+        "strengths": [
+          "Professional formatting and optimal length"
+        ],
+        "improvements": [
+          {
+            "issue": "Low engagement potential",
+            "fix": "Strengthen hook, add personal story, clearer CTA",
+            "impact": "high",
+            "priority": 1
+          },
+          {
+            "issue": "Insufficient personalization",
+            "fix": "Add advisor name 2-3 times, mention segment specifically",
+            "impact": "medium",
+            "priority": 2
+          }
+        ],
+        "predictions": {
+          "engagement_rate": 2.4,
+          "viral_probability": 0.6,
+          "conversion_estimate": 0.045
+        },
+        "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+      }
+    ],
+    "distribution_summary": {
+      "ready_for_distribution": 1,
+      "needs_review": 11,
+      "needs_regeneration": 11
+    },
+    "quality_insights": {
+      "best_segment": "Silver",
+      "best_content_type": "status",
+      "overall_readiness": "MEDIUM"
+    }
+  },
+  "detailed_scores": [
+    {
+      "content_id": "PREM_001_FED",
+      "content_type": "linkedin",
+      "segment": "Premium",
+      "timestamp": "2025-09-18T00:13:32.234578",
+      "overall_score": 0.79,
+      "grade": "B",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.92,
+        "clarity": 0.73,
+        "engagement": 0.53,
+        "credibility": 0.83,
+        "personalization": 0.92,
+        "technical": 0.95
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 1.0,
+          "audience_fit": 1.0,
+          "trending_alignment": 0.6666666666666666,
+          "seasonal_relevance": 1.0
+        },
+        "clarity": {
+          "readability": 0.4,
+          "value_clarity": 1.0,
+          "logical_flow": 1.0,
+          "jargon_score": 0.504950495049505
+        },
+        "engagement": {
+          "hook_power": 0.0,
+          "emotional_quotient": 0.5,
+          "cta_effectiveness": 1.0,
+          "viral_potential": 0.6
+        },
+        "credibility": {
+          "data_verification": 1.0,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.3333333333333333
+        },
+        "personalization": {
+          "name_integration": 0.6666666666666666,
+          "segment_alignment": 1.0,
+          "brand_consistency": 1.0,
+          "local_relevance": 1.0
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 1.0,
+          "length_optimization": 1.0,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Professional formatting and optimal length",
+        "Excellent market timing and audience alignment",
+        "Well-personalized for advisor and segment"
+      ],
+      "improvements": [
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 3.3,
+        "viral_probability": 0.6,
+        "conversion_estimate": 0.063
+      },
+      "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+    },
+    {
+      "content_id": "PREM_002_TECH",
+      "content_type": "linkedin",
+      "segment": "Premium",
+      "timestamp": "2025-09-18T00:13:32.235503",
+      "overall_score": 0.73,
+      "grade": "B",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.67,
+        "clarity": 0.47,
+        "engagement": 0.64,
+        "credibility": 0.92,
+        "personalization": 0.92,
+        "technical": 0.95
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 1.0,
+          "audience_fit": 1.0,
+          "trending_alignment": 0.6666666666666666,
+          "seasonal_relevance": 0.0
+        },
+        "clarity": {
+          "readability": 0.4,
+          "value_clarity": 0.0,
+          "logical_flow": 1.0,
+          "jargon_score": 0.5
+        },
+        "engagement": {
+          "hook_power": 0.0,
+          "emotional_quotient": 0.75,
+          "cta_effectiveness": 1.0,
+          "viral_potential": 0.8
+        },
+        "credibility": {
+          "data_verification": 1.0,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.6666666666666666
+        },
+        "personalization": {
+          "name_integration": 0.6666666666666666,
+          "segment_alignment": 1.0,
+          "brand_consistency": 1.0,
+          "local_relevance": 1.0
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 1.0,
+          "length_optimization": 1.0,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Professional formatting and optimal length",
+        "Data-backed insights with professional tone",
+        "Well-personalized for advisor and segment"
+      ],
+      "improvements": [
+        {
+          "issue": "Content clarity needs improvement",
+          "fix": "Simplify language, break long sentences, add bullet points",
+          "impact": "high",
+          "priority": 1
+        },
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 3.0,
+        "viral_probability": 0.8,
+        "conversion_estimate": 0.058
+      },
+      "recommendation": "\u26a0\ufe0f MANUAL REVIEW - Content meets minimum standards but could benefit from improvements"
+    },
+    {
+      "content_id": "PREM_003_ESTATE",
+      "content_type": "linkedin",
+      "segment": "Premium",
+      "timestamp": "2025-09-18T00:13:32.236525",
+      "overall_score": 0.78,
+      "grade": "B",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.75,
+        "clarity": 0.77,
+        "engagement": 0.61,
+        "credibility": 0.92,
+        "personalization": 0.79,
+        "technical": 0.95
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.6,
+          "audience_fit": 0.75,
+          "trending_alignment": 0.6666666666666666,
+          "seasonal_relevance": 1.0
+        },
+        "clarity": {
+          "readability": 0.4,
+          "value_clarity": 0.6666666666666666,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 0.3333333333333333,
+          "emotional_quotient": 1.0,
+          "cta_effectiveness": 0.3,
+          "viral_potential": 0.8
+        },
+        "credibility": {
+          "data_verification": 1.0,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.6666666666666666
+        },
+        "personalization": {
+          "name_integration": 0.6666666666666666,
+          "segment_alignment": 1.0,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.5
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 1.0,
+          "length_optimization": 1.0,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Professional formatting and optimal length",
+        "Data-backed insights with professional tone"
+      ],
+      "improvements": [
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 3.3,
+        "viral_probability": 0.8,
+        "conversion_estimate": 0.062
+      },
+      "recommendation": "\u26a0\ufe0f MANUAL REVIEW - Content meets minimum standards but could benefit from improvements"
+    },
+    {
+      "content_id": "GOLD_001_SIP",
+      "content_type": "linkedin",
+      "segment": "Gold",
+      "timestamp": "2025-09-18T00:13:32.237180",
+      "overall_score": 0.79,
+      "grade": "B",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.44,
+        "clarity": 1.0,
+        "engagement": 0.81,
+        "credibility": 0.75,
+        "personalization": 0.88,
+        "technical": 0.95
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 1.0,
+          "audience_fit": 0.75,
+          "trending_alignment": 0.0,
+          "seasonal_relevance": 0.0
+        },
+        "clarity": {
+          "readability": 1.0,
+          "value_clarity": 1.0,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 1.0,
+          "emotional_quotient": 0.25,
+          "cta_effectiveness": 1.0,
+          "viral_potential": 1.0
+        },
+        "credibility": {
+          "data_verification": 1.0,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.0
+        },
+        "personalization": {
+          "name_integration": 0.5,
+          "segment_alignment": 1.0,
+          "brand_consistency": 1.0,
+          "local_relevance": 1.0
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 1.0,
+          "length_optimization": 1.0,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Clear value proposition and readable content",
+        "Professional formatting and optimal length",
+        "Well-personalized for advisor and segment"
+      ],
+      "improvements": [],
+      "predictions": {
+        "engagement_rate": 3.3,
+        "viral_probability": 1.0,
+        "conversion_estimate": 0.063
+      },
+      "recommendation": "\u26a0\ufe0f MANUAL REVIEW - Content meets minimum standards but could benefit from improvements"
+    },
+    {
+      "content_id": "GOLD_002_TAX",
+      "content_type": "linkedin",
+      "segment": "Gold",
+      "timestamp": "2025-09-18T00:13:32.237734",
+      "overall_score": 0.8,
+      "grade": "A",
+      "auto_approval_eligible": true,
+      "breakdown": {
+        "relevance": 0.58,
+        "clarity": 1.0,
+        "engagement": 0.81,
+        "credibility": 0.79,
+        "personalization": 0.75,
+        "technical": 0.92
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.0,
+          "audience_fit": 1.0,
+          "trending_alignment": 0.3333333333333333,
+          "seasonal_relevance": 1.0
+        },
+        "clarity": {
+          "readability": 1.0,
+          "value_clarity": 1.0,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 1.0,
+          "emotional_quotient": 0.25,
+          "cta_effectiveness": 1.0,
+          "viral_potential": 1.0
+        },
+        "credibility": {
+          "data_verification": 0.5,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.6666666666666666
+        },
+        "personalization": {
+          "name_integration": 0.5,
+          "segment_alignment": 1.0,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.5
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 1.0,
+          "length_optimization": 0.8891666666666667,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Clear value proposition and readable content",
+        "Professional formatting and optimal length",
+        "Strong hooks and viral potential"
+      ],
+      "improvements": [],
+      "predictions": {
+        "engagement_rate": 3.4,
+        "viral_probability": 1.0,
+        "conversion_estimate": 0.064
+      },
+      "recommendation": "\u2705 APPROVE - High quality content ready for immediate distribution to Gold segment"
+    },
+    {
+      "content_id": "GOLD_003_GOALS",
+      "content_type": "linkedin",
+      "segment": "Gold",
+      "timestamp": "2025-09-18T00:13:32.238284",
+      "overall_score": 0.74,
+      "grade": "B",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.39,
+        "clarity": 0.78,
+        "engagement": 0.88,
+        "credibility": 0.83,
+        "personalization": 0.75,
+        "technical": 0.94
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.8,
+          "audience_fit": 0.25,
+          "trending_alignment": 0.0,
+          "seasonal_relevance": 0.5
+        },
+        "clarity": {
+          "readability": 0.8,
+          "value_clarity": 0.3333333333333333,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 1.0,
+          "emotional_quotient": 0.5,
+          "cta_effectiveness": 1.0,
+          "viral_potential": 1.0
+        },
+        "credibility": {
+          "data_verification": 1.0,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.3333333333333333
+        },
+        "personalization": {
+          "name_integration": 0.5,
+          "segment_alignment": 1.0,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.5
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 1.0,
+          "length_optimization": 0.9633333333333334,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Professional formatting and optimal length",
+        "Strong hooks and viral potential",
+        "Data-backed insights with professional tone"
+      ],
+      "improvements": [],
+      "predictions": {
+        "engagement_rate": 3.1,
+        "viral_probability": 1.0,
+        "conversion_estimate": 0.059
+      },
+      "recommendation": "\u26a0\ufe0f MANUAL REVIEW - Content meets minimum standards but could benefit from improvements"
+    },
+    {
+      "content_id": "GOLD_004_BANKING",
+      "content_type": "linkedin",
+      "segment": "Gold",
+      "timestamp": "2025-09-18T00:13:32.238813",
+      "overall_score": 0.69,
+      "grade": "C",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.39,
+        "clarity": 0.95,
+        "engagement": 0.5,
+        "credibility": 0.79,
+        "personalization": 0.75,
+        "technical": 0.91
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.8,
+          "audience_fit": 0.75,
+          "trending_alignment": 0.0,
+          "seasonal_relevance": 0.0
+        },
+        "clarity": {
+          "readability": 0.8,
+          "value_clarity": 1.0,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 0.6666666666666666,
+          "emotional_quotient": 0.25,
+          "cta_effectiveness": 0.3,
+          "viral_potential": 0.8
+        },
+        "credibility": {
+          "data_verification": 0.5,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.6666666666666666
+        },
+        "personalization": {
+          "name_integration": 0.5,
+          "segment_alignment": 1.0,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.5
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 1.0,
+          "length_optimization": 0.8566666666666667,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Clear value proposition and readable content",
+        "Professional formatting and optimal length"
+      ],
+      "improvements": [
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 2.9,
+        "viral_probability": 0.8,
+        "conversion_estimate": 0.055
+      },
+      "recommendation": "\u26a0\ufe0f MANUAL REVIEW - Content meets minimum standards but could benefit from improvements"
+    },
+    {
+      "content_id": "GOLD_005_INSURANCE",
+      "content_type": "linkedin",
+      "segment": "Gold",
+      "timestamp": "2025-09-18T00:13:32.239381",
+      "overall_score": 0.57,
+      "grade": "D",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.05,
+        "clarity": 0.87,
+        "engagement": 0.57,
+        "credibility": 0.62,
+        "personalization": 0.58,
+        "technical": 0.87
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.2,
+          "audience_fit": 0.0,
+          "trending_alignment": 0.0,
+          "seasonal_relevance": 0.0
+        },
+        "clarity": {
+          "readability": 0.8,
+          "value_clarity": 0.6666666666666666,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 0.6666666666666666,
+          "emotional_quotient": 0.5,
+          "cta_effectiveness": 0.3,
+          "viral_potential": 0.8
+        },
+        "credibility": {
+          "data_verification": 0.5,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.0
+        },
+        "personalization": {
+          "name_integration": 0.5,
+          "segment_alignment": 0.3333333333333333,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.5
+        },
+        "technical": {
+          "grammar_check": 0.6,
+          "format_consistency": 1.0,
+          "length_optimization": 0.8958333333333334,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Professional formatting and optimal length",
+        "Clear value proposition and readable content"
+      ],
+      "improvements": [
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        },
+        {
+          "issue": "Credibility could be stronger",
+          "fix": "Add more data points, include credentials prominently",
+          "impact": "medium",
+          "priority": 2
+        },
+        {
+          "issue": "Insufficient personalization",
+          "fix": "Add advisor name 2-3 times, mention segment specifically",
+          "impact": "medium",
+          "priority": 2
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 2.4,
+        "viral_probability": 0.8,
+        "conversion_estimate": 0.045
+      },
+      "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+    },
+    {
+      "content_id": "SILVER_001_BASICS",
+      "content_type": "linkedin",
+      "segment": "Silver",
+      "timestamp": "2025-09-18T00:13:32.239766",
+      "overall_score": 0.61,
+      "grade": "C",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.4,
+        "clarity": 0.83,
+        "engagement": 0.37,
+        "credibility": 0.62,
+        "personalization": 0.79,
+        "technical": 0.79
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.6,
+          "audience_fit": 0.6666666666666666,
+          "trending_alignment": 0.3333333333333333,
+          "seasonal_relevance": 0.0
+        },
+        "clarity": {
+          "readability": 1.0,
+          "value_clarity": 0.3333333333333333,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 0.3333333333333333,
+          "emotional_quotient": 0.25,
+          "cta_effectiveness": 0.3,
+          "viral_potential": 0.6
+        },
+        "credibility": {
+          "data_verification": 0.5,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.0
+        },
+        "personalization": {
+          "name_integration": 1.0,
+          "segment_alignment": 0.6666666666666666,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.5
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 1.0,
+          "length_optimization": 0.365,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Clear value proposition and readable content"
+      ],
+      "improvements": [
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        },
+        {
+          "issue": "Credibility could be stronger",
+          "fix": "Add more data points, include credentials prominently",
+          "impact": "medium",
+          "priority": 2
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 2.6,
+        "viral_probability": 0.6,
+        "conversion_estimate": 0.049
+      },
+      "recommendation": "\u26a0\ufe0f MANUAL REVIEW - Content meets minimum standards but could benefit from improvements"
+    },
+    {
+      "content_id": "SILVER_002_APP",
+      "content_type": "linkedin",
+      "segment": "Silver",
+      "timestamp": "2025-09-18T00:13:32.240075",
+      "overall_score": 0.59,
+      "grade": "D",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.42,
+        "clarity": 0.83,
+        "engagement": 0.39,
+        "credibility": 0.57,
+        "personalization": 0.71,
+        "technical": 0.71
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.2,
+          "audience_fit": 1.0,
+          "trending_alignment": 0.0,
+          "seasonal_relevance": 0.5
+        },
+        "clarity": {
+          "readability": 1.0,
+          "value_clarity": 0.3333333333333333,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 0.6666666666666666,
+          "emotional_quotient": 0.0,
+          "cta_effectiveness": 0.3,
+          "viral_potential": 0.6
+        },
+        "credibility": {
+          "data_verification": 0.3,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.0
+        },
+        "personalization": {
+          "name_integration": 1.0,
+          "segment_alignment": 0.3333333333333333,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.5
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 0.7,
+          "length_optimization": 0.32166666666666666,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Clear value proposition and readable content"
+      ],
+      "improvements": [
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        },
+        {
+          "issue": "Credibility could be stronger",
+          "fix": "Add more data points, include credentials prominently",
+          "impact": "medium",
+          "priority": 2
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 2.5,
+        "viral_probability": 0.6,
+        "conversion_estimate": 0.047
+      },
+      "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+    },
+    {
+      "content_id": "SILVER_003_STORY",
+      "content_type": "linkedin",
+      "segment": "Silver",
+      "timestamp": "2025-09-18T00:13:32.240338",
+      "overall_score": 0.61,
+      "grade": "C",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.13,
+        "clarity": 0.92,
+        "engagement": 0.55,
+        "credibility": 0.71,
+        "personalization": 0.71,
+        "technical": 0.78
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.2,
+          "audience_fit": 0.3333333333333333,
+          "trending_alignment": 0.0,
+          "seasonal_relevance": 0.0
+        },
+        "clarity": {
+          "readability": 1.0,
+          "value_clarity": 0.6666666666666666,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 0.6666666666666666,
+          "emotional_quotient": 0.25,
+          "cta_effectiveness": 0.3,
+          "viral_potential": 1.0
+        },
+        "credibility": {
+          "data_verification": 0.5,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.3333333333333333
+        },
+        "personalization": {
+          "name_integration": 1.0,
+          "segment_alignment": 0.3333333333333333,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.5
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 1.0,
+          "length_optimization": 0.30583333333333335,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Clear value proposition and readable content"
+      ],
+      "improvements": [
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 2.6,
+        "viral_probability": 1.0,
+        "conversion_estimate": 0.049
+      },
+      "recommendation": "\u26a0\ufe0f MANUAL REVIEW - Content meets minimum standards but could benefit from improvements"
+    },
+    {
+      "content_id": "SILVER_004_TECH",
+      "content_type": "linkedin",
+      "segment": "Silver",
+      "timestamp": "2025-09-18T00:13:32.240609",
+      "overall_score": 0.59,
+      "grade": "D",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.37,
+        "clarity": 0.83,
+        "engagement": 0.36,
+        "credibility": 0.75,
+        "personalization": 0.58,
+        "technical": 0.78
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.8,
+          "audience_fit": 0.3333333333333333,
+          "trending_alignment": 0.3333333333333333,
+          "seasonal_relevance": 0.0
+        },
+        "clarity": {
+          "readability": 1.0,
+          "value_clarity": 0.3333333333333333,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 0.3333333333333333,
+          "emotional_quotient": 0.0,
+          "cta_effectiveness": 0.3,
+          "viral_potential": 0.8
+        },
+        "credibility": {
+          "data_verification": 1.0,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.0
+        },
+        "personalization": {
+          "name_integration": 1.0,
+          "segment_alignment": 0.3333333333333333,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.0
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 1.0,
+          "length_optimization": 0.31583333333333335,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Clear value proposition and readable content"
+      ],
+      "improvements": [
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        },
+        {
+          "issue": "Insufficient personalization",
+          "fix": "Add advisor name 2-3 times, mention segment specifically",
+          "impact": "medium",
+          "priority": 2
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 2.5,
+        "viral_probability": 0.8,
+        "conversion_estimate": 0.047
+      },
+      "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+    },
+    {
+      "content_id": "SILVER_005_TIPS",
+      "content_type": "linkedin",
+      "segment": "Silver",
+      "timestamp": "2025-09-18T00:13:32.240877",
+      "overall_score": 0.55,
+      "grade": "D",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.17,
+        "clarity": 0.82,
+        "engagement": 0.55,
+        "credibility": 0.66,
+        "personalization": 0.5,
+        "technical": 0.7
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.0,
+          "audience_fit": 0.6666666666666666,
+          "trending_alignment": 0.0,
+          "seasonal_relevance": 0.0
+        },
+        "clarity": {
+          "readability": 0.6,
+          "value_clarity": 0.6666666666666666,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 0.3333333333333333,
+          "emotional_quotient": 0.25,
+          "cta_effectiveness": 1.0,
+          "viral_potential": 0.6
+        },
+        "credibility": {
+          "data_verification": 0.3,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.3333333333333333
+        },
+        "personalization": {
+          "name_integration": 1.0,
+          "segment_alignment": 0.0,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.0
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 0.7,
+          "length_optimization": 0.2833333333333333,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Clear value proposition and readable content"
+      ],
+      "improvements": [
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        },
+        {
+          "issue": "Credibility could be stronger",
+          "fix": "Add more data points, include credentials prominently",
+          "impact": "medium",
+          "priority": 2
+        },
+        {
+          "issue": "Insufficient personalization",
+          "fix": "Add advisor name 2-3 times, mention segment specifically",
+          "impact": "medium",
+          "priority": 2
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 2.3,
+        "viral_probability": 0.6,
+        "conversion_estimate": 0.044
+      },
+      "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+    },
+    {
+      "content_id": "SILVER_006_BANKS",
+      "content_type": "linkedin",
+      "segment": "Silver",
+      "timestamp": "2025-09-18T00:13:32.241130",
+      "overall_score": 0.6,
+      "grade": "D",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.4,
+        "clarity": 0.7,
+        "engagement": 0.53,
+        "credibility": 0.62,
+        "personalization": 0.67,
+        "technical": 0.77
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.6,
+          "audience_fit": 1.0,
+          "trending_alignment": 0.0,
+          "seasonal_relevance": 0.0
+        },
+        "clarity": {
+          "readability": 0.8,
+          "value_clarity": 0.0,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 1.0,
+          "emotional_quotient": 0.0,
+          "cta_effectiveness": 0.3,
+          "viral_potential": 0.8
+        },
+        "credibility": {
+          "data_verification": 0.5,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.0
+        },
+        "personalization": {
+          "name_integration": 1.0,
+          "segment_alignment": 0.6666666666666666,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.0
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 1.0,
+          "length_optimization": 0.2866666666666667,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [],
+      "improvements": [
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        },
+        {
+          "issue": "Credibility could be stronger",
+          "fix": "Add more data points, include credentials prominently",
+          "impact": "medium",
+          "priority": 2
+        },
+        {
+          "issue": "Insufficient personalization",
+          "fix": "Add advisor name 2-3 times, mention segment specifically",
+          "impact": "medium",
+          "priority": 2
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 2.5,
+        "viral_probability": 0.8,
+        "conversion_estimate": 0.048
+      },
+      "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+    },
+    {
+      "content_id": "unknown",
+      "content_type": "whatsapp",
+      "segment": "Silver",
+      "timestamp": "2025-09-18T00:13:32.241534",
+      "overall_score": 0.59,
+      "grade": "D",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.27,
+        "clarity": 0.83,
+        "engagement": 0.71,
+        "credibility": 0.47,
+        "personalization": 0.5,
+        "technical": 0.85
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.4,
+          "audience_fit": 0.6666666666666666,
+          "trending_alignment": 0.0,
+          "seasonal_relevance": 0.0
+        },
+        "clarity": {
+          "readability": 1.0,
+          "value_clarity": 0.3333333333333333,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 1.0,
+          "emotional_quotient": 0.25,
+          "cta_effectiveness": 1.0,
+          "viral_potential": 0.6
+        },
+        "credibility": {
+          "data_verification": 0.3,
+          "source_quality": 0.6,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.0
+        },
+        "personalization": {
+          "name_integration": 1.0,
+          "segment_alignment": 0.0,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.0
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 0.7,
+          "length_optimization": 0.91,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Professional formatting and optimal length",
+        "Clear value proposition and readable content"
+      ],
+      "improvements": [
+        {
+          "issue": "Credibility could be stronger",
+          "fix": "Add more data points, include credentials prominently",
+          "impact": "medium",
+          "priority": 2
+        },
+        {
+          "issue": "Insufficient personalization",
+          "fix": "Add advisor name 2-3 times, mention segment specifically",
+          "impact": "medium",
+          "priority": 2
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 2.5,
+        "viral_probability": 0.6,
+        "conversion_estimate": 0.048
+      },
+      "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+    },
+    {
+      "content_id": "unknown",
+      "content_type": "whatsapp",
+      "segment": "Silver",
+      "timestamp": "2025-09-18T00:13:32.241723",
+      "overall_score": 0.57,
+      "grade": "D",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.25,
+        "clarity": 0.83,
+        "engagement": 0.58,
+        "credibility": 0.56,
+        "personalization": 0.46,
+        "technical": 0.87
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.0,
+          "audience_fit": 1.0,
+          "trending_alignment": 0.0,
+          "seasonal_relevance": 0.0
+        },
+        "clarity": {
+          "readability": 1.0,
+          "value_clarity": 0.3333333333333333,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 0.6666666666666666,
+          "emotional_quotient": 0.25,
+          "cta_effectiveness": 1.0,
+          "viral_potential": 0.4
+        },
+        "credibility": {
+          "data_verification": 0.3,
+          "source_quality": 0.6,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.3333333333333333
+        },
+        "personalization": {
+          "name_integration": 0.0,
+          "segment_alignment": 0.3333333333333333,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.5
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 0.7,
+          "length_optimization": 0.99,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Professional formatting and optimal length",
+        "Clear value proposition and readable content"
+      ],
+      "improvements": [
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        },
+        {
+          "issue": "Credibility could be stronger",
+          "fix": "Add more data points, include credentials prominently",
+          "impact": "medium",
+          "priority": 2
+        },
+        {
+          "issue": "Insufficient personalization",
+          "fix": "Add advisor name 2-3 times, mention segment specifically",
+          "impact": "medium",
+          "priority": 2
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 2.4,
+        "viral_probability": 0.4,
+        "conversion_estimate": 0.046
+      },
+      "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+    },
+    {
+      "content_id": "unknown",
+      "content_type": "whatsapp",
+      "segment": "Silver",
+      "timestamp": "2025-09-18T00:13:32.241888",
+      "overall_score": 0.56,
+      "grade": "D",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.25,
+        "clarity": 0.75,
+        "engagement": 0.52,
+        "credibility": 0.53,
+        "personalization": 0.54,
+        "technical": 0.95
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.0,
+          "audience_fit": 1.0,
+          "trending_alignment": 0.0,
+          "seasonal_relevance": 0.0
+        },
+        "clarity": {
+          "readability": 1.0,
+          "value_clarity": 0.0,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 0.6666666666666666,
+          "emotional_quotient": 0.0,
+          "cta_effectiveness": 1.0,
+          "viral_potential": 0.4
+        },
+        "credibility": {
+          "data_verification": 0.5,
+          "source_quality": 0.6,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.0
+        },
+        "personalization": {
+          "name_integration": 0.0,
+          "segment_alignment": 0.6666666666666666,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.5
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 1.0,
+          "length_optimization": 1.0,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Professional formatting and optimal length"
+      ],
+      "improvements": [
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        },
+        {
+          "issue": "Credibility could be stronger",
+          "fix": "Add more data points, include credentials prominently",
+          "impact": "medium",
+          "priority": 2
+        },
+        {
+          "issue": "Insufficient personalization",
+          "fix": "Add advisor name 2-3 times, mention segment specifically",
+          "impact": "medium",
+          "priority": 2
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 2.3,
+        "viral_probability": 0.4,
+        "conversion_estimate": 0.045
+      },
+      "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+    },
+    {
+      "content_id": "unknown",
+      "content_type": "whatsapp",
+      "segment": "Gold",
+      "timestamp": "2025-09-18T00:13:32.242341",
+      "overall_score": 0.61,
+      "grade": "C",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.23,
+        "clarity": 0.92,
+        "engagement": 0.71,
+        "credibility": 0.57,
+        "personalization": 0.46,
+        "technical": 0.88
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.4,
+          "audience_fit": 0.5,
+          "trending_alignment": 0.0,
+          "seasonal_relevance": 0.0
+        },
+        "clarity": {
+          "readability": 1.0,
+          "value_clarity": 0.6666666666666666,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 1.0,
+          "emotional_quotient": 0.25,
+          "cta_effectiveness": 1.0,
+          "viral_potential": 0.6
+        },
+        "credibility": {
+          "data_verification": 0.3,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.0
+        },
+        "personalization": {
+          "name_integration": 0.5,
+          "segment_alignment": 0.3333333333333333,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.0
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 0.7,
+          "length_optimization": 1.0,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Clear value proposition and readable content",
+        "Professional formatting and optimal length"
+      ],
+      "improvements": [
+        {
+          "issue": "Credibility could be stronger",
+          "fix": "Add more data points, include credentials prominently",
+          "impact": "medium",
+          "priority": 2
+        },
+        {
+          "issue": "Insufficient personalization",
+          "fix": "Add advisor name 2-3 times, mention segment specifically",
+          "impact": "medium",
+          "priority": 2
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 2.6,
+        "viral_probability": 0.6,
+        "conversion_estimate": 0.049
+      },
+      "recommendation": "\u26a0\ufe0f MANUAL REVIEW - Content meets minimum standards but could benefit from improvements"
+    },
+    {
+      "content_id": "unknown",
+      "content_type": "whatsapp",
+      "segment": "Gold",
+      "timestamp": "2025-09-18T00:13:32.242513",
+      "overall_score": 0.48,
+      "grade": "D",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.0,
+        "clarity": 0.78,
+        "engagement": 0.5,
+        "credibility": 0.53,
+        "personalization": 0.33,
+        "technical": 0.95
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.0,
+          "audience_fit": 0.0,
+          "trending_alignment": 0.0,
+          "seasonal_relevance": 0.0
+        },
+        "clarity": {
+          "readability": 0.8,
+          "value_clarity": 0.3333333333333333,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 0.3333333333333333,
+          "emotional_quotient": 0.25,
+          "cta_effectiveness": 1.0,
+          "viral_potential": 0.4
+        },
+        "credibility": {
+          "data_verification": 0.5,
+          "source_quality": 0.6,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.0
+        },
+        "personalization": {
+          "name_integration": 0.0,
+          "segment_alignment": 0.3333333333333333,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.0
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 1.0,
+          "length_optimization": 1.0,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Professional formatting and optimal length"
+      ],
+      "improvements": [
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        },
+        {
+          "issue": "Credibility could be stronger",
+          "fix": "Add more data points, include credentials prominently",
+          "impact": "medium",
+          "priority": 2
+        },
+        {
+          "issue": "Insufficient personalization",
+          "fix": "Add advisor name 2-3 times, mention segment specifically",
+          "impact": "medium",
+          "priority": 2
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 2.0,
+        "viral_probability": 0.4,
+        "conversion_estimate": 0.038
+      },
+      "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+    },
+    {
+      "content_id": "unknown",
+      "content_type": "whatsapp",
+      "segment": "Gold",
+      "timestamp": "2025-09-18T00:13:32.242683",
+      "overall_score": 0.56,
+      "grade": "D",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.11,
+        "clarity": 0.75,
+        "engagement": 0.65,
+        "credibility": 0.71,
+        "personalization": 0.46,
+        "technical": 0.88
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.2,
+          "audience_fit": 0.25,
+          "trending_alignment": 0.0,
+          "seasonal_relevance": 0.0
+        },
+        "clarity": {
+          "readability": 1.0,
+          "value_clarity": 0.0,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 1.0,
+          "emotional_quotient": 0.0,
+          "cta_effectiveness": 1.0,
+          "viral_potential": 0.6
+        },
+        "credibility": {
+          "data_verification": 0.5,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.3333333333333333
+        },
+        "personalization": {
+          "name_integration": 0.0,
+          "segment_alignment": 0.3333333333333333,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.5
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 0.7,
+          "length_optimization": 1.0,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Professional formatting and optimal length"
+      ],
+      "improvements": [
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        },
+        {
+          "issue": "Insufficient personalization",
+          "fix": "Add advisor name 2-3 times, mention segment specifically",
+          "impact": "medium",
+          "priority": 2
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 2.4,
+        "viral_probability": 0.6,
+        "conversion_estimate": 0.045
+      },
+      "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+    },
+    {
+      "content_id": "unknown",
+      "content_type": "whatsapp",
+      "segment": "Premium",
+      "timestamp": "2025-09-18T00:13:32.242896",
+      "overall_score": 0.64,
+      "grade": "C",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.4,
+        "clarity": 0.83,
+        "engagement": 0.48,
+        "credibility": 0.83,
+        "personalization": 0.5,
+        "technical": 0.95
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 1.0,
+          "audience_fit": 0.25,
+          "trending_alignment": 0.3333333333333333,
+          "seasonal_relevance": 0.0
+        },
+        "clarity": {
+          "readability": 1.0,
+          "value_clarity": 0.3333333333333333,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 0.3333333333333333,
+          "emotional_quotient": 0.0,
+          "cta_effectiveness": 1.0,
+          "viral_potential": 0.6
+        },
+        "credibility": {
+          "data_verification": 1.0,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.3333333333333333
+        },
+        "personalization": {
+          "name_integration": 0.3333333333333333,
+          "segment_alignment": 0.6666666666666666,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.0
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 1.0,
+          "length_optimization": 1.0,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Professional formatting and optimal length",
+        "Clear value proposition and readable content",
+        "Data-backed insights with professional tone"
+      ],
+      "improvements": [
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        },
+        {
+          "issue": "Insufficient personalization",
+          "fix": "Add advisor name 2-3 times, mention segment specifically",
+          "impact": "medium",
+          "priority": 2
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 2.7,
+        "viral_probability": 0.6,
+        "conversion_estimate": 0.051
+      },
+      "recommendation": "\u26a0\ufe0f MANUAL REVIEW - Content meets minimum standards but could benefit from improvements"
+    },
+    {
+      "content_id": "unknown",
+      "content_type": "whatsapp",
+      "segment": "Premium",
+      "timestamp": "2025-09-18T00:13:32.243091",
+      "overall_score": 0.5,
+      "grade": "D",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.36,
+        "clarity": 0.5,
+        "engagement": 0.35,
+        "credibility": 0.71,
+        "personalization": 0.42,
+        "technical": 0.88
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.6,
+          "audience_fit": 0.5,
+          "trending_alignment": 0.3333333333333333,
+          "seasonal_relevance": 0.0
+        },
+        "clarity": {
+          "readability": 0.0,
+          "value_clarity": 0.0,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 0.0,
+          "emotional_quotient": 0.0,
+          "cta_effectiveness": 1.0,
+          "viral_potential": 0.4
+        },
+        "credibility": {
+          "data_verification": 0.5,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.3333333333333333
+        },
+        "personalization": {
+          "name_integration": 0.0,
+          "segment_alignment": 0.6666666666666666,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.0
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 0.7,
+          "length_optimization": 1.0,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Professional formatting and optimal length"
+      ],
+      "improvements": [
+        {
+          "issue": "Content clarity needs improvement",
+          "fix": "Simplify language, break long sentences, add bullet points",
+          "impact": "high",
+          "priority": 1
+        },
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        },
+        {
+          "issue": "Insufficient personalization",
+          "fix": "Add advisor name 2-3 times, mention segment specifically",
+          "impact": "medium",
+          "priority": 2
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 2.1,
+        "viral_probability": 0.4,
+        "conversion_estimate": 0.04
+      },
+      "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+    },
+    {
+      "content_id": "unknown",
+      "content_type": "whatsapp",
+      "segment": "Premium",
+      "timestamp": "2025-09-18T00:13:32.243298",
+      "overall_score": 0.59,
+      "grade": "D",
+      "auto_approval_eligible": false,
+      "breakdown": {
+        "relevance": 0.23,
+        "clarity": 0.75,
+        "engagement": 0.52,
+        "credibility": 0.83,
+        "personalization": 0.46,
+        "technical": 0.95
+      },
+      "detailed_scores": {
+        "relevance": {
+          "market_timing": 0.4,
+          "audience_fit": 0.0,
+          "trending_alignment": 0.0,
+          "seasonal_relevance": 0.5
+        },
+        "clarity": {
+          "readability": 1.0,
+          "value_clarity": 0.0,
+          "logical_flow": 1.0,
+          "jargon_score": 1.0
+        },
+        "engagement": {
+          "hook_power": 0.6666666666666666,
+          "emotional_quotient": 0.0,
+          "cta_effectiveness": 1.0,
+          "viral_potential": 0.4
+        },
+        "credibility": {
+          "data_verification": 1.0,
+          "source_quality": 1.0,
+          "tone_professionalism": 1.0,
+          "expertise_display": 0.3333333333333333
+        },
+        "personalization": {
+          "name_integration": 0.0,
+          "segment_alignment": 0.3333333333333333,
+          "brand_consistency": 1.0,
+          "local_relevance": 0.5
+        },
+        "technical": {
+          "grammar_check": 0.8,
+          "format_consistency": 1.0,
+          "length_optimization": 1.0,
+          "visual_quality": 1.0
+        }
+      },
+      "strengths": [
+        "Professional formatting and optimal length",
+        "Data-backed insights with professional tone"
+      ],
+      "improvements": [
+        {
+          "issue": "Low engagement potential",
+          "fix": "Strengthen hook, add personal story, clearer CTA",
+          "impact": "high",
+          "priority": 1
+        },
+        {
+          "issue": "Insufficient personalization",
+          "fix": "Add advisor name 2-3 times, mention segment specifically",
+          "impact": "medium",
+          "priority": 2
+        }
+      ],
+      "predictions": {
+        "engagement_rate": 2.5,
+        "viral_probability": 0.4,
+        "conversion_estimate": 0.047
+      },
+      "recommendation": "\u274c REGENERATE - Content quality below threshold, requires significant improvements"
+    }
+  ]
+}

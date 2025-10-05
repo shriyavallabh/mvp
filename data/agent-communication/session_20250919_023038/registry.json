@@ -1,0 +1,58 @@
+{
+  "sessionId": "session_20250919_023038",
+  "registeredAt": "2025-09-19T02:30:38.000Z",
+  "agents": {
+    "state-manager": {
+      "capabilities": ["state-persistence", "learning-capture"],
+      "sharedMemory": "data/shared-memory/session_20250919_023038",
+      "learnings": "learnings/sessions/session_20250919_023038",
+      "channels": ["state", "coordination"]
+    },
+    "communication-bus": {
+      "capabilities": ["message-routing", "broadcast"],
+      "channels": "data/agent-communication/session_20250919_023038",
+      "supportedChannels": ["feedback", "quality", "compliance", "state", "coordination"]
+    },
+    "advisor-data-manager": {
+      "capabilities": ["data-management", "advisor-operations"],
+      "channels": ["quality", "state", "coordination"],
+      "outputPath": "output/session_20250919_023038"
+    },
+    "market-intelligence": {
+      "capabilities": ["market-analysis", "intelligence-gathering"],
+      "channels": ["quality", "coordination"],
+      "outputPath": "output/session_20250919_023038"
+    },
+    "gemini-image-generator": {
+      "capabilities": ["image-generation", "visual-content"],
+      "channels": ["quality", "coordination"],
+      "outputPath": "output/session_20250919_023038/images"
+    },
+    "status-image-designer": {
+      "capabilities": ["status-design", "branding"],
+      "channels": ["quality", "coordination"],
+      "outputPath": "output/session_20250919_023038/images"
+    },
+    "whatsapp-message-creator": {
+      "capabilities": ["message-creation", "whatsapp-content"],
+      "channels": ["compliance", "quality", "coordination"],
+      "outputPath": "output/session_20250919_023038/whatsapp"
+    },
+    "distribution-controller": {
+      "capabilities": ["content-distribution", "workflow-control"],
+      "channels": ["compliance", "quality", "coordination"],
+      "outputPath": "output/session_20250919_023038"
+    },
+    "compliance-validator": {
+      "capabilities": ["compliance-checking", "validation"],
+      "channels": ["compliance", "quality", "coordination"],
+      "outputPath": "output/session_20250919_023038"
+    }
+  },
+  "communicationMatrix": {
+    "totalAgents": 9,
+    "totalChannels": 5,
+    "bidirectionalLinks": 4,
+    "broadcastChannels": 1
+  }
+}

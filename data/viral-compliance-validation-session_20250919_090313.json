@@ -1,0 +1,167 @@
+{
+  "timestamp": "2025-09-19T09:41:31.594820",
+  "session_id": "session_20250919_090313",
+  "summary": {
+    "total_content_validated": 8,
+    "fully_compliant": 5,
+    "compliance_rate": 62.5,
+    "total_violations": 3,
+    "total_warnings": 1,
+    "critical_violations": 0,
+    "major_violations": 3
+  },
+  "status": "REJECTED",
+  "violations": [
+    {
+      "content_id": "viral_whatsapp_004",
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_001",
+      "fix": "Add required SEBI disclaimers"
+    },
+    {
+      "content_id": "viral_whatsapp_005",
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_001",
+      "fix": "Add required SEBI disclaimers"
+    },
+    {
+      "content_id": "viral_linkedin_002",
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_001",
+      "fix": "Add required SEBI disclaimers"
+    }
+  ],
+  "warnings": [
+    {
+      "content_id": "viral_linkedin_001",
+      "type": "length_violation",
+      "severity": "MINOR",
+      "current_length": 511,
+      "max_length": 400,
+      "rule": "WHATSAPP_LEN_001",
+      "fix": "Reduce content by 111 characters"
+    }
+  ],
+  "compliant_content": [
+    "viral_whatsapp_001",
+    "viral_whatsapp_002",
+    "viral_whatsapp_003",
+    "viral_linkedin_001",
+    "viral_linkedin_003"
+  ],
+  "detailed_results": {
+    "viral_whatsapp_001": {
+      "content_id": "viral_whatsapp_001",
+      "type": "whatsapp",
+      "compliant": true,
+      "overall_score": 1.0,
+      "sebi_score": 1.0,
+      "whatsapp_score": 1.0,
+      "issues": [],
+      "violations_count": 0,
+      "warnings_count": 0
+    },
+    "viral_whatsapp_002": {
+      "content_id": "viral_whatsapp_002",
+      "type": "whatsapp",
+      "compliant": true,
+      "overall_score": 1.0,
+      "sebi_score": 1.0,
+      "whatsapp_score": 1.0,
+      "issues": [],
+      "violations_count": 0,
+      "warnings_count": 0
+    },
+    "viral_whatsapp_003": {
+      "content_id": "viral_whatsapp_003",
+      "type": "whatsapp",
+      "compliant": true,
+      "overall_score": 1.0,
+      "sebi_score": 1.0,
+      "whatsapp_score": 1.0,
+      "issues": [],
+      "violations_count": 0,
+      "warnings_count": 0
+    },
+    "viral_whatsapp_004": {
+      "content_id": "viral_whatsapp_004",
+      "type": "whatsapp",
+      "compliant": false,
+      "overall_score": 0.79,
+      "sebi_score": 0.7,
+      "whatsapp_score": 1.0,
+      "issues": [
+        "Missing SEBI disclaimers"
+      ],
+      "violations_count": 1,
+      "warnings_count": 0
+    },
+    "viral_whatsapp_005": {
+      "content_id": "viral_whatsapp_005",
+      "type": "whatsapp",
+      "compliant": false,
+      "overall_score": 0.79,
+      "sebi_score": 0.7,
+      "whatsapp_score": 1.0,
+      "issues": [
+        "Missing SEBI disclaimers"
+      ],
+      "violations_count": 1,
+      "warnings_count": 0
+    },
+    "viral_linkedin_001": {
+      "content_id": "viral_linkedin_001",
+      "type": "linkedin",
+      "compliant": false,
+      "overall_score": 0.97,
+      "sebi_score": 1.0,
+      "whatsapp_score": 0.9,
+      "issues": [
+        "Exceeds 400 char limit (511 chars)"
+      ],
+      "violations_count": 0,
+      "warnings_count": 1
+    },
+    "viral_linkedin_002": {
+      "content_id": "viral_linkedin_002",
+      "type": "linkedin",
+      "compliant": false,
+      "overall_score": 0.79,
+      "sebi_score": 0.7,
+      "whatsapp_score": 1.0,
+      "issues": [
+        "Missing SEBI disclaimers"
+      ],
+      "violations_count": 1,
+      "warnings_count": 0
+    },
+    "viral_linkedin_003": {
+      "content_id": "viral_linkedin_003",
+      "type": "linkedin",
+      "compliant": false,
+      "overall_score": 1.0,
+      "sebi_score": 1.0,
+      "whatsapp_score": 1.0,
+      "issues": [],
+      "violations_count": 0,
+      "warnings_count": 0
+    }
+  },
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "issue": "Missing SEBI disclaimers",
+      "action": "Add standard SEBI disclaimers to all content templates",
+      "template": "\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully."
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "Content exceeds WhatsApp character limits",
+      "action": "Trim messages to under 400 characters while maintaining impact",
+      "tip": "Focus on hook + value + CTA structure"
+    }
+  ]
+}

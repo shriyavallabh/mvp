@@ -1,0 +1,74 @@
+{
+  "session_id": "session_20250919_090313",
+  "timestamp": "20250919_093544",
+  "images_created": 5,
+  "files": [
+    "output/session_20250919_090313/images/viral-content/chai_inflation_20250919_093544.png",
+    "output/session_20250919_090313/images/viral-content/india_economy_20250919_093544.png",
+    "output/session_20250919_090313/images/viral-content/coffee_calculation_20250919_093544.png",
+    "output/session_20250919_090313/images/viral-content/loss_story_20250919_093544.png",
+    "output/session_20250919_090313/images/viral-content/transformation_20250919_093544.png"
+  ],
+  "specifications": [
+    {
+      "id": "chai_inflation",
+      "title": "\u20b910 Chai vs 2.1% Inflation",
+      "hook": "The Real Cost of Your Daily Habit",
+      "emoji": "\u2615\ud83d\udcb8",
+      "visual_type": "split_screen",
+      "cta": "Calculate Your Loss \u2192",
+      "dimensions": [
+        1200,
+        628
+      ]
+    },
+    {
+      "id": "india_economy",
+      "title": "India 4th Largest Economy",
+      "hook": "\ud83c\udfc6 Overtaking UK & France",
+      "emoji": "\ud83c\uddee\ud83c\uddf3\ud83d\ude80",
+      "visual_type": "celebration",
+      "cta": "Join the Growth Story",
+      "dimensions": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "id": "coffee_calculation",
+      "title": "\u20b9200 Coffee = \u20b967 Lakhs",
+      "hook": "Shocking 30-Year Calculation",
+      "emoji": "\ud83d\ude31\ud83d\udcca",
+      "visual_type": "calculation",
+      "cta": "Start Investing Today",
+      "dimensions": [
+        1200,
+        628
+      ]
+    },
+    {
+      "id": "loss_story",
+      "title": "Lost \u20b915 Lakhs in 2008",
+      "hook": "Real Story, Real Lessons",
+      "emoji": "\ud83d\udc94\ud83d\udcc9",
+      "visual_type": "story",
+      "cta": "Learn from Mistakes",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "id": "transformation",
+      "title": "Maid to IIM Teacher",
+      "hook": "Inspiring Investment Journey",
+      "emoji": "\u2728\ud83d\udcda",
+      "visual_type": "transformation",
+      "cta": "Start Your Journey",
+      "dimensions": [
+        1200,
+        628
+      ]
+    }
+  ]
+}

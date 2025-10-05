@@ -1,0 +1,645 @@
+{
+  "timestamp": "20250919_112818",
+  "total_advisors": 4,
+  "branded_content": {
+    "ADV_004": {
+      "linkedin_posts": [
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_002_score_9.2.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/linkedin/ADV_004_VIRAL_002_score_9.2_branded.txt",
+          "viral_score": 9.2
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_001_score_9.5.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/linkedin/ADV_004_VIRAL_001_score_9.5_branded.txt",
+          "viral_score": 9.5
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_005_score_8.5.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/linkedin/ADV_004_VIRAL_005_score_8.5_branded.txt",
+          "viral_score": 8.5
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_004_score_8.8.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/linkedin/ADV_004_VIRAL_004_score_8.8_branded.txt",
+          "viral_score": 8.8
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_006_score_8.7.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/linkedin/ADV_004_VIRAL_006_score_8.7_branded.txt",
+          "viral_score": 8.7
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_003_score_9.0.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/linkedin/ADV_004_VIRAL_003_score_9.0_branded.txt",
+          "viral_score": 9.0
+        }
+      ],
+      "whatsapp_messages": [
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_final_viral_1_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_final_viral_1_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_manual_viral_2_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_manual_viral_2_grammy_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_manual_viral_5_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_manual_viral_5_grammy_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_1_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_grammy_viral_1_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_viral_1_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_viral_1_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_final_viral_3_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_final_viral_3_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_grammy_5_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_grammy_5_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_3_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_grammy_viral_3_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_manual_viral_3_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_manual_viral_3_grammy_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_4_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_grammy_viral_4_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_grammy_4_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_grammy_4_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_viral_3_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_viral_3_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_viral_4_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_viral_4_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_5_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_grammy_viral_5_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_2_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_grammy_viral_2_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_grammy_1_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_grammy_1_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_final_viral_5_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_final_viral_5_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_grammy_2_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_grammy_2_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_viral_5_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_viral_5_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_viral_2_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_viral_2_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_grammy_3_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_grammy_3_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_manual_viral_1_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_manual_viral_1_grammy_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_final_viral_2_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_final_viral_2_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_final_viral_4_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_final_viral_4_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ADV_004_manual_viral_4_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ADV_004/whatsapp/ADV_004_manual_viral_4_grammy_branded.txt"
+        }
+      ],
+      "total_content": 31
+    },
+    "ARN_SHRUTI_001": {
+      "linkedin_posts": [
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_002_score_9.2.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/linkedin/ARN_SHRUTI_001_VIRAL_002_score_9.2_branded.txt",
+          "viral_score": 9.2
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_001_score_9.5.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/linkedin/ARN_SHRUTI_001_VIRAL_001_score_9.5_branded.txt",
+          "viral_score": 9.5
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_005_score_8.5.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/linkedin/ARN_SHRUTI_001_VIRAL_005_score_8.5_branded.txt",
+          "viral_score": 8.5
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_004_score_8.8.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/linkedin/ARN_SHRUTI_001_VIRAL_004_score_8.8_branded.txt",
+          "viral_score": 8.8
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_006_score_8.7.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/linkedin/ARN_SHRUTI_001_VIRAL_006_score_8.7_branded.txt",
+          "viral_score": 8.7
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_003_score_9.0.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/linkedin/ARN_SHRUTI_001_VIRAL_003_score_9.0_branded.txt",
+          "viral_score": 9.0
+        }
+      ],
+      "whatsapp_messages": [
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_4_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_viral_4_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_3_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_viral_3_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_5_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_manual_viral_5_grammy_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_2_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_viral_2_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_5_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_viral_5_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_1_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_final_viral_1_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_2_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_grammy_viral_2_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_5_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_grammy_viral_5_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_2_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_manual_viral_2_grammy_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_4_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_grammy_viral_4_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_3_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_grammy_viral_3_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_4_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_manual_viral_4_grammy_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_1_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_grammy_viral_1_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_5_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_final_viral_5_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_3_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_final_viral_3_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_1_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_manual_viral_1_grammy_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_4_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_final_viral_4_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_4_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_grammy_4_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_5_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_grammy_5_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_3_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_grammy_3_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_1_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_viral_1_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_2_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_final_viral_2_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_2_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_grammy_2_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_1_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_grammy_1_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_3_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRUTI_001/whatsapp/ARN_SHRUTI_001_manual_viral_3_grammy_branded.txt"
+        }
+      ],
+      "total_content": 31
+    },
+    "ARN_VIDYADHAR_002": {
+      "linkedin_posts": [
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_002_score_9.2.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/linkedin/ARN_VIDYADHAR_002_VIRAL_002_score_9.2_branded.txt",
+          "viral_score": 9.2
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_001_score_9.5.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/linkedin/ARN_VIDYADHAR_002_VIRAL_001_score_9.5_branded.txt",
+          "viral_score": 9.5
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_005_score_8.5.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/linkedin/ARN_VIDYADHAR_002_VIRAL_005_score_8.5_branded.txt",
+          "viral_score": 8.5
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_004_score_8.8.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/linkedin/ARN_VIDYADHAR_002_VIRAL_004_score_8.8_branded.txt",
+          "viral_score": 8.8
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_006_score_8.7.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/linkedin/ARN_VIDYADHAR_002_VIRAL_006_score_8.7_branded.txt",
+          "viral_score": 8.7
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_003_score_9.0.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/linkedin/ARN_VIDYADHAR_002_VIRAL_003_score_9.0_branded.txt",
+          "viral_score": 9.0
+        }
+      ],
+      "whatsapp_messages": [
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_1_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_grammy_1_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_4_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_final_viral_4_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_3_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_grammy_3_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_2_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_grammy_2_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_1_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_manual_viral_1_grammy_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_2_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_final_viral_2_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_4_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_grammy_4_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_4_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_manual_viral_4_grammy_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_5_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_grammy_5_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_4_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_viral_4_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_3_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_viral_3_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_5_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_final_viral_5_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_3_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_manual_viral_3_grammy_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_1_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_grammy_viral_1_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_2_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_viral_2_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_5_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_viral_5_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_3_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_final_viral_3_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_5_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_manual_viral_5_grammy_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_5_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_grammy_viral_5_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_2_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_grammy_viral_2_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_1_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_viral_1_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_3_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_grammy_viral_3_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_4_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_grammy_viral_4_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_1_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_final_viral_1_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_2_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_VIDYADHAR_002/whatsapp/ARN_VIDYADHAR_002_manual_viral_2_grammy_branded.txt"
+        }
+      ],
+      "total_content": 31
+    },
+    "ARN_SHRIYA_003": {
+      "linkedin_posts": [
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_002_score_9.2.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/linkedin/ARN_SHRIYA_003_VIRAL_002_score_9.2_branded.txt",
+          "viral_score": 9.2
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_001_score_9.5.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/linkedin/ARN_SHRIYA_003_VIRAL_001_score_9.5_branded.txt",
+          "viral_score": 9.5
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_005_score_8.5.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/linkedin/ARN_SHRIYA_003_VIRAL_005_score_8.5_branded.txt",
+          "viral_score": 8.5
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_004_score_8.8.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/linkedin/ARN_SHRIYA_003_VIRAL_004_score_8.8_branded.txt",
+          "viral_score": 8.8
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_006_score_8.7.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/linkedin/ARN_SHRIYA_003_VIRAL_006_score_8.7_branded.txt",
+          "viral_score": 8.7
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_003_score_9.0.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/linkedin/ARN_SHRIYA_003_VIRAL_003_score_9.0_branded.txt",
+          "viral_score": 9.0
+        }
+      ],
+      "whatsapp_messages": [
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_3_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_grammy_viral_3_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_4_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_grammy_viral_4_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_1_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_viral_1_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_4_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_manual_viral_4_grammy_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_5_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_grammy_viral_5_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_2_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_grammy_viral_2_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_1_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_manual_viral_1_grammy_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_1_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_grammy_1_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_3_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_grammy_3_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_2_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_grammy_2_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_4_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_grammy_4_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_5_grammy_complete.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_grammy_5_grammy_complete_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_3_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_manual_viral_3_grammy_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_1_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_final_viral_1_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_4_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_final_viral_4_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_5_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_manual_viral_5_grammy_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_2_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_final_viral_2_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_2_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_viral_2_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_5_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_viral_5_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_5_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_final_viral_5_final_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_2_grammy.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_manual_viral_2_grammy_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_4_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_viral_4_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_3_whatsapp.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_viral_3_whatsapp_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_1_enhanced.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_grammy_viral_1_enhanced_branded.txt"
+        },
+        {
+          "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_3_final.txt",
+          "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/branded_content_20250919_112818/ARN_SHRIYA_003/whatsapp/ARN_SHRIYA_003_final_viral_3_final_branded.txt"
+        }
+      ],
+      "total_content": 31
+    }
+  },
+  "image_specifications": {
+    "ADV_004": {
+      "advisor_id": "ADV_004",
+      "brand_name": "Tranquil Wealth Advisory",
+      "plan": "Gold",
+      "colors": {
+        "primary": "#B8860B",
+        "secondary": "#1E3A8A",
+        "accent": "#FFC107"
+      },
+      "logo_placement": "bottom-center",
+      "font_style": "premium",
+      "text_overlay": {
+        "signature": "Tranquil Wealth Advisory | ADV_004 \ud83c\udfc6",
+        "position": "bottom",
+        "color": "#B8860B"
+      },
+      "premium_features": {
+        "gold_border": true,
+        "premium_typography": true,
+        "enhanced_logo": true
+      }
+    },
+    "ARN_SHRUTI_001": {
+      "advisor_id": "ARN_SHRUTI_001",
+      "brand_name": "Shruti Petkar",
+      "plan": "Standard",
+      "colors": {
+        "primary": "#1A73E8",
+        "secondary": "#34A853",
+        "accent": "#4285F4"
+      },
+      "logo_placement": "bottom-right",
+      "font_style": "professional",
+      "text_overlay": {
+        "signature": "Shruti Petkar | ARN_SHRUTI_001",
+        "position": "bottom",
+        "color": "#1A73E8"
+      },
+      "premium_features": {
+        "gold_border": false,
+        "premium_typography": false,
+        "enhanced_logo": false
+      }
+    },
+    "ARN_VIDYADHAR_002": {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "brand_name": "Vidyadhar Petkar",
+      "plan": "Standard",
+      "colors": {
+        "primary": "#16A085",
+        "secondary": "#2ECC71",
+        "accent": "#27AE60"
+      },
+      "logo_placement": "bottom-right",
+      "font_style": "professional",
+      "text_overlay": {
+        "signature": "Vidyadhar Petkar | ARN_VIDYADHAR_002",
+        "position": "bottom",
+        "color": "#16A085"
+      },
+      "premium_features": {
+        "gold_border": false,
+        "premium_typography": false,
+        "enhanced_logo": false
+      }
+    },
+    "ARN_SHRIYA_003": {
+      "advisor_id": "ARN_SHRIYA_003",
+      "brand_name": "Shriya Vallabh Petkar",
+      "plan": "Standard",
+      "colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899",
+        "accent": "#A855F7"
+      },
+      "logo_placement": "bottom-right",
+      "font_style": "professional",
+      "text_overlay": {
+        "signature": "Shriya Vallabh Petkar | ARN_SHRIYA_003",
+        "position": "bottom",
+        "color": "#8B5CF6"
+      },
+      "premium_features": {
+        "gold_border": false,
+        "premium_typography": false,
+        "enhanced_logo": false
+      }
+    }
+  },
+  "performance_metrics": {}
+}

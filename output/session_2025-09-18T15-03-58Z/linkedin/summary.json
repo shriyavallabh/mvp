@@ -1,0 +1,37 @@
+{
+  "sessionId": "session_2025-09-18T15-03-58Z",
+  "timestamp": "2025-09-18T20:55:28.067906",
+  "postsGenerated": 9,
+  "averageLength": 1107,
+  "advisorsCovered": [
+    "Wealth Creators",
+    "Money Matters",
+    "Smart Invest"
+  ],
+  "topThemes": [
+    "market_update",
+    "market_analysis",
+    "market_basics",
+    "trending",
+    "educational_simple",
+    "educational_friendly",
+    "educational_professional"
+  ],
+  "files": {
+    "jsonFiles": 3,
+    "textFiles": 9,
+    "locations": {
+      "json": "output/session_2025-09-18T15-03-58Z/linkedin/json/",
+      "text": "output/session_2025-09-18T15-03-58Z/linkedin/text/",
+      "combined": {
+        "json": "output/session_2025-09-18T15-03-58Z/linkedin/posts.json",
+        "text": "output/session_2025-09-18T15-03-58Z/linkedin/posts.txt"
+      }
+    }
+  },
+  "compliance": {
+    "SEBICompliant": true,
+    "disclaimersIncluded": true,
+    "arnMentioned": true
+  }
+}

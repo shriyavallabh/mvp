@@ -1,0 +1,51 @@
+{
+  "advisorId": "ADV003",
+  "advisorName": "Shriya Vallabh Petkar",
+  "segment": "Premium",
+  "posts": [
+    {
+      "postId": "VIRAL_ADV003_001",
+      "advisorId": "ADV003",
+      "advisorName": "Shriya Vallabh Petkar",
+      "segment": "Premium",
+      "title": "",
+      "content": "I lost ₹15 lakhs in 2008.\n\nEveryone said \"Market will recover.\"\nIt did. But I had already sold at loss.\n\nToday at Sensex 82150, I see the same fear in clients' eyes.\n\nHere's what 2008 taught me that nobody talks about:\n\n1. The market crashed 60%\n   → But SIP investors made 127% returns by 2010\n\n2. Panicked sellers lost ₹4.6 lakh crores\n   → Patient investors gained ₹12 lakh crores\n\n3. IT stocks everyone hated at ₹200\n   → Trading at ₹1,800 today\n\nThe brutal truth?\n\nYour emotions are your portfolio's biggest enemy.\nNot the market. Not inflation. Not even bad stocks.\n\nWhen IT is up 2.8% today, everyone's buying.\nBut real wealth? It's made when everyone's selling.\n\nMy ₹15 lakh loss became my ₹2 crore lesson.\n\nWhat's yours?\n\nP.S. Still have the screenshot of that loss.\nKeeps me humble. And rich.\n\nShriya Vallabh Petkar | Empowering Financial Decisions\nARN: ARN-147852\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.",
+      "hashtags": [
+        "#InvestmentLessons",
+        "#WealthCreation",
+        "#StockMarket",
+        "#FinancialFreedom",
+        "#MarketCycles"
+      ],
+      "viralityScore": 9.5,
+      "hookType": "personal_loss",
+      "emotion": "fear_to_hope",
+      "cta": "share_story",
+      "characterCount": 897
+    },
+    {
+      "postId": "VIRAL_ADV003_002",
+      "advisorId": "ADV003",
+      "advisorName": "Shriya Vallabh Petkar",
+      "segment": "Premium",
+      "title": "",
+      "content": "₹5,000 monthly SIP started by a rickshaw driver.\n\nToday: ₹47 lakhs.\n\nI met Raju in 2012. Monthly income: ₹8,000.\n\"Saheb, can I also invest?\"\n\nEveryone laughed. I didn't.\n\nStarted his SIP: ₹500.\nIncreased to ₹1,000 in 2014.\nThen ₹2,000 in 2016.\nNow: ₹5,000 monthly.\n\n12 years later:\n• Invested: ₹3.6 lakhs\n• Current value: ₹47 lakhs\n• His daughter: Studying engineering\n\nThe elite will tell you \"need ₹1 lakh to start.\"\n\nRaju proved them wrong.\n\nWith IT sector exploding 2.8% today, imagine what disciplined SIPs can do for YOU.\n\nYour excuse is what exactly?\n\nShriya Vallabh Petkar\nEvery rupee counts. Every day matters.\n\nARN: ARN-147852\nMutual fund investments are subject to market risks.",
+      "hashtags": [
+        "#SIP",
+        "#WealthForAll",
+        "#FinancialInclusion",
+        "#InvestmentJourney"
+      ],
+      "viralityScore": 9.8,
+      "hookType": "underdog_story",
+      "emotion": "inspiration",
+      "cta": "remove_excuse",
+      "characterCount": 782
+    }
+  ],
+  "metadata": {
+    "totalPosts": 2,
+    "avgViralityScore": 9.65,
+    "strategy": "Warikoo deep stories + data hooks"
+  }
+}

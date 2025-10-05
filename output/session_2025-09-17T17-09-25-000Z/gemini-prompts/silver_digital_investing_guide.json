@@ -1,0 +1,24 @@
+{
+  "advisorId": "ADV_003",
+  "segmentType": "Silver",
+  "contentType": "digital_investing_infographic",
+  "marketTheme": "Start Your Digital Investment Journey",
+  "brandCustomization": {
+    "brandName": "Smart Invest",
+    "primaryColor": "#008080",
+    "secondaryColor": "#F0F8FF",
+    "accentColor": "#20B2AA",
+    "tagline": "Smart Investing Made Simple",
+    "advisorName": "Priya Sharma",
+    "arn": "ARN-345678"
+  },
+  "geminiPrompt": "Create a trendy, millennial-focused WhatsApp Status image (1080x1920px vertical) for digital investing:\n\nCONTENT THEME: Digital Investment Journey for Beginners\nSTYLE: Modern, tech-savvy, instagram-worthy design\n\nVISUAL ELEMENTS:\n- Background: Clean teal to white gradient\n- Central illustration: Smartphone with investment apps\n- Step-by-step digital journey icons\n- Modern flat design with rounded corners\n- Tech-friendly color palette\n\nDIGITAL INVESTMENT STEPS:\n1. 'Download App' → Phone icon with download arrow\n2. 'Complete KYC' → Digital verification symbol\n3. 'Start with ₹100' → Rupee symbol in circle\n4. 'Choose ETFs/SIPs' → Portfolio selection icon\n5. 'Track Growth' → Growth chart on phone screen\n\nKEY MILLENNIAL MESSAGES:\n- 'Invest during your coffee break'\n- 'No minimum amount required'\n- 'Real-time portfolio tracking'\n- 'Cancel anytime, no penalties'\n- 'Commission-free ETF trading'\n\nTECH INTEGRATION:\n- QR code for app download\n- Social media style layout\n- Emoji accents for engagement\n- Mobile-first design approach\n\nBRANDING:\n- Smart Invest in modern teal\n- Tech-savvy tagline styling\n- Instagram-style contact information\n- Minimalist, clean aesthetic\n\nMOOD: Modern, tech-savvy, effortless, trendy\nTARGET: Millennials, tech professionals, app-first investors",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "aspectRatio": "9:16"
+  },
+  "targetAudience": "Millennials, tech professionals, digital natives",
+  "keyMessage": "Start investing in minutes with your smartphone",
+  "callToAction": "Scan QR code to download investment app"
+}

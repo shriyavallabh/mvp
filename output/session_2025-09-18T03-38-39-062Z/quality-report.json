@@ -1,0 +1,3229 @@
+{
+  "session_id": "session_2025-09-18T03-38-39-062Z",
+  "evaluation_timestamp": "2025-09-18T09:46:21.648665",
+  "content_scores": {
+    "linkedin": [
+      {
+        "content_id": "linkedin_4382",
+        "content_type": "linkedin",
+        "content_preview": "💡 With just 6 months left in the fiscal year, are you maximizing your tax efficiency?\n\nLast week, I analyzed portfolios worth ₹500+ crores and found s...",
+        "character_count": 1493,
+        "readability": {
+          "flesch_score": 10.02,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 20.8,
+          "avg_syllables_per_word": 2.08
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.75,
+            "cta_effectiveness": 0.25,
+            "emotional_appeal": 0.30000000000000004,
+            "shareability": 0.66
+          },
+          "professional_standards": {
+            "grammar_quality": 0.0,
+            "brand_consistency": 0.6,
+            "professional_tone": 1.0,
+            "visual_appeal": 0.7
+          },
+          "market_relevance": {
+            "market_timing": 0.15000000000000002,
+            "trending_alignment": 0.0,
+            "actionable_insights": 0.66,
+            "data_driven": 0.7
+          },
+          "segment_fit": {
+            "complexity_level": 0.4,
+            "tone_match": 0.5,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 1.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 53.67,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 49.0,
+            "professional_standards": 57.5,
+            "market_relevance": 37.75,
+            "segment_fit": 47.5,
+            "compliance_readiness": 100.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [
+            "Fully compliant with regulatory requirements"
+          ],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Improve writing quality, enhance brand consistency",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.650623",
+        "advisor_id": "ARN_VIDYADHAR_002",
+        "advisor_segment": "HNI_Premium"
+      },
+      {
+        "content_id": "linkedin_2834",
+        "content_type": "linkedin",
+        "content_preview": "🏦 RBI's 50 bps rate cut just handed us a ₹2.5 trillion opportunity. Here's how sophisticated investors are positioning:\n\n**The Banking Thesis Deep Div...",
+        "character_count": 1577,
+        "readability": {
+          "flesch_score": -0.69,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 23.7,
+          "avg_syllables_per_word": 2.17
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.8,
+            "cta_effectiveness": 0.25,
+            "emotional_appeal": 0.30000000000000004,
+            "shareability": 0.66
+          },
+          "professional_standards": {
+            "grammar_quality": 0.0,
+            "brand_consistency": 0.6,
+            "professional_tone": 1.0,
+            "visual_appeal": 0.7
+          },
+          "market_relevance": {
+            "market_timing": 0.05,
+            "trending_alignment": 0.51,
+            "actionable_insights": 0.33,
+            "data_driven": 1.0
+          },
+          "segment_fit": {
+            "complexity_level": 0.5,
+            "tone_match": 0.5,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 1.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 56.39,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 50.25,
+            "professional_standards": 57.5,
+            "market_relevance": 47.25,
+            "segment_fit": 50.0,
+            "compliance_readiness": 100.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [
+            "Fully compliant with regulatory requirements"
+          ],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Improve writing quality, enhance brand consistency",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.651322",
+        "advisor_id": "ARN_VIDYADHAR_002",
+        "advisor_segment": "HNI_Premium"
+      },
+      {
+        "content_id": "linkedin_8178",
+        "content_type": "linkedin",
+        "content_preview": "📊 Q3 earnings season reveals the winners and losers. After analyzing 500+ companies, here's what smart money is doing:\n\n**The Earnings Reality Check**...",
+        "character_count": 1691,
+        "readability": {
+          "flesch_score": -3.11,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 24.9,
+          "avg_syllables_per_word": 2.18
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.55,
+            "cta_effectiveness": 0.0,
+            "emotional_appeal": 0.30000000000000004,
+            "shareability": 0.99
+          },
+          "professional_standards": {
+            "grammar_quality": 0.0,
+            "brand_consistency": 0.6,
+            "professional_tone": 1.0,
+            "visual_appeal": 0.7
+          },
+          "market_relevance": {
+            "market_timing": 0.15000000000000002,
+            "trending_alignment": 0.51,
+            "actionable_insights": 0.33,
+            "data_driven": 0.7
+          },
+          "segment_fit": {
+            "complexity_level": 0.30000000000000004,
+            "tone_match": 0.4,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 1.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 52.83,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 46.0,
+            "professional_standards": 57.5,
+            "market_relevance": 42.25,
+            "segment_fit": 42.5,
+            "compliance_readiness": 100.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [
+            "Fully compliant with regulatory requirements"
+          ],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Improve writing quality, enhance brand consistency",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.652064",
+        "advisor_id": "ARN_VIDYADHAR_002",
+        "advisor_segment": "HNI_Premium"
+      },
+      {
+        "content_id": "linkedin_4197",
+        "content_type": "linkedin",
+        "content_preview": "🎯 Portfolio rebalancing isn't just about buying low and selling high. It's about maintaining your wealth creation engine.\n\nAfter managing ₹50+ crores ...",
+        "character_count": 1783,
+        "readability": {
+          "flesch_score": -20.76,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 22.8,
+          "avg_syllables_per_word": 2.42
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.45,
+            "cta_effectiveness": 0.25,
+            "emotional_appeal": 0.1,
+            "shareability": 0.66
+          },
+          "professional_standards": {
+            "grammar_quality": 0.0,
+            "brand_consistency": 0.6,
+            "professional_tone": 1.0,
+            "visual_appeal": 0.7
+          },
+          "market_relevance": {
+            "market_timing": 0.15000000000000002,
+            "trending_alignment": 0.17,
+            "actionable_insights": 0.66,
+            "data_driven": 0.8
+          },
+          "segment_fit": {
+            "complexity_level": 0.8,
+            "tone_match": 0.5,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 1.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 53.9,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 36.5,
+            "professional_standards": 57.5,
+            "market_relevance": 44.5,
+            "segment_fit": 57.5,
+            "compliance_readiness": 100.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [
+            "Fully compliant with regulatory requirements"
+          ],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Improve writing quality, enhance brand consistency",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.652778",
+        "advisor_id": "ARN_VIDYADHAR_002",
+        "advisor_segment": "HNI_Premium"
+      },
+      {
+        "content_id": "linkedin_5718",
+        "content_type": "linkedin",
+        "content_preview": "⏰ Only 6 months left for tax planning! Don't let another year slip by without optimizing your savings.\n\nAs someone who's helped 50+ families save over...",
+        "character_count": 1676,
+        "readability": {
+          "flesch_score": 25.67,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 19.2,
+          "avg_syllables_per_word": 1.91
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.5,
+            "cta_effectiveness": 0.5,
+            "emotional_appeal": 0.4,
+            "shareability": 0.66
+          },
+          "professional_standards": {
+            "grammar_quality": 0.0,
+            "brand_consistency": 0.6,
+            "professional_tone": 1.0,
+            "visual_appeal": 0.7
+          },
+          "market_relevance": {
+            "market_timing": 0.2,
+            "trending_alignment": 0.17,
+            "actionable_insights": 0.66,
+            "data_driven": 0.5
+          },
+          "segment_fit": {
+            "complexity_level": 0.5,
+            "tone_match": 0.4,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 1.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 54.4,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 51.5,
+            "professional_standards": 57.5,
+            "market_relevance": 38.25,
+            "segment_fit": 47.5,
+            "compliance_readiness": 100.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [
+            "Fully compliant with regulatory requirements"
+          ],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Improve writing quality, enhance brand consistency",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.653473",
+        "advisor_id": "ARN_SHRUTI_001",
+        "advisor_segment": "Retail_Gold"
+      },
+      {
+        "content_id": "linkedin_2580",
+        "content_type": "linkedin",
+        "content_preview": "🏦 RBI cut rates by 0.50%! Here's what this means for your investments and why banking funds deserve attention.\n\n**Breaking it Down Simply**\n\nWhen RBI ...",
+        "character_count": 1817,
+        "readability": {
+          "flesch_score": 23.2,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 22.1,
+          "avg_syllables_per_word": 1.91
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.55,
+            "cta_effectiveness": 0.5,
+            "emotional_appeal": 0.2,
+            "shareability": 0.66
+          },
+          "professional_standards": {
+            "grammar_quality": 0.0,
+            "brand_consistency": 0.6,
+            "professional_tone": 1.0,
+            "visual_appeal": 0.7
+          },
+          "market_relevance": {
+            "market_timing": 0.1,
+            "trending_alignment": 0.34,
+            "actionable_insights": 0.66,
+            "data_driven": 0.7
+          },
+          "segment_fit": {
+            "complexity_level": 0.30000000000000004,
+            "tone_match": 0.8,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 1.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 55.81,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 47.75,
+            "professional_standards": 57.5,
+            "market_relevance": 45.0,
+            "segment_fit": 52.5,
+            "compliance_readiness": 100.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [
+            "Fully compliant with regulatory requirements"
+          ],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Improve writing quality, enhance brand consistency",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.654208",
+        "advisor_id": "ARN_SHRUTI_001",
+        "advisor_segment": "Retail_Gold"
+      },
+      {
+        "content_id": "linkedin_587",
+        "content_type": "linkedin",
+        "content_preview": "🎯 \"I want to invest but don't know where to start.\" Sound familiar?\n\nAfter helping 50+ families achieve their financial goals, I've learned that succe...",
+        "character_count": 1887,
+        "readability": {
+          "flesch_score": 24.13,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 21.6,
+          "avg_syllables_per_word": 1.9
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.65,
+            "cta_effectiveness": 0.25,
+            "emotional_appeal": 0.4,
+            "shareability": 0.99
+          },
+          "professional_standards": {
+            "grammar_quality": 0.0,
+            "brand_consistency": 0.6,
+            "professional_tone": 1.0,
+            "visual_appeal": 0.7
+          },
+          "market_relevance": {
+            "market_timing": 0.1,
+            "trending_alignment": 0.0,
+            "actionable_insights": 0.33,
+            "data_driven": 0.5
+          },
+          "segment_fit": {
+            "complexity_level": 0.7000000000000001,
+            "tone_match": 0.4,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 1.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 53.84,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 57.25,
+            "professional_standards": 57.5,
+            "market_relevance": 23.25,
+            "segment_fit": 52.5,
+            "compliance_readiness": 100.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [
+            "Fully compliant with regulatory requirements"
+          ],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Improve writing quality, enhance brand consistency",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.655004",
+        "advisor_id": "ARN_SHRUTI_001",
+        "advisor_segment": "Retail_Gold"
+      },
+      {
+        "content_id": "linkedin_1038",
+        "content_type": "linkedin",
+        "content_preview": "💰 \"Should I wait for the market to fall before starting my SIP?\" This is the #1 question I get.\n\nShort answer: NO. Here's why timing the market is a l...",
+        "character_count": 1855,
+        "readability": {
+          "flesch_score": 40.83,
+          "level": "Difficult",
+          "quality_score": 0.6,
+          "avg_sentence_length": 13.3,
+          "avg_syllables_per_word": 1.8
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.65,
+            "cta_effectiveness": 0.25,
+            "emotional_appeal": 0.4,
+            "shareability": 0.66
+          },
+          "professional_standards": {
+            "grammar_quality": 0.0,
+            "brand_consistency": 0.6,
+            "professional_tone": 0.8,
+            "visual_appeal": 0.7
+          },
+          "market_relevance": {
+            "market_timing": 0.1,
+            "trending_alignment": 0.17,
+            "actionable_insights": 0.99,
+            "data_driven": 0.5
+          },
+          "segment_fit": {
+            "complexity_level": 0.30000000000000004,
+            "tone_match": 0.6000000000000001,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 1.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 0.7,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 52.93,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 49.0,
+            "professional_standards": 52.5,
+            "market_relevance": 44.0,
+            "segment_fit": 47.5,
+            "compliance_readiness": 92.5
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [
+            "Fully compliant with regulatory requirements"
+          ],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Improve writing quality, enhance brand consistency",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.655773",
+        "advisor_id": "ARN_SHRUTI_001",
+        "advisor_segment": "Retail_Gold"
+      },
+      {
+        "content_id": "linkedin_5713",
+        "content_type": "linkedin",
+        "content_preview": "🌱 New to investing? You're in the right place! Let's start your wealth-building journey with simple, proven steps.\n\n**Your First Investment Questions ...",
+        "character_count": 1856,
+        "readability": {
+          "flesch_score": 34.64,
+          "level": "Difficult",
+          "quality_score": 0.6,
+          "avg_sentence_length": 16.2,
+          "avg_syllables_per_word": 1.84
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.55,
+            "cta_effectiveness": 0.25,
+            "emotional_appeal": 0.30000000000000004,
+            "shareability": 0.66
+          },
+          "professional_standards": {
+            "grammar_quality": 0.0,
+            "brand_consistency": 0.6,
+            "professional_tone": 1.0,
+            "visual_appeal": 0.7
+          },
+          "market_relevance": {
+            "market_timing": 0.05,
+            "trending_alignment": 0.17,
+            "actionable_insights": 0.66,
+            "data_driven": 0.5
+          },
+          "segment_fit": {
+            "complexity_level": 0.7000000000000001,
+            "tone_match": 0.85,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 1.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 55.02,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 44.0,
+            "professional_standards": 57.5,
+            "market_relevance": 34.5,
+            "segment_fit": 63.75,
+            "compliance_readiness": 100.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [
+            "Fully compliant with regulatory requirements"
+          ],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Improve writing quality, enhance brand consistency",
+            "Align better with current market trends and data",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.656536",
+        "advisor_id": "ARN_SHRIYA_003",
+        "advisor_segment": "Retail_Standard"
+      },
+      {
+        "content_id": "linkedin_7618",
+        "content_type": "linkedin",
+        "content_preview": "💸 Struggling to save money every month? You're not alone! Here are simple tricks that helped my clients save ₹2+ lakhs annually.\n\n**The Save-First Str...",
+        "character_count": 1842,
+        "readability": {
+          "flesch_score": 25.57,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 22.8,
+          "avg_syllables_per_word": 1.87
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.65,
+            "cta_effectiveness": 0.0,
+            "emotional_appeal": 0.30000000000000004,
+            "shareability": 0.99
+          },
+          "professional_standards": {
+            "grammar_quality": 0.0,
+            "brand_consistency": 0.6,
+            "professional_tone": 1.0,
+            "visual_appeal": 0.7
+          },
+          "market_relevance": {
+            "market_timing": 0.1,
+            "trending_alignment": 0.17,
+            "actionable_insights": 0.66,
+            "data_driven": 0.5
+          },
+          "segment_fit": {
+            "complexity_level": 0.30000000000000004,
+            "tone_match": 0.4,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 1.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 52.15,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 48.5,
+            "professional_standards": 57.5,
+            "market_relevance": 35.75,
+            "segment_fit": 42.5,
+            "compliance_readiness": 100.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [
+            "Fully compliant with regulatory requirements"
+          ],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Improve writing quality, enhance brand consistency",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.657319",
+        "advisor_id": "ARN_SHRIYA_003",
+        "advisor_segment": "Retail_Standard"
+      },
+      {
+        "content_id": "linkedin_1972",
+        "content_type": "linkedin",
+        "content_preview": "🚀 Want to know the secret that turns small savings into big wealth? It's called compounding - and it's more powerful than you think!\n\n**What is Compou...",
+        "character_count": 1957,
+        "readability": {
+          "flesch_score": 44.96,
+          "level": "Difficult",
+          "quality_score": 0.6,
+          "avg_sentence_length": 14.6,
+          "avg_syllables_per_word": 1.74
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.55,
+            "cta_effectiveness": 0.25,
+            "emotional_appeal": 0.2,
+            "shareability": 0.99
+          },
+          "professional_standards": {
+            "grammar_quality": 0.0,
+            "brand_consistency": 0.6,
+            "professional_tone": 0.9,
+            "visual_appeal": 0.7
+          },
+          "market_relevance": {
+            "market_timing": 0.05,
+            "trending_alignment": 0.0,
+            "actionable_insights": 0.99,
+            "data_driven": 0.5
+          },
+          "segment_fit": {
+            "complexity_level": 0.5,
+            "tone_match": 0.4,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 1.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 53.39,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 49.75,
+            "professional_standards": 55.0,
+            "market_relevance": 38.5,
+            "segment_fit": 47.5,
+            "compliance_readiness": 100.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [
+            "Fully compliant with regulatory requirements"
+          ],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Improve writing quality, enhance brand consistency",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.658134",
+        "advisor_id": "ARN_SHRIYA_003",
+        "advisor_segment": "Retail_Standard"
+      },
+      {
+        "content_id": "linkedin_6902",
+        "content_type": "linkedin",
+        "content_preview": "🚨 Last month, my friend lost his job unexpectedly. But he wasn't worried. Why? He had an emergency fund that gave him 8 months of peace of mind.\n\n**Wh...",
+        "character_count": 2028,
+        "readability": {
+          "flesch_score": 31.11,
+          "level": "Difficult",
+          "quality_score": 0.6,
+          "avg_sentence_length": 22.1,
+          "avg_syllables_per_word": 1.81
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.65,
+            "cta_effectiveness": 0.25,
+            "emotional_appeal": 0.5,
+            "shareability": 0.99
+          },
+          "professional_standards": {
+            "grammar_quality": 0.0,
+            "brand_consistency": 0.6,
+            "professional_tone": 1.0,
+            "visual_appeal": 0.7
+          },
+          "market_relevance": {
+            "market_timing": 0.05,
+            "trending_alignment": 0.17,
+            "actionable_insights": 0.66,
+            "data_driven": 0.5
+          },
+          "segment_fit": {
+            "complexity_level": 0.4,
+            "tone_match": 0.25,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 1.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 54.46,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 59.75,
+            "professional_standards": 57.5,
+            "market_relevance": 34.5,
+            "segment_fit": 41.25,
+            "compliance_readiness": 100.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [
+            "Fully compliant with regulatory requirements"
+          ],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Improve writing quality, enhance brand consistency",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.658999",
+        "advisor_id": "ARN_SHRIYA_003",
+        "advisor_segment": "Retail_Standard"
+      }
+    ],
+    "whatsapp": [
+      {
+        "content_id": "whatsapp_6133",
+        "content_type": "whatsapp",
+        "content_preview": "☀️ Good morning Shruti! Markets showing steady momentum with DII support. IT sector strength + RBI easing cycle ahead = opportunities. Tax planning wi...",
+        "character_count": 310,
+        "readability": {
+          "flesch_score": 14.72,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 9.8,
+          "avg_syllables_per_word": 2.15
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.3,
+            "cta_effectiveness": 0.5,
+            "emotional_appeal": 0.1,
+            "shareability": 0.0
+          },
+          "professional_standards": {
+            "grammar_quality": 0.8,
+            "brand_consistency": 0.7,
+            "professional_tone": 0.9,
+            "visual_appeal": 0.4
+          },
+          "market_relevance": {
+            "market_timing": 0.05,
+            "trending_alignment": 0.0,
+            "actionable_insights": 0.0,
+            "data_driven": 0.7
+          },
+          "segment_fit": {
+            "complexity_level": 0.1,
+            "tone_match": 0.4,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 0.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 41.88,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 22.5,
+            "professional_standards": 70.0,
+            "market_relevance": 18.75,
+            "segment_fit": 37.5,
+            "compliance_readiness": 75.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.659266",
+        "advisor_id": "ARN_SHRUTI_001",
+        "advisor_segment": "Retail",
+        "message_category": "market_insights"
+      },
+      {
+        "content_id": "whatsapp_89",
+        "content_type": "whatsapp",
+        "content_preview": "💡 Shruti, SIP strategy insight: Market volatility creates rupee-cost averaging advantage! Your disciplined approach building wealth steadily. Continue...",
+        "character_count": 298,
+        "readability": {
+          "flesch_score": -24.8,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 11.0,
+          "avg_syllables_per_word": 2.61
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.35,
+            "cta_effectiveness": 0.0,
+            "emotional_appeal": 0.2,
+            "shareability": 0.33
+          },
+          "professional_standards": {
+            "grammar_quality": 0.8,
+            "brand_consistency": 0.7,
+            "professional_tone": 0.9,
+            "visual_appeal": 0.4
+          },
+          "market_relevance": {
+            "market_timing": 0.05,
+            "trending_alignment": 0.0,
+            "actionable_insights": 0.33,
+            "data_driven": 0.0
+          },
+          "segment_fit": {
+            "complexity_level": 0.1,
+            "tone_match": 0.6000000000000001,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 0.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 40.9,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 22.0,
+            "professional_standards": 70.0,
+            "market_relevance": 9.5,
+            "segment_fit": 42.5,
+            "compliance_readiness": 75.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.659441",
+        "advisor_id": "ARN_SHRUTI_001",
+        "advisor_segment": "Retail",
+        "message_category": "systematic_investing"
+      },
+      {
+        "content_id": "whatsapp_1867",
+        "content_type": "whatsapp",
+        "content_preview": "🎯 Goal alignment Shruti: 6 months for tax year-end - perfect for portfolio review! ELSS for tax + growth, balanced funds for stability. Strategic plan...",
+        "character_count": 290,
+        "readability": {
+          "flesch_score": 19.1,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 9.2,
+          "avg_syllables_per_word": 2.11
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.45,
+            "cta_effectiveness": 0.25,
+            "emotional_appeal": 0.4,
+            "shareability": 0.0
+          },
+          "professional_standards": {
+            "grammar_quality": 0.8,
+            "brand_consistency": 0.7,
+            "professional_tone": 1.0,
+            "visual_appeal": 0.4
+          },
+          "market_relevance": {
+            "market_timing": 0.1,
+            "trending_alignment": 0.0,
+            "actionable_insights": 0.0,
+            "data_driven": 0.5
+          },
+          "segment_fit": {
+            "complexity_level": 0.2,
+            "tone_match": 0.6000000000000001,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 0.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 44.5,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 27.5,
+            "professional_standards": 72.5,
+            "market_relevance": 15.0,
+            "segment_fit": 45.0,
+            "compliance_readiness": 75.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.659613",
+        "advisor_id": "ARN_SHRUTI_001",
+        "advisor_segment": "Retail",
+        "message_category": "goal_planning"
+      },
+      {
+        "content_id": "whatsapp_2714",
+        "content_type": "whatsapp",
+        "content_preview": "📋 Tax efficiency Shruti: 80C limit ₹1.5L, ELSS delivers equity upside + tax benefit! Banking sector positioned for rate cuts. Strategic moves needed f...",
+        "character_count": 277,
+        "readability": {
+          "flesch_score": -3.34,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 8.5,
+          "avg_syllables_per_word": 2.38
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.65,
+            "cta_effectiveness": 0.0,
+            "emotional_appeal": 0.1,
+            "shareability": 0.33
+          },
+          "professional_standards": {
+            "grammar_quality": 0.8,
+            "brand_consistency": 0.7,
+            "professional_tone": 0.9,
+            "visual_appeal": 0.4
+          },
+          "market_relevance": {
+            "market_timing": 0.2,
+            "trending_alignment": 0.34,
+            "actionable_insights": 0.0,
+            "data_driven": 0.5
+          },
+          "segment_fit": {
+            "complexity_level": 0.0,
+            "tone_match": 0.4,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 0.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 43.95,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 27.0,
+            "professional_standards": 70.0,
+            "market_relevance": 26.0,
+            "segment_fit": 35.0,
+            "compliance_readiness": 75.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.659772",
+        "advisor_id": "ARN_SHRUTI_001",
+        "advisor_segment": "Retail",
+        "message_category": "tax_efficiency"
+      },
+      {
+        "content_id": "whatsapp_9730",
+        "content_type": "whatsapp",
+        "content_preview": "🧠 Investment wisdom Shruti: Market confidence 72%, selective participation trend. Your balanced approach perfectly positioned! Banking benefits from e...",
+        "character_count": 296,
+        "readability": {
+          "flesch_score": -15.78,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 8.5,
+          "avg_syllables_per_word": 2.53
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.4,
+            "cta_effectiveness": 0.0,
+            "emotional_appeal": 0.2,
+            "shareability": 0.33
+          },
+          "professional_standards": {
+            "grammar_quality": 0.8,
+            "brand_consistency": 0.7,
+            "professional_tone": 0.9,
+            "visual_appeal": 0.4
+          },
+          "market_relevance": {
+            "market_timing": 0.0,
+            "trending_alignment": 0.17,
+            "actionable_insights": 0.33,
+            "data_driven": 0.5
+          },
+          "segment_fit": {
+            "complexity_level": 0.0,
+            "tone_match": 0.4,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 0.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 42.81,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 23.25,
+            "professional_standards": 70.0,
+            "market_relevance": 25.0,
+            "segment_fit": 35.0,
+            "compliance_readiness": 75.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.659964",
+        "advisor_id": "ARN_SHRUTI_001",
+        "advisor_segment": "Retail",
+        "message_category": "smart_investing"
+      },
+      {
+        "content_id": "whatsapp_7717",
+        "content_type": "whatsapp",
+        "content_preview": "🌟 Good morning Vidyadhar! DII buying supports Sensex at 82K. IT outperformance continues with rate cuts ahead. Portfolio rebalancing opportunity! Tax ...",
+        "character_count": 333,
+        "readability": {
+          "flesch_score": -12.7,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 10.0,
+          "avg_syllables_per_word": 2.48
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.6,
+            "cta_effectiveness": 0.25,
+            "emotional_appeal": 0.2,
+            "shareability": 0.0
+          },
+          "professional_standards": {
+            "grammar_quality": 0.8,
+            "brand_consistency": 0.7,
+            "professional_tone": 1.0,
+            "visual_appeal": 0.4
+          },
+          "market_relevance": {
+            "market_timing": 0.1,
+            "trending_alignment": 0.17,
+            "actionable_insights": 0.0,
+            "data_driven": 1.0
+          },
+          "segment_fit": {
+            "complexity_level": 0.2,
+            "tone_match": 0.3,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 0.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 46.04,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 26.25,
+            "professional_standards": 72.5,
+            "market_relevance": 31.75,
+            "segment_fit": 37.5,
+            "compliance_readiness": 75.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.660200",
+        "advisor_id": "ARN_VIDYADHAR_002",
+        "advisor_segment": "HNI",
+        "message_category": "market_update"
+      },
+      {
+        "content_id": "whatsapp_4482",
+        "content_type": "whatsapp",
+        "content_preview": "💡 Vidyadhar, wealth protection insight: ELSS + PMS combo maximizing tax efficiency! RBI easing cycle creating alpha opportunities. Your HNI status unl...",
+        "character_count": 308,
+        "readability": {
+          "flesch_score": -22.94,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 18.0,
+          "avg_syllables_per_word": 2.5
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.35,
+            "cta_effectiveness": 0.0,
+            "emotional_appeal": 0.1,
+            "shareability": 0.0
+          },
+          "professional_standards": {
+            "grammar_quality": 0.8,
+            "brand_consistency": 0.7,
+            "professional_tone": 0.8,
+            "visual_appeal": 0.4
+          },
+          "market_relevance": {
+            "market_timing": 0.1,
+            "trending_alignment": 0.0,
+            "actionable_insights": 0.0,
+            "data_driven": 0.2
+          },
+          "segment_fit": {
+            "complexity_level": 0.1,
+            "tone_match": 0.5,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 0.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 36.69,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 11.25,
+            "professional_standards": 67.5,
+            "market_relevance": 7.5,
+            "segment_fit": 40.0,
+            "compliance_readiness": 75.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.660387",
+        "advisor_id": "ARN_VIDYADHAR_002",
+        "advisor_segment": "HNI",
+        "message_category": "tax_strategy"
+      },
+      {
+        "content_id": "whatsapp_5037",
+        "content_type": "whatsapp",
+        "content_preview": "⚡ Vidyadhar, sector rotation alert: Banking positioned for rate cuts, IT shows global resilience. Your 50Cr AUM enables diversified plays. Alternative...",
+        "character_count": 307,
+        "readability": {
+          "flesch_score": -26.84,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 8.8,
+          "avg_syllables_per_word": 2.66
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.4,
+            "cta_effectiveness": 0.0,
+            "emotional_appeal": 0.1,
+            "shareability": 0.0
+          },
+          "professional_standards": {
+            "grammar_quality": 0.8,
+            "brand_consistency": 0.7,
+            "professional_tone": 0.9,
+            "visual_appeal": 0.4
+          },
+          "market_relevance": {
+            "market_timing": 0.05,
+            "trending_alignment": 0.34,
+            "actionable_insights": 0.0,
+            "data_driven": 0.0
+          },
+          "segment_fit": {
+            "complexity_level": 0.1,
+            "tone_match": 0.5,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 0.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 38.08,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 12.5,
+            "professional_standards": 70.0,
+            "market_relevance": 9.75,
+            "segment_fit": 40.0,
+            "compliance_readiness": 75.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.660571",
+        "advisor_id": "ARN_VIDYADHAR_002",
+        "advisor_segment": "HNI",
+        "message_category": "exclusive_opportunity"
+      },
+      {
+        "content_id": "whatsapp_5180",
+        "content_type": "whatsapp",
+        "content_preview": "🛡️ Wealth update Vidyadhar: Market confidence at 72%, selective participation trending. Your diversified approach delivering! Q3 earnings create alloc...",
+        "character_count": 310,
+        "readability": {
+          "flesch_score": -48.13,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 8.5,
+          "avg_syllables_per_word": 2.91
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.55,
+            "cta_effectiveness": 0.0,
+            "emotional_appeal": 0.2,
+            "shareability": 0.33
+          },
+          "professional_standards": {
+            "grammar_quality": 0.8,
+            "brand_consistency": 0.7,
+            "professional_tone": 0.8,
+            "visual_appeal": 0.4
+          },
+          "market_relevance": {
+            "market_timing": 0.05,
+            "trending_alignment": 0.17,
+            "actionable_insights": 0.33,
+            "data_driven": 0.5
+          },
+          "segment_fit": {
+            "complexity_level": 0.2,
+            "tone_match": 0.5,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 0.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 44.88,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 27.0,
+            "professional_standards": 67.5,
+            "market_relevance": 26.25,
+            "segment_fit": 42.5,
+            "compliance_readiness": 75.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.660739",
+        "advisor_id": "ARN_VIDYADHAR_002",
+        "advisor_segment": "HNI",
+        "message_category": "wealth_protection"
+      },
+      {
+        "content_id": "whatsapp_2814",
+        "content_type": "whatsapp",
+        "content_preview": "🌅 Good morning Shriya! Simple money truth: Start small, dream big! Even ₹500/month SIP grows to lakhs over time. Tax saving season - perfect time to b...",
+        "character_count": 299,
+        "readability": {
+          "flesch_score": 37.05,
+          "level": "Difficult",
+          "quality_score": 0.6,
+          "avg_sentence_length": 10.5,
+          "avg_syllables_per_word": 1.88
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.45,
+            "cta_effectiveness": 0.25,
+            "emotional_appeal": 0.1,
+            "shareability": 0.33
+          },
+          "professional_standards": {
+            "grammar_quality": 0.8,
+            "brand_consistency": 0.7,
+            "professional_tone": 0.8,
+            "visual_appeal": 0.4
+          },
+          "market_relevance": {
+            "market_timing": 0.0,
+            "trending_alignment": 0.17,
+            "actionable_insights": 0.33,
+            "data_driven": 0.5
+          },
+          "segment_fit": {
+            "complexity_level": 0.4,
+            "tone_match": 0.4,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 0.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 45.44,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 28.25,
+            "professional_standards": 67.5,
+            "market_relevance": 25.0,
+            "segment_fit": 45.0,
+            "compliance_readiness": 75.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.660908",
+        "advisor_id": "ARN_SHRIYA_003",
+        "advisor_segment": "Retail",
+        "message_category": "financial_education"
+      },
+      {
+        "content_id": "whatsapp_9545",
+        "content_type": "whatsapp",
+        "content_preview": "💡 Shriya, investing simplified: SIP = Small amount + Regular investment = Big wealth! Markets fluctuate, patient investors win. 6 months for tax benef...",
+        "character_count": 292,
+        "readability": {
+          "flesch_score": -1.24,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 11.3,
+          "avg_syllables_per_word": 2.32
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.45,
+            "cta_effectiveness": 0.0,
+            "emotional_appeal": 0.2,
+            "shareability": 0.0
+          },
+          "professional_standards": {
+            "grammar_quality": 0.8,
+            "brand_consistency": 0.7,
+            "professional_tone": 0.9,
+            "visual_appeal": 0.4
+          },
+          "market_relevance": {
+            "market_timing": 0.0,
+            "trending_alignment": 0.0,
+            "actionable_insights": 0.0,
+            "data_driven": 0.5
+          },
+          "segment_fit": {
+            "complexity_level": 0.1,
+            "tone_match": 0.25,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 0.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 38.31,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 16.25,
+            "professional_standards": 70.0,
+            "market_relevance": 12.5,
+            "segment_fit": 33.75,
+            "compliance_readiness": 75.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.661076",
+        "advisor_id": "ARN_SHRIYA_003",
+        "advisor_segment": "Retail",
+        "message_category": "investment_basics"
+      },
+      {
+        "content_id": "whatsapp_9113",
+        "content_type": "whatsapp",
+        "content_preview": "🏦 Smart money Shriya: ELSS funds = Tax saving + Wealth building combined! Start with ₹1000/month, watch it multiply. Every rupee invested today secure...",
+        "character_count": 282,
+        "readability": {
+          "flesch_score": 23.11,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 12.0,
+          "avg_syllables_per_word": 2.03
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.6,
+            "cta_effectiveness": 0.25,
+            "emotional_appeal": 0.4,
+            "shareability": 0.66
+          },
+          "professional_standards": {
+            "grammar_quality": 0.8,
+            "brand_consistency": 0.7,
+            "professional_tone": 0.8,
+            "visual_appeal": 0.4
+          },
+          "market_relevance": {
+            "market_timing": 0.1,
+            "trending_alignment": 0.17,
+            "actionable_insights": 0.33,
+            "data_driven": 0.5
+          },
+          "segment_fit": {
+            "complexity_level": 0.2,
+            "tone_match": 0.25,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 0.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 49.06,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 47.75,
+            "professional_standards": 67.5,
+            "market_relevance": 27.5,
+            "segment_fit": 36.25,
+            "compliance_readiness": 75.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.661231",
+        "advisor_id": "ARN_SHRIYA_003",
+        "advisor_segment": "Retail",
+        "message_category": "saving_strategies"
+      },
+      {
+        "content_id": "whatsapp_7254",
+        "content_type": "whatsapp",
+        "content_preview": "⚡ Success secret Shriya: Rich people make money work for them! You can too. Start today, benefit forever. Knowledge + consistent investing = financial...",
+        "character_count": 287,
+        "readability": {
+          "flesch_score": 11.53,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 7.2,
+          "avg_syllables_per_word": 2.22
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.44999999999999996,
+            "cta_effectiveness": 0.25,
+            "emotional_appeal": 0.30000000000000004,
+            "shareability": 0.0
+          },
+          "professional_standards": {
+            "grammar_quality": 0.8,
+            "brand_consistency": 0.7,
+            "professional_tone": 0.8,
+            "visual_appeal": 0.4
+          },
+          "market_relevance": {
+            "market_timing": 0.0,
+            "trending_alignment": 0.0,
+            "actionable_insights": 0.33,
+            "data_driven": 0.0
+          },
+          "segment_fit": {
+            "complexity_level": 0.1,
+            "tone_match": 0.25,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 0.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 1.0,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 39.03,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 25.0,
+            "professional_standards": 67.5,
+            "market_relevance": 8.25,
+            "segment_fit": 33.75,
+            "compliance_readiness": 75.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.661398",
+        "advisor_id": "ARN_SHRIYA_003",
+        "advisor_segment": "Retail",
+        "message_category": "financial_empowerment"
+      },
+      {
+        "content_id": "whatsapp_7983",
+        "content_type": "whatsapp",
+        "content_preview": "🎉 Inspiration Shriya: Every successful investor started with step 1! Your financial journey begins now. Small steps, big dreams, consistent actions = ...",
+        "character_count": 301,
+        "readability": {
+          "flesch_score": 5.38,
+          "level": "Very Difficult",
+          "quality_score": 0.4,
+          "avg_sentence_length": 9.2,
+          "avg_syllables_per_word": 2.27
+        },
+        "dimension_scores": {
+          "engagement_potential": {
+            "hook_strength": 0.6,
+            "cta_effectiveness": 0.0,
+            "emotional_appeal": 0.30000000000000004,
+            "shareability": 0.0
+          },
+          "professional_standards": {
+            "grammar_quality": 0.8,
+            "brand_consistency": 0.7,
+            "professional_tone": 0.8,
+            "visual_appeal": 0.4
+          },
+          "market_relevance": {
+            "market_timing": 0.05,
+            "trending_alignment": 0.0,
+            "actionable_insights": 0.66,
+            "data_driven": 0.0
+          },
+          "segment_fit": {
+            "complexity_level": 0.1,
+            "tone_match": 0.25,
+            "personalization": 1.0,
+            "content_preference": 0.0
+          },
+          "compliance_readiness": {
+            "disclaimer_compliance": 0.0,
+            "content_compliance": 1.0,
+            "regulatory_compliance": 0.6000000000000001,
+            "registration_display": 1.0
+          }
+        },
+        "overall_result": {
+          "overall_score": 39.3,
+          "grade": "D",
+          "dimension_scores": {
+            "engagement_potential": 22.5,
+            "professional_standards": 67.5,
+            "market_relevance": 17.75,
+            "segment_fit": 33.75,
+            "compliance_readiness": 65.0
+          },
+          "pass_threshold": false,
+          "excellence_threshold": false,
+          "auto_approve": false
+        },
+        "analysis": {
+          "strengths": [],
+          "improvements": [
+            "Strengthen hooks, add more emotional triggers and clear CTAs",
+            "Align better with current market trends and data",
+            "Adjust tone and complexity for target segment",
+            "Content requires revision to meet quality threshold"
+          ]
+        },
+        "timestamp": "2025-09-18T09:46:21.661573",
+        "advisor_id": "ARN_SHRIYA_003",
+        "advisor_segment": "Retail",
+        "message_category": "encouragement"
+      }
+    ],
+    "visual": [
+      {
+        "content_id": "visual_branded_ARN_VIDYADHAR_002_market_update_1.png",
+        "content_type": "visual",
+        "content_preview": "Status image: market for ARN_VIDYADHAR_002",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/branded-content/status-images/branded_ARN_VIDYADHAR_002_market_update_1.png",
+        "advisor_id": "ARN_VIDYADHAR_002",
+        "theme": "market",
+        "overall_result": {
+          "overall_score": 88.5,
+          "grade": "A-",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "Professional visual design",
+            "Brand-consistent styling"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "visual_branded_ARN_SHRIYA_003_market_update_3.png",
+        "content_type": "visual",
+        "content_preview": "Status image: market for ARN_SHRIYA_003",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/branded-content/status-images/branded_ARN_SHRIYA_003_market_update_3.png",
+        "advisor_id": "ARN_SHRIYA_003",
+        "theme": "market",
+        "overall_result": {
+          "overall_score": 88.5,
+          "grade": "A-",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "Professional visual design",
+            "Brand-consistent styling"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "visual_branded_ARN_SHRUTI_001_market_update_2.png",
+        "content_type": "visual",
+        "content_preview": "Status image: market for ARN_SHRUTI_001",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/branded-content/status-images/branded_ARN_SHRUTI_001_market_update_2.png",
+        "advisor_id": "ARN_SHRUTI_001",
+        "theme": "market",
+        "overall_result": {
+          "overall_score": 88.5,
+          "grade": "A-",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "Professional visual design",
+            "Brand-consistent styling"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "visual_branded_ARN_VIDYADHAR_002_banking_opportunity_3.png",
+        "content_type": "visual",
+        "content_preview": "Status image: banking for ARN_VIDYADHAR_002",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/branded-content/status-images/branded_ARN_VIDYADHAR_002_banking_opportunity_3.png",
+        "advisor_id": "ARN_VIDYADHAR_002",
+        "theme": "banking",
+        "overall_result": {
+          "overall_score": 88.5,
+          "grade": "A-",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "Professional visual design",
+            "Brand-consistent styling"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "visual_branded_ARN_SHRIYA_003_tax_optimization_2.png",
+        "content_type": "visual",
+        "content_preview": "Status image: tax for ARN_SHRIYA_003",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/branded-content/status-images/branded_ARN_SHRIYA_003_tax_optimization_2.png",
+        "advisor_id": "ARN_SHRIYA_003",
+        "theme": "tax",
+        "overall_result": {
+          "overall_score": 88.5,
+          "grade": "A-",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "Professional visual design",
+            "Brand-consistent styling"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "visual_branded_ARN_VIDYADHAR_002_tax_optimization_2.png",
+        "content_type": "visual",
+        "content_preview": "Status image: tax for ARN_VIDYADHAR_002",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/branded-content/status-images/branded_ARN_VIDYADHAR_002_tax_optimization_2.png",
+        "advisor_id": "ARN_VIDYADHAR_002",
+        "theme": "tax",
+        "overall_result": {
+          "overall_score": 88.5,
+          "grade": "A-",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "Professional visual design",
+            "Brand-consistent styling"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "visual_branded_ARN_SHRUTI_001_tax_optimization_1.png",
+        "content_type": "visual",
+        "content_preview": "Status image: tax for ARN_SHRUTI_001",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/branded-content/status-images/branded_ARN_SHRUTI_001_tax_optimization_1.png",
+        "advisor_id": "ARN_SHRUTI_001",
+        "theme": "tax",
+        "overall_result": {
+          "overall_score": 88.5,
+          "grade": "A-",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "Professional visual design",
+            "Brand-consistent styling"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "visual_branded_ARN_SHRIYA_003_investment_education_1.png",
+        "content_type": "visual",
+        "content_preview": "Status image: investment for ARN_SHRIYA_003",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/branded-content/status-images/branded_ARN_SHRIYA_003_investment_education_1.png",
+        "advisor_id": "ARN_SHRIYA_003",
+        "theme": "investment",
+        "overall_result": {
+          "overall_score": 88.5,
+          "grade": "A-",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "Professional visual design",
+            "Brand-consistent styling"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "visual_branded_ARN_SHRUTI_001_investment_education_3.png",
+        "content_type": "visual",
+        "content_preview": "Status image: investment for ARN_SHRUTI_001",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/branded-content/status-images/branded_ARN_SHRUTI_001_investment_education_3.png",
+        "advisor_id": "ARN_SHRUTI_001",
+        "theme": "investment",
+        "overall_result": {
+          "overall_score": 88.5,
+          "grade": "A-",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "Professional visual design",
+            "Brand-consistent styling"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_charts_ARN_SHRUTI_001_charts_2_20250918_093639.png",
+        "content_type": "visual",
+        "content_preview": "Gemini charts image: ARN_SHRUTI_001_charts_2_20250918_093639.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/charts/ARN_SHRUTI_001_charts_2_20250918_093639.png",
+        "category": "charts",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_charts_ARN_SHRUTI_001_charts_1_20250918_093639.png",
+        "content_type": "visual",
+        "content_preview": "Gemini charts image: ARN_SHRUTI_001_charts_1_20250918_093639.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/charts/ARN_SHRUTI_001_charts_1_20250918_093639.png",
+        "category": "charts",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_charts_ARN_VIDYADHAR_002_charts_4_20250918_093652.png",
+        "content_type": "visual",
+        "content_preview": "Gemini charts image: ARN_VIDYADHAR_002_charts_4_20250918_093652.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/charts/ARN_VIDYADHAR_002_charts_4_20250918_093652.png",
+        "category": "charts",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_charts_ARN_VIDYADHAR_002_charts_3_20250918_093651.png",
+        "content_type": "visual",
+        "content_preview": "Gemini charts image: ARN_VIDYADHAR_002_charts_3_20250918_093651.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/charts/ARN_VIDYADHAR_002_charts_3_20250918_093651.png",
+        "category": "charts",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_charts_ARN_VIDYADHAR_002_charts_2_20250918_093651.png",
+        "content_type": "visual",
+        "content_preview": "Gemini charts image: ARN_VIDYADHAR_002_charts_2_20250918_093651.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/charts/ARN_VIDYADHAR_002_charts_2_20250918_093651.png",
+        "category": "charts",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_charts_ARN_VIDYADHAR_002_charts_1_20250918_093650.png",
+        "content_type": "visual",
+        "content_preview": "Gemini charts image: ARN_VIDYADHAR_002_charts_1_20250918_093650.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/charts/ARN_VIDYADHAR_002_charts_1_20250918_093650.png",
+        "category": "charts",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_charts_ARN_SHRUTI_001_charts_4_20250918_093641.png",
+        "content_type": "visual",
+        "content_preview": "Gemini charts image: ARN_SHRUTI_001_charts_4_20250918_093641.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/charts/ARN_SHRUTI_001_charts_4_20250918_093641.png",
+        "category": "charts",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_charts_ARN_SHRUTI_001_charts_3_20250918_093640.png",
+        "content_type": "visual",
+        "content_preview": "Gemini charts image: ARN_SHRUTI_001_charts_3_20250918_093640.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/charts/ARN_SHRUTI_001_charts_3_20250918_093640.png",
+        "category": "charts",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_charts_ARN_SHRIYA_003_charts_1_20250918_093701.png",
+        "content_type": "visual",
+        "content_preview": "Gemini charts image: ARN_SHRIYA_003_charts_1_20250918_093701.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/charts/ARN_SHRIYA_003_charts_1_20250918_093701.png",
+        "category": "charts",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_charts_ARN_SHRIYA_003_charts_3_20250918_093702.png",
+        "content_type": "visual",
+        "content_preview": "Gemini charts image: ARN_SHRIYA_003_charts_3_20250918_093702.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/charts/ARN_SHRIYA_003_charts_3_20250918_093702.png",
+        "category": "charts",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_charts_ARN_SHRIYA_003_charts_2_20250918_093702.png",
+        "content_type": "visual",
+        "content_preview": "Gemini charts image: ARN_SHRIYA_003_charts_2_20250918_093702.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/charts/ARN_SHRIYA_003_charts_2_20250918_093702.png",
+        "category": "charts",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_charts_ARN_SHRIYA_003_charts_4_20250918_093703.png",
+        "content_type": "visual",
+        "content_preview": "Gemini charts image: ARN_SHRIYA_003_charts_4_20250918_093703.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/charts/ARN_SHRIYA_003_charts_4_20250918_093703.png",
+        "category": "charts",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_marketing_ARN_SHRUTI_001_marketing_2_20250918_093642.png",
+        "content_type": "visual",
+        "content_preview": "Gemini marketing image: ARN_SHRUTI_001_marketing_2_20250918_093642.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/marketing/ARN_SHRUTI_001_marketing_2_20250918_093642.png",
+        "category": "marketing",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_marketing_ARN_SHRUTI_001_marketing_3_20250918_093643.png",
+        "content_type": "visual",
+        "content_preview": "Gemini marketing image: ARN_SHRUTI_001_marketing_3_20250918_093643.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/marketing/ARN_SHRUTI_001_marketing_3_20250918_093643.png",
+        "category": "marketing",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_marketing_ARN_VIDYADHAR_002_marketing_4_20250918_093655.png",
+        "content_type": "visual",
+        "content_preview": "Gemini marketing image: ARN_VIDYADHAR_002_marketing_4_20250918_093655.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/marketing/ARN_VIDYADHAR_002_marketing_4_20250918_093655.png",
+        "category": "marketing",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_marketing_ARN_VIDYADHAR_002_marketing_1_20250918_093653.png",
+        "content_type": "visual",
+        "content_preview": "Gemini marketing image: ARN_VIDYADHAR_002_marketing_1_20250918_093653.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/marketing/ARN_VIDYADHAR_002_marketing_1_20250918_093653.png",
+        "category": "marketing",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_marketing_ARN_VIDYADHAR_002_marketing_2_20250918_093653.png",
+        "content_type": "visual",
+        "content_preview": "Gemini marketing image: ARN_VIDYADHAR_002_marketing_2_20250918_093653.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/marketing/ARN_VIDYADHAR_002_marketing_2_20250918_093653.png",
+        "category": "marketing",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_marketing_ARN_SHRUTI_001_marketing_4_20250918_093644.png",
+        "content_type": "visual",
+        "content_preview": "Gemini marketing image: ARN_SHRUTI_001_marketing_4_20250918_093644.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/marketing/ARN_SHRUTI_001_marketing_4_20250918_093644.png",
+        "category": "marketing",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_marketing_ARN_SHRUTI_001_marketing_1_20250918_093642.png",
+        "content_type": "visual",
+        "content_preview": "Gemini marketing image: ARN_SHRUTI_001_marketing_1_20250918_093642.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/marketing/ARN_SHRUTI_001_marketing_1_20250918_093642.png",
+        "category": "marketing",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_marketing_ARN_VIDYADHAR_002_marketing_3_20250918_093654.png",
+        "content_type": "visual",
+        "content_preview": "Gemini marketing image: ARN_VIDYADHAR_002_marketing_3_20250918_093654.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/marketing/ARN_VIDYADHAR_002_marketing_3_20250918_093654.png",
+        "category": "marketing",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_marketing_ARN_SHRIYA_003_marketing_4_20250918_093706.png",
+        "content_type": "visual",
+        "content_preview": "Gemini marketing image: ARN_SHRIYA_003_marketing_4_20250918_093706.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/marketing/ARN_SHRIYA_003_marketing_4_20250918_093706.png",
+        "category": "marketing",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_marketing_ARN_SHRIYA_003_marketing_1_20250918_093704.png",
+        "content_type": "visual",
+        "content_preview": "Gemini marketing image: ARN_SHRIYA_003_marketing_1_20250918_093704.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/marketing/ARN_SHRIYA_003_marketing_1_20250918_093704.png",
+        "category": "marketing",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_marketing_ARN_SHRIYA_003_marketing_2_20250918_093704.png",
+        "content_type": "visual",
+        "content_preview": "Gemini marketing image: ARN_SHRIYA_003_marketing_2_20250918_093704.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/marketing/ARN_SHRIYA_003_marketing_2_20250918_093704.png",
+        "category": "marketing",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_marketing_ARN_SHRIYA_003_marketing_3_20250918_093705.png",
+        "content_type": "visual",
+        "content_preview": "Gemini marketing image: ARN_SHRIYA_003_marketing_3_20250918_093705.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/marketing/ARN_SHRIYA_003_marketing_3_20250918_093705.png",
+        "category": "marketing",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_whatsapp_ARN_SHRUTI_001_whatsapp_4_20250918_093638.png",
+        "content_type": "visual",
+        "content_preview": "Gemini whatsapp image: ARN_SHRUTI_001_whatsapp_4_20250918_093638.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/whatsapp/ARN_SHRUTI_001_whatsapp_4_20250918_093638.png",
+        "category": "whatsapp",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_whatsapp_ARN_VIDYADHAR_002_whatsapp_4_20250918_093649.png",
+        "content_type": "visual",
+        "content_preview": "Gemini whatsapp image: ARN_VIDYADHAR_002_whatsapp_4_20250918_093649.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/whatsapp/ARN_VIDYADHAR_002_whatsapp_4_20250918_093649.png",
+        "category": "whatsapp",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_whatsapp_ARN_VIDYADHAR_002_whatsapp_3_20250918_093649.png",
+        "content_type": "visual",
+        "content_preview": "Gemini whatsapp image: ARN_VIDYADHAR_002_whatsapp_3_20250918_093649.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/whatsapp/ARN_VIDYADHAR_002_whatsapp_3_20250918_093649.png",
+        "category": "whatsapp",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_whatsapp_ARN_VIDYADHAR_002_whatsapp_2_20250918_093648.png",
+        "content_type": "visual",
+        "content_preview": "Gemini whatsapp image: ARN_VIDYADHAR_002_whatsapp_2_20250918_093648.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/whatsapp/ARN_VIDYADHAR_002_whatsapp_2_20250918_093648.png",
+        "category": "whatsapp",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_whatsapp_ARN_VIDYADHAR_002_whatsapp_1_20250918_093647.png",
+        "content_type": "visual",
+        "content_preview": "Gemini whatsapp image: ARN_VIDYADHAR_002_whatsapp_1_20250918_093647.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/whatsapp/ARN_VIDYADHAR_002_whatsapp_1_20250918_093647.png",
+        "category": "whatsapp",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_whatsapp_ARN_SHRIYA_003_whatsapp_1_20250918_093658.png",
+        "content_type": "visual",
+        "content_preview": "Gemini whatsapp image: ARN_SHRIYA_003_whatsapp_1_20250918_093658.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/whatsapp/ARN_SHRIYA_003_whatsapp_1_20250918_093658.png",
+        "category": "whatsapp",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_whatsapp_ARN_SHRIYA_003_whatsapp_2_20250918_093659.png",
+        "content_type": "visual",
+        "content_preview": "Gemini whatsapp image: ARN_SHRIYA_003_whatsapp_2_20250918_093659.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/whatsapp/ARN_SHRIYA_003_whatsapp_2_20250918_093659.png",
+        "category": "whatsapp",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_whatsapp_ARN_SHRIYA_003_whatsapp_4_20250918_093700.png",
+        "content_type": "visual",
+        "content_preview": "Gemini whatsapp image: ARN_SHRIYA_003_whatsapp_4_20250918_093700.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/whatsapp/ARN_SHRIYA_003_whatsapp_4_20250918_093700.png",
+        "category": "whatsapp",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_whatsapp_ARN_SHRUTI_001_whatsapp_1_20250918_093636.png",
+        "content_type": "visual",
+        "content_preview": "Gemini whatsapp image: ARN_SHRUTI_001_whatsapp_1_20250918_093636.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/whatsapp/ARN_SHRUTI_001_whatsapp_1_20250918_093636.png",
+        "category": "whatsapp",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_whatsapp_ARN_SHRIYA_003_whatsapp_3_20250918_093700.png",
+        "content_type": "visual",
+        "content_preview": "Gemini whatsapp image: ARN_SHRIYA_003_whatsapp_3_20250918_093700.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/whatsapp/ARN_SHRIYA_003_whatsapp_3_20250918_093700.png",
+        "category": "whatsapp",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_whatsapp_ARN_SHRUTI_001_whatsapp_3_20250918_093637.png",
+        "content_type": "visual",
+        "content_preview": "Gemini whatsapp image: ARN_SHRUTI_001_whatsapp_3_20250918_093637.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/whatsapp/ARN_SHRUTI_001_whatsapp_3_20250918_093637.png",
+        "category": "whatsapp",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_whatsapp_ARN_SHRUTI_001_whatsapp_2_20250918_093637.png",
+        "content_type": "visual",
+        "content_preview": "Gemini whatsapp image: ARN_SHRUTI_001_whatsapp_2_20250918_093637.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/whatsapp/ARN_SHRUTI_001_whatsapp_2_20250918_093637.png",
+        "category": "whatsapp",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_linkedin_ARN_SHRUTI_001_linkedin_4_20250918_093636.png",
+        "content_type": "visual",
+        "content_preview": "Gemini linkedin image: ARN_SHRUTI_001_linkedin_4_20250918_093636.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/linkedin/ARN_SHRUTI_001_linkedin_4_20250918_093636.png",
+        "category": "linkedin",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_linkedin_ARN_SHRUTI_001_linkedin_1_20250918_093634.png",
+        "content_type": "visual",
+        "content_preview": "Gemini linkedin image: ARN_SHRUTI_001_linkedin_1_20250918_093634.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/linkedin/ARN_SHRUTI_001_linkedin_1_20250918_093634.png",
+        "category": "linkedin",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_linkedin_ARN_SHRIYA_003_linkedin_4_20250918_093658.png",
+        "content_type": "visual",
+        "content_preview": "Gemini linkedin image: ARN_SHRIYA_003_linkedin_4_20250918_093658.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/linkedin/ARN_SHRIYA_003_linkedin_4_20250918_093658.png",
+        "category": "linkedin",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_linkedin_ARN_SHRUTI_001_linkedin_2_20250918_093634.png",
+        "content_type": "visual",
+        "content_preview": "Gemini linkedin image: ARN_SHRUTI_001_linkedin_2_20250918_093634.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/linkedin/ARN_SHRUTI_001_linkedin_2_20250918_093634.png",
+        "category": "linkedin",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_linkedin_ARN_SHRUTI_001_linkedin_3_20250918_093635.png",
+        "content_type": "visual",
+        "content_preview": "Gemini linkedin image: ARN_SHRUTI_001_linkedin_3_20250918_093635.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/linkedin/ARN_SHRUTI_001_linkedin_3_20250918_093635.png",
+        "category": "linkedin",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_linkedin_ARN_VIDYADHAR_002_linkedin_3_20250918_093646.png",
+        "content_type": "visual",
+        "content_preview": "Gemini linkedin image: ARN_VIDYADHAR_002_linkedin_3_20250918_093646.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/linkedin/ARN_VIDYADHAR_002_linkedin_3_20250918_093646.png",
+        "category": "linkedin",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_linkedin_ARN_VIDYADHAR_002_linkedin_1_20250918_093645.png",
+        "content_type": "visual",
+        "content_preview": "Gemini linkedin image: ARN_VIDYADHAR_002_linkedin_1_20250918_093645.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/linkedin/ARN_VIDYADHAR_002_linkedin_1_20250918_093645.png",
+        "category": "linkedin",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_linkedin_ARN_VIDYADHAR_002_linkedin_2_20250918_093645.png",
+        "content_type": "visual",
+        "content_preview": "Gemini linkedin image: ARN_VIDYADHAR_002_linkedin_2_20250918_093645.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/linkedin/ARN_VIDYADHAR_002_linkedin_2_20250918_093645.png",
+        "category": "linkedin",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_linkedin_ARN_VIDYADHAR_002_linkedin_4_20250918_093647.png",
+        "content_type": "visual",
+        "content_preview": "Gemini linkedin image: ARN_VIDYADHAR_002_linkedin_4_20250918_093647.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/linkedin/ARN_VIDYADHAR_002_linkedin_4_20250918_093647.png",
+        "category": "linkedin",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_linkedin_ARN_SHRIYA_003_linkedin_2_20250918_093656.png",
+        "content_type": "visual",
+        "content_preview": "Gemini linkedin image: ARN_SHRIYA_003_linkedin_2_20250918_093656.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/linkedin/ARN_SHRIYA_003_linkedin_2_20250918_093656.png",
+        "category": "linkedin",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_linkedin_ARN_SHRIYA_003_linkedin_3_20250918_093657.png",
+        "content_type": "visual",
+        "content_preview": "Gemini linkedin image: ARN_SHRIYA_003_linkedin_3_20250918_093657.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/linkedin/ARN_SHRIYA_003_linkedin_3_20250918_093657.png",
+        "category": "linkedin",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      },
+      {
+        "content_id": "gemini_linkedin_ARN_SHRIYA_003_linkedin_1_20250918_093656.png",
+        "content_type": "visual",
+        "content_preview": "Gemini linkedin image: ARN_SHRIYA_003_linkedin_1_20250918_093656.png",
+        "file_path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/linkedin/ARN_SHRIYA_003_linkedin_1_20250918_093656.png",
+        "category": "linkedin",
+        "overall_result": {
+          "overall_score": 92.0,
+          "grade": "A",
+          "auto_approve": true
+        },
+        "analysis": {
+          "strengths": [
+            "AI-enhanced professional design",
+            "Platform-optimized dimensions"
+          ],
+          "improvements": []
+        }
+      }
+    ]
+  },
+  "summary_statistics": {
+    "portfolio_overview": {
+      "total_content_items": 83,
+      "average_quality_score": 77.74,
+      "min_score": 36.69,
+      "max_score": 92.0,
+      "overall_pass_rate": 0.6867469879518072,
+      "excellence_rate": 0.6867469879518072,
+      "auto_approval_rate": 0.6867469879518072
+    },
+    "by_content_type": {
+      "linkedin": {
+        "count": 12,
+        "average_score": 54.07,
+        "min_score": 52.15,
+        "max_score": 56.39,
+        "pass_rate": 0.0,
+        "excellence_rate": 0.0
+      },
+      "whatsapp": {
+        "count": 14,
+        "average_score": 42.2,
+        "min_score": 36.69,
+        "max_score": 49.06,
+        "pass_rate": 0.0,
+        "excellence_rate": 0.0
+      },
+      "visual": {
+        "count": 57,
+        "average_score": 91.45,
+        "min_score": 88.5,
+        "max_score": 92.0,
+        "pass_rate": 1.0,
+        "excellence_rate": 1.0
+      }
+    },
+    "by_advisor_segment": {
+      "HNI_Premium": {
+        "count": 4,
+        "average_score": 54.2,
+        "min_score": 52.83,
+        "max_score": 56.39
+      },
+      "Retail_Gold": {
+        "count": 4,
+        "average_score": 54.25,
+        "min_score": 52.93,
+        "max_score": 55.81
+      },
+      "Retail_Standard": {
+        "count": 4,
+        "average_score": 53.76,
+        "min_score": 52.15,
+        "max_score": 55.02
+      },
+      "Retail": {
+        "count": 10,
+        "average_score": 42.52,
+        "min_score": 38.31,
+        "max_score": 49.06
+      },
+      "HNI": {
+        "count": 4,
+        "average_score": 41.42,
+        "min_score": 36.69,
+        "max_score": 46.04
+      }
+    },
+    "grade_distribution": {
+      "A+": 0,
+      "A": 48,
+      "A-": 9,
+      "B+": 0,
+      "B": 0,
+      "B-": 0,
+      "C+": 0,
+      "C": 0,
+      "D": 26
+    }
+  },
+  "recommendations": {
+    "top_performers": [
+      {
+        "content_id": "gemini_charts_ARN_SHRUTI_001_charts_2_20250918_093639.png",
+        "content_type": "visual",
+        "score": 92.0,
+        "strengths": [
+          "AI-enhanced professional design",
+          "Platform-optimized dimensions"
+        ]
+      },
+      {
+        "content_id": "gemini_charts_ARN_SHRUTI_001_charts_1_20250918_093639.png",
+        "content_type": "visual",
+        "score": 92.0,
+        "strengths": [
+          "AI-enhanced professional design",
+          "Platform-optimized dimensions"
+        ]
+      },
+      {
+        "content_id": "gemini_charts_ARN_VIDYADHAR_002_charts_4_20250918_093652.png",
+        "content_type": "visual",
+        "score": 92.0,
+        "strengths": [
+          "AI-enhanced professional design",
+          "Platform-optimized dimensions"
+        ]
+      },
+      {
+        "content_id": "gemini_charts_ARN_VIDYADHAR_002_charts_3_20250918_093651.png",
+        "content_type": "visual",
+        "score": 92.0,
+        "strengths": [
+          "AI-enhanced professional design",
+          "Platform-optimized dimensions"
+        ]
+      },
+      {
+        "content_id": "gemini_charts_ARN_VIDYADHAR_002_charts_2_20250918_093651.png",
+        "content_type": "visual",
+        "score": 92.0,
+        "strengths": [
+          "AI-enhanced professional design",
+          "Platform-optimized dimensions"
+        ]
+      }
+    ],
+    "improvement_opportunities": [
+      {
+        "content_id": "linkedin_4382",
+        "content_type": "linkedin",
+        "score": 53.67,
+        "improvements": [
+          "Strengthen hooks, add more emotional triggers and clear CTAs",
+          "Improve writing quality, enhance brand consistency",
+          "Align better with current market trends and data",
+          "Adjust tone and complexity for target segment",
+          "Content requires revision to meet quality threshold"
+        ]
+      },
+      {
+        "content_id": "linkedin_2834",
+        "content_type": "linkedin",
+        "score": 56.39,
+        "improvements": [
+          "Strengthen hooks, add more emotional triggers and clear CTAs",
+          "Improve writing quality, enhance brand consistency",
+          "Align better with current market trends and data",
+          "Adjust tone and complexity for target segment",
+          "Content requires revision to meet quality threshold"
+        ]
+      },
+      {
+        "content_id": "linkedin_8178",
+        "content_type": "linkedin",
+        "score": 52.83,
+        "improvements": [
+          "Strengthen hooks, add more emotional triggers and clear CTAs",
+          "Improve writing quality, enhance brand consistency",
+          "Align better with current market trends and data",
+          "Adjust tone and complexity for target segment",
+          "Content requires revision to meet quality threshold"
+        ]
+      },
+      {
+        "content_id": "linkedin_4197",
+        "content_type": "linkedin",
+        "score": 53.9,
+        "improvements": [
+          "Strengthen hooks, add more emotional triggers and clear CTAs",
+          "Improve writing quality, enhance brand consistency",
+          "Align better with current market trends and data",
+          "Adjust tone and complexity for target segment",
+          "Content requires revision to meet quality threshold"
+        ]
+      },
+      {
+        "content_id": "linkedin_5718",
+        "content_type": "linkedin",
+        "score": 54.4,
+        "improvements": [
+          "Strengthen hooks, add more emotional triggers and clear CTAs",
+          "Improve writing quality, enhance brand consistency",
+          "Align better with current market trends and data",
+          "Adjust tone and complexity for target segment",
+          "Content requires revision to meet quality threshold"
+        ]
+      }
+    ],
+    "best_practices": [
+      {
+        "practice": "AI-enhanced professional design",
+        "frequency": 48
+      },
+      {
+        "practice": "Platform-optimized dimensions",
+        "frequency": 48
+      },
+      {
+        "practice": "Professional visual design",
+        "frequency": 9
+      },
+      {
+        "practice": "Brand-consistent styling",
+        "frequency": 9
+      }
+    ],
+    "action_items": [
+      "Focus on elevating content to excellence level (85+)",
+      "Review and improve 26 content items below quality threshold",
+      "Implement quality control processes to achieve 80%+ pass rate"
+    ]
+  },
+  "metadata": {
+    "total_items_evaluated": 83,
+    "quality_framework_version": "1.0",
+    "scoring_weights": {
+      "engagement_potential": 0.25,
+      "professional_standards": 0.25,
+      "market_relevance": 0.2,
+      "segment_fit": 0.2,
+      "compliance_readiness": 0.1
+    },
+    "content_thresholds": {
+      "linkedin": 85,
+      "whatsapp": 80,
+      "visual": 90
+    }
+  }
+}

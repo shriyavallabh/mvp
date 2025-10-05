@@ -1,0 +1,25 @@
+{
+  "sessionId": "session_1759290339491",
+  "format": "session_${timestamp}",
+  "mcpEnabled": true,
+  "startTime": "2025-10-01T00:05:39.491Z",
+  "agents": [],
+  "communicationChannels": {
+    "feedback": "session_1759290339491/feedback",
+    "quality": "session_1759290339491/quality",
+    "compliance": "session_1759290339491/compliance",
+    "state": "session_1759290339491/state",
+    "coordination": "session_1759290339491/coordination"
+  },
+  "sharedMemory": "data/shared-memory/session_1759290339491",
+  "learnings": "learnings/sessions/session_1759290339491",
+  "output": "output/session_1759290339491",
+  "advisorData": null,
+  "marketIntelligence": null,
+  "segmentAnalysis": null,
+  "contentGenerated": false,
+  "complianceValidated": false,
+  "qualityScored": false,
+  "fatigueChecked": false,
+  "distributed": false
+}

@@ -1,0 +1,85 @@
+{
+  "timestamp": "2025-09-17T16:01:43Z",
+  "source": "whatsapp-message-creator",
+  "messages": [
+    {
+      "advisor_id": "adv_001",
+      "advisor_name": "Rajesh Kumar",
+      "messages": [
+        {
+          "type": "market_update",
+          "content": "🔥 *Market Alert!*\n\nNifty crosses 25,400! 📈\nIT stocks on fire - TCS up 3.45%\n\n*Top Pick:* Consider IT sector funds\n*Action:* Book profits in small-caps\n\n💡 Gold at ₹63,450/10gm - good hedge against inflation\n\nNeed personalized advice? Let's discuss your portfolio.\n\n_Kumar Financial Advisors_\n_Building Wealth, Securing Future_",
+          "character_count": 298,
+          "media": {
+            "type": "image",
+            "suggested": "market_update_chart"
+          }
+        },
+        {
+          "type": "educational",
+          "content": "💰 *Wealth Tip of the Day*\n\n*Power of Compounding:*\n₹10,000/month SIP for 20 years\n@ 12% returns = ₹99.91 lakhs!\n\nBut you invested only ₹24 lakhs 🚀\n\n*Start Early, Retire Wealthy!*\n\nReady to start your SIP journey?\n👉 Reply 'SIP' for free consultation",
+          "character_count": 246,
+          "media": {
+            "type": "image",
+            "suggested": "sip_calculator_visual"
+          }
+        }
+      ]
+    },
+    {
+      "advisor_id": "adv_002",
+      "advisor_name": "Priya Sharma",
+      "messages": [
+        {
+          "type": "market_update",
+          "content": "🌟 *आज का Market Update*\n\nSensex ने बनाया नया record! 🎉\n83,467 points\n\n*Good News:*\n✅ Mutual Funds: 18.5% average returns\n✅ Gold stable @ ₹63,450\n\n*Tip:* Festival bonus का 50% invest करें\n\n_Financial independence की journey शुरू करें_\n_WealthWise - समृद्धि की राह_ 💪",
+          "character_count": 271,
+          "media": {
+            "type": "image",
+            "suggested": "market_celebration_visual"
+          }
+        },
+        {
+          "type": "educational",
+          "content": "👩 *Women & Money Series*\n\n*3 Steps to Financial Freedom:*\n\n1️⃣ Emergency Fund बनाएं\n2️⃣ ₹500 से SIP start करें\n3️⃣ Term Insurance लें\n\n*Remember:* छोटी शुरुआत, बड़े सपने! 🌺\n\n*Free consultation* के लिए 'START' type करें\n\n_Empowering women investors daily_ 💪",
+          "character_count": 254,
+          "media": {
+            "type": "image",
+            "suggested": "women_empowerment_finance"
+          }
+        }
+      ]
+    },
+    {
+      "advisor_id": "adv_003",
+      "advisor_name": "Arun Patel",
+      "messages": [
+        {
+          "type": "market_analysis",
+          "content": "📊 *Technical Analysis Alert*\n\n*Nifty50:* 25,438\n*Next Target:* 25,800\n*Support:* 25,100\n\n*Sector Rotation:*\n🔹 IT (+1.85%) - Accumulate\n🔹 Realty (+3.20%) - Momentum play\n🔹 Banking (-0.45%) - Wait\n\n*Pro Strategy:* Sell 25500 CE for premium\n\n_InvestSmart Advisory_\n_Institutional-grade insights_",
+          "character_count": 285,
+          "media": {
+            "type": "image",
+            "suggested": "technical_analysis_chart"
+          }
+        },
+        {
+          "type": "portfolio_strategy",
+          "content": "🎯 *UHNI Portfolio Strategy*\n\n*Asset Allocation for ₹5 Cr+:*\n\n• 60% Equity (Large-cap focus)\n• 20% Debt (Corporate bonds)\n• 10% Gold\n• 10% Alternative (Pre-IPO/REITs)\n\n*This Month:* Accumulate banking stocks\n\n_Manage ₹500 Cr+ AUM_\n_Connect for bespoke solutions_",
+          "character_count": 258,
+          "media": {
+            "type": "image",
+            "suggested": "portfolio_allocation_pie"
+          }
+        }
+      ]
+    }
+  ],
+  "compliance_check": {
+    "sebi_compliant": true,
+    "whatsapp_policy": true,
+    "character_limits": "all_within_400",
+    "disclaimer_included": false,
+    "risk_warning": "recommended"
+  }
+}

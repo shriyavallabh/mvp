@@ -1,0 +1,73 @@
+{
+  "sessionId": "session_20250918_090828",
+  "initialized": "2025-09-18T09:08:28.000Z",
+  "channels": {
+    "feedback": {
+      "id": "feedback-loop",
+      "path": "data/agent-communication/session_20250918_090828/feedback",
+      "type": "bidirectional",
+      "description": "Agent-to-agent feedback and quality improvement",
+      "status": "active",
+      "participants": ["all"],
+      "priority": "high",
+      "maxMessages": 100,
+      "autoCleanup": true
+    },
+    "quality": {
+      "id": "quality-chain",
+      "path": "data/agent-communication/session_20250918_090828/quality",
+      "type": "pipeline",
+      "description": "Content quality validation and enhancement",
+      "status": "active",
+      "participants": ["compliance-validator", "quality-scorer", "fatigue-checker"],
+      "priority": "critical",
+      "maxMessages": 50,
+      "autoCleanup": true
+    },
+    "compliance": {
+      "id": "compliance-validation",
+      "path": "data/agent-communication/session_20250918_090828/compliance",
+      "type": "broadcast",
+      "description": "SEBI compliance validation across all content",
+      "status": "active",
+      "participants": ["compliance-validator", "all-generators"],
+      "priority": "critical",
+      "maxMessages": 200,
+      "autoCleanup": false
+    },
+    "state": {
+      "id": "state-sync",
+      "path": "data/agent-communication/session_20250918_090828/state",
+      "type": "publish-subscribe",
+      "description": "State synchronization across all agents",
+      "status": "active",
+      "participants": ["state-manager", "all"],
+      "priority": "medium",
+      "maxMessages": 500,
+      "autoCleanup": false
+    },
+    "coordination": {
+      "id": "agent-coordination",
+      "path": "data/agent-communication/session_20250918_090828/coordination",
+      "type": "orchestration",
+      "description": "Agent workflow coordination and sequencing",
+      "status": "active",
+      "participants": ["hybrid-orchestrator", "all"],
+      "priority": "high",
+      "maxMessages": 1000,
+      "autoCleanup": true
+    }
+  },
+  "messageQueue": {
+    "maxSize": 1000,
+    "retentionHours": 24,
+    "compressionEnabled": true,
+    "deadLetterQueue": "data/agent-communication/session_20250918_090828/dlq"
+  },
+  "routing": {
+    "defaultTimeout": 30000,
+    "retryAttempts": 3,
+    "retryPolicy": "exponential-backoff",
+    "failureHandling": "graceful-degradation"
+  }
+}

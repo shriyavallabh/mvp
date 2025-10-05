@@ -1,0 +1,35 @@
+{
+  "advisor_id": "ADV_001",
+  "advisor_name": "Rajesh Kumar",
+  "branding_instructions": {
+    "logo": {
+      "url": "https://drive.google.com/logo1.png",
+      "position": "bottom-right",
+      "size": "10% of image width",
+      "opacity": 0.9
+    },
+    "colors": {
+      "primary": "#2C3E50",
+      "secondary": "#E74C3C",
+      "application": {
+        "borders": "primary color, 5px width",
+        "text_overlays": "secondary color for accents",
+        "background_gradient": "subtle gradient using both colors"
+      }
+    },
+    "text_overlays": {
+      "brand_name": {
+        "text": "Kumar Wealth Advisors",
+        "position": "top-left",
+        "font": "bold, modern sans-serif",
+        "color": "#2C3E50"
+      },
+      "tagline": {
+        "text": "Your Partner in Wealth Creation",
+        "position": "bottom-center",
+        "font": "italic, elegant serif",
+        "color": "#E74C3C"
+      }
+    }
+  }
+}

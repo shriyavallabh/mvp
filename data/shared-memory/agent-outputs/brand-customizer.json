@@ -1,0 +1,30 @@
+{
+  "sessionId": "mcp_session_2025-09-17T22-05-42",
+  "agentName": "brand-customizer",
+  "status": "pending",
+  "data": {
+    "customizations": {},
+    "brandAssets": {},
+    "consistency": {},
+    "guidelines": {},
+    "applications": {}
+  },
+  "metadata": {
+    "customizationsApplied": 0,
+    "assetsGenerated": 0,
+    "consistencyScore": "pending",
+    "guidelinesFollowed": 0
+  },
+  "structure": {
+    "customizations": "Brand customizations applied to content",
+    "brandAssets": "Generated brand assets and logos",
+    "consistency": "Brand consistency validation results",
+    "guidelines": "Brand guideline applications",
+    "applications": "Cross-platform brand applications"
+  },
+  "dependencies": {
+    "requires": ["visual-content", "linkedin-content", "whatsapp-content"],
+    "provides": ["branded-content", "final-assets", "brand-compliance"]
+  },
+  "timestamp": "2025-09-17T22:05:42Z"
+}

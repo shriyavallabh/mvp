@@ -1,0 +1,325 @@
+{
+  "timestamp": "2025-09-17T19:49:26.299638",
+  "agent": "brand-customizer",
+  "status": "success",
+  "total_branded": 9,
+  "fully_branded": 6,
+  "brand_guidelines": [
+    {
+      "advisor_id": "ADV_001",
+      "name": "Shruti Petkar",
+      "brand_elements": {
+        "primary_color": "#1E3A8A",
+        "secondary_color": "#F3F4F6",
+        "font_family": "Inter, sans-serif",
+        "tone": "professional",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "content_style": {
+        "greeting": "Hello, I'm Shruti",
+        "signature": "Shruti Petkar | ARN-SHRUTI-001",
+        "hashtags": [
+          "#ShrutiPetkar",
+          "#ARN001",
+          "#MumbaiFinancialAdvisor"
+        ]
+      },
+      "visual_identity": {
+        "logo_placement": "top-right",
+        "color_overlay": "#1E3A8A",
+        "transparency": "15%"
+      }
+    },
+    {
+      "advisor_id": "ADV_002",
+      "name": "Vidyadhar Kulkarni",
+      "brand_elements": {
+        "primary_color": "#059669",
+        "secondary_color": "#F3F4F6",
+        "font_family": "Inter, sans-serif",
+        "tone": "sophisticated",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "content_style": {
+        "greeting": "Hello, I'm Vidyadhar",
+        "signature": "Vidyadhar Kulkarni | ARN-VID-002",
+        "hashtags": [
+          "#VidyadharKulkarni",
+          "#ARN002",
+          "#PuneFinancialAdvisor"
+        ]
+      },
+      "visual_identity": {
+        "logo_placement": "top-right",
+        "color_overlay": "#059669",
+        "transparency": "15%"
+      }
+    },
+    {
+      "advisor_id": "ADV_003",
+      "name": "Avalok Shah",
+      "brand_elements": {
+        "primary_color": "#7C3AED",
+        "secondary_color": "#F3F4F6",
+        "font_family": "Inter, sans-serif",
+        "tone": "technical",
+        "languages": [
+          "English",
+          "Gujarati"
+        ]
+      },
+      "content_style": {
+        "greeting": "Hello, I'm Avalok",
+        "signature": "Avalok Shah | ARN-AVL-003",
+        "hashtags": [
+          "#AvalokShah",
+          "#ARN003",
+          "#AhmedabadFinancialAdvisor"
+        ]
+      },
+      "visual_identity": {
+        "logo_placement": "top-right",
+        "color_overlay": "#7C3AED",
+        "transparency": "15%"
+      }
+    }
+  ],
+  "branded_content": [
+    {
+      "type": "linkedin",
+      "advisor_id": "ADV_001",
+      "branding": {
+        "original": "\n\ud83c\udfaf Market Update for Smart Investors\n\nGood morning, connections! I'm Shruti Petkar, your trusted mutual fund advisor with 8 years of experience helping 350 families achieve their financial goals.\n\nToday's Market Snapshot:\n\ud83d\udcc8 Nifty 50: 24,823.15 (+0.60%)\n\ud83d\udcca Sensex: 81,455.40 (+0.60%)\n\nPositive momentum driven by IT sector recovery\n\n\ud83d\udca1 Why This Matters for You:\nThe current bullish trend presents an excellent opportunity for systematic investors. With IT showing strong momentum, it's time to review your portfolio allocation.\n\n\ud83d\udd11 Key Takeaways for Retail Investors:\n1. Continue your SIPs - market volatility is your friend in the long run\n2. Consider increasing allocation to Technology funds\n3. Tax-saving season is here - maximize your 80C benefits through ELSS\n\n\ud83d\udccb Action Items:\n\u2705 Review your existing portfolio performance\n\u2705 Rebalance if any sector exceeds 30% allocation\n\u2705 Start that SIP you've been planning\n\n\ud83d\udcb0 Special Focus: Quality stocks in focus ahead of budget\nWith the Union Budget around the corner, now is the perfect time to optimize your tax-saving investments. ELSS funds offer the dual benefit of tax deduction and wealth creation.\n\n\ud83c\udf93 Educational Insight:\nDid you know? A monthly SIP of \u20b910,000 for 20 years at 12% returns can grow to \u20b999 lakhs! The power of compounding works best when you start early and stay consistent.\n\n\ud83d\udcde Need personalized advice? I offer complimentary portfolio reviews for all my clients. Let's ensure your investments align with your life goals.\n\n\ud83d\udcf1 Connect with me for personalized investment guidance: +919022810769\n\n#MutualFunds #WealthCreation #FinancialPlanning #SIP #InvestmentAdvisor #ARN001 #MarketUpdate #PersonalFinance #WealthManagement #FinancialFreedom\n        ",
+        "branded": "\n\ud83c\udfaf Market Update for Smart Investors\n\nGood morning, connections! I'm Shruti Petkar, your trusted mutual fund advisor with 8 years of experience helping 350 families achieve their financial goals.\n\nToday's Market Snapshot:\n\ud83d\udcc8 Nifty 50: 24,823.15 (+0.60%)\n\ud83d\udcca Sensex: 81,455.40 (+0.60%)\n\nPositive momentum driven by IT sector recovery\n\n\ud83d\udca1 Why This Matters for You:\nThe current bullish trend presents an excellent opportunity for systematic investors. With IT showing strong momentum, it's time to review your portfolio allocation.\n\n\ud83d\udd11 Key Takeaways for Retail Investors:\n1. Continue your SIPs - market volatility is your friend in the long run\n2. Consider increasing allocation to Technology funds\n3. Tax-saving season is here - maximize your 80C benefits through ELSS\n\n\ud83d\udccb Action Items:\n\u2705 Review your existing portfolio performance\n\u2705 Rebalance if any sector exceeds 30% allocation\n\u2705 Start that SIP you've been planning\n\n\ud83d\udcb0 Special Focus: Quality stocks in focus ahead of budget\nWith the Union Budget around the corner, now is the perfect time to optimize your tax-saving investments. ELSS funds offer the dual benefit of tax deduction and wealth creation.\n\n\ud83c\udf93 Educational Insight:\nDid you know? A monthly SIP of \u20b910,000 for 20 years at 12% returns can grow to \u20b999 lakhs! The power of compounding works best when you start early and stay consistent.\n\n\ud83d\udcde Need personalized advice? I offer complimentary portfolio reviews for all my clients. Let's ensure your investments align with your life goals.\n\n\ud83d\udcf1 Connect with me for personalized investment guidance: +919022810769\n\n#MutualFunds #WealthCreation #FinancialPlanning #SIP #InvestmentAdvisor #ARN001 #MarketUpdate #PersonalFinance #WealthManagement #FinancialFreedom\n        ",
+        "branding_applied": [
+          "name_present",
+          "colors_defined",
+          "language_preferences",
+          "tone_customized",
+          "signature_added"
+        ],
+        "brand_colors": "#1E3A8A",
+        "languages": [
+          "English",
+          "Hindi"
+        ],
+        "tone": "professional",
+        "signature": "\n\nShruti Petkar | ARN-SHRUTI-001 | Mumbai"
+      }
+    },
+    {
+      "type": "whatsapp",
+      "advisor_id": "ADV_001",
+      "branding": {
+        "original": "\ud83c\udf05 Good morning! Shruti here.\n\n\ud83d\udcc8 Market Update:\nNifty: 24,823 (+0.6%)\nSensex: 81,455 (+0.6%)\n\n\ud83d\udca1 Today's Insight:\nBullish momentum continues! Perfect time to review your SIPs. IT sector showing strength.\n\n\u2728 Tip: Start investing \u20b95,000/month today, build \u20b950 lakhs in 20 years!\n\n\ud83d\udcde Need guidance? Reply with 'ADVICE' for free consultation.\n\nBest,\nShruti | ARN-001",
+        "branded": "\ud83c\udf05 Good morning! Shruti here.\n\n\ud83d\udcc8 Market Update:\nNifty: 24,823 (+0.6%)\nSensex: 81,455 (+0.6%)\n\n\ud83d\udca1 Today's Insight:\nBullish momentum continues! Perfect time to review your SIPs. IT sector showing strength.\n\n\u2728 Tip: Start investing \u20b95,000/month today, build \u20b950 lakhs in 20 years!\n\n\ud83d\udcde Need guidance? Reply with 'ADVICE' for free consultation.\n\nBest,\nShruti | ARN-001",
+        "branding_applied": [
+          "colors_defined",
+          "language_preferences",
+          "tone_customized",
+          "signature_added"
+        ],
+        "brand_colors": "#1E3A8A",
+        "languages": [
+          "English",
+          "Hindi"
+        ],
+        "tone": "professional",
+        "signature": "\n\nShruti Petkar | ARN-SHRUTI-001 | Mumbai"
+      }
+    },
+    {
+      "type": "images",
+      "advisor_id": "ADV_001",
+      "branding": {
+        "advisor_id": "ADV_001",
+        "images": {
+          "whatsapp_status": {
+            "prompt": "\n            Professional financial advisory vertical image for WhatsApp status.\n            Theme: Wealth creation through systematic investment.\n            Colors: Professional blue gradient with gold accents.\n            Elements: Growing chart, rupee symbol, happy family silhouette.\n            Text overlay: 'Start Your SIP Journey Today'\n            Style: Modern, clean, optimistic, mobile-friendly.\n            Dimensions: 1080x1920px vertical format.\n            ",
+            "generated": true,
+            "model": "gemini-imagen3",
+            "format": "png",
+            "dimensions": "1080x1920",
+            "file_path": "ADV_001_whatsapp_status.png",
+            "preview": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
+          },
+          "marketing_image": {
+            "prompt": "\n            Horizontal marketing banner for mutual fund investment.\n            Theme: Building wealth for future goals.\n            Colors: Trust blue and prosperity green.\n            Elements: Upward trending graph, piggy bank, target icons.\n            Text: 'Your Dreams, Our Expertise'\n            Style: Professional yet approachable.\n            Dimensions: 1200x628px.\n            ",
+            "generated": true,
+            "model": "gemini-imagen3",
+            "format": "png",
+            "dimensions": "1200x628",
+            "file_path": "ADV_001_marketing_image.png",
+            "preview": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
+          }
+        },
+        "branding": {
+          "color_overlay": "#1E3A8A",
+          "logo_url": "",
+          "watermark": "Shruti Petkar | ARN-SHRUTI-001"
+        }
+      }
+    },
+    {
+      "type": "linkedin",
+      "advisor_id": "ADV_002",
+      "branding": {
+        "original": "\n\ud83c\udf1f Strategic Market Insights for Sophisticated Investors\n\nGreetings, esteemed network! Vidyadhar Kulkarni here, specializing in Portfolio Management with 12 years of experience managing wealth for 180 distinguished clients.\n\nExecutive Market Summary:\n\ud83d\udcca Nifty 50: 24,823.15 (+0.60%)\n\ud83d\udcc8 Sensex: 81,455.40 (+0.60%)\n\ud83d\udcb9 Global Context: Fed maintaining cautious stance on rate cuts\n\nPositive momentum driven by IT sector recovery\n\n\u26a1 Strategic Opportunities:\nThe bullish momentum, particularly in IT, signals potential reallocation opportunities for sophisticated portfolios. Our analysis indicates selective entry points in quality mid-cap stories.\n\n\ud83c\udfaf Portfolio Strategy for HNI Investors:\n\u2022 Core Portfolio (60%): Large-cap quality stocks and debt instruments\n\u2022 Satellite Portfolio (30%): Sectoral and thematic opportunities\n\u2022 Alternative Assets (10%): REITs, InvITs, and structured products\n\n\ud83d\udc8e Exclusive Insights:\nQuality stocks in focus ahead of budget\n\nThe upcoming RBI policy and budget considerations suggest maintaining tactical flexibility. Consider profit booking in overvalued segments while building positions in undervalued quality assets.\n\n\ud83d\udcc8 Performance Metrics:\nOur recommended portfolios have delivered:\n- Conservative: 12-14% CAGR\n- Moderate: 15-18% CAGR\n- Aggressive: 20-22% CAGR\n\n\ud83d\udd10 Risk Management Focus:\nIn current market conditions, we recommend:\n1. Diversification across asset classes\n2. Regular rebalancing triggers at 15% deviation\n3. Hedging strategies for portfolios above \u20b91 crore\n\n\ud83c\udf10 Global Perspective:\nWith Fed policy shifts and geopolitical developments, Indian markets offer relative stability and growth potential. Quality domestic consumption stories remain attractive.\n\n\ud83d\udcf1 Connect with me for personalized investment guidance: +919850123456\n\n#WealthManagement #PortfolioStrategy #HNI #AlternativeInvestments #ARN002 #MarketAnalysis #InvestmentStrategy #AssetAllocation #FinancialAdvisory\n        ",
+        "branded": "\n\ud83c\udf1f Strategic Market Insights for Sophisticated Investors\n\nGreetings, esteemed network! Vidyadhar Kulkarni here, specializing in Portfolio Management with 12 years of experience managing wealth for 180 distinguished clients.\n\nExecutive Market Summary:\n\ud83d\udcca Nifty 50: 24,823.15 (+0.60%)\n\ud83d\udcc8 Sensex: 81,455.40 (+0.60%)\n\ud83d\udcb9 Global Context: Fed maintaining cautious stance on rate cuts\n\nPositive momentum driven by IT sector recovery\n\n\u26a1 Strategic Opportunities:\nThe bullish momentum, particularly in IT, signals potential reallocation opportunities for sophisticated portfolios. Our analysis indicates selective entry points in quality mid-cap stories.\n\n\ud83c\udfaf Portfolio Strategy for HNI Investors:\n\u2022 Core Portfolio (60%): Large-cap quality stocks and debt instruments\n\u2022 Satellite Portfolio (30%): Sectoral and thematic opportunities\n\u2022 Alternative Assets (10%): REITs, InvITs, and structured products\n\n\ud83d\udc8e Exclusive Insights:\nQuality stocks in focus ahead of budget\n\nThe upcoming RBI policy and budget considerations suggest maintaining tactical flexibility. Consider profit booking in overvalued segments while building positions in undervalued quality assets.\n\n\ud83d\udcc8 Performance Metrics:\nOur recommended portfolios have delivered:\n- Conservative: 12-14% CAGR\n- Moderate: 15-18% CAGR\n- Aggressive: 20-22% CAGR\n\n\ud83d\udd10 Risk Management Focus:\nIn current market conditions, we recommend:\n1. Diversification across asset classes\n2. Regular rebalancing triggers at 15% deviation\n3. Hedging strategies for portfolios above \u20b91 crore\n\n\ud83c\udf10 Global Perspective:\nWith Fed policy shifts and geopolitical developments, Indian markets offer relative stability and growth potential. Quality domestic consumption stories remain attractive.\n\n\ud83d\udcf1 Connect with me for personalized investment guidance: +919850123456\n\n#WealthManagement #PortfolioStrategy #HNI #AlternativeInvestments #ARN002 #MarketAnalysis #InvestmentStrategy #AssetAllocation #FinancialAdvisory\n        ",
+        "branding_applied": [
+          "name_present",
+          "colors_defined",
+          "language_preferences",
+          "tone_customized",
+          "signature_added"
+        ],
+        "brand_colors": "#059669",
+        "languages": [
+          "English",
+          "Marathi"
+        ],
+        "tone": "sophisticated",
+        "signature": "\n\nVidyadhar Kulkarni | ARN-VID-002 | Pune"
+      }
+    },
+    {
+      "type": "whatsapp",
+      "advisor_id": "ADV_002",
+      "branding": {
+        "original": "\ud83c\udf1f Exclusive Update for HNI Clients\n\nDear Investor,\nVidyadhar here with today's strategic insight.\n\nMarket: Nifty 24,823 (+0.6%)\n\n\ud83c\udfaf Opportunity: IT sector recovery presents entry points for quality picks.\n\nPortfolio Action: Consider 15% allocation to sectoral funds.\n\n\ud83d\udcca Your portfolio review is due. Let's optimize for the upcoming budget.\n\nConnect today: +919850123456\n\nRegards,\nVidyadhar | Portfolio Management",
+        "branded": "\ud83c\udf1f Exclusive Update for HNI Clients\n\nDear Investor,\nVidyadhar here with today's strategic insight.\n\nMarket: Nifty 24,823 (+0.6%)\n\n\ud83c\udfaf Opportunity: IT sector recovery presents entry points for quality picks.\n\nPortfolio Action: Consider 15% allocation to sectoral funds.\n\n\ud83d\udcca Your portfolio review is due. Let's optimize for the upcoming budget.\n\nConnect today: +919850123456\n\nRegards,\nVidyadhar | Portfolio Management",
+        "branding_applied": [
+          "colors_defined",
+          "language_preferences",
+          "tone_customized",
+          "signature_added"
+        ],
+        "brand_colors": "#059669",
+        "languages": [
+          "English",
+          "Marathi"
+        ],
+        "tone": "sophisticated",
+        "signature": "\n\nVidyadhar Kulkarni | ARN-VID-002 | Pune"
+      }
+    },
+    {
+      "type": "images",
+      "advisor_id": "ADV_002",
+      "branding": {
+        "advisor_id": "ADV_002",
+        "images": {
+          "whatsapp_status": {
+            "prompt": "\n            Luxury wealth management vertical visual.\n            Theme: Sophisticated portfolio management.\n            Colors: Deep navy, platinum silver, subtle gold.\n            Elements: Abstract geometric patterns, premium textures.\n            Text overlay: 'Exclusive Wealth Strategies'\n            Style: Minimalist, premium, elegant.\n            Dimensions: 1080x1920px vertical format.\n            ",
+            "generated": true,
+            "model": "gemini-imagen3",
+            "format": "png",
+            "dimensions": "1080x1920",
+            "file_path": "ADV_002_whatsapp_status.png",
+            "preview": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
+          },
+          "marketing_image": {
+            "prompt": "\n            Premium investment advisory banner.\n            Theme: Elite portfolio optimization.\n            Colors: Midnight blue, champagne gold.\n            Elements: Global markets, luxury elements, growth indicators.\n            Text: 'Curated Investment Excellence'\n            Style: Sophisticated, exclusive.\n            Dimensions: 1200x628px.\n            ",
+            "generated": true,
+            "model": "gemini-imagen3",
+            "format": "png",
+            "dimensions": "1200x628",
+            "file_path": "ADV_002_marketing_image.png",
+            "preview": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
+          }
+        },
+        "branding": {
+          "color_overlay": "#059669",
+          "logo_url": "",
+          "watermark": "Vidyadhar Kulkarni | ARN-VID-002"
+        }
+      }
+    },
+    {
+      "type": "linkedin",
+      "advisor_id": "ADV_003",
+      "branding": {
+        "original": "\n\ud83c\udfe2 Corporate Treasury Optimization Insights\n\nDistinguished corporate leaders, Avalok Shah here - your Corporate Treasury specialist with 15 years optimizing treasury operations for 75 corporate clients.\n\nMarket Intelligence Brief:\n\ud83d\udcca Key Indices: Nifty 24,823.15 | Sensex 81,455.40\n\ud83d\udcb1 USD/INR: 86.52\n\ud83d\udcc8 Yield Curve: 10Y G-Sec at 6.75%\n\nPositive momentum driven by IT sector recovery\n\n\ud83d\udcbc Treasury Management Focus:\nCurrent market dynamics present optimization opportunities for corporate surplus management. The bullish environment favors strategic deployment of idle funds.\n\n\ud83c\udfaf Liquidity Optimization Framework:\nLevel 1 (0-3 months): Liquid/Ultra-short funds - 6.5-7% returns\nLevel 2 (3-6 months): Low duration funds - 7-7.5% returns\nLevel 3 (6-12 months): Short duration/Corporate bonds - 7.5-8.5% returns\n\n\ud83d\udcca Strategic Considerations:\nQuality stocks in focus ahead of budget\n\nWith RBI's stance on liquidity and rate trajectory, corporate treasuries should:\n1. Ladder investments across maturity buckets\n2. Optimize between growth and stability\n3. Utilize arbitrage opportunities in debt markets\n\n\u26a1 Regulatory Update:\nRecent SEBI guidelines on debt fund categorization offer enhanced transparency. Corporate investors can now better match investment horizons with appropriate fund categories.\n\n\ud83d\udd0d Risk-Return Optimization:\n\u2022 Working Capital: Overnight/Liquid funds\n\u2022 Strategic Reserve: Short-term debt funds\n\u2022 Long-term Surplus: Dynamic bond/Credit opportunities\n\n\ud83d\udca1 Innovation in Treasury:\nExplore new-age solutions:\n- T-Bills through RBI Retail Direct\n- Corporate bond platforms\n- Covered call strategies for equity holdings\n\n\ud83d\udcc8 Benchmark Performance:\nOur recommended corporate portfolio strategies have consistently delivered 50-100 bps above traditional FD returns while maintaining superior liquidity.\n\n\ud83d\udcf1 Connect with me for personalized investment guidance: +919876543210\n\n#CorporateTreasury #LiquidityManagement #CashManagement #DebtFunds #ARN003 #TreasuryOptimization #CorporateFinance #InvestmentStrategy #WorkingCapital\n        ",
+        "branded": "\n\ud83c\udfe2 Corporate Treasury Optimization Insights\n\nDistinguished corporate leaders, Avalok Shah here - your Corporate Treasury specialist with 15 years optimizing treasury operations for 75 corporate clients.\n\nMarket Intelligence Brief:\n\ud83d\udcca Key Indices: Nifty 24,823.15 | Sensex 81,455.40\n\ud83d\udcb1 USD/INR: 86.52\n\ud83d\udcc8 Yield Curve: 10Y G-Sec at 6.75%\n\nPositive momentum driven by IT sector recovery\n\n\ud83d\udcbc Treasury Management Focus:\nCurrent market dynamics present optimization opportunities for corporate surplus management. The bullish environment favors strategic deployment of idle funds.\n\n\ud83c\udfaf Liquidity Optimization Framework:\nLevel 1 (0-3 months): Liquid/Ultra-short funds - 6.5-7% returns\nLevel 2 (3-6 months): Low duration funds - 7-7.5% returns\nLevel 3 (6-12 months): Short duration/Corporate bonds - 7.5-8.5% returns\n\n\ud83d\udcca Strategic Considerations:\nQuality stocks in focus ahead of budget\n\nWith RBI's stance on liquidity and rate trajectory, corporate treasuries should:\n1. Ladder investments across maturity buckets\n2. Optimize between growth and stability\n3. Utilize arbitrage opportunities in debt markets\n\n\u26a1 Regulatory Update:\nRecent SEBI guidelines on debt fund categorization offer enhanced transparency. Corporate investors can now better match investment horizons with appropriate fund categories.\n\n\ud83d\udd0d Risk-Return Optimization:\n\u2022 Working Capital: Overnight/Liquid funds\n\u2022 Strategic Reserve: Short-term debt funds\n\u2022 Long-term Surplus: Dynamic bond/Credit opportunities\n\n\ud83d\udca1 Innovation in Treasury:\nExplore new-age solutions:\n- T-Bills through RBI Retail Direct\n- Corporate bond platforms\n- Covered call strategies for equity holdings\n\n\ud83d\udcc8 Benchmark Performance:\nOur recommended corporate portfolio strategies have consistently delivered 50-100 bps above traditional FD returns while maintaining superior liquidity.\n\n\ud83d\udcf1 Connect with me for personalized investment guidance: +919876543210\n\n#CorporateTreasury #LiquidityManagement #CashManagement #DebtFunds #ARN003 #TreasuryOptimization #CorporateFinance #InvestmentStrategy #WorkingCapital\n        ",
+        "branding_applied": [
+          "name_present",
+          "colors_defined",
+          "language_preferences",
+          "tone_customized",
+          "signature_added"
+        ],
+        "brand_colors": "#7C3AED",
+        "languages": [
+          "English",
+          "Gujarati"
+        ],
+        "tone": "technical",
+        "signature": "\n\nAvalok Shah | ARN-AVL-003 | Ahmedabad"
+      }
+    },
+    {
+      "type": "whatsapp",
+      "advisor_id": "ADV_003",
+      "branding": {
+        "original": "\ud83c\udfe2 Treasury Alert from Avalok\n\nCorporate Treasury Update:\n\u2022 Market: 24,823\n\u2022 Yields: Attractive 7.5%+\n\u2022 Liquidity: Optimal\n\n\ud83d\udcbc Action: Deploy surplus in short-duration funds for 8%+ returns.\n\nIT and Banking stocks leading the rally!\n\n\ud83d\udcc8 Beat FD returns with better liquidity!\n\nConnect: +919876543210\n\nAvalok | Treasury Specialist",
+        "branded": "\ud83c\udfe2 Treasury Alert from Avalok\n\nCorporate Treasury Update:\n\u2022 Market: 24,823\n\u2022 Yields: Attractive 7.5%+\n\u2022 Liquidity: Optimal\n\n\ud83d\udcbc Action: Deploy surplus in short-duration funds for 8%+ returns.\n\nIT and Banking stocks leading the rally!\n\n\ud83d\udcc8 Beat FD returns with better liquidity!\n\nConnect: +919876543210\n\nAvalok | Treasury Specialist",
+        "branding_applied": [
+          "colors_defined",
+          "language_preferences",
+          "tone_customized",
+          "signature_added"
+        ],
+        "brand_colors": "#7C3AED",
+        "languages": [
+          "English",
+          "Gujarati"
+        ],
+        "tone": "technical",
+        "signature": "\n\nAvalok Shah | ARN-AVL-003 | Ahmedabad"
+      }
+    },
+    {
+      "type": "images",
+      "advisor_id": "ADV_003",
+      "branding": {
+        "advisor_id": "ADV_003",
+        "images": {
+          "whatsapp_status": {
+            "prompt": "\n            Corporate treasury optimization vertical visual.\n            Theme: Efficient cash management.\n            Colors: Corporate gray, blue, white.\n            Elements: Modern office skyline, financial charts.\n            Text overlay: 'Optimize Your Treasury'\n            Style: Professional, technical, clean.\n            Dimensions: 1080x1920px vertical format.\n            ",
+            "generated": true,
+            "model": "gemini-imagen3",
+            "format": "png",
+            "dimensions": "1080x1920",
+            "file_path": "ADV_003_whatsapp_status.png",
+            "preview": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
+          },
+          "marketing_image": {
+            "prompt": "\n            Corporate finance solutions banner.\n            Theme: Treasury and liquidity management.\n            Colors: Professional blue and gray.\n            Elements: Corporate buildings, financial data visualization.\n            Text: 'Strategic Treasury Solutions'\n            Style: Corporate, modern, data-driven.\n            Dimensions: 1200x628px.\n            ",
+            "generated": true,
+            "model": "gemini-imagen3",
+            "format": "png",
+            "dimensions": "1200x628",
+            "file_path": "ADV_003_marketing_image.png",
+            "preview": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
+          }
+        },
+        "branding": {
+          "color_overlay": "#7C3AED",
+          "logo_url": "",
+          "watermark": "Avalok Shah | ARN-AVL-003"
+        }
+      }
+    }
+  ],
+  "branding_summary": {
+    "advisors_processed": 3,
+    "content_branded": 9,
+    "branding_completeness": 0.6666666666666666
+  }
+}

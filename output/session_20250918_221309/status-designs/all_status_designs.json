@@ -1,0 +1,626 @@
+{
+  "sessionId": "session_20250918_221309",
+  "timestamp": "2025-09-18T22:43:32.121668",
+  "totalDesigns": 5,
+  "fontStandards": {
+    "headline": {
+      "size": 96,
+      "weight": "bold",
+      "position": "top 20%",
+      "purpose": "Primary hook, must be readable in 1 second"
+    },
+    "subheading": {
+      "size": 72,
+      "weight": "semibold",
+      "position": "top 30-40%",
+      "purpose": "Supporting information"
+    },
+    "body_text": {
+      "size": 56,
+      "weight": "regular",
+      "position": "middle 40-60%",
+      "purpose": "Key details and data"
+    },
+    "call_to_action": {
+      "size": 64,
+      "weight": "bold",
+      "position": "bottom 30%",
+      "purpose": "Action trigger"
+    },
+    "footer_disclaimer": {
+      "size": 42,
+      "weight": "light",
+      "position": "bottom 10%",
+      "purpose": "Compliance text (still readable)"
+    }
+  },
+  "designs": [
+    {
+      "type": "market_update",
+      "layout": "data_visualization",
+      "elements": {
+        "background": {
+          "style": "gradient",
+          "colors": [
+            "#1A73E8",
+            "#FFFFFF"
+          ],
+          "opacity": 0.9
+        },
+        "headline": {
+          "text": "Markets Close Higher",
+          "fontSize": 96,
+          "position": {
+            "x": "center",
+            "y": 150
+          },
+          "color": "#FFFFFF"
+        },
+        "market_data": {
+          "sensex": {
+            "value": 82876,
+            "change": 0.22,
+            "fontSize": 72,
+            "position": {
+              "x": "center",
+              "y": 400
+            }
+          },
+          "nifty": {
+            "value": 25423.6,
+            "change": 0.37,
+            "fontSize": 72,
+            "position": {
+              "x": "center",
+              "y": 550
+            }
+          }
+        },
+        "top_sectors": {
+          "title": "Top Performing Sectors",
+          "items": [
+            "Information Technology",
+            "Healthcare/Pharma",
+            "PSU Banks"
+          ],
+          "fontSize": 56,
+          "position": {
+            "x": "center",
+            "y": 800
+          }
+        },
+        "cta": {
+          "text": "Review Your Portfolio Today",
+          "fontSize": 64,
+          "position": {
+            "x": "center",
+            "y": 1400
+          },
+          "style": "button"
+        },
+        "branding": {
+          "advisorName": "Shruti Petkar",
+          "tagline": "Building Wealth, Creating Trust",
+          "fontSize": 48,
+          "position": {
+            "x": "center",
+            "y": 1700
+          }
+        }
+      },
+      "metadata": {
+        "advisorId": "ARN_SHRUTI_001",
+        "advisorName": "Shruti Petkar",
+        "arn": "ARN_SHRUTI_001",
+        "tier": "Standard",
+        "sessionId": "session_20250918_221309",
+        "timestamp": "2025-09-18T22:43:32.120322",
+        "fontStandards": {
+          "headline": {
+            "size": 96,
+            "weight": "bold",
+            "position": "top 20%",
+            "purpose": "Primary hook, must be readable in 1 second"
+          },
+          "subheading": {
+            "size": 72,
+            "weight": "semibold",
+            "position": "top 30-40%",
+            "purpose": "Supporting information"
+          },
+          "body_text": {
+            "size": 56,
+            "weight": "regular",
+            "position": "middle 40-60%",
+            "purpose": "Key details and data"
+          },
+          "call_to_action": {
+            "size": 64,
+            "weight": "bold",
+            "position": "bottom 30%",
+            "purpose": "Action trigger"
+          },
+          "footer_disclaimer": {
+            "size": 42,
+            "weight": "light",
+            "position": "bottom 10%",
+            "purpose": "Compliance text (still readable)"
+          }
+        },
+        "isVariation": false
+      },
+      "geminiPrompt": "\n    Create a WhatsApp Status image (1080x1920px vertical format):\n\n    DESIGN TYPE: market_update\n    LAYOUT: data_visualization\n\n    VISUAL SPECIFICATIONS:\n    - Canvas: 1080x1920px, 9:16 aspect ratio\n    - Mobile-optimized with thumb-zone awareness\n    - High contrast for outdoor viewing\n    - 3-second comprehension rule applied\n\n    BRAND IDENTITY:\n    - Advisor: Shruti Petkar\n    - Primary Color: #1A73E8\n    - Secondary Color: #34A853\n    - Tagline: Building Wealth, Creating Trust\n\n    FONT HIERARCHY (Mobile Optimized):\n    - Headlines: 96px bold (top 20% of screen)\n    - Subheadings: 72px semibold\n    - Body Text: 56px regular\n    - CTAs: 64px bold\n    - Footer/Disclaimer: 42px minimum\n\n    CONTENT ELEMENTS:\n    {\n  \"background\": {\n    \"style\": \"gradient\",\n    \"colors\": [\n      \"#1A73E8\",\n      \"#FFFFFF\"\n    ],\n    \"opacity\": 0.9\n  },\n  \"headline\": {\n    \"text\": \"Markets Close Higher\",\n    \"fontSize\": 96,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 150\n    },\n    \"color\": \"#FFFFFF\"\n  },\n  \"market_data\": {\n    \"sensex\": {\n      \"value\": 82876,\n      \"change\": 0.22,\n      \"fontSize\": 72,\n      \"position\": {\n        \"x\": \"center\",\n        \"y\": 400\n      }\n    },\n    \"nifty\": {\n      \"value\": 25423.6,\n      \"change\": 0.37,\n      \"fontSize\": 72,\n      \"position\": {\n        \"x\": \"center\",\n        \"y\": 550\n      }\n    }\n  },\n  \"top_sectors\": {\n    \"title\": \"Top Performing Sectors\",\n    \"items\": [\n      \"Information Technology\",\n      \"Healthcare/Pharma\",\n      \"PSU Banks\"\n    ],\n    \"fontSize\": 56,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 800\n    }\n  },\n  \"cta\": {\n    \"text\": \"Review Your Portfolio Today\",\n    \"fontSize\": 64,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1400\n    },\n    \"style\": \"button\"\n  },\n  \"branding\": {\n    \"advisorName\": \"Shruti Petkar\",\n    \"tagline\": \"Building Wealth, Creating Trust\",\n    \"fontSize\": 48,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1700\n    }\n  }\n}\n\n    STYLE GUIDELINES:\n    - Modern, clean, professional\n    - Use brand colors prominently\n    - Ensure text has proper contrast\n    - Include subtle animations/transitions feel\n    - Bottom 15% clear for WhatsApp reply bar\n\n    COMPLIANCE:\n    - Include disclaimer: \"Mutual fund investments are subject to market risks.\"\n    - ARN: ARN_SHRUTI_001\n\n    OUTPUT: High-quality status image optimized for mobile viewing\n    "
+    },
+    {
+      "type": "educational_animation",
+      "topic": "diversification",
+      "layout": "animated_story",
+      "elements": {
+        "background": {
+          "style": "animated_gradient",
+          "colors": [
+            "#1A73E8",
+            "#34A853"
+          ]
+        },
+        "headline": {
+          "text": "Don't Put All Eggs in One Basket",
+          "fontSize": 96,
+          "animation": "fade_in",
+          "position": {
+            "x": "center",
+            "y": 200
+          }
+        },
+        "visual": {
+          "type": "basket_with_different_assets",
+          "position": {
+            "x": "center",
+            "y": 600
+          },
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "animation": "loop"
+        },
+        "key_points": {
+          "items": [
+            "Reduce Risk",
+            "Stable Returns",
+            "Peace of Mind"
+          ],
+          "fontSize": 56,
+          "animation": "slide_in",
+          "position": {
+            "x": "center",
+            "y": 1200
+          }
+        },
+        "cta": {
+          "text": "Learn More \u2192",
+          "fontSize": 64,
+          "position": {
+            "x": "center",
+            "y": 1500
+          }
+        },
+        "branding": {
+          "advisorName": "Vidyadhar Petkar",
+          "fontSize": 42,
+          "position": {
+            "x": "center",
+            "y": 1800
+          }
+        }
+      },
+      "metadata": {
+        "advisorId": "ARN_VIDYADHAR_002",
+        "advisorName": "Vidyadhar Petkar",
+        "arn": "ARN_VIDYADHAR_002",
+        "tier": "Standard",
+        "sessionId": "session_20250918_221309",
+        "timestamp": "2025-09-18T22:43:32.120364",
+        "fontStandards": {
+          "headline": {
+            "size": 96,
+            "weight": "bold",
+            "position": "top 20%",
+            "purpose": "Primary hook, must be readable in 1 second"
+          },
+          "subheading": {
+            "size": 72,
+            "weight": "semibold",
+            "position": "top 30-40%",
+            "purpose": "Supporting information"
+          },
+          "body_text": {
+            "size": 56,
+            "weight": "regular",
+            "position": "middle 40-60%",
+            "purpose": "Key details and data"
+          },
+          "call_to_action": {
+            "size": 64,
+            "weight": "bold",
+            "position": "bottom 30%",
+            "purpose": "Action trigger"
+          },
+          "footer_disclaimer": {
+            "size": 42,
+            "weight": "light",
+            "position": "bottom 10%",
+            "purpose": "Compliance text (still readable)"
+          }
+        },
+        "isVariation": false
+      },
+      "geminiPrompt": "\n    Create a WhatsApp Status image (1080x1920px vertical format):\n\n    DESIGN TYPE: educational_animation\n    LAYOUT: animated_story\n\n    VISUAL SPECIFICATIONS:\n    - Canvas: 1080x1920px, 9:16 aspect ratio\n    - Mobile-optimized with thumb-zone awareness\n    - High contrast for outdoor viewing\n    - 3-second comprehension rule applied\n\n    BRAND IDENTITY:\n    - Advisor: Vidyadhar Petkar\n    - Primary Color: #1A73E8\n    - Secondary Color: #34A853\n    - Tagline: Building Wealth, Creating Trust\n\n    FONT HIERARCHY (Mobile Optimized):\n    - Headlines: 96px bold (top 20% of screen)\n    - Subheadings: 72px semibold\n    - Body Text: 56px regular\n    - CTAs: 64px bold\n    - Footer/Disclaimer: 42px minimum\n\n    CONTENT ELEMENTS:\n    {\n  \"background\": {\n    \"style\": \"animated_gradient\",\n    \"colors\": [\n      \"#1A73E8\",\n      \"#34A853\"\n    ]\n  },\n  \"headline\": {\n    \"text\": \"Don't Put All Eggs in One Basket\",\n    \"fontSize\": 96,\n    \"animation\": \"fade_in\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 200\n    }\n  },\n  \"visual\": {\n    \"type\": \"basket_with_different_assets\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 600\n    },\n    \"size\": {\n      \"width\": 800,\n      \"height\": 600\n    },\n    \"animation\": \"loop\"\n  },\n  \"key_points\": {\n    \"items\": [\n      \"Reduce Risk\",\n      \"Stable Returns\",\n      \"Peace of Mind\"\n    ],\n    \"fontSize\": 56,\n    \"animation\": \"slide_in\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1200\n    }\n  },\n  \"cta\": {\n    \"text\": \"Learn More \\u2192\",\n    \"fontSize\": 64,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1500\n    }\n  },\n  \"branding\": {\n    \"advisorName\": \"Vidyadhar Petkar\",\n    \"fontSize\": 42,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1800\n    }\n  }\n}\n\n    STYLE GUIDELINES:\n    - Modern, clean, professional\n    - Use brand colors prominently\n    - Ensure text has proper contrast\n    - Include subtle animations/transitions feel\n    - Bottom 15% clear for WhatsApp reply bar\n\n    COMPLIANCE:\n    - Include disclaimer: \"Mutual fund investments are subject to market risks.\"\n    - ARN: ARN_VIDYADHAR_002\n\n    OUTPUT: High-quality status image optimized for mobile viewing\n    "
+    },
+    {
+      "type": "infographic",
+      "layout": "data_comparison",
+      "elements": {
+        "background": {
+          "style": "modern_pattern",
+          "baseColor": "#1A73E8",
+          "opacity": 0.1
+        },
+        "headline": {
+          "text": "FII vs DII: Who's Winning?",
+          "fontSize": 96,
+          "position": {
+            "x": "center",
+            "y": 150
+          }
+        },
+        "chart": {
+          "type": "comparison_bars",
+          "data": {
+            "fii": "17.23%",
+            "dii": "16.90%"
+          },
+          "position": {
+            "x": "center",
+            "y": 500
+          },
+          "size": {
+            "width": 900,
+            "height": 400
+          }
+        },
+        "insights": {
+          "title": "Key Insights",
+          "points": [
+            "DIIs invested \u20b91.54 lakh crore in Q3",
+            "Record domestic participation",
+            "FIIs focus on export sectors"
+          ],
+          "fontSize": 56,
+          "position": {
+            "x": 100,
+            "y": 1000
+          }
+        },
+        "trend_indicator": {
+          "text": "Domestic Investors Lead the Charge",
+          "fontSize": 64,
+          "style": "highlight",
+          "position": {
+            "x": "center",
+            "y": 1400
+          }
+        },
+        "branding": {
+          "advisorName": "Shriya Vallabh Petkar",
+          "tagline": "Building Wealth, Creating Trust",
+          "fontSize": 48,
+          "position": {
+            "x": "center",
+            "y": 1750
+          }
+        }
+      },
+      "metadata": {
+        "advisorId": "ARN_SHRIYA_003",
+        "advisorName": "Shriya Vallabh Petkar",
+        "arn": "ARN_SHRIYA_003",
+        "tier": "Standard",
+        "sessionId": "session_20250918_221309",
+        "timestamp": "2025-09-18T22:43:32.120386",
+        "fontStandards": {
+          "headline": {
+            "size": 96,
+            "weight": "bold",
+            "position": "top 20%",
+            "purpose": "Primary hook, must be readable in 1 second"
+          },
+          "subheading": {
+            "size": 72,
+            "weight": "semibold",
+            "position": "top 30-40%",
+            "purpose": "Supporting information"
+          },
+          "body_text": {
+            "size": 56,
+            "weight": "regular",
+            "position": "middle 40-60%",
+            "purpose": "Key details and data"
+          },
+          "call_to_action": {
+            "size": 64,
+            "weight": "bold",
+            "position": "bottom 30%",
+            "purpose": "Action trigger"
+          },
+          "footer_disclaimer": {
+            "size": 42,
+            "weight": "light",
+            "position": "bottom 10%",
+            "purpose": "Compliance text (still readable)"
+          }
+        },
+        "isVariation": false
+      },
+      "geminiPrompt": "\n    Create a WhatsApp Status image (1080x1920px vertical format):\n\n    DESIGN TYPE: infographic\n    LAYOUT: data_comparison\n\n    VISUAL SPECIFICATIONS:\n    - Canvas: 1080x1920px, 9:16 aspect ratio\n    - Mobile-optimized with thumb-zone awareness\n    - High contrast for outdoor viewing\n    - 3-second comprehension rule applied\n\n    BRAND IDENTITY:\n    - Advisor: Shriya Vallabh Petkar\n    - Primary Color: #1A73E8\n    - Secondary Color: #34A853\n    - Tagline: Building Wealth, Creating Trust\n\n    FONT HIERARCHY (Mobile Optimized):\n    - Headlines: 96px bold (top 20% of screen)\n    - Subheadings: 72px semibold\n    - Body Text: 56px regular\n    - CTAs: 64px bold\n    - Footer/Disclaimer: 42px minimum\n\n    CONTENT ELEMENTS:\n    {\n  \"background\": {\n    \"style\": \"modern_pattern\",\n    \"baseColor\": \"#1A73E8\",\n    \"opacity\": 0.1\n  },\n  \"headline\": {\n    \"text\": \"FII vs DII: Who's Winning?\",\n    \"fontSize\": 96,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 150\n    }\n  },\n  \"chart\": {\n    \"type\": \"comparison_bars\",\n    \"data\": {\n      \"fii\": \"17.23%\",\n      \"dii\": \"16.90%\"\n    },\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 500\n    },\n    \"size\": {\n      \"width\": 900,\n      \"height\": 400\n    }\n  },\n  \"insights\": {\n    \"title\": \"Key Insights\",\n    \"points\": [\n      \"DIIs invested \\u20b91.54 lakh crore in Q3\",\n      \"Record domestic participation\",\n      \"FIIs focus on export sectors\"\n    ],\n    \"fontSize\": 56,\n    \"position\": {\n      \"x\": 100,\n      \"y\": 1000\n    }\n  },\n  \"trend_indicator\": {\n    \"text\": \"Domestic Investors Lead the Charge\",\n    \"fontSize\": 64,\n    \"style\": \"highlight\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1400\n    }\n  },\n  \"branding\": {\n    \"advisorName\": \"Shriya Vallabh Petkar\",\n    \"tagline\": \"Building Wealth, Creating Trust\",\n    \"fontSize\": 48,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1750\n    }\n  }\n}\n\n    STYLE GUIDELINES:\n    - Modern, clean, professional\n    - Use brand colors prominently\n    - Ensure text has proper contrast\n    - Include subtle animations/transitions feel\n    - Bottom 15% clear for WhatsApp reply bar\n\n    COMPLIANCE:\n    - Include disclaimer: \"Mutual fund investments are subject to market risks.\"\n    - ARN: ARN_SHRIYA_003\n\n    OUTPUT: High-quality status image optimized for mobile viewing\n    "
+    },
+    {
+      "type": "sector_spotlight",
+      "layout": "focus_card",
+      "elements": {
+        "background": {
+          "style": "blurred_chart",
+          "overlay": "#2E7D32",
+          "opacity": 0.8
+        },
+        "headline": {
+          "text": "Information Technology Surges!",
+          "fontSize": 96,
+          "color": "#FFFFFF",
+          "position": {
+            "x": "center",
+            "y": 200
+          }
+        },
+        "performance": {
+          "change": "+4.41%",
+          "fontSize": 120,
+          "style": "bold_number",
+          "color": "#4CAF50",
+          "position": {
+            "x": "center",
+            "y": 500
+          }
+        },
+        "key_drivers": {
+          "title": "What's Driving Growth?",
+          "items": [
+            "AI adoption",
+            "Cloud migration",
+            "Digital transformation"
+          ],
+          "fontSize": 56,
+          "position": {
+            "x": 100,
+            "y": 800
+          }
+        },
+        "outlook": {
+          "text": "Positive on global tech spending recovery",
+          "fontSize": 48,
+          "style": "quote",
+          "position": {
+            "x": "center",
+            "y": 1200
+          }
+        },
+        "action": {
+          "text": "Explore IT Funds \u2192",
+          "fontSize": 64,
+          "style": "button",
+          "position": {
+            "x": "center",
+            "y": 1450
+          }
+        },
+        "branding": {
+          "advisorName": "Tranquil Wealth Advisory",
+          "fontSize": 42,
+          "position": {
+            "x": "center",
+            "y": 1800
+          }
+        }
+      },
+      "metadata": {
+        "advisorId": "ADV_004",
+        "advisorName": "Mr. Tranquil Veda",
+        "arn": "ADV_004",
+        "tier": "Standard",
+        "sessionId": "session_20250918_221309",
+        "timestamp": "2025-09-18T22:43:32.120406",
+        "fontStandards": {
+          "headline": {
+            "size": 96,
+            "weight": "bold",
+            "position": "top 20%",
+            "purpose": "Primary hook, must be readable in 1 second"
+          },
+          "subheading": {
+            "size": 72,
+            "weight": "semibold",
+            "position": "top 30-40%",
+            "purpose": "Supporting information"
+          },
+          "body_text": {
+            "size": 56,
+            "weight": "regular",
+            "position": "middle 40-60%",
+            "purpose": "Key details and data"
+          },
+          "call_to_action": {
+            "size": 64,
+            "weight": "bold",
+            "position": "bottom 30%",
+            "purpose": "Action trigger"
+          },
+          "footer_disclaimer": {
+            "size": 42,
+            "weight": "light",
+            "position": "bottom 10%",
+            "purpose": "Compliance text (still readable)"
+          }
+        },
+        "isVariation": false
+      },
+      "geminiPrompt": "\n    Create a WhatsApp Status image (1080x1920px vertical format):\n\n    DESIGN TYPE: sector_spotlight\n    LAYOUT: focus_card\n\n    VISUAL SPECIFICATIONS:\n    - Canvas: 1080x1920px, 9:16 aspect ratio\n    - Mobile-optimized with thumb-zone awareness\n    - High contrast for outdoor viewing\n    - 3-second comprehension rule applied\n\n    BRAND IDENTITY:\n    - Advisor: Tranquil Wealth Advisory\n    - Primary Color: #2E7D32\n    - Secondary Color: #66BB6A\n    - Tagline: Creating Peaceful Wealth Journey\n\n    FONT HIERARCHY (Mobile Optimized):\n    - Headlines: 96px bold (top 20% of screen)\n    - Subheadings: 72px semibold\n    - Body Text: 56px regular\n    - CTAs: 64px bold\n    - Footer/Disclaimer: 42px minimum\n\n    CONTENT ELEMENTS:\n    {\n  \"background\": {\n    \"style\": \"blurred_chart\",\n    \"overlay\": \"#2E7D32\",\n    \"opacity\": 0.8\n  },\n  \"headline\": {\n    \"text\": \"Information Technology Surges!\",\n    \"fontSize\": 96,\n    \"color\": \"#FFFFFF\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 200\n    }\n  },\n  \"performance\": {\n    \"change\": \"+4.41%\",\n    \"fontSize\": 120,\n    \"style\": \"bold_number\",\n    \"color\": \"#4CAF50\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 500\n    }\n  },\n  \"key_drivers\": {\n    \"title\": \"What's Driving Growth?\",\n    \"items\": [\n      \"AI adoption\",\n      \"Cloud migration\",\n      \"Digital transformation\"\n    ],\n    \"fontSize\": 56,\n    \"position\": {\n      \"x\": 100,\n      \"y\": 800\n    }\n  },\n  \"outlook\": {\n    \"text\": \"Positive on global tech spending recovery\",\n    \"fontSize\": 48,\n    \"style\": \"quote\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1200\n    }\n  },\n  \"action\": {\n    \"text\": \"Explore IT Funds \\u2192\",\n    \"fontSize\": 64,\n    \"style\": \"button\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1450\n    }\n  },\n  \"branding\": {\n    \"advisorName\": \"Tranquil Wealth Advisory\",\n    \"fontSize\": 42,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1800\n    }\n  }\n}\n\n    STYLE GUIDELINES:\n    - Modern, clean, professional\n    - Use brand colors prominently\n    - Ensure text has proper contrast\n    - Include subtle animations/transitions feel\n    - Bottom 15% clear for WhatsApp reply bar\n\n    COMPLIANCE:\n    - Include disclaimer: \"Mutual fund investments are subject to market risks. Please read all scheme-related documents carefully.\"\n    - ARN: ADV_004\n\n    OUTPUT: High-quality status image optimized for mobile viewing\n    "
+    },
+    {
+      "type": "tax_saving_tips",
+      "layout": "checklist",
+      "elements": {
+        "background": {
+          "style": "subtle_pattern",
+          "baseColor": "#F5F5F5"
+        },
+        "headline": {
+          "text": "Save \u20b946,800 in Taxes!",
+          "fontSize": 96,
+          "color": "#1A73E8",
+          "position": {
+            "x": "center",
+            "y": 200
+          }
+        },
+        "tips_checklist": {
+          "items": [
+            "\u2713 ELSS Funds - \u20b91.5 Lakh",
+            "\u2713 NPS - \u20b950,000 Extra",
+            "\u2713 Health Insurance - \u20b975,000",
+            "\u2713 Home Loan - \u20b92 Lakh"
+          ],
+          "fontSize": 56,
+          "position": {
+            "x": 100,
+            "y": 500
+          }
+        },
+        "deadline_warning": {
+          "text": "\u23f0 Only 90 Days Left!",
+          "fontSize": 72,
+          "color": "#FF5722",
+          "position": {
+            "x": "center",
+            "y": 1100
+          }
+        },
+        "cta": {
+          "text": "Plan Your Taxes Now",
+          "fontSize": 64,
+          "style": "urgent_button",
+          "position": {
+            "x": "center",
+            "y": 1400
+          }
+        },
+        "branding": {
+          "advisorName": "Shruti Petkar",
+          "tagline": "Your Tax Planning Partner",
+          "fontSize": 48,
+          "position": {
+            "x": "center",
+            "y": 1750
+          }
+        }
+      },
+      "metadata": {
+        "advisorId": "ARN_SHRUTI_001_v2",
+        "advisorName": "Shruti Petkar",
+        "arn": "ARN_SHRUTI_001",
+        "tier": "Standard",
+        "sessionId": "session_20250918_221309",
+        "timestamp": "2025-09-18T22:43:32.120422",
+        "fontStandards": {
+          "headline": {
+            "size": 96,
+            "weight": "bold",
+            "position": "top 20%",
+            "purpose": "Primary hook, must be readable in 1 second"
+          },
+          "subheading": {
+            "size": 72,
+            "weight": "semibold",
+            "position": "top 30-40%",
+            "purpose": "Supporting information"
+          },
+          "body_text": {
+            "size": 56,
+            "weight": "regular",
+            "position": "middle 40-60%",
+            "purpose": "Key details and data"
+          },
+          "call_to_action": {
+            "size": 64,
+            "weight": "bold",
+            "position": "bottom 30%",
+            "purpose": "Action trigger"
+          },
+          "footer_disclaimer": {
+            "size": 42,
+            "weight": "light",
+            "position": "bottom 10%",
+            "purpose": "Compliance text (still readable)"
+          }
+        },
+        "isVariation": true
+      },
+      "geminiPrompt": "\n    Create a WhatsApp Status image (1080x1920px vertical format):\n\n    DESIGN TYPE: tax_saving_tips\n    LAYOUT: checklist\n\n    VISUAL SPECIFICATIONS:\n    - Canvas: 1080x1920px, 9:16 aspect ratio\n    - Mobile-optimized with thumb-zone awareness\n    - High contrast for outdoor viewing\n    - 3-second comprehension rule applied\n\n    BRAND IDENTITY:\n    - Advisor: Shruti Petkar\n    - Primary Color: #1A73E8\n    - Secondary Color: #34A853\n    - Tagline: Building Wealth, Creating Trust\n\n    FONT HIERARCHY (Mobile Optimized):\n    - Headlines: 96px bold (top 20% of screen)\n    - Subheadings: 72px semibold\n    - Body Text: 56px regular\n    - CTAs: 64px bold\n    - Footer/Disclaimer: 42px minimum\n\n    CONTENT ELEMENTS:\n    {\n  \"background\": {\n    \"style\": \"subtle_pattern\",\n    \"baseColor\": \"#F5F5F5\"\n  },\n  \"headline\": {\n    \"text\": \"Save \\u20b946,800 in Taxes!\",\n    \"fontSize\": 96,\n    \"color\": \"#1A73E8\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 200\n    }\n  },\n  \"tips_checklist\": {\n    \"items\": [\n      \"\\u2713 ELSS Funds - \\u20b91.5 Lakh\",\n      \"\\u2713 NPS - \\u20b950,000 Extra\",\n      \"\\u2713 Health Insurance - \\u20b975,000\",\n      \"\\u2713 Home Loan - \\u20b92 Lakh\"\n    ],\n    \"fontSize\": 56,\n    \"position\": {\n      \"x\": 100,\n      \"y\": 500\n    }\n  },\n  \"deadline_warning\": {\n    \"text\": \"\\u23f0 Only 90 Days Left!\",\n    \"fontSize\": 72,\n    \"color\": \"#FF5722\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1100\n    }\n  },\n  \"cta\": {\n    \"text\": \"Plan Your Taxes Now\",\n    \"fontSize\": 64,\n    \"style\": \"urgent_button\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1400\n    }\n  },\n  \"branding\": {\n    \"advisorName\": \"Shruti Petkar\",\n    \"tagline\": \"Your Tax Planning Partner\",\n    \"fontSize\": 48,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1750\n    }\n  }\n}\n\n    STYLE GUIDELINES:\n    - Modern, clean, professional\n    - Use brand colors prominently\n    - Ensure text has proper contrast\n    - Include subtle animations/transitions feel\n    - Bottom 15% clear for WhatsApp reply bar\n\n    COMPLIANCE:\n    - Include disclaimer: \"Mutual fund investments are subject to market risks.\"\n    - ARN: ARN_SHRUTI_001\n\n    OUTPUT: High-quality status image optimized for mobile viewing\n    "
+    }
+  ],
+  "marketDataUsed": {
+    "sensex": {
+      "value": 82876,
+      "change": 182.04,
+      "changePercent": 0.22,
+      "source": "BSE live data"
+    },
+    "nifty": {
+      "value": 25423.6,
+      "change": 93.85,
+      "changePercent": 0.37,
+      "source": "NSE live data"
+    },
+    "topSectors": [
+      {
+        "name": "Information Technology",
+        "change": 4.41,
+        "outlook": "Positive on global tech spending recovery",
+        "keyDrivers": [
+          "AI adoption",
+          "Cloud migration",
+          "Digital transformation"
+        ]
+      },
+      {
+        "name": "Healthcare/Pharma",
+        "ytdReturn": 40,
+        "outlook": "Expected 12-15% growth in 2025",
+        "keyDrivers": [
+          "Export growth",
+          "Biosimilars",
+          "Domestic consumption"
+        ]
+      },
+      {
+        "name": "PSU Banks",
+        "change": 2.0,
+        "outlook": "Strong asset quality improvement",
+        "keyDrivers": [
+          "NPA reduction",
+          "Credit growth",
+          "Government support"
+        ]
+      }
+    ]
+  }
+}

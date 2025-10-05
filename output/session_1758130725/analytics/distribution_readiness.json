@@ -1,0 +1,17 @@
+{
+  "ADV_001": {
+    "ready": true,
+    "score": 75.0,
+    "requires_review": false
+  },
+  "ADV_002": {
+    "ready": true,
+    "score": 75.0,
+    "requires_review": false
+  },
+  "ADV_003": {
+    "ready": true,
+    "score": 70.0,
+    "requires_review": false
+  }
+}

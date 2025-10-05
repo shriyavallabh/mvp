@@ -1,0 +1,34 @@
+{
+  "advisorId": "ADV004",
+  "advisorName": "Avalok Langer",
+  "segment": "Silver",
+  "posts": [
+    {
+      "postId": "SILVER_ADV004_001",
+      "advisorId": "ADV004",
+      "advisorName": "Avalok Langer",
+      "segment": "Silver",
+      "title": "",
+      "content": "💰 Your monthly SIP of ₹5,000 just got 12% more powerful.\n\nHere's why...\n\nMarkets hit 82150 today! 📈\n\nWhat does this mean for YOU?\n\n✅ Good time to START investing\n  → Don't wait for \"perfect\" timing\n  → Start small, grow consistently\n\n✅ Your ₹5,000/month can become lakhs\n  → 10 years = ₹11.5 lakhs (12% returns)\n  → 15 years = ₹23.8 lakhs\n  → 20 years = ₹49.5 lakhs\n\n✅ IT sector showing strong growth\n  → Up 2.8% today!\n  → Your SIPs benefit from this growth\n\nThe best time to plant a tree was 20 years ago.\nThe second best time? TODAY.\n\nLet's start your investment journey together! 🚀\n\nDrop a 💡 if you're ready to begin.\n\nAvalok Langer\nSmart Investments, Secure Future\n\nARN: ARN-169741\nMutual fund investments are subject to market risks.",
+      "hashtags": [
+        "#StartInvesting",
+        "#FinancialFreedom",
+        "#SIP",
+        "#WealthCreation",
+        "#InvestmentBasics",
+        "#MoneyMatters",
+        "#FirstSIP"
+      ],
+      "viralityScore": 8.5,
+      "hookType": "benefit_driven",
+      "emotion": "empowerment",
+      "cta": "engagement_ask",
+      "characterCount": 928
+    }
+  ],
+  "metadata": {
+    "totalPosts": 1,
+    "avgViralityScore": 8.5,
+    "strategy": "Shrivastava simple hooks + emotional stories"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "from": "advisor-data-manager",
+  "to": "market-intelligence",
+  "timestamp": "2025-09-17T09:55:29.221430",
+  "messageType": "segment_analysis_data",
+  "data": {
+    "totalAdvisors": 8,
+    "segmentBreakdown": {
+      "Premium": 3,
+      "Gold": 3,
+      "Silver": 2
+    },
+    "locationDistribution": {
+      "Mumbai": 1,
+      "Delhi": 1,
+      "Bangalore": 1,
+      "Pune": 1,
+      "Ahmedabad": 1,
+      "Chennai": 1,
+      "Hyderabad": 1,
+      "Kochi": 1
+    },
+    "specializationAreas": [
+      "Wealth Management",
+      "Financial Planning",
+      "Tech-Savvy Planning",
+      "Conservative Wealth Management",
+      "Growth-Oriented Planning",
+      "Women Financial Empowerment",
+      "Digital-First Planning",
+      "Traditional Investment Planning"
+    ],
+    "clientDemographics": {
+      "Premium": [
+        "HNI Clients",
+        "Business Owners",
+        "Senior Executives",
+        "Retirees",
+        "Family Offices",
+        "Traditional Families",
+        "Senior Citizens",
+        "Government Employees"
+      ],
+      "Gold": [
+        "Young Professionals",
+        "Middle Class Families",
+        "Business Families",
+        "Entrepreneurs",
+        "Working Women",
+        "Women Entrepreneurs"
+      ],
+      "Silver": [
+        "Tech Professionals",
+        "Startup Employees",
+        "Millennials",
+        "IT Professionals",
+        "Fresh Graduates"
+      ]
+    },
+    "focusAreas": {
+      "Premium": [
+        "Equity Diversified",
+        "Tax Planning",
+        "Retirement Planning",
+        "Debt Funds",
+        "Conservative Hybrid",
+        "Estate Planning",
+        "PPF",
+        "NSC"
+      ],
+      "Gold": [
+        "SIP Planning",
+        "Insurance",
+        "Goal-based Planning",
+        "Growth Funds",
+        "Sectoral Funds",
+        "Child Education",
+        "Women-centric Schemes"
+      ],
+      "Silver": [
+        "ELSS",
+        "Equity Funds",
+        "Digital Investment",
+        "Digital SIPs",
+        "Index Funds",
+        "App-based Investing"
+      ]
+    },
+    "marketInsightsNeeded": [
+      "Premium segment needs conservative market analysis",
+      "Gold segment requires balanced growth opportunities",
+      "Silver segment wants tech-focused investment trends",
+      "Regional preferences vary by city"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "total_content_evaluated": 23,
+  "average_quality_score": 0.63,
+  "auto_approved": 1,
+  "manual_review": 11,
+  "rejected": 11,
+  "segment_averages": {
+    "Premium": 0.67,
+    "Gold": 0.66,
+    "Silver": 0.76
+  },
+  "content_type_averages": {
+    "linkedin": 0.67,
+    "whatsapp": 0.57,
+    "status": 0.85
+  }
+}

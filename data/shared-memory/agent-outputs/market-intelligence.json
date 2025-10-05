@@ -1,0 +1,168 @@
+{
+  "sessionId": "mcp_session_2025-09-17T22-05-42",
+  "agentName": "market-intelligence",
+  "status": "completed",
+  "data": {
+    "marketTrends": [
+      {
+        "trend": "Mutual Fund AUM Growth",
+        "description": "MF AUM grew 11% to ₹74.41 lakh crore (Jan-June 2025)",
+        "impact": "Strong domestic investment appetite",
+        "confidence": 0.9
+      },
+      {
+        "trend": "DII Dominance Over FII",
+        "description": "DIIs hold 18.1% vs FIIs 17.5% in equity markets",
+        "impact": "Reduced dependency on foreign flows",
+        "confidence": 0.85
+      },
+      {
+        "trend": "Large-Cap Revival",
+        "description": "Large-cap funds showing 18-21% returns, outperforming mid/small caps",
+        "impact": "Quality over growth preference emerging",
+        "confidence": 0.8
+      },
+      {
+        "trend": "Sectoral Fund Outflow",
+        "description": "Sharp decline in sectoral/thematic fund flows",
+        "impact": "Risk-off sentiment in concentrated bets",
+        "confidence": 0.75
+      }
+    ],
+    "insights": {
+      "equityMarkets": {
+        "nifty50": {
+          "level": 25330.25,
+          "change": "+0.36%",
+          "outlook": "Consolidation above 25,200 levels"
+        },
+        "sensex": {
+          "level": 82690,
+          "change": "+0.38%",
+          "outlook": "Maintaining upward bias with selective stock picking"
+        }
+      },
+      "mutualFunds": {
+        "totalAUM": "₹74.41 lakh crore",
+        "equityInflows": "₹1.6 lakh crore in 2025",
+        "keyTrend": "Shift from thematic to diversified funds"
+      },
+      "sectorRotation": {
+        "favored": ["Automobiles", "Consumption", "NBFCs", "Cement"],
+        "rationale": "GST reforms and domestic demand recovery",
+        "strategy": "Buy on declines in quality names"
+      },
+      "regulatoryImpact": {
+        "esgMandates": "20% allocation to ESG sectors required",
+        "exitLoads": "Reduced from 5% to 3% maximum",
+        "compliance": "AI-driven monitoring for mis-selling"
+      }
+    },
+    "opportunities": [
+      {
+        "category": "Tax-Saving Investments",
+        "products": ["ELSS Funds", "NPS"],
+        "potential": "₹46,800 annual tax savings via ELSS + ₹50,000 additional via NPS",
+        "timing": "Year-end tax planning window"
+      },
+      {
+        "category": "ESG Investing",
+        "products": ["ESG-compliant MFs", "Green Bonds"],
+        "potential": "Regulatory tailwinds driving mandatory allocations",
+        "timing": "Early adoption advantage"
+      },
+      {
+        "category": "Gold ETFs",
+        "products": ["Gold ETFs", "Gold Funds"],
+        "potential": "₹19,000 crore inflows, AUM crossed ₹65,000 crore",
+        "timing": "Portfolio diversification play"
+      },
+      {
+        "category": "Technology Adoption",
+        "products": ["AI-managed funds", "Robo-advisory"],
+        "potential": "40% of MFs to use AI by 2026",
+        "timing": "Technology disruption opportunity"
+      }
+    ],
+    "risks": [
+      {
+        "risk": "Global Trade Tensions",
+        "impact": "Affecting sectoral fund flows and investor sentiment",
+        "probability": "Medium",
+        "mitigation": "Diversified portfolio allocation"
+      },
+      {
+        "risk": "Valuation Concerns",
+        "impact": "Mid and small-cap segments appear stretched",
+        "probability": "High",
+        "mitigation": "Focus on large-cap quality stocks"
+      },
+      {
+        "risk": "Regulatory Compliance Costs",
+        "impact": "ESG mandates increasing fund management expenses",
+        "probability": "High",
+        "mitigation": "Pass-through to investors via higher expense ratios"
+      },
+      {
+        "risk": "Equity Fund Flow Moderation",
+        "impact": "Monthly inflows down to ₹24,000 cr from ₹35,000-40,000 cr",
+        "probability": "Medium",
+        "mitigation": "SIP culture and investor education"
+      }
+    ],
+    "recommendations": {
+      "massMarket": {
+        "primaryFocus": "ELSS funds for tax saving",
+        "products": ["Large-cap diversified funds", "Hybrid funds"],
+        "strategy": "SIP-based long-term wealth creation",
+        "allocation": "70% equity, 20% debt, 10% gold"
+      },
+      "affluent": {
+        "primaryFocus": "Sector rotation and diversification",
+        "products": ["Multi-asset funds", "International funds", "Gold ETFs"],
+        "strategy": "Risk-adjusted return optimization",
+        "allocation": "60% equity, 25% debt, 10% international, 5% alternatives"
+      },
+      "hni": {
+        "primaryFocus": "Alternative investments and ESG compliance",
+        "products": ["PMS", "AIFs", "Specialized ESG funds"],
+        "strategy": "Regulatory arbitrage and tax efficiency",
+        "allocation": "50% equity, 20% debt, 15% alternatives, 15% international"
+      }
+    }
+  },
+  "metadata": {
+    "trendsAnalyzed": 4,
+    "insightsGenerated": 12,
+    "marketSegments": 3,
+    "confidenceScore": 0.82,
+    "lastUpdated": "2025-09-17T22:05:42Z"
+  },
+  "structure": {
+    "marketTrends": "Current market trends and movements",
+    "insights": "Deep market analysis and intelligence",
+    "opportunities": "Identified market opportunities",
+    "risks": "Market risks and concerns",
+    "recommendations": "Strategic recommendations based on analysis"
+  },
+  "dependencies": {
+    "requires": [],
+    "provides": ["market-context", "trend-analysis", "strategic-insights"]
+  },
+  "dataSources": [
+    "NSE India market data",
+    "Mutual fund industry reports",
+    "SEBI regulatory circulars",
+    "Financial news aggregators",
+    "Sector performance analysis"
+  ],
+  "keyMetrics": {
+    "nifty50": "25,330.25 (+0.36%)",
+    "sensex": "82,690 (+0.38%)",
+    "mutualFundAUM": "₹74.41 lakh crore",
+    "equityInflows2025": "₹1.6 lakh crore",
+    "diiShare": "18.1%",
+    "fiiShare": "17.5%"
+  },
+  "timestamp": "2025-09-17T22:05:42Z"
+}

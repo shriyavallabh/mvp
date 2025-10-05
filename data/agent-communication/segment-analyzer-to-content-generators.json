@@ -1,0 +1,70 @@
+{
+  "messageType": "SEGMENT_ANALYSIS_COMPLETE",
+  "from": "segment-analyzer",
+  "to": ["linkedin-post-generator", "whatsapp-message-creator", "status-image-designer"],
+  "timestamp": "2025-09-19T02:35:00Z",
+  "sessionId": "session_20250919_023038",
+
+  "payload": {
+    "segmentPriorities": {
+      "focus": "Standard segment (96% of advisors)",
+      "approach": "Educational and simple content",
+      "urgency": "High - majority segment needs immediate attention"
+    },
+
+    "contentGuidelines": {
+      "Standard": {
+        "tone": "Educational, simple, encouraging",
+        "topics": ["SIP basics", "Tax-saving", "Goal planning"],
+        "complexity": "Low to medium",
+        "visuals": "Simple infographics, relatable examples"
+      },
+      "Active": {
+        "tone": "Professional, data-driven",
+        "topics": ["Market analysis", "Portfolio optimization"],
+        "complexity": "Medium to high",
+        "visuals": "Charts, performance dashboards"
+      },
+      "Gold": {
+        "tone": "Executive, sophisticated",
+        "topics": ["Global trends", "Estate planning"],
+        "complexity": "High",
+        "visuals": "Exclusive reports, premium insights"
+      }
+    },
+
+    "marketContextAdaptation": {
+      "currentCondition": "Market correction in mid/small caps",
+      "standardMessage": "Stay calm, continue SIPs",
+      "activeMessage": "Rebalancing opportunities",
+      "goldMessage": "Hedging and diversification"
+    },
+
+    "contentPriorities": [
+      {
+        "priority": 1,
+        "segment": "Standard",
+        "content": "Tax-saving investment guide (March deadline)",
+        "format": "Simple infographic + WhatsApp message"
+      },
+      {
+        "priority": 2,
+        "segment": "Standard",
+        "content": "Market volatility explained simply",
+        "format": "Educational post + calming message"
+      },
+      {
+        "priority": 3,
+        "segment": "Active",
+        "content": "Sector rotation opportunities",
+        "format": "Data analysis + LinkedIn article"
+      }
+    ],
+
+    "sharedMemoryPaths": {
+      "segmentAnalysis": "/data/shared-memory/session_20250919_023038/segment-analysis.json",
+      "advisorData": "/data/shared-memory/session_20250919_023038/advisor-data.json",
+      "marketIntelligence": "/data/shared-memory/session_20250919_023038/market-intelligence.json"
+    }
+  }
+}

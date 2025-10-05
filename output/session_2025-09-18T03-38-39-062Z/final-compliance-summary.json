@@ -1,0 +1,35 @@
+{
+  "session_id": "session_2025-09-18T03-38-39-062Z",
+  "validation_timestamp": "2025-09-18T09:43:58.286066",
+  "compliance_certificate": {
+    "id": "SEBI-COMP-session_2025-09-18T03-38-39-062Z-20250918094358",
+    "valid_until": "2025-09-19T23:59:59Z",
+    "validator": "SEBI Compliance Validator v2.0",
+    "confidence": 0.98005698005698
+  },
+  "final_verdict": {
+    "status": "CONTENT BLOCKED - CRITICAL VIOLATIONS FOUND",
+    "compliance_score": "46.15%",
+    "items_validated": 52,
+    "violations_count": 28,
+    "approval_required": false
+  },
+  "critical_findings": [
+    "\u274c 28 SEBI violations detected",
+    "\u274c Missing market risk disclaimers in WhatsApp messages",
+    "\u26a0\ufe0f Document reading advisories missing",
+    "\ud83d\udcca Compliance score: 46.15% (Required: 100%)"
+  ],
+  "mandatory_actions": [
+    "\ud83d\udd27 Regenerate all WhatsApp messages with proper disclaimers",
+    "\ud83d\udd27 Add 'Read all scheme related documents carefully' to LinkedIn posts",
+    "\ud83d\udd27 Verify ARN disclosure in all advisor content",
+    "\ud83d\udd27 Re-validate after fixes before distribution"
+  ],
+  "regulatory_impact": {
+    "sebi_compliance": "FAILED",
+    "whatsapp_policy": "PASSED",
+    "linkedin_guidelines": "CONDITIONAL",
+    "distribution_approved": false
+  }
+}

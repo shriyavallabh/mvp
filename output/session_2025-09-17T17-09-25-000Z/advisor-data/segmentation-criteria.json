@@ -1,0 +1,76 @@
+{
+  "segments": {
+    "Premium": {
+      "advisors": [
+        "ADV_001"
+      ],
+      "characteristics": {
+        "averageAUM": "\u20b9100+ Crores",
+        "clientProfile": "HNI, Business Owners",
+        "averageTicketSize": "\u20b910+ Lakhs",
+        "contentTone": "Professional/Educational"
+      }
+    },
+    "Gold": {
+      "advisors": [
+        "ADV_002"
+      ],
+      "characteristics": {
+        "averageAUM": "\u20b925-100 Crores",
+        "clientProfile": "Middle Class, Professionals",
+        "averageTicketSize": "\u20b91-10 Lakhs",
+        "contentTone": "Friendly/Educational"
+      }
+    },
+    "Silver": {
+      "advisors": [
+        "ADV_003"
+      ],
+      "characteristics": {
+        "averageAUM": "\u20b95-25 Crores",
+        "clientProfile": "New Investors, Small Savers",
+        "averageTicketSize": "\u20b950K-5 Lakhs",
+        "contentTone": "Simple/Educational"
+      }
+    }
+  },
+  "focusAreas": {
+    "Equity Markets": [
+      "ADV_001"
+    ],
+    "Portfolio Management": [
+      "ADV_001"
+    ],
+    "Tax Planning": [
+      "ADV_001"
+    ],
+    "Retirement Planning": [
+      "ADV_001"
+    ],
+    "Estate Planning": [
+      "ADV_001"
+    ],
+    "SIP Planning": [
+      "ADV_002"
+    ],
+    "Debt Planning": [],
+    "Insurance Planning": []
+  },
+  "demographics": {
+    "Young Professionals": [
+      "ADV_001"
+    ],
+    "HNI Clients": [
+      "ADV_001"
+    ],
+    "Business Owners": [
+      "ADV_001"
+    ],
+    "NRIs": [
+      "ADV_001"
+    ],
+    "Middle Class Families": [],
+    "Senior Citizens": [],
+    "Retirees": []
+  }
+}

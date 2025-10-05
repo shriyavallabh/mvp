@@ -1,0 +1,76 @@
+{
+  "session": "session_2025-09-17T21-08-34-000Z",
+  "total_designs": 9,
+  "advisors_processed": 3,
+  "design_types": [
+    "market_update_infographic",
+    "educational_carousel",
+    "motivational_wisdom"
+  ],
+  "designs": [
+    {
+      "advisor_id": "ADV_001",
+      "advisor_name": "Shruti Petkar",
+      "design_type": "market_update_infographic",
+      "filename": "ADV_001_status_design_1_20250917_212246.json",
+      "path": "output/session_2025-09-17T21-08-34-000Z/ADV_001_status_design_1_20250917_212246.json"
+    },
+    {
+      "advisor_id": "ADV_001",
+      "advisor_name": "Shruti Petkar",
+      "design_type": "educational_carousel",
+      "filename": "ADV_001_status_design_2_20250917_212246.json",
+      "path": "output/session_2025-09-17T21-08-34-000Z/ADV_001_status_design_2_20250917_212246.json"
+    },
+    {
+      "advisor_id": "ADV_001",
+      "advisor_name": "Shruti Petkar",
+      "design_type": "motivational_wisdom",
+      "filename": "ADV_001_status_design_3_20250917_212246.json",
+      "path": "output/session_2025-09-17T21-08-34-000Z/ADV_001_status_design_3_20250917_212246.json"
+    },
+    {
+      "advisor_id": "ADV_002",
+      "advisor_name": "Rajesh Kumar",
+      "design_type": "market_update_infographic",
+      "filename": "ADV_002_status_design_1_20250917_212246.json",
+      "path": "output/session_2025-09-17T21-08-34-000Z/ADV_002_status_design_1_20250917_212246.json"
+    },
+    {
+      "advisor_id": "ADV_002",
+      "advisor_name": "Rajesh Kumar",
+      "design_type": "educational_carousel",
+      "filename": "ADV_002_status_design_2_20250917_212246.json",
+      "path": "output/session_2025-09-17T21-08-34-000Z/ADV_002_status_design_2_20250917_212246.json"
+    },
+    {
+      "advisor_id": "ADV_002",
+      "advisor_name": "Rajesh Kumar",
+      "design_type": "motivational_wisdom",
+      "filename": "ADV_002_status_design_3_20250917_212246.json",
+      "path": "output/session_2025-09-17T21-08-34-000Z/ADV_002_status_design_3_20250917_212246.json"
+    },
+    {
+      "advisor_id": "ADV_003",
+      "advisor_name": "Priya Sharma",
+      "design_type": "market_update_infographic",
+      "filename": "ADV_003_status_design_1_20250917_212246.json",
+      "path": "output/session_2025-09-17T21-08-34-000Z/ADV_003_status_design_1_20250917_212246.json"
+    },
+    {
+      "advisor_id": "ADV_003",
+      "advisor_name": "Priya Sharma",
+      "design_type": "educational_carousel",
+      "filename": "ADV_003_status_design_2_20250917_212246.json",
+      "path": "output/session_2025-09-17T21-08-34-000Z/ADV_003_status_design_2_20250917_212246.json"
+    },
+    {
+      "advisor_id": "ADV_003",
+      "advisor_name": "Priya Sharma",
+      "design_type": "motivational_wisdom",
+      "filename": "ADV_003_status_design_3_20250917_212246.json",
+      "path": "output/session_2025-09-17T21-08-34-000Z/ADV_003_status_design_3_20250917_212246.json"
+    }
+  ],
+  "created_at": "2025-09-17T21:22:46.029372"
+}

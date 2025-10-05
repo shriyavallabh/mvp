@@ -1,0 +1,35 @@
+{
+  "sessionId": "session_1759401035790",
+  "timestamp": "2025-10-02T10:30:35.796Z",
+  "totalPosts": 12,
+  "advisorCount": 4,
+  "avgViralityScore": 9,
+  "minScore": 8,
+  "maxScore": 9.8,
+  "grammyCertification": "APPROVED ✅",
+  "directories": {
+    "json": "/Users/shriyavallabh/Desktop/mvp/output/session_1759401035790/linkedin/json",
+    "text": "/Users/shriyavallabh/Desktop/mvp/output/session_1759401035790/linkedin/text"
+  },
+  "files": {
+    "jsonCount": 4,
+    "textCount": 12
+  },
+  "topPosts": [
+    {
+      "id": "ADV001_VIRAL_003",
+      "score": 9.8,
+      "hook": "chai_economics"
+    },
+    {
+      "id": "ADV003_VIRAL_003",
+      "score": 9.8,
+      "hook": "chai_economics"
+    },
+    {
+      "id": "ADV001_VIRAL_002",
+      "score": 9.5,
+      "hook": "national_pride_wealth"
+    }
+  ]
+}

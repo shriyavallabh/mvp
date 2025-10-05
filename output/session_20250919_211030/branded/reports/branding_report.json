@@ -1,0 +1,247 @@
+{
+  "session_id": "20250919_211030",
+  "timestamp": "2025-09-19T22:59:54.624715",
+  "branding_summary": {
+    "total_advisors": 3,
+    "branded_content": {
+      "linkedin_posts": 3,
+      "whatsapp_messages": 3,
+      "image_instructions": 3
+    },
+    "brand_compliance": {
+      "logo_applied": 3,
+      "colors_applied": 3,
+      "tagline_inserted": 3
+    }
+  },
+  "advisor_details": [
+    {
+      "advisor_id": "ADV_001",
+      "advisor_name": "Rajesh Kumar",
+      "brand_name": "Kumar Wealth Advisors",
+      "content": {
+        "linkedin": {
+          "advisor_id": "ADV_001",
+          "advisor_name": "Rajesh Kumar",
+          "posts": [
+            {
+              "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_211030/linkedin/text/ADV_001_viral_post_1.txt",
+              "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_211030/branded/linkedin/ADV_001_branded_ADV_001_viral_post_1.txt",
+              "branding_applied": true
+            }
+          ]
+        },
+        "whatsapp": {
+          "advisor_id": "ADV_001",
+          "advisor_name": "Rajesh Kumar",
+          "messages": [
+            {
+              "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_211030/whatsapp/ADV_001_whatsapp_20250919_225115.txt",
+              "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_211030/branded/whatsapp/ADV_001_branded_ADV_001_whatsapp_20250919_225115.txt",
+              "branding_applied": true
+            }
+          ]
+        },
+        "images": {
+          "advisor_id": "ADV_001",
+          "advisor_name": "Rajesh Kumar",
+          "branding_instructions": {
+            "logo": {
+              "url": "https://drive.google.com/logo1.png",
+              "position": "bottom-right",
+              "size": "10% of image width",
+              "opacity": 0.9
+            },
+            "colors": {
+              "primary": "#2C3E50",
+              "secondary": "#E74C3C",
+              "application": {
+                "borders": "primary color, 5px width",
+                "text_overlays": "secondary color for accents",
+                "background_gradient": "subtle gradient using both colors"
+              }
+            },
+            "text_overlays": {
+              "brand_name": {
+                "text": "Kumar Wealth Advisors",
+                "position": "top-left",
+                "font": "bold, modern sans-serif",
+                "color": "#2C3E50"
+              },
+              "tagline": {
+                "text": "Your Partner in Wealth Creation",
+                "position": "bottom-center",
+                "font": "italic, elegant serif",
+                "color": "#E74C3C"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "advisor_id": "ADV_002",
+      "advisor_name": "Priya Sharma",
+      "brand_name": "Finance Plus",
+      "content": {
+        "linkedin": {
+          "advisor_id": "ADV_002",
+          "advisor_name": "Priya Sharma",
+          "posts": [
+            {
+              "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_211030/linkedin/text/ADV_002_viral_post_2.txt",
+              "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_211030/branded/linkedin/ADV_002_branded_ADV_002_viral_post_2.txt",
+              "branding_applied": true
+            }
+          ]
+        },
+        "whatsapp": {
+          "advisor_id": "ADV_002",
+          "advisor_name": "Priya Sharma",
+          "messages": [
+            {
+              "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_211030/whatsapp/ADV_002_whatsapp_20250919_225115.txt",
+              "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_211030/branded/whatsapp/ADV_002_branded_ADV_002_whatsapp_20250919_225115.txt",
+              "branding_applied": true
+            }
+          ]
+        },
+        "images": {
+          "advisor_id": "ADV_002",
+          "advisor_name": "Priya Sharma",
+          "branding_instructions": {
+            "logo": {
+              "url": "",
+              "position": "bottom-right",
+              "size": "10% of image width",
+              "opacity": 0.9
+            },
+            "colors": {
+              "primary": "#27AE60",
+              "secondary": "#F39C12",
+              "application": {
+                "borders": "primary color, 5px width",
+                "text_overlays": "secondary color for accents",
+                "background_gradient": "subtle gradient using both colors"
+              }
+            },
+            "text_overlays": {
+              "brand_name": {
+                "text": "Finance Plus",
+                "position": "top-left",
+                "font": "bold, modern sans-serif",
+                "color": "#27AE60"
+              },
+              "tagline": {
+                "text": "Simplifying Your Financial Journey",
+                "position": "bottom-center",
+                "font": "italic, elegant serif",
+                "color": "#F39C12"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "advisor_id": "ADV_003",
+      "advisor_name": "Amit Patel",
+      "brand_name": "WealthCare",
+      "content": {
+        "linkedin": {
+          "advisor_id": "ADV_003",
+          "advisor_name": "Amit Patel",
+          "posts": [
+            {
+              "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_211030/linkedin/text/ADV_003_viral_post_3.txt",
+              "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_211030/branded/linkedin/ADV_003_branded_ADV_003_viral_post_3.txt",
+              "branding_applied": true
+            }
+          ]
+        },
+        "whatsapp": {
+          "advisor_id": "ADV_003",
+          "advisor_name": "Amit Patel",
+          "messages": [
+            {
+              "original_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_211030/whatsapp/ADV_003_whatsapp_20250919_225115.txt",
+              "branded_file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_211030/branded/whatsapp/ADV_003_branded_ADV_003_whatsapp_20250919_225115.txt",
+              "branding_applied": true
+            }
+          ]
+        },
+        "images": {
+          "advisor_id": "ADV_003",
+          "advisor_name": "Amit Patel",
+          "branding_instructions": {
+            "logo": {
+              "url": "",
+              "position": "bottom-right",
+              "size": "10% of image width",
+              "opacity": 0.9
+            },
+            "colors": {
+              "primary": "#3498DB",
+              "secondary": "#95A5A6",
+              "application": {
+                "borders": "primary color, 5px width",
+                "text_overlays": "secondary color for accents",
+                "background_gradient": "subtle gradient using both colors"
+              }
+            },
+            "text_overlays": {
+              "brand_name": {
+                "text": "WealthCare",
+                "position": "top-left",
+                "font": "bold, modern sans-serif",
+                "color": "#3498DB"
+              },
+              "tagline": {
+                "text": "Building Wealth, Creating Trust",
+                "position": "bottom-center",
+                "font": "italic, elegant serif",
+                "color": "#95A5A6"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "logs": [
+    {
+      "timestamp": "2025-09-19T22:59:54.622882",
+      "advisor_id": "ADV_001",
+      "actions": [
+        "Applied logo: https://drive.google.com/logo1.png",
+        "Applied colors: {'primary': '#2C3E50', 'secondary': '#E74C3C'}",
+        "Inserted tagline: Your Partner in Wealth Creation",
+        "LinkedIn posts branded: 1",
+        "WhatsApp messages branded: 1"
+      ]
+    },
+    {
+      "timestamp": "2025-09-19T22:59:54.623742",
+      "advisor_id": "ADV_002",
+      "actions": [
+        "Applied logo: ",
+        "Applied colors: {'primary': '#27AE60', 'secondary': '#F39C12'}",
+        "Inserted tagline: Simplifying Your Financial Journey",
+        "LinkedIn posts branded: 1",
+        "WhatsApp messages branded: 1"
+      ]
+    },
+    {
+      "timestamp": "2025-09-19T22:59:54.624710",
+      "advisor_id": "ADV_003",
+      "actions": [
+        "Applied logo: ",
+        "Applied colors: {'primary': '#3498DB', 'secondary': '#95A5A6'}",
+        "Inserted tagline: Building Wealth, Creating Trust",
+        "LinkedIn posts branded: 1",
+        "WhatsApp messages branded: 1"
+      ]
+    }
+  ],
+  "warnings": []
+}

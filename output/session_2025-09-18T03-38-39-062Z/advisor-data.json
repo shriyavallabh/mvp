@@ -1,0 +1,216 @@
+{
+  "sessionId": "session_2025-09-18T03-38-39-062Z",
+  "timestamp": "2025-09-18T03:49:42.770Z",
+  "summary": {
+    "totalFetched": 3,
+    "validAdvisors": 3,
+    "dataQualityScore": 0.88,
+    "segments": {
+      "HNI": 1,
+      "Retail": 2,
+      "Corporate": 0
+    },
+    "subscriptions": {
+      "Premium": 1,
+      "Gold": 1,
+      "Standard": 1
+    }
+  },
+  "advisors": [
+    {
+      "id": "ARN_SHRUTI_001",
+      "name": "Shruti Petkar",
+      "phone": "919673758777",
+      "email": "shruti@finadvise.com",
+      "segment": "Retail",
+      "preferences": {
+        "contentTypes": [
+          "market_analysis",
+          "investment_tips",
+          "financial_planning"
+        ],
+        "frequency": "daily",
+        "channels": [
+          "whatsapp",
+          "linkedin"
+        ],
+        "language": "English",
+        "tone": "professional"
+      },
+      "branding": {
+        "logo": "",
+        "colors": {
+          "primary": "#4A90E2",
+          "secondary": "#7ED321"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "firmName": "Shruti Petkar Financial Advisory"
+      },
+      "compliance": {
+        "registrationNumber": "ARN_SHRUTI_001",
+        "allowedProducts": [
+          "mutual_funds",
+          "equity",
+          "debt_funds"
+        ],
+        "disclaimer": "Mutual fund investments are subject to market risks.",
+        "avoidTopics": []
+      },
+      "businessMetrics": {
+        "aum": "25 Crores",
+        "clientCount": 50,
+        "experience": "5+ years",
+        "specializations": []
+      },
+      "history": {
+        "lastContact": null,
+        "contentSent": [],
+        "onboardingDate": "2025-09-18"
+      },
+      "subscription": {
+        "plan": "Gold",
+        "status": "Active",
+        "autoApprove": false
+      },
+      "metadata": {
+        "source": "Google Sheets",
+        "lastUpdated": "2025-09-18T03:49:42.769Z",
+        "dataQuality": 0.85,
+        "sessionId": "session_2025-09-18T03-38-39-062Z"
+      }
+    },
+    {
+      "id": "ARN_VIDYADHAR_002",
+      "name": "Vidyadhar Petkar",
+      "phone": "918975758513",
+      "email": "vidyadhar@finadvise.com",
+      "segment": "HNI",
+      "preferences": {
+        "contentTypes": [
+          "investment_tips",
+          "market_analysis"
+        ],
+        "frequency": "daily",
+        "channels": [
+          "whatsapp",
+          "linkedin"
+        ],
+        "language": "English",
+        "tone": "friendly"
+      },
+      "branding": {
+        "logo": "",
+        "colors": {
+          "primary": "#FF6B35",
+          "secondary": "#004E89"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "firmName": "Vidyadhar Petkar Financial Advisory"
+      },
+      "compliance": {
+        "registrationNumber": "ARN_VIDYADHAR_002",
+        "allowedProducts": [
+          "mutual_funds",
+          "equity",
+          "debt_funds"
+        ],
+        "disclaimer": "Mutual fund investments are subject to market risks.",
+        "avoidTopics": []
+      },
+      "businessMetrics": {
+        "aum": "50 Crores",
+        "clientCount": 50,
+        "experience": "5+ years",
+        "specializations": []
+      },
+      "history": {
+        "lastContact": null,
+        "contentSent": [],
+        "onboardingDate": "2025-09-18"
+      },
+      "subscription": {
+        "plan": "Premium",
+        "status": "Active",
+        "autoApprove": false
+      },
+      "metadata": {
+        "source": "Google Sheets",
+        "lastUpdated": "2025-09-18T03:49:42.769Z",
+        "dataQuality": 0.85,
+        "sessionId": "session_2025-09-18T03-38-39-062Z"
+      }
+    },
+    {
+      "id": "ARN_SHRIYA_003",
+      "name": "Shriya Vallabh Petkar",
+      "phone": "919765071249",
+      "email": "shriya@finadvise.com",
+      "segment": "Retail",
+      "preferences": {
+        "contentTypes": [
+          "financial_education",
+          "investment_basics"
+        ],
+        "frequency": "daily",
+        "channels": [
+          "whatsapp",
+          "linkedin"
+        ],
+        "language": "English",
+        "tone": "educational"
+      },
+      "branding": {
+        "logo": "",
+        "colors": {
+          "primary": "#8B5CF6",
+          "secondary": "#EC4899"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "firmName": "Shriya Vallabh Petkar Financial Advisory"
+      },
+      "compliance": {
+        "registrationNumber": "ARN_SHRIYA_003",
+        "allowedProducts": [
+          "mutual_funds",
+          "equity",
+          "debt_funds"
+        ],
+        "disclaimer": "Mutual fund investments are subject to market risks.",
+        "avoidTopics": []
+      },
+      "businessMetrics": {
+        "aum": "10 Crores",
+        "clientCount": 50,
+        "experience": "5+ years",
+        "specializations": []
+      },
+      "history": {
+        "lastContact": null,
+        "contentSent": [],
+        "onboardingDate": "2025-09-18"
+      },
+      "subscription": {
+        "plan": "Standard",
+        "status": "Active",
+        "autoApprove": false
+      },
+      "metadata": {
+        "source": "Google Sheets",
+        "lastUpdated": "2025-09-18T03:49:42.769Z",
+        "dataQuality": 0.85,
+        "sessionId": "session_2025-09-18T03-38-39-062Z"
+      }
+    }
+  ],
+  "validation": {
+    "total": 3,
+    "valid": 3,
+    "incomplete": [],
+    "missing": []
+  },
+  "metadata": {
+    "source": "Google Sheets",
+    "fetchDuration": "2s",
+    "processedAt": "2025-09-18T03:49:42.770Z"
+  }
+}

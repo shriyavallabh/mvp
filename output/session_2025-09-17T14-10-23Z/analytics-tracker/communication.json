@@ -1,0 +1,14 @@
+{
+  "from": "analytics-tracker",
+  "to": [
+    "feedback-processor",
+    "learning-agent"
+  ],
+  "timestamp": "2025-09-17T19:51:36.332963",
+  "message": "Analytics tracking completed",
+  "data_location": "output/session_2025-09-17T14-10-23Z/analytics-tracker/analytics_report.json",
+  "key_metrics": {
+    "total_reach": 3252,
+    "avg_performance": 53.79
+  }
+}

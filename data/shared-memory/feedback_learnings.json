@@ -1,0 +1,196 @@
+{
+  "feedbackLearnings": {
+    "sessionId": "session_1758130725",
+    "timestamp": "2025-09-18T01:20:00.000Z",
+    "version": "1.0.0",
+
+    "criticalLearnings": {
+      "compliance": {
+        "mandatoryElements": {
+          "ARN": {
+            "required": true,
+            "format": "ARN-123456",
+            "placement": "All content",
+            "automationRule": "Inject in generation phase"
+          },
+          "SEBIDisclaimer": {
+            "required": true,
+            "text": "Mutual fund investments are subject to market risks, read all scheme related documents carefully",
+            "applicableTo": "MF content",
+            "automationRule": "Add to investment content"
+          },
+          "adviceDisclaimer": {
+            "required": true,
+            "text": "For educational purposes only, not investment advice",
+            "applicableTo": "All financial content",
+            "automationRule": "Append to all posts"
+          }
+        }
+      },
+
+      "quality": {
+        "minimumScores": {
+          "overall": 0.70,
+          "engagement": 0.60,
+          "personalization": 0.70,
+          "clarity": 0.75
+        },
+        "successFactors": {
+          "hooks": ["Questions", "Statistics", "Pain points"],
+          "emotion": ["Success stories", "Relatable scenarios", "Aspirational content"],
+          "cta": ["Single clear action", "Urgency element", "Value proposition"]
+        }
+      }
+    },
+
+    "segmentPreferences": {
+      "premium": {
+        "topics": {
+          "high": ["Tech analysis", "Fed policy", "Real estate"],
+          "low": ["Basic investing", "Simple tips"]
+        },
+        "style": {
+          "tone": "Professional, sophisticated",
+          "data": "Heavy data usage",
+          "length": "200-250 words"
+        },
+        "timing": {
+          "best": "08:00",
+          "good": ["10:00", "15:00"],
+          "avoid": ["12:00-14:00", "After 20:00"]
+        }
+      },
+
+      "gold": {
+        "topics": {
+          "high": ["Tax planning", "SIP strategies", "Goal setting"],
+          "low": ["Complex derivatives", "Day trading"]
+        },
+        "style": {
+          "tone": "Educational, friendly",
+          "data": "Moderate data with examples",
+          "length": "150-200 words"
+        },
+        "timing": {
+          "best": "10:00",
+          "good": ["09:00", "18:00"],
+          "avoid": ["13:00-15:00"]
+        }
+      },
+
+      "silver": {
+        "topics": {
+          "high": ["Basics", "Apps", "Success stories", "Tips"],
+          "low": ["Technical analysis", "Complex products"]
+        },
+        "style": {
+          "tone": "Simple, encouraging",
+          "data": "Minimal, focus on stories",
+          "length": "100-150 words"
+        },
+        "timing": {
+          "best": "18:00",
+          "good": ["10:00", "20:00"],
+          "avoid": ["Early morning"]
+        }
+      }
+    },
+
+    "contentPatterns": {
+      "successful": {
+        "characteristics": [
+          "Clear value proposition",
+          "Strong opening hook",
+          "Personalized greeting",
+          "Single focused message",
+          "Actionable takeaway"
+        ],
+        "examples": ["GOLD_002_TAX", "Status images"],
+        "replicationStrategy": "Use as templates for future content"
+      },
+
+      "failed": {
+        "characteristics": [
+          "Missing compliance elements",
+          "Weak or no hook",
+          "Generic messaging",
+          "Multiple competing CTAs",
+          "Technical jargon"
+        ],
+        "examples": ["WhatsApp messages", "SILVER_005_TIPS"],
+        "avoidanceStrategy": "Flag and regenerate similar patterns"
+      }
+    },
+
+    "systemOptimizations": {
+      "generation": {
+        "promptEnhancements": [
+          "Include ARN in system prompt",
+          "Add compliance requirements upfront",
+          "Specify quality thresholds",
+          "Include segment preferences"
+        ]
+      },
+
+      "validation": {
+        "preDistribution": [
+          "Compliance check (100% required)",
+          "Quality threshold (0.70 minimum)",
+          "Personalization check",
+          "Character limit validation"
+        ]
+      },
+
+      "distribution": {
+        "routing": {
+          "compliant": "Immediate distribution",
+          "nonCompliant": "Block and fix",
+          "lowQuality": "Manual review queue"
+        }
+      }
+    },
+
+    "futurePrevention": {
+      "automatedFixes": {
+        "compliance": {
+          "implementation": "Auto-inject in templates",
+          "validation": "Pre-generation check",
+          "fallback": "Post-generation injection"
+        },
+        "quality": {
+          "implementation": "Threshold-based regeneration",
+          "validation": "Multi-stage scoring",
+          "fallback": "Human review"
+        }
+      },
+
+      "processImprovements": {
+        "immediate": [
+          "Update all generation prompts",
+          "Create compliance template library",
+          "Implement validation gates"
+        ],
+        "planned": [
+          "ML-based quality prediction",
+          "Automated A/B testing",
+          "Performance tracking dashboard"
+        ]
+      }
+    },
+
+    "performanceTargets": {
+      "nextCycle": {
+        "compliance": 100,
+        "quality": 0.75,
+        "distribution": 100,
+        "engagement": 10
+      },
+      "monthly": {
+        "compliance": 100,
+        "quality": 0.80,
+        "distribution": 100,
+        "engagement": 15
+      }
+    }
+  }
+}

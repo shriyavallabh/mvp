@@ -1,0 +1,149 @@
+{
+  "phase": "Phase_3_Status_Images",
+  "timestamp": "2025-09-17T23:48:50.018758",
+  "status": "completed",
+  "output_directory": "/Users/shriyavallabh/Desktop/mvp/output/session_1758130725/images",
+  "images_metadata": {
+    "timestamp": "2025-09-17T23:48:48.233415",
+    "sessionId": "session_1758130725",
+    "images_created": [
+      {
+        "advisorId": "ADV_001",
+        "advisorName": "Shruti Petkar",
+        "segment": "Premium",
+        "images": [
+          {
+            "type": "market_update",
+            "filename": "ADV_001_market_update_20250917_234848.png"
+          },
+          {
+            "type": "educational",
+            "filename": "ADV_001_educational_20250917_234848.png"
+          },
+          {
+            "type": "motivational",
+            "filename": "ADV_001_motivational_20250917_234848.png"
+          },
+          {
+            "type": "tax_tips",
+            "filename": "ADV_001_tax_tips_20250917_234848.png"
+          },
+          {
+            "type": "checklist",
+            "filename": "ADV_001_checklist_20250917_234848.png"
+          },
+          {
+            "type": "sector_spotlight",
+            "filename": "ADV_001_sector_spotlight_20250917_234848.png"
+          }
+        ]
+      },
+      {
+        "advisorId": "ADV_002",
+        "advisorName": "Rajesh Kumar",
+        "segment": "Gold",
+        "images": [
+          {
+            "type": "market_update",
+            "filename": "ADV_002_market_update_20250917_234848.png"
+          },
+          {
+            "type": "educational",
+            "filename": "ADV_002_educational_20250917_234848.png"
+          },
+          {
+            "type": "motivational",
+            "filename": "ADV_002_motivational_20250917_234849.png"
+          },
+          {
+            "type": "tax_tips",
+            "filename": "ADV_002_tax_tips_20250917_234849.png"
+          },
+          {
+            "type": "checklist",
+            "filename": "ADV_002_checklist_20250917_234849.png"
+          },
+          {
+            "type": "sector_spotlight",
+            "filename": "ADV_002_sector_spotlight_20250917_234849.png"
+          }
+        ]
+      },
+      {
+        "advisorId": "ADV_003",
+        "advisorName": "Priya Sharma",
+        "segment": "Silver",
+        "images": [
+          {
+            "type": "market_update",
+            "filename": "ADV_003_market_update_20250917_234849.png"
+          },
+          {
+            "type": "educational",
+            "filename": "ADV_003_educational_20250917_234849.png"
+          },
+          {
+            "type": "motivational",
+            "filename": "ADV_003_motivational_20250917_234849.png"
+          },
+          {
+            "type": "tax_tips",
+            "filename": "ADV_003_tax_tips_20250917_234849.png"
+          },
+          {
+            "type": "checklist",
+            "filename": "ADV_003_checklist_20250917_234849.png"
+          },
+          {
+            "type": "sector_spotlight",
+            "filename": "ADV_003_sector_spotlight_20250917_234849.png"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "ADV_001": {
+        "total_images": 6,
+        "types": [
+          "market_update",
+          "educational",
+          "motivational",
+          "tax_tips",
+          "checklist",
+          "sector_spotlight"
+        ]
+      },
+      "ADV_002": {
+        "total_images": 6,
+        "types": [
+          "market_update",
+          "educational",
+          "motivational",
+          "tax_tips",
+          "checklist",
+          "sector_spotlight"
+        ]
+      },
+      "ADV_003": {
+        "total_images": 6,
+        "types": [
+          "market_update",
+          "educational",
+          "motivational",
+          "tax_tips",
+          "checklist",
+          "sector_spotlight"
+        ]
+      }
+    }
+  },
+  "ready_for_gemini": true,
+  "content_types": {
+    "market_updates": "Real-time market data visualization",
+    "educational": "Segment-specific learning content",
+    "motivational": "Investment motivation quotes",
+    "tax_tips": "Tax saving strategies",
+    "checklists": "Interactive investment checklists",
+    "sector_spotlight": "IT sector performance analysis"
+  }
+}

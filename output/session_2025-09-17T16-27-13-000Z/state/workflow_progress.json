@@ -1,0 +1,120 @@
+{
+  "session_id": "session_2025-09-17T16-27-13-000Z",
+  "workflow_phases": {
+    "phase_0_infrastructure": {
+      "name": "Infrastructure Setup",
+      "status": "completed",
+      "started_at": "2025-09-17T16:27:13.000Z",
+      "completed_at": "2025-09-17T16:27:13.000Z",
+      "agents": ["mcp-coordinator", "state-manager", "communication-bus"],
+      "progress_percentage": 100
+    },
+    "phase_1_data_collection": {
+      "name": "Data Collection",
+      "status": "ready",
+      "started_at": null,
+      "completed_at": null,
+      "agents": ["advisor-data-manager", "market-intelligence"],
+      "progress_percentage": 0,
+      "dependencies_met": true
+    },
+    "phase_2_analysis": {
+      "name": "Analysis & Segmentation",
+      "status": "waiting",
+      "started_at": null,
+      "completed_at": null,
+      "agents": ["segment-analyzer"],
+      "progress_percentage": 0,
+      "dependencies_met": false,
+      "waiting_for": ["phase_1_data_collection"]
+    },
+    "phase_3_content_generation": {
+      "name": "Content Generation",
+      "status": "waiting",
+      "started_at": null,
+      "completed_at": null,
+      "agents": ["linkedin-post-generator", "whatsapp-message-generator", "image-generator"],
+      "progress_percentage": 0,
+      "dependencies_met": false,
+      "waiting_for": ["phase_2_analysis"]
+    },
+    "phase_4_enhancement": {
+      "name": "Brand Enhancement",
+      "status": "waiting",
+      "started_at": null,
+      "completed_at": null,
+      "agents": ["brand-customizer"],
+      "progress_percentage": 0,
+      "dependencies_met": false,
+      "waiting_for": ["phase_3_content_generation"]
+    },
+    "phase_5_validation": {
+      "name": "Quality & Compliance Validation",
+      "status": "waiting",
+      "started_at": null,
+      "completed_at": null,
+      "agents": ["compliance-validator", "quality-scorer", "fatigue-checker"],
+      "progress_percentage": 0,
+      "dependencies_met": false,
+      "waiting_for": ["phase_4_enhancement"]
+    },
+    "phase_6_distribution": {
+      "name": "Content Distribution",
+      "status": "waiting",
+      "started_at": null,
+      "completed_at": null,
+      "agents": ["distribution-manager"],
+      "progress_percentage": 0,
+      "dependencies_met": false,
+      "waiting_for": ["phase_5_validation"]
+    }
+  },
+  "overall_progress": {
+    "current_phase": "phase_1_data_collection",
+    "total_phases": 6,
+    "completed_phases": 1,
+    "progress_percentage": 16.67,
+    "estimated_completion_time": null,
+    "bottlenecks": [],
+    "critical_path": [
+      "advisor-data-manager",
+      "market-intelligence",
+      "segment-analyzer",
+      "content-generation-parallel",
+      "brand-customizer",
+      "validation-parallel",
+      "distribution-manager"
+    ]
+  },
+  "agent_readiness": {
+    "ready_to_start": ["advisor-data-manager", "market-intelligence"],
+    "waiting_for_dependencies": [
+      "segment-analyzer",
+      "linkedin-post-generator",
+      "whatsapp-message-generator",
+      "image-generator",
+      "brand-customizer",
+      "compliance-validator",
+      "quality-scorer",
+      "fatigue-checker",
+      "distribution-manager"
+    ]
+  },
+  "synchronization_points": [
+    {
+      "name": "data_collection_complete",
+      "agents": ["advisor-data-manager", "market-intelligence"],
+      "status": "pending"
+    },
+    {
+      "name": "content_generation_complete",
+      "agents": ["linkedin-post-generator", "whatsapp-message-generator", "image-generator"],
+      "status": "pending"
+    },
+    {
+      "name": "validation_complete",
+      "agents": ["compliance-validator", "quality-scorer", "fatigue-checker"],
+      "status": "pending"
+    }
+  ]
+}

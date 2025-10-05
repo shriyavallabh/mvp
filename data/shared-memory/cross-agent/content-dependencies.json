@@ -1,0 +1,76 @@
+{
+  "sessionId": "mcp_session_2025-09-17T22-05-42",
+  "dependencyGraph": {
+    "advisor-data-manager": {
+      "dependencies": [],
+      "dependents": ["segment-analyzer"],
+      "outputs": ["advisor-context", "segment-definitions", "performance-baselines"],
+      "status": "pending"
+    },
+    "market-intelligence": {
+      "dependencies": [],
+      "dependents": ["segment-analyzer"],
+      "outputs": ["market-context", "trend-analysis", "strategic-insights"],
+      "status": "pending"
+    },
+    "segment-analyzer": {
+      "dependencies": ["advisor-data-manager", "market-intelligence"],
+      "dependents": ["linkedin-post-generator", "whatsapp-message-creator"],
+      "outputs": ["segment-definitions", "content-strategies", "target-profiles"],
+      "status": "pending"
+    },
+    "linkedin-post-generator": {
+      "dependencies": ["segment-analyzer"],
+      "dependents": ["image-generator", "compliance-validator", "quality-scorer"],
+      "outputs": ["linkedin-content", "engagement-data", "posting-schedule"],
+      "status": "pending"
+    },
+    "whatsapp-message-creator": {
+      "dependencies": ["segment-analyzer"],
+      "dependents": ["image-generator", "compliance-validator", "quality-scorer"],
+      "outputs": ["whatsapp-content", "message-templates", "delivery-schedule"],
+      "status": "pending"
+    },
+    "image-generator": {
+      "dependencies": ["linkedin-post-generator", "whatsapp-message-creator"],
+      "dependents": ["brand-customizer"],
+      "outputs": ["visual-content", "image-metadata", "brand-assets"],
+      "status": "pending"
+    },
+    "brand-customizer": {
+      "dependencies": ["image-generator"],
+      "dependents": ["compliance-validator", "quality-scorer", "distribution-manager"],
+      "outputs": ["branded-content", "final-assets", "brand-compliance"],
+      "status": "pending"
+    },
+    "compliance-validator": {
+      "dependencies": ["linkedin-post-generator", "whatsapp-message-creator", "brand-customizer"],
+      "dependents": ["distribution-manager"],
+      "outputs": ["compliance-status", "validation-results", "approval-workflow"],
+      "status": "pending"
+    },
+    "quality-scorer": {
+      "dependencies": ["linkedin-post-generator", "whatsapp-message-creator", "brand-customizer"],
+      "dependents": ["distribution-manager"],
+      "outputs": ["quality-metrics", "improvement-plans", "content-rankings"],
+      "status": "pending"
+    },
+    "distribution-manager": {
+      "dependencies": ["compliance-validator", "quality-scorer", "brand-customizer"],
+      "dependents": [],
+      "outputs": ["distribution-results", "performance-analytics", "final-metrics"],
+      "status": "pending"
+    }
+  },
+  "executionOrder": [
+    "advisor-data-manager",
+    "market-intelligence",
+    "segment-analyzer",
+    ["linkedin-post-generator", "whatsapp-message-creator"],
+    "image-generator",
+    "brand-customizer",
+    ["compliance-validator", "quality-scorer"],
+    "distribution-manager"
+  ],
+  "timestamp": "2025-09-17T22:05:42Z"
+}

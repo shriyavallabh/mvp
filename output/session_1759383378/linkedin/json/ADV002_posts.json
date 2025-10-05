@@ -1,0 +1,59 @@
+{
+  "advisorId": "ADV002",
+  "advisorName": "Vidyadhar Petkar",
+  "segment": "Gold",
+  "totalPosts": 2,
+  "averageVirality": "9.1",
+  "posts": [
+    {
+      "postId": "VIRAL_ADV002_001",
+      "viralFormula": "RANADE_ANALOGY",
+      "hookType": "sip_behavioral_shift",
+      "title": "",
+      "content": "₹27,269 crores.\n\nThat's how much Indians invested through SIPs in June 2025.\n\nMore than the entire annual budget of Goa!\n\nBut here's the real story:\n\nIn 2020, 40% of SIP investors withdrew within 1 year.\n(Panic sellers everywhere)\n\nIn 2025, 30% hold their SIPs for 5+ years.\n(Patient wealth builders)\n\nThink of it like this:\n\nYour grandfather bought gold.\nYour father bought property.\nYou're building portfolios.\n\nThe mindset shift?\nFrom \"I need returns tomorrow\" to \"I'm building generational wealth\"\n\nThe ₹906 crore invested DAILY isn't just money.\nIt's financial discipline becoming a cultural movement.\n\nAre you part of the revolution?\n\n3 steps to join:\n1️⃣ Start with ₹1,000/month (yes, that's enough)\n2️⃣ Choose equity funds with 5+ year track record\n3️⃣ Never stop, especially during corrections\n\nRBI just upgraded GDP growth to 6.8%.\nInflation at 2.6%.\n\nIndia's growth story is real.\nYour SIP is your ticket.\n\nYour Financial Growth Partner\nARN: ARN-138924",
+      "hashtags": [
+        "#SIPRevolution",
+        "#MutualFunds",
+        "#WealthCreation",
+        "#FinancialDiscipline",
+        "#IndiaGrowth"
+      ],
+      "viralityScore": 9.3,
+      "viralityBreakdown": {
+        "hookStrength": 9.5,
+        "emotionalImpact": 9,
+        "dataSpecificity": 9.4,
+        "cta": 9.2,
+        "formula": "(Analogy × Cultural Shift) + (Data × Pride) = 9.3"
+      },
+      "characterCount": 1015,
+      "estimatedReach": "6000-18000",
+      "targetAudience": "Professionals, Salaried Class, SIP Investors"
+    },
+    {
+      "postId": "VIRAL_ADV002_002",
+      "viralFormula": "KAMATH_INSIGHT",
+      "hookType": "tax_deadline_urgency",
+      "title": "",
+      "content": "October started.\n\n6 months to March 31.\n\nHere's the math nobody talks about:\n\nSave ₹46,800 in taxes through 80C.\nOR\nBuy the new iPhone 16.\n\nYour call.\n\nBut wait, there's more.\n\n₹46,800 invested today in ELSS (3-year lock-in)\nAt 12% CAGR = ₹66,600 after 3 years\n\nTax saved: ₹46,800\nWealth created: ₹66,600\nTotal impact: ₹1,13,400\n\nThat iPhone? Still worth ₹40,000 (if you're lucky)\n\nThe real secret?\n\nMost advisors stop at 80C.\nSmart ones add:\n→ 80CCD(1B): Extra ₹50K through NPS\n→ 80D: ₹25K-50K health insurance deduction\n\nTotal deduction possible: ₹2.25 lakhs\nTax saving at 30%: ₹67,500\n\nAs a professional earning ₹15L+, this compounds to ₹10L+ over 10 years.\n\nStart now or regret in March.\n\nYour choice.\n\nYour Financial Growth Partner\nARN: ARN-138924",
+      "hashtags": [
+        "#TaxPlanning",
+        "#ELSS",
+        "#FinancialPlanning",
+        "#Section80C",
+        "#SmartInvesting"
+      ],
+      "viralityScore": 8.9,
+      "viralityBreakdown": {
+        "hookStrength": 9,
+        "emotionalImpact": 8.5,
+        "dataSpecificity": 9.2,
+        "cta": 9,
+        "formula": "(Urgency × Comparison) + (Math × Regret) = 8.9"
+      },
+      "characterCount": 892,
+      "estimatedReach": "5000-12000",
+      "targetAudience": "Salaried Professionals, Tax Conscious Investors"
+    }
+  ]
+}

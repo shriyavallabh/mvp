@@ -1,0 +1,7 @@
+WhatsApp Message Analysis:
+- Character Count: 261/400
+- Emoji Count: 5
+- Message Type: market_update
+- Real Market Data: Sensex 82,690, Realty sector
+- Call-to-Action: PORTFOLIO/REBALANCE
+- Mobile Optimized: Yes (short lines, clear sections)

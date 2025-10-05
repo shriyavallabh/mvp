@@ -1,0 +1,262 @@
+[
+  {
+    "advisorId": "ARN_SHRUTI_001",
+    "personalInfo": {
+      "name": "Shruti Petkar",
+      "phone": "91919673758777",
+      "email": "shruti@finadvise.com",
+      "arn": "ARN_SHRUTI_001"
+    },
+    "businessInfo": {
+      "firmName": "Shruti Petkar",
+      "experience": "#4A90E2,#7ED321",
+      "aum": "professional",
+      "clientCount": "middle",
+      "specializations": [
+        "medium"
+      ],
+      "certifications": [
+        "balanced"
+      ]
+    },
+    "segmentInfo": {
+      "primarySegment": "active",
+      "clientDemographics": [
+        "monthly"
+      ],
+      "focusAreas": [
+        "31/12/2025"
+      ],
+      "riskProfile": "manual",
+      "averageInvestment": "TRUE"
+    },
+    "customization": {
+      "brandName": "Shruti Petkar",
+      "logoUrl": "",
+      "brandColors": {
+        "primary": "#1A73E8",
+        "secondary": "#34A853"
+      },
+      "tagline": "Building Wealth, Creating Trust",
+      "disclaimer": "Mutual fund investments are subject to market risks."
+    },
+    "preferences": {
+      "contentTone": "Professional",
+      "postingTime": "9:00 AM",
+      "languages": [
+        "English"
+      ],
+      "avoidTopics": [],
+      "autoApprove": false,
+      "sendFrequency": "daily"
+    },
+    "subscription": {
+      "plan": "Standard",
+      "status": "Active",
+      "validUntil": "2026-09-19T05:29:13.501Z",
+      "paymentStatus": "Paid",
+      "onboardingDate": "2025-09-19T05:29:13.502Z"
+    },
+    "metadata": {
+      "lastUpdated": "2025-09-19T05:29:13.502Z",
+      "dataSource": "Google Sheets",
+      "rowNumber": 2
+    }
+  },
+  {
+    "advisorId": "ARN_VIDYADHAR_002",
+    "personalInfo": {
+      "name": "Vidyadhar Petkar",
+      "phone": "91918975758513",
+      "email": "vidyadhar@finadvise.com",
+      "arn": "ARN_VIDYADHAR_002"
+    },
+    "businessInfo": {
+      "firmName": "Vidyadhar Petkar",
+      "experience": "#FF6B35,#004E89",
+      "aum": "friendly",
+      "clientCount": "affluent",
+      "specializations": [
+        "high"
+      ],
+      "certifications": [
+        "investment"
+      ]
+    },
+    "segmentInfo": {
+      "primarySegment": "active",
+      "clientDemographics": [],
+      "focusAreas": [],
+      "riskProfile": "Moderate",
+      "averageInvestment": "FALSE"
+    },
+    "customization": {
+      "brandName": "Vidyadhar Petkar",
+      "logoUrl": "",
+      "brandColors": {
+        "primary": "#1A73E8",
+        "secondary": "#34A853"
+      },
+      "tagline": "Building Wealth, Creating Trust",
+      "disclaimer": "Mutual fund investments are subject to market risks."
+    },
+    "preferences": {
+      "contentTone": "Professional",
+      "postingTime": "9:00 AM",
+      "languages": [
+        "English"
+      ],
+      "avoidTopics": [],
+      "autoApprove": false,
+      "sendFrequency": "daily"
+    },
+    "subscription": {
+      "plan": "Standard",
+      "status": "Active",
+      "validUntil": "2026-09-19T05:29:13.502Z",
+      "paymentStatus": "Paid",
+      "onboardingDate": "2025-09-19T05:29:13.502Z"
+    },
+    "metadata": {
+      "lastUpdated": "2025-09-19T05:29:13.502Z",
+      "dataSource": "Google Sheets",
+      "rowNumber": 3
+    }
+  },
+  {
+    "advisorId": "ARN_SHRIYA_003",
+    "personalInfo": {
+      "name": "Shriya Vallabh Petkar",
+      "phone": "91919765071249",
+      "email": "shriya@finadvise.com",
+      "arn": "ARN_SHRIYA_003"
+    },
+    "businessInfo": {
+      "firmName": "Shriya Vallabh Petkar",
+      "experience": "#8B5CF6,#EC4899",
+      "aum": "educational",
+      "clientCount": "young",
+      "specializations": [
+        "low"
+      ],
+      "certifications": [
+        "education"
+      ]
+    },
+    "segmentInfo": {
+      "primarySegment": "active",
+      "clientDemographics": [
+        "admin"
+      ],
+      "focusAreas": [
+        "all"
+      ],
+      "riskProfile": "Moderate",
+      "averageInvestment": "FALSE"
+    },
+    "customization": {
+      "brandName": "Shriya Vallabh Petkar",
+      "logoUrl": "",
+      "brandColors": {
+        "primary": "#1A73E8",
+        "secondary": "#34A853"
+      },
+      "tagline": "Building Wealth, Creating Trust",
+      "disclaimer": "Mutual fund investments are subject to market risks."
+    },
+    "preferences": {
+      "contentTone": "Professional",
+      "postingTime": "9:00 AM",
+      "languages": [
+        "English"
+      ],
+      "avoidTopics": [],
+      "autoApprove": false,
+      "sendFrequency": "daily"
+    },
+    "subscription": {
+      "plan": "Standard",
+      "status": "Active",
+      "validUntil": "2026-09-19T05:29:13.502Z",
+      "paymentStatus": "Paid",
+      "onboardingDate": "2025-09-19T05:29:13.502Z"
+    },
+    "metadata": {
+      "lastUpdated": "2025-09-19T05:29:13.502Z",
+      "dataSource": "Google Sheets",
+      "rowNumber": 4
+    }
+  },
+  {
+    "advisorId": "ADV_004",
+    "personalInfo": {
+      "name": "Mr. Tranquil Veda",
+      "phone": "919022810769",
+      "email": "tranquil.veda@finadvise.com",
+      "arn": "ADV_004"
+    },
+    "businessInfo": {
+      "firmName": "Tranquil Wealth Advisory",
+      "experience": "7 years",
+      "aum": "25 Crores",
+      "clientCount": "75",
+      "specializations": [
+        "Portfolio Management",
+        "Retirement Planning",
+        "Tax Advisory"
+      ],
+      "certifications": [
+        "CFP",
+        "CFA"
+      ]
+    },
+    "segmentInfo": {
+      "primarySegment": "Gold",
+      "clientDemographics": [
+        "Young Professionals",
+        "Senior Citizens"
+      ],
+      "focusAreas": [
+        "Equity",
+        "Debt",
+        "Mutual Funds"
+      ],
+      "riskProfile": "Balanced",
+      "averageInvestment": "15 Lakhs"
+    },
+    "customization": {
+      "brandName": "Tranquil Wealth Advisory",
+      "logoUrl": "",
+      "brandColors": {
+        "primary": "#2E7D32",
+        "secondary": "#66BB6A"
+      },
+      "tagline": "Creating Peaceful Wealth Journey",
+      "disclaimer": "Mutual fund investments are subject to market risks. Please read all scheme-related documents carefully."
+    },
+    "preferences": {
+      "contentTone": "Educational",
+      "postingTime": "08:30",
+      "languages": [
+        "English",
+        "Hindi",
+        "Marathi"
+      ],
+      "avoidTopics": [],
+      "autoApprove": true,
+      "sendFrequency": "daily"
+    },
+    "subscription": {
+      "plan": "Gold",
+      "status": "Active",
+      "validUntil": "2026-09-18",
+      "paymentStatus": "Paid",
+      "onboardingDate": "2025-09-18"
+    },
+    "metadata": {
+      "lastUpdated": "2025-09-19T05:29:13.502Z",
+      "dataSource": "Google Sheets",
+      "rowNumber": 5
+    }
+  }
+]

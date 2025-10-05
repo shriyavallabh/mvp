@@ -1,0 +1,43 @@
+{
+  "advisor": "Shruti Petkar",
+  "segment": "Retail_Gold",
+  "messages": [
+    {
+      "category": "market_insights",
+      "text": "\u2600\ufe0f Good morning Shruti! Markets showing steady momentum with DII support. IT sector strength + RBI easing cycle ahead = opportunities. Tax planning window: 6 months to optimize wealth creation! \ud83d\udcca\u2728\n\nReply 'PLAN'\nARN_SHRUTI_001",
+      "character_count": 225,
+      "priority": "high",
+      "timing": "morning"
+    },
+    {
+      "category": "systematic_investing",
+      "text": "\ud83d\udca1 Shruti, SIP strategy insight: Market volatility creates rupee-cost averaging advantage! Your disciplined approach building wealth steadily. Continue the momentum - success demands consistency! \ud83c\udfaf\ud83d\udcc8\n\nARN_SHRUTI_001",
+      "character_count": 213,
+      "priority": "medium",
+      "timing": "anytime"
+    },
+    {
+      "category": "goal_planning",
+      "text": "\ud83c\udfaf Goal alignment Shruti: 6 months for tax year-end - perfect for portfolio review! ELSS for tax + growth, balanced funds for stability. Strategic planning secures financial goals! Ready? \ud83d\udcbc\u2728\n\nARN_SHRUTI_001",
+      "character_count": 205,
+      "priority": "high",
+      "timing": "afternoon"
+    },
+    {
+      "category": "tax_efficiency",
+      "text": "\ud83d\udccb Tax efficiency Shruti: 80C limit \u20b91.5L, ELSS delivers equity upside + tax benefit! Banking sector positioned for rate cuts. Strategic moves needed for wealth optimization! \ud83c\udf1f\ud83d\udcb0\n\nARN_SHRUTI_001",
+      "character_count": 192,
+      "priority": "urgent",
+      "timing": "anytime"
+    },
+    {
+      "category": "smart_investing",
+      "text": "\ud83e\udde0 Investment wisdom Shruti: Market confidence 72%, selective participation trend. Your balanced approach perfectly positioned! Banking benefits from easing cycle. Stay disciplined, stay ahead! \ud83d\udcca\ud83d\udcaa\n\nARN_SHRUTI_001",
+      "character_count": 211,
+      "priority": "medium",
+      "timing": "evening"
+    }
+  ],
+  "timestamp": "2025-09-18T09-32-12-000Z",
+  "session_id": "session_2025-09-18T03-38-39-062Z"
+}

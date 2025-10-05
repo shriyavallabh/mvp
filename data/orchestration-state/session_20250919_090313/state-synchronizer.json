@@ -1,0 +1,135 @@
+{
+  "sessionId": "session_20250919_090313",
+  "synchronization": {
+    "enabled": true,
+    "mode": "real-time",
+    "interval": 30000,
+    "lastSync": "2025-09-19T09:03:13.000Z",
+    "syncCounter": 0,
+    "failedSyncs": 0
+  },
+  "agentStates": {
+    "advisor-data-manager": {
+      "status": "pending",
+      "progress": 0,
+      "lastUpdate": null,
+      "dependencies": [],
+      "readyToStart": true,
+      "blockers": [],
+      "outputs": [],
+      "metrics": {
+        "startTime": null,
+        "endTime": null,
+        "duration": null,
+        "memoryUsage": null,
+        "errorCount": 0
+      }
+    },
+    "market-intelligence": {
+      "status": "pending",
+      "progress": 0,
+      "lastUpdate": null,
+      "dependencies": ["advisor-data-manager"],
+      "readyToStart": false,
+      "blockers": ["waiting-for-advisor-data-manager"],
+      "outputs": [],
+      "metrics": {
+        "startTime": null,
+        "endTime": null,
+        "duration": null,
+        "memoryUsage": null,
+        "errorCount": 0
+      }
+    },
+    "gemini-image-generator": {
+      "status": "pending",
+      "progress": 0,
+      "lastUpdate": null,
+      "dependencies": ["advisor-data-manager", "market-intelligence"],
+      "readyToStart": false,
+      "blockers": ["waiting-for-advisor-data-manager", "waiting-for-market-intelligence"],
+      "outputs": [],
+      "metrics": {
+        "startTime": null,
+        "endTime": null,
+        "duration": null,
+        "memoryUsage": null,
+        "errorCount": 0
+      }
+    },
+    "linkedin-post-generator-enhanced": {
+      "status": "pending",
+      "progress": 0,
+      "lastUpdate": null,
+      "dependencies": ["advisor-data-manager", "market-intelligence"],
+      "readyToStart": false,
+      "blockers": ["waiting-for-advisor-data-manager", "waiting-for-market-intelligence"],
+      "outputs": [],
+      "metrics": {
+        "startTime": null,
+        "endTime": null,
+        "duration": null,
+        "memoryUsage": null,
+        "errorCount": 0
+      }
+    },
+    "whatsapp-message-creator": {
+      "status": "pending",
+      "progress": 0,
+      "lastUpdate": null,
+      "dependencies": ["advisor-data-manager", "market-intelligence", "gemini-image-generator"],
+      "readyToStart": false,
+      "blockers": ["waiting-for-advisor-data-manager", "waiting-for-market-intelligence", "waiting-for-gemini-image-generator"],
+      "outputs": [],
+      "metrics": {
+        "startTime": null,
+        "endTime": null,
+        "duration": null,
+        "memoryUsage": null,
+        "errorCount": 0
+      }
+    },
+    "compliance-validator": {
+      "status": "pending",
+      "progress": 0,
+      "lastUpdate": null,
+      "dependencies": ["linkedin-post-generator-enhanced", "whatsapp-message-creator"],
+      "readyToStart": false,
+      "blockers": ["waiting-for-linkedin-post-generator-enhanced", "waiting-for-whatsapp-message-creator"],
+      "outputs": [],
+      "metrics": {
+        "startTime": null,
+        "endTime": null,
+        "duration": null,
+        "memoryUsage": null,
+        "errorCount": 0
+      }
+    },
+    "distribution-controller": {
+      "status": "pending",
+      "progress": 0,
+      "lastUpdate": null,
+      "dependencies": ["compliance-validator"],
+      "readyToStart": false,
+      "blockers": ["waiting-for-compliance-validator"],
+      "outputs": [],
+      "metrics": {
+        "startTime": null,
+        "endTime": null,
+        "duration": null,
+        "memoryUsage": null,
+        "errorCount": 0
+      }
+    }
+  },
+  "stateTransitions": {
+    "transitions": [],
+    "lastTransition": null,
+    "pendingTransitions": []
+  },
+  "locks": {
+    "activeLocks": [],
+    "lockQueue": [],
+    "lockTimeout": 300000
+  }
+}

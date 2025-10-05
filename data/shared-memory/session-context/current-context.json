@@ -1,0 +1,28 @@
+{
+  "sessionId": "mcp_session_2025-09-17T22-05-42",
+  "currentPhase": "initialization",
+  "activeAgent": "state-manager",
+  "globalContext": {
+    "totalAdvisors": "pending",
+    "marketConditions": "pending",
+    "contentRequirements": "pending",
+    "complianceStatus": "pending",
+    "qualityTargets": "pending"
+  },
+  "crossAgentData": {
+    "advisorProfiles": "pending",
+    "marketInsights": "pending",
+    "segmentAnalysis": "pending",
+    "contentStrategy": "pending",
+    "brandGuidelines": "pending"
+  },
+  "systemMetrics": {
+    "agentsInitialized": 1,
+    "agentsCompleted": 0,
+    "agentsPending": 10,
+    "contentGenerated": 0,
+    "validationsPassed": 0,
+    "distributionsCompleted": 0
+  },
+  "timestamp": "2025-09-17T22:05:42Z"
+}

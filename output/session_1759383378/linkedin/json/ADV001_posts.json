@@ -1,0 +1,58 @@
+{
+  "advisorId": "ADV001",
+  "advisorName": "Shruti Petkar",
+  "segment": "Premium",
+  "totalPosts": 2,
+  "averageVirality": "9.3",
+  "posts": [
+    {
+      "postId": "VIRAL_ADV001_001",
+      "viralFormula": "SHRIVASTAVA_DATA",
+      "hookType": "contrarian_tax_secret",
+      "title": "",
+      "content": "Most advisors tell you about ₹1.5 lakh tax savings.\n\nTop advisors get you ₹2 lakhs.\n\nHere's the secret they're missing:\n\nSection 80C = ₹1.5 lakh deduction ✓\nSection 80CCD(1B) = Extra ₹50,000 through NPS ✓\nSection 80D = Up to ₹50,000 (health insurance) ✓\n\nTotal potential savings: ₹2.5 LAKH per year\n\nAt 30% tax bracket, that's ₹75,000 saved.\nEvery. Single. Year.\n\nOver 10 years? ₹7.5 lakhs back in your pocket.\n\nThe deadline: March 31, 2026 (6 months away)\n\nMost wealthy families miss this because:\n❌ Their advisor only knows 80C\n❌ They think NPS is \"too complicated\"\n❌ Nobody explained the health insurance benefit\n\nThis is why expertise matters.\n\nYour wealth isn't just about returns.\nIt's about keeping what you earn.\n\nBuilding Wealth, Creating Trust\nARN: ARN-125847",
+      "hashtags": [
+        "#TaxPlanning",
+        "#WealthManagement",
+        "#NPS",
+        "#FinancialAdvisory",
+        "#HNWI"
+      ],
+      "viralityScore": 9.2,
+      "viralityBreakdown": {
+        "hookStrength": 9.5,
+        "emotionalImpact": 8.8,
+        "dataSpecificity": 9.4,
+        "cta": 9,
+        "formula": "(Contrarian × Specificity) + (Authority × Exclusivity) = 9.2"
+      },
+      "characterCount": 847,
+      "estimatedReach": "5000-15000",
+      "targetAudience": "HNI, Ultra-HNI, Sophisticated Investors"
+    },
+    {
+      "postId": "VIRAL_ADV001_002",
+      "viralFormula": "WARIKOO_STORY",
+      "hookType": "personal_loss_lesson",
+      "title": "",
+      "content": "I watched a client lose ₹15 lakhs in 2008.\n\nNot because markets crashed.\nBut because fear made him sell at the bottom.\n\nFast forward to today.\n\nSame client. Different mindset.\n\nWhen Sensex hit 80,983 yesterday, he didn't panic.\n\nWhy?\n\nBecause in 2008, he learned:\n→ Markets recover. Emotions don't.\n→ Time in market > Timing the market\n→ SIPs turn volatility into opportunity\n\nHis portfolio since 2008? Up 380%.\n\nThe ₹15 lakh loss? His ₹2 crore lesson.\n\nHere's what changed:\n1️⃣ Started SIPs during the crash\n2️⃣ Added NPS for tax-free retirement corpus\n3️⃣ Diversified across equity, debt, gold\n4️⃣ Stopped watching TV news daily\n\nMarket corrections will come and go.\n\nBut your investment discipline?\nThat's the only edge you need.\n\nThe brutal truth:\nYour emotions are your portfolio's biggest enemy.\n\nBuilding Wealth, Creating Trust\nARN: ARN-125847",
+      "hashtags": [
+        "#InvestmentLessons",
+        "#WealthCreation",
+        "#MarketPsychology",
+        "#FinancialPlanning"
+      ],
+      "viralityScore": 9.5,
+      "viralityBreakdown": {
+        "hookStrength": 9.8,
+        "emotionalImpact": 9.5,
+        "dataSpecificity": 9.2,
+        "cta": 9.5,
+        "formula": "(Story × Emotion × Lesson) + Specificity = 9.5"
+      },
+      "characterCount": 952,
+      "estimatedReach": "8000-20000",
+      "targetAudience": "Experienced Investors, HNI seeking validation"
+    }
+  ]
+}

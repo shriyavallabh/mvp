@@ -1,0 +1,42 @@
+{
+  "sessionId": "session_2025-09-18T15-03-58Z",
+  "timestamp": "2025-09-18T15:03:58Z",
+  "channels": {
+    "feedback": {
+      "path": "data/agent-communication/session_2025-09-18T15-03-58Z/feedback",
+      "type": "bidirectional",
+      "participants": ["all"],
+      "format": "json"
+    },
+    "quality": {
+      "path": "data/agent-communication/session_2025-09-18T15-03-58Z/quality",
+      "type": "broadcast",
+      "participants": ["quality-scorer", "compliance-validator"],
+      "format": "json"
+    },
+    "compliance": {
+      "path": "data/agent-communication/session_2025-09-18T15-03-58Z/compliance",
+      "type": "validation",
+      "participants": ["compliance-validator", "distribution-controller"],
+      "format": "json"
+    },
+    "state": {
+      "path": "data/agent-communication/session_2025-09-18T15-03-58Z/state",
+      "type": "persistence",
+      "participants": ["state-manager", "all"],
+      "format": "json"
+    },
+    "coordination": {
+      "path": "data/agent-communication/session_2025-09-18T15-03-58Z/coordination",
+      "type": "orchestration",
+      "participants": ["hybrid-orchestrator", "all"],
+      "format": "json"
+    }
+  },
+  "messageBus": {
+    "enabled": true,
+    "protocol": "file-based",
+    "pollInterval": 1000,
+    "retryAttempts": 3
+  }
+}

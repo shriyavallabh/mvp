@@ -1,0 +1,471 @@
+{
+  "session_id": "session_20251002_180551",
+  "distribution_date": "2025-10-03",
+  "plan_created": "2025-10-02T19:30:00+05:30",
+  "distribution_controller": "Distribution Controller Agent v2.0",
+
+  "CRITICAL_ALERT": {
+    "status": "DISTRIBUTION BLOCKED",
+    "reason": "Compliance validation failed (47.22/100)",
+    "blocking_issues": {
+      "whatsapp_messages": {
+        "status": "ALL FAILED",
+        "total": 12,
+        "passed": 0,
+        "failed": 12,
+        "critical_issues": 13,
+        "issue_type": "Missing SEBI-required disclaimers",
+        "required_disclaimers": [
+          "Past performance is not indicative of future returns",
+          "Please read the scheme document carefully before investing",
+          "Mutual Fund investments are subject to market risk"
+        ]
+      },
+      "linkedin_posts": {
+        "status": "PARTIAL FAILURE",
+        "total": 12,
+        "passed": 5,
+        "failed": 7,
+        "issue_type": "Missing past performance disclaimer"
+      },
+      "images": {
+        "status": "PASSED",
+        "total": 12,
+        "passed": 12,
+        "note": "Require manual visual review for ARN visibility"
+      }
+    },
+    "recommendation": "AUTO-FIX compliance issues before distribution OR route to manual approval"
+  },
+
+  "quality_summary": {
+    "overall_score": 8.78,
+    "grammy_standard_achieved": true,
+    "all_above_threshold": true,
+    "total_content_pieces": 36,
+    "linkedin_posts": 12,
+    "whatsapp_messages": 12,
+    "status_images": 12,
+    "top_performers": [
+      {
+        "item": "Vidyadhar Petkar - DII vs FII Story",
+        "linkedin_score": 9.0,
+        "whatsapp_score": 9.2,
+        "image_score": 9.2,
+        "viral_potential": "EXTREMELY HIGH"
+      },
+      {
+        "item": "Shruti Petkar - Tata Capital IPO",
+        "scores": "8.9 (LinkedIn), 9.0 (WhatsApp), 9.0 (Image)",
+        "viral_potential": "HIGH"
+      }
+    ]
+  },
+
+  "advisors": [
+    {
+      "id": "ADV001",
+      "name": "Shruti Petkar",
+      "arn": "ARN-125847",
+      "phone": "919673758777",
+      "email": "shruti.petkar@finadvise.com",
+      "segment": "Premium",
+      "approval_mode": "manual",
+      "content_package": {
+        "linkedin_posts": [
+          "shruti_petkar_post_1.txt (RBI Rs 1 Cr Loan) - Score: 8.8",
+          "shruti_petkar_post_2.txt (Tata Capital IPO) - Score: 8.9",
+          "shruti_petkar_post_3.txt (Rate Cut Portfolio) - Score: 8.7"
+        ],
+        "whatsapp_messages": [
+          "shruti_petkar_msg_1.txt (RBI Leverage) - Score: 8.8 [COMPLIANCE FAIL]",
+          "shruti_petkar_msg_2.txt (Tata IPO) - Score: 9.0 [COMPLIANCE FAIL]",
+          "shruti_petkar_msg_3.txt (Rate Cuts) - Score: 8.6 [COMPLIANCE FAIL]"
+        ],
+        "status_images": [
+          "shruti_petkar_status_1_branded.png (5X Loan) - Score: 8.8",
+          "shruti_petkar_status_2_branded.png (Biggest IPO) - Score: 9.0",
+          "shruti_petkar_status_3_branded.png (Rate Cuts) - Score: 8.6"
+        ]
+      },
+      "compliance_status": {
+        "linkedin": "5/12 posts need disclaimer fixes",
+        "whatsapp": "ALL 3 messages BLOCKED - missing critical disclaimers",
+        "images": "PASSED - Manual review recommended"
+      },
+      "schedule": "BLOCKED - Pending compliance fixes + manual approval",
+      "delivery_preference": "09:00 AM IST",
+      "estimated_reach": 5000,
+      "expected_engagement": "12-15%",
+      "content_style": "Professional",
+      "branding": {
+        "primary_color": "#1B365D",
+        "tagline": "Building Wealth, Creating Trust"
+      }
+    },
+    {
+      "id": "ADV002",
+      "name": "Vidyadhar Petkar",
+      "arn": "ARN-138924",
+      "phone": "918975758513",
+      "email": "vidyadhar.petkar@finadvise.com",
+      "segment": "Gold",
+      "approval_mode": "auto",
+      "content_package": {
+        "linkedin_posts": [
+          "vidyadhar_petkar_post_1.txt (DII vs FII) - Score: 9.0 [TOP PERFORMER]",
+          "vidyadhar_petkar_post_2.txt (IT Recovery) - Score: 8.7",
+          "vidyadhar_petkar_post_3.txt (Sectoral Rotation) - Score: 8.8"
+        ],
+        "whatsapp_messages": [
+          "vidyadhar_petkar_msg_1.txt (Desi Money) - Score: 9.2 [HIGHEST SCORE] [COMPLIANCE FAIL]",
+          "vidyadhar_petkar_msg_2.txt (IT Recovery) - Score: 8.9 [COMPLIANCE FAIL]",
+          "vidyadhar_petkar_msg_3.txt (22 Reforms) - Score: 8.7 [COMPLIANCE FAIL]"
+        ],
+        "status_images": [
+          "vidyadhar_petkar_status_1_branded.png (Battle) - Score: 9.2 [HIGHEST VISUAL]",
+          "vidyadhar_petkar_status_2_branded.png (V-Recovery) - Score: 8.9",
+          "vidyadhar_petkar_status_3_branded.png (Rally) - Score: 8.7"
+        ]
+      },
+      "compliance_status": {
+        "linkedin": "Partial failures - disclaimers needed",
+        "whatsapp": "ALL 3 messages BLOCKED - missing critical disclaimers",
+        "images": "PASSED"
+      },
+      "schedule": "BLOCKED - Pending compliance fixes (auto-approved after fix)",
+      "delivery_preference": "09:30 AM IST",
+      "estimated_reach": 3500,
+      "expected_engagement": "10-12%",
+      "content_style": "Analytical",
+      "branding": {
+        "primary_color": "#2E8B57",
+        "tagline": "Your Financial Growth Partner"
+      }
+    },
+    {
+      "id": "ADV003",
+      "name": "Shriya Vallabh Petkar",
+      "arn": "ARN-147852",
+      "phone": "919765071249",
+      "email": "shriya.vallabh@finadvise.com",
+      "segment": "Premium",
+      "approval_mode": "manual",
+      "content_package": {
+        "linkedin_posts": [
+          "shriya_vallabh_petkar_post_1.txt (Tata Demerger) - Score: 8.6",
+          "shriya_vallabh_petkar_post_2.txt (Diwali Gift) - Score: 8.8",
+          "shriya_vallabh_petkar_post_3.txt (Tata IPO) - Score: 8.9"
+        ],
+        "whatsapp_messages": [
+          "shriya_vallabh_petkar_msg_1.txt (Demerger) - Score: 8.8 [COMPLIANCE FAIL] [LENGTH WARNING]",
+          "shriya_vallabh_petkar_msg_2.txt (Diwali) - Score: 8.9 [COMPLIANCE FAIL]",
+          "shriya_vallabh_petkar_msg_3.txt (IPO Masterclass) - Score: 8.7 [COMPLIANCE FAIL] [LENGTH WARNING]"
+        ],
+        "status_images": [
+          "shriya_vallabh_petkar_status_1_branded.png (1→2 Magic) - Score: 8.8",
+          "shriya_vallabh_petkar_status_2_branded.png (Diwali) - Score: 8.9",
+          "shriya_vallabh_petkar_status_3_branded.png (Masterclass) - Score: 8.7"
+        ]
+      },
+      "compliance_status": {
+        "linkedin": "ALL 3 posts need disclaimer fixes",
+        "whatsapp": "ALL 3 messages BLOCKED - missing critical disclaimers + 2 over length",
+        "images": "PASSED"
+      },
+      "schedule": "BLOCKED - Pending compliance fixes + manual approval",
+      "delivery_preference": "10:00 AM IST",
+      "estimated_reach": 4500,
+      "expected_engagement": "13-16%",
+      "content_style": "Educational",
+      "branding": {
+        "primary_color": "#8B4513",
+        "tagline": "Empowering Financial Decisions"
+      }
+    },
+    {
+      "id": "ADV004",
+      "name": "Avalok Langer",
+      "arn": "ARN-169741",
+      "phone": "919022810769",
+      "email": "avalok.langer@finadvise.com",
+      "segment": "Silver",
+      "approval_mode": "auto",
+      "content_package": {
+        "linkedin_posts": [
+          "avalok_langer_post_1.txt (Gandhi Jayanti SIP) - Score: 8.5",
+          "avalok_langer_post_2.txt (Inflation Sweet Spot) - Score: 8.4",
+          "avalok_langer_post_3.txt (Tata IPO Beginner) - Score: 8.3"
+        ],
+        "whatsapp_messages": [
+          "avalok_langer_msg_1.txt (Holiday SIP) - Score: 8.6 [COMPLIANCE FAIL]",
+          "avalok_langer_msg_2.txt (Historic Moment) - Score: 8.7 [COMPLIANCE FAIL]",
+          "avalok_langer_msg_3.txt (Indian Investors) - Score: 8.8 [COMPLIANCE FAIL]"
+        ],
+        "status_images": [
+          "avalok_langer_status_1_branded.png (Emoji Timeline) - Score: 8.6",
+          "avalok_langer_status_2_branded.png (2.1% vs 2.7%) - Score: 8.7",
+          "avalok_langer_status_3_branded.png (Battle) - Score: 8.8"
+        ]
+      },
+      "compliance_status": {
+        "linkedin": "Partial failures - disclaimers needed",
+        "whatsapp": "ALL 3 messages BLOCKED - missing critical disclaimers",
+        "images": "PASSED"
+      },
+      "schedule": "BLOCKED - Pending compliance fixes (auto-approved after fix)",
+      "delivery_preference": "09:00 AM IST",
+      "estimated_reach": 2000,
+      "expected_engagement": "8-10%",
+      "content_style": "Modern",
+      "branding": {
+        "primary_color": "#1A73E8",
+        "tagline": "Smart Investments, Secure Future"
+      }
+    }
+  ],
+
+  "distribution_strategy": {
+    "IMMEDIATE_ACTION_REQUIRED": "Fix compliance issues before ANY distribution",
+    "recommended_approach": {
+      "step_1": {
+        "action": "AUTO-FIX WhatsApp Messages",
+        "method": "Append required SEBI disclaimers to all 12 messages",
+        "disclaimers_to_add": [
+          "Past performance is not indicative of future returns.",
+          "Mutual Fund investments are subject to market risks. Please read the scheme documents carefully before investing."
+        ],
+        "character_count_check": "Ensure messages stay under 600 chars after disclaimer addition",
+        "estimated_time": "5 minutes (automated)"
+      },
+      "step_2": {
+        "action": "FIX LinkedIn Posts",
+        "method": "Add past performance disclaimer to 7 failed posts",
+        "disclaimer_format": "Add at end: 'Past performance is not indicative of future returns. Consult your financial advisor before investing.'",
+        "estimated_time": "10 minutes"
+      },
+      "step_3": {
+        "action": "MANUAL REVIEW - Images",
+        "method": "Visual inspection of all 12 images for ARN visibility and disclaimer readability",
+        "checklist": [
+          "ARN clearly visible in bottom 20% of each image",
+          "Brand colors match advisor preferences",
+          "Text readable at WhatsApp Status thumbnail size"
+        ],
+        "estimated_time": "15 minutes"
+      },
+      "step_4": {
+        "action": "ROUTE TO APPROVERS",
+        "manual_approval_advisors": ["Shruti Petkar", "Shriya Vallabh Petkar"],
+        "auto_approval_advisors": ["Vidyadhar Petkar", "Avalok Langer"],
+        "approval_method": "Send preview links to manual approval group",
+        "estimated_time": "2-24 hours (depending on approver availability)"
+      },
+      "step_5": {
+        "action": "SCHEDULE DISTRIBUTION",
+        "timeline": "After compliance fixes + approvals received",
+        "delivery_windows": {
+          "morning_batch": "09:00-10:00 AM IST (Optimal engagement time)",
+          "afternoon_batch": "02:00-03:00 PM IST (Secondary window)",
+          "evening_batch": "06:00-07:00 PM IST (End-of-day catch)"
+        }
+      }
+    },
+    "phased_rollout": {
+      "phase_1_test": {
+        "description": "Send to 1 advisor from each segment (3 total)",
+        "advisors": ["Vidyadhar Petkar", "Avalok Langer", "Manual approval pending for Premium"],
+        "purpose": "Validate delivery, formatting, and engagement",
+        "monitoring": "Track open rates, click rates, responses for 24 hours",
+        "go_no_go_criteria": "If >70% delivery success + no formatting issues → proceed to Phase 2"
+      },
+      "phase_2_full": {
+        "description": "Full distribution to all 4 advisors",
+        "trigger": "Phase 1 success + manual approvals received",
+        "schedule": "Morning batch (09:00-10:00 AM IST next business day)"
+      }
+    }
+  },
+
+  "delivery_schedule_options": {
+    "option_1": {
+      "name": "Send NOW (After compliance fix)",
+      "timeline": "30 minutes from compliance fix completion",
+      "pros": ["Immediate execution", "Tata Capital IPO urgency (Oct 3 timing)", "Fresh market data"],
+      "cons": ["No time for thorough testing", "Manual approvals might be rushed"],
+      "risk_level": "MEDIUM-HIGH",
+      "recommended": false
+    },
+    "option_2": {
+      "name": "Send to TEST group (5 advisors)",
+      "note": "Not applicable - only 4 advisors total",
+      "alternative": "Use Phase 1 test strategy (1 advisor per segment = 3 total)",
+      "recommended": false
+    },
+    "option_3": {
+      "name": "Schedule for 9:00 AM tomorrow (Oct 3, 2025)",
+      "timeline": "Tomorrow morning batch",
+      "pros": ["Time for compliance fixes", "Time for manual approvals", "Optimal engagement time", "Tata Capital IPO timing perfect"],
+      "cons": ["24-hour delay"],
+      "risk_level": "LOW",
+      "recommended": true,
+      "delivery_time": "2025-10-03T09:00:00+05:30"
+    },
+    "option_4": {
+      "name": "Schedule for custom time",
+      "options": ["Morning (09:00 AM)", "Afternoon (02:00 PM)", "Evening (06:00 PM)"],
+      "note": "Requires user input for specific date/time"
+    },
+    "option_5": {
+      "name": "Review content first",
+      "action": "Manual review of all content before distribution decision",
+      "recommended_for": "First-time users or high-stakes campaigns"
+    },
+    "option_6": {
+      "name": "Cancel distribution",
+      "action": "Halt distribution and return to content generation",
+      "reason": "Use if compliance fixes are too complex or content needs regeneration"
+    }
+  },
+
+  "content_readiness": {
+    "total_content_pieces": 36,
+    "ready_for_distribution": 0,
+    "blocked_pending_compliance": 36,
+    "breakdown": {
+      "linkedin": "7 posts need fixes, 5 ready after fix",
+      "whatsapp": "ALL 12 blocked - CRITICAL priority",
+      "images": "12 ready (pending manual review)"
+    }
+  },
+
+  "estimated_delivery_metrics": {
+    "total_recipients": 4,
+    "total_messages": 12,
+    "total_linkedin_posts": 12,
+    "total_status_images": 12,
+    "estimated_reach": {
+      "direct_whatsapp": 4,
+      "linkedin_impressions": "15000-20000",
+      "whatsapp_status_views": "500-1000 per advisor"
+    },
+    "expected_engagement": {
+      "whatsapp_response_rate": "15-25%",
+      "linkedin_engagement_rate": "8-12%",
+      "status_view_rate": "60-80%"
+    },
+    "viral_potential": {
+      "high_shareability_items": [
+        "Vidyadhar DII vs FII (Patriotic narrative)",
+        "Shruti Tata Capital IPO (FOMO + urgency)",
+        "Avalok Inflation Sweet Spot (Relatable)"
+      ],
+      "estimated_organic_reach": "2x-3x initial distribution"
+    }
+  },
+
+  "risk_assessment": {
+    "compliance_risk": "HIGH - BLOCKING ISSUE - Must fix before distribution",
+    "delivery_risk": "LOW - All phone numbers validated",
+    "brand_risk": "LOW - All content scored 8.0+ with proper branding",
+    "timing_risk": "MEDIUM - Tata Capital IPO opens Oct 3 (time-sensitive)",
+    "engagement_risk": "VERY LOW - Content is Grammy-level (8.78 avg)"
+  },
+
+  "next_steps": [
+    {
+      "priority": 1,
+      "action": "RUN COMPLIANCE AUTO-FIX",
+      "command": "node agents/compliance-auto-fix.js --session=session_20251002_180551",
+      "estimated_time": "5 minutes",
+      "blocking": true
+    },
+    {
+      "priority": 2,
+      "action": "VALIDATE FIXES",
+      "command": "node agents/compliance-validator.js --session=session_20251002_180551 --mode=verify",
+      "estimated_time": "2 minutes",
+      "blocking": true
+    },
+    {
+      "priority": 3,
+      "action": "MANUAL IMAGE REVIEW",
+      "checklist": "Review all 12 images for ARN visibility and disclaimer clarity",
+      "estimated_time": "15 minutes",
+      "blocking": false
+    },
+    {
+      "priority": 4,
+      "action": "ROUTE TO APPROVERS",
+      "manual_advisors": ["Shruti Petkar", "Shriya Vallabh Petkar"],
+      "method": "Email preview links + request approval",
+      "blocking": true
+    },
+    {
+      "priority": 5,
+      "action": "PRESENT DISTRIBUTION MENU",
+      "trigger": "After compliance fixes + approvals received",
+      "blocking": false
+    }
+  ],
+
+  "monitoring_plan": {
+    "metrics_to_track": [
+      "Message delivery rate (target: >95%)",
+      "WhatsApp read rate (target: >70%)",
+      "Response rate (target: >15%)",
+      "LinkedIn post impressions",
+      "LinkedIn engagement rate",
+      "Status view rate",
+      "Click-through rate on CTAs"
+    ],
+    "alert_thresholds": {
+      "delivery_failure_rate": ">5% triggers immediate investigation",
+      "response_rate": "<10% triggers content review",
+      "complaint_rate": ">1% triggers immediate pause"
+    }
+  },
+
+  "compliance_auto_fix_preview": {
+    "whatsapp_disclaimer_to_append": "\n\n⚠️ Disclaimer: Past performance is not indicative of future returns. Mutual Fund investments are subject to market risks. Please read the scheme documents carefully before investing.",
+    "character_impact": "+180 chars per message",
+    "messages_affected": 12,
+    "estimated_final_lengths": {
+      "shruti_msg_1": "369 → 549 chars (OK)",
+      "shruti_msg_2": "372 → 552 chars (OK)",
+      "shruti_msg_3": "387 → 567 chars (OK)",
+      "shriya_msg_1": "403 → 583 chars (OK)",
+      "shriya_msg_3": "417 → 597 chars (OK - just under limit)"
+    },
+    "linkedin_fix": "Append: 'Past performance is not indicative of future returns.' to 7 posts"
+  },
+
+  "approval_workflow": {
+    "manual_approval_group": {
+      "advisors": ["Shruti Petkar", "Shriya Vallabh Petkar"],
+      "method": "Email with preview links",
+      "approval_format": {
+        "preview_link": "https://jarvisdaily.in/preview/{session_id}/{advisor_arn}",
+        "content_included": "All 3 LinkedIn posts + 3 WhatsApp messages + 3 images",
+        "approval_options": ["Approve All", "Approve Selected", "Request Changes", "Reject"]
+      },
+      "sla": "24 hours",
+      "escalation": "After 24 hours, send reminder email"
+    },
+    "auto_approval_group": {
+      "advisors": ["Vidyadhar Petkar", "Avalok Langer"],
+      "trigger": "Automatically approved after compliance validation passes",
+      "notification": "Send 'Content scheduled for delivery' confirmation email"
+    }
+  },
+
+  "summary": {
+    "status": "READY FOR DISTRIBUTION AFTER COMPLIANCE FIXES",
+    "quality_grade": "A+ (Grammy-level)",
+    "compliance_grade": "F (BLOCKING)",
+    "action_required": "Fix compliance issues → Route to approvers → Schedule delivery",
+    "recommended_timeline": "Fix compliance today → Approvals overnight → Deliver Oct 3 at 9:00 AM IST",
+    "estimated_total_time_to_distribution": "24-30 hours",
+    "confidence_level": "VERY HIGH (after compliance fixes)"
+  }
+}

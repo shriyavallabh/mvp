@@ -1,0 +1,33 @@
+{
+  "coordinationVersion": "1.0.0",
+  "sessionId": "session_2025-09-17T21-35-00-000Z",
+  "timestamp": "2025-09-17T21:35:00.000Z",
+  "orchestrationState": {
+    "currentPhase": "initialization",
+    "activeAgents": [],
+    "completedTasks": [],
+    "pendingTasks": [],
+    "errorLog": []
+  },
+  "communicationMatrix": {
+    "bidirectional": {
+      "hybrid-orchestrator": ["advisor-data-manager", "linkedin-post-generator", "compliance-validator", "learning-agent"],
+      "advisor-data-manager": ["hybrid-orchestrator", "compliance-validator"],
+      "linkedin-post-generator": ["hybrid-orchestrator", "compliance-validator", "advisor-data-manager"],
+      "compliance-validator": ["hybrid-orchestrator", "advisor-data-manager", "linkedin-post-generator"],
+      "learning-agent": ["hybrid-orchestrator"]
+    }
+  },
+  "stateSync": {
+    "enabled": true,
+    "frequency": "real-time",
+    "persistenceMode": "file-based",
+    "backupEnabled": true
+  },
+  "hooks": {
+    "pre-execution": "validate-dependencies",
+    "post-execution": "update-state",
+    "error-handling": "log-and-retry",
+    "completion": "finalize-session"
+  }
+}

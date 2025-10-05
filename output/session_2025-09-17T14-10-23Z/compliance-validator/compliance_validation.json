@@ -1,0 +1,96 @@
+{
+  "timestamp": "2025-09-17T19:46:49.499474",
+  "agent": "compliance-validator",
+  "status": "success",
+  "total_validated": 6,
+  "total_compliant": 6,
+  "average_score": 0.9833333333333334,
+  "validation_results": [
+    {
+      "content_type": "linkedin_post",
+      "advisor_id": "ADV_001",
+      "advisor_name": "Shruti Petkar",
+      "compliance": {
+        "compliant": true,
+        "score": 0.95,
+        "violations": [],
+        "warnings": [
+          "Return percentages should include historical context disclaimer"
+        ]
+      },
+      "validated_at": "2025-09-17T19:46:49.499356"
+    },
+    {
+      "content_type": "linkedin_post",
+      "advisor_id": "ADV_002",
+      "advisor_name": "Vidyadhar Kulkarni",
+      "compliance": {
+        "compliant": true,
+        "score": 1.0,
+        "violations": [],
+        "warnings": []
+      },
+      "validated_at": "2025-09-17T19:46:49.499406"
+    },
+    {
+      "content_type": "linkedin_post",
+      "advisor_id": "ADV_003",
+      "advisor_name": "Avalok Shah",
+      "compliance": {
+        "compliant": true,
+        "score": 0.95,
+        "violations": [],
+        "warnings": [
+          "Return percentages should include historical context disclaimer"
+        ]
+      },
+      "validated_at": "2025-09-17T19:46:49.499440"
+    },
+    {
+      "content_type": "whatsapp_message",
+      "advisor_id": "ADV_001",
+      "advisor_name": "Shruti Petkar",
+      "compliance": {
+        "compliant": true,
+        "score": 1.0,
+        "violations": [],
+        "warnings": []
+      },
+      "validated_at": "2025-09-17T19:46:49.499450"
+    },
+    {
+      "content_type": "whatsapp_message",
+      "advisor_id": "ADV_002",
+      "advisor_name": "Vidyadhar Kulkarni",
+      "compliance": {
+        "compliant": true,
+        "score": 1.0,
+        "violations": [],
+        "warnings": []
+      },
+      "validated_at": "2025-09-17T19:46:49.499461"
+    },
+    {
+      "content_type": "whatsapp_message",
+      "advisor_id": "ADV_003",
+      "advisor_name": "Avalok Shah",
+      "compliance": {
+        "compliant": true,
+        "score": 1.0,
+        "violations": [],
+        "warnings": []
+      },
+      "validated_at": "2025-09-17T19:46:49.499470"
+    }
+  ],
+  "summary": {
+    "linkedin_posts": {
+      "validated": 3,
+      "compliant": 3
+    },
+    "whatsapp_messages": {
+      "validated": 3,
+      "compliant": 3
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "distributionId": "DIST_1758166727599",
+  "sessionId": "session_1758130725",
+  "startTime": "2025-09-18T03:38:47.599Z",
+  "phases": {
+    "utility": {
+      "sent": 3,
+      "delivered": 0,
+      "failed": 0
+    },
+    "personalized": {
+      "sent": 0,
+      "delivered": 1,
+      "failed": 0,
+      "pending": 0
+    }
+  },
+  "advisors": {
+    "ARN_SHRIYA_003": {
+      "name": "Shriya Vallabh Petkar",
+      "phone": "919765071249",
+      "segment": "Premium",
+      "utilityMessage": {
+        "sentAt": "2025-09-18T03:38:47.602Z",
+        "buttonId": "UNLOCK_session_1758130725_ARN_SHRIYA_003",
+        "status": "sent"
+      },
+      "personalizedContent": {
+        "deliveredAt": "2025-09-18T03:38:52.112Z",
+        "messagesCount": 3,
+        "status": "delivered"
+      }
+    },
+    "ARN_RAJESH_001": {
+      "name": "Rajesh Kumar",
+      "phone": "919876543211",
+      "segment": "Gold",
+      "utilityMessage": {
+        "sentAt": "2025-09-18T03:38:48.604Z",
+        "buttonId": "UNLOCK_session_1758130725_ARN_RAJESH_001",
+        "status": "sent"
+      }
+    },
+    "ARN_PRIYA_002": {
+      "name": "Priya Sharma",
+      "phone": "919876543212",
+      "segment": "Silver",
+      "utilityMessage": {
+        "sentAt": "2025-09-18T03:38:49.605Z",
+        "buttonId": "UNLOCK_session_1758130725_ARN_PRIYA_002",
+        "status": "sent"
+      }
+    }
+  },
+  "endTime": "2025-09-18T03:38:52.112Z"
+}

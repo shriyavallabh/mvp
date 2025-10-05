@@ -1,0 +1,120 @@
+{
+  "session": {
+    "sessionId": "session_20250919_023038",
+    "timestamp": "2025-09-19T03:06:31.614982",
+    "generationComplete": true
+  },
+  "metrics": {
+    "totalAttempts": 8,
+    "geminiSuccess": 0,
+    "placeholderCreated": 8,
+    "failures": 0,
+    "successRate": 100.0
+  },
+  "generatedImages": [
+    {
+      "design_id": "EDU_001",
+      "theme": "Market Correction Explained",
+      "type": "Educational Infographic",
+      "segment": "Standard",
+      "filepath": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/EDU_001_Market_Correction_Explained_20250919_030436.png",
+      "filesize": 121009
+    },
+    {
+      "design_id": "EDU_002",
+      "theme": "SEBI F&O Changes Impact",
+      "type": "Visual Story",
+      "segment": "Standard",
+      "filepath": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/EDU_002_SEBI_F&O_Changes_Impact_20250919_030508.png",
+      "filesize": 129943
+    },
+    {
+      "design_id": "GOLD_001",
+      "theme": "Global Portfolio Strategy",
+      "type": "Exclusive Insight",
+      "segment": "Gold",
+      "filepath": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/GOLD_001_Global_Portfolio_Strategy_20250919_030544.png",
+      "filesize": 58561
+    },
+    {
+      "design_id": "TAX_001",
+      "theme": "Tax Saving Deadline",
+      "type": "Countdown Timer Visual",
+      "segment": "Standard",
+      "filepath": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/TAX_001_Tax_Saving_Deadline_20250919_030609.png",
+      "filesize": 95672
+    },
+    {
+      "design_id": "TIPS_001",
+      "theme": "5 Smart SIP Rules",
+      "type": "Investment Tips Carousel",
+      "segment": "Standard",
+      "filepath": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/TIPS_001_5_Smart_SIP_Rules_20250919_030630.png",
+      "filesize": 40626
+    },
+    {
+      "design_id": "SHRUTI_SEBI_001",
+      "advisor_id": "ARN_SHRUTI_001",
+      "theme": "SEBI F&O Changes Impact",
+      "segment": "Active",
+      "filepath": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/ARN_SHRUTI_001_SHRUTI_SEBI_001_20250919_030631.png",
+      "filesize": 149406
+    },
+    {
+      "design_id": "VIDYA_PSU_001",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "theme": "PSU Banks Sector Analysis",
+      "segment": "Active",
+      "filepath": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/ARN_VIDYADHAR_002_VIDYA_PSU_001_20250919_030631.png",
+      "filesize": 69793
+    },
+    {
+      "design_id": "AVALOK_GLOBAL_001",
+      "advisor_id": "ARN_AVALOK_003",
+      "theme": "Global Portfolio Strategy",
+      "segment": "Gold",
+      "filepath": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/ARN_AVALOK_003_AVALOK_GLOBAL_001_20250919_030631.png",
+      "filesize": 72613
+    }
+  ],
+  "imagesByType": {
+    "Educational Infographic": [
+      "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/EDU_001_Market_Correction_Explained_20250919_030436.png"
+    ],
+    "Visual Story": [
+      "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/EDU_002_SEBI_F&O_Changes_Impact_20250919_030508.png"
+    ],
+    "Exclusive Insight": [
+      "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/GOLD_001_Global_Portfolio_Strategy_20250919_030544.png"
+    ],
+    "Countdown Timer Visual": [
+      "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/TAX_001_Tax_Saving_Deadline_20250919_030609.png"
+    ],
+    "Investment Tips Carousel": [
+      "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/TIPS_001_5_Smart_SIP_Rules_20250919_030630.png"
+    ],
+    "Unknown": [
+      "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/ARN_SHRUTI_001_SHRUTI_SEBI_001_20250919_030631.png",
+      "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/ARN_VIDYADHAR_002_VIDYA_PSU_001_20250919_030631.png",
+      "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/ARN_AVALOK_003_AVALOK_GLOBAL_001_20250919_030631.png"
+    ]
+  },
+  "imagesBySegment": {
+    "Standard": [
+      "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/EDU_001_Market_Correction_Explained_20250919_030436.png",
+      "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/EDU_002_SEBI_F&O_Changes_Impact_20250919_030508.png",
+      "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/TAX_001_Tax_Saving_Deadline_20250919_030609.png",
+      "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/TIPS_001_5_Smart_SIP_Rules_20250919_030630.png"
+    ],
+    "Gold": [
+      "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/GOLD_001_Global_Portfolio_Strategy_20250919_030544.png",
+      "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/ARN_AVALOK_003_AVALOK_GLOBAL_001_20250919_030631.png"
+    ],
+    "Active": [
+      "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/ARN_SHRUTI_001_SHRUTI_SEBI_001_20250919_030631.png",
+      "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/images/generated/ARN_VIDYADHAR_002_VIDYA_PSU_001_20250919_030631.png"
+    ]
+  },
+  "totalFileSize": 737623,
+  "readyForBrandCustomization": true
+}

@@ -1,0 +1,75 @@
+{
+  "timestamp": "2025-09-17T16:01:43Z",
+  "source": "compliance-validator",
+  "validation_results": {
+    "linkedin_posts": {
+      "adv_001": {
+        "status": "PASSED",
+        "checks": {
+          "sebi_guidelines": "✅ Compliant",
+          "no_guaranteed_returns": "✅ No guarantees mentioned",
+          "risk_disclosure": "⚠️ Recommended to add risk disclaimer",
+          "past_performance_disclaimer": "✅ Properly contextualized",
+          "registration_details": "✅ Company name included"
+        }
+      },
+      "adv_002": {
+        "status": "PASSED",
+        "checks": {
+          "sebi_guidelines": "✅ Compliant",
+          "no_guaranteed_returns": "✅ No guarantees mentioned",
+          "risk_disclosure": "⚠️ Recommended to add risk disclaimer",
+          "past_performance_disclaimer": "✅ Properly contextualized",
+          "registration_details": "✅ Company name included"
+        }
+      },
+      "adv_003": {
+        "status": "PASSED",
+        "checks": {
+          "sebi_guidelines": "✅ Compliant",
+          "no_guaranteed_returns": "✅ No guarantees mentioned",
+          "risk_disclosure": "✅ Derivatives risk mentioned",
+          "past_performance_disclaimer": "✅ Properly contextualized",
+          "registration_details": "✅ Company name included"
+        }
+      }
+    },
+    "whatsapp_messages": {
+      "adv_001": {
+        "status": "PASSED",
+        "checks": {
+          "whatsapp_policy": "✅ Within character limits",
+          "sebi_compliance": "✅ No misleading claims",
+          "spam_check": "✅ Value-driven content",
+          "personalization": "✅ Properly branded"
+        }
+      },
+      "adv_002": {
+        "status": "PASSED",
+        "checks": {
+          "whatsapp_policy": "✅ Within character limits",
+          "sebi_compliance": "✅ Educational content",
+          "spam_check": "✅ Helpful information",
+          "personalization": "✅ Localized content"
+        }
+      },
+      "adv_003": {
+        "status": "PASSED",
+        "checks": {
+          "whatsapp_policy": "✅ Within character limits",
+          "sebi_compliance": "✅ Technical analysis allowed",
+          "spam_check": "✅ Professional content",
+          "personalization": "✅ Segment appropriate"
+        }
+      }
+    }
+  },
+  "recommendations": [
+    "Add standard risk disclaimer to all posts",
+    "Include 'Mutual Fund investments are subject to market risks' in footer",
+    "Ensure ARN/EUIN numbers are visible in all communications",
+    "Archive all content for 5 years as per SEBI requirements"
+  ],
+  "overall_status": "APPROVED",
+  "compliance_score": 92
+}

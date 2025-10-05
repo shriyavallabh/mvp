@@ -1,0 +1,33 @@
+{
+  "queue": [],
+  "metadata": {
+    "sessionId": "session_1758130725",
+    "initialized": "2025-09-17T23:05:25.000Z",
+    "totalMessages": 0,
+    "lastProcessed": null
+  },
+  "routing": {
+    "activeRoutes": {
+      "feedback": [],
+      "quality": [],
+      "compliance": [],
+      "state": [],
+      "coordination": []
+    },
+    "subscriptions": {},
+    "publishers": {}
+  },
+  "configuration": {
+    "maxQueueSize": 1000,
+    "messageRetention": "24h",
+    "compressionThreshold": 100,
+    "batchProcessing": true,
+    "priorityQueuing": true
+  },
+  "statistics": {
+    "messagesProcessed": 0,
+    "averageProcessingTime": 0,
+    "errorRate": 0,
+    "throughput": 0
+  }
+}

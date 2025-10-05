@@ -1,0 +1,263 @@
+{
+  "timestamp": "2025-09-18T03:38:39.062Z",
+  "sessionId": "session_2025-09-18T03-38-39-062Z",
+  "dataSource": "live_market_intelligence",
+  "marketOverview": {
+    "indices": {
+      "sensex": {
+        "value": 82690,
+        "change": 0.38,
+        "changePercent": 0.38,
+        "description": "BSE Sensex gained 0.38% to 82,690 points, showing positive momentum amid trade optimism"
+      },
+      "nifty50": {
+        "value": 25330.25,
+        "change": 90.89,
+        "changePercent": 0.36,
+        "description": "Nifty 50 rose 0.36% to 25,330.25, supported by domestic institutional buying"
+      }
+    },
+    "marketSentiment": "cautiously optimistic",
+    "keyDrivers": [
+      "India-US trade negotiations optimism",
+      "Strong domestic institutional investor (DII) buying",
+      "Banking, auto, and textile sectors leading gains",
+      "RBI's accommodative monetary policy stance"
+    ],
+    "globalFactors": {
+      "usdInr": {
+        "rate": 87.86,
+        "trend": "volatile",
+        "description": "Rupee trading near 87.86 per USD, showing volatility amid global uncertainties"
+      },
+      "commodities": {
+        "gold": {
+          "price": 3656.06,
+          "change": -0.11,
+          "description": "Gold fell 0.11% to $3,656.06/oz, up 41.31% year-over-year"
+        },
+        "silver": {
+          "priceInr": 132,
+          "description": "Silver at ₹132/gram in India, influenced by international prices and currency movements"
+        },
+        "crudeOil": {
+          "price": 68.18,
+          "change": 1.92,
+          "description": "Crude oil up 1.92% at $68.18, factoring potential supply disruptions"
+        }
+      }
+    }
+  },
+  "sectorPerformance": {
+    "outperformers": [
+      {
+        "sector": "Information Technology",
+        "performance": "strong",
+        "outlook": "positive",
+        "reasoning": "Benefits from US tech recovery, 15.3% YoY profit growth, sector projected to cross $300B by 2025"
+      },
+      {
+        "sector": "Banking & Financial Services",
+        "performance": "mixed-positive",
+        "outlook": "promising",
+        "reasoning": "Expected repo rate cuts in Q1CY25, robust credit growth, FinTech market to reach $1.3T by 2025"
+      },
+      {
+        "sector": "Pharmaceuticals",
+        "performance": "steady",
+        "outlook": "bullish",
+        "reasoning": "9.43% CAGR growth, world's leading generic supplier, pharma exports exceed $25B"
+      }
+    ],
+    "underperformers": [
+      {
+        "sector": "FMCG",
+        "performance": "lagging",
+        "outlook": "recovery expected",
+        "reasoning": "Only 1% YTD return in 2024, but rural demand recovery and digital accessibility improvements expected"
+      },
+      {
+        "sector": "Real Estate",
+        "performance": "volatile",
+        "outlook": "rate-sensitive",
+        "reasoning": "Impacted by interest rate concerns, though delivered 40% YTD return in 2024"
+      }
+    ]
+  },
+  "institutionalFlows": {
+    "fii": {
+      "status": "net sellers",
+      "fy25Amount": -127000,
+      "description": "FIIs net sellers of ₹1.27 lakh crore in FY25, recent reduced selling in March 2025"
+    },
+    "dii": {
+      "status": "strong buyers",
+      "fy25Amount": 606000,
+      "description": "DIIs consistent buyers with ₹6.06 lakh crore investment in FY25, supporting market"
+    }
+  },
+  "trendingTopics": [
+    {
+      "topic": "Tax Saving Season Opportunities",
+      "relevance": "high",
+      "timeframe": "immediate",
+      "description": "Section 80C limit unchanged at ₹1.5L, ELSS with 3-year lock-in, LTCG tax at 12.5% above ₹1.25L",
+      "actionItems": [
+        "ELSS mutual fund recommendations",
+        "NPS additional ₹50K deduction benefit",
+        "Tax planning strategies for H2 FY25"
+      ]
+    },
+    {
+      "topic": "RBI Monetary Policy Easing Cycle",
+      "relevance": "high",
+      "timeframe": "ongoing",
+      "description": "Repo rate cut to 5.50%, neutral stance, CRR reduced by 100bps to 3%",
+      "actionItems": [
+        "Interest rate sensitive sector opportunities",
+        "Banking stock analysis post rate cuts",
+        "Fixed income strategy adjustments"
+      ]
+    },
+    {
+      "topic": "AI and Technology Infrastructure Investment",
+      "relevance": "high",
+      "timeframe": "medium-term",
+      "description": "OpenAI's $500B Stargate initiative, India's IT sector to cross $300B, 2,550 capability centers by 2030",
+      "actionItems": [
+        "Tech stock thematic investing",
+        "Data center and cloud infrastructure plays",
+        "AI-enabled services companies"
+      ]
+    },
+    {
+      "topic": "Renewable Energy Transition",
+      "relevance": "medium-high",
+      "timeframe": "long-term",
+      "description": "500 GW renewable target by 2030, 83% power investment in clean energy, market to reach $46.7B by 2032",
+      "actionItems": [
+        "Green energy stock recommendations",
+        "ESG-focused portfolio construction",
+        "Infrastructure debt opportunities"
+      ]
+    },
+    {
+      "topic": "Q3 FY25 Earnings Season",
+      "relevance": "high",
+      "timeframe": "immediate",
+      "description": "Corporate results announcements ongoing, sector rotation based on performance",
+      "actionItems": [
+        "Earnings preview and stock picks",
+        "Sector-wise performance analysis",
+        "Post-results investment strategies"
+      ]
+    }
+  ],
+  "contentOpportunities": {
+    "immediate": [
+      {
+        "theme": "Tax Saving Strategy Guide",
+        "target": "retail_investors",
+        "format": ["linkedin_post", "whatsapp_message", "status_image"],
+        "urgency": "high",
+        "reasoning": "6 months left in FY25, peak planning season"
+      },
+      {
+        "theme": "Q3 Earnings Watchlist",
+        "target": "active_investors",
+        "format": ["detailed_analysis", "stock_picks"],
+        "urgency": "high",
+        "reasoning": "Earnings season in progress, stock-specific opportunities"
+      }
+    ],
+    "short_term": [
+      {
+        "theme": "RBI Rate Cut Impact Analysis",
+        "target": "institutional_clients",
+        "format": ["research_note", "sector_analysis"],
+        "urgency": "medium",
+        "reasoning": "Policy implications for investment strategy"
+      },
+      {
+        "theme": "Year-End Portfolio Review",
+        "target": "hni_clients",
+        "format": ["personalized_report", "strategy_update"],
+        "urgency": "medium",
+        "reasoning": "H2 FY25 positioning and tax optimization"
+      }
+    ],
+    "medium_term": [
+      {
+        "theme": "AI Investment Themes",
+        "target": "growth_investors",
+        "format": ["thematic_research", "stock_universe"],
+        "urgency": "low",
+        "reasoning": "Emerging long-term structural trend"
+      },
+      {
+        "theme": "Green Energy Transition Plays",
+        "target": "esg_investors",
+        "format": ["sustainability_report", "impact_analysis"],
+        "urgency": "low",
+        "reasoning": "Long-term sustainability mandate"
+      }
+    ]
+  },
+  "segmentInsights": {
+    "retail_investors": {
+      "focus": ["tax_saving", "systematic_investing", "goal_based_planning"],
+      "concerns": ["market_volatility", "investment_timing", "product_selection"],
+      "opportunities": ["ELSS_investments", "SIP_strategies", "insurance_planning"]
+    },
+    "hni_clients": {
+      "focus": ["tax_optimization", "portfolio_diversification", "alternative_investments"],
+      "concerns": ["wealth_preservation", "regulatory_changes", "global_exposure"],
+      "opportunities": ["structured_products", "private_equity", "real_estate_investment"]
+    },
+    "institutional_clients": {
+      "focus": ["risk_management", "alpha_generation", "compliance"],
+      "concerns": ["market_liquidity", "regulatory_compliance", "performance_benchmarking"],
+      "opportunities": ["factor_investing", "derivatives_strategies", "ESG_mandates"]
+    }
+  },
+  "alerts": [
+    {
+      "type": "opportunity",
+      "severity": "medium",
+      "message": "Banking sector poised to benefit from RBI rate cuts - consider accumulating quality names",
+      "actionRequired": "sector_analysis",
+      "timeframe": "1-2 months"
+    },
+    {
+      "type": "risk",
+      "severity": "low",
+      "message": "FII selling pressure continues despite reduced intensity - monitor global sentiment",
+      "actionRequired": "flow_monitoring",
+      "timeframe": "ongoing"
+    },
+    {
+      "type": "compliance",
+      "severity": "medium",
+      "message": "Tax saving deadline approaching - client outreach for 80C optimization required",
+      "actionRequired": "client_communication",
+      "timeframe": "immediate"
+    }
+  ],
+  "dataFreshness": {
+    "lastUpdated": "2025-09-18T03:38:39.062Z",
+    "sources": [
+      "NSE/BSE live data",
+      "Government economic releases",
+      "Financial news platforms",
+      "Regulatory announcements"
+    ],
+    "nextUpdate": "2025-09-18T09:38:39.062Z"
+  },
+  "keyHighlights": [
+    "Markets showing resilience with Sensex at 82,690 (+0.38%) and Nifty at 25,330 (+0.36%)",
+    "RBI in easing cycle with repo rate at 5.50%, supporting growth while inflation controlled at 3.2%",
+    "Strong DII support with ₹6.06L crore buying vs FII selling of ₹1.27L crore in FY25",
+    "IT sector leading with 15.3% profit growth, projected to cross $300B by 2025",
+    "Tax saving season critical with 6 months left in FY25, ELSS remains attractive with 3-year lock-in"
+  ]
+}

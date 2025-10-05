@@ -1,0 +1,29 @@
+{
+  "sessionId": "session_20250919_211030",
+  "timestamp": "2025-09-19T22:59:49.034890",
+  "totalImages": 3,
+  "images": [
+    {
+      "id": "viral_status_83k_bubble",
+      "theme": "83K: Bubble or Beginning?",
+      "path": "output/session_20250919_211030/images/generated/viral_status_83k_bubble_20250919_225947.png",
+      "size": 88340,
+      "timestamp": "20250919_225947"
+    },
+    {
+      "id": "viral_status_fpi_mystery",
+      "theme": "\u20b91.2L Cr Exit: Who's Buying?",
+      "path": "output/session_20250919_211030/images/generated/viral_status_fpi_mystery_20250919_225947.png",
+      "size": 115518,
+      "timestamp": "20250919_225947"
+    },
+    {
+      "id": "viral_status_rupee_split",
+      "theme": "\u20b988 = $1: Winners & Losers",
+      "path": "output/session_20250919_211030/images/generated/viral_status_rupee_split_20250919_225947.png",
+      "size": 150848,
+      "timestamp": "20250919_225947"
+    }
+  ],
+  "outputDirectory": "output/session_20250919_211030/images/generated"
+}

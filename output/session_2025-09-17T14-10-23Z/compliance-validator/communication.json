@@ -1,0 +1,12 @@
+{
+  "from": "compliance-validator",
+  "to": [
+    "quality-scorer",
+    "distribution-controller"
+  ],
+  "timestamp": "2025-09-17T19:46:49.499854",
+  "message": "Compliance validation completed",
+  "data_location": "output/session_2025-09-17T14-10-23Z/compliance-validator/compliance_validation.json",
+  "compliance_status": "APPROVED",
+  "average_score": 0.9833333333333334
+}

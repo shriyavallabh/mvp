@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-09-18T00:07:20.352738",
+  "session_id": "session_1758130725",
+  "phase": "Phase 4",
+  "compliance_status": "REJECTED",
+  "compliance_score": 0.77,
+  "distribution_approved": false,
+  "violations_count": 30,
+  "warnings_count": 69,
+  "certificate_id": "SEBI-COMP-20250918000720",
+  "content_stats": {
+    "linkedin": {
+      "total": 14,
+      "compliant": 0,
+      "violations": 21,
+      "warnings": 15
+    },
+    "whatsapp": {
+      "total": 9,
+      "compliant": 0,
+      "violations": 9,
+      "warnings": 0
+    },
+    "images": {
+      "total": 54,
+      "compliant": 54,
+      "violations": 0,
+      "warnings": 54
+    }
+  }
+}

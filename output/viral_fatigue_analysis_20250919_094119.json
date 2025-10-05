@@ -1,0 +1,120 @@
+{
+  "timestamp": "2025-09-19T09:41:19.035543",
+  "analysis_summary": {
+    "total_content_analyzed": 8,
+    "freshness_score": 79.2,
+    "risk_level": "LOW",
+    "immediate_action_required": false
+  },
+  "theme_analysis": {
+    "distribution": {
+      "chai_inflation": 4,
+      "coffee_calculation": 5,
+      "savings_erosion": 3,
+      "sip_education": 4,
+      "maid_transformation": 1,
+      "ipo_lottery": 1,
+      "sensex_fomo": 3,
+      "india_economy": 2,
+      "personal_loss": 2,
+      "it_contrarian": 1
+    },
+    "dominant_themes": [
+      "chai_inflation",
+      "coffee_calculation",
+      "savings_erosion",
+      "sip_education",
+      "sensex_fomo"
+    ],
+    "overused_themes": [
+      "chai_inflation",
+      "coffee_calculation",
+      "sip_education"
+    ]
+  },
+  "hook_variety": {
+    "hook_distribution": {
+      "statistic": 5,
+      "personal_story": 1,
+      "question": 1,
+      "statement": 1
+    },
+    "variety_score": 66.66666666666666,
+    "dominant_type": [
+      "statistic",
+      5
+    ],
+    "recommendation": "Good variety"
+  },
+  "cta_analysis": {
+    "cta_distribution": {
+      "Reply": 4,
+      "Start": 4
+    },
+    "unique_ctas": 8,
+    "rotation_issues": [
+      "CTA 'Reply' used 4 times"
+    ],
+    "recommendation": "Rotate CTAs more frequently"
+  },
+  "repetition_flags": {
+    "repetitive_patterns": [
+      {
+        "type": "numerical",
+        "pattern": "1%",
+        "frequency": 5,
+        "severity": "medium"
+      },
+      {
+        "type": "numerical",
+        "pattern": "\u20b910",
+        "frequency": 5,
+        "severity": "medium"
+      },
+      {
+        "type": "numerical",
+        "pattern": "5%",
+        "frequency": 3,
+        "severity": "medium"
+      },
+      {
+        "type": "numerical",
+        "pattern": "10%",
+        "frequency": 3,
+        "severity": "medium"
+      },
+      {
+        "type": "numerical",
+        "pattern": "\u20b915",
+        "frequency": 5,
+        "severity": "medium"
+      },
+      {
+        "type": "phrase",
+        "pattern": "inflation",
+        "frequency": 3,
+        "severity": "medium"
+      }
+    ],
+    "similar_content_pairs": [],
+    "high_risk_count": 0
+  },
+  "content_flagged": [],
+  "diversification_suggestions": [
+    "Consider emergency_fund: Emergency fund importance and calculations",
+    "Consider insurance_gaps: Common insurance mistakes and gaps",
+    "Consider retirement_planning: Retirement corpus calculations with real examples",
+    "Consider child_education: Education cost inflation and planning",
+    "Consider debt_management: Credit card debt traps and solutions",
+    "Consider gold_investment: Digital gold vs physical gold debate",
+    "Consider real_estate: Rent vs buy calculations for current market",
+    "Consider crypto_caution: Crypto investment risks and regulations",
+    "Consider nri_investment: NRI investment opportunities and tax implications",
+    "Consider women_finance: Financial independence stories for women"
+  ],
+  "recommendations": {
+    "immediate": [],
+    "short_term": [],
+    "long_term": []
+  }
+}

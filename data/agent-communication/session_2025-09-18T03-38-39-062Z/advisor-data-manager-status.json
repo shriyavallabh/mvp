@@ -1,0 +1,44 @@
+{
+  "agentId": "advisor-data-manager",
+  "sessionId": "session_2025-09-18T03-38-39-062Z",
+  "status": "completed",
+  "timestamp": "2025-09-18T03:49:42.772Z",
+  "execution": {
+    "startTime": "2025-09-18T03:47:00.000Z",
+    "endTime": "2025-09-18T03:49:42.772Z",
+    "duration": "2m 42s",
+    "success": true
+  },
+  "output": {
+    "advisorsProcessed": 3,
+    "dataQualityScore": 88,
+    "totalAUM": "85 Crores",
+    "segmentDistribution": {
+      "HNI": 1,
+      "Retail": 2,
+      "Corporate": 0
+    },
+    "subscriptionTiers": {
+      "Premium": 1,
+      "Gold": 1,
+      "Standard": 1
+    }
+  },
+  "dataLocations": {
+    "primaryOutput": "output/session_2025-09-18T03-38-39-062Z/advisor-data.json",
+    "sharedMemory": "data/shared-memory/session_2025-09-18T03-38-39-062Z/advisor-data-memory.json",
+    "communicationBus": "data/agent-communication/session_2025-09-18T03-38-39-062Z/advisor-data-notification.json"
+  },
+  "nextActions": [
+    "market-intelligence can now fetch market data for content personalization",
+    "brand-customizer can apply advisor-specific branding",
+    "content-generator can create personalized content for each advisor",
+    "distribution-controller can schedule content delivery"
+  ],
+  "warnings": [
+    "All advisors missing logo URLs - using default branding",
+    "Need to validate phone numbers for WhatsApp delivery",
+    "Consider expanding Google Sheets data for better personalization"
+  ],
+  "readyForOrchestration": true
+}

@@ -1,0 +1,100 @@
+{
+  "timestamp": "2025-10-03T10:17:18.568Z",
+  "sessionId": "session_20251002_180551",
+  "dryRun": false,
+  "campaigns": {
+    "contentPackage": [
+      {
+        "advisor": "Shruti Petkar",
+        "status": "SUCCESS",
+        "response": {
+          "success": "true",
+          "submitted_message_id": "813915a3-4750-4e5f-8f8b-17da7e4144c7"
+        }
+      },
+      {
+        "advisor": "Vidyadhar Petkar",
+        "status": "SUCCESS",
+        "response": {
+          "success": "true",
+          "submitted_message_id": "74a2d709-47f7-41a5-a7a8-cf2c940f00fc"
+        }
+      },
+      {
+        "advisor": "Shriya Vallabh Petkar",
+        "status": "SUCCESS",
+        "response": {
+          "success": "true",
+          "submitted_message_id": "e3077243-2b52-43d3-b1a7-43b8e70cc63b"
+        }
+      },
+      {
+        "advisor": "Avalok Langer",
+        "status": "SUCCESS",
+        "response": {
+          "success": "true",
+          "submitted_message_id": "b74e4bda-7185-4e94-9dd5-e94d932751ad"
+        }
+      }
+    ],
+    "statusImage": [
+      {
+        "advisor": "Shruti Petkar",
+        "status": "SUCCESS",
+        "response": {
+          "success": "true",
+          "submitted_message_id": "ab707796-f024-4b17-ab24-c21c1a5048fc"
+        }
+      },
+      {
+        "advisor": "Vidyadhar Petkar",
+        "status": "FAILED",
+        "error": "Request failed with status code 500"
+      },
+      {
+        "advisor": "Shriya Vallabh Petkar",
+        "status": "SUCCESS",
+        "response": {
+          "success": "true",
+          "submitted_message_id": "b28230e6-f036-48e1-b089-64fbf426760b"
+        }
+      },
+      {
+        "advisor": "Avalok Langer",
+        "status": "SUCCESS",
+        "response": {
+          "success": "true",
+          "submitted_message_id": "047ac46a-3263-4d45-9d3f-38fd75bfdca1"
+        }
+      }
+    ],
+    "linkedinPost": [
+      {
+        "advisor": "Shruti Petkar",
+        "status": "FAILED",
+        "error": "Request failed with status code 500"
+      },
+      {
+        "advisor": "Vidyadhar Petkar",
+        "status": "FAILED",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "advisor": "Shriya Vallabh Petkar",
+        "status": "FAILED",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "advisor": "Avalok Langer",
+        "status": "FAILED",
+        "error": "Request failed with status code 400"
+      }
+    ]
+  },
+  "summary": {
+    "totalAdvisors": 4,
+    "campaign1Success": 4,
+    "campaign2Success": 3,
+    "campaign3Success": 0
+  }
+}

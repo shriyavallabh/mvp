@@ -1,0 +1,63 @@
+{
+  "session_id": "session_2025-09-18T03-38-39-062Z",
+  "timestamp": "2025-09-18T09:44:48.253876",
+  "violation_analysis": {
+    "total_violations": 28,
+    "unique_violation_types": 1,
+    "patterns": {
+      "missing_element_market_risk_disclaimer": {
+        "count": 28,
+        "severity": "critical",
+        "rule": "SEBI_DISC_001",
+        "items": [
+          "ARN_SHRUTI_001_market_insights",
+          "ARN_SHRUTI_001_systematic_investing",
+          "ARN_SHRUTI_001_goal_planning",
+          "ARN_SHRUTI_001_tax_efficiency",
+          "ARN_SHRUTI_001_smart_investing",
+          "ARN_VIDYADHAR_002_market_update",
+          "ARN_VIDYADHAR_002_tax_strategy",
+          "ARN_VIDYADHAR_002_exclusive_opportunity",
+          "ARN_VIDYADHAR_002_wealth_protection",
+          "ARN_SHRIYA_003_financial_education",
+          "ARN_SHRIYA_003_investment_basics",
+          "ARN_SHRIYA_003_saving_strategies",
+          "ARN_SHRIYA_003_financial_empowerment",
+          "ARN_SHRIYA_003_encouragement",
+          "BRANDED_ARN_SHRUTI_001_market_insights",
+          "BRANDED_ARN_SHRUTI_001_systematic_investing",
+          "BRANDED_ARN_SHRUTI_001_goal_planning",
+          "BRANDED_ARN_SHRUTI_001_tax_efficiency",
+          "BRANDED_ARN_SHRUTI_001_smart_investing",
+          "BRANDED_ARN_VIDYADHAR_002_market_update",
+          "BRANDED_ARN_VIDYADHAR_002_tax_strategy",
+          "BRANDED_ARN_VIDYADHAR_002_exclusive_opportunity",
+          "BRANDED_ARN_VIDYADHAR_002_wealth_protection",
+          "BRANDED_ARN_SHRIYA_003_financial_education",
+          "BRANDED_ARN_SHRIYA_003_investment_basics",
+          "BRANDED_ARN_SHRIYA_003_saving_strategies",
+          "BRANDED_ARN_SHRIYA_003_financial_empowerment",
+          "BRANDED_ARN_SHRIYA_003_encouragement"
+        ],
+        "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+      }
+    }
+  },
+  "compliance_status": "REJECTED",
+  "original_score": 46.15,
+  "fixes_required": [
+    {
+      "priority": "CRITICAL",
+      "issue": "Missing market risk disclaimers in 28 items",
+      "fix": "Add 'Mutual fund investments are subject to market risks.' to all WhatsApp messages",
+      "affected_items": [
+        "ARN_SHRUTI_001_market_insights",
+        "ARN_SHRUTI_001_systematic_investing",
+        "ARN_SHRUTI_001_goal_planning",
+        "ARN_SHRUTI_001_tax_efficiency",
+        "ARN_SHRUTI_001_smart_investing"
+      ]
+    }
+  ],
+  "projected_score_after_fixes": 46.15
+}

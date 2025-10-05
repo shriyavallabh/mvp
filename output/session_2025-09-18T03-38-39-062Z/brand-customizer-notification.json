@@ -1,0 +1,168 @@
+{
+  "notification_type": "agent_handoff",
+  "from_agent": "gemini-image-generator",
+  "to_agent": "brand-customizer",
+  "session_id": "session_2025-09-18T03-38-39-062Z",
+  "timestamp": "2025-09-18T09:37:00.000Z",
+  "priority": "high",
+  "status": "ready_for_customization",
+
+  "deliverables": {
+    "enhanced_images": {
+      "total_count": 48,
+      "categories": ["linkedin", "whatsapp", "charts", "marketing"],
+      "output_directory": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images/",
+      "generation_report": "generation_report.json"
+    }
+  },
+
+  "customization_requirements": {
+    "logo_application": {
+      "required": true,
+      "positioning": "bottom_right",
+      "size_guidelines": "max_150px_width",
+      "transparency": "maintain_readability"
+    },
+
+    "brand_color_enhancement": {
+      "ARN_SHRUTI_001": {
+        "primary": "#1B365D",
+        "secondary": "#0077B5",
+        "accent": "#CD853F",
+        "style": "professional_analytical"
+      },
+      "ARN_VIDYADHAR_002": {
+        "primary": "#2E8B57",
+        "secondary": "#228B22",
+        "accent": "#FFCC00",
+        "style": "educational_sophisticated"
+      },
+      "ARN_SHRIYA_003": {
+        "primary": "#8B4513",
+        "secondary": "#CD853F",
+        "accent": "#32CD32",
+        "style": "trustworthy_storytelling"
+      }
+    },
+
+    "text_overlays": {
+      "advisor_names": "apply_to_all_images",
+      "arn_numbers": "include_in_compliance_area",
+      "contact_info": "optional_for_marketing_category",
+      "taglines": "advisor_specific_messaging"
+    },
+
+    "quality_standards": {
+      "resolution": "maintain_high_quality",
+      "file_format": "PNG_with_optimization",
+      "readability": "ensure_mobile_compatibility",
+      "compliance": "include_standard_disclaimers"
+    }
+  },
+
+  "advisor_specifications": {
+    "ARN_SHRUTI_001": {
+      "name": "Shruti Petkar",
+      "specialization": "Investment Planning",
+      "segment": "Retail_Gold",
+      "logo_url": "pending",
+      "tagline": "Strategic Investment Solutions"
+    },
+    "ARN_VIDYADHAR_002": {
+      "name": "Vidyadhar Petkar",
+      "specialization": "Tax Planning & HNI Services",
+      "segment": "HNI_Premium",
+      "logo_url": "pending",
+      "tagline": "Sophisticated Wealth Management"
+    },
+    "ARN_SHRIYA_003": {
+      "name": "Shriya Vallabh Petkar",
+      "specialization": "Retirement Planning",
+      "segment": "Retail_Standard",
+      "logo_url": "pending",
+      "tagline": "Trusted Retirement Solutions"
+    }
+  },
+
+  "image_specifications": {
+    "linkedin": {
+      "dimensions": "1200x628",
+      "use_case": "LinkedIn post visuals",
+      "brand_positioning": "bottom_15_percent",
+      "text_areas": "top_and_center_focus"
+    },
+    "whatsapp": {
+      "dimensions": "1080x1080",
+      "use_case": "WhatsApp sharing and stories",
+      "brand_positioning": "bottom_right_corner",
+      "text_areas": "center_focus_with_margins"
+    },
+    "charts": {
+      "dimensions": "1400x800",
+      "use_case": "Detailed analytics and presentations",
+      "brand_positioning": "bottom_right_discrete",
+      "text_areas": "maintain_chart_readability"
+    },
+    "marketing": {
+      "dimensions": "1920x1080",
+      "use_case": "Presentations and marketing materials",
+      "brand_positioning": "prominent_footer_branding",
+      "text_areas": "full_canvas_utilization"
+    }
+  },
+
+  "quality_checklist": [
+    "Apply advisor-specific logos with proper transparency",
+    "Enhance brand colors while maintaining professional appearance",
+    "Add advisor names and ARN numbers in compliance-friendly format",
+    "Ensure mobile readability for all text elements",
+    "Maintain high resolution and optimize file sizes",
+    "Include standard financial advisory disclaimers",
+    "Test visual hierarchy and information flow",
+    "Validate brand consistency across all images"
+  ],
+
+  "output_expectations": {
+    "customized_images": {
+      "directory": "output/session_2025-09-18T03-38-39-062Z/branded-images/",
+      "naming_convention": "{advisor_id}_{category}_{variant}_{timestamp}_branded.png",
+      "quality_report": "branding_customization_report.json"
+    },
+
+    "deliverables_timeline": {
+      "estimated_completion": "30_minutes",
+      "priority_order": ["marketing", "linkedin", "whatsapp", "charts"],
+      "validation_required": true
+    }
+  },
+
+  "next_agent_handoff": {
+    "target_agent": "compliance-validator",
+    "handoff_trigger": "branding_complete",
+    "validation_scope": "visual_compliance_review",
+    "expected_outcome": "approved_branded_images"
+  },
+
+  "session_context": {
+    "existing_content": {
+      "linkedin_posts": "12 posts generated with market themes",
+      "whatsapp_messages": "9 messages across advisor segments",
+      "status_images": "9 existing status images in session",
+      "market_intelligence": "current market context available"
+    },
+
+    "integration_ready": {
+      "distribution_controller": "awaiting_branded_images",
+      "content_agents": "ready_for_enhanced_visuals",
+      "compliance_pipeline": "prepared_for_review"
+    }
+  },
+
+  "success_criteria": {
+    "visual_quality": "professional_financial_standard",
+    "brand_consistency": "advisor_specific_identity_maintained",
+    "technical_quality": "web_optimized_high_resolution",
+    "compliance_ready": "regulatory_disclaimers_included",
+    "distribution_ready": "formatted_for_immediate_use"
+  }
+}

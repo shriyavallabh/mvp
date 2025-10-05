@@ -1,0 +1,24 @@
+{
+  "advisorId": "ADV_003",
+  "segmentType": "Silver",
+  "contentType": "simple_etf_education",
+  "marketTheme": "ETF Investing Made Simple",
+  "brandCustomization": {
+    "brandName": "Smart Invest",
+    "primaryColor": "#008080",
+    "secondaryColor": "#F0F8FF",
+    "accentColor": "#20B2AA",
+    "tagline": "Smart Investing Made Simple",
+    "advisorName": "Priya Sharma",
+    "arn": "ARN-345678"
+  },
+  "geminiPrompt": "Create a modern, millennial-friendly WhatsApp Status image (1080x1920px vertical) for a Silver-tier financial advisor:\n\nCONTENT THEME: ETF Investing Made Simple\nSTYLE: Modern minimalist, single-concept focus, millennial-friendly\n\nVISUAL ELEMENTS:\n- Background: Light gradient from teal (#008080) to light blue (#F0F8FF)\n- Central focus: Large, simple ETF illustration (basket with diversified assets)\n- Clean typography with plenty of white space\n- Minimal icons: Phone app, rupee symbol, growth arrow\n- Single educational concept presented clearly\n\nKEY SIMPLE MESSAGES:\n- 'ETFs = Easy Diversification'\n- 'Start with just ₹500'\n- 'One click = 50+ stocks'\n- 'Lower fees than mutual funds'\n- 'Perfect for beginners'\n\nVISUAL LAYOUT:\n- Top 20%: Bold header 'ETF INVESTING 101'\n- Middle 60%: Large central illustration with 3 simple benefits\n- Clean, spaced-out text with bullet points\n- Modern flat design aesthetic\n\nEDUCATIONAL FLOW:\n1. 'What is ETF?' → Basket illustration\n2. 'Why ETFs?' → Three simple benefits\n3. 'How to start?' → App download icon\n\nBRANDING (Bottom 15%):\n- 'Smart Invest' in bold teal (#008080)\n- 'Smart Investing Made Simple' tagline\n- 'Priya Sharma | ARN: 345678'\n- Light aqua accent (#20B2AA) for modern touch\n\nMOOD: Casual, encouraging, simple, modern, approachable\nTARGET: Millennials, new investors, tech-savvy beginners",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "aspectRatio": "9:16"
+  },
+  "targetAudience": "Millennials, new investors, tech professionals",
+  "keyMessage": "ETF investing is the simplest way to start your wealth journey",
+  "callToAction": "Download investment app and start with ETFs today"
+}

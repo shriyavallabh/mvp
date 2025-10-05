@@ -1,0 +1,124 @@
+{
+  "sessionId": "session_1758130725",
+  "timestamp": "2025-01-22T00:52:05.000Z",
+  "agentMemory": {
+    "advisor-data-manager": {
+      "status": "pending",
+      "lastRun": null,
+      "output": null,
+      "context": {},
+      "dependencies": [],
+      "runtime": null,
+      "errors": [],
+      "warnings": [],
+      "dataProvided": []
+    },
+    "market-intelligence": {
+      "status": "pending",
+      "lastRun": null,
+      "output": null,
+      "context": {},
+      "dependencies": [],
+      "runtime": null,
+      "errors": [],
+      "warnings": [],
+      "dataProvided": []
+    },
+    "segment-analyzer": {
+      "status": "pending",
+      "lastRun": null,
+      "output": null,
+      "context": {},
+      "dependencies": ["advisor-data-manager", "market-intelligence"],
+      "runtime": null,
+      "errors": [],
+      "warnings": [],
+      "dataProvided": []
+    },
+    "linkedin-post-generator": {
+      "status": "pending",
+      "lastRun": null,
+      "output": null,
+      "context": {},
+      "dependencies": ["segment-analyzer"],
+      "runtime": null,
+      "errors": [],
+      "warnings": [],
+      "dataProvided": []
+    },
+    "whatsapp-message-creator": {
+      "status": "pending",
+      "lastRun": null,
+      "output": null,
+      "context": {},
+      "dependencies": ["segment-analyzer"],
+      "runtime": null,
+      "errors": [],
+      "warnings": [],
+      "dataProvided": []
+    },
+    "gemini-image-generator": {
+      "status": "pending",
+      "lastRun": null,
+      "output": null,
+      "context": {},
+      "dependencies": ["linkedin-post-generator", "whatsapp-message-creator"],
+      "runtime": null,
+      "errors": [],
+      "warnings": [],
+      "dataProvided": []
+    },
+    "brand-customizer": {
+      "status": "pending",
+      "lastRun": null,
+      "output": null,
+      "context": {},
+      "dependencies": ["gemini-image-generator"],
+      "runtime": null,
+      "errors": [],
+      "warnings": [],
+      "dataProvided": []
+    },
+    "compliance-validator": {
+      "status": "pending",
+      "lastRun": null,
+      "output": null,
+      "context": {},
+      "dependencies": ["linkedin-post-generator", "whatsapp-message-creator"],
+      "runtime": null,
+      "errors": [],
+      "warnings": [],
+      "dataProvided": []
+    },
+    "quality-scorer": {
+      "status": "pending",
+      "lastRun": null,
+      "output": null,
+      "context": {},
+      "dependencies": ["compliance-validator"],
+      "runtime": null,
+      "errors": [],
+      "warnings": [],
+      "dataProvided": []
+    },
+    "distribution-manager": {
+      "status": "pending",
+      "lastRun": null,
+      "output": null,
+      "context": {},
+      "dependencies": ["quality-scorer", "brand-customizer"],
+      "runtime": null,
+      "errors": [],
+      "warnings": [],
+      "dataProvided": []
+    }
+  },
+  "memoryStats": {
+    "totalAgents": 10,
+    "pendingAgents": 10,
+    "activeAgents": 0,
+    "completedAgents": 0,
+    "failedAgents": 0
+  },
+  "lastUpdated": "2025-01-22T00:52:05.000Z"
+}

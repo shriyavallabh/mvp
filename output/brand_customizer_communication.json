@@ -1,0 +1,93 @@
+{
+  "from": "advisor-data-manager",
+  "to": "brand-customizer",
+  "timestamp": "2025-09-17T09:55:29.221430",
+  "messageType": "branding_requirements",
+  "data": {
+    "customBrandingCount": 6,
+    "totalAdvisors": 8,
+    "brandingRequirements": {
+      "customLogos": 6,
+      "uniqueColorSchemes": 8,
+      "customTaglines": 8,
+      "languageSupport": [
+        "English",
+        "Hindi",
+        "Marathi",
+        "Tamil",
+        "Gujarati",
+        "Malayalam"
+      ],
+      "toneVariations": [
+        "Professional",
+        "Friendly",
+        "Educational",
+        "Conservative",
+        "Motivational",
+        "Empowering",
+        "Modern",
+        "Traditional"
+      ]
+    },
+    "segmentBrandingNeeds": {
+      "Premium": {
+        "advisors": [
+          "ADV_001",
+          "ADV_004",
+          "ADV_008"
+        ],
+        "brandingStyle": "Professional, Conservative, Premium",
+        "colorPreferences": [
+          "Blue tones",
+          "Traditional colors",
+          "Elegant schemes"
+        ],
+        "logoRequirements": "High-end, trustworthy, established"
+      },
+      "Gold": {
+        "advisors": [
+          "ADV_002",
+          "ADV_005",
+          "ADV_006"
+        ],
+        "brandingStyle": "Friendly, Growth-oriented, Empowering",
+        "colorPreferences": [
+          "Vibrant colors",
+          "Growth themes",
+          "Women-friendly"
+        ],
+        "logoRequirements": "Approachable, dynamic, inspiring"
+      },
+      "Silver": {
+        "advisors": [
+          "ADV_003",
+          "ADV_007"
+        ],
+        "brandingStyle": "Modern, Tech-savvy, Simple",
+        "colorPreferences": [
+          "Modern gradients",
+          "Tech colors",
+          "Minimal"
+        ],
+        "logoRequirements": "Clean, digital-first, contemporary"
+      }
+    },
+    "priorityCustomizations": [
+      {
+        "advisorId": "ADV_001",
+        "urgency": "high",
+        "requirements": "Premium branding with professional blue/green theme"
+      },
+      {
+        "advisorId": "ADV_004",
+        "urgency": "high",
+        "requirements": "Conservative wealth management theme"
+      },
+      {
+        "advisorId": "ADV_005",
+        "urgency": "medium",
+        "requirements": "Growth-focused vibrant branding"
+      }
+    ]
+  }
+}

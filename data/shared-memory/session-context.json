@@ -1,0 +1,65 @@
+{
+  "sessionId": "session_1758130725",
+  "mcpEnabled": true,
+  "stateManagementEnabled": true,
+  "timestamp": "2025-01-22T00:52:05.000Z",
+  "status": "state-initialized",
+  "mode": "hybrid",
+  "agents": [],
+  "agentContext": {},
+  "crossAgentData": {
+    "advisorData": null,
+    "marketIntelligence": null,
+    "segmentAnalysis": null,
+    "contentGenerated": {},
+    "imagesGenerated": {},
+    "brandingApplied": {},
+    "complianceStatus": {},
+    "qualityScores": {},
+    "distributionResults": {}
+  },
+  "sharedVariables": {
+    "targetAudience": null,
+    "marketTheme": null,
+    "complianceLevel": "strict",
+    "brandGuidelines": {},
+    "contentStyle": "professional"
+  },
+  "communicationChannels": {
+    "feedback": {
+      "id": "feedback_channel",
+      "type": "agent-to-agent",
+      "status": "active",
+      "endpoint": "/data/agent-communication/feedback-queue.json"
+    },
+    "quality": {
+      "id": "quality_channel",
+      "type": "quality-improvement",
+      "status": "active",
+      "endpoint": "/data/agent-communication/quality-queue.json"
+    },
+    "compliance": {
+      "id": "compliance_channel",
+      "type": "validation",
+      "status": "active",
+      "endpoint": "/data/agent-communication/compliance-queue.json"
+    },
+    "state": {
+      "id": "state_channel",
+      "type": "synchronization",
+      "status": "active",
+      "endpoint": "/data/agent-communication/state-sync.json"
+    },
+    "orchestration": {
+      "id": "orchestration_channel",
+      "type": "coordination",
+      "status": "active",
+      "endpoint": "/data/orchestration-state/coordination.json"
+    }
+  },
+  "sharedMemory": {
+    "context": "/data/shared-memory/session-context.json",
+    "learnings": "/data/shared-memory/session-learnings.json",
+    "traceability": "/data/shared-memory/traceability.json"
+  }
+}

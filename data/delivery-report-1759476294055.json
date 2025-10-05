@@ -1,0 +1,75 @@
+{
+  "timestamp": "2025-10-03T07:24:54.055Z",
+  "sessionId": "session_20251002_180551",
+  "dryRun": false,
+  "campaigns": {
+    "contentPackage": [
+      {
+        "advisor": "Shruti Petkar",
+        "status": "FAILED",
+        "error": "Image not available"
+      },
+      {
+        "advisor": "Vidyadhar Petkar",
+        "status": "FAILED",
+        "error": "Image not available"
+      },
+      {
+        "advisor": "Shriya Vallabh Petkar",
+        "status": "FAILED",
+        "error": "Image not available"
+      },
+      {
+        "advisor": "Avalok Langer",
+        "status": "FAILED",
+        "error": "Image not available"
+      }
+    ],
+    "statusImage": [
+      {
+        "advisor": "Shruti Petkar",
+        "status": "FAILED"
+      },
+      {
+        "advisor": "Vidyadhar Petkar",
+        "status": "FAILED"
+      },
+      {
+        "advisor": "Shriya Vallabh Petkar",
+        "status": "FAILED"
+      },
+      {
+        "advisor": "Avalok Langer",
+        "status": "FAILED"
+      }
+    ],
+    "linkedinPost": [
+      {
+        "advisor": "Shruti Petkar",
+        "status": "FAILED",
+        "error": "getaddrinfo ENOTFOUND backend.aisensy.com"
+      },
+      {
+        "advisor": "Vidyadhar Petkar",
+        "status": "FAILED",
+        "error": "getaddrinfo ENOTFOUND backend.aisensy.com"
+      },
+      {
+        "advisor": "Shriya Vallabh Petkar",
+        "status": "FAILED",
+        "error": "getaddrinfo ENOTFOUND backend.aisensy.com"
+      },
+      {
+        "advisor": "Avalok Langer",
+        "status": "FAILED",
+        "error": "getaddrinfo ENOTFOUND backend.aisensy.com"
+      }
+    ]
+  },
+  "summary": {
+    "totalAdvisors": 4,
+    "campaign1Success": 0,
+    "campaign2Success": 0,
+    "campaign3Success": 0
+  }
+}

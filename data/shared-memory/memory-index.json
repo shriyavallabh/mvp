@@ -1,0 +1,47 @@
+{
+  "sessionId": "mcp_session_2025-09-17T22-05-42",
+  "memoryStructure": {
+    "immediateMemory": {
+      "description": "Current session data accessible to all agents",
+      "location": "/Users/shriyavallabh/Desktop/mvp/data/shared-memory/session-context",
+      "files": [
+        "current-context.json",
+        "agent-communications.json",
+        "real-time-state.json"
+      ]
+    },
+    "workingMemory": {
+      "description": "Cross-agent data persistence",
+      "location": "/Users/shriyavallabh/Desktop/mvp/data/shared-memory/cross-agent",
+      "files": [
+        "advisor-context.json",
+        "market-insights.json",
+        "segment-analysis.json",
+        "content-dependencies.json"
+      ]
+    },
+    "agentOutputs": {
+      "description": "Individual agent outputs accessible to all",
+      "location": "/Users/shriyavallabh/Desktop/mvp/data/shared-memory/agent-outputs",
+      "structure": {
+        "advisor-data-manager.json": "Advisor profiles and data",
+        "market-intelligence.json": "Market analysis and insights",
+        "segment-analyzer.json": "Client segment analysis",
+        "linkedin-post-generator.json": "LinkedIn content and metadata",
+        "whatsapp-message-creator.json": "WhatsApp messages and templates",
+        "image-generator.json": "Image specifications and metadata",
+        "brand-customizer.json": "Brand customization results",
+        "compliance-validator.json": "Compliance validation results",
+        "quality-scorer.json": "Quality scores and recommendations",
+        "distribution-manager.json": "Distribution results and analytics"
+      }
+    }
+  },
+  "accessPatterns": {
+    "read": "All agents can read from any memory location",
+    "write": "Agents write to their designated output files",
+    "update": "State manager coordinates cross-agent updates",
+    "persistence": "All data persisted until session completion"
+  },
+  "lastUpdated": "2025-09-17T22:05:42Z"
+}

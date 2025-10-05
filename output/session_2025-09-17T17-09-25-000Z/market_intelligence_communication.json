@@ -1,0 +1,59 @@
+{
+  "agentName": "market-intelligence",
+  "sessionId": "session_2025-09-17T17-09-25-000Z",
+  "timestamp": "2025-09-17T22:50:28.482068",
+  "status": "completed",
+  "executionSummary": {
+    "tasksCompleted": 7,
+    "dataSourcesAccessed": 5,
+    "outputFilesGenerated": 4,
+    "processingTimeMinutes": 3,
+    "dataAccuracy": "high"
+  },
+  "keyOutputs": {
+    "marketData": "output/session_2025-09-17T17-09-25-000Z/market-intelligence/market_data.json",
+    "marketSummary": "output/session_2025-09-17T17-09-25-000Z/market-intelligence/market_intelligence_summary.md",
+    "sharedMemory": "data/shared-memory/market_context.json",
+    "legacyFormat": "data/market-intelligence.json"
+  },
+  "marketHighlights": {
+    "sensex": {
+      "value": 82690,
+      "change": "+0.38%",
+      "sentiment": "positive"
+    },
+    "nifty": {
+      "value": 25330.25,
+      "change": "+0.36%",
+      "sentiment": "positive"
+    },
+    "topSector": "Information Technology (+2.63%)",
+    "marketMood": "cautiously_positive"
+  },
+  "contentThemes": [
+    "IT sector outperformance opportunities",
+    "Banking sector value hunting strategies",
+    "Gold allocation amid record prices",
+    "Fed policy impact on portfolios",
+    "Sector rotation dynamics",
+    "Institutional flow analysis"
+  ],
+  "nextPhaseInputs": {
+    "forSegmentAnalyzer": {
+      "marketContext": "data/shared-memory/market_context.json",
+      "contentThemes": "output/session_2025-09-17T17-09-25-000Z/market-intelligence/market_data.json",
+      "priority": "high"
+    },
+    "forContentGeneration": {
+      "marketInsights": "output/session_2025-09-17T17-09-25-000Z/market-intelligence/market_intelligence_summary.md",
+      "advisorActionItems": 6,
+      "urgency": "immediate"
+    }
+  },
+  "qualityMetrics": {
+    "dataFreshness": "real-time",
+    "sourceVerification": "multi-source",
+    "insightDepth": "comprehensive",
+    "actionability": "high"
+  }
+}

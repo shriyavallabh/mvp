@@ -1,0 +1,30 @@
+{
+  "sessionId": "mcp_session_2025-09-17T22-05-42",
+  "agentName": "linkedin-post-generator",
+  "status": "pending",
+  "data": {
+    "posts": [],
+    "variations": {},
+    "metadata": {},
+    "engagement": {},
+    "scheduling": {}
+  },
+  "metadata": {
+    "postsGenerated": 0,
+    "variationsCreated": 0,
+    "segmentsTargeted": 0,
+    "contentQuality": "pending"
+  },
+  "structure": {
+    "posts": "Generated LinkedIn posts with full content",
+    "variations": "Post variations for different segments",
+    "metadata": "Post metadata including hashtags, timing, etc.",
+    "engagement": "Engagement optimization data",
+    "scheduling": "Optimal posting schedule recommendations"
+  },
+  "dependencies": {
+    "requires": ["segment-definitions", "content-strategies", "market-context"],
+    "provides": ["linkedin-content", "engagement-data", "posting-schedule"]
+  },
+  "timestamp": "2025-09-17T22:05:42Z"
+}

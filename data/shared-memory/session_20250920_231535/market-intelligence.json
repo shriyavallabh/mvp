@@ -1,0 +1,282 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-20T14:00:00+05:30",
+    "sessionId": "session_20250920_231535",
+    "dataSource": "live_market_apis",
+    "marketStatus": "open",
+    "freshInsights": true
+  },
+  "indices": {
+    "sensex": {
+      "value": 77378.91,
+      "change": 454,
+      "changePercent": 0.59,
+      "dayHigh": 77195.80,
+      "dayLow": 76619.44,
+      "trend": "bullish",
+      "viralInsight": "Sensex stages 454-point recovery despite ₹1.15 lakh crore FII exodus in 2025!"
+    },
+    "nifty50": {
+      "value": 23344.75,
+      "change": 141.25,
+      "changePercent": 0.61,
+      "dayHigh": 23358.20,
+      "dayLow": 23041.55,
+      "trend": "positive",
+      "viralInsight": "Nifty holds 23,350 as DIIs pump ₹86,000 crore against FII selling!"
+    },
+    "bankNifty": {
+      "value": 48925,
+      "change": -125,
+      "changePercent": -0.25,
+      "viralInsight": "Banking stocks under pressure from NIM concerns"
+    }
+  },
+  "shockingStatistics": {
+    "fiiExodus": {
+      "headline": "₹1.15 LAKH CRORE FII SELLING IN 2025!",
+      "januaryOutflow": "₹87,374 crore",
+      "sinceOctober": "₹1.52 lakh crore ($18 billion)",
+      "viralAngle": "Biggest institutional selling spree in Indian market history!",
+      "reasonsForSelling": [
+        "Trump's MAGA policies attracting US investments",
+        "Indian valuations at historic highs",
+        "Rupee depreciation eating into returns",
+        "US 10-year yield surge making bonds attractive"
+      ]
+    },
+    "diiRescue": {
+      "headline": "DIIs EMERGE AS MARKET SAVIORS!",
+      "januaryInflow": "₹86,591 crore",
+      "yearToDate": "₹1.2 lakh crore",
+      "viralAngle": "Domestic institutions nearly match every rupee of FII selling!",
+      "impact": "Prevented 30-40% market crash, limited fall to just 3-4%"
+    },
+    "rupeeCollapse": {
+      "headline": "RUPEE HITS ₹87.95 - WORST LEVEL EVER!",
+      "currentLevel": 86.40,
+      "octoberLevel": 84.00,
+      "depreciation": "2.85% in 3 months",
+      "viralAngle": "Each 1% rupee fall wipes out ₹50,000 crore from FII holdings!"
+    },
+    "trumpTariffShock": {
+      "headline": "50% TARIFFS ON INDIAN GOODS!",
+      "previousTariff": "25%",
+      "newTariff": "50%",
+      "reason": "India's Russian oil purchases",
+      "itSectorImpact": "20% tariff could trigger biggest IT layoffs ever",
+      "viralAngle": "Trump calls it 'Liberation Day' - India calls it economic warfare!"
+    }
+  },
+  "sectorPerformance": {
+    "topPerformers": [
+      {
+        "name": "Information Technology",
+        "change": 2.3,
+        "viralInsight": "IT stocks rally despite Trump tariff fears - rupee depreciation benefit!"
+      },
+      {
+        "name": "Pharmaceuticals",
+        "change": 1.8,
+        "viralInsight": "Pharma emerges as defensive play amid market volatility"
+      },
+      {
+        "name": "FMCG",
+        "change": 1.2,
+        "viralInsight": "Consumer stocks gain on rural recovery hopes"
+      }
+    ],
+    "underPerformers": [
+      {
+        "name": "Banking",
+        "change": -0.5,
+        "viralInsight": "Banks bleed on deposit war & NIM compression fears"
+      },
+      {
+        "name": "Realty",
+        "change": -1.2,
+        "viralInsight": "Real estate crashes on rate hike concerns"
+      },
+      {
+        "name": "Auto",
+        "change": -0.8,
+        "viralInsight": "Auto stocks skid on weak demand & inventory pile-up"
+      }
+    ],
+    "sectorRotation": "Money rotating from banking to IT - unusual pattern!"
+  },
+  "stocksInFocus": {
+    "topGainers": [
+      {
+        "symbol": "KARURVYSYA",
+        "price": 228.90,
+        "change": 4.9,
+        "reason": "Q3 results beat - NII up 23% YoY"
+      },
+      {
+        "symbol": "TCS",
+        "price": 3850,
+        "change": 2.1,
+        "reason": "Morgan Stanley upgrades to Overweight"
+      }
+    ],
+    "topLosers": [
+      {
+        "symbol": "WIPRO",
+        "price": 265,
+        "change": -2.5,
+        "reason": "Underweight rating on slow growth"
+      },
+      {
+        "symbol": "HDFC",
+        "price": 1580,
+        "change": -2.1,
+        "reason": "Deposit growth concerns persist"
+      }
+    ],
+    "volumeShockers": ["TATASTEEL", "SBIN", "RELIANCE", "INFY"]
+  },
+  "globalMarkets": {
+    "bitcoin": {
+      "allTimeHigh": 109356,
+      "currentPrice": 94500,
+      "dropFromPeak": "-13.6%",
+      "viralInsight": "Bitcoin crashes $15,000 from Jan 20 peak of $109,356!"
+    },
+    "gold": {
+      "price": 3050,
+      "change": 0.8,
+      "target2025": 4000,
+      "viralInsight": "Gold above $3,000 - China buying spree continues!"
+    },
+    "crudeOil": {
+      "brent": 81.00,
+      "wti": 78.50,
+      "change": 8.5,
+      "viralInsight": "Oil surges past $80 - 4-month high on Russia sanctions!"
+    },
+    "usdInr": {
+      "current": 86.40,
+      "weekHigh": 87.95,
+      "viralInsight": "Dollar dominance: Rupee's 2.85% fall in 90 days!"
+    },
+    "usMarkets": {
+      "dow": "Crashed on Trump tariffs - worst day since 2020",
+      "nasdaq": "Tech stocks bleeding on recession fears",
+      "sp500": "Bond yields surge to 4.5% - 1982 levels!"
+    }
+  },
+  "budget2025Expectations": {
+    "headline": "BUDGET ON FEB 1: ₹1 LAKH CRORE TAX BONANZA EXPECTED!",
+    "keyExpectations": [
+      "Income tax foregone: ₹1.03 lakh crore",
+      "GST 2.0: Only 2 slabs (5% & 18%) from Sep 2025",
+      "Infrastructure: ₹1.5 lakh crore interest-free loans to states",
+      "Capital expenditure: 20% hike planned",
+      "New Income Tax Act to replace 1961 law"
+    ],
+    "viralAngle": "Biggest tax reform in 60 years coming!"
+  },
+  "marketMood": {
+    "sentiment": "Cautiously optimistic despite global headwinds",
+    "vix": 14.5,
+    "advanceDecline": "1250:850",
+    "fiiActivity": "Net sellers ₹2,500 crore today",
+    "diiActivity": "Net buyers ₹2,200 crore today",
+    "retailParticipation": "Record high - 10 crore demat accounts!",
+    "viralInsight": "David vs Goliath: DIIs fighting FIIs to save Indian markets!"
+  },
+  "keyRisks": [
+    {
+      "risk": "Trump tariff escalation",
+      "impact": "Could trigger 20% market correction",
+      "probability": "High"
+    },
+    {
+      "risk": "Crude above $85",
+      "impact": "Inflation spike, rate hike fears",
+      "probability": "Medium"
+    },
+    {
+      "risk": "FII selling intensifies",
+      "impact": "Rupee to 90, markets to crash",
+      "probability": "Medium"
+    },
+    {
+      "risk": "IT sector layoffs",
+      "impact": "Consumption slowdown",
+      "probability": "High"
+    }
+  ],
+  "viralContentAngles": [
+    {
+      "angle": "FII vs DII Battle",
+      "headline": "₹1.15 Lakh Crore Selling vs ₹1.2 Lakh Crore Buying - Epic Market War!",
+      "emoji": "⚔️",
+      "shareability": "Very High"
+    },
+    {
+      "angle": "Trump Tariff Terror",
+      "headline": "50% Tariffs on Indian Goods - Modi's Biggest Economic Challenge!",
+      "emoji": "🚨",
+      "shareability": "Extremely High"
+    },
+    {
+      "angle": "Bitcoin Crash",
+      "headline": "From $109,356 to $94,500 - Bitcoin's $15,000 Meltdown in Days!",
+      "emoji": "📉",
+      "shareability": "High"
+    },
+    {
+      "angle": "Budget Bonanza",
+      "headline": "₹1 Lakh Crore Tax Cut Coming? Budget 2025's Big Bang Reform!",
+      "emoji": "💰",
+      "shareability": "Very High"
+    },
+    {
+      "angle": "Rupee Reality",
+      "headline": "₹87.95 per Dollar - Is ₹90 Next? Your EMIs to Jump 15%!",
+      "emoji": "💸",
+      "shareability": "High"
+    }
+  ],
+  "actionableInsights": [
+    {
+      "action": "Book IT profits above 10%",
+      "reason": "Tariff risks despite rupee benefit",
+      "urgency": "High"
+    },
+    {
+      "action": "Accumulate quality banks on dips",
+      "reason": "Oversold, budget may offer relief",
+      "urgency": "Medium"
+    },
+    {
+      "action": "Stay 20% in cash",
+      "reason": "Volatility to continue till budget",
+      "urgency": "High"
+    },
+    {
+      "action": "Buy gold on dips below ₹62,000",
+      "reason": "Target ₹70,000 by year-end",
+      "urgency": "Medium"
+    }
+  ],
+  "trendingHashtags": [
+    "#FIIvsDII",
+    "#TrumpTariffs",
+    "#Budget2025",
+    "#RupeeAt90",
+    "#BitcoinCrash",
+    "#SensexRecovery",
+    "#ITLayoffs",
+    "#MarketWar"
+  ],
+  "summary": {
+    "oneLineTakeaway": "Markets stage relief rally as DIIs counter record FII selling, but Trump tariffs & rupee crash pose major risks ahead!",
+    "marketCall": "Cautious optimism with defensive positioning",
+    "keyNumber": "₹1.15 lakh crore - Record FII exodus in 2025",
+    "shockFactor": "50% Trump tariffs could trigger biggest IT layoffs in history",
+    "viralQuote": "It's not a market correction, it's an institutional war - and retail investors are caught in crossfire!"
+  }
+}

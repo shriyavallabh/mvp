@@ -1,0 +1,90 @@
+{
+  "timestamp": "2025-09-17T19:43:03.063290",
+  "agent": "segment-analyzer",
+  "status": "success",
+  "total_segments": 3,
+  "segments": {
+    "Retail": {
+      "advisors": [
+        {
+          "id": "ADV_001",
+          "name": "Shruti Petkar",
+          "specialization": "Equity Mutual Funds"
+        }
+      ],
+      "content_strategy": {
+        "tone": "educational and approachable",
+        "complexity": "medium",
+        "focus": "wealth creation basics, SIPs, tax saving"
+      },
+      "key_topics": [
+        "Benefits of systematic investment",
+        "Tax-saving mutual fund options",
+        "Building emergency funds",
+        "Goal-based financial planning"
+      ],
+      "message_templates": {
+        "market_update": "Market shows positive momentum - great time to review your SIP portfolio",
+        "educational": "Did you know? Starting SIP early can help build significant wealth"
+      }
+    },
+    "HNI": {
+      "advisors": [
+        {
+          "id": "ADV_002",
+          "name": "Vidyadhar Kulkarni",
+          "specialization": "Portfolio Management"
+        }
+      ],
+      "content_strategy": {
+        "tone": "sophisticated and analytical",
+        "complexity": "high",
+        "focus": "portfolio optimization, alternative investments, tax efficiency"
+      },
+      "key_topics": [
+        "Portfolio diversification strategies",
+        "Alternative investment opportunities",
+        "Tax-efficient wealth structuring",
+        "Global market opportunities"
+      ],
+      "message_templates": {
+        "market_update": "IT sector recovery presents strategic entry points for portfolio enhancement",
+        "educational": "Optimizing asset allocation for the current interest rate environment"
+      }
+    },
+    "Corporate": {
+      "advisors": [
+        {
+          "id": "ADV_003",
+          "name": "Avalok Shah",
+          "specialization": "Corporate Treasury"
+        }
+      ],
+      "content_strategy": {
+        "tone": "technical and professional",
+        "complexity": "very high",
+        "focus": "treasury management, corporate bonds, liquidity optimization"
+      },
+      "key_topics": [
+        "Corporate treasury optimization",
+        "Liquidity management strategies",
+        "Short-term investment vehicles",
+        "Risk management frameworks"
+      ],
+      "message_templates": {
+        "market_update": "RBI policy implications for corporate treasury management",
+        "educational": "Maximizing returns on surplus corporate funds"
+      }
+    }
+  },
+  "recommendations": {
+    "content_timing": "Morning 7:30-9:00 AM for maximum engagement",
+    "frequency": "2-3 posts per week per advisor",
+    "channels": [
+      "LinkedIn",
+      "WhatsApp",
+      "Email"
+    ],
+    "personalization_level": "High - use advisor name and specialization"
+  }
+}

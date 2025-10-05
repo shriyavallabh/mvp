@@ -1,0 +1,24 @@
+{
+  "advisorId": "ADV_001",
+  "segmentType": "Premium",
+  "contentType": "market_analysis_infographic",
+  "marketTheme": "IT Sector Outperformance",
+  "brandCustomization": {
+    "brandName": "Wealth Creators",
+    "primaryColor": "#1A73E8",
+    "secondaryColor": "#34A853",
+    "accentColor": "#FFD700",
+    "tagline": "Building Wealth, Creating Trust",
+    "advisorName": "Shruti Petkar",
+    "arn": "ARN-123456"
+  },
+  "geminiPrompt": "Create a professional WhatsApp Status image (1080x1920px vertical) for a premium financial advisor:\n\nCONTENT THEME: IT Sector Outperformance Analysis\nSTYLE: Executive-level, sophisticated data visualization\n\nVISUAL ELEMENTS:\n- Top section: Clean white background with bold header 'IT SECTOR SURGE'\n- Central focus: Professional chart showing IT sector +2.63% gains vs market\n- Data points: Include HCL Tech, TCS, Infosys performance metrics\n- Color scheme: Use corporate blue (#1A73E8) as primary, green (#34A853) for gains\n- Typography: Clean, professional fonts with clear hierarchy\n\nKEY DATA TO HIGHLIGHT:\n- 'IT Sector: +2.63%'\n- 'Sensex: 82,690 (+0.38%)'\n- 'Global demand driving growth'\n- 'Portfolio rebalancing opportunity'\n\nBRANDING (Bottom 15%):\n- 'Wealth Creators' in bold #1A73E8\n- 'Building Wealth, Creating Trust' tagline\n- 'Shruti Petkar | ARN: 123456' in smaller text\n- Gold accent (#FFD700) for emphasis\n\nLAYOUT:\n- Top 25%: Header and key metric\n- Middle 60%: Chart and analysis\n- Bottom 15%: Branding and contact\n\nMOOD: Professional, data-driven, trustworthy, premium quality\nTARGET: HNI clients, business owners seeking sophisticated analysis",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "aspectRatio": "9:16"
+  },
+  "targetAudience": "HNI clients, business owners",
+  "keyMessage": "IT sector outperformance presents portfolio rebalancing opportunities",
+  "callToAction": "Review your IT sector allocation with us"
+}

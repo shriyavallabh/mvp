@@ -1,0 +1,30 @@
+{
+  "sessionId": "mcp_session_2025-09-17T22-05-42",
+  "agentName": "segment-analyzer",
+  "status": "pending",
+  "data": {
+    "segments": {},
+    "analysis": {},
+    "recommendations": {},
+    "targetProfiles": {},
+    "contentStrategy": {}
+  },
+  "metadata": {
+    "segmentsAnalyzed": 0,
+    "profilesGenerated": 0,
+    "strategiesCreated": 0,
+    "analysisDepth": "pending"
+  },
+  "structure": {
+    "segments": "Client segment definitions and characteristics",
+    "analysis": "Detailed segment analysis results",
+    "recommendations": "Segment-specific recommendations",
+    "targetProfiles": "Target client profiles per segment",
+    "contentStrategy": "Content strategies per segment"
+  },
+  "dependencies": {
+    "requires": ["advisor-context", "market-context"],
+    "provides": ["segment-definitions", "content-strategies", "target-profiles"]
+  },
+  "timestamp": "2025-09-17T22:05:42Z"
+}

@@ -1,0 +1,224 @@
+{
+  "timestamp": "2025-09-17T19:52:46.035806",
+  "agent": "feedback-processor",
+  "status": "success",
+  "session_id": "session_2025-09-17T14-10-23Z",
+  "feedback_collected": [
+    {
+      "source": "admin_review",
+      "timestamp": "2025-09-17T19:52:46.035767",
+      "data": {
+        "type": "approval",
+        "comment": "Good personalization",
+        "rating": 5
+      }
+    },
+    {
+      "source": "admin_review",
+      "timestamp": "2025-09-17T19:52:46.035773",
+      "data": {
+        "type": "suggestion",
+        "comment": "Add more market data visualization",
+        "rating": 4
+      }
+    },
+    {
+      "source": "admin_review",
+      "timestamp": "2025-09-17T19:52:46.035775",
+      "data": {
+        "type": "approval",
+        "comment": "Content quality meets standards",
+        "rating": 5
+      }
+    },
+    {
+      "source": "advisor_feedback",
+      "timestamp": "2025-09-17T19:52:46.035778",
+      "data": {
+        "type": "positive",
+        "comment": "WhatsApp messages are very effective",
+        "rating": 5
+      }
+    },
+    {
+      "source": "advisor_feedback",
+      "timestamp": "2025-09-17T19:52:46.035780",
+      "data": {
+        "type": "request",
+        "comment": "Need more tax-saving content",
+        "rating": 4
+      }
+    },
+    {
+      "source": "advisor_feedback",
+      "timestamp": "2025-09-17T19:52:46.035781",
+      "data": {
+        "type": "positive",
+        "comment": "WhatsApp messages are very effective",
+        "rating": 5
+      }
+    },
+    {
+      "source": "client_response",
+      "timestamp": "2025-09-17T19:52:46.035783",
+      "data": {
+        "type": "engagement",
+        "action": "clicked_cta",
+        "value": "high"
+      }
+    },
+    {
+      "source": "client_response",
+      "timestamp": "2025-09-17T19:52:46.035784",
+      "data": {
+        "type": "query",
+        "action": "asked_question",
+        "value": "high"
+      }
+    },
+    {
+      "source": "system_metrics",
+      "timestamp": "2025-09-17T19:52:46.035786",
+      "data": {
+        "type": "delivery",
+        "metric": "success_rate",
+        "value": 0.95
+      }
+    },
+    {
+      "source": "system_metrics",
+      "timestamp": "2025-09-17T19:52:46.035787",
+      "data": {
+        "type": "performance",
+        "metric": "processing_time",
+        "value": 2.3
+      }
+    }
+  ],
+  "analysis": {
+    "sentiment": {
+      "positive": 6,
+      "neutral": 0,
+      "negative": 0
+    },
+    "categories": {
+      "admin_review": [
+        {
+          "type": "approval",
+          "comment": "Good personalization",
+          "rating": 5
+        },
+        {
+          "type": "suggestion",
+          "comment": "Add more market data visualization",
+          "rating": 4
+        },
+        {
+          "type": "approval",
+          "comment": "Content quality meets standards",
+          "rating": 5
+        }
+      ],
+      "advisor_feedback": [
+        {
+          "type": "positive",
+          "comment": "WhatsApp messages are very effective",
+          "rating": 5
+        },
+        {
+          "type": "request",
+          "comment": "Need more tax-saving content",
+          "rating": 4
+        },
+        {
+          "type": "positive",
+          "comment": "WhatsApp messages are very effective",
+          "rating": 5
+        }
+      ],
+      "client_response": [
+        {
+          "type": "engagement",
+          "action": "clicked_cta",
+          "value": "high"
+        },
+        {
+          "type": "query",
+          "action": "asked_question",
+          "value": "high"
+        }
+      ],
+      "system_metrics": [
+        {
+          "type": "delivery",
+          "metric": "success_rate",
+          "value": 0.95
+        },
+        {
+          "type": "performance",
+          "metric": "processing_time",
+          "value": 2.3
+        }
+      ]
+    },
+    "ratings": [
+      5,
+      4,
+      5,
+      5,
+      4,
+      5
+    ],
+    "action_items": [
+      {
+        "priority": "medium",
+        "action": "Implement suggestion: Add more market data visualization",
+        "source": "admin"
+      },
+      {
+        "priority": "high",
+        "action": "Address request: Need more tax-saving content",
+        "source": "advisor"
+      }
+    ],
+    "trends": [
+      "Strong positive reception of content",
+      "High client engagement levels"
+    ],
+    "average_rating": 4.666666666666667
+  },
+  "recommendations": [
+    {
+      "area": "maintenance",
+      "recommendation": "Continue current successful strategies",
+      "priority": "low"
+    }
+  ],
+  "summary": {
+    "total_feedback": 10,
+    "sources": [
+      "advisor_feedback",
+      "client_response",
+      "admin_review",
+      "system_metrics"
+    ],
+    "overall_sentiment": "positive",
+    "average_rating": 4.666666666666667,
+    "action_items_count": 2,
+    "key_trends": [
+      "Strong positive reception of content",
+      "High client engagement levels"
+    ]
+  },
+  "integration": {
+    "analytics_integrated": true,
+    "distribution_integrated": true,
+    "performance_correlation": {
+      "sentiment_performance": "positive_aligned",
+      "rating_engagement": null,
+      "insights": [
+        "High ratings correlate with good performance"
+      ]
+    }
+  }
+}

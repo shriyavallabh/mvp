@@ -1,0 +1,261 @@
+{
+  "sessionId": "session_2025-09-18T15-03-58Z",
+  "timestamp": "2025-09-18T21:08:25.105002",
+  "contentValidated": 19,
+  "sebiCompliant": 8,
+  "whatsappCompliant": 19,
+  "violations": [
+    {
+      "contentId": "LinkedIn_ADV_001_LI_002",
+      "type": "SEBI_PROHIBITED_TERM",
+      "severity": "CRITICAL",
+      "violation": "Contains prohibited term: \"guaranteed returns\"",
+      "rule": "SEBI_MF_Guidelines_2024",
+      "remediation": "Remove \"guaranteed returns\" and replace with compliant language"
+    },
+    {
+      "contentId": "WhatsApp_ADV_001_market_update",
+      "type": "SEBI_MISSING_DISCLAIMER",
+      "severity": "HIGH",
+      "violation": "Missing required risk disclaimer",
+      "rule": "SEBI_Circular_IMDR_2024",
+      "remediation": "Add \"Mutual fund investments are subject to market risks\""
+    },
+    {
+      "contentId": "WhatsApp_ADV_002_tax_saving",
+      "type": "SEBI_MISSING_DISCLAIMER",
+      "severity": "HIGH",
+      "violation": "Missing required risk disclaimer",
+      "rule": "SEBI_Circular_IMDR_2024",
+      "remediation": "Add \"Mutual fund investments are subject to market risks\""
+    },
+    {
+      "contentId": "WhatsApp_ADV_003_investment_tip",
+      "type": "SEBI_MISSING_DISCLAIMER",
+      "severity": "HIGH",
+      "violation": "Missing required risk disclaimer",
+      "rule": "SEBI_Circular_IMDR_2024",
+      "remediation": "Add \"Mutual fund investments are subject to market risks\""
+    },
+    {
+      "contentId": "WhatsApp_ADV_004_educational",
+      "type": "SEBI_MISSING_DISCLAIMER",
+      "severity": "HIGH",
+      "violation": "Missing required risk disclaimer",
+      "rule": "SEBI_Circular_IMDR_2024",
+      "remediation": "Add \"Mutual fund investments are subject to market risks\""
+    },
+    {
+      "contentId": "WhatsApp_ADV_005_motivational",
+      "type": "SEBI_MISSING_DISCLAIMER",
+      "severity": "HIGH",
+      "violation": "Missing required risk disclaimer",
+      "rule": "SEBI_Circular_IMDR_2024",
+      "remediation": "Add \"Mutual fund investments are subject to market risks\""
+    },
+    {
+      "contentId": "WhatsApp_ADV_006_goal_planning",
+      "type": "SEBI_MISSING_DISCLAIMER",
+      "severity": "HIGH",
+      "violation": "Missing required risk disclaimer",
+      "rule": "SEBI_Circular_IMDR_2024",
+      "remediation": "Add \"Mutual fund investments are subject to market risks\""
+    },
+    {
+      "contentId": "WhatsApp_ADV_007_market_update",
+      "type": "SEBI_MISSING_DISCLAIMER",
+      "severity": "HIGH",
+      "violation": "Missing required risk disclaimer",
+      "rule": "SEBI_Circular_IMDR_2024",
+      "remediation": "Add \"Mutual fund investments are subject to market risks\""
+    },
+    {
+      "contentId": "WhatsApp_ADV_008_tax_saving",
+      "type": "SEBI_MISSING_DISCLAIMER",
+      "severity": "HIGH",
+      "violation": "Missing required risk disclaimer",
+      "rule": "SEBI_Circular_IMDR_2024",
+      "remediation": "Add \"Mutual fund investments are subject to market risks\""
+    },
+    {
+      "contentId": "WhatsApp_ADV_009_investment_tip",
+      "type": "SEBI_MISSING_DISCLAIMER",
+      "severity": "HIGH",
+      "violation": "Missing required risk disclaimer",
+      "rule": "SEBI_Circular_IMDR_2024",
+      "remediation": "Add \"Mutual fund investments are subject to market risks\""
+    },
+    {
+      "contentId": "WhatsApp_ADV_010_educational",
+      "type": "SEBI_MISSING_DISCLAIMER",
+      "severity": "HIGH",
+      "violation": "Missing required risk disclaimer",
+      "rule": "SEBI_Circular_IMDR_2024",
+      "remediation": "Add \"Mutual fund investments are subject to market risks\""
+    }
+  ],
+  "warnings": [
+    {
+      "contentId": "LinkedIn_ADV_001_LI_001",
+      "type": "SEBI_MISSING_ARN",
+      "severity": "MEDIUM",
+      "warning": "Missing ARN/AMFI registration number",
+      "rule": "SEBI_ARN_Display_Requirement",
+      "remediation": "Add ARN number for transparency"
+    },
+    {
+      "contentId": "LinkedIn_ADV_001_LI_002",
+      "type": "SEBI_MISSING_ARN",
+      "severity": "MEDIUM",
+      "warning": "Missing ARN/AMFI registration number",
+      "rule": "SEBI_ARN_Display_Requirement",
+      "remediation": "Add ARN number for transparency"
+    },
+    {
+      "contentId": "LinkedIn_ADV_001_LI_003",
+      "type": "SEBI_MISSING_ARN",
+      "severity": "MEDIUM",
+      "warning": "Missing ARN/AMFI registration number",
+      "rule": "SEBI_ARN_Display_Requirement",
+      "remediation": "Add ARN number for transparency"
+    },
+    {
+      "contentId": "LinkedIn_ADV_002_LI_001",
+      "type": "SEBI_MISSING_ARN",
+      "severity": "MEDIUM",
+      "warning": "Missing ARN/AMFI registration number",
+      "rule": "SEBI_ARN_Display_Requirement",
+      "remediation": "Add ARN number for transparency"
+    },
+    {
+      "contentId": "LinkedIn_ADV_002_LI_002",
+      "type": "SEBI_MISSING_ARN",
+      "severity": "MEDIUM",
+      "warning": "Missing ARN/AMFI registration number",
+      "rule": "SEBI_ARN_Display_Requirement",
+      "remediation": "Add ARN number for transparency"
+    },
+    {
+      "contentId": "LinkedIn_ADV_002_LI_003",
+      "type": "SEBI_MISSING_ARN",
+      "severity": "MEDIUM",
+      "warning": "Missing ARN/AMFI registration number",
+      "rule": "SEBI_ARN_Display_Requirement",
+      "remediation": "Add ARN number for transparency"
+    },
+    {
+      "contentId": "LinkedIn_ADV_003_LI_001",
+      "type": "SEBI_MISSING_ARN",
+      "severity": "MEDIUM",
+      "warning": "Missing ARN/AMFI registration number",
+      "rule": "SEBI_ARN_Display_Requirement",
+      "remediation": "Add ARN number for transparency"
+    },
+    {
+      "contentId": "LinkedIn_ADV_003_LI_002",
+      "type": "SEBI_MISSING_ARN",
+      "severity": "MEDIUM",
+      "warning": "Missing ARN/AMFI registration number",
+      "rule": "SEBI_ARN_Display_Requirement",
+      "remediation": "Add ARN number for transparency"
+    },
+    {
+      "contentId": "LinkedIn_ADV_003_LI_003",
+      "type": "SEBI_MISSING_ARN",
+      "severity": "MEDIUM",
+      "warning": "Missing ARN/AMFI registration number",
+      "rule": "SEBI_ARN_Display_Requirement",
+      "remediation": "Add ARN number for transparency"
+    },
+    {
+      "contentId": "WhatsApp_ADV_003_investment_tip",
+      "type": "SEBI_MISSING_ARN",
+      "severity": "MEDIUM",
+      "warning": "Missing ARN/AMFI registration number",
+      "rule": "SEBI_ARN_Display_Requirement",
+      "remediation": "Add ARN number for transparency"
+    },
+    {
+      "contentId": "WhatsApp_ADV_004_educational",
+      "type": "WHATSAPP_SPAM_INDICATOR",
+      "severity": "MEDIUM",
+      "warning": "Contains potential spam pattern: [A-Z]{5,}",
+      "rule": "WhatsApp_Quality_Guidelines",
+      "remediation": "Reduce excessive formatting"
+    },
+    {
+      "contentId": "WhatsApp_ADV_005_motivational",
+      "type": "SEBI_MISSING_ARN",
+      "severity": "MEDIUM",
+      "warning": "Missing ARN/AMFI registration number",
+      "rule": "SEBI_ARN_Display_Requirement",
+      "remediation": "Add ARN number for transparency"
+    },
+    {
+      "contentId": "WhatsApp_ADV_005_motivational",
+      "type": "WHATSAPP_SPAM_INDICATOR",
+      "severity": "MEDIUM",
+      "warning": "Contains potential spam pattern: [A-Z]{5,}",
+      "rule": "WhatsApp_Quality_Guidelines",
+      "remediation": "Reduce excessive formatting"
+    },
+    {
+      "contentId": "WhatsApp_ADV_007_market_update",
+      "type": "WHATSAPP_SPAM_INDICATOR",
+      "severity": "MEDIUM",
+      "warning": "Contains potential spam pattern: [A-Z]{5,}",
+      "rule": "WhatsApp_Quality_Guidelines",
+      "remediation": "Reduce excessive formatting"
+    },
+    {
+      "contentId": "WhatsApp_ADV_009_investment_tip",
+      "type": "SEBI_MISSING_ARN",
+      "severity": "MEDIUM",
+      "warning": "Missing ARN/AMFI registration number",
+      "rule": "SEBI_ARN_Display_Requirement",
+      "remediation": "Add ARN number for transparency"
+    },
+    {
+      "contentId": "WhatsApp_ADV_010_educational",
+      "type": "WHATSAPP_SPAM_INDICATOR",
+      "severity": "MEDIUM",
+      "warning": "Contains potential spam pattern: [A-Z]{5,}",
+      "rule": "WhatsApp_Quality_Guidelines",
+      "remediation": "Reduce excessive formatting"
+    }
+  ],
+  "complianceScore": 0,
+  "summary": {
+    "criticalViolations": 1,
+    "highViolations": 10,
+    "mediumWarnings": 16,
+    "lowWarnings": 0
+  },
+  "certification": {
+    "status": "REJECTED",
+    "certificateId": "SEBI-COMP-20250918210825",
+    "validUntil": "2025-09-18T23:59:59.105033",
+    "validator": {
+      "agent": "compliance-validator",
+      "version": "2.0",
+      "rulesVersion": "SEBI-2025-Q1"
+    }
+  },
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "action": "Review and remove all prohibited terms",
+      "impact": "Critical for SEBI compliance"
+    },
+    {
+      "priority": "HIGH",
+      "action": "Add mandatory risk disclaimers to all content",
+      "impact": "Required by SEBI regulations"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Include ARN/AMFI registration numbers",
+      "impact": "Improves transparency and trust"
+    }
+  ]
+}

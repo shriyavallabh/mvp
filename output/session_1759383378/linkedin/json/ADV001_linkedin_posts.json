@@ -1,0 +1,64 @@
+{
+  "advisorId": "ADV001",
+  "advisorName": "Shruti Petkar",
+  "segment": "Premium",
+  "arn": "ARN-125847",
+  "brandColors": {
+    "primary": "#1B365D",
+    "secondary": "#0077B5"
+  },
+  "tagline": "Building Wealth, Creating Trust",
+  "posts": [
+    {
+      "postId": "ADV001_LINKEDIN_1",
+      "formula": "custom_segment_tailored",
+      "viralityScore": 9.8,
+      "title": "",
+      "content": "Most advisors tell you about ₹1.5L under 80C. Top advisors add ₹50K more through NPS!\n\nI had a client earning ₹2 crore annually.\nSmart. Successful. Savvy investor.\n\nBut paying ₹62 lakh in taxes.\n\nUntil we discovered the family tax optimization strategy:\n\nSelf: ₹2 lakh deduction (80C + 80CCD)\nSpouse: ₹2 lakh deduction\nParents: ₹1 lakh (80D senior citizen)\n\nTotal family deduction: ₹5 LAKH\nTax saved at 31% slab: ₹1,55,000 annually\n\nOver 10 years? ₹15.5 LAKH saved.\nPlus investment growth: ₹35+ lakh additional wealth.\n\nThat's ₹50 LAKH difference.\n\nSame income. Same family.\nDifferent strategy. Generational impact.\n\nThe elite secret:\n→ Individual planning saves thousands\n→ Family planning saves lakhs\n→ Generational planning creates crores\n\nMarch 31 deadline: 6 months away.\n\nAre you optimizing alone?\nOr planning as a family?\n\nP.S. Most advisors plan individual.\nTop advisors plan families.\nExceptional advisors plan generations.\n\nShruti Petkar | Building Wealth, Creating Trust\nARN: ARN-125847\n\n#WealthPlanning #TaxOptimization #FamilyWealth #FinancialPlanning #HNIInvesting",
+      "hooks": [
+        "Most advisors tell you about ₹1.5L under 80C. Top advisors add ₹50K more through NPS!"
+      ],
+      "emotions": [
+        "Insider Knowledge, Authority"
+      ],
+      "cta": "Position as 'What most wealth managers miss' - appeals to desire for superior advisory",
+      "characterCount": 1078,
+      "viralElements": {
+        "hook": "Most advisors tell you about ₹1.5L under 80C. Top advisors add ₹50K more through NPS!",
+        "story": "80C = ₹1.5L deduction. 80CCD(1B) = Extra ₹50K through NPS. Total = ₹2L tax savings. This is why you need a great advisor!",
+        "emotion": "Insider Knowledge, Authority",
+        "data": "₹2L total deduction, NPS 60% tax-free",
+        "cta": "Know all tax-saving options"
+      },
+      "timestamp": "2025-10-02T06:34:00.437Z"
+    },
+    {
+      "postId": "ADV001_LINKEDIN_2",
+      "formula": "warikoo_personal_loss",
+      "viralityScore": 9.5,
+      "title": "",
+      "content": "I watched my client lose ₹3 lakhs in taxes last year.\n\nNot because they didn't earn enough.\nNot because they didn't invest.\n\nBecause they didn't know about the extra ₹50,000 deduction.\n\nEveryone talks about 80C (₹1.5 lakh).\nNobody mentions 80CCD(1B) (₹50,000 extra through NPS).\n\nTotal possible: ₹2 LAKH tax deduction.\nWhat most people use: ₹1.5 lakh.\nThe gap: ₹50,000 x 31% tax = ₹15,500 lost EVERY year.\n\nOver 10 years?\nThat's ₹1.55 lakhs gone. Plus growth you never got.\n\nThe brutal truth?\n\nYour CA might not tell you this.\nYour bank RM definitely won't.\nEven some advisors miss it.\n\nBut here's what winners do:\n\n1. Max out 80C → ₹1.5L (ELSS/PPF/NPS Tier-I)\n2. Add 80CCD(1B) → Extra ₹50K (NPS only)\n3. Use 80D → Health insurance deductions\n4. Calculate old vs new tax regime\n\nTotal possible tax savings: ₹46,800+ per year.\n\nMarch 31 deadline: 6 months away.\n\nAre you maximizing every rupee?\n\nP.S. That client who lost ₹3L? Now saves ₹50K annually.\nStill regrets not knowing earlier.\n\nShruti Petkar | Building Wealth, Creating Trust\nARN: ARN-125847\n\n#TaxPlanning #WealthCreation #FinancialFreedom #MutualFunds #NPS",
+      "hooks": [
+        "Personal client story",
+        "Shocking loss number",
+        "Emotional regret",
+        "Clear solution"
+      ],
+      "emotions": [
+        "regret",
+        "urgency",
+        "hope"
+      ],
+      "cta": "maximize_tax_savings",
+      "characterCount": 1247,
+      "viralElements": {
+        "hook": "Client loss story - relatable",
+        "story": "Unknown ₹50K deduction revelation",
+        "emotion": "Regret + Empowerment",
+        "data": "₹3L loss, ₹2L deduction, ₹15.5K yearly",
+        "cta": "Are you maximizing every rupee?"
+      },
+      "timestamp": "2025-10-02T06:34:00.437Z"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "channels": {
+    "finadvise_orchestration": {
+      "id": "finadvise_orchestration",
+      "type": "orchestration",
+      "description": "Main orchestration channel for FinAdvise workflow",
+      "participants": ["hybrid-orchestrator", "learning-agent", "linkedin-post-generator"],
+      "message_queue": [],
+      "status": "active",
+      "created_at": "2025-09-17T16:27:13.000Z"
+    },
+    "content_refinement": {
+      "id": "content_refinement",
+      "type": "feedback",
+      "description": "Content quality and refinement feedback loop",
+      "participants": ["linkedin-post-generator", "learning-agent"],
+      "message_queue": [],
+      "status": "active",
+      "created_at": "2025-09-17T16:27:13.000Z"
+    },
+    "state_synchronization": {
+      "id": "state_synchronization",
+      "type": "state",
+      "description": "Cross-agent state management and persistence",
+      "participants": ["state-manager", "hybrid-orchestrator", "learning-agent", "linkedin-post-generator"],
+      "message_queue": [],
+      "status": "active",
+      "created_at": "2025-09-17T16:27:13.000Z"
+    },
+    "communication_bus": {
+      "id": "communication_bus",
+      "type": "transport",
+      "description": "Message transport and routing infrastructure",
+      "participants": ["communication-bus", "all"],
+      "message_queue": [],
+      "status": "active",
+      "created_at": "2025-09-17T16:27:13.000Z"
+    },
+    "traceability": {
+      "id": "traceability",
+      "type": "audit",
+      "description": "Audit trail and traceability tracking",
+      "participants": ["all"],
+      "message_queue": [],
+      "status": "active",
+      "created_at": "2025-09-17T16:27:13.000Z"
+    }
+  },
+  "channel_metadata": {
+    "total_channels": 5,
+    "active_channels": 5,
+    "session_id": "session_2025-09-17T16-27-13-000Z",
+    "initialized_at": "2025-09-17T16:27:13.000Z",
+    "mcp_version": "1.0.0"
+  }
+}

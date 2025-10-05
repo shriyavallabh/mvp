@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-09-18T03:40:06.266Z",
+  "recipient": {
+    "name": "Shriya Vallabh Petkar",
+    "phone": "919765071249",
+    "arn": "ARN_SHRIYA_003",
+    "segment": "Premium"
+  },
+  "distribution": {
+    "sessionId": "session_1758130725",
+    "buttonId": "UNLOCK_session_1758130725_ARN_SHRIYA_003",
+    "phases": {
+      "utility": {
+        "messageType": "interactive_button",
+        "deliveryTime": "immediate"
+      },
+      "personalized": {
+        "messagesCount": 3,
+        "totalDeliveryTime": "5 seconds",
+        "contentTypes": [
+          "market_alert",
+          "global_impact",
+          "strategy"
+        ]
+      }
+    }
+  },
+  "images": {
+    "generated": 3,
+    "paths": [
+      "/output/session_1758130725/images/gemini/whatsapp/whatsapp_ADV_001_market_update_20250917_235427.png",
+      "/output/session_1758130725/images/gemini/whatsapp/whatsapp_ADV_001_educational_20250917_235427.png",
+      "/output/session_1758130725/images/gemini/whatsapp/whatsapp_ADV_001_motivational_20250917_235427.png"
+    ]
+  }
+}

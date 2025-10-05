@@ -1,0 +1,277 @@
+{
+  "segmentAnalysis": {
+    "timestamp": "2025-09-18T16:50:35.804Z",
+    "totalAdvisors": 101,
+    "segments": [
+      {
+        "segmentId": "standard-tier",
+        "name": "Standard Tier Advisors",
+        "size": 97,
+        "percentage": 96,
+        "characteristics": {
+          "businessSize": "Entry to Mid-level",
+          "aumRange": "Undisclosed/Under ₹10 Cr",
+          "clientCount": "10-50 typical",
+          "experience": "1-5 years typical",
+          "certifications": "Basic/In-progress",
+          "primaryNeeds": [
+            "Client acquisition",
+            "Brand building",
+            "Educational content",
+            "Compliance support"
+          ]
+        },
+        "contentStrategy": {
+          "tone": "Professional yet approachable",
+          "complexity": "Medium",
+          "frequency": "Daily",
+          "timing": "9:00 AM IST",
+          "languages": ["English"],
+          "contentMix": {
+            "educational": 40,
+            "market_updates": 30,
+            "product_features": 20,
+            "motivational": 10
+          },
+          "topicPriorities": [
+            {
+              "topic": "SIP Benefits & Calculators",
+              "frequency": "3x per week",
+              "formats": ["Infographic", "Short video", "Calculator link"]
+            },
+            {
+              "topic": "Tax Saving Investments",
+              "frequency": "2x per week",
+              "formats": ["Comparison charts", "ELSS guides", "80C updates"]
+            },
+            {
+              "topic": "Market Simplified",
+              "frequency": "Daily",
+              "formats": ["One-minute reads", "Visual summaries", "Key takeaways"]
+            },
+            {
+              "topic": "Investment Basics",
+              "frequency": "2x per week",
+              "formats": ["FAQ series", "Myth busters", "How-to guides"]
+            }
+          ],
+          "personalization": {
+            "level": "Basic",
+            "elements": [
+              "Advisor name in header",
+              "Brand colors (Blue/Green default)",
+              "Standard disclaimer",
+              "Contact information footer"
+            ]
+          },
+          "callToActions": [
+            "Schedule a consultation",
+            "Calculate your SIP returns",
+            "Download investment guide",
+            "Join our investor education webinar"
+          ]
+        }
+      },
+      {
+        "segmentId": "gold-tier",
+        "name": "Gold Tier Advisor",
+        "size": 1,
+        "percentage": 1,
+        "exampleAdvisor": "Mr. Tranquil Veda",
+        "characteristics": {
+          "businessSize": "Established",
+          "aumRange": "₹25 Crores",
+          "clientCount": "75",
+          "experience": "7 years",
+          "certifications": ["CFP", "CFA"],
+          "specializations": [
+            "Portfolio Management",
+            "Retirement Planning",
+            "Tax Advisory"
+          ],
+          "clientDemographics": [
+            "Young Professionals",
+            "Senior Citizens"
+          ],
+          "primaryNeeds": [
+            "Advanced market insights",
+            "Portfolio optimization tools",
+            "Client retention strategies",
+            "Thought leadership content"
+          ]
+        },
+        "contentStrategy": {
+          "tone": "Educational and authoritative",
+          "complexity": "High",
+          "frequency": "Daily with weekly deep-dives",
+          "timing": "8:30 AM IST",
+          "languages": ["English", "Hindi", "Marathi"],
+          "contentMix": {
+            "market_analysis": 35,
+            "portfolio_strategies": 30,
+            "tax_planning": 20,
+            "retirement_planning": 15
+          },
+          "topicPriorities": [
+            {
+              "topic": "Portfolio Rebalancing Strategies",
+              "frequency": "Weekly deep-dive",
+              "formats": ["Detailed analysis", "Case studies", "Excel models"]
+            },
+            {
+              "topic": "Tax Optimization Techniques",
+              "frequency": "3x per week",
+              "formats": ["Advanced strategies", "HNI focus", "Trust planning"]
+            },
+            {
+              "topic": "Retirement Planning Excellence",
+              "frequency": "2x per week",
+              "formats": ["Calculator tools", "Scenario analysis", "Goal tracking"]
+            },
+            {
+              "topic": "Market Technical Analysis",
+              "frequency": "Daily",
+              "formats": ["Charts & indicators", "Sector analysis", "Global correlation"]
+            }
+          ],
+          "personalization": {
+            "level": "Advanced",
+            "elements": [
+              "Custom branding (Tranquil Wealth Advisory)",
+              "Green color theme (#2E7D32, #66BB6A)",
+              "Tagline: 'Creating Peaceful Wealth Journey'",
+              "Multi-language versions",
+              "Detailed disclaimers",
+              "CFP/CFA credentials highlight"
+            ]
+          },
+          "callToActions": [
+            "Book portfolio review session",
+            "Download tax planning checklist",
+            "Register for exclusive webinar",
+            "Access retirement calculator"
+          ]
+        }
+      },
+      {
+        "segmentId": "active-early-adopters",
+        "name": "Active Early Adopters",
+        "size": 3,
+        "percentage": 3,
+        "advisorNames": ["Shruti Petkar", "Vidyadhar Petkar", "Shriya Vallabh Petkar"],
+        "characteristics": {
+          "businessSize": "Growing",
+          "aumRange": "Variable",
+          "clientCount": "Building",
+          "experience": "Mixed",
+          "primaryNeeds": [
+            "Growth strategies",
+            "Digital presence",
+            "Client engagement tools",
+            "Platform features training"
+          ]
+        },
+        "contentStrategy": {
+          "tone": "Dynamic and engaging",
+          "complexity": "Progressive (growing with audience)",
+          "frequency": "Daily with bonus content",
+          "timing": "Flexible based on engagement",
+          "languages": ["English"],
+          "contentMix": {
+            "growth_hacks": 30,
+            "client_success": 25,
+            "market_updates": 25,
+            "platform_features": 20
+          },
+          "topicPriorities": [
+            {
+              "topic": "Digital Marketing for Advisors",
+              "frequency": "3x per week",
+              "formats": ["Tips & tricks", "Success stories", "Template library"]
+            },
+            {
+              "topic": "Client Engagement Strategies",
+              "frequency": "2x per week",
+              "formats": ["Best practices", "Communication templates", "Follow-up systems"]
+            },
+            {
+              "topic": "Platform Feature Spotlights",
+              "frequency": "Weekly",
+              "formats": ["Video tutorials", "Use cases", "ROI demonstrations"]
+            }
+          ],
+          "personalization": {
+            "level": "Customized",
+            "elements": [
+              "Individual brand colors",
+              "Personal taglines",
+              "Growth milestone celebrations",
+              "Performance dashboards"
+            ]
+          },
+          "callToActions": [
+            "Share your success story",
+            "Refer a fellow advisor",
+            "Upgrade to Gold tier",
+            "Join beta program"
+          ]
+        }
+      }
+    ],
+    "crossSegmentOpportunities": [
+      {
+        "opportunity": "Tier Upgrade Campaign",
+        "targetSegment": "standard-tier",
+        "strategy": "Showcase Gold tier benefits through Tranquil Veda success story",
+        "expectedConversion": "10-15%",
+        "timeline": "Q1 2025"
+      },
+      {
+        "opportunity": "Regional Language Expansion",
+        "targetSegment": "all",
+        "strategy": "Start with Hindi/Marathi pilot based on Gold tier success",
+        "expectedAdoption": "30%",
+        "timeline": "Q2 2025"
+      },
+      {
+        "opportunity": "Specialization Tracks",
+        "targetSegment": "standard-tier",
+        "strategy": "Create focused content paths for tax, retirement, equity specializations",
+        "expectedEngagement": "40% increase",
+        "timeline": "Q1-Q2 2025"
+      }
+    ],
+    "recommendedActions": [
+      {
+        "priority": 1,
+        "action": "Implement engagement tracking",
+        "impact": "Identify top 20% engaged advisors for upgrade targeting",
+        "timeline": "Immediate"
+      },
+      {
+        "priority": 2,
+        "action": "Create Gold tier exclusive content library",
+        "impact": "Increase perceived value of tier upgrade",
+        "timeline": "Week 1"
+      },
+      {
+        "priority": 3,
+        "action": "Launch AUM data collection campaign",
+        "impact": "Enable precise segmentation and targeting",
+        "timeline": "Week 2"
+      },
+      {
+        "priority": 4,
+        "action": "Develop multilingual content pilot",
+        "impact": "Expand addressable market by 30%",
+        "timeline": "Month 1"
+      },
+      {
+        "priority": 5,
+        "action": "Create Premium tier offering",
+        "impact": "Capture high-value advisors with AI-powered insights",
+        "timeline": "Quarter 1"
+      }
+    ]
+  }
+}

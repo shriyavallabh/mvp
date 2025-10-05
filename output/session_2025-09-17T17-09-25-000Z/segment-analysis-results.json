@@ -1,0 +1,318 @@
+{
+  "session": "session_2025-09-17T17-09-25-000Z",
+  "timestamp": "2025-09-17T22:47:55.000Z",
+  "analysisType": "segment_intelligence_analysis",
+  "metadata": {
+    "totalAdvisors": 3,
+    "totalAUM": "₹175 Crores",
+    "totalClients": 650,
+    "averageExperience": "8.3 years",
+    "segmentDistribution": {
+      "Premium": 1,
+      "Gold": 1,
+      "Silver": 1
+    }
+  },
+  "segmentAnalysis": {
+    "Premium": {
+      "advisorProfile": {
+        "advisorId": "ADV_001",
+        "name": "Shruti Petkar",
+        "firmName": "Wealth Creators Financial Advisory",
+        "experience": "12 years",
+        "aum": "₹85 Crores",
+        "clientCount": 280,
+        "averageInvestment": "₹25 Lakhs"
+      },
+      "clientPsychographics": {
+        "demographics": ["Young Professionals", "HNI Clients", "Business Owners", "NRIs"],
+        "riskTolerance": "Moderate to High",
+        "sophisticationLevel": "High",
+        "decisionMaking": "Data-driven, research-oriented",
+        "valuePriorities": ["Wealth preservation", "Tax optimization", "Legacy planning"],
+        "informationPreference": "Detailed analysis, technical insights",
+        "timeHorizon": "Long-term (5+ years)",
+        "investmentGoals": ["Portfolio diversification", "Tax efficiency", "Estate planning"]
+      },
+      "contentStrategy": {
+        "tone": "Executive-level, Authoritative, Professional",
+        "complexity": "High - Advanced financial concepts welcome",
+        "dataIntensity": "Heavy - Charts, ratios, technical analysis",
+        "topicCategories": [
+          "Portfolio Management Strategies",
+          "Tax Optimization Techniques",
+          "Estate Planning Insights",
+          "Market Analysis & Outlook",
+          "Alternative Investment Options",
+          "Regulatory Updates Impact"
+        ],
+        "vocabularyLevel": "Sophisticated financial terminology",
+        "contentLength": "Detailed (300-500 words for LinkedIn, 150-200 for WhatsApp)",
+        "visualStyle": "Professional charts, infographics, data visualizations",
+        "callToAction": "Schedule portfolio review, Explore advanced strategies"
+      },
+      "marketAlignment": {
+        "currentFocus": [
+          "IT sector outperformance analysis",
+          "Global diversification amid Fed policy changes",
+          "Advanced portfolio rebalancing strategies",
+          "Tax-loss harvesting opportunities"
+        ],
+        "preferredAssets": ["Large-cap equity", "International funds", "Debt instruments", "Alternative investments"],
+        "riskManagement": "Sophisticated hedging strategies, diversification techniques"
+      },
+      "brandingRequirements": {
+        "brandName": "Wealth Creators",
+        "colors": {"primary": "#1A73E8", "secondary": "#34A853", "accent": "#FFD700"},
+        "tagline": "Building Wealth, Creating Trust",
+        "languages": ["English", "Hindi"],
+        "professionalImagery": "Corporate aesthetics, premium design elements"
+      }
+    },
+    "Gold": {
+      "advisorProfile": {
+        "advisorId": "ADV_002",
+        "name": "Rajesh Kumar",
+        "firmName": "Money Matters Investment Services",
+        "experience": "8 years",
+        "aum": "₹55 Crores",
+        "clientCount": 220,
+        "averageInvestment": "₹8 Lakhs"
+      },
+      "clientPsychographics": {
+        "demographics": ["Salaried Professionals", "First-time Investors", "Young Families", "Middle Class"],
+        "riskTolerance": "Low to Moderate",
+        "sophisticationLevel": "Medium",
+        "decisionMaking": "Goal-oriented, safety-conscious",
+        "valuePriorities": ["Financial security", "Goal achievement", "Education funding"],
+        "informationPreference": "Educational content, step-by-step guidance",
+        "timeHorizon": "Medium-term (3-7 years)",
+        "investmentGoals": ["Child education", "Home purchase", "Emergency fund building"]
+      },
+      "contentStrategy": {
+        "tone": "Educational, Friendly, Trustworthy",
+        "complexity": "Medium - Explain concepts clearly",
+        "dataIntensity": "Moderate - Simple charts and comparisons",
+        "topicCategories": [
+          "SIP Benefits & Planning",
+          "Goal-based Investment Strategies",
+          "Insurance & Protection Planning",
+          "Financial Literacy Education",
+          "Market Updates Simplified",
+          "Family Financial Planning"
+        ],
+        "vocabularyLevel": "Accessible with explanations for technical terms",
+        "contentLength": "Moderate (200-350 words for LinkedIn, 100-150 for WhatsApp)",
+        "visualStyle": "Clean, approachable design with practical examples",
+        "callToAction": "Start your SIP, Plan your goals, Get free consultation"
+      },
+      "marketAlignment": {
+        "currentFocus": [
+          "SIP opportunities in IT sector growth",
+          "Banking sector value hunting for long-term investors",
+          "Systematic investment during market volatility",
+          "Goal-based portfolio construction"
+        ],
+        "preferredAssets": ["Diversified equity funds", "Balanced funds", "ELSS", "Gold ETFs"],
+        "riskManagement": "Asset allocation principles, rupee-cost averaging"
+      },
+      "brandingRequirements": {
+        "brandName": "Money Matters",
+        "colors": {"primary": "#FF6B6B", "secondary": "#4ECDC4", "accent": "#45B7D1"},
+        "tagline": "Your Financial Growth Partner",
+        "languages": ["English", "Hindi", "Marathi"],
+        "approachableImagery": "Family-oriented, warm and welcoming design"
+      }
+    },
+    "Silver": {
+      "advisorProfile": {
+        "advisorId": "ADV_003",
+        "name": "Priya Sharma",
+        "firmName": "Smart Investment Advisors",
+        "experience": "5 years",
+        "aum": "₹35 Crores",
+        "clientCount": 150,
+        "averageInvestment": "₹4 Lakhs"
+      },
+      "clientPsychographics": {
+        "demographics": ["Millennials", "New Investors", "Small Business Owners", "Tech Professionals"],
+        "riskTolerance": "Low to Moderate",
+        "sophisticationLevel": "Basic to Medium",
+        "decisionMaking": "Convenience-focused, digital-first",
+        "valuePriorities": ["Simplicity", "Transparency", "Easy access"],
+        "informationPreference": "Simple explanations, visual learning",
+        "timeHorizon": "Short to medium-term (1-5 years)",
+        "investmentGoals": ["Building emergency fund", "First investment", "Digital wealth creation"]
+      },
+      "contentStrategy": {
+        "tone": "Casual, Encouraging, Simple",
+        "complexity": "Low - Basic concepts, avoid jargon",
+        "dataIntensity": "Light - Simple visuals and analogies",
+        "topicCategories": [
+          "Investment Basics & First Steps",
+          "Digital Investment Platforms",
+          "ETF Education",
+          "Financial Literacy for Millennials",
+          "Technology in Finance",
+          "Small Investment Strategies"
+        ],
+        "vocabularyLevel": "Simple, everyday language with minimal jargon",
+        "contentLength": "Concise (150-250 words for LinkedIn, 80-120 for WhatsApp)",
+        "visualStyle": "Modern, colorful, infographic-style content",
+        "callToAction": "Start investing today, Download app, Learn more"
+      },
+      "marketAlignment": {
+        "currentFocus": [
+          "Simple ways to benefit from IT sector growth",
+          "ETF investing during market strength",
+          "Digital gold allocation strategies",
+          "Beginning investment during positive market sentiment"
+        ],
+        "preferredAssets": ["Index funds", "ETFs", "Digital gold", "Small-case investments"],
+        "riskManagement": "Basic diversification, small systematic investments"
+      },
+      "brandingRequirements": {
+        "brandName": "Smart Invest",
+        "colors": {"primary": "#008080", "secondary": "#F0F8FF", "accent": "#20B2AA"},
+        "tagline": "Smart Investing Made Simple",
+        "languages": ["English"],
+        "modernImagery": "Tech-forward, minimalist, youth-oriented design"
+      }
+    }
+  },
+  "marketContextAlignment": {
+    "currentMarketCondition": "Cautiously Positive",
+    "keyOpportunities": [
+      "IT sector outperformance (+2.63%)",
+      "PSU Banks strength (+2.09%)",
+      "Asian markets at record highs",
+      "Fed rate cut expectations"
+    ],
+    "segmentSpecificOpportunities": {
+      "Premium": [
+        "Advanced portfolio rebalancing in IT sector",
+        "Global diversification strategies",
+        "Tax-loss harvesting in banking sector",
+        "Alternative investment allocation"
+      ],
+      "Gold": [
+        "SIP opportunities in outperforming IT funds",
+        "Balanced portfolio construction",
+        "Goal-based investment in strong market",
+        "Insurance and protection planning"
+      ],
+      "Silver": [
+        "First-time investment in growing market",
+        "ETF investing in IT sector",
+        "Digital gold allocation at record highs",
+        "Simple diversification strategies"
+      ]
+    }
+  },
+  "contentGenerationGuidelines": {
+    "linkedin": {
+      "Premium": {
+        "format": "Professional article-style posts",
+        "includeData": "Charts, performance metrics, technical analysis",
+        "hashtags": "#WealthManagement #PortfolioStrategy #TaxPlanning",
+        "callToAction": "Schedule comprehensive portfolio review"
+      },
+      "Gold": {
+        "format": "Educational posts with practical tips",
+        "includeData": "Simple comparisons, goal-based examples",
+        "hashtags": "#SIP #GoalPlanning #FinancialLiteracy",
+        "callToAction": "Start your financial journey with us"
+      },
+      "Silver": {
+        "format": "Simple tips and beginner-friendly content",
+        "includeData": "Basic infographics, step-by-step guides",
+        "hashtags": "#InvestmentBasics #DigitalInvesting #MillennialMoney",
+        "callToAction": "Begin investing with just ₹500"
+      }
+    },
+    "whatsapp": {
+      "Premium": {
+        "format": "Market insights with actionable recommendations",
+        "tone": "Professional briefing style",
+        "frequency": "Daily market updates"
+      },
+      "Gold": {
+        "format": "Educational tips with practical application",
+        "tone": "Friendly advisor guidance",
+        "frequency": "5x per week educational content"
+      },
+      "Silver": {
+        "format": "Simple tips and motivational content",
+        "tone": "Casual, encouraging friend",
+        "frequency": "3x per week bite-sized tips"
+      }
+    },
+    "statusImages": {
+      "Premium": {
+        "style": "Professional charts and data visualizations",
+        "colorScheme": "Corporate blue and gold",
+        "complexity": "Detailed infographics with multiple data points"
+      },
+      "Gold": {
+        "style": "Clean, educational graphics",
+        "colorScheme": "Warm, approachable colors",
+        "complexity": "Moderate complexity with clear explanations"
+      },
+      "Silver": {
+        "style": "Modern, minimalist design",
+        "colorScheme": "Fresh, vibrant colors",
+        "complexity": "Simple, single-concept visuals"
+      }
+    }
+  },
+  "targetingStrategy": {
+    "contentPersonalization": {
+      "Premium": "Address specific portfolio concerns, use client success stories",
+      "Gold": "Focus on family financial goals, provide step-by-step guidance",
+      "Silver": "Use relatable analogies, emphasize simplicity and accessibility"
+    },
+    "timingOptimization": {
+      "Premium": "9:00 AM - Professional start to trading day",
+      "Gold": "10:00 AM - After morning routine, before work intensifies",
+      "Silver": "8:30 AM - Early bird millennials and tech professionals"
+    },
+    "channelPreferences": {
+      "Premium": "LinkedIn primary, WhatsApp for urgent updates",
+      "Gold": "Balanced LinkedIn and WhatsApp approach",
+      "Silver": "WhatsApp primary, LinkedIn for broader reach"
+    }
+  },
+  "complianceConsiderations": {
+    "regulatory": "All content must include appropriate disclaimers based on advisor segment",
+    "riskDisclosure": "Risk warnings proportional to investment complexity suggested",
+    "segmentSpecific": {
+      "Premium": "Detailed disclaimers for advanced strategies",
+      "Gold": "Standard SEBI disclaimers with educational focus",
+      "Silver": "Simple risk warnings in plain language"
+    }
+  },
+  "successMetrics": {
+    "engagement": {
+      "Premium": "Deep engagement, longer read times, inquiry generation",
+      "Gold": "Moderate engagement, educational value delivered",
+      "Silver": "High reach, simple actions taken (downloads, sign-ups)"
+    },
+    "businessOutcomes": {
+      "Premium": "Portfolio reviews scheduled, AUM growth",
+      "Gold": "SIP enrollments, goal planning sessions",
+      "Silver": "App downloads, first investments initiated"
+    }
+  },
+  "nextSteps": {
+    "immediate": [
+      "Generate content using these segment profiles",
+      "Apply market context to each segment's content",
+      "Customize visual elements per segment branding"
+    ],
+    "monitoring": [
+      "Track engagement by segment",
+      "Adjust complexity based on response",
+      "Refine targeting based on performance"
+    ]
+  }
+}

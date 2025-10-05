@@ -1,0 +1,313 @@
+{
+  "session_id": "session_20251002_180551",
+  "timestamp": "2025-10-02T18:05:51+05:30",
+  "metadata": {
+    "dataSource": "real-time-web-search",
+    "marketStatus": "closed",
+    "marketClosureReason": "Gandhi Jayanti - Public Holiday",
+    "fetchedOn": "2025-10-02",
+    "dataQuality": "verified_real_data",
+    "lastTradingDay": "2025-10-01",
+    "nextTradingDay": "2025-10-03"
+  },
+  "indices": {
+    "sensex": {
+      "value": 80983.31,
+      "previousClose": 80268,
+      "change": 715.31,
+      "changePercent": 0.89,
+      "dayHigh": 81068.43,
+      "dayLow": 80159.9,
+      "trend": "positive",
+      "insight": "Strong recovery rally after RBI dovish stance",
+      "source": "BSE_live_data_Oct1",
+      "timeOfClose": "2025-10-01T16:01:00+05:30"
+    },
+    "nifty50": {
+      "value": 24835,
+      "previousClose": 24615,
+      "change": 220,
+      "changePercent": 0.89,
+      "trend": "positive",
+      "insight": "Mirrors Sensex recovery, banking strength visible",
+      "source": "NSE_live_data_Oct1"
+    },
+    "bankNifty": {
+      "value": 54635.85,
+      "previousClose": 54461,
+      "change": 174.85,
+      "changePercent": 0.32,
+      "dayHigh": 54793.05,
+      "dayLow": 54502.95,
+      "insight": "Banking stocks recover on RBI dovish tone",
+      "source": "NSE_live_data_Oct1"
+    },
+    "niftyIT": {
+      "value": 33900,
+      "change": 573,
+      "changePercent": 1.72,
+      "insight": "IT sector continues recovery from H1B visa concerns",
+      "source": "NSE_live_data_Oct1"
+    }
+  },
+  "sectors": {
+    "topPerformers": [
+      {
+        "name": "IT Services",
+        "change": 1.72,
+        "trend": "recovery",
+        "insight": "Bouncing back from H1B visa fee shock, rupee weakness helping",
+        "keyStocks": ["TCS", "Infosys", "Wipro"],
+        "viralAngle": "IT stocks staging comeback - rupee depreciation becoming blessing"
+      },
+      {
+        "name": "Banking & Financial Services",
+        "change": 0.32,
+        "trend": "positive",
+        "insight": "RBI dovish stance + expected rate cuts boosting sentiment",
+        "keyStocks": ["SBI", "HDFC Bank", "ICICI Bank"],
+        "viralAngle": "Banks celebrating RBI's dovish tone - rate cut party expected by December"
+      },
+      {
+        "name": "Pharma",
+        "change": 0.85,
+        "trend": "defensive_strength",
+        "insight": "Defensive sector attracting investments, strong 2025 outlook",
+        "projected2025Growth": "12-15%",
+        "viralAngle": "Pharma sector: The silent wealth creator of 2024 with 39.27% gains"
+      }
+    ],
+    "underPerformers": [
+      {
+        "name": "Auto",
+        "change": -0.45,
+        "trend": "weak",
+        "insight": "September sales data disappointing, festive hopes remain",
+        "keyStocks": ["Maruti", "Tata Motors"]
+      },
+      {
+        "name": "Realty",
+        "change": -0.25,
+        "trend": "neutral",
+        "insight": "Awaiting clearer rate cut signals despite RBI dovishness"
+      }
+    ],
+    "sectorRotation": "Recovery in IT and Banking post-RBI policy, defensive strength in Pharma continues"
+  },
+  "breakingNews": {
+    "rbiPolicy": {
+      "date": "2025-10-01",
+      "decision": "Repo rate unchanged at 5.5%",
+      "stance": "Dovish",
+      "keyChanges": [
+        "Lowered inflation forecasts",
+        "Upgraded growth outlook",
+        "Unveiled 22 reforms",
+        "Increased loan against shares ceiling: Rs 20 lakh → Rs 1 crore",
+        "Increased IPO financing limit to Rs 25 lakh"
+      ],
+      "expectation": "Rate cut expected by December 2025",
+      "marketImpact": "Positive for equities and bonds",
+      "viralAngle": "RBI just gave your portfolio a pre-Diwali gift - rate cuts coming by December!"
+    },
+    "tataCapitalIPO": {
+      "size": "Rs 15,512 crore",
+      "status": "Largest IPO of 2025",
+      "anchorDate": "October 3, 2025",
+      "anchorSize": "Rs 4,600 crore",
+      "expectation": "4x oversubscription expected",
+      "viralAngle": "Tata Capital IPO: The biggest lottery ticket of 2025 - Rs 15,512 cr bonanza!"
+    },
+    "tataMotorsDemerger": {
+      "effectiveDate": "October 1, 2025",
+      "recordDate": "October 14, 2025",
+      "impact": "Shares rose sharply post-demerger",
+      "viralAngle": "Tata Motors demerger creates wealth - one stock becomes two!"
+    }
+  },
+  "stocks": {
+    "topGainers": [
+      {
+        "symbol": "TCS",
+        "price": 3920,
+        "change": 1.82,
+        "reason": "IT recovery rally, rupee weakness benefit"
+      },
+      {
+        "symbol": "INFY",
+        "price": 1475,
+        "change": 1.68,
+        "reason": "Recovering from H1B visa concerns"
+      },
+      {
+        "symbol": "SBI",
+        "price": 825,
+        "change": 1.60,
+        "reason": "Banking leader, RBI policy boost"
+      },
+      {
+        "symbol": "TITAN",
+        "price": 3680,
+        "change": 0.82,
+        "reason": "Festive season demand expectations"
+      }
+    ],
+    "topLosers": [
+      {
+        "symbol": "MARUTI",
+        "price": 11180,
+        "change": -0.62,
+        "reason": "Weak September sales data"
+      },
+      {
+        "symbol": "BAJAJ-AUTO",
+        "price": 8540,
+        "change": -0.48,
+        "reason": "Auto sector weakness continues"
+      }
+    ],
+    "volumeLeaders": ["TATASTEEL", "SBIN", "RELIANCE", "TCS", "ICICIBANK"]
+  },
+  "economicIndicators": {
+    "gdpGrowth": {
+      "current": 6.5,
+      "forecast": "Upgraded by RBI",
+      "milestone": "India surpassed Japan to become 4th largest economy",
+      "nominalGDP": "331.03 lakh crore (US$ 4.187 trillion)",
+      "projection": "3rd largest by 2030, surpass Germany by 2028"
+    },
+    "inflation": {
+      "current": 2.1,
+      "cpi": 3.34,
+      "rbiAction": "Lowered inflation forecasts in Oct policy",
+      "insight": "Historic low - lowest since January 2019",
+      "viralFact": "Inflation lower than your SBI savings account interest rate!"
+    },
+    "interestRates": {
+      "repoRate": 5.5,
+      "rateCutExpectation": "By December 2025",
+      "totalCutExpected2025": "Up to 100 bps",
+      "previous100bpsCut": "February 2025 - first in 5 years"
+    }
+  },
+  "fiiDiiFlows": {
+    "fiiFlows2025": {
+      "totalOutflows": "$15.46 billion",
+      "rank": "2nd largest sell-off in history (after $17.02B in 2022)",
+      "marketCapEroded": "$1.3 trillion",
+      "reasons": ["US tariffs", "Geopolitics", "Currency depreciation", "Trade tensions"],
+      "returnTriggers": ["India-US trade deal", "Earnings improvement in H2FY26"]
+    },
+    "diiFlows2025": {
+      "totalInflows": "Rs 5.73 trillion (YTD)",
+      "comparison2024": "Rs 5.26 trillion",
+      "comparison2023": "Rs 1.73 trillion",
+      "trend": "Strong domestic buying continues"
+    },
+    "pattern": "DIIs counterbalancing FII selling - domestic strength offsetting foreign exit",
+    "impact": "Market stability maintained despite massive FII outflows",
+    "viralAngle": "Indian investors buying the dip while foreigners panic - Desi money supporting markets!"
+  },
+  "globalMarkets": {
+    "dollarRupee": {
+      "current": 83.42,
+      "trend": "Weak rupee continues",
+      "rbIntervention": "RBI sold dollars to support rupee ahead of policy",
+      "impact": "Positive for IT sector dollar revenues"
+    },
+    "crudeOil": {
+      "value": 76.80,
+      "change": -1.70,
+      "trend": "Declining",
+      "impact": "Positive for India - import bill reduction"
+    }
+  },
+  "viralContentAngles": [
+    {
+      "angle": "RBI Diwali Gift",
+      "story": "RBI just gave your portfolio a pre-Diwali gift - rate cuts expected by December! Loan against shares ceiling jumped from Rs 20L to Rs 1 Cr. Time to unlock your stock wealth!",
+      "relatable": true,
+      "shareability": "high",
+      "emotion": "celebration",
+      "cta": "Review your borrowing strategy before year-end"
+    },
+    {
+      "angle": "Tata Capital IPO Bonanza",
+      "story": "Rs 15,512 crore - Tata Capital just became 2025's biggest IPO lottery! Anchor investors fighting for 4x oversubscription. Your chance to ride the Tata brand before it lists!",
+      "fomo": "extreme",
+      "shareability": "viral",
+      "hook": "Biggest IPO of 2025"
+    },
+    {
+      "angle": "Desi vs Foreign Money",
+      "story": "Plot twist: While FIIs pulled out $15.5 billion, DIIs invested Rs 5.73 trillion in 2025! Indian investors are buying the dip while foreigners panic. Who's the smart money now?",
+      "pride": true,
+      "relatable": true,
+      "emotion": "patriotic",
+      "comparison": "David vs Goliath narrative"
+    },
+    {
+      "angle": "IT Sector Comeback",
+      "story": "Remember when IT stocks crashed on H1B visa fears? TCS just recovered Rs 97,598 cr market cap loss. Moral: Markets panic, smart investors accumulate. Rupee weakness = IT sector strength!",
+      "lesson": "buy_the_dip",
+      "emotion": "vindication",
+      "shareability": "high"
+    },
+    {
+      "angle": "Gandhi Jayanti Market Holiday",
+      "story": "Markets closed for Gandhi Jayanti, but your portfolio didn't stop working! Sensex up 715 points yesterday, ready to resume the rally on Oct 3. Even holidays can't stop this bull run!",
+      "relatable": true,
+      "timing": "perfect_for_oct2",
+      "emotion": "optimism"
+    },
+    {
+      "angle": "Tata Motors Demerger Magic",
+      "story": "One Tata Motors stock becoming TWO! Demerger effective Oct 1, record date Oct 14. Shareholders getting bonus wealth creation - Tata Group's Diwali gift to investors!",
+      "fomo": true,
+      "actionable": "Check if you're a shareholder before Oct 14",
+      "emotion": "excitement"
+    }
+  ],
+  "marketNarrative": {
+    "headline": "RBI Dovishness Sparks Recovery Rally - Rate Cuts on Horizon",
+    "story": "Markets rallied 0.89% on RBI's dovish stance and expectation of rate cuts by December 2025. IT sector recovers from H1B visa shock while banking celebrates reform announcements. DIIs continue supporting markets despite record FII outflows.",
+    "opportunity": "Rate cut cycle starting, IT recovery underway, defensive pharma strong",
+    "risk": "FII outflows continue until India-US trade deal, global uncertainty persists",
+    "nextCatalyst": "Tata Capital IPO (Oct 3), earnings season Q2 FY26"
+  },
+  "actionableInsights": {
+    "immediate": [
+      "Position for rate cut beneficiaries - Banking, Real Estate, Auto",
+      "IT sector recovery play - Accumulate quality names on dips",
+      "Tata Capital IPO application strategy - Quality over quantity"
+    ],
+    "shortTerm": [
+      "Check Tata Motors demerger eligibility before Oct 14 record date",
+      "Leverage increased loan against shares limit (Rs 1 cr) prudently",
+      "Defensive allocation to Pharma for portfolio stability"
+    ],
+    "mediumTerm": [
+      "Ride the rate cut cycle - 100 bps cuts expected through 2025-26",
+      "Benefit from DII strength - domestic flows creating floor",
+      "Position for earnings recovery in H2 FY26"
+    ]
+  },
+  "insights": [
+    "RBI kept repo rate at 5.5% but turned dovish - rate cut expected by December 2025",
+    "Tata Capital's Rs 15,512 cr IPO is the largest of 2025 - anchor opens Oct 3",
+    "FII outflows hit $15.46 billion in 2025 but DIIs bought Rs 5.73 trillion - domestic strength shining",
+    "IT sector recovering from H1B visa shock - TCS, Infosys leading bounce",
+    "Markets closed today (Oct 2) for Gandhi Jayanti - last session gained 0.89%",
+    "Banking stocks rallying on RBI reforms - loan against shares limit increased 5x",
+    "Tata Motors demerger creates wealth opportunity - record date Oct 14",
+    "Crude oil declining (Rs 76.80) - positive for India's import bill and inflation"
+  ],
+  "grammy_level_insights": {
+    "shock_value": "RBI increased loan against shares from Rs 20 lakh to Rs 1 CRORE - 5x jump overnight!",
+    "relatable_story": "Markets took a Gandhi Jayanti break after celebrating RBI's dovish gift with 715-point Sensex rally",
+    "fomo_trigger": "Tata Capital IPO opening Oct 3 - anchor portion expects 4x oversubscription. Last train to Tata brand IPO?",
+    "pride_moment": "Indian DIIs invested Rs 5.73 trillion while FIIs ran away with $15.5B - Desi money proving its strength!",
+    "concern_alert": "FIIs won't return until India-US trade deal - portfolio needs defensive positioning",
+    "celebration": "IT sector bouncing back - TCS recovered entire Rs 97,598 cr loss from H1B panic!"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-09-17T16:01:43Z",
+  "source": "segment-analyzer",
+  "segments": {
+    "HNI": {
+      "characteristics": [
+        "High net worth individuals (>1 Cr investable assets)",
+        "Sophisticated investment needs",
+        "Focus on wealth preservation and tax optimization"
+      ],
+      "content_preferences": {
+        "topics": ["portfolio_diversification", "alternative_investments", "tax_planning", "estate_planning"],
+        "complexity": "advanced",
+        "frequency": "weekly",
+        "format": ["detailed_reports", "exclusive_insights", "personalized_advice"]
+      },
+      "communication_style": "Professional, data-driven, exclusive",
+      "best_channels": ["LinkedIn", "Email", "WhatsApp Business"]
+    },
+    "retail": {
+      "characteristics": [
+        "Individual investors with moderate capital",
+        "Seeking wealth creation opportunities",
+        "Mix of risk appetites"
+      ],
+      "content_preferences": {
+        "topics": ["mutual_funds", "SIPs", "stock_tips", "financial_planning"],
+        "complexity": "intermediate",
+        "frequency": "2-3 times per week",
+        "format": ["quick_tips", "market_updates", "educational_content"]
+      },
+      "communication_style": "Informative, accessible, actionable",
+      "best_channels": ["WhatsApp", "Facebook", "Instagram"]
+    },
+    "women": {
+      "characteristics": [
+        "Growing segment of women investors",
+        "Focus on financial independence",
+        "Preference for secure investments"
+      ],
+      "content_preferences": {
+        "topics": ["financial_literacy", "goal_planning", "safe_investments", "child_education"],
+        "complexity": "simple to intermediate",
+        "frequency": "weekly",
+        "format": ["success_stories", "step_by_step_guides", "community_discussions"]
+      },
+      "communication_style": "Empowering, supportive, relatable",
+      "best_channels": ["WhatsApp Groups", "Instagram", "YouTube"]
+    },
+    "millennials": {
+      "characteristics": [
+        "Tech-savvy young investors",
+        "High risk appetite",
+        "Interest in new-age investments"
+      ],
+      "content_preferences": {
+        "topics": ["cryptocurrency", "startups", "growth_stocks", "robo_advisory"],
+        "complexity": "intermediate",
+        "frequency": "daily",
+        "format": ["infographics", "reels", "quick_videos", "memes"]
+      },
+      "communication_style": "Casual, trendy, visual",
+      "best_channels": ["Instagram", "Twitter", "LinkedIn"]
+    },
+    "UHNI": {
+      "characteristics": [
+        "Ultra high net worth individuals (>25 Cr assets)",
+        "Complex financial structures",
+        "Global investment perspective"
+      ],
+      "content_preferences": {
+        "topics": ["private_equity", "international_markets", "family_office", "philanthropy"],
+        "complexity": "expert",
+        "frequency": "monthly",
+        "format": ["exclusive_reports", "one_on_one_consultations", "bespoke_solutions"]
+      },
+      "communication_style": "Exclusive, sophisticated, personalized",
+      "best_channels": ["Private meetings", "Email", "Dedicated app"]
+    },
+    "corporate": {
+      "characteristics": [
+        "Business owners and executives",
+        "Corporate treasury management",
+        "Employee benefit programs"
+      ],
+      "content_preferences": {
+        "topics": ["corporate_finance", "employee_benefits", "business_succession", "corporate_insurance"],
+        "complexity": "advanced",
+        "frequency": "bi-weekly",
+        "format": ["whitepapers", "case_studies", "webinars"]
+      },
+      "communication_style": "Professional, ROI-focused, strategic",
+      "best_channels": ["LinkedIn", "Email", "Corporate presentations"]
+    }
+  },
+  "segment_recommendations": {
+    "adv_001": {
+      "primary_segments": ["HNI", "retail"],
+      "content_mix": {
+        "HNI": 60,
+        "retail": 40
+      },
+      "recommended_topics": ["portfolio_diversification", "tax_planning", "mutual_funds"],
+      "posting_schedule": "Daily at 9 AM and 7 PM"
+    },
+    "adv_002": {
+      "primary_segments": ["women", "millennials"],
+      "content_mix": {
+        "women": 70,
+        "millennials": 30
+      },
+      "recommended_topics": ["financial_literacy", "SIPs", "goal_planning"],
+      "posting_schedule": "Twice weekly - Tuesday and Friday"
+    },
+    "adv_003": {
+      "primary_segments": ["UHNI", "corporate"],
+      "content_mix": {
+        "UHNI": 50,
+        "corporate": 50
+      },
+      "recommended_topics": ["market_analysis", "private_equity", "corporate_finance"],
+      "posting_schedule": "Weekly - Monday mornings"
+    }
+  }
+}

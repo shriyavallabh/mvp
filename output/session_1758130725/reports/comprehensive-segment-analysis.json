@@ -1,0 +1,422 @@
+{
+  "analysisMetadata": {
+    "timestamp": "2025-09-17T23:35:45Z",
+    "sessionId": "session_1758130725",
+    "analysisType": "comprehensive_segment_analysis",
+    "phase": "Phase_2_Segment_Analysis",
+    "nextPhase": "Phase_3_Content_Generation",
+    "dataQuality": 0.98,
+    "analysisVersion": "2.0"
+  },
+  "segmentProfiles": {
+    "Premium": {
+      "segmentId": "PREM_001",
+      "advisorCount": 1,
+      "representativeAdvisor": "Shruti Petkar (ADV_001)",
+      "demographics": {
+        "businessProfile": {
+          "averageAUM": "₹85+ Crores",
+          "averageClients": "280+",
+          "experience": "12+ years",
+          "brandMaturity": "Fully Established",
+          "marketPosition": "Premium Advisory"
+        },
+        "clientBase": {
+          "primarySegments": ["HNI Clients", "Business Owners", "NRIs", "Young Professionals"],
+          "riskProfile": "Moderate to High",
+          "averageInvestment": "₹25+ Lakhs",
+          "sophisticationLevel": "High",
+          "decisionMaking": "Strategic, Long-term"
+        }
+      },
+      "psychographicProfile": {
+        "values": ["Trust", "Expertise", "Performance", "Exclusivity"],
+        "aspirations": ["Market Leadership", "Thought Leadership", "Brand Building"],
+        "fears": ["Reputation Risk", "Compliance Issues", "Market Volatility"],
+        "motivations": ["Client Success", "AUM Growth", "Industry Recognition"],
+        "communicationStyle": "Executive, Data-driven, Authoritative"
+      },
+      "behavioralPatterns": {
+        "contentConsumption": "Detailed analysis, Research-backed insights",
+        "decisionTriggers": "Market data, Performance metrics, Risk analysis",
+        "engagementPreference": "Professional networks, Industry forums",
+        "informationSeeking": "Real-time market data, Expert opinions, Research reports"
+      },
+      "contentStrategy": {
+        "tone": "Professional & Authoritative",
+        "complexity": "High - Sophisticated financial concepts",
+        "vocabulary": "Advanced financial terminology, Market jargon",
+        "dataIntensity": "High - Charts, metrics, detailed analysis",
+        "topicFocus": [
+          "Advanced Portfolio Strategies",
+          "Market Analysis & Predictions",
+          "Tax Optimization Techniques",
+          "Estate Planning",
+          "Alternative Investments",
+          "Global Market Insights",
+          "Regulatory Updates",
+          "HNI-specific Opportunities"
+        ],
+        "avoidanceTopics": [
+          "Basic investment concepts",
+          "Beginner guides",
+          "Speculative investments",
+          "Unregulated products"
+        ],
+        "contentFormats": {
+          "linkedin": "Detailed market analysis, thought leadership articles",
+          "whatsapp": "Premium insights, personalized recommendations",
+          "images": "Professional charts, infographics, market data visualizations"
+        },
+        "postingStrategy": {
+          "frequency": "Daily",
+          "optimalTimes": ["9:00 AM"],
+          "languages": ["English", "Hindi"],
+          "reviewMode": "Manual approval required"
+        }
+      },
+      "emotionalProfile": {
+        "primaryEmotions": ["Confidence", "Authority", "Trust"],
+        "communicationStyle": "Direct, factual, professional",
+        "persuasionTriggers": ["Performance data", "Risk mitigation", "Exclusive insights"],
+        "culturalConsiderations": "Professional hierarchy respect, formal communication"
+      }
+    },
+    "Gold": {
+      "segmentId": "GOLD_001",
+      "advisorCount": 1,
+      "representativeAdvisor": "Rajesh Kumar (ADV_002)",
+      "demographics": {
+        "businessProfile": {
+          "averageAUM": "₹55 Crores",
+          "averageClients": "220",
+          "experience": "8 years",
+          "brandMaturity": "Growing",
+          "marketPosition": "Mid-Market Advisory"
+        },
+        "clientBase": {
+          "primarySegments": ["Salaried Professionals", "First-time Investors", "Young Families", "Middle Class"],
+          "riskProfile": "Low to Moderate",
+          "averageInvestment": "₹8 Lakhs",
+          "sophisticationLevel": "Medium",
+          "decisionMaking": "Goal-oriented, Cautious"
+        }
+      },
+      "psychographicProfile": {
+        "values": ["Education", "Stability", "Growth", "Family Security"],
+        "aspirations": ["Financial Independence", "Client Education", "Systematic Growth"],
+        "fears": ["Market Losses", "Client Dissatisfaction", "Complex Products"],
+        "motivations": ["Client Education", "Steady Growth", "Building Trust"],
+        "communicationStyle": "Educational, Supportive, Encouraging"
+      },
+      "behavioralPatterns": {
+        "contentConsumption": "Step-by-step guides, Educational content",
+        "decisionTriggers": "Goal alignment, Risk assessment, Historical performance",
+        "engagementPreference": "Community forums, Educational webinars",
+        "informationSeeking": "How-to guides, Success stories, Basic market updates"
+      },
+      "contentStrategy": {
+        "tone": "Educational & Friendly",
+        "complexity": "Medium - Balanced educational content",
+        "vocabulary": "Professional but accessible, Explained jargon",
+        "dataIntensity": "Medium - Key metrics with explanations",
+        "topicFocus": [
+          "SIP Benefits & Strategies",
+          "Goal-based Planning",
+          "Financial Literacy",
+          "Insurance Planning",
+          "Tax Saving Options",
+          "Mutual Fund Education",
+          "Market Basics",
+          "Investment Discipline"
+        ],
+        "avoidanceTopics": [
+          "Complex derivatives",
+          "High-risk strategies",
+          "Day trading",
+          "Speculative investments"
+        ],
+        "contentFormats": {
+          "linkedin": "Educational posts, success stories, market basics",
+          "whatsapp": "Regular tips, goal reminders, educational content",
+          "images": "Infographics, simple charts, educational visuals"
+        },
+        "postingStrategy": {
+          "frequency": "5x per week",
+          "optimalTimes": ["10:00 AM"],
+          "languages": ["English", "Hindi", "Marathi"],
+          "reviewMode": "Auto-approve with oversight"
+        }
+      },
+      "emotionalProfile": {
+        "primaryEmotions": ["Trust", "Security", "Hope"],
+        "communicationStyle": "Warm, educational, supportive",
+        "persuasionTriggers": ["Goal achievement", "Security", "Steady returns"],
+        "culturalConsiderations": "Family values, traditional approach, community trust"
+      }
+    },
+    "Silver": {
+      "segmentId": "SILV_001",
+      "advisorCount": 1,
+      "representativeAdvisor": "Priya Sharma (ADV_003)",
+      "demographics": {
+        "businessProfile": {
+          "averageAUM": "₹35 Crores",
+          "averageClients": "150",
+          "experience": "5 years",
+          "brandMaturity": "Emerging",
+          "marketPosition": "Entry-level Advisory"
+        },
+        "clientBase": {
+          "primarySegments": ["Millennials", "New Investors", "Small Business Owners", "Tech Professionals"],
+          "riskProfile": "Low to Moderate",
+          "averageInvestment": "₹4 Lakhs",
+          "sophisticationLevel": "Basic to Medium",
+          "decisionMaking": "Research-driven, Technology-aided"
+        }
+      },
+      "psychographicProfile": {
+        "values": ["Simplicity", "Technology", "Transparency", "Growth"],
+        "aspirations": ["Financial Literacy", "Easy Investing", "Digital Solutions"],
+        "fears": ["Complexity", "Hidden charges", "Wrong decisions"],
+        "motivations": ["Simplification", "Education", "Technology adoption"],
+        "communicationStyle": "Casual, Relatable, Modern"
+      },
+      "behavioralPatterns": {
+        "contentConsumption": "Quick tips, Visual content, Mobile-first",
+        "decisionTriggers": "Simplicity, Transparency, Peer recommendations",
+        "engagementPreference": "Social media, Online communities, Digital platforms",
+        "informationSeeking": "Quick guides, Video content, Interactive tools"
+      },
+      "contentStrategy": {
+        "tone": "Casual & Approachable",
+        "complexity": "Low - Simple, easy-to-understand concepts",
+        "vocabulary": "Simple language, Minimal jargon, Explained terms",
+        "dataIntensity": "Low - Key numbers with simple explanations",
+        "topicFocus": [
+          "Investment Basics",
+          "Digital Investment Tools",
+          "Simple Tips",
+          "Technology in Finance",
+          "Beginner Guides",
+          "Small Investment Ideas",
+          "Financial Apps",
+          "Young Investor Stories"
+        ],
+        "avoidanceTopics": [
+          "Complex financial products",
+          "Advanced strategies",
+          "International markets",
+          "High-risk investments"
+        ],
+        "contentFormats": {
+          "linkedin": "Simple tips, beginner guides, tech updates",
+          "whatsapp": "Quick tips, reminders, motivational content",
+          "images": "Simple visuals, motivational quotes, basic charts"
+        },
+        "postingStrategy": {
+          "frequency": "3x per week",
+          "optimalTimes": ["8:30 AM"],
+          "languages": ["English"],
+          "reviewMode": "Manual review preferred"
+        }
+      },
+      "emotionalProfile": {
+        "primaryEmotions": ["Curiosity", "Optimism", "Caution"],
+        "communicationStyle": "Friendly, encouraging, modern",
+        "persuasionTriggers": ["Simplicity", "Success stories", "Peer validation"],
+        "culturalConsiderations": "Modern outlook, tech-savvy, informal communication"
+      }
+    }
+  },
+  "marketContextIntegration": {
+    "currentMarketSentiment": "cautiously_optimistic",
+    "keyMarketDrivers": [
+      "US Fed rate cut expectations",
+      "Strong IT sector performance",
+      "Banking sector recovery",
+      "India-US trade talks"
+    ],
+    "segmentSpecificOpportunities": {
+      "Premium": {
+        "topics": [
+          "Fed rate cuts impact on HNI portfolios",
+          "Sector rotation strategies in current market",
+          "Currency hedging opportunities",
+          "IPO investment analysis for large investors"
+        ],
+        "urgency": "immediate_market_commentary"
+      },
+      "Gold": {
+        "topics": [
+          "How Fed rate cuts affect your SIPs",
+          "Banking sector recovery and your investments",
+          "Goal planning in changing interest rates",
+          "SIP opportunities in IT sector"
+        ],
+        "urgency": "educational_market_context"
+      },
+      "Silver": {
+        "topics": [
+          "Simple explanation of Fed rate cuts",
+          "Why tech stocks are doing well",
+          "Easy investing in recovering banking sector",
+          "Market trends made simple"
+        ],
+        "urgency": "basic_market_awareness"
+      }
+    }
+  },
+  "contentGenerationGuidelines": {
+    "linkedinPosts": {
+      "Premium": {
+        "wordCount": "200-300 words",
+        "structure": "Hook + Analysis + Data + Insight + CTA",
+        "hashtags": "5-7, Professional & industry-specific",
+        "visualElements": "Charts, infographics, market data",
+        "callToAction": "Book consultation, Download report"
+      },
+      "Gold": {
+        "wordCount": "150-200 words",
+        "structure": "Hook + Explanation + Benefit + CTA",
+        "hashtags": "3-5, Educational & accessible",
+        "visualElements": "Simple charts, educational graphics",
+        "callToAction": "Learn more, Start SIP, Schedule call"
+      },
+      "Silver": {
+        "wordCount": "100-150 words",
+        "structure": "Hook + Simple tip + Why it matters + CTA",
+        "hashtags": "2-4, Trending & relatable",
+        "visualElements": "Simple visuals, motivational graphics",
+        "callToAction": "Start today, Try app, Ask questions"
+      }
+    },
+    "whatsappMessages": {
+      "Premium": {
+        "messageLength": "2-3 sentences",
+        "tone": "Professional, personalized",
+        "content": "Market insights, exclusive updates",
+        "frequency": "Daily morning updates"
+      },
+      "Gold": {
+        "messageLength": "1-2 sentences",
+        "tone": "Friendly, educational",
+        "content": "Tips, reminders, goal progress",
+        "frequency": "Every other day"
+      },
+      "Silver": {
+        "messageLength": "1 sentence + emoji",
+        "tone": "Casual, encouraging",
+        "content": "Quick tips, motivation",
+        "frequency": "2-3 times per week"
+      }
+    },
+    "statusImages": {
+      "Premium": {
+        "style": "Professional, data-rich",
+        "elements": ["Charts", "Market data", "Brand colors"],
+        "text": "Minimal, impactful"
+      },
+      "Gold": {
+        "style": "Clean, educational",
+        "elements": ["Simple graphics", "Key numbers", "Friendly colors"],
+        "text": "Explanatory, clear"
+      },
+      "Silver": {
+        "style": "Modern, simple",
+        "elements": ["Icons", "Basic charts", "Bright colors"],
+        "text": "Short, engaging"
+      }
+    }
+  },
+  "personalizationMatrix": {
+    "Premium_Shruti": {
+      "brandVoice": "Authoritative expert positioning",
+      "uniqueSellingPoints": ["12 years experience", "CFP certified", "HNI specialist"],
+      "clientChallenges": ["Complex portfolio management", "Tax optimization", "Estate planning"],
+      "contentAngle": "Thought leadership and expert insights",
+      "personalBrand": "Wealth Creators - Building Wealth, Creating Trust"
+    },
+    "Gold_Rajesh": {
+      "brandVoice": "Friendly financial educator",
+      "uniqueSellingPoints": ["Multi-lingual support", "Goal-based planning", "SIP specialist"],
+      "clientChallenges": ["Financial literacy", "Goal achievement", "Investment discipline"],
+      "contentAngle": "Educational content and practical tips",
+      "personalBrand": "Money Matters - Your Financial Growth Partner"
+    },
+    "Silver_Priya": {
+      "brandVoice": "Modern, tech-savvy guide",
+      "uniqueSellingPoints": ["Digital-first approach", "Young investor focus", "Simple solutions"],
+      "clientChallenges": ["Getting started", "Understanding basics", "Technology adoption"],
+      "contentAngle": "Simplified education and digital solutions",
+      "personalBrand": "Smart Invest - Smart Investing Made Simple"
+    }
+  },
+  "contentCalendarRecommendations": {
+    "weeklyThemes": {
+      "Monday": {
+        "Premium": "Market Analysis Monday",
+        "Gold": "Goal Planning Monday",
+        "Silver": "Motivation Monday"
+      },
+      "Wednesday": {
+        "Premium": "Portfolio Strategy Wednesday",
+        "Gold": "SIP Education Wednesday",
+        "Silver": "Simple Tips Wednesday"
+      },
+      "Friday": {
+        "Premium": "Week Wrap-up & Outlook",
+        "Gold": "Financial Literacy Friday",
+        "Silver": "Fun Finance Friday"
+      }
+    },
+    "seasonalContent": {
+      "marketEvents": "Customize based on budget announcements, RBI policy",
+      "festivals": "Diwali investment tips, New Year financial resolutions",
+      "taxSeason": "Segment-specific tax saving strategies"
+    }
+  },
+  "complianceGuidelines": {
+    "universal": {
+      "disclaimers": "Always include investment risk warnings",
+      "regulations": "SEBI compliance for all recommendations",
+      "language": "Avoid guaranteed returns promises"
+    },
+    "segmentSpecific": {
+      "Premium": "Higher risk products require detailed disclosures",
+      "Gold": "Balanced approach with risk education",
+      "Silver": "Extra emphasis on basic risk education"
+    }
+  },
+  "performanceMetrics": {
+    "engagementTargets": {
+      "Premium": {"linkedin": ">5% engagement", "whatsapp": ">80% read rate"},
+      "Gold": {"linkedin": ">3% engagement", "whatsapp": ">70% read rate"},
+      "Silver": {"linkedin": ">2% engagement", "whatsapp": ">60% read rate"}
+    },
+    "contentEffectiveness": {
+      "Premium": "Lead quality, consultation bookings",
+      "Gold": "SIP enrollments, goal completions",
+      "Silver": "App downloads, basic engagement"
+    }
+  },
+  "nextPhaseInputs": {
+    "contentGenerators": {
+      "linkedin": "Use segment-specific tone, complexity, and topics",
+      "whatsapp": "Apply message length and frequency guidelines",
+      "images": "Follow visual style and brand color preferences"
+    },
+    "priorityActions": [
+      "Generate Premium content for market analysis",
+      "Create Gold educational content on current market themes",
+      "Develop Silver beginner-friendly market explanations",
+      "Ensure all content aligns with market intelligence"
+    ],
+    "qualityAssurance": [
+      "Verify tone matches segment expectations",
+      "Check complexity level appropriateness",
+      "Ensure topic relevance for client demographics",
+      "Validate brand voice consistency"
+    ]
+  }
+}

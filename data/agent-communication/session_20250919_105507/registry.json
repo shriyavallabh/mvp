@@ -1,0 +1,59 @@
+{
+  "sessionId": "session_20250919_105507",
+  "registeredAt": "2025-09-19T10:55:07.000Z",
+  "agents": {
+    "state-manager": {
+      "capabilities": ["state-persistence", "learning-capture"],
+      "sharedMemory": "data/shared-memory/session_20250919_105507",
+      "learnings": "learnings/sessions/session_20250919_105507",
+      "status": "ready"
+    },
+    "communication-bus": {
+      "capabilities": ["message-routing", "broadcast"],
+      "channels": "data/agent-communication/session_20250919_105507",
+      "status": "ready"
+    },
+    "market-intelligence": {
+      "capabilities": ["trend-analysis", "viral-content-insights"],
+      "output": "output/session_20250919_105507/market-intelligence",
+      "status": "ready"
+    },
+    "gemini-image-generator": {
+      "capabilities": ["visual-content-creation", "grammy-themed-imagery"],
+      "output": "output/session_20250919_105507/images",
+      "status": "ready"
+    },
+    "linkedin-post-generator-enhanced": {
+      "capabilities": ["viral-linkedin-content", "grammy-award-posts"],
+      "output": "output/session_20250919_105507/linkedin",
+      "status": "ready"
+    },
+    "whatsapp-message-creator": {
+      "capabilities": ["viral-whatsapp-content", "engagement-optimization"],
+      "output": "output/session_20250919_105507/whatsapp",
+      "status": "ready"
+    },
+    "compliance-validator": {
+      "capabilities": ["content-compliance", "platform-guidelines"],
+      "validation": "data/agent-communication/session_20250919_105507/compliance",
+      "status": "ready"
+    },
+    "quality-scorer": {
+      "capabilities": ["virality-scoring", "engagement-prediction"],
+      "scoring": "data/agent-communication/session_20250919_105507/quality",
+      "status": "ready"
+    },
+    "distribution-controller": {
+      "capabilities": ["content-distribution", "multi-platform-delivery"],
+      "coordination": "data/agent-communication/session_20250919_105507/coordination",
+      "status": "ready"
+    }
+  },
+  "communicationChannels": {
+    "feedback": "data/agent-communication/session_20250919_105507/feedback",
+    "quality": "data/agent-communication/session_20250919_105507/quality",
+    "compliance": "data/agent-communication/session_20250919_105507/compliance",
+    "state": "data/agent-communication/session_20250919_105507/state",
+    "coordination": "data/agent-communication/session_20250919_105507/coordination"
+  }
+}

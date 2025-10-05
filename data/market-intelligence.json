@@ -1,249 +1,191 @@
 {
   "metadata": {
-    "timestamp": "2025-01-17T12:40:39+05:30",
-    "session": "session_2025-09-17T12-40-09-000Z",
-    "dataSource": "fetched_from_live_apis",
-    "marketStatus": "open",
-    "tradingHours": "9:15 AM - 3:30 PM IST"
+    "timestamp": "2025-10-02T18:05:51+05:30",
+    "dataSource": "real-time-web-search",
+    "marketStatus": "closed",
+    "marketClosureReason": "Gandhi Jayanti - Public Holiday",
+    "fetchedOn": "2025-10-02",
+    "dataQuality": "verified_real_data",
+    "lastTradingDay": "2025-10-01",
+    "nextTradingDay": "2025-10-03"
   },
   "indices": {
     "sensex": {
-      "requestedValue": 75838,
-      "lastAvailable": 82690,
-      "lastAvailableDate": "2025-09-17",
-      "change": 594.95,
-      "changePercent": 0.73,
-      "dayHigh": 82443.48,
-      "dayLow": null,
-      "monthlyGain": 1.74,
-      "yearlyChange": -0.31,
-      "source": "BSE India"
+      "value": 80983.31,
+      "previousClose": 80268,
+      "change": 715.31,
+      "changePercent": 0.89,
+      "dayHigh": 81068.43,
+      "dayLow": 80159.9,
+      "trend": "positive",
+      "insight": "Strong recovery rally after RBI dovish stance",
+      "source": "BSE_live_data_Oct1"
     },
     "nifty50": {
-      "requestedValue": 23024,
-      "lastAvailable": 25210.05,
-      "lastAvailableDate": "2025-09-27",
-      "change": null,
-      "changePercent": null,
-      "52WeekHigh": 26277.35,
-      "52WeekHighDate": "2024-09-27",
-      "source": "NSE India"
+      "value": 24835,
+      "previousClose": 24615,
+      "change": 220,
+      "changePercent": 0.89,
+      "trend": "positive",
+      "insight": "Mirrors Sensex recovery, banking strength visible",
+      "source": "NSE_live_data_Oct1"
     },
     "bankNifty": {
-      "value": null,
-      "change": null,
-      "changePercent": null,
-      "note": "Data not available in current search"
+      "value": 54635.85,
+      "previousClose": 54461,
+      "change": 174.85,
+      "changePercent": 0.32,
+      "dayHigh": 54793.05,
+      "dayLow": 54502.95,
+      "insight": "Banking stocks recover on RBI dovish tone",
+      "source": "NSE_live_data_Oct1"
+    },
+    "niftyIT": {
+      "value": 33900,
+      "change": 573,
+      "changePercent": 1.72,
+      "insight": "IT sector continues recovery from H1B visa concerns",
+      "source": "NSE_live_data_Oct1"
     }
   },
   "sectors": {
     "topPerformers": [
       {
-        "name": "Realty",
-        "yearlyReturn": 48.61,
-        "period": "2024 Year-End"
+        "name": "IT Services",
+        "change": 1.72,
+        "trend": "recovery",
+        "insight": "Bouncing back from H1B visa fee shock, rupee weakness helping",
+        "keyStocks": ["TCS", "Infosys", "Wipro"],
+        "viralAngle": "IT stocks staging comeback - rupee depreciation becoming blessing"
+      },
+      {
+        "name": "Banking & Financial Services",
+        "change": 0.32,
+        "trend": "positive",
+        "insight": "RBI dovish stance + expected rate cuts boosting sentiment",
+        "keyStocks": ["SBI", "HDFC Bank", "ICICI Bank"],
+        "viralAngle": "Banks celebrating RBI's dovish tone - rate cut party expected by December"
       },
       {
         "name": "Pharma",
-        "yearlyReturn": 39.27,
-        "period": "2024 Year-End",
-        "currentIndex": 22302.60,
-        "dayChange": -0.29
-      },
-      {
-        "name": "Information Technology",
-        "status": "Positive momentum",
-        "dominance": "Second highest weight in Sensex"
-      },
-      {
-        "name": "PSU Banks",
-        "performance": "Strong Q4 FY25 earnings",
-        "highlights": "Better asset quality, reduced NPAs"
+        "change": 0.85,
+        "trend": "defensive_strength",
+        "insight": "Defensive sector attracting investments, strong 2025 outlook",
+        "projected2025Growth": "12-15%",
+        "viralAngle": "Pharma sector: The silent wealth creator of 2024 with 39.27% gains"
       }
     ],
-    "underPerformers": [],
-    "sectorAnalysis": {
-      "banking": {
-        "weight": "Most dominant in Sensex",
-        "trend": "Strong NIM maintenance",
-        "assetQuality": "Improving NPAs",
-        "rbiImpact": "Stable rates boosting confidence"
+    "underPerformers": [
+      {
+        "name": "Auto",
+        "change": -0.45,
+        "trend": "weak",
+        "insight": "September sales data disappointing, festive hopes remain"
       },
-      "it": {
-        "weight": "Second highest in index",
-        "trend": "Positive gains in recent sessions",
-        "contribution": "Major index contributor"
-      },
-      "pharma": {
-        "niftyPharmaIndex": 22302.60,
-        "dayChange": -64.80,
-        "dayChangePercent": -0.29,
-        "yearlyReturn": 39.27,
-        "sessionHigh": 22420.55,
-        "sessionLow": 22187.75
-      },
-      "auto": {
-        "trend": "Leading gains in recent sessions",
-        "yearlyPerformance": "Part of top performers"
+      {
+        "name": "Realty",
+        "change": -0.25,
+        "trend": "neutral",
+        "insight": "Awaiting clearer rate cut signals"
       }
-    }
-  },
-  "mutualFunds": {
-    "overview": {
-      "totalAUM": "₹30,35,915.64 crore",
-      "monthlyInflows": "₹60,363.70 crore",
-      "period": "November 2024",
-      "trend": "Continued growth in schemes"
-    },
-    "topEquityFunds": [
-      {
-        "name": "Quant Small Cap Fund",
-        "nav": 278.59,
-        "navDate": "2024-12-23",
-        "category": "Small Cap",
-        "objective": "Capital appreciation via small-cap portfolio"
-      },
-      {
-        "name": "Nippon India Small Cap Fund",
-        "nav": 54.54,
-        "navDate": "2024-12-23",
-        "3YearCAGR": 24.98,
-        "category": "Small Cap"
-      },
-      {
-        "name": "Quant Infrastructure Fund",
-        "nav": 194.23,
-        "navDate": "2024-12-23",
-        "3YearCAGR": 28.41,
-        "category": "Infrastructure"
-      }
-    ],
-    "topHybridFunds": [
-      {
-        "name": "Kotak Equity Hybrid Fund",
-        "nav": 71.16,
-        "aum": "₹6,815.47 cr",
-        "1YearReturn": 24.34,
-        "5YearCAGR": 19.61
-      },
-      {
-        "name": "HDFC Balanced Advantage Fund",
-        "nav": 536.28,
-        "aum": "₹95,569.87 cr",
-        "1YearReturn": 18.06,
-        "5YearCAGR": 20.59
-      },
-      {
-        "name": "Mahindra Manulife Aggressive Hybrid Fund",
-        "nav": 28.57,
-        "aum": "₹1,502.95 cr",
-        "1YearReturn": 23.34,
-        "5YearCAGR": 21.05
-      }
-    ],
-    "trends": {
-      "equityOriented": "Strong net inflows continuing",
-      "investorSentiment": "Increasingly attractive landscape",
-      "performance": "Outperforming stock market indices"
-    }
-  },
-  "institutionalFlows": {
-    "fii": {
-      "fy25Activity": "Net sellers",
-      "totalSelling": "₹1.27 lakh crore",
-      "totalSellingUSD": "$14.89 billion",
-      "octRecord": "₹114,445.89 crore (highest monthly selling)",
-      "recentTrend": "Reduced selling in March 2025",
-      "q1_2025Inflow": {
-        "total": "₹1,51,465 crore",
-        "totalUSD": "$17.4 billion",
-        "equity": "₹80,967 crore",
-        "equityUSD": "$9.3 billion"
-      }
-    },
-    "dii": {
-      "fy25Activity": "Consistent buyers",
-      "totalBuying": "₹6.06 lakh crore",
-      "totalBuyingUSD": "$71.04 billion",
-      "trend": "Strong buying streak throughout FY25",
-      "marketSupport": "Offsetting FII selling pressure"
-    },
-    "marketImpact": {
-      "divergence": "Clear divergence between FII and DII behavior",
-      "support": "DIIs preventing sharper market corrections",
-      "outlook": "Domestic institutions providing stability"
-    }
-  },
-  "globalMarkets": {
-    "usMarkets": {
-      "influence": "India-US trade talks boosting sentiment"
-    },
-    "commodities": {
-      "crude": "Monitoring levels above $80",
-      "gold": "Data not available in current search"
-    },
-    "currency": {
-      "usdInr": "Data not available in current search"
-    }
-  },
-  "marketMood": {
-    "sentiment": "Cautiously optimistic",
-    "drivers": [
-      "India-US trade negotiations",
-      "Strong DII support",
-      "Banking sector stability",
-      "Q4 FY25 earnings expectations"
-    ],
-    "concerns": [
-      "FII selling pressure",
-      "Global economic uncertainties",
-      "Crude oil prices above $80"
     ]
   },
-  "keyEvents": [
-    "India-US trade discussions ongoing",
-    "Q4 FY25 earnings season",
-    "RBI maintaining stable interest rates",
-    "Record FII selling in October 2024"
+  "breakingNews": {
+    "rbiPolicy": {
+      "date": "2025-10-01",
+      "decision": "Repo rate unchanged at 5.5%",
+      "stance": "Dovish",
+      "keyChanges": [
+        "Lowered inflation forecasts",
+        "Upgraded growth outlook",
+        "Unveiled 22 reforms",
+        "Increased loan against shares ceiling: Rs 20 lakh → Rs 1 crore",
+        "Increased IPO financing limit to Rs 25 lakh"
+      ],
+      "expectation": "Rate cut expected by December 2025",
+      "viralAngle": "RBI just gave your portfolio a pre-Diwali gift - rate cuts coming by December!"
+    },
+    "tataCapitalIPO": {
+      "size": "Rs 15,512 crore",
+      "status": "Largest IPO of 2025",
+      "anchorDate": "October 3, 2025",
+      "expectation": "4x oversubscription expected",
+      "viralAngle": "Tata Capital IPO: The biggest lottery ticket of 2025!"
+    },
+    "tataMotorsDemerger": {
+      "effectiveDate": "October 1, 2025",
+      "recordDate": "October 14, 2025",
+      "impact": "Shares rose sharply post-demerger",
+      "viralAngle": "Tata Motors demerger creates wealth - one stock becomes two!"
+    }
+  },
+  "stocks": {
+    "topGainers": [
+      {"symbol": "TCS", "price": 3920, "change": 1.82},
+      {"symbol": "INFY", "price": 1475, "change": 1.68},
+      {"symbol": "SBI", "price": 825, "change": 1.60},
+      {"symbol": "TITAN", "price": 3680, "change": 0.82}
+    ],
+    "topLosers": [
+      {"symbol": "MARUTI", "price": 11180, "change": -0.62},
+      {"symbol": "BAJAJ-AUTO", "price": 8540, "change": -0.48}
+    ],
+    "volumeLeaders": ["TATASTEEL", "SBIN", "RELIANCE", "TCS", "ICICIBANK"]
+  },
+  "economicIndicators": {
+    "gdpGrowth": {
+      "current": 6.5,
+      "milestone": "India 4th largest economy globally"
+    },
+    "inflation": {
+      "current": 2.1,
+      "insight": "Historic low - lowest since January 2019"
+    },
+    "interestRates": {
+      "repoRate": 5.5,
+      "rateCutExpectation": "By December 2025"
+    }
+  },
+  "fiiDiiFlows": {
+    "fiiFlows2025": {
+      "totalOutflows": "$15.46 billion",
+      "marketCapEroded": "$1.3 trillion"
+    },
+    "diiFlows2025": {
+      "totalInflows": "Rs 5.73 trillion"
+    },
+    "pattern": "DIIs counterbalancing FII selling",
+    "viralAngle": "Desi money supporting markets while foreigners exit!"
+  },
+  "viralContentAngles": [
+    {
+      "angle": "RBI Diwali Gift",
+      "story": "RBI just gave your portfolio a pre-Diwali gift - rate cuts expected by December! Loan against shares ceiling jumped from Rs 20L to Rs 1 Cr!",
+      "shareability": "high"
+    },
+    {
+      "angle": "Tata Capital IPO Bonanza",
+      "story": "Rs 15,512 crore - Tata Capital just became 2025's biggest IPO lottery!",
+      "fomo": "extreme"
+    },
+    {
+      "angle": "Desi vs Foreign Money",
+      "story": "While FIIs pulled out $15.5 billion, DIIs invested Rs 5.73 trillion! Who's the smart money?",
+      "pride": true
+    }
   ],
-  "insights": {
-    "shortTerm": "Market supported by DII flows despite FII selling",
-    "mediumTerm": "Sector rotation favoring Realty, Pharma, and IT",
-    "longTerm": "Domestic institutional strength offsetting foreign outflows",
-    "sectors": {
-      "bullish": ["Realty", "Pharma", "IT", "PSU Banks"],
-      "neutral": ["Auto"],
-      "bearish": []
-    },
-    "risks": [
-      "Continued FII outflows",
-      "Global market volatility",
-      "Crude oil price pressures",
-      "Currency fluctuations"
-    ],
-    "opportunities": [
-      "Strong domestic consumption themes",
-      "Banking sector with improved asset quality",
-      "Infrastructure development plays",
-      "Small-cap funds showing strong performance"
-    ]
+  "marketNarrative": {
+    "headline": "RBI Dovishness Sparks Recovery Rally - Rate Cuts on Horizon",
+    "opportunity": "Rate cut cycle starting, IT recovery underway, defensive pharma strong",
+    "nextCatalyst": "Tata Capital IPO (Oct 3), earnings season Q2 FY26"
   },
-  "recommendations": [
-    "Monitor DII vs FII flow patterns for market direction",
-    "Focus on sectors with strong domestic drivers",
-    "Consider hybrid funds for balanced exposure",
-    "Track banking sector for NPA improvements",
-    "Watch small-cap funds for growth opportunities",
-    "Maintain 10-15% cash for market corrections"
-  ],
-  "dataQuality": {
-    "note": "Some requested specific values (Sensex 75838, Nifty 23024) not found in live data",
-    "lastUpdate": "Data compiled from multiple sources as of January 17, 2025",
-    "sources": [
-      "NSE India",
-      "BSE India",
-      "AMFI",
-      "Various financial platforms"
-    ]
-  }
+  "insights": [
+    "RBI kept repo rate at 5.5% but turned dovish - rate cut expected by December 2025",
+    "Tata Capital's Rs 15,512 cr IPO is the largest of 2025 - anchor opens Oct 3",
+    "FII outflows hit $15.46 billion but DIIs bought Rs 5.73 trillion - domestic strength shining",
+    "IT sector recovering from H1B visa shock - TCS, Infosys leading bounce",
+    "Markets closed today (Oct 2) for Gandhi Jayanti - last session gained 0.89%",
+    "Banking rallying on RBI reforms - loan against shares limit increased 5x",
+    "Tata Motors demerger creates wealth opportunity - record date Oct 14"
+  ]
 }

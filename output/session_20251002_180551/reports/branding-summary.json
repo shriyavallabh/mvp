@@ -1,0 +1,234 @@
+{
+  "session_id": "session_20251002_180551",
+  "timestamp": "2025-10-02T19:05:54.062074",
+  "agent": "brand-customizer",
+  "total_images_processed": 12,
+  "total_images_expected": 12,
+  "success_rate": "100.0%",
+  "branding_elements_applied": {
+    "advisor_logo": "150x150px, bottom-left, 40px margin",
+    "tagline": "Montserrat-style Bold 32pt, top banner",
+    "arn_number": "Arial 28pt, bottom-right, SEBI format",
+    "color_accents": "Advisor brand colors, borders and highlights",
+    "border": "8px solid border in brand color"
+  },
+  "advisors_processed": [
+    {
+      "name": "Shruti Petkar",
+      "images_branded": 3,
+      "brand_color": "#1B365D",
+      "tagline": "Building Wealth, Creating Trust",
+      "arn": "ARN-125847"
+    },
+    {
+      "name": "Vidyadhar Petkar",
+      "images_branded": 3,
+      "brand_color": "#2E8B57",
+      "tagline": "Your Financial Growth Partner",
+      "arn": "ARN-138924"
+    },
+    {
+      "name": "Shriya Vallabh Petkar",
+      "images_branded": 3,
+      "brand_color": "#8B4513",
+      "tagline": "Empowering Financial Decisions",
+      "arn": "ARN-147852"
+    },
+    {
+      "name": "Avalok Langer",
+      "images_branded": 3,
+      "brand_color": "#1A73E8",
+      "tagline": "Smart Investments, Secure Future",
+      "arn": "ARN-169741"
+    }
+  ],
+  "detailed_results": [
+    {
+      "input": "shruti_status_1.png",
+      "output": "shruti_petkar_status_1_branded.png",
+      "advisor": "Shruti Petkar",
+      "arn": "ARN-125847",
+      "branding_applied": {
+        "logo": true,
+        "tagline": true,
+        "arn_number": true,
+        "color_accents": true,
+        "border": true
+      },
+      "dimensions": "1080x1920",
+      "file_size_kb": 117.91
+    },
+    {
+      "input": "shruti_status_2.png",
+      "output": "shruti_petkar_status_2_branded.png",
+      "advisor": "Shruti Petkar",
+      "arn": "ARN-125847",
+      "branding_applied": {
+        "logo": true,
+        "tagline": true,
+        "arn_number": true,
+        "color_accents": true,
+        "border": true
+      },
+      "dimensions": "1080x1920",
+      "file_size_kb": 107.04
+    },
+    {
+      "input": "shruti_status_3.png",
+      "output": "shruti_petkar_status_3_branded.png",
+      "advisor": "Shruti Petkar",
+      "arn": "ARN-125847",
+      "branding_applied": {
+        "logo": true,
+        "tagline": true,
+        "arn_number": true,
+        "color_accents": true,
+        "border": true
+      },
+      "dimensions": "1080x1920",
+      "file_size_kb": 76.55
+    },
+    {
+      "input": "vidyadhar_status_1.png",
+      "output": "vidyadhar_petkar_status_1_branded.png",
+      "advisor": "Vidyadhar Petkar",
+      "arn": "ARN-138924",
+      "branding_applied": {
+        "logo": true,
+        "tagline": true,
+        "arn_number": true,
+        "color_accents": true,
+        "border": true
+      },
+      "dimensions": "1080x1920",
+      "file_size_kb": 98.07
+    },
+    {
+      "input": "vidyadhar_status_2.png",
+      "output": "vidyadhar_petkar_status_2_branded.png",
+      "advisor": "Vidyadhar Petkar",
+      "arn": "ARN-138924",
+      "branding_applied": {
+        "logo": true,
+        "tagline": true,
+        "arn_number": true,
+        "color_accents": true,
+        "border": true
+      },
+      "dimensions": "1080x1920",
+      "file_size_kb": 77.72
+    },
+    {
+      "input": "vidyadhar_status_3.png",
+      "output": "vidyadhar_petkar_status_3_branded.png",
+      "advisor": "Vidyadhar Petkar",
+      "arn": "ARN-138924",
+      "branding_applied": {
+        "logo": true,
+        "tagline": true,
+        "arn_number": true,
+        "color_accents": true,
+        "border": true
+      },
+      "dimensions": "1080x1920",
+      "file_size_kb": 93.68
+    },
+    {
+      "input": "shriya_status_1.png",
+      "output": "shriya_vallabh_petkar_status_1_branded.png",
+      "advisor": "Shriya Vallabh Petkar",
+      "arn": "ARN-147852",
+      "branding_applied": {
+        "logo": true,
+        "tagline": true,
+        "arn_number": true,
+        "color_accents": true,
+        "border": true
+      },
+      "dimensions": "1080x1920",
+      "file_size_kb": 74.23
+    },
+    {
+      "input": "shriya_status_2.png",
+      "output": "shriya_vallabh_petkar_status_2_branded.png",
+      "advisor": "Shriya Vallabh Petkar",
+      "arn": "ARN-147852",
+      "branding_applied": {
+        "logo": true,
+        "tagline": true,
+        "arn_number": true,
+        "color_accents": true,
+        "border": true
+      },
+      "dimensions": "1080x1920",
+      "file_size_kb": 75.71
+    },
+    {
+      "input": "shriya_status_3.png",
+      "output": "shriya_vallabh_petkar_status_3_branded.png",
+      "advisor": "Shriya Vallabh Petkar",
+      "arn": "ARN-147852",
+      "branding_applied": {
+        "logo": true,
+        "tagline": true,
+        "arn_number": true,
+        "color_accents": true,
+        "border": true
+      },
+      "dimensions": "1080x1920",
+      "file_size_kb": 70.7
+    },
+    {
+      "input": "avalok_status_1.png",
+      "output": "avalok_langer_status_1_branded.png",
+      "advisor": "Avalok Langer",
+      "arn": "ARN-169741",
+      "branding_applied": {
+        "logo": true,
+        "tagline": true,
+        "arn_number": true,
+        "color_accents": true,
+        "border": true
+      },
+      "dimensions": "1080x1920",
+      "file_size_kb": 112.88
+    },
+    {
+      "input": "avalok_status_2.png",
+      "output": "avalok_langer_status_2_branded.png",
+      "advisor": "Avalok Langer",
+      "arn": "ARN-169741",
+      "branding_applied": {
+        "logo": true,
+        "tagline": true,
+        "arn_number": true,
+        "color_accents": true,
+        "border": true
+      },
+      "dimensions": "1080x1920",
+      "file_size_kb": 75.94
+    },
+    {
+      "input": "avalok_status_3.png",
+      "output": "avalok_langer_status_3_branded.png",
+      "advisor": "Avalok Langer",
+      "arn": "ARN-169741",
+      "branding_applied": {
+        "logo": true,
+        "tagline": true,
+        "arn_number": true,
+        "color_accents": true,
+        "border": true
+      },
+      "dimensions": "1080x1920",
+      "file_size_kb": 89.16
+    }
+  ],
+  "output_directory": "/Users/shriyavallabh/Desktop/mvp/output/session_20251002_180551/images/status/final",
+  "validation": {
+    "all_images_branded": true,
+    "consistent_dimensions": "1080x1920 (9:16 portrait)",
+    "file_format": "PNG with optimization",
+    "quality_settings": "quality=95, optimized=True"
+  }
+}

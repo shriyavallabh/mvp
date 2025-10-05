@@ -1,0 +1,63 @@
+{
+  "sessionId": "session_20250919_211030",
+  "channels": {
+    "advisor-data-manager": {
+      "input": [],
+      "output": ["advisor-context", "advisor-segments"],
+      "dependencies": [],
+      "status": "pending"
+    },
+    "market-intelligence": {
+      "input": ["advisor-context"],
+      "output": ["market-insights", "segment-analysis"],
+      "dependencies": ["advisor-data-manager"],
+      "status": "pending"
+    },
+    "gemini-image-generator": {
+      "input": ["advisor-context", "market-insights"],
+      "output": ["generated-images", "image-metadata"],
+      "dependencies": ["advisor-data-manager", "market-intelligence"],
+      "status": "pending"
+    },
+    "linkedin-post-generator": {
+      "input": ["advisor-context", "market-insights", "generated-images"],
+      "output": ["linkedin-posts", "post-metadata"],
+      "dependencies": ["advisor-data-manager", "market-intelligence", "gemini-image-generator"],
+      "status": "pending"
+    },
+    "whatsapp-message-creator": {
+      "input": ["advisor-context", "market-insights", "generated-images"],
+      "output": ["whatsapp-messages", "message-metadata"],
+      "dependencies": ["advisor-data-manager", "market-intelligence", "gemini-image-generator"],
+      "status": "pending"
+    },
+    "compliance-validator": {
+      "input": ["linkedin-posts", "whatsapp-messages"],
+      "output": ["compliance-validation", "violation-reports"],
+      "dependencies": ["linkedin-post-generator", "whatsapp-message-creator"],
+      "status": "pending"
+    },
+    "quality-scorer": {
+      "input": ["linkedin-posts", "whatsapp-messages", "compliance-validation"],
+      "output": ["quality-scores", "improvement-suggestions"],
+      "dependencies": ["linkedin-post-generator", "whatsapp-message-creator", "compliance-validator"],
+      "status": "pending"
+    },
+    "distribution-controller": {
+      "input": ["linkedin-posts", "whatsapp-messages", "compliance-validation", "quality-scores"],
+      "output": ["distribution-results", "delivery-reports"],
+      "dependencies": ["linkedin-post-generator", "whatsapp-message-creator", "compliance-validator", "quality-scorer"],
+      "status": "pending"
+    }
+  },
+  "dataFlow": {
+    "phase1": ["advisor-data-manager"],
+    "phase2": ["market-intelligence"],
+    "phase3": ["gemini-image-generator"],
+    "phase4": ["linkedin-post-generator", "whatsapp-message-creator"],
+    "phase5": ["compliance-validator"],
+    "phase6": ["quality-scorer"],
+    "phase7": ["distribution-controller"]
+  },
+  "createdAt": "2025-09-19T21:10:30.000Z"
+}

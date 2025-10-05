@@ -1,0 +1,740 @@
+{
+  "session_metadata": {
+    "session_id": "session_20250919_105507",
+    "generation_timestamp": "2025-09-19T11:20:34.161493",
+    "total_advisors_processed": 5,
+    "total_messages_generated": 25,
+    "creation_method": "FINAL Grammy Award Viral Psychology",
+    "quality_standard": "Grammy Award Standard (8.0+ virality)",
+    "scoring_algorithm": "Fixed and Calibrated"
+  },
+  "quality_metrics": {
+    "average_virality_score": 3.9,
+    "messages_above_8_0": 0,
+    "messages_above_9_0": 0,
+    "grammy_success_rate": 0.0,
+    "sidney_sheldon_pass_rate": 100.0,
+    "mission_accomplished": false
+  },
+  "viral_strategies_proven": [
+    "warikoo_confession (personal loss with specific amounts)",
+    "shrivastava_shocker (93% F&O loss statistics)",
+    "ranade_coffee_math (\u20b967L vs \u20b92.3cr calculation)",
+    "underdog_crorepati (auto driver success story)",
+    "village_uncle_wisdom (lifestyle vs wealth contrast)"
+  ],
+  "advisor_performance": [
+    {
+      "advisor_name": "Shruti Petkar",
+      "advisor_id": "ARN_SHRUTI_001",
+      "messages_generated": 5,
+      "average_virality_score": 3.9,
+      "grammy_worthy_count": 0,
+      "all_grammy_standard": false
+    },
+    {
+      "advisor_name": "Vidyadhar Petkar",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "messages_generated": 5,
+      "average_virality_score": 3.9,
+      "grammy_worthy_count": 0,
+      "all_grammy_standard": false
+    },
+    {
+      "advisor_name": "Shriya Vallabh Petkar",
+      "advisor_id": "ARN_SHRIYA_003",
+      "messages_generated": 5,
+      "average_virality_score": 3.9,
+      "grammy_worthy_count": 0,
+      "all_grammy_standard": false
+    },
+    {
+      "advisor_name": "Mr. Tranquil Veda",
+      "advisor_id": "ADV_004",
+      "messages_generated": 5,
+      "average_virality_score": 3.9,
+      "grammy_worthy_count": 0,
+      "all_grammy_standard": false
+    },
+    {
+      "advisor_name": "Unknown Advisor",
+      "advisor_id": "ADV_005",
+      "messages_generated": 5,
+      "average_virality_score": 3.9,
+      "grammy_worthy_count": 0,
+      "all_grammy_standard": false
+    }
+  ],
+  "detailed_messages": [
+    {
+      "message_id": "ARN_SHRUTI_001_final_viral_1",
+      "strategy": "warikoo_confession",
+      "text": "\ud83d\udc94 I lost \u20b915 lakhs in 2008 crash.\n\nSold everything in panic. Was devastated.\nSame portfolio today? \u20b93.2 crores.\n\nMy panic = \u20b92.5 crore mistake.\n\nShruti, scared of market highs?\nYour emotions cost more than crashes.\n\nReply 'HELP' for wisdom\n\nShruti Petkar | ARN_SHRUTI_001",
+      "character_count": 271,
+      "virality_score": 5.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "personal_confession",
+        "specific_amounts",
+        "emotional_triggers",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 5,
+        "first_line": "\ud83d\udc94 I lost \u20b915 lakhs in 2008 crash.",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": true,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ARN_SHRUTI_001_final_viral_2",
+      "strategy": "shrivastava_shocker",
+      "text": "\u26a0\ufe0f SHOCKING: 93% of F&O traders lost money\n\nAverage loss: \u20b92 lakh per trader\nSEBI data doesn't lie.\n\nYour neighbor bragging about profits?\nStatistically impossible.\n\nShruti, ready for real wealth building?\nReply 'TRUTH'\n\nShruti Petkar | ARN_SHRUTI_001",
+      "character_count": 251,
+      "virality_score": 2.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_statistics",
+        "specific_amounts",
+        "emotional_triggers",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 5,
+        "first_line": "\u26a0\ufe0f SHOCKING: 93% of F&O traders lost money",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": true,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ARN_SHRUTI_001_final_viral_3",
+      "strategy": "ranade_coffee_math",
+      "text": "\u2615 SHOCKING: Your \u20b9200 coffee = \u20b967 LAKHS gone!\n\n30 years mathematics:\nCoffee: \u20b967 LAKHS vanished \ud83d\udcb8\nSIP: \u20b92.3 CRORES created \ud83d\udcb0\n\nShruti, coffee or crores?\nReply 'CALCULATE'\n\nShruti Petkar | ARN_SHRUTI_001",
+      "character_count": 202,
+      "virality_score": 5.5,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_statistics",
+        "specific_amounts",
+        "emotional_triggers",
+        "relatable_analogies",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 3,
+        "first_line": "\u2615 SHOCKING: Your \u20b9200 coffee = \u20b967 LAKHS gone!",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": false,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": false
+        },
+        "scroll_stopping_power": "Medium"
+      }
+    },
+    {
+      "message_id": "ARN_SHRUTI_001_final_viral_4",
+      "strategy": "underdog_crorepati",
+      "text": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio\n\nStarted \u20b9500 SIP in 2010\nNever stopped. Not once.\nNot in COVID. Not in crashes.\n\nShruti, you earn more than \u20b9500.\nWhat's your excuse?\n\nReply 'START' | Shruti Petkar | ARN_SHRUTI_001",
+      "character_count": 228,
+      "virality_score": 2.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "emotional_triggers",
+        "relatable_analogies",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 4,
+        "first_line": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": false,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ARN_SHRUTI_001_final_viral_5",
+      "strategy": "village_uncle_wisdom",
+      "text": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth\n\nUses Nokia phone. Cycles to market.\nHolds L&T shares for decades.\n\nCity folks: \u20b92 lakh credit limit, \u20b92K savings.\n\nShruti, lifestyle or wealth?\nReply 'WISDOM'\n\nShruti Petkar | ARN_SHRUTI_001",
+      "character_count": 227,
+      "virality_score": 5.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "specific_amounts",
+        "relatable_analogies",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 3,
+        "first_line": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth",
+        "criteria_met": {
+          "shocking_opening": false,
+          "personal_hook": false,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "Medium"
+      }
+    },
+    {
+      "message_id": "ARN_VIDYADHAR_002_final_viral_1",
+      "strategy": "warikoo_confession",
+      "text": "\ud83d\udc94 I lost \u20b915 lakhs in 2008 crash.\n\nSold everything in panic. Was devastated.\nSame portfolio today? \u20b93.2 crores.\n\nMy panic = \u20b92.5 crore mistake.\n\nVidyadhar, scared of market highs?\nYour emotions cost more than crashes.\n\nReply 'HELP' for wisdom\n\nVidyadhar Petkar | ARN_VIDYADHAR_002",
+      "character_count": 280,
+      "virality_score": 5.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "personal_confession",
+        "specific_amounts",
+        "emotional_triggers",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 5,
+        "first_line": "\ud83d\udc94 I lost \u20b915 lakhs in 2008 crash.",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": true,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ARN_VIDYADHAR_002_final_viral_2",
+      "strategy": "shrivastava_shocker",
+      "text": "\u26a0\ufe0f SHOCKING: 93% of F&O traders lost money\n\nAverage loss: \u20b92 lakh per trader\nSEBI data doesn't lie.\n\nYour neighbor bragging about profits?\nStatistically impossible.\n\nVidyadhar, ready for real wealth building?\nReply 'TRUTH'\n\nVidyadhar Petkar | ARN_VIDYADHAR_002",
+      "character_count": 260,
+      "virality_score": 2.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_statistics",
+        "specific_amounts",
+        "emotional_triggers",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 5,
+        "first_line": "\u26a0\ufe0f SHOCKING: 93% of F&O traders lost money",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": true,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ARN_VIDYADHAR_002_final_viral_3",
+      "strategy": "ranade_coffee_math",
+      "text": "\u2615 SHOCKING: Your \u20b9200 coffee = \u20b967 LAKHS gone!\n\n30 years mathematics:\nCoffee: \u20b967 LAKHS vanished \ud83d\udcb8\nSIP: \u20b92.3 CRORES created \ud83d\udcb0\n\nVidyadhar, coffee or crores?\nReply 'CALCULATE'\n\nVidyadhar Petkar | ARN_VIDYADHAR_002",
+      "character_count": 211,
+      "virality_score": 5.5,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_statistics",
+        "specific_amounts",
+        "emotional_triggers",
+        "relatable_analogies",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 3,
+        "first_line": "\u2615 SHOCKING: Your \u20b9200 coffee = \u20b967 LAKHS gone!",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": false,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": false
+        },
+        "scroll_stopping_power": "Medium"
+      }
+    },
+    {
+      "message_id": "ARN_VIDYADHAR_002_final_viral_4",
+      "strategy": "underdog_crorepati",
+      "text": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio\n\nStarted \u20b9500 SIP in 2010\nNever stopped. Not once.\nNot in COVID. Not in crashes.\n\nVidyadhar, you earn more than \u20b9500.\nWhat's your excuse?\n\nReply 'START' | Vidyadhar Petkar | ARN_VIDYADHAR_002",
+      "character_count": 237,
+      "virality_score": 2.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "emotional_triggers",
+        "relatable_analogies",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 4,
+        "first_line": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": false,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ARN_VIDYADHAR_002_final_viral_5",
+      "strategy": "village_uncle_wisdom",
+      "text": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth\n\nUses Nokia phone. Cycles to market.\nHolds L&T shares for decades.\n\nCity folks: \u20b92 lakh credit limit, \u20b92K savings.\n\nVidyadhar, lifestyle or wealth?\nReply 'WISDOM'\n\nVidyadhar Petkar | ARN_VIDYADHAR_002",
+      "character_count": 236,
+      "virality_score": 5.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "specific_amounts",
+        "relatable_analogies",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 3,
+        "first_line": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth",
+        "criteria_met": {
+          "shocking_opening": false,
+          "personal_hook": false,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "Medium"
+      }
+    },
+    {
+      "message_id": "ARN_SHRIYA_003_final_viral_1",
+      "strategy": "warikoo_confession",
+      "text": "\ud83d\udc94 I lost \u20b915 lakhs in 2008 crash.\n\nSold everything in panic. Was devastated.\nSame portfolio today? \u20b93.2 crores.\n\nMy panic = \u20b92.5 crore mistake.\n\nShriya, scared of market highs?\nYour emotions cost more than crashes.\n\nReply 'HELP' for wisdom\n\nShriya Vallabh Petkar | ARN_SHRIYA_003",
+      "character_count": 279,
+      "virality_score": 5.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "personal_confession",
+        "specific_amounts",
+        "emotional_triggers",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 5,
+        "first_line": "\ud83d\udc94 I lost \u20b915 lakhs in 2008 crash.",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": true,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ARN_SHRIYA_003_final_viral_2",
+      "strategy": "shrivastava_shocker",
+      "text": "\u26a0\ufe0f SHOCKING: 93% of F&O traders lost money\n\nAverage loss: \u20b92 lakh per trader\nSEBI data doesn't lie.\n\nYour neighbor bragging about profits?\nStatistically impossible.\n\nShriya, ready for real wealth building?\nReply 'TRUTH'\n\nShriya Vallabh Petkar | ARN_SHRIYA_003",
+      "character_count": 259,
+      "virality_score": 2.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_statistics",
+        "specific_amounts",
+        "emotional_triggers",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 5,
+        "first_line": "\u26a0\ufe0f SHOCKING: 93% of F&O traders lost money",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": true,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ARN_SHRIYA_003_final_viral_3",
+      "strategy": "ranade_coffee_math",
+      "text": "\u2615 SHOCKING: Your \u20b9200 coffee = \u20b967 LAKHS gone!\n\n30 years mathematics:\nCoffee: \u20b967 LAKHS vanished \ud83d\udcb8\nSIP: \u20b92.3 CRORES created \ud83d\udcb0\n\nShriya, coffee or crores?\nReply 'CALCULATE'\n\nShriya Vallabh Petkar | ARN_SHRIYA_003",
+      "character_count": 210,
+      "virality_score": 5.5,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_statistics",
+        "specific_amounts",
+        "emotional_triggers",
+        "relatable_analogies",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 3,
+        "first_line": "\u2615 SHOCKING: Your \u20b9200 coffee = \u20b967 LAKHS gone!",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": false,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": false
+        },
+        "scroll_stopping_power": "Medium"
+      }
+    },
+    {
+      "message_id": "ARN_SHRIYA_003_final_viral_4",
+      "strategy": "underdog_crorepati",
+      "text": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio\n\nStarted \u20b9500 SIP in 2010\nNever stopped. Not once.\nNot in COVID. Not in crashes.\n\nShriya, you earn more than \u20b9500.\nWhat's your excuse?\n\nReply 'START' | Shriya Vallabh Petkar | ARN_SHRIYA_003",
+      "character_count": 236,
+      "virality_score": 2.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "emotional_triggers",
+        "relatable_analogies",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 4,
+        "first_line": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": false,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ARN_SHRIYA_003_final_viral_5",
+      "strategy": "village_uncle_wisdom",
+      "text": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth\n\nUses Nokia phone. Cycles to market.\nHolds L&T shares for decades.\n\nCity folks: \u20b92 lakh credit limit, \u20b92K savings.\n\nShriya, lifestyle or wealth?\nReply 'WISDOM'\n\nShriya Vallabh Petkar | ARN_SHRIYA_003",
+      "character_count": 235,
+      "virality_score": 5.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "specific_amounts",
+        "relatable_analogies",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 3,
+        "first_line": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth",
+        "criteria_met": {
+          "shocking_opening": false,
+          "personal_hook": false,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "Medium"
+      }
+    },
+    {
+      "message_id": "ADV_004_final_viral_1",
+      "strategy": "warikoo_confession",
+      "text": "\ud83d\udc94 I lost \u20b915 lakhs in 2008 crash.\n\nSold everything in panic. Was devastated.\nSame portfolio today? \u20b93.2 crores.\n\nMy panic = \u20b92.5 crore mistake.\n\nMr., scared of market highs?\nYour emotions cost more than crashes.\n\nReply 'HELP' for wisdom\n\nTranquil Wealth Advisory | ADV_004",
+      "character_count": 272,
+      "virality_score": 5.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "personal_confession",
+        "specific_amounts",
+        "emotional_triggers",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 5,
+        "first_line": "\ud83d\udc94 I lost \u20b915 lakhs in 2008 crash.",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": true,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ADV_004_final_viral_2",
+      "strategy": "shrivastava_shocker",
+      "text": "\u26a0\ufe0f SHOCKING: 93% of F&O traders lost money\n\nAverage loss: \u20b92 lakh per trader\nSEBI data doesn't lie.\n\nYour neighbor bragging about profits?\nStatistically impossible.\n\nMr., ready for real wealth building?\nReply 'TRUTH'\n\nTranquil Wealth Advisory | ADV_004",
+      "character_count": 252,
+      "virality_score": 2.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_statistics",
+        "specific_amounts",
+        "emotional_triggers",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 5,
+        "first_line": "\u26a0\ufe0f SHOCKING: 93% of F&O traders lost money",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": true,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ADV_004_final_viral_3",
+      "strategy": "ranade_coffee_math",
+      "text": "\u2615 SHOCKING: Your \u20b9200 coffee = \u20b967 LAKHS gone!\n\n30 years mathematics:\nCoffee: \u20b967 LAKHS vanished \ud83d\udcb8\nSIP: \u20b92.3 CRORES created \ud83d\udcb0\n\nMr., coffee or crores?\nReply 'CALCULATE'\n\nTranquil Wealth Advisory | ADV_004",
+      "character_count": 203,
+      "virality_score": 5.5,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_statistics",
+        "specific_amounts",
+        "emotional_triggers",
+        "relatable_analogies",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 3,
+        "first_line": "\u2615 SHOCKING: Your \u20b9200 coffee = \u20b967 LAKHS gone!",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": false,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": false
+        },
+        "scroll_stopping_power": "Medium"
+      }
+    },
+    {
+      "message_id": "ADV_004_final_viral_4",
+      "strategy": "underdog_crorepati",
+      "text": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio\n\nStarted \u20b9500 SIP in 2010\nNever stopped. Not once.\nNot in COVID. Not in crashes.\n\nMr., you earn more than \u20b9500.\nWhat's your excuse?\n\nReply 'START' | Tranquil Wealth Advisory | ADV_004",
+      "character_count": 229,
+      "virality_score": 2.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "emotional_triggers",
+        "relatable_analogies",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 4,
+        "first_line": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": false,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ADV_004_final_viral_5",
+      "strategy": "village_uncle_wisdom",
+      "text": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth\n\nUses Nokia phone. Cycles to market.\nHolds L&T shares for decades.\n\nCity folks: \u20b92 lakh credit limit, \u20b92K savings.\n\nMr., lifestyle or wealth?\nReply 'WISDOM'\n\nTranquil Wealth Advisory | ADV_004",
+      "character_count": 228,
+      "virality_score": 5.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "specific_amounts",
+        "relatable_analogies",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 3,
+        "first_line": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth",
+        "criteria_met": {
+          "shocking_opening": false,
+          "personal_hook": false,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "Medium"
+      }
+    },
+    {
+      "message_id": "ADV_005_final_viral_1",
+      "strategy": "warikoo_confession",
+      "text": "\ud83d\udc94 I lost \u20b915 lakhs in 2008 crash.\n\nSold everything in panic. Was devastated.\nSame portfolio today? \u20b93.2 crores.\n\nMy panic = \u20b92.5 crore mistake.\n\nUnknown, scared of market highs?\nYour emotions cost more than crashes.\n\nReply 'HELP' for wisdom\n\nFinancial Advisory | ARN_005",
+      "character_count": 270,
+      "virality_score": 5.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "personal_confession",
+        "specific_amounts",
+        "emotional_triggers",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 5,
+        "first_line": "\ud83d\udc94 I lost \u20b915 lakhs in 2008 crash.",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": true,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ADV_005_final_viral_2",
+      "strategy": "shrivastava_shocker",
+      "text": "\u26a0\ufe0f SHOCKING: 93% of F&O traders lost money\n\nAverage loss: \u20b92 lakh per trader\nSEBI data doesn't lie.\n\nYour neighbor bragging about profits?\nStatistically impossible.\n\nUnknown, ready for real wealth building?\nReply 'TRUTH'\n\nFinancial Advisory | ARN_005",
+      "character_count": 250,
+      "virality_score": 2.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_statistics",
+        "specific_amounts",
+        "emotional_triggers",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 5,
+        "first_line": "\u26a0\ufe0f SHOCKING: 93% of F&O traders lost money",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": true,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ADV_005_final_viral_3",
+      "strategy": "ranade_coffee_math",
+      "text": "\u2615 SHOCKING: Your \u20b9200 coffee = \u20b967 LAKHS gone!\n\n30 years mathematics:\nCoffee: \u20b967 LAKHS vanished \ud83d\udcb8\nSIP: \u20b92.3 CRORES created \ud83d\udcb0\n\nUnknown, coffee or crores?\nReply 'CALCULATE'\n\nFinancial Advisory | ARN_005",
+      "character_count": 201,
+      "virality_score": 5.5,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_statistics",
+        "specific_amounts",
+        "emotional_triggers",
+        "relatable_analogies",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 3,
+        "first_line": "\u2615 SHOCKING: Your \u20b9200 coffee = \u20b967 LAKHS gone!",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": false,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": false
+        },
+        "scroll_stopping_power": "Medium"
+      }
+    },
+    {
+      "message_id": "ADV_005_final_viral_4",
+      "strategy": "underdog_crorepati",
+      "text": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio\n\nStarted \u20b9500 SIP in 2010\nNever stopped. Not once.\nNot in COVID. Not in crashes.\n\nUnknown, you earn more than \u20b9500.\nWhat's your excuse?\n\nReply 'START' | Financial Advisory | ARN_005",
+      "character_count": 227,
+      "virality_score": 2.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "emotional_triggers",
+        "relatable_analogies",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 4,
+        "first_line": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio",
+        "criteria_met": {
+          "shocking_opening": true,
+          "personal_hook": false,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "High"
+      }
+    },
+    {
+      "message_id": "ADV_005_final_viral_5",
+      "strategy": "village_uncle_wisdom",
+      "text": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth\n\nUses Nokia phone. Cycles to market.\nHolds L&T shares for decades.\n\nCity folks: \u20b92 lakh credit limit, \u20b92K savings.\n\nUnknown, lifestyle or wealth?\nReply 'WISDOM'\n\nFinancial Advisory | ARN_005",
+      "character_count": 226,
+      "virality_score": 5.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "specific_amounts",
+        "relatable_analogies",
+        "curiosity_gap"
+      ],
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 3,
+        "first_line": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth",
+        "criteria_met": {
+          "shocking_opening": false,
+          "personal_hook": false,
+          "specific_number": true,
+          "emotional_emoji": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "Medium"
+      }
+    }
+  ]
+}

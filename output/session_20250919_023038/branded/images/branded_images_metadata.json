@@ -1,0 +1,118 @@
+{
+  "timestamp": "2025-09-19T02:59:51.147937",
+  "session_id": "session_20250919_023038",
+  "images": [
+    {
+      "advisor_id": "metadata",
+      "advisor_name": null,
+      "brand_colors": {},
+      "tagline": null,
+      "logo_url": "default_logo.png",
+      "design_theme": null,
+      "visual_style": null,
+      "branding_applied": {
+        "logo_added": false,
+        "colors_applied": true,
+        "tagline_inserted": false
+      }
+    },
+    {
+      "advisor_id": "advisorDesigns",
+      "advisor_name": null,
+      "brand_colors": {},
+      "tagline": null,
+      "logo_url": "default_logo.png",
+      "design_theme": null,
+      "visual_style": null,
+      "branding_applied": {
+        "logo_added": false,
+        "colors_applied": true,
+        "tagline_inserted": false
+      }
+    },
+    {
+      "advisor_id": "standardSegmentTemplates",
+      "advisor_name": null,
+      "brand_colors": {},
+      "tagline": null,
+      "logo_url": "default_logo.png",
+      "design_theme": null,
+      "visual_style": null,
+      "branding_applied": {
+        "logo_added": false,
+        "colors_applied": true,
+        "tagline_inserted": false
+      }
+    },
+    {
+      "advisor_id": "contentRotationStrategy",
+      "advisor_name": null,
+      "brand_colors": {},
+      "tagline": null,
+      "logo_url": "default_logo.png",
+      "design_theme": null,
+      "visual_style": null,
+      "branding_applied": {
+        "logo_added": false,
+        "colors_applied": true,
+        "tagline_inserted": false
+      }
+    },
+    {
+      "advisor_id": "emergencyContentTemplates",
+      "advisor_name": null,
+      "brand_colors": {},
+      "tagline": null,
+      "logo_url": "default_logo.png",
+      "design_theme": null,
+      "visual_style": null,
+      "branding_applied": {
+        "logo_added": false,
+        "colors_applied": true,
+        "tagline_inserted": false
+      }
+    },
+    {
+      "advisor_id": "performanceMetrics",
+      "advisor_name": null,
+      "brand_colors": {},
+      "tagline": null,
+      "logo_url": "default_logo.png",
+      "design_theme": null,
+      "visual_style": null,
+      "branding_applied": {
+        "logo_added": false,
+        "colors_applied": true,
+        "tagline_inserted": false
+      }
+    },
+    {
+      "advisor_id": "complianceElements",
+      "advisor_name": null,
+      "brand_colors": {},
+      "tagline": null,
+      "logo_url": "default_logo.png",
+      "design_theme": null,
+      "visual_style": null,
+      "branding_applied": {
+        "logo_added": false,
+        "colors_applied": true,
+        "tagline_inserted": false
+      }
+    },
+    {
+      "advisor_id": "deliverySummary",
+      "advisor_name": null,
+      "brand_colors": {},
+      "tagline": null,
+      "logo_url": "default_logo.png",
+      "design_theme": null,
+      "visual_style": null,
+      "branding_applied": {
+        "logo_added": false,
+        "colors_applied": true,
+        "tagline_inserted": false
+      }
+    }
+  ]
+}

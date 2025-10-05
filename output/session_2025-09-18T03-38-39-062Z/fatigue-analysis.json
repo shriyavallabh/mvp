@@ -1,0 +1,668 @@
+{
+  "session_id": "session_2025-09-18T03-38-39-062Z",
+  "analysis_timestamp": "2025-09-18T09:47:48.852845",
+  "analysis_time_ms": 1.3780000000000001,
+  "total_advisors": 3,
+  "total_content_items": 26,
+  "overall_approval_rate": 1.0,
+  "alerts_generated": 0,
+  "performance_metrics": {
+    "analysis_time_ms": 1.3780000000000001,
+    "target_time_ms": 2000,
+    "performance_rating": "excellent"
+  },
+  "advisor_results": {
+    "ARN_VIDYADHAR_002": {
+      "advisor_name": "Vidyadhar Petkar",
+      "total_content_analyzed": 8,
+      "content_approved": 8,
+      "content_flagged": 0,
+      "average_freshness_score": 95.0,
+      "max_similarity_detected": 0.0,
+      "content_analysis": [
+        {
+          "content_id": "VID_TAX_001",
+          "content_type": "linkedin",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'schedule' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: download, register, contact",
+            "Consider adding a personal story or client case study",
+            "Include recent market data or trending topics"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "VID_BANKING_002",
+          "content_type": "linkedin",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'share' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, download, register",
+            "Consider adding a personal story or client case study",
+            "Include recent market data or trending topics"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "VID_Q3_003",
+          "content_type": "linkedin",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'general' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, download, register",
+            "Consider adding a personal story or client case study",
+            "Include recent market data or trending topics"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "VID_PORTFOLIO_004",
+          "content_type": "linkedin",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'schedule' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: download, register, contact",
+            "Consider adding a personal story or client case study",
+            "Include recent market data or trending topics"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "ARN_VIDYADHAR_002_WA_1",
+          "content_type": "whatsapp",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'general' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, download, register",
+            "Make the message more conversational and personal",
+            "Add urgency or time-sensitive information"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "ARN_VIDYADHAR_002_WA_2",
+          "content_type": "whatsapp",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'general' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, download, register",
+            "Make the message more conversational and personal",
+            "Add urgency or time-sensitive information"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "ARN_VIDYADHAR_002_WA_3",
+          "content_type": "whatsapp",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'learn_more' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, download, register",
+            "Make the message more conversational and personal",
+            "Add urgency or time-sensitive information"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "ARN_VIDYADHAR_002_WA_4",
+          "content_type": "whatsapp",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'general' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, download, register",
+            "Make the message more conversational and personal",
+            "Add urgency or time-sensitive information"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        }
+      ],
+      "diversification_summary": {
+        "topic_concentration": 0.5,
+        "hook_variety_score": 0.125,
+        "content_freshness_trend": "stable",
+        "recommended_focus_areas": [
+          "Maintain balanced mix of educational and promotional content",
+          "Incorporate trending market developments for relevance"
+        ],
+        "optimal_posting_schedule": {
+          "linkedin_frequency": "3-4 posts per week",
+          "whatsapp_frequency": "Daily messages with varied timing",
+          "content_spacing": "Minimum 6 hours between similar topics",
+          "best_posting_times": "Morning: 9-11 AM, Evening: 6-8 PM"
+        }
+      }
+    },
+    "ARN_SHRUTI_001": {
+      "advisor_name": "Shruti Petkar",
+      "total_content_analyzed": 9,
+      "content_approved": 9,
+      "content_flagged": 0,
+      "average_freshness_score": 95.0,
+      "max_similarity_detected": 0.0,
+      "content_analysis": [
+        {
+          "content_id": "SHR_TAX_001",
+          "content_type": "linkedin",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'download' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, register, contact",
+            "Consider adding a personal story or client case study",
+            "Include recent market data or trending topics"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "SHR_BANKING_002",
+          "content_type": "linkedin",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'schedule' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: download, register, contact",
+            "Consider adding a personal story or client case study",
+            "Include recent market data or trending topics"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "SHR_GOALS_003",
+          "content_type": "linkedin",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'download' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, register, contact",
+            "Consider adding a personal story or client case study",
+            "Include recent market data or trending topics"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "SHR_SIP_004",
+          "content_type": "linkedin",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'schedule' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: download, register, contact",
+            "Consider adding a personal story or client case study",
+            "Include recent market data or trending topics"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "ARN_SHRUTI_001_WA_1",
+          "content_type": "whatsapp",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'general' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, download, register",
+            "Make the message more conversational and personal",
+            "Add urgency or time-sensitive information"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "ARN_SHRUTI_001_WA_2",
+          "content_type": "whatsapp",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'share' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, download, register",
+            "Make the message more conversational and personal",
+            "Add urgency or time-sensitive information"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "ARN_SHRUTI_001_WA_3",
+          "content_type": "whatsapp",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'learn_more' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, download, register",
+            "Make the message more conversational and personal",
+            "Add urgency or time-sensitive information"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "ARN_SHRUTI_001_WA_4",
+          "content_type": "whatsapp",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'general' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, download, register",
+            "Make the message more conversational and personal",
+            "Add urgency or time-sensitive information"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "ARN_SHRUTI_001_WA_5",
+          "content_type": "whatsapp",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'general' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, download, register",
+            "Make the message more conversational and personal",
+            "Add urgency or time-sensitive information"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        }
+      ],
+      "diversification_summary": {
+        "topic_concentration": 0.5555555555555556,
+        "hook_variety_score": 0.1111111111111111,
+        "content_freshness_trend": "stable",
+        "recommended_focus_areas": [
+          "Maintain balanced mix of educational and promotional content",
+          "Incorporate trending market developments for relevance"
+        ],
+        "optimal_posting_schedule": {
+          "linkedin_frequency": "3-4 posts per week",
+          "whatsapp_frequency": "Daily messages with varied timing",
+          "content_spacing": "Minimum 6 hours between similar topics",
+          "best_posting_times": "Morning: 9-11 AM, Evening: 6-8 PM"
+        }
+      }
+    },
+    "ARN_SHRIYA_003": {
+      "advisor_name": "Shriya Vallabh Petkar",
+      "total_content_analyzed": 9,
+      "content_approved": 9,
+      "content_flagged": 0,
+      "average_freshness_score": 95.0,
+      "max_similarity_detected": 0.0,
+      "content_analysis": [
+        {
+          "content_id": "SHY_BASICS_001",
+          "content_type": "linkedin",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'learn_more' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, download, register",
+            "Consider adding a personal story or client case study",
+            "Include recent market data or trending topics"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "SHY_SAVING_002",
+          "content_type": "linkedin",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'schedule' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: download, register, contact",
+            "Consider adding a personal story or client case study",
+            "Include recent market data or trending topics"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "SHY_COMPOUND_003",
+          "content_type": "linkedin",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'schedule' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: download, register, contact",
+            "Consider adding a personal story or client case study",
+            "Include recent market data or trending topics"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "SHY_EMERGENCY_004",
+          "content_type": "linkedin",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'download' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, register, contact",
+            "Consider adding a personal story or client case study",
+            "Include recent market data or trending topics"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "ARN_SHRIYA_003_WA_1",
+          "content_type": "whatsapp",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'general' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, download, register",
+            "Make the message more conversational and personal",
+            "Add urgency or time-sensitive information"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "ARN_SHRIYA_003_WA_2",
+          "content_type": "whatsapp",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'general' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, download, register",
+            "Make the message more conversational and personal",
+            "Add urgency or time-sensitive information"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "ARN_SHRIYA_003_WA_3",
+          "content_type": "whatsapp",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'general' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, download, register",
+            "Make the message more conversational and personal",
+            "Add urgency or time-sensitive information"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "ARN_SHRIYA_003_WA_4",
+          "content_type": "whatsapp",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'learn_more' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, download, register",
+            "Make the message more conversational and personal",
+            "Add urgency or time-sensitive information"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        },
+        {
+          "content_id": "ARN_SHRIYA_003_WA_5",
+          "content_type": "whatsapp",
+          "pass_check": true,
+          "freshness_score": 95,
+          "similarity_score": 0.0,
+          "reason": "CTA type 'general' used in last 3 posts",
+          "suggestions": [
+            "Use a different call-to-action: schedule, download, register",
+            "Make the message more conversational and personal",
+            "Add urgency or time-sensitive information"
+          ],
+          "metrics": {
+            "freshness_score": 95,
+            "max_similarity": 0.0,
+            "threshold_used": 0.7,
+            "topic_last_used": "",
+            "hook_variety_score": 1.0,
+            "cta_rotation_score": 1.0,
+            "similar_content_count": 0
+          }
+        }
+      ],
+      "diversification_summary": {
+        "topic_concentration": 0.5555555555555556,
+        "hook_variety_score": 0.1111111111111111,
+        "content_freshness_trend": "stable",
+        "recommended_focus_areas": [
+          "Maintain balanced mix of educational and promotional content",
+          "Incorporate trending market developments for relevance"
+        ],
+        "optimal_posting_schedule": {
+          "linkedin_frequency": "3-4 posts per week",
+          "whatsapp_frequency": "Daily messages with varied timing",
+          "content_spacing": "Minimum 6 hours between similar topics",
+          "best_posting_times": "Morning: 9-11 AM, Evening: 6-8 PM"
+        }
+      }
+    }
+  },
+  "alerts": [],
+  "recommendations": [
+    "Implement staggered posting schedule to maximize audience engagement",
+    "Monitor content performance metrics to validate freshness strategies"
+  ]
+}

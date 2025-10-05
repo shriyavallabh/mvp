@@ -1,0 +1,24 @@
+{
+  "advisorId": "ADV_002",
+  "segmentType": "Gold",
+  "contentType": "goal_planning_animation",
+  "marketTheme": "Child Education Planning with Market Opportunities",
+  "brandCustomization": {
+    "brandName": "Money Matters",
+    "primaryColor": "#FF6B6B",
+    "secondaryColor": "#4ECDC4",
+    "accentColor": "#45B7D1",
+    "tagline": "Your Financial Growth Partner",
+    "advisorName": "Rajesh Kumar",
+    "arn": "ARN-789012"
+  },
+  "geminiPrompt": "Create an animated-style WhatsApp Status image (1080x1920px vertical) for child education planning:\n\nCONTENT THEME: Child Education Goal Planning\nSTYLE: Warm, family-focused educational design with growth animation feel\n\nVISUAL ELEMENTS:\n- Background: Soft gradient from coral to light teal\n- Central illustration: Tree growing with education milestones\n- Timeline showing child's age progression (5y → 18y)\n- SIP drops watering the education tree\n- Books, graduation cap, and rupee leaves on tree\n\nEDUCATION JOURNEY VISUALIZATION:\n- Age 5: 'Start Planning' (tree sapling)\n- Age 10: 'Midway Checkpoint' (growing tree)\n- Age 15: 'Final Sprint' (mature tree)\n- Age 18: 'Goal Achieved' (graduation fruits)\n\nFINANCIAL CALCULATIONS:\n- 'Today's Cost: ₹5 Lakhs'\n- 'Future Cost (13 years): ₹12 Lakhs'\n- 'Monthly SIP Required: ₹4,500'\n- 'IT Sector SIPs: Higher Growth Potential'\n\nANIMATED ELEMENTS (implied):\n- Growing tree with time progression\n- SIP drops flowing into soil\n- Rupee symbols flowering into education symbols\n\nBRANDING:\n- Money Matters in friendly coral\n- Family-focused tagline\n- Trustworthy contact information\n- Warm, approachable color scheme\n\nMOOD: Warm, aspirational, family-focused, hopeful\nTARGET: Parents planning for children's education",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "aspectRatio": "9:16"
+  },
+  "targetAudience": "Young parents, families with children",
+  "keyMessage": "Start early, grow steadily - secure your child's education future",
+  "callToAction": "Calculate your child's education SIP plan today"
+}

@@ -1,0 +1,11 @@
+{
+  "channelId": "state",
+  "sessionId": "session_20250919_211030",
+  "createdAt": "2025-09-19T21:10:30.000Z",
+  "messages": [],
+  "subscribers": [],
+  "metadata": {
+    "purpose": "State synchronization and persistence management",
+    "retention": "session-scoped"
+  }
+}

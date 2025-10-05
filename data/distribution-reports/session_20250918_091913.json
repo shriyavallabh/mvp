@@ -1,0 +1,29 @@
+{
+  "sessionId": "session_20250918_091913",
+  "timestamp": "2025-09-18T03:49:18.784Z",
+  "template": "daily_financial_update_v2",
+  "results": {
+    "sent": 3,
+    "failed": 0,
+    "messages": [
+      {
+        "advisor": "Shruti Petkar",
+        "phone": "91919673758777",
+        "success": true,
+        "messageId": "wamid.HBgOOTE5MTk2NzM3NTg3NzcVAgARGBI3NEI2REJBNkFDNzhDRDJEOTQA"
+      },
+      {
+        "advisor": "Vidyadhar Petkar",
+        "phone": "91918975758513",
+        "success": true,
+        "messageId": "wamid.HBgOOTE5MTg5NzU3NTg1MTMVAgARGBIwRTU4ODc3MURGNTQzNjM0MTAA"
+      },
+      {
+        "advisor": "Shriya Vallabh Petkar",
+        "phone": "91919765071249",
+        "success": true,
+        "messageId": "wamid.HBgOOTE5MTk3NjUwNzEyNDkVAgARGBJDRDdDNTU1RDNBRkJDRDNERDIA"
+      }
+    ]
+  }
+}

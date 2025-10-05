@@ -1,0 +1,274 @@
+{
+  "session_id": "session_2025-09-18T03-38-39-062Z",
+  "regeneration_timestamp": "2025-09-18T09:52:00.000Z",
+  "processor": "feedback-processor-agent",
+  "priority": "CRITICAL",
+  "regeneration_batches": {
+    "critical_compliance_fixes": {
+      "priority": "CRITICAL",
+      "estimated_time": "30 minutes",
+      "items_count": 28,
+      "description": "Fix SEBI compliance violations in WhatsApp content",
+      "requirements": {
+        "whatsapp_content": {
+          "affected_items": [
+            "ARN_SHRUTI_001_market_insights",
+            "ARN_SHRUTI_001_systematic_investing",
+            "ARN_SHRUTI_001_goal_planning",
+            "ARN_SHRUTI_001_tax_efficiency",
+            "ARN_SHRUTI_001_smart_investing",
+            "ARN_VIDYADHAR_002_market_update",
+            "ARN_VIDYADHAR_002_tax_strategy",
+            "ARN_VIDYADHAR_002_exclusive_opportunity",
+            "ARN_VIDYADHAR_002_wealth_protection",
+            "ARN_SHRIYA_003_financial_education",
+            "ARN_SHRIYA_003_investment_basics",
+            "ARN_SHRIYA_003_saving_strategies",
+            "ARN_SHRIYA_003_financial_empowerment",
+            "ARN_SHRIYA_003_encouragement",
+            "BRANDED_ARN_SHRUTI_001_market_insights",
+            "BRANDED_ARN_SHRUTI_001_systematic_investing",
+            "BRANDED_ARN_SHRUTI_001_goal_planning",
+            "BRANDED_ARN_SHRUTI_001_tax_efficiency",
+            "BRANDED_ARN_SHRUTI_001_smart_investing",
+            "BRANDED_ARN_VIDYADHAR_002_market_update",
+            "BRANDED_ARN_VIDYADHAR_002_tax_strategy",
+            "BRANDED_ARN_VIDYADHAR_002_exclusive_opportunity",
+            "BRANDED_ARN_VIDYADHAR_002_wealth_protection",
+            "BRANDED_ARN_SHRIYA_003_financial_education",
+            "BRANDED_ARN_SHRIYA_003_investment_basics",
+            "BRANDED_ARN_SHRIYA_003_saving_strategies",
+            "BRANDED_ARN_SHRIYA_003_financial_empowerment",
+            "BRANDED_ARN_SHRIYA_003_encouragement"
+          ],
+          "fixes_required": [
+            {
+              "type": "mandatory_disclaimer",
+              "action": "append",
+              "content": "Mutual fund investments are subject to market risks. Read all scheme related documents carefully.",
+              "placement": "end_of_message",
+              "trigger": "all investment-related content"
+            }
+          ],
+          "validation_required": true,
+          "regeneration_agent": "whatsapp-message-creator"
+        }
+      }
+    },
+    "quality_improvements": {
+      "priority": "HIGH",
+      "estimated_time": "2 hours",
+      "items_count": 12,
+      "description": "Improve LinkedIn post quality and readability",
+      "requirements": {
+        "linkedin_content": {
+          "affected_items": [
+            "linkedin_4382",
+            "linkedin_4383",
+            "linkedin_4384",
+            "linkedin_4385",
+            "linkedin_4386",
+            "linkedin_4387",
+            "linkedin_4388",
+            "linkedin_4389",
+            "linkedin_4390",
+            "linkedin_4391",
+            "linkedin_4392",
+            "linkedin_4393"
+          ],
+          "quality_targets": {
+            "flesch_readability_score": {
+              "current": 10.02,
+              "target": 50,
+              "minimum": 45,
+              "description": "Move from 'Very Difficult' to 'Fairly Difficult' reading level"
+            },
+            "engagement_potential": {
+              "hook_strength": {
+                "current": 0.75,
+                "target": 0.85,
+                "improvement": "Stronger opening questions and statistics"
+              },
+              "cta_effectiveness": {
+                "current": 0.25,
+                "target": 0.70,
+                "improvement": "Clear, specific, actionable CTAs"
+              },
+              "emotional_appeal": {
+                "current": 0.30,
+                "target": 0.60,
+                "improvement": "Add emotional triggers and success stories"
+              }
+            },
+            "overall_quality_score": {
+              "current": 54.07,
+              "target": 75,
+              "minimum": 70
+            }
+          },
+          "improvement_instructions": [
+            {
+              "aspect": "readability",
+              "actions": [
+                "Use shorter sentences (max 15 words)",
+                "Replace complex words with simpler alternatives",
+                "Use active voice instead of passive",
+                "Break up long paragraphs",
+                "Add bullet points for key information"
+              ]
+            },
+            {
+              "aspect": "engagement",
+              "actions": [
+                "Start with compelling questions or surprising statistics",
+                "Include specific examples and case studies",
+                "Add emotional elements (success stories, achievements)",
+                "End with clear, specific call-to-action",
+                "Use emojis strategically for visual appeal"
+              ]
+            },
+            {
+              "aspect": "segment_optimization",
+              "actions": [
+                "HNI Premium: Maintain sophistication but improve clarity",
+                "Retail Gold: Add more practical examples",
+                "Retail Standard: Simplify language significantly"
+              ]
+            }
+          ],
+          "regeneration_agent": "linkedin-post-generator"
+        }
+      }
+    },
+    "whatsapp_quality_enhancement": {
+      "priority": "MEDIUM",
+      "estimated_time": "1 hour",
+      "items_count": 14,
+      "description": "Improve WhatsApp message engagement and quality",
+      "requirements": {
+        "whatsapp_quality": {
+          "current_score": 42.2,
+          "target_score": 65,
+          "improvements_needed": [
+            {
+              "aspect": "engagement_hooks",
+              "current": "Weak opening statements",
+              "target": "Compelling questions and actionable insights",
+              "examples": [
+                "Did you know...",
+                "Here's a quick tip...",
+                "This could save you..."
+              ]
+            },
+            {
+              "aspect": "call_to_action",
+              "current": "Generic or missing CTAs",
+              "target": "Specific, valuable actions",
+              "examples": [
+                "Reply 'PLAN' to start your goal-based investment journey",
+                "Share this tip with 3 friends who need to save tax",
+                "Click here to calculate your SIP potential"
+              ]
+            },
+            {
+              "aspect": "personalization",
+              "current": "Generic messaging",
+              "target": "Segment-appropriate tone and complexity",
+              "requirements": "Align with advisor segment and audience needs"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "regeneration_workflow": {
+    "step_1": {
+      "action": "Critical Compliance Fixes",
+      "agent": "whatsapp-message-creator",
+      "input": "Original WhatsApp content + mandatory disclaimer requirements",
+      "output": "Compliant WhatsApp messages with proper disclaimers",
+      "validation": "compliance-validator"
+    },
+    "step_2": {
+      "action": "LinkedIn Quality Improvement",
+      "agent": "linkedin-post-generator",
+      "input": "Original LinkedIn content + quality improvement guidelines",
+      "output": "High-quality LinkedIn posts meeting readability and engagement targets",
+      "validation": "quality-scorer"
+    },
+    "step_3": {
+      "action": "WhatsApp Quality Enhancement",
+      "agent": "whatsapp-message-creator",
+      "input": "Compliant WhatsApp content + engagement improvement guidelines",
+      "output": "High-quality, engaging WhatsApp messages",
+      "validation": "quality-scorer"
+    },
+    "step_4": {
+      "action": "Final Validation",
+      "agent": "compliance-validator",
+      "input": "All regenerated content",
+      "output": "Final compliance certificate",
+      "success_criteria": "100% compliance score"
+    }
+  },
+  "success_criteria": {
+    "compliance": {
+      "sebi_compliance_score": "100%",
+      "disclaimer_coverage": "100% of investment content",
+      "arn_disclosure": "Present in all advisor content"
+    },
+    "quality": {
+      "linkedin_average_score": ">75",
+      "whatsapp_average_score": ">65",
+      "auto_approval_rate": ">80%",
+      "readability_score": ">50 Flesch"
+    },
+    "process": {
+      "content_blocking": "<10%",
+      "rework_required": "<20%",
+      "time_to_completion": "<4 hours total"
+    }
+  },
+  "monitoring_requirements": {
+    "real_time_tracking": [
+      "Regeneration progress per batch",
+      "Quality score improvements",
+      "Compliance validation results",
+      "Agent performance metrics"
+    ],
+    "quality_gates": [
+      "Compliance check before distribution",
+      "Quality score validation",
+      "Readability verification",
+      "Engagement element confirmation"
+    ]
+  },
+  "communication_updates": {
+    "notify_agents": [
+      "whatsapp-message-creator",
+      "linkedin-post-generator",
+      "compliance-validator",
+      "quality-scorer",
+      "distribution-controller"
+    ],
+    "update_requirements": {
+      "priority": "CRITICAL",
+      "expected_completion": "2025-09-18T13:52:00.000Z",
+      "status_updates_frequency": "Every 30 minutes"
+    }
+  },
+  "learning_integration": {
+    "process_improvements": [
+      "Implement auto-disclaimer injection for future WhatsApp generation",
+      "Add readability scoring to generation prompts",
+      "Include engagement requirements in content briefs",
+      "Establish quality gates before content creation"
+    ],
+    "knowledge_updates": [
+      "Update WhatsApp generation templates with mandatory disclaimers",
+      "Enhance LinkedIn generation with readability guidelines",
+      "Create segment-specific quality standards",
+      "Document successful regeneration patterns"
+    ]
+  }
+}

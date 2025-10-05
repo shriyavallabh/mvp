@@ -1,0 +1,102 @@
+{
+  "agents": {
+    "hybrid-orchestrator": {
+      "id": "hybrid-orchestrator",
+      "role": "orchestrator",
+      "capabilities": [
+        "workflow_orchestration",
+        "task_delegation",
+        "result_aggregation",
+        "decision_making"
+      ],
+      "communication_endpoints": {
+        "input": "finadvise_orchestration",
+        "output": "finadvise_orchestration",
+        "state": "state_synchronization"
+      },
+      "dependencies": ["state-manager", "communication-bus"],
+      "status": "registered",
+      "priority": 1
+    },
+    "learning-agent": {
+      "id": "learning-agent",
+      "role": "analyzer",
+      "capabilities": [
+        "data_analysis",
+        "pattern_recognition",
+        "continuous_learning",
+        "feedback_integration"
+      ],
+      "communication_endpoints": {
+        "input": "finadvise_orchestration",
+        "output": "content_refinement",
+        "state": "state_synchronization"
+      },
+      "dependencies": ["state-manager", "communication-bus"],
+      "status": "registered",
+      "priority": 2
+    },
+    "linkedin-post-generator": {
+      "id": "linkedin-post-generator",
+      "role": "content_generator",
+      "capabilities": [
+        "content_generation",
+        "linkedin_optimization",
+        "brand_alignment",
+        "engagement_optimization"
+      ],
+      "communication_endpoints": {
+        "input": "finadvise_orchestration",
+        "output": "content_refinement",
+        "state": "state_synchronization"
+      },
+      "dependencies": ["state-manager", "communication-bus"],
+      "status": "registered",
+      "priority": 3
+    },
+    "state-manager": {
+      "id": "state-manager",
+      "role": "infrastructure",
+      "capabilities": [
+        "state_persistence",
+        "data_synchronization",
+        "session_management",
+        "recovery_operations"
+      ],
+      "communication_endpoints": {
+        "input": "state_synchronization",
+        "output": "state_synchronization",
+        "state": "state_synchronization"
+      },
+      "dependencies": ["communication-bus"],
+      "status": "registered",
+      "priority": 0
+    },
+    "communication-bus": {
+      "id": "communication-bus",
+      "role": "infrastructure",
+      "capabilities": [
+        "message_routing",
+        "queue_management",
+        "delivery_guarantee",
+        "error_handling"
+      ],
+      "communication_endpoints": {
+        "input": "communication_bus",
+        "output": "communication_bus",
+        "state": "state_synchronization"
+      },
+      "dependencies": [],
+      "status": "registered",
+      "priority": 0
+    }
+  },
+  "registry_metadata": {
+    "total_agents": 5,
+    "registered_agents": 5,
+    "infrastructure_agents": 2,
+    "business_agents": 3,
+    "session_id": "session_2025-09-17T16-27-13-000Z",
+    "initialized_at": "2025-09-17T16:27:13.000Z"
+  }
+}

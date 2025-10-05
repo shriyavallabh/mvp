@@ -1,0 +1,89 @@
+{
+  "sessionId": "session_1759397686841",
+  "timestamp": "2025-10-02T09:41:06.940Z",
+  "totalMessages": 6,
+  "totalAdvisors": 4,
+  "avgCharacterCount": 231,
+  "avgViralityScore": 8.7,
+  "characterRange": {
+    "min": 207,
+    "max": 250
+  },
+  "segmentBreakdown": {
+    "Premium": 4,
+    "Gold": 1,
+    "Silver": 1
+  },
+  "messages": [
+    {
+      "messageId": "WA_ADV001_001",
+      "advisorId": "ADV001",
+      "advisorName": "Shruti Petkar",
+      "segment": "Premium",
+      "text": "🚨 IT sector +2.8% today!\n\nTax-loss harvesting opportunity: Restructure holdings for March-end optimization.\n\nSmart money moved ₹3,200 - are you positioned?\n\nBook 30-40% profits if IT >15% of portfolio.\n\nShruti Petkar\nARN: ARN-125847",
+      "characterCount": 233,
+      "viralityScore": 8.8,
+      "hookType": "urgency_data",
+      "cta": "portfolio_action",
+      "imagePrompt": "Professional financial infographic showing IT sector performance +2.8%, tax optimization strategy visual, portfolio rebalancing pie chart, blue-gold premium color scheme, ARN included"
+    },
+    {
+      "messageId": "WA_ADV001_002",
+      "advisorId": "ADV001",
+      "advisorName": "Shruti Petkar",
+      "segment": "Premium",
+      "text": "💰 Historic wealth preservation moment!\n\nWhen Sensex hits 82150, HNIs do THIS:\n→ Lock IT gains\n→ Rotate to defensives (Pharma +1.9%)\n→ 15-20% cash for opportunities\n\nYour move?\n\nShruti Petkar\nARN: ARN-125847",
+      "characterCount": 207,
+      "viralityScore": 8.6,
+      "hookType": "exclusivity",
+      "cta": "strategic_question"
+    },
+    {
+      "messageId": "WA_ADV002_001",
+      "advisorId": "ADV002",
+      "advisorName": "Vidyadhar Petkar",
+      "segment": "Gold",
+      "text": "⚡ IT sector explodes +2.8%! TCS +4.8%, Infosys +3.2%\n\nYour 3-step playbook:\n1. Book partial profits (>10% gains)\n2. Rebalance to Pharma/FMCG\n3. Keep 15% cash ready\n\nSmart rebalancing = long-term wealth 📊\n\nVidyadhar Petkar\nARN: ARN-138924",
+      "characterCount": 238,
+      "viralityScore": 8.9,
+      "hookType": "market_urgency",
+      "cta": "action_steps",
+      "imagePrompt": "Clean modern infographic: IT sector chart showing +2.8% surge, 3-step rebalancing strategy visual with icons, teal-green professional colors, ARN and advisor branding"
+    },
+    {
+      "messageId": "WA_ADV003_001",
+      "advisorId": "ADV003",
+      "advisorName": "Shriya Vallabh Petkar",
+      "segment": "Premium",
+      "text": "🚨 IT sector +2.8% today!\n\nTax-loss harvesting opportunity: Restructure holdings for March-end optimization.\n\nSmart money moved ₹3,200 - are you positioned?\n\nBook 30-40% profits if IT >15% of portfolio.\n\nShriya Vallabh Petkar\nARN: ARN-147852",
+      "characterCount": 241,
+      "viralityScore": 8.8,
+      "hookType": "urgency_data",
+      "cta": "portfolio_action",
+      "imagePrompt": "Professional financial infographic showing IT sector performance +2.8%, tax optimization strategy visual, portfolio rebalancing pie chart, blue-gold premium color scheme, ARN included"
+    },
+    {
+      "messageId": "WA_ADV003_002",
+      "advisorId": "ADV003",
+      "advisorName": "Shriya Vallabh Petkar",
+      "segment": "Premium",
+      "text": "💰 Historic wealth preservation moment!\n\nWhen Sensex hits 82150, HNIs do THIS:\n→ Lock IT gains\n→ Rotate to defensives (Pharma +1.9%)\n→ 15-20% cash for opportunities\n\nYour move?\n\nShriya Vallabh Petkar\nARN: ARN-147852",
+      "characterCount": 215,
+      "viralityScore": 8.6,
+      "hookType": "exclusivity",
+      "cta": "strategic_question"
+    },
+    {
+      "messageId": "WA_ADV004_001",
+      "advisorId": "ADV004",
+      "advisorName": "Avalok Langer",
+      "segment": "Silver",
+      "text": "💡 Markets at 82150! Perfect time to START 🚀\n\nYour ₹5,000/month SIP can become:\n→ 10 years: ₹11.5 lakhs\n→ 15 years: ₹23.8 lakhs\n→ 20 years: ₹49.5 lakhs\n\nIT sector up 2.8% - your SIPs benefit!\n\nStart today? Reply YES 💚\n\nAvalok Langer\nARN: ARN-169741",
+      "characterCount": 250,
+      "viralityScore": 8.5,
+      "hookType": "benefit_simple",
+      "cta": "engagement_reply",
+      "imagePrompt": "Friendly colorful visual: SIP growth chart showing ₹5000/month becoming ₹49.5 lakhs, upward arrows, celebration elements, bright engaging colors, simple design, ARN included"
+    }
+  ]
+}

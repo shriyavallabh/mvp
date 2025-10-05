@@ -1,0 +1,99 @@
+{
+  "messageType": "SEGMENT_ANALYSIS_COMPLETE",
+  "sessionId": "session_2025-09-18T03-38-39-062Z",
+  "timestamp": "2025-09-18T03:38:39.062Z",
+  "fromAgent": "segment-analyzer",
+  "toAgents": [
+    "linkedin-post-generator",
+    "whatsapp-message-creator",
+    "gemini-image-generator",
+    "status-image-designer",
+    "hybrid-orchestrator",
+    "distribution-controller"
+  ],
+  "priority": "HIGH",
+  "actionRequired": true,
+  "
+": {
+    "analysisLocation": "/Users/shriyavallabh/Desktop/mvp/data/shared-memory/session_2025-09-18T03-38-39-062Z/segment-analysis-memory.json",
+    "segmentsAnalyzed": 3,
+    "strategiesCreated": true,
+    "marketContextIncluded": true
+  },
+  "keyInsights": {
+    "segments": {
+      "HNI_Premium": {
+        "complexity": "high",
+        "tone": "friendly_yet_authoritative",
+        "wordCount": "800-1200",
+        "approval": "required"
+      },
+      "Retail_Gold": {
+        "complexity": "medium",
+        "tone": "professional_yet_approachable",
+        "wordCount": "400-600",
+        "approval": "required"
+      },
+      "Retail_Standard": {
+        "complexity": "low_to_medium",
+        "tone": "educational_and_encouraging",
+        "wordCount": "200-400",
+        "approval": "not_required"
+      }
+    },
+    "marketContext": {
+      "sentiment": "cautiously_optimistic",
+      "keyThemes": ["tax_optimization", "earnings_analysis", "rate_cut_impact", "sector_rotation"],
+      "activeTrends": ["dii_buying_support", "rbi_easing_cycle", "it_sector_outperformance", "tax_saving_season"]
+    }
+  },
+  "requiredActions": {
+    "linkedin-post-generator": [
+      "Apply segment-specific tone and complexity",
+      "Use appropriate technical depth per segment",
+      "Include market context in posts"
+    ],
+    "whatsapp-message-creator": [
+      "Adjust message length per segment",
+      "Apply segment-appropriate vocabulary",
+      "Include interactive elements as specified"
+    ],
+    "gemini-image-generator": [
+      "Create visuals matching segment sophistication",
+      "Use appropriate data density",
+      "Include segment-specific branding elements"
+    ],
+    "status-image-designer": [
+      "Design status images per segment complexity",
+      "Apply advisor-specific branding",
+      "Match visual style to content tone"
+    ],
+    "distribution-controller": [
+      "Set up segment-based scheduling",
+      "Configure approval workflows",
+      "Implement engagement tracking"
+    ]
+  },
+  "configurationParameters": {
+    "contentGeneration": {
+      "useSegmentMapping": true,
+      "applyMarketContext": true,
+      "includePersonalization": true,
+      "respectApprovalRequirements": true
+    },
+    "distribution": {
+      "segmentBasedTiming": true,
+      "channelOptimization": true,
+      "engagementTracking": true
+    }
+  },
+  "nextSteps": [
+    "Content generators should load segment analysis from shared memory",
+    "Apply segment-specific parameters to content creation",
+    "Configure approval workflows based on subscription tiers",
+    "Begin generating segment-tailored content",
+    "Monitor engagement and effectiveness by segment"
+  ],
+  "urgency": "immediate_action_required",
+  "expiresAt": "2025-09-18T06:38:39.062Z"
+}

@@ -1,0 +1,112 @@
+{
+  "session_id": "session_20250919_090313",
+  "timestamp": "20250919_093750",
+  "generation_type": "premium_viral_suite",
+  "total_images": 5,
+  "platforms": [
+    "WhatsApp",
+    "Facebook",
+    "Instagram",
+    "LinkedIn",
+    "WhatsApp Status"
+  ],
+  "files": [
+    {
+      "path": "output/session_20250919_090313/images/viral-premium/chai_inflation_whatsapp_20250919_093750.png",
+      "platform": "WhatsApp",
+      "content_id": "chai_inflation",
+      "size": 18843
+    },
+    {
+      "path": "output/session_20250919_090313/images/viral-premium/india_economy_instagram_20250919_093750.png",
+      "platform": "Instagram",
+      "content_id": "india_economy",
+      "size": 8176
+    },
+    {
+      "path": "output/session_20250919_090313/images/viral-premium/coffee_calculation_linkedin_20250919_093750.png",
+      "platform": "LinkedIn",
+      "content_id": "coffee_calculation",
+      "size": 19855
+    },
+    {
+      "path": "output/session_20250919_090313/images/viral-premium/loss_story_whatsapp_status_20250919_093750.png",
+      "platform": "WhatsApp Status",
+      "content_id": "loss_story",
+      "size": 14039
+    },
+    {
+      "path": "output/session_20250919_090313/images/viral-premium/transformation_facebook_20250919_093750.png",
+      "platform": "Facebook",
+      "content_id": "transformation",
+      "size": 17223
+    }
+  ],
+  "specifications": [
+    {
+      "id": "chai_inflation",
+      "title": "₹10 Daily Chai vs 2.1% Silent Killer",
+      "hook": "Your ₹3,650/year habit costs ₹2.4 Lakhs",
+      "visual_type": "split_screen",
+      "cta": "Calculate Your Loss →",
+      "platform": "WhatsApp",
+      "dimensions": [
+        1200,
+        628
+      ],
+      "pattern": true
+    },
+    {
+      "id": "india_economy",
+      "title": "INDIA: World's 4th POWERHOUSE",
+      "hook": "🏆 $4 Trillion Economy by 2025",
+      "visual_type": "celebration",
+      "cta": "Ride the Wave →",
+      "platform": "Instagram",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "pattern": false
+    },
+    {
+      "id": "coffee_calculation",
+      "title": "Your ₹200 Coffee = ₹67 LAKHS",
+      "hook": "30 Years of Compounding Magic",
+      "visual_type": "calculation",
+      "cta": "Start SIP Today →",
+      "platform": "LinkedIn",
+      "dimensions": [
+        1200,
+        628
+      ],
+      "pattern": true
+    },
+    {
+      "id": "loss_story",
+      "title": "₹15 Lakhs VANISHED in 2008",
+      "hook": "Why Timing the Market Failed",
+      "visual_type": "story",
+      "cta": "Learn Smart Investing →",
+      "platform": "WhatsApp Status",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "pattern": false
+    },
+    {
+      "id": "transformation",
+      "title": "From MAID to IIM PROFESSOR",
+      "hook": "₹500/month SIP Changed Everything",
+      "visual_type": "transformation",
+      "cta": "Begin Your Story →",
+      "platform": "Facebook",
+      "dimensions": [
+        1200,
+        628
+      ],
+      "pattern": true
+    }
+  ]
+}

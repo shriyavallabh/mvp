@@ -1,0 +1,250 @@
+{
+  "sessionId": "session_2025-09-18T15-03-58Z",
+  "timestamp": "2025-09-18T21:08:45Z",
+  "contentScored": 19,
+  "averageScore": 83.7,
+  "scoreDistribution": {
+    "excellent": {
+      "count": 8,
+      "percentage": 42.1,
+      "range": "85-100"
+    },
+    "good": {
+      "count": 11,
+      "percentage": 57.9,
+      "range": "70-84"
+    },
+    "needsImprovement": {
+      "count": 0,
+      "percentage": 0,
+      "range": "50-69"
+    },
+    "reject": {
+      "count": 0,
+      "percentage": 0,
+      "range": "Below 50"
+    }
+  },
+  "dimensionAverages": {
+    "relevance": 88.5,
+    "clarity": 82.3,
+    "engagement": 84.7,
+    "value": 81.9,
+    "personalization": 80.2
+  },
+  "contentTypeAnalysis": {
+    "linkedin": {
+      "count": 9,
+      "averageScore": 85.2,
+      "breakdown": {
+        "market_analysis": {
+          "count": 1,
+          "avgScore": 92,
+          "strengths": ["Deep market insights", "Actionable strategies", "Clear forecasts"],
+          "weaknesses": ["Complex for beginners"]
+        },
+        "educational": {
+          "count": 3,
+          "avgScore": 86,
+          "strengths": ["Practical examples", "Clear structure", "Actionable advice"],
+          "weaknesses": ["Could use more visuals"]
+        },
+        "trending": {
+          "count": 3,
+          "avgScore": 83,
+          "strengths": ["Timely content", "Clear action plans", "Good context"],
+          "weaknesses": ["Similar content across advisors"]
+        },
+        "market_basics": {
+          "count": 1,
+          "avgScore": 84,
+          "strengths": ["Beginner-friendly", "Simple language", "Clear examples"],
+          "weaknesses": ["Could be more engaging"]
+        },
+        "market_update": {
+          "count": 1,
+          "avgScore": 82,
+          "strengths": ["Current data", "Balanced approach", "Clear recommendations"],
+          "weaknesses": ["Generic advice"]
+        }
+      }
+    },
+    "whatsapp": {
+      "count": 10,
+      "averageScore": 81.8,
+      "breakdown": {
+        "market_update": {
+          "count": 2,
+          "avgScore": 80,
+          "strengths": ["Concise", "Personalized greeting", "Clear CTA"],
+          "weaknesses": ["Limited context"]
+        },
+        "tax_saving": {
+          "count": 2,
+          "avgScore": 85,
+          "strengths": ["Urgent appeal", "Clear benefits", "Specific savings"],
+          "weaknesses": ["Could add more options"]
+        },
+        "investment_tip": {
+          "count": 2,
+          "avgScore": 82,
+          "strengths": ["Timely advice", "Clear action", "Good horizon"],
+          "weaknesses": ["Needs risk disclaimer"]
+        },
+        "educational": {
+          "count": 2,
+          "avgScore": 79,
+          "strengths": ["Simple concepts", "Practical knowledge"],
+          "weaknesses": ["Too brief"]
+        },
+        "motivational": {
+          "count": 1,
+          "avgScore": 83,
+          "strengths": ["Inspiring", "Action-oriented", "Personal touch"],
+          "weaknesses": ["Generic quote"]
+        },
+        "goal_planning": {
+          "count": 1,
+          "avgScore": 84,
+          "strengths": ["Specific example", "Clear numbers", "Achievable goal"],
+          "weaknesses": ["Single scenario"]
+        }
+      }
+    }
+  },
+  "topPerformers": [
+    {
+      "contentId": "ADV_001_LI_001",
+      "type": "LinkedIn - Market Analysis",
+      "score": 92,
+      "highlights": [
+        "Comprehensive market insights with specific percentages",
+        "Clear tactical allocation strategies",
+        "Tax-efficient strategies included",
+        "Professional tone with HNI focus"
+      ]
+    },
+    {
+      "contentId": "ADV_001_LI_002",
+      "type": "LinkedIn - Tax Planning",
+      "score": 88,
+      "highlights": [
+        "Detailed section-wise breakdown",
+        "Specific savings calculations",
+        "Advanced strategies mentioned",
+        "Clear structure and formatting"
+      ]
+    },
+    {
+      "contentId": "ADV_002_LI_002",
+      "type": "LinkedIn - Educational",
+      "score": 86,
+      "highlights": [
+        "Relatable story format",
+        "Step-by-step breakdown",
+        "Real numbers and calculations",
+        "Engaging narrative style"
+      ]
+    },
+    {
+      "contentId": "ADV_002_WhatsApp_Tax",
+      "type": "WhatsApp - Tax Saving",
+      "score": 85,
+      "highlights": [
+        "Urgency created effectively",
+        "Clear benefit statement",
+        "Personalized greeting",
+        "Strong call-to-action"
+      ]
+    },
+    {
+      "contentId": "ADV_003_LI_002",
+      "type": "LinkedIn - SIP Education",
+      "score": 85,
+      "highlights": [
+        "Creative chai analogy",
+        "Simple explanation",
+        "Real example with numbers",
+        "Clear action steps"
+      ]
+    }
+  ],
+  "improvementAreas": [
+    {
+      "area": "Content Differentiation",
+      "issue": "All 3 advisors have identical Fed rate cut content",
+      "impact": "Reduces uniqueness and authenticity",
+      "suggestion": "Create unique angles for trending topics based on advisor expertise and segment focus",
+      "priority": "High"
+    },
+    {
+      "area": "WhatsApp Engagement",
+      "issue": "Messages are too brief for complex topics",
+      "impact": "May not provide enough value for decision-making",
+      "suggestion": "Consider two-part messages or follow-up sequences for detailed topics",
+      "priority": "Medium"
+    },
+    {
+      "area": "Visual Integration",
+      "issue": "LinkedIn posts lack mention of accompanying visuals",
+      "impact": "Missed opportunity for higher engagement",
+      "suggestion": "Reference infographics or charts in post content to drive visual engagement",
+      "priority": "Medium"
+    },
+    {
+      "area": "Risk Communication",
+      "issue": "Some investment tips lack proper risk warnings",
+      "impact": "Compliance concern for direct investment advice",
+      "suggestion": "Ensure all investment-related content includes appropriate risk disclaimers",
+      "priority": "High"
+    },
+    {
+      "area": "Personalization Depth",
+      "issue": "Limited segment-specific customization beyond names",
+      "impact": "Generic feel despite personalization attempts",
+      "suggestion": "Add segment-specific examples, pain points, and solutions",
+      "priority": "Medium"
+    }
+  ],
+  "qualityMetrics": {
+    "readability": {
+      "fleschScore": 62.4,
+      "grade": "Easy to Moderate",
+      "averageSentenceLength": 14.3,
+      "averageSyllablesPerWord": 1.6
+    },
+    "engagement": {
+      "predictedEngagementRate": 4.2,
+      "viralProbability": 0.31,
+      "shareabilityScore": 72
+    },
+    "compliance": {
+      "disclaimersPresent": true,
+      "riskWarnings": "Partial",
+      "regulatoryAlignment": 95
+    }
+  },
+  "recommendations": {
+    "immediate": [
+      "Differentiate Fed rate cut content across advisors",
+      "Add risk disclaimers to all investment tips",
+      "Enhance WhatsApp messages with more context"
+    ],
+    "shortTerm": [
+      "Develop unique content angles for each advisor segment",
+      "Create visual content references in posts",
+      "Implement A/B testing for message formats"
+    ],
+    "longTerm": [
+      "Build advisor-specific content libraries",
+      "Develop segment-specific messaging frameworks",
+      "Create performance tracking system for content effectiveness"
+    ]
+  },
+  "autoApprovalStatus": {
+    "eligible": true,
+    "reason": "Average score above 80% threshold with no rejected content",
+    "flaggedItems": [],
+    "manualReviewRequired": false
+  }
+}

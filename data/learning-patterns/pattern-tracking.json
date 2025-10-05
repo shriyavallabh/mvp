@@ -1,0 +1,46 @@
+{
+  "patterns": {
+    "recurring_issues": {
+      "missing_logo_urls": {
+        "count": 0,
+        "last_seen": null,
+        "agents": [],
+        "impact": "low",
+        "solution": "Add default logo handling"
+      },
+      "api_authentication_failures": {
+        "count": 0,
+        "last_seen": null,
+        "agents": [],
+        "impact": "high",
+        "solution": "Implement API key validation and fallback"
+      },
+      "compliance_disclaimer_missing": {
+        "count": 0,
+        "last_seen": null,
+        "agents": [],
+        "impact": "high",
+        "solution": "Add disclaimer to generation prompts"
+      },
+      "character_limit_exceeded": {
+        "count": 0,
+        "last_seen": null,
+        "agents": [],
+        "impact": "medium",
+        "solution": "Implement character count validation"
+      }
+    }
+  },
+  "learning_categories": {
+    "data_quality": ["missing_data", "validation_failures", "incomplete_profiles"],
+    "api_issues": ["authentication", "rate_limits", "timeouts", "unavailable"],
+    "compliance": ["missing_disclaimers", "sebi_violations", "regulatory_gaps"],
+    "performance": ["slow_execution", "memory_issues", "timeouts"],
+    "quality": ["low_scores", "engagement_issues", "content_problems"]
+  },
+  "threshold_alerts": {
+    "high_impact_threshold": 2,
+    "pattern_detection_threshold": 3,
+    "auto_fix_threshold": 5
+  }
+}

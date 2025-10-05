@@ -1,0 +1,190 @@
+{
+  "distribution_id": "DIST_2025-09-18T03-38-39-062Z",
+  "session_id": "session_2025-09-18T03-38-39-062Z",
+  "created_at": "2025-09-18T10:30:00.000Z",
+  "validation_summary": {
+    "compliance_status": "BLOCKED",
+    "compliance_score": "46.15%",
+    "quality_status": "CONDITIONAL",
+    "quality_score": "77.7%",
+    "fatigue_status": "APPROVED",
+    "fatigue_score": "100%"
+  },
+  "distribution_decisions": {
+    "whatsapp_content": {
+      "status": "BLOCKED",
+      "reason": "Critical SEBI compliance violations - missing market risk disclaimers",
+      "violations_count": 28,
+      "action": "Content generation required with proper disclaimers",
+      "distribution_blocked": true,
+      "estimated_fix_time": "2-4 hours"
+    },
+    "linkedin_content": {
+      "status": "CONDITIONAL_HOLD",
+      "reason": "Quality issues - readability scores below threshold (avg 50.4%)",
+      "action": "Add document reading advisories, improve readability",
+      "distribution_scheduled": false,
+      "content_items": 26,
+      "items_needing_fixes": 26
+    },
+    "visual_content": {
+      "status": "APPROVED",
+      "reason": "High quality professional images (88.5-92% scores)",
+      "action": "Begin immediate distribution",
+      "distribution_approved": true,
+      "content_items": 48,
+      "auto_approve_count": 48
+    }
+  },
+  "compliance_remediation": {
+    "priority": "CRITICAL",
+    "required_actions": [
+      {
+        "action": "Add SEBI-compliant market risk disclaimer",
+        "content": "Mutual fund investments are subject to market risks. Read all scheme related documents carefully.",
+        "affected_items": 28,
+        "mandatory": true
+      },
+      {
+        "action": "Verify ARN disclosure compliance",
+        "affected_items": "All advisor content",
+        "mandatory": true
+      },
+      {
+        "action": "Re-validate after fixes",
+        "required_score": "100%",
+        "mandatory": true
+      }
+    ],
+    "escalation": {
+      "notify_content_team": true,
+      "block_distribution": true,
+      "regeneration_required": true
+    }
+  },
+  "quality_enhancement": {
+    "linkedin_improvements": [
+      {
+        "issue": "Low readability scores (10-56 Flesch scores)",
+        "fix": "Simplify language, shorter sentences",
+        "affected_count": 26
+      },
+      {
+        "issue": "Missing document reading advisory",
+        "fix": "Add 'Read all scheme related documents carefully'",
+        "affected_count": 26
+      },
+      {
+        "issue": "Poor engagement potential (11-59%)",
+        "fix": "Improve hooks and CTAs",
+        "affected_count": 26
+      }
+    ]
+  },
+  "click_to_unlock_strategy": {
+    "phase_1": {
+      "action": "Send utility messages with unlock buttons",
+      "target": "Visual content only (approved)",
+      "message_template": "morning_insights_unlock",
+      "button_text": "Get My Content",
+      "scheduled_time": "05:00 AM IST"
+    },
+    "phase_2": {
+      "action": "Deliver content on button click",
+      "content_types": ["status_images"],
+      "webhook_handling": true,
+      "tracking_enabled": true
+    },
+    "blocked_content": {
+      "whatsapp": "Distribution blocked - compliance violations",
+      "linkedin": "Distribution paused - quality improvements needed"
+    }
+  },
+  "distribution_schedule": {
+    "immediate_actions": [
+      {
+        "action": "Block WhatsApp distribution",
+        "timestamp": "2025-09-18T10:30:00Z",
+        "status": "executed"
+      },
+      {
+        "action": "Notify content team of compliance violations",
+        "timestamp": "2025-09-18T10:30:00Z",
+        "status": "pending"
+      }
+    ],
+    "approved_distributions": [
+      {
+        "content_type": "visual_content",
+        "method": "click_to_unlock",
+        "scheduled_time": "2025-09-19T05:00:00Z",
+        "recipients": 3,
+        "content_items": 48
+      }
+    ],
+    "conditional_distributions": [
+      {
+        "content_type": "linkedin",
+        "condition": "Quality improvements completed",
+        "estimated_ready": "2025-09-18T18:00:00Z",
+        "pending_fixes": 26
+      }
+    ]
+  },
+  "notifications": {
+    "content_team": {
+      "priority": "URGENT",
+      "subject": "CRITICAL: Content Distribution Blocked - Compliance Violations",
+      "details": "28 SEBI violations detected, immediate remediation required",
+      "action_required": "Regenerate WhatsApp content with market risk disclaimers"
+    },
+    "advisors": {
+      "priority": "INFO",
+      "subject": "Content Delivery Update",
+      "details": "Visual content approved for morning delivery, text content under review"
+    }
+  },
+  "performance_monitoring": {
+    "kpis": {
+      "first_attempt_success_rate": "Target: 99%",
+      "overall_delivery_rate": "Target: 99.99%",
+      "compliance_score": "Required: 100%",
+      "quality_score": "Target: 80%+"
+    },
+    "tracking": {
+      "delivery_confirmations": true,
+      "engagement_metrics": true,
+      "compliance_monitoring": true,
+      "quality_feedback": true
+    }
+  },
+  "advisor_targets": {
+    "ARN_SHRUTI_001": {
+      "name": "Shruti Mishra",
+      "visual_content_approved": 16,
+      "whatsapp_blocked": 5,
+      "linkedin_conditional": 5
+    },
+    "ARN_VIDYADHAR_002": {
+      "name": "Vidyadhar Petkar",
+      "visual_content_approved": 16,
+      "whatsapp_blocked": 4,
+      "linkedin_conditional": 8
+    },
+    "ARN_SHRIYA_003": {
+      "name": "Shriya Vallabh",
+      "visual_content_approved": 16,
+      "whatsapp_blocked": 5,
+      "linkedin_conditional": 5
+    }
+  },
+  "regulatory_safeguards": {
+    "zero_violation_policy": true,
+    "mandatory_compliance_check": true,
+    "distribution_circuit_breaker": {
+      "enabled": true,
+      "threshold": "Any compliance violation",
+      "action": "Immediate distribution halt"
+    }
+  }
+}

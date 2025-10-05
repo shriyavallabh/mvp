@@ -1,105 +1,154 @@
 {
-  "orchestrationId": "hybrid_1726582889",
-  "timestamp": "2025-09-17-11-21-29",
-  "phase": "initialization",
-  "startTime": "2025-09-17T11:21:29Z",
-  "sessionId": "session_2025-09-17-11-21-29",
-  "mcpEnabled": false,
+  "orchestrationId": "session_1759383378",
+  "timestamp": "2025-10-02T05:42:15.000Z",
+  "phase": "segment_analysis",
+  "startTime": "2025-10-02T05:37:49.722Z",
+  "sessionId": "session_1759383378",
+  "mcpEnabled": true,
   "agentsCompleted": [
     "advisor-data-manager",
-    "market-intelligence"
+    "market-intelligence",
+    "segment-analyzer"
   ],
   "communicationQueue": [],
-  "currentPhase": "data_foundation_complete",
-  "advisorsProcessed": 3,
+  "currentPhase": "segment_analysis_complete",
+  "advisorsProcessed": 4,
   "qualityScores": {},
   "complianceStatus": "pending",
+  "segmentAnalysis": {
+    "timestamp": "2025-10-02T05:42:15.000Z",
+    "viralityScore": 8.8,
+    "segmentBreakdown": {
+      "Premium": 2,
+      "Gold": 1,
+      "Silver": 1
+    },
+    "viralHookMappingAccuracy": 0.93,
+    "contentStrategiesCreated": 4,
+    "outputLocation": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/segment_analysis.json",
+    "status": "ready_for_content_generation"
+  },
   "marketContext": {
-    "timestamp": "2025-09-17T05:54:35.249Z",
+    "timestamp": "2025-10-01T09:30:00+05:30",
     "market_summary": {
       "nifty_50": {
-        "current": 19850.25,
-        "change": "+125.40",
-        "change_percent": "+0.64%",
-        "trend": "bullish",
-        "support": 19600,
-        "resistance": 20000
+        "current": 24635,
+        "change": -20,
+        "change_percent": "-0.08%",
+        "trend": "range-bound",
+        "support": 24400,
+        "resistance": 24800
       },
       "sensex": {
-        "current": 66950.45,
-        "change": "+380.15",
-        "change_percent": "+0.57%",
-        "trend": "bullish",
-        "support": 66200,
-        "resistance": 67500
+        "current": 80268,
+        "change": -96,
+        "change_percent": "-0.12%",
+        "trend": "consolidating",
+        "support": 79800,
+        "resistance": 80500
       },
       "sector_performance": {
-        "banking": "+1.2%",
-        "it": "+0.8%",
-        "pharma": "-0.3%",
-        "auto": "+1.5%",
-        "metals": "+2.1%"
+        "psu_banking": "+1.78%",
+        "oil_gas": "+1.2%",
+        "realty": "+0.9%",
+        "it": "-0.85%",
+        "pharma": "-0.15%",
+        "private_banking": "-0.4%"
+      },
+      "commodities": {
+        "gold_24k_per_10g": 117440,
+        "silver_per_kg": 151000,
+        "usd_inr": 88.85
       }
     },
     "key_insights": [
-      "Banking sector showing strong momentum with Q2 results",
-      "IT sector remains stable despite global headwinds",
-      "Metal stocks outperforming on commodity price recovery",
-      "Auto sector benefiting from festive season demand"
+      "RBI MPC decision today - repo rate expected to hold at 5.50% (dominant view)",
+      "PSU Banks leading with 1.78% gains on govt banking reforms",
+      "IT sector under pressure from Trump tariff fears and H1-B visa concerns",
+      "Gold at record highs (₹1.17 lakh/10g) - global uncertainty + festival demand",
+      "Rupee weakens to 88.85 - near 2025 high on FII outflows"
     ],
     "advisor_specific_insights": {
       "ADV_001": {
-        "focus": "High-beta stocks for aggressive growth",
-        "recommendation": "Increase exposure to banking and metals",
-        "risk_level": "moderate_high"
+        "focus": "Defensive positioning amid global tariff fears",
+        "recommendation": "PSU banks, FMCG, gold allocation for portfolio stability",
+        "risk_level": "moderate",
+        "urgency": "Monitor RBI policy announcement today"
       },
       "ADV_002": {
-        "focus": "Tax-efficient investment options",
-        "recommendation": "ELSS funds and tax-saving bonds",
-        "risk_level": "moderate"
+        "focus": "Tax-saving ELSS push in Q3 FY2025-26",
+        "recommendation": "Start ELSS SIPs now - top funds giving 27% returns",
+        "risk_level": "moderate",
+        "urgency": "Q3 is optimal window - avoid March rush"
       },
       "ADV_003": {
-        "focus": "Dividend-yielding stocks for income",
-        "recommendation": "Utility and FMCG dividend aristocrats",
-        "risk_level": "conservative"
+        "focus": "Pre-retiree safety with gold + debt rebalancing",
+        "recommendation": "Increase gold allocation, review debt fund positioning post-RBI",
+        "risk_level": "conservative",
+        "urgency": "Gold hedge against currency depreciation"
+      },
+      "ADV_004": {
+        "focus": "Young professionals SIP continuation strategy",
+        "recommendation": "Stay invested in IT/pharma dips - long-term prospects intact",
+        "risk_level": "moderate_high",
+        "urgency": "NFO opportunities in SBI Hybrid, ICICI Conglomerate funds"
       }
     },
     "content_themes": {
       "trending_topics": [
-        "Festive season investment strategies",
-        "Q2 earnings impact analysis",
-        "Year-end tax planning",
-        "Portfolio rebalancing for 2024"
+        "RBI MPC Decision Day - Rate Cut or Hold?",
+        "Gold at All-Time High - Buy or Profit-Book?",
+        "Trump Tariffs on Pharma/IT - Panic or Opportunity?",
+        "Q3 Tax-Saving with ELSS - Beat the March Rush",
+        "PSU Banks vs Private Banks - The Great Rotation",
+        "NFO Alert: SBI Hybrid + ICICI Conglomerate Funds"
       ],
       "urgency_levels": {
         "high": [
-          "Tax planning deadline approaching"
+          "RBI policy decision today (afternoon)",
+          "Q3 tax-saving enrollment window open",
+          "NFO subscription deadlines (Oct 15-17)"
         ],
         "medium": [
-          "Q2 results analysis"
+          "IT/Pharma reassurance amid tariff noise",
+          "Gold allocation review at elevated prices",
+          "Festive season consumption plays"
         ],
         "low": [
-          "Long-term portfolio review"
+          "Q2 earnings season preparation",
+          "Long-term portfolio rebalancing"
         ]
       }
     },
     "compliance_alerts": [
-      "SEBI circular on mutual fund categorization",
-      "New tax implications for crypto investments",
-      "Updated KYC requirements for high-value transactions"
+      "Ensure SEBI disclaimers on all mutual fund recommendations",
+      "ARN display mandatory on advisor communications",
+      "NFO risk disclosures required for new fund recommendations",
+      "Tax-saving product promotions must include lock-in period warnings"
+    ],
+    "viral_content_hooks": [
+      "RBI Decision Day: Your Money's Fate Decided TODAY - 5.50% or 5.25%?",
+      "Gold at ₹1.17 Lakh: The Silent Wealth Creator While You Chased Stocks",
+      "Trump's Pharma Tariff Bomb: 3-Minute Survival Guide for Indian Investors",
+      "The ₹1.5 Lakh Tax Hack Nobody Talks About in October",
+      "PSU Banks Up 1.78% vs Private Banks Down: The Rotation Has Begun"
     ],
     "metadata": {
       "created_by": "market-intelligence",
       "agent_color": "purple",
       "agent_voice": "Victoria",
       "data_sources": [
-        "NSE",
+        "NSE India",
         "BSE",
-        "Economic Times",
-        "SEBI"
+        "MoneyControl",
+        "Business Standard",
+        "GoodReturns (Gold/Silver)",
+        "Xe.com (Forex)"
       ],
-      "reliability_score": 0.92,
-      "last_updated": "2025-09-17T05:54:35.249Z"
+      "reliability_score": 0.95,
+      "last_updated": "2025-10-01T09:30:00+05:30",
+      "data_freshness": "live",
+      "session_id": "session_1759290339491"
     }
   },
   "outputPaths": {
@@ -111,64 +160,83 @@
     "rawData": "output/raw-data/"
   },
   "advisorData": {
-    "timestamp": "2025-09-17T05:53:41.809Z",
-    "total_advisors": 3,
+    "timestamp": "2025-10-01T00:05:39.491Z",
+    "sessionId": "session_1759290339491",
+    "total_advisors": 4,
+    "activeSubscriptions": 4,
+    "totalAUM": "₹18 Crores",
+    "segmentBreakdown": {
+      "Premium": 2,
+      "Gold": 1,
+      "Silver": 1
+    },
     "advisors": [
       {
-        "id": "ADV_001",
-        "name": "Shruti Gupta",
-        "phone": "+919876543210",
+        "id": "ADV001",
+        "name": "Shruti Petkar",
+        "phone": "919673758777",
+        "arn": "ARN-125847",
+        "advisorType": "Premium",
         "specialization": "Investment Planning",
-        "experience_years": 8,
+        "aum": "₹5 Crores+",
         "client_segment": "high_net_worth",
-        "aum": 5000000,
-        "performance_rating": 4.8,
-        "communication_preference": "whatsapp",
-        "content_style": "analytical",
+        "content_style": "professional",
+        "approvalMode": "manual",
         "brand_guidelines": {
           "tone": "professional",
-          "colors": [
-            "#1B365D",
-            "#0077B5"
-          ]
+          "colors": ["#1B365D", "#0077B5"],
+          "tagline": "Building Wealth, Creating Trust"
         }
       },
       {
-        "id": "ADV_002",
-        "name": "Vidyadhar Patil",
-        "phone": "+919876543211",
+        "id": "ADV002",
+        "name": "Vidyadhar Petkar",
+        "phone": "918975758513",
+        "arn": "ARN-138924",
+        "advisorType": "Gold",
         "specialization": "Tax Planning",
-        "experience_years": 12,
+        "aum": "₹3.5 Crores",
         "client_segment": "mass_affluent",
-        "aum": 3500000,
-        "performance_rating": 4.6,
-        "communication_preference": "linkedin",
-        "content_style": "educational",
+        "content_style": "analytical",
+        "approvalMode": "auto",
         "brand_guidelines": {
-          "tone": "friendly",
-          "colors": [
-            "#2E8B57",
-            "#228B22"
-          ]
+          "tone": "analytical",
+          "colors": ["#2E8B57", "#228B22"],
+          "tagline": "Your Financial Growth Partner"
         }
       },
       {
-        "id": "ADV_003",
-        "name": "Avalok Sharma",
-        "phone": "+919876543212",
+        "id": "ADV003",
+        "name": "Shriya Vallabh Petkar",
+        "phone": "919765071249",
+        "arn": "ARN-147852",
+        "advisorType": "Premium",
         "specialization": "Retirement Planning",
-        "experience_years": 15,
+        "aum": "₹7.5 Crores",
         "client_segment": "pre_retirees",
-        "aum": 7500000,
-        "performance_rating": 4.9,
-        "communication_preference": "both",
-        "content_style": "storytelling",
+        "content_style": "educational",
+        "approvalMode": "manual",
         "brand_guidelines": {
-          "tone": "trustworthy",
-          "colors": [
-            "#8B4513",
-            "#CD853F"
-          ]
+          "tone": "educational",
+          "colors": ["#8B4513", "#CD853F"],
+          "tagline": "Empowering Financial Decisions"
+        }
+      },
+      {
+        "id": "ADV004",
+        "name": "Avalok Langer",
+        "phone": "919022810769",
+        "arn": "ARN-169741",
+        "advisorType": "Silver",
+        "specialization": "SIP Planning",
+        "aum": "₹2 Crores",
+        "client_segment": "young_professionals",
+        "content_style": "modern",
+        "approvalMode": "auto",
+        "brand_guidelines": {
+          "tone": "modern",
+          "colors": ["#1A73E8", "#34A853"],
+          "tagline": "Smart Investments, Secure Future"
         }
       }
     ],
@@ -176,7 +244,229 @@
       "created_by": "advisor-data-manager",
       "agent_color": "blue",
       "agent_voice": "Alex",
-      "data_quality_score": 0.95
+      "data_quality_score": 1.0,
+      "data_source": "local_json",
+      "output_location": "/Users/shriyavallabh/Desktop/mvp/output/session_1759290339491/raw-data/advisors.json"
     }
+  },
+  "whatsapp_messages": {
+    "timestamp": "2025-09-17T23-40-33-000Z",
+    "session_id": "session_1758130725",
+    "total_messages": 9,
+    "segments": {
+      "premium": 1,
+      "gold": 1,
+      "silver": 1
+    },
+    "urgent_alerts": 2,
+    "status": "ready_for_distribution"
+  },
+  "gemini_images": {
+    "timestamp": "2025-09-18T09:37:07.117744",
+    "session_id": "session_2025-09-18T03-38-39-062Z",
+    "total_images": 48,
+    "output_directory": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/gemini-images",
+    "categories": [
+      "linkedin",
+      "charts",
+      "whatsapp",
+      "marketing"
+    ],
+    "status": "complete"
+  },
+  "brandedContent": {
+    "sessionId": "session_2025-09-18T03-38-39-062Z",
+    "timestamp": "2025-09-18T09:40:42.267202",
+    "brandedContentPath": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/branded-content",
+    "brandCompliance": 100.0,
+    "advisorCount": 3,
+    "contentTypes": [
+      "linkedin",
+      "whatsapp",
+      "status-images"
+    ],
+    "agent": "brand-customizer",
+    "status": "completed"
+  },
+  "fatigue_analysis": {
+    "timestamp": "2025-09-19T03:06:00.000Z",
+    "session_id": "session_20250919_023038",
+    "overall_freshness_score": 72,
+    "content_analyzed": 36,
+    "high_risk_flags": 2,
+    "medium_risk_flags": 6,
+    "content_flagged_for_revision": 2,
+    "topic_concentration_violations": 2,
+    "similarity_violations": 2,
+    "diversification_urgency": "high",
+    "report_locations": {
+      "main_report": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/fatigue_analysis_report.json",
+      "diversification_guide": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/diversification_suggestions.json",
+      "flagged_content": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/content_flags_summary.json"
+    },
+    "next_actions": [
+      "Diversify topic selection for next content batch",
+      "Implement hook rotation strategy",
+      "Create content calendar to ensure topic spacing",
+      "Revise flagged content before distribution"
+    ],
+    "status": "completed_with_warnings"
+  },
+  "quality_assessment": {
+    "timestamp": "2025-09-19T03:11:27.472444",
+    "session_id": "session_20250919_023038",
+    "summary": {
+      "total_content_pieces": 56,
+      "average_quality_score": 41.68,
+      "score_range": [
+        30.3,
+        49.0
+      ],
+      "auto_approval_rate": 0.0
+    },
+    "category_averages": {
+      "linkedin": 43.61,
+      "whatsapp": 37.63
+    },
+    "top_performers": [
+      {
+        "content_id": "STD_ARN_SHRUTI_001_002",
+        "advisor_id": "ARN_SHRUTI_001",
+        "score": 49.0,
+        "grade": "C",
+        "type": "linkedin"
+      },
+      {
+        "content_id": "STD_ARN_SHRIYA_003_002",
+        "advisor_id": "ARN_SHRIYA_003",
+        "score": 49.0,
+        "grade": "C",
+        "type": "linkedin"
+      },
+      {
+        "content_id": "STD_ARN_VIDYADHAR_002_002",
+        "advisor_id": "ARN_VIDYADHAR_002",
+        "score": 49.0,
+        "grade": "C",
+        "type": "linkedin"
+      },
+      {
+        "content_id": "STD_ADV_007_002",
+        "advisor_id": "ADV_007",
+        "score": 47.5,
+        "grade": "C",
+        "type": "linkedin"
+      },
+      {
+        "content_id": "STD_ADV_009_002",
+        "advisor_id": "ADV_009",
+        "score": 47.5,
+        "grade": "C",
+        "type": "linkedin"
+      }
+    ],
+    "report_location": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/quality_assessment_report_20250919_031127.json"
+  },
+
+  "compliance_validation": {
+    "timestamp": "2025-09-19T03:09:06Z",
+    "session_id": "session_20250919_023038",
+    "status": "REJECTED",
+    "compliance_score": 0.0,
+    "total_violations": 94,
+    "critical_issues": [
+      "Missing SEBI disclaimers in all 28 content pieces",
+      "Missing ARN display in 10 LinkedIn posts",
+      "WhatsApp length violations in 18 messages"
+    ],
+    "remediation_required": true,
+    "report_location": "/Users/shriyavallabh/Desktop/mvp/data/compliance-summary-session_20250919_023038.md"
+  },
+
+  "session_learnings": {
+    "timestamp": "2025-09-19T06:30:00Z",
+    "session_id": "session_20250919_023038",
+    "processor": "feedback-processor",
+    "status": "CRITICAL_IMPROVEMENTS_REQUIRED",
+    "key_learnings": [
+      "Content generation templates missing mandatory SEBI compliance requirements",
+      "Quality scores below auto-approval threshold requiring engagement and personalization improvements",
+      "Content fatigue risks from topic over-concentration (SIP education 28.5%)",
+      "Need for real-time feedback integration between validation and generation phases"
+    ],
+    "immediate_actions_required": [
+      "Update content generation templates with SEBI disclaimers",
+      "Implement ARN display requirements in brand customizer",
+      "Add quality gates with 80+ score requirement for auto-approval",
+      "Create topic diversity planning to prevent concentration violations"
+    ],
+    "success_targets_next_session": {
+      "compliance_score": "100%",
+      "average_quality_score": "75+",
+      "auto_approval_rate": "80%+",
+      "freshness_score": "85+"
+    },
+    "detailed_report": "/Users/shriyavallabh/Desktop/mvp/data/session-learnings/feedback_processing_session_20250919_023038.json"
+  },
+
+  "analytics_tracking": {
+    "timestamp": "2025-09-18T21:45:45.200476",
+    "session_id": "session_20250919_023038",
+    "overall_success_rate": 100.0,
+    "session_rating": "B+",
+    "key_performance_indicators": {
+      "content_per_minute": 2.74,
+      "agent_reliability": 100.0,
+      "quality_consistency": 55.13,
+      "pipeline_efficiency": 97.36,
+      "content_above_threshold": 36,
+      "fatigue_risk_score": 28,
+      "error_rate": 0.0
+    },
+    "bottlenecks_identified": [
+      {
+        "type": "execution_time",
+        "agent": "linkedin_post_generator",
+        "impact": "high",
+        "value": 12000,
+        "recommendation": "Optimize linkedin_post_generator processing pipeline"
+      },
+      {
+        "type": "quality_threshold",
+        "impact": "high",
+        "value": 0.0,
+        "recommendation": "Review content generation templates and quality criteria"
+      },
+      {
+        "type": "content_fatigue",
+        "impact": "medium",
+        "value": 72,
+        "recommendation": "Implement topic diversification strategy"
+      }
+    ],
+    "predictive_analytics": {
+      "predicted_engagement_rate": 1.26,
+      "predicted_delivery_success": 98.5,
+      "next_batch_quality_score": 46.7,
+      "overall_campaign_success": 24.0
+    },
+    "improvement_recommendations": [
+      {
+        "category": "Quality Enhancement",
+        "priority": "high",
+        "action": "Improve content templates to achieve 60+ quality scores",
+        "expected_impact": "Increase auto-approval rate from 0% to 40%",
+        "timeline": "1 week"
+      },
+      {
+        "category": "Content Diversification",
+        "priority": "high",
+        "action": "Implement topic rotation and hook variety strategies",
+        "expected_impact": "Increase freshness score from 72 to 85+",
+        "timeline": "2 days"
+      }
+    ],
+    "report_location": "/Users/shriyavallabh/Desktop/mvp/data/analytics-report-session_20250919_023038.json",
+    "status": "completed"
   }
 }

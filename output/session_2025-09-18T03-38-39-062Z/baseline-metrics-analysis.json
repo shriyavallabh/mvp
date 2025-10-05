@@ -1,0 +1,217 @@
+{
+  "session_id": "session_2025-09-18T03-38-39-062Z",
+  "analysis_timestamp": "2025-09-18T09:48:30.000Z",
+  "baseline_establishment": {
+    "status": "completed",
+    "confidence_level": 0.92,
+    "data_completeness": 0.95
+  },
+  "content_performance_baseline": {
+    "portfolio_overview": {
+      "total_content_items": 83,
+      "linkedin_posts": 24,
+      "linkedin_branded": 24,
+      "whatsapp_messages": 35,
+      "status_images": 10,
+      "gemini_images": 5
+    },
+    "quality_distribution": {
+      "high_quality": {
+        "count": 24,
+        "percentage": 28.9,
+        "average_score": 0.9,
+        "content_types": ["linkedin", "linkedin_branded"]
+      },
+      "medium_quality": {
+        "count": 31,
+        "percentage": 37.3,
+        "average_score": 0.7,
+        "content_types": ["status_images", "gemini_images"]
+      },
+      "needs_improvement": {
+        "count": 28,
+        "percentage": 33.7,
+        "average_score": 0.5,
+        "content_types": ["whatsapp_messages"],
+        "primary_issue": "missing_compliance_disclaimers"
+      }
+    },
+    "compliance_analysis": {
+      "compliant_rate": 46.15,
+      "violation_patterns": {
+        "missing_market_risk_disclaimer": 28,
+        "missing_document_reading": 52,
+        "severity_distribution": {
+          "critical": 28,
+          "major": 52,
+          "minor": 0
+        }
+      },
+      "remediation_priority": [
+        "add_sebi_disclaimers_to_whatsapp",
+        "enhance_linkedin_document_reading",
+        "standardize_compliance_format"
+      ]
+    },
+    "content_freshness": {
+      "overall_freshness_score": 95.0,
+      "fatigue_risk": "minimal",
+      "content_variety": {
+        "topics_covered": 12,
+        "hook_variety_score": 1.0,
+        "cta_rotation_score": 1.0
+      },
+      "repetition_analysis": {
+        "duplicate_content": 0,
+        "similar_content_threshold": 0.7,
+        "max_similarity_detected": 0.0
+      }
+    }
+  },
+  "advisor_engagement_baseline": {
+    "advisor_portfolio": {
+      "total_advisors": 3,
+      "active_advisors": 3,
+      "engagement_readiness": 100.0
+    },
+    "segment_analysis": {
+      "HNI_Premium": {
+        "advisor_count": 1,
+        "content_allocation": 8,
+        "sophistication_level": "high",
+        "content_preferences": ["market_analysis", "investment_tips"],
+        "expected_engagement": "high"
+      },
+      "Retail_Gold": {
+        "advisor_count": 1,
+        "content_allocation": 10,
+        "sophistication_level": "medium",
+        "content_preferences": ["market_analysis", "investment_tips", "financial_planning"],
+        "expected_engagement": "medium-high"
+      },
+      "Retail_Standard": {
+        "advisor_count": 1,
+        "content_allocation": 8,
+        "sophistication_level": "beginner",
+        "content_preferences": ["financial_education", "investment_basics"],
+        "expected_engagement": "medium"
+      }
+    },
+    "content_utilization_prediction": {
+      "linkedin_adoption_rate": 85.0,
+      "whatsapp_adoption_rate": 0.0,
+      "visual_content_adoption_rate": 90.0,
+      "customization_likelihood": 65.0
+    }
+  },
+  "distribution_effectiveness_baseline": {
+    "channel_performance": {
+      "linkedin": {
+        "approval_status": "approved",
+        "content_eligible": 48,
+        "distribution_rate": 100.0,
+        "expected_reach": "high",
+        "compliance_score": 90.0
+      },
+      "whatsapp": {
+        "approval_status": "blocked",
+        "content_eligible": 0,
+        "distribution_rate": 0.0,
+        "expected_reach": "none",
+        "compliance_score": 50.0,
+        "blocking_reason": "missing_sebi_disclaimers"
+      },
+      "visual_content": {
+        "approval_status": "approved",
+        "content_eligible": 15,
+        "distribution_rate": 100.0,
+        "expected_reach": "medium",
+        "compliance_score": 95.0
+      }
+    },
+    "timing_optimization": {
+      "distribution_schedule": {
+        "morning_batch": "08:00_IST",
+        "afternoon_batch": "12:30_IST",
+        "evening_batch": "18:00_IST"
+      },
+      "segment_timing_preferences": {
+        "HNI_Premium": ["evening"],
+        "Retail_Gold": ["morning", "afternoon"],
+        "Retail_Standard": ["morning", "afternoon"]
+      }
+    }
+  },
+  "market_correlation_baseline": {
+    "market_sentiment": "cautiously_optimistic",
+    "market_confidence": 0.72,
+    "key_market_themes": [
+      "dii_buying_support",
+      "rbi_easing_cycle",
+      "it_sector_outperformance",
+      "tax_saving_season"
+    ],
+    "content_alignment": {
+      "theme_coverage": 85.0,
+      "market_responsiveness": "high",
+      "topical_relevance": 92.0
+    }
+  },
+  "performance_benchmarks": {
+    "expected_kpis": {
+      "delivery_success_rate": 98.0,
+      "open_rate": 35.0,
+      "click_through_rate": 4.2,
+      "engagement_rate": 2.5,
+      "advisor_satisfaction": 8.0,
+      "compliance_adherence": 95.0
+    },
+    "industry_comparisons": {
+      "financial_services_benchmark": {
+        "open_rate": 28.0,
+        "click_rate": 3.1,
+        "engagement_rate": 1.8
+      },
+      "competitive_advantage": {
+        "personalization_level": "high",
+        "content_quality": "premium",
+        "compliance_rigor": "industry_leading"
+      }
+    }
+  },
+  "risk_assessment": {
+    "content_risks": {
+      "compliance_violations": "high",
+      "content_fatigue": "low",
+      "quality_inconsistency": "medium"
+    },
+    "operational_risks": {
+      "distribution_channel_dependency": "medium",
+      "advisor_churn_risk": "low",
+      "market_volatility_impact": "medium"
+    },
+    "mitigation_strategies": [
+      "immediate_compliance_remediation",
+      "diversified_distribution_channels",
+      "continuous_quality_monitoring",
+      "market_adaptive_content_strategy"
+    ]
+  },
+  "success_metrics_framework": {
+    "tier_1_metrics": [
+      "compliance_score",
+      "delivery_success_rate",
+      "advisor_satisfaction"
+    ],
+    "tier_2_metrics": [
+      "engagement_rate",
+      "content_quality_score",
+      "channel_effectiveness"
+    ],
+    "tier_3_metrics": [
+      "market_responsiveness",
+      "content_freshness",
+      "conversion_rate"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "session": "session_1759383378",
+  "timestamp": "2025-10-02T07:43:47.436Z",
+  "campaign": "finadvise_daily_api",
+  "total": 4,
+  "successful": 0,
+  "failed": 4,
+  "results": [
+    {
+      "advisor": "Shruti Petkar",
+      "phone": "9673758777",
+      "status": "error",
+      "error": "Campaign does not exist."
+    },
+    {
+      "advisor": "Vidyadhar Petkar",
+      "phone": "8975758513",
+      "status": "error",
+      "error": "Campaign does not exist."
+    },
+    {
+      "advisor": "Shriya Vallabh Petkar",
+      "phone": "9765071249",
+      "status": "error",
+      "error": "Campaign does not exist."
+    },
+    {
+      "advisor": "Avalok Langer",
+      "phone": "9022810769",
+      "status": "error",
+      "error": "Campaign does not exist."
+    }
+  ]
+}

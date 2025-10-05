@@ -1,0 +1,42 @@
+{
+  "session": "session_2025-09-17T17-09-25-000Z",
+  "timestamp": "2025-09-17T22-59-26-000Z",
+  "totalMessages": 3,
+  "segmentBreakdown": {
+    "Premium": 1,
+    "Gold": 1,
+    "Silver": 1
+  },
+  "marketData": {
+    "sensex": 82690,
+    "sensexChange": 0.38,
+    "topSector": "Information Technology",
+    "sentiment": "cautiously_positive"
+  },
+  "messages": [
+    {
+      "advisorId": "ADV_001",
+      "segment": "Premium",
+      "filename": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-17T17-09-25-000Z/whatsapp/ADV_001_whatsapp_2025-09-17T22-59-26-000Z.txt",
+      "characterCount": 323,
+      "emojiCount": 8,
+      "complianceCheck": true
+    },
+    {
+      "advisorId": "ADV_002",
+      "segment": "Gold",
+      "filename": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-17T17-09-25-000Z/whatsapp/ADV_002_whatsapp_2025-09-17T22-59-26-000Z.txt",
+      "characterCount": 339,
+      "emojiCount": 9,
+      "complianceCheck": true
+    },
+    {
+      "advisorId": "ADV_003",
+      "segment": "Silver",
+      "filename": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-17T17-09-25-000Z/whatsapp/ADV_003_whatsapp_2025-09-17T22-59-26-000Z.txt",
+      "characterCount": 271,
+      "emojiCount": 8,
+      "complianceCheck": false
+    }
+  ]
+}

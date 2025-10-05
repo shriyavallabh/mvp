@@ -1,0 +1,509 @@
+{
+  "sessionId": "session_20250919_211030",
+  "timestamp": "2025-09-19T22:50:21.772677",
+  "designType": "viral_whatsapp_status",
+  "specifications": {
+    "dimensions": "1080x1920px",
+    "aspectRatio": "9:16",
+    "fontStandards": {
+      "headline": {
+        "size": 96,
+        "weight": "bold",
+        "color": "#FFFFFF"
+      },
+      "shocking_number": {
+        "size": 120,
+        "weight": "black",
+        "color": "#FFD700"
+      },
+      "subheading": {
+        "size": 72,
+        "weight": "semibold",
+        "color": "#FFFFFF"
+      },
+      "body_text": {
+        "size": 56,
+        "weight": "regular",
+        "color": "#E0E0E0"
+      },
+      "call_to_action": {
+        "size": 64,
+        "weight": "bold",
+        "color": "#00FF00"
+      },
+      "footer_disclaimer": {
+        "size": 42,
+        "weight": "light",
+        "color": "#B0B0B0"
+      }
+    },
+    "ecommerceProven": true
+  },
+  "designs": [
+    {
+      "id": "viral_status_83k_bubble",
+      "sessionId": "session_20250919_211030",
+      "type": "whatsapp_status",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920,
+        "aspectRatio": "9:16"
+      },
+      "theme": "83K: Bubble or Beginning?",
+      "visualConcept": {
+        "background": "Dark gradient with bubble effects floating upward",
+        "primaryVisual": "Split screen - left showing rocket launch, right showing bubble bursting",
+        "effects": "Glowing particles, dramatic lighting, tension-building composition"
+      },
+      "content": {
+        "headline": {
+          "text": "SENSEX HITS",
+          "font": {
+            "size": 96,
+            "weight": "bold",
+            "color": "#FFFFFF"
+          },
+          "position": {
+            "x": "center",
+            "y": 200
+          }
+        },
+        "shockingNumber": {
+          "text": "83,014",
+          "font": {
+            "size": 120,
+            "weight": "black",
+            "color": "#FFD700"
+          },
+          "position": {
+            "x": "center",
+            "y": 320
+          },
+          "effects": "Pulsing glow animation"
+        },
+        "subheading": {
+          "text": "ALL-TIME HIGH!",
+          "font": {
+            "size": 72,
+            "weight": "semibold",
+            "color": "#FFFFFF"
+          },
+          "position": {
+            "x": "center",
+            "y": 460
+          }
+        },
+        "dataPoints": [
+          {
+            "text": "\ud83d\udcc8 Just 0.21% below last year",
+            "font": {
+              "size": 56,
+              "weight": "regular",
+              "color": "#E0E0E0"
+            },
+            "position": {
+              "x": 100,
+              "y": 700
+            }
+          },
+          {
+            "text": "\ud83d\udcb8 Despite \u20b91.2L Cr FPI exodus",
+            "font": {
+              "size": 56,
+              "weight": "regular",
+              "color": "#E0E0E0"
+            },
+            "position": {
+              "x": 100,
+              "y": 800
+            }
+          },
+          {
+            "text": "\ud83c\udfaf DIIs pumped \u20b91.16L Cr",
+            "font": {
+              "size": 56,
+              "weight": "regular",
+              "color": "#E0E0E0"
+            },
+            "position": {
+              "x": 100,
+              "y": 900
+            }
+          }
+        ],
+        "question": {
+          "text": "BUBBLE OR BEGINNING?",
+          "font": {
+            "size": 84,
+            "weight": "black",
+            "color": "#FF4444"
+          },
+          "position": {
+            "x": "center",
+            "y": 1200
+          },
+          "effects": "Subtle shake animation"
+        },
+        "cta": {
+          "text": "Swipe Up for Analysis \u2192",
+          "font": {
+            "size": 64,
+            "weight": "bold",
+            "color": "#00FF00"
+          },
+          "position": {
+            "x": "center",
+            "y": 1600
+          }
+        }
+      },
+      "colorScheme": {
+        "primary": "#1A1A2E",
+        "secondary": "#16213E",
+        "accent": "#FFD700",
+        "danger": "#FF4444",
+        "success": "#00FF00"
+      },
+      "geminiPrompt": "Create a dramatic WhatsApp Status image (1080x1920px) with:\n        - Dark gradient background with floating bubble effects\n        - Split visual: rocket launch vs bubble bursting\n        - Headline \"SENSEX HITS\" (96px bold white)\n        - Shocking number \"83,014\" (120px black gold, pulsing glow)\n        - Subheading \"ALL-TIME HIGH!\" (72px semibold)\n        - 3 data points with emojis (56px)\n        - Question \"BUBBLE OR BEGINNING?\" (84px red, shake effect)\n        - Professional financial aesthetic with dramatic tension\n        - High contrast for mobile viewing"
+    },
+    {
+      "id": "viral_status_fpi_mystery",
+      "sessionId": "session_20250919_211030",
+      "type": "whatsapp_status",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920,
+        "aspectRatio": "9:16"
+      },
+      "theme": "\u20b91.2L Cr Exit: Who's Buying?",
+      "visualConcept": {
+        "background": "Dark mysterious fog with silhouettes",
+        "primaryVisual": "Money flowing out (left) vs mysterious hands catching (right)",
+        "effects": "Fog effects, mysterious shadows, detective/thriller mood"
+      },
+      "content": {
+        "shockingNumber": {
+          "text": "\u20b91.2L Cr",
+          "font": {
+            "size": 140,
+            "weight": "black",
+            "color": "#FF0000"
+          },
+          "position": {
+            "x": "center",
+            "y": 250
+          },
+          "effects": "Dripping/melting effect"
+        },
+        "headline": {
+          "text": "FOREIGN MONEY",
+          "font": {
+            "size": 96,
+            "weight": "bold",
+            "color": "#FFFFFF"
+          },
+          "position": {
+            "x": "center",
+            "y": 420
+          }
+        },
+        "subheading": {
+          "text": "VANISHED IN 60 DAYS",
+          "font": {
+            "size": 72,
+            "weight": "semibold",
+            "color": "#FFFFFF"
+          },
+          "position": {
+            "x": "center",
+            "y": 520
+          }
+        },
+        "mysterySection": {
+          "title": {
+            "text": "YET MARKET IS UP! \ud83e\udd14",
+            "font": {
+              "size": 72,
+              "weight": "bold",
+              "color": "#00FF00"
+            },
+            "position": {
+              "x": "center",
+              "y": 800
+            }
+          },
+          "clues": [
+            {
+              "text": "\ud83d\udd0d DIIs bought \u20b91.16L Cr",
+              "font": {
+                "size": 56,
+                "weight": "regular",
+                "color": "#E0E0E0"
+              },
+              "position": {
+                "x": 100,
+                "y": 950
+              }
+            },
+            {
+              "text": "\ud83c\udfaf Insider buying: \u20b92,800 Cr",
+              "font": {
+                "size": 56,
+                "weight": "regular",
+                "color": "#E0E0E0"
+              },
+              "position": {
+                "x": 100,
+                "y": 1050
+              }
+            },
+            {
+              "text": "\ud83d\udcb0 Retail SIPs: \u20b920,000 Cr/month",
+              "font": {
+                "size": 56,
+                "weight": "regular",
+                "color": "#E0E0E0"
+              },
+              "position": {
+                "x": 100,
+                "y": 1150
+              }
+            }
+          ]
+        },
+        "question": {
+          "text": "WHO'S REALLY BUYING?",
+          "font": {
+            "size": 80,
+            "weight": "black",
+            "color": "#FFD700"
+          },
+          "position": {
+            "x": "center",
+            "y": 1400
+          },
+          "effects": "Typewriter reveal animation"
+        },
+        "cta": {
+          "text": "Discover the Truth \u2192",
+          "font": {
+            "size": 64,
+            "weight": "bold",
+            "color": "#00FF00"
+          },
+          "position": {
+            "x": "center",
+            "y": 1650
+          }
+        }
+      },
+      "colorScheme": {
+        "primary": "#0F0F0F",
+        "secondary": "#1C1C1C",
+        "accent": "#FFD700",
+        "danger": "#FF0000",
+        "success": "#00FF00"
+      },
+      "geminiPrompt": "Create a mysterious WhatsApp Status image (1080x1920px) with:\n        - Dark foggy background with silhouettes\n        - Visual: Money flowing out vs mysterious hands catching\n        - Shocking \"\u20b91.2L Cr\" (140px red, dripping effect)\n        - \"FOREIGN MONEY VANISHED IN 60 DAYS\" text layout\n        - Mystery section \"YET MARKET IS UP!\" (72px green)\n        - 3 clue points with magnifying glass emojis\n        - Question \"WHO'S REALLY BUYING?\" (80px gold, typewriter effect)\n        - Thriller/detective aesthetic with high drama\n        - Dark mysterious mood with strategic color pops"
+    },
+    {
+      "id": "viral_status_rupee_split",
+      "sessionId": "session_20250919_211030",
+      "type": "whatsapp_status",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920,
+        "aspectRatio": "9:16"
+      },
+      "theme": "\u20b988 = $1: Winners & Losers",
+      "visualConcept": {
+        "background": "Split diagonal - green left (winners), red right (losers)",
+        "primaryVisual": "Currency symbols battle in center, dramatic split",
+        "effects": "Lightning effect at split, contrasting emotions"
+      },
+      "content": {
+        "shockingEquation": {
+          "text": "\u20b988 = $1",
+          "font": {
+            "size": 130,
+            "weight": "black",
+            "color": "#FFFFFF"
+          },
+          "position": {
+            "x": "center",
+            "y": 280
+          },
+          "effects": "Glitch effect transitioning between currencies"
+        },
+        "headline": {
+          "text": "HISTORIC RUPEE CRASH",
+          "font": {
+            "size": 64,
+            "weight": "bold",
+            "color": "#FF4444"
+          },
+          "position": {
+            "x": "center",
+            "y": 450
+          }
+        },
+        "splitContent": {
+          "winners": {
+            "title": {
+              "text": "\ud83d\udcb0 WINNERS",
+              "font": {
+                "size": 72,
+                "weight": "bold",
+                "color": "#00FF00"
+              },
+              "position": {
+                "x": 270,
+                "y": 650
+              }
+            },
+            "list": [
+              {
+                "text": "IT Stocks +20%",
+                "subtext": "TCS, Infosys flying",
+                "font": {
+                  "size": 56,
+                  "weight": "regular",
+                  "color": "#E0E0E0"
+                },
+                "position": {
+                  "x": 50,
+                  "y": 750
+                }
+              },
+              {
+                "text": "Exporters +15%",
+                "subtext": "Pharma, Textiles boom",
+                "font": {
+                  "size": 56,
+                  "weight": "regular",
+                  "color": "#E0E0E0"
+                },
+                "position": {
+                  "x": 50,
+                  "y": 880
+                }
+              },
+              {
+                "text": "NRIs +12%",
+                "subtext": "Remittance bonanza",
+                "font": {
+                  "size": 56,
+                  "weight": "regular",
+                  "color": "#E0E0E0"
+                },
+                "position": {
+                  "x": 50,
+                  "y": 1010
+                }
+              }
+            ]
+          },
+          "losers": {
+            "title": {
+              "text": "\ud83d\ude31 LOSERS",
+              "font": {
+                "size": 72,
+                "weight": "bold",
+                "color": "#FF0000"
+              },
+              "position": {
+                "x": 810,
+                "y": 650
+              }
+            },
+            "list": [
+              {
+                "text": "Importers -\u20b95/$ ",
+                "subtext": "Oil, Gold costly",
+                "font": {
+                  "size": 56,
+                  "weight": "regular",
+                  "color": "#E0E0E0"
+                },
+                "position": {
+                  "x": 590,
+                  "y": 750
+                }
+              },
+              {
+                "text": "Students -18%",
+                "subtext": "Foreign education",
+                "font": {
+                  "size": 56,
+                  "weight": "regular",
+                  "color": "#E0E0E0"
+                },
+                "position": {
+                  "x": 590,
+                  "y": 880
+                }
+              },
+              {
+                "text": "Travelers -\u20b98K",
+                "subtext": "Per $100 spent",
+                "font": {
+                  "size": 56,
+                  "weight": "regular",
+                  "color": "#E0E0E0"
+                },
+                "position": {
+                  "x": 590,
+                  "y": 1010
+                }
+              }
+            ]
+          }
+        },
+        "bottomHook": {
+          "text": "YOUR PORTFOLIO?",
+          "font": {
+            "size": 84,
+            "weight": "black",
+            "color": "#FFD700"
+          },
+          "position": {
+            "x": "center",
+            "y": 1350
+          }
+        },
+        "cta": {
+          "text": "Check Impact Now \u2192",
+          "font": {
+            "size": 64,
+            "weight": "bold",
+            "color": "#00FF00"
+          },
+          "position": {
+            "x": "center",
+            "y": 1650
+          }
+        }
+      },
+      "colorScheme": {
+        "primary": "#0A0A0A",
+        "winners": "#00FF00",
+        "losers": "#FF0000",
+        "accent": "#FFD700",
+        "neutral": "#FFFFFF"
+      },
+      "geminiPrompt": "Create a split-screen WhatsApp Status image (1080x1920px) with:\n        - Diagonal split background: green left (winners), red right (losers)\n        - Top: \"\u20b988 = $1\" (130px white, glitch effect)\n        - \"HISTORIC RUPEE CRASH\" (64px red)\n        - Left side: \"\ud83d\udcb0 WINNERS\" (72px green) with 3 winner categories\n        - Right side: \"\ud83d\ude31 LOSERS\" (72px red) with 3 loser categories\n        - Lightning effect at the diagonal split\n        - Bottom: \"YOUR PORTFOLIO?\" (84px gold)\n        - Dramatic contrast between winners and losers\n        - High-impact visual with clear division"
+    }
+  ],
+  "shockingNumbers": {
+    "sensex": "83,014",
+    "fpiExit": "\u20b91.2L Cr",
+    "rupeeRate": "\u20b988/$1",
+    "diiInflow": "\u20b91.16L Cr",
+    "insiderBuying": "\u20b92,800 Cr"
+  },
+  "viralHooks": [
+    "Bubble or Beginning?",
+    "Who's Really Buying?",
+    "Winners & Losers"
+  ]
+}

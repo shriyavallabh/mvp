@@ -1,7 +1,7 @@
 ---
 name: fatigue-checker
 description: Ensures fresh, non-repetitive content by tracking an advisor's last 30 days of posts and flagging any new content that is too similar to recent material, with suggestions for diversification
-model: opus
+model: claude-sonnet-4
 color: gray
 ---
 

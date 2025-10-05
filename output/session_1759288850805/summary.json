@@ -1,0 +1,102 @@
+{
+  "session": "session_1759288850805",
+  "startTime": "2025-10-01T03:20:50.805Z",
+  "endTime": "2025-10-01T03:20:50.823Z",
+  "totalDurationSeconds": 0.018,
+  "totalDurationMinutes": "0.00",
+  "phases": {
+    "phase0": {
+      "success": true,
+      "duration": 1
+    },
+    "phase1": {
+      "success": true,
+      "advisorCount": 4,
+      "duration": 1
+    },
+    "phase2": {
+      "success": true,
+      "segments": [
+        {
+          "type": "Premium",
+          "count": 2
+        },
+        {
+          "type": "Gold",
+          "count": 1
+        },
+        {
+          "type": "Silver",
+          "count": 1
+        }
+      ],
+      "duration": 0
+    },
+    "phase3": {
+      "success": true,
+      "linkedin": {
+        "success": true,
+        "totalPosts": 12,
+        "averageScore": 9.3,
+        "textFilesLocation": "output/session_1759288850805/linkedin/text/",
+        "jsonFilesLocation": "output/session_1759288850805/linkedin/json/"
+      },
+      "whatsapp": {
+        "success": true,
+        "totalMessages": 12,
+        "averageScore": 8.7,
+        "textFilesLocation": "output/session_1759288850805/whatsapp/text/",
+        "jsonFilesLocation": "output/session_1759288850805/whatsapp/json/"
+      },
+      "duration": 6
+    },
+    "phase4": {
+      "success": true,
+      "images": {
+        "success": true,
+        "totalImageSpecs": 36,
+        "locations": {
+          "linkedin": "output/session_1759288850805/images/linkedin/",
+          "whatsapp": "output/session_1759288850805/images/whatsapp/",
+          "status": "output/session_1759288850805/images/status/",
+          "prompts": "output/session_1759288850805/images/prompts/"
+        }
+      },
+      "duration": 8
+    },
+    "phase5": {
+      "success": true,
+      "qualityCheck": {
+        "linkedin": 9.3,
+        "whatsapp": 8.7,
+        "allPass": true
+      },
+      "duration": 0
+    },
+    "phase6": {
+      "success": true,
+      "notificationCount": 4,
+      "duration": 0
+    }
+  },
+  "outputLocations": {
+    "linkedin": {
+      "text": "output/session_1759288850805/linkedin/text/",
+      "json": "output/session_1759288850805/linkedin/json/"
+    },
+    "whatsapp": {
+      "text": "output/session_1759288850805/whatsapp/text/",
+      "json": "output/session_1759288850805/whatsapp/json/"
+    },
+    "images": {
+      "linkedin": "output/session_1759288850805/images/linkedin/",
+      "whatsapp": "output/session_1759288850805/images/whatsapp/",
+      "status": "output/session_1759288850805/images/status/"
+    },
+    "notifications": "output/session_1759288850805/notifications.json"
+  },
+  "quickAccess": {
+    "summary": "output/session_1759288850805/summary.json",
+    "currentSession": "data/current-session.json"
+  }
+}

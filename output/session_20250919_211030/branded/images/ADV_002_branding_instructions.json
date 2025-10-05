@@ -1,0 +1,35 @@
+{
+  "advisor_id": "ADV_002",
+  "advisor_name": "Priya Sharma",
+  "branding_instructions": {
+    "logo": {
+      "url": "",
+      "position": "bottom-right",
+      "size": "10% of image width",
+      "opacity": 0.9
+    },
+    "colors": {
+      "primary": "#27AE60",
+      "secondary": "#F39C12",
+      "application": {
+        "borders": "primary color, 5px width",
+        "text_overlays": "secondary color for accents",
+        "background_gradient": "subtle gradient using both colors"
+      }
+    },
+    "text_overlays": {
+      "brand_name": {
+        "text": "Finance Plus",
+        "position": "top-left",
+        "font": "bold, modern sans-serif",
+        "color": "#27AE60"
+      },
+      "tagline": {
+        "text": "Simplifying Your Financial Journey",
+        "position": "bottom-center",
+        "font": "italic, elegant serif",
+        "color": "#F39C12"
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "sessionId": "session_2025-09-18T15-03-58Z",
+  "timestamp": "2025-09-18T23:08:59.362470",
+  "contentChecked": 19,
+  "freshnessScore": 58.9,
+  "duplicatesFound": 0,
+  "highSimilarityPairs": 4,
+  "metrics": {
+    "hookDiversity": 0.22,
+    "ctaDiversity": 0.56,
+    "topicDiversity": 0.63,
+    "uniqueTopics": 12,
+    "dominantTopic": "trending",
+    "dominantTopicPercentage": 15.8
+  },
+  "topicsUsed": {
+    "market_analysis": 1,
+    "educational_professional": 1,
+    "trending": 3,
+    "market_update": 3,
+    "educational_friendly": 1,
+    "market_basics": 1,
+    "educational_simple": 1,
+    "tax_saving": 2,
+    "investment_tip": 2,
+    "educational": 2,
+    "motivational": 1,
+    "goal_planning": 1
+  },
+  "hookDistribution": {
+    "emoji_hook": 8,
+    "statement": 1
+  },
+  "ctaDistribution": {
+    "schedule": 1,
+    "download": 1,
+    "share": 3,
+    "engage": 2,
+    "general": 2
+  },
+  "violations": [
+    {
+      "type": "hook_repetition",
+      "detail": "Hook style \"emoji_hook\" used 3+ times consecutively"
+    }
+  ],
+  "duplicateContent": [],
+  "similarContent": [
+    {
+      "ids": "ADV_001_LI_003 <-> ADV_002_LI_003",
+      "similarity": 0.76,
+      "crossAdvisor": true
+    },
+    {
+      "ids": "ADV_001_LI_003 <-> ADV_003_LI_003",
+      "similarity": 0.8,
+      "crossAdvisor": true
+    },
+    {
+      "ids": "ADV_002_LI_003 <-> ADV_003_LI_003",
+      "similarity": 0.82,
+      "crossAdvisor": true
+    },
+    {
+      "ids": "ADV_002_WA <-> ADV_008_WA",
+      "similarity": 0.87,
+      "crossAdvisor": true
+    }
+  ],
+  "suggestedChanges": [
+    "Increase variety in content openings - use questions, statistics, quotes",
+    "Differentiate messaging between advisors for unique perspectives"
+  ],
+  "overallAssessment": "REVIEW_RECOMMENDED"
+}

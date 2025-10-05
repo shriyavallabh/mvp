@@ -1,7 +1,7 @@
 ---
 name: feedback-processor
 description: Processes admin and advisor feedback to improve content quality, handles revision requests, and learns from preferences
-model: opus
+model: claude-sonnet-4
 color: pink
 ---
 

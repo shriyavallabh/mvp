@@ -1,0 +1,24 @@
+{
+  "advisorId": "ADV_002",
+  "segmentType": "Gold",
+  "contentType": "educational_sip_infographic",
+  "marketTheme": "SIP Opportunities in Outperforming Sectors",
+  "brandCustomization": {
+    "brandName": "Money Matters",
+    "primaryColor": "#FF6B6B",
+    "secondaryColor": "#4ECDC4",
+    "accentColor": "#45B7D1",
+    "tagline": "Your Financial Growth Partner",
+    "advisorName": "Rajesh Kumar",
+    "arn": "ARN-789012"
+  },
+  "geminiPrompt": "Create an educational WhatsApp Status image (1080x1920px vertical) for a Gold-tier financial advisor:\n\nCONTENT THEME: Smart SIP Strategy - Sector Opportunities\nSTYLE: Educational, friendly, clean design with moderate complexity\n\nVISUAL ELEMENTS:\n- Header: Bright coral background (#FF6B6B) with 'SMART SIP STRATEGY'\n- Central illustration: Step-by-step SIP flow diagram showing:\n  1. Monthly SIP → 2. Sector Selection → 3. Wealth Growth\n- Sector highlights: IT (+2.63%) and PSU Banks (+2.09%) in teal (#4ECDC4)\n- Educational tip boxes with practical advice\n- Clean icons for mutual funds, growth charts, and rupee symbols\n\nKEY EDUCATIONAL POINTS:\n- 'Start SIP in outperforming sectors'\n- 'IT Sector Funds showing 2.63% gains'\n- 'Banking opportunities on weakness'\n- 'Diversify across 3-4 sectors'\n- '₹5,000/month can create ₹25 Lakh corpus'\n\nVISUAL FLOW:\n- Top: Attention-grabbing header\n- Middle: 3-step SIP process with icons\n- Educational boxes with sector data\n- Bottom: Branding and CTA\n\nBRANDING (Bottom 15%):\n- 'Money Matters' in bold coral (#FF6B6B)\n- 'Your Financial Growth Partner' in teal\n- 'Rajesh Kumar | ARN: 789012'\n- Blue accent (#45B7D1) for contact emphasis\n\nMOOD: Educational, trustworthy, approachable, goal-focused\nTARGET: Salaried professionals, young families planning for goals",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "aspectRatio": "9:16"
+  },
+  "targetAudience": "Salaried professionals, young families",
+  "keyMessage": "Start SIPs in outperforming sectors for goal-based wealth creation",
+  "callToAction": "Plan your SIP strategy with expert guidance"
+}

@@ -1,0 +1,36 @@
+{
+  "advisor": "Vidyadhar Petkar",
+  "segment": "HNI_Premium",
+  "messages": [
+    {
+      "category": "market_update",
+      "text": "\ud83c\udf1f Good morning Vidyadhar! DII buying supports Sensex at 82K. IT outperformance continues with rate cuts ahead. Portfolio rebalancing opportunity! Tax season - 6 months left for optimization \ud83d\udcca\ud83d\udcbc\n\nReply 'PORTFOLIO' for analysis\nARN_VIDYADHAR_002",
+      "character_count": 242,
+      "priority": "high",
+      "timing": "morning"
+    },
+    {
+      "category": "tax_strategy",
+      "text": "\ud83d\udca1 Vidyadhar, wealth protection insight: ELSS + PMS combo maximizing tax efficiency! RBI easing cycle creating alpha opportunities. Your HNI status unlocks exclusive strategies others can't access \ud83c\udfaf\u2728\n\nARN_VIDYADHAR_002",
+      "character_count": 217,
+      "priority": "urgent",
+      "timing": "anytime"
+    },
+    {
+      "category": "exclusive_opportunity",
+      "text": "\u26a1 Vidyadhar, sector rotation alert: Banking positioned for rate cuts, IT shows global resilience. Your 50Cr AUM enables diversified plays. Alternative investments beckoning! Ready to capitalize? \ud83d\udcb0\ud83d\ude80\n\nARN_VIDYADHAR_002",
+      "character_count": 216,
+      "priority": "medium",
+      "timing": "afternoon"
+    },
+    {
+      "category": "wealth_protection",
+      "text": "\ud83d\udee1\ufe0f Wealth update Vidyadhar: Market confidence at 72%, selective participation trending. Your diversified approach delivering! Q3 earnings create allocation opportunities. Time for strategic review? \ud83d\udcc8\ud83d\udc8e\n\nARN_VIDYADHAR_002",
+      "character_count": 219,
+      "priority": "medium",
+      "timing": "evening"
+    }
+  ],
+  "timestamp": "2025-09-18T09-32-12-000Z",
+  "session_id": "session_2025-09-18T03-38-39-062Z"
+}

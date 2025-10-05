@@ -1,0 +1,18 @@
+CONTENT FATIGUE ANALYSIS REPORT
+==================================================
+
+Date: 2025-09-17T19:48:30.192139
+Content Analyzed: 6 pieces
+Uniqueness Score: 0.90
+Average Similarity: 0.10
+Average Diversity: 0.57
+
+Diversity Scores by Pattern:
+  - opening_phrases: 0.67
+  - closing_phrases: 0.67
+  - key_themes: 0.30
+  - cta_variations: 0.67
+
+Recommendations:
+  • Vary opening phrases more for better engagement
+  • Use different call-to-action formats

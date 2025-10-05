@@ -1,0 +1,12 @@
+{
+  "sessionId": "session_1759290339491",
+  "realtimeCapture": true,
+  "consolidateOnCompletion": true,
+  "capturePoints": [
+    "compliance-violations",
+    "quality-scores",
+    "distribution-blocks",
+    "performance-metrics",
+    "feedback-items"
+  ]
+}

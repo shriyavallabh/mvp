@@ -1,0 +1,63 @@
+{
+  "sessionId": "session_20250919_023038",
+  "createdAt": "2025-09-19T02:30:38.000Z",
+  "channels": {
+    "feedback": {
+      "id": "feedback",
+      "name": "Agent Feedback Channel",
+      "description": "Bidirectional feedback between agents",
+      "type": "bidirectional",
+      "participants": ["all"],
+      "path": "data/agent-communication/session_20250919_023038/feedback",
+      "messageTypes": ["feedback", "correction", "improvement"]
+    },
+    "quality": {
+      "id": "quality",
+      "name": "Quality Assessment Channel",
+      "description": "Quality scoring and assessment messages",
+      "type": "bidirectional",
+      "participants": ["compliance-validator", "advisor-data-manager", "distribution-controller"],
+      "path": "data/agent-communication/session_20250919_023038/quality",
+      "messageTypes": ["quality-score", "assessment", "validation"]
+    },
+    "compliance": {
+      "id": "compliance",
+      "name": "Compliance Validation Channel",
+      "description": "Compliance checks and regulatory validation",
+      "type": "broadcast",
+      "participants": ["compliance-validator", "distribution-controller", "whatsapp-message-creator"],
+      "path": "data/agent-communication/session_20250919_023038/compliance",
+      "messageTypes": ["compliance-check", "violation", "approval"]
+    },
+    "state": {
+      "id": "state",
+      "name": "State Management Channel",
+      "description": "Session state synchronization and persistence",
+      "type": "bidirectional",
+      "participants": ["state-manager", "all"],
+      "path": "data/agent-communication/session_20250919_023038/state",
+      "messageTypes": ["state-update", "state-query", "state-sync"]
+    },
+    "coordination": {
+      "id": "coordination",
+      "name": "Agent Coordination Channel",
+      "description": "Inter-agent coordination and workflow management",
+      "type": "multicast",
+      "participants": ["all"],
+      "path": "data/agent-communication/session_20250919_023038/coordination",
+      "messageTypes": ["task-assignment", "workflow-update", "completion-notification"]
+    }
+  },
+  "messageFormat": {
+    "standard": {
+      "timestamp": "ISO 8601",
+      "sessionId": "string",
+      "channelId": "string",
+      "messageType": "string",
+      "senderId": "string",
+      "recipientId": "string|array",
+      "payload": "object",
+      "priority": "low|medium|high|critical"
+    }
+  }
+}

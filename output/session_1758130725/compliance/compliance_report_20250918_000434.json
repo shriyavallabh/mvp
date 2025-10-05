@@ -1,0 +1,586 @@
+{
+  "timestamp": "2025-09-18T00:04:34.238839",
+  "session_id": "session_1758130725",
+  "phase": "Phase 4 - Brand Customization",
+  "validation_mode": "ZERO_TOLERANCE",
+  "summary": {
+    "total_items": 36,
+    "compliant_items": 36,
+    "violations_found": 0,
+    "warnings_found": 36,
+    "compliance_rate": "100.0%",
+    "overall_score": 0.95,
+    "status": "APPROVED"
+  },
+  "content_breakdown": {
+    "linkedin": {
+      "total": 0,
+      "compliant": 0,
+      "violations": 0
+    },
+    "whatsapp": {
+      "total": 0,
+      "compliant": 0,
+      "violations": 0
+    },
+    "images": {
+      "total": 36,
+      "compliant": 36,
+      "violations": 0
+    }
+  },
+  "detailed_results": {
+    "linkedin_posts": [],
+    "whatsapp_messages": [],
+    "status_images": [
+      {
+        "file": "branded_ADV_001_market_update_20250917_234848.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_ADV_003_sector_spotlight_20250917_234849.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_ADV_002_educational_20250917_234848.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_ADV_002_checklist_20250917_234849.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_ADV_003_motivational_20250917_234849.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_ADV_003_market_update_20250917_234849.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_ADV_002_sector_spotlight_20250917_234849.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_ADV_003_checklist_20250917_234849.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_ADV_001_tax_tips_20250917_234848.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_ADV_002_tax_tips_20250917_234849.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_ADV_001_educational_20250917_234848.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_ADV_002_market_update_20250917_234848.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_ADV_003_tax_tips_20250917_234849.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_ADV_002_motivational_20250917_234849.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_ADV_001_motivational_20250917_234848.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_ADV_003_educational_20250917_234849.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_ADV_001_sector_spotlight_20250917_234848.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_ADV_001_checklist_20250917_234848.png",
+        "type": "image_status-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_whatsapp_ADV_003_motivational_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_whatsapp_ADV_003_educational_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_whatsapp_ADV_001_motivational_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_whatsapp_ADV_002_market_update_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_linkedin_premium_1_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_whatsapp_ADV_002_educational_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_linkedin_premium_3_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_linkedin_premium_2_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_whatsapp_ADV_003_market_update_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_whatsapp_ADV_001_educational_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_linkedin_gold_2_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_linkedin_silver_2_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_whatsapp_ADV_002_motivational_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_linkedin_silver_3_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_linkedin_gold_3_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_whatsapp_ADV_001_market_update_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_linkedin_gold_1_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      },
+      {
+        "file": "branded_linkedin_silver_1_20250917_235427.png",
+        "type": "image_gemini-images",
+        "violations": [],
+        "warnings": [
+          {
+            "type": "MINOR",
+            "rule": "IMAGE_ARN_MISSING",
+            "detail": "ARN not indicated in image filename",
+            "remediation": "Consider adding ARN to image metadata"
+          }
+        ],
+        "compliant": true,
+        "score": 0.95
+      }
+    ]
+  },
+  "critical_issues": [],
+  "remediation_required": false,
+  "certificate": {
+    "id": "SEBI-COMP-20250918000434",
+    "valid_until": "2025-09-18T00:04:34.238866",
+    "validator": "compliance-validator-v2.0",
+    "rules_version": "SEBI-2025-Q1"
+  }
+}

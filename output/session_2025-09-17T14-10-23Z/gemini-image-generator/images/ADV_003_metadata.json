@@ -1,0 +1,17 @@
+{
+  "advisor_id": "ADV_003",
+  "advisor_name": "Avalok Shah",
+  "images": {
+    "whatsapp_status": {
+      "path": "output/session_2025-09-17T14-10-23Z/gemini-image-generator/images/ADV_003_whatsapp_status.png",
+      "dimensions": "1080x1920",
+      "format": "PNG"
+    },
+    "marketing_banner": {
+      "path": "output/session_2025-09-17T14-10-23Z/gemini-image-generator/images/ADV_003_marketing_banner.png",
+      "dimensions": "1200x628",
+      "format": "PNG"
+    }
+  },
+  "generated_at": "2025-09-17T21:12:43.616185"
+}

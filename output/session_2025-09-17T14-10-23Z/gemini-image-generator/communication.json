@@ -1,0 +1,15 @@
+{
+  "from": "gemini-image-generator",
+  "to": [
+    "brand-customizer",
+    "distribution-controller"
+  ],
+  "timestamp": "2025-09-17T19:46:04.191089",
+  "message": "Images generated successfully",
+  "data_location": "output/session_2025-09-17T14-10-23Z/gemini-image-generator/generated_images.json",
+  "images_generated": 6,
+  "image_types": [
+    "whatsapp_status",
+    "marketing_image"
+  ]
+}

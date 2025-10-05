@@ -1,0 +1,11 @@
+{
+  "channelId": "feedback",
+  "sessionId": "session_20250919_211030",
+  "createdAt": "2025-09-19T21:10:30.000Z",
+  "messages": [],
+  "subscribers": [],
+  "metadata": {
+    "purpose": "Agent feedback and improvement suggestions",
+    "retention": "session-scoped"
+  }
+}

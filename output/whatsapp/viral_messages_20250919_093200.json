@@ -1,0 +1,82 @@
+[
+  {
+    "message": "I kept ₹20L in savings for \"safety\" (2020-2025)\n\nInflation ate ₹2.4L of it.\nCould've made ₹14L in index funds.\n\nTotal damage: ₹16.4 LAKHS!\n\nInflation 2.1% looks small.\nKills wealth in installments.\n\nDon't let fear rob you blind.\n\nReply 'BEAT' to defeat inflation\n\nShreya Patel | ARN: ARN-12345",
+    "style": "confession",
+    "virality_score": 9.8,
+    "character_count": 293,
+    "timestamp": "20250919_093200",
+    "advisor": "Shreya Patel",
+    "arn": "ARN-12345",
+    "viral_elements": {
+      "has_hook": true,
+      "has_story": true,
+      "has_emotion": true,
+      "has_specificity": true,
+      "has_cta": true
+    }
+  },
+  {
+    "message": "₹10 chai teaching ₹10Cr lesson! ☕\n\nMorning chai = Daily discipline\n₹10 × 30 = ₹300/month wasted\nSame ₹300 in SIP = ₹36L in 30yrs!\n\nYour chaiwala investing better than you.\nHe owns 3 shops. You own 0.\n\nChai wisdom > MBA gyaan\n\nStart your chai-SIP 👇\n\nRajesh Kumar | ARN: ARN-67890",
+    "style": "kitchen",
+    "virality_score": 9.5,
+    "character_count": 278,
+    "timestamp": "20250919_093200",
+    "advisor": "Rajesh Kumar",
+    "arn": "ARN-67890",
+    "viral_elements": {
+      "has_hook": true,
+      "has_story": true,
+      "has_emotion": true,
+      "has_specificity": true,
+      "has_cta": true
+    }
+  },
+  {
+    "message": "My maid teaches at IIM now (true story!)\n\n2010: Started ₹200 monthly SIP\n2015: Increased to ₹500\n2020: Never stopped in COVID\n2025: Portfolio = ₹8.7 LAKHS!\n\nBought flat. I'm still renting.\n\nYour excuse < Her execution\n\nReply 'START' to begin\n\nPriya Sharma | ARN: ARN-11111",
+    "style": "underdog",
+    "virality_score": 9.8,
+    "character_count": 272,
+    "timestamp": "20250919_093200",
+    "advisor": "Priya Sharma",
+    "arn": "ARN-11111",
+    "viral_elements": {
+      "has_hook": true,
+      "has_story": true,
+      "has_emotion": true,
+      "has_specificity": true,
+      "has_cta": true
+    }
+  },
+  {
+    "message": "16 IPOs this week! Worse odds than lottery! 🎰\n\nUrban Company: 33% premium\nYour allocation chance: 0.08%\nBetter odds: Finding parking at Phoenix\n\nMeanwhile, your FD at 6.6%\nInflation at 2.1%\nReal return: 4.5% 😭\n\nPlaying wrong lottery!\n\nReply 'WIN' for better odds\n\nAmit Verma | ARN: ARN-22222",
+    "style": "shocking",
+    "virality_score": 9.4,
+    "character_count": 291,
+    "timestamp": "20250919_093200",
+    "advisor": "Amit Verma",
+    "arn": "ARN-22222",
+    "viral_elements": {
+      "has_hook": false,
+      "has_story": true,
+      "has_emotion": true,
+      "has_specificity": true,
+      "has_cta": true
+    }
+  },
+  {
+    "message": "Sensex 83014! But you're still waiting? 🚀\n\n\"I'll invest at correction\"\n- You at 50,000\n- You at 60,000\n- You at 70,000\n- You at 80,000\n- You TODAY\n\nWaiting cost: ₹45L opportunity\n\nMarket doesn't wait for you!\n\nReply 'NOW' to stop waiting\n\nNeha Agarwal | ARN: ARN-33333",
+    "style": "fomo",
+    "virality_score": 9.5,
+    "character_count": 268,
+    "timestamp": "20250919_093200",
+    "advisor": "Neha Agarwal",
+    "arn": "ARN-33333",
+    "viral_elements": {
+      "has_hook": true,
+      "has_story": true,
+      "has_emotion": true,
+      "has_specificity": true,
+      "has_cta": true
+    }
+  }
+]

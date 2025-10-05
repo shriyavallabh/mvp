@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-09-22T00:46:37.563Z",
+  "campaign": "valentine_combo",
+  "totalAdvisors": 1,
+  "successful": 1,
+  "failed": 0,
+  "results": [
+    {
+      "advisor": "Test Advisor",
+      "phone": "919765071249",
+      "success": true,
+      "data": {
+        "result": true,
+        "errors": {
+          "error": "",
+          "invalidWhatsappNumbers": [],
+          "invalidCustomParameters": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "session_id": "session_2025-09-18T03-38-39-062Z",
+  "timestamp": "2025-09-18T09:29:27.279195",
+  "font_standards": {
+    "headline": {
+      "size": 96,
+      "weight": "bold",
+      "purpose": "Primary hook"
+    },
+    "subheading": {
+      "size": 72,
+      "weight": "semibold",
+      "purpose": "Supporting info"
+    },
+    "body_text": {
+      "size": 56,
+      "weight": "regular",
+      "purpose": "Key details"
+    },
+    "call_to_action": {
+      "size": 64,
+      "weight": "bold",
+      "purpose": "Action trigger"
+    },
+    "footer_disclaimer": {
+      "size": 42,
+      "weight": "light",
+      "purpose": "Compliance"
+    }
+  },
+  "canvas_size": "1080x1920",
+  "format": "PNG",
+  "images_created": [
+    {
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/status-images/ARN_SHRUTI_001_tax_optimization_1.png",
+      "theme": "tax_optimization",
+      "advisor": "Shruti Petkar",
+      "dimensions": "1080x1920",
+      "fonts_used": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "purpose": "Primary hook"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "purpose": "Supporting info"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "purpose": "Key details"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "purpose": "Compliance"
+        }
+      }
+    },
+    {
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/status-images/ARN_SHRUTI_001_market_update_2.png",
+      "theme": "market_update",
+      "advisor": "Shruti Petkar",
+      "dimensions": "1080x1920",
+      "fonts_used": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "purpose": "Primary hook"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "purpose": "Supporting info"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "purpose": "Key details"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "purpose": "Compliance"
+        }
+      }
+    },
+    {
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/status-images/ARN_SHRUTI_001_investment_education_3.png",
+      "theme": "investment_education",
+      "advisor": "Shruti Petkar",
+      "dimensions": "1080x1920",
+      "fonts_used": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "purpose": "Primary hook"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "purpose": "Supporting info"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "purpose": "Key details"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "purpose": "Compliance"
+        }
+      }
+    },
+    {
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/status-images/ARN_VIDYADHAR_002_market_update_1.png",
+      "theme": "market_update",
+      "advisor": "Vidyadhar Petkar",
+      "dimensions": "1080x1920",
+      "fonts_used": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "purpose": "Primary hook"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "purpose": "Supporting info"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "purpose": "Key details"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "purpose": "Compliance"
+        }
+      }
+    },
+    {
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/status-images/ARN_VIDYADHAR_002_tax_optimization_2.png",
+      "theme": "tax_optimization",
+      "advisor": "Vidyadhar Petkar",
+      "dimensions": "1080x1920",
+      "fonts_used": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "purpose": "Primary hook"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "purpose": "Supporting info"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "purpose": "Key details"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "purpose": "Compliance"
+        }
+      }
+    },
+    {
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/status-images/ARN_VIDYADHAR_002_banking_opportunity_3.png",
+      "theme": "banking_opportunity",
+      "advisor": "Vidyadhar Petkar",
+      "dimensions": "1080x1920",
+      "fonts_used": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "purpose": "Primary hook"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "purpose": "Supporting info"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "purpose": "Key details"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "purpose": "Compliance"
+        }
+      }
+    },
+    {
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/status-images/ARN_SHRIYA_003_investment_education_1.png",
+      "theme": "investment_education",
+      "advisor": "Shriya Vallabh Petkar",
+      "dimensions": "1080x1920",
+      "fonts_used": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "purpose": "Primary hook"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "purpose": "Supporting info"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "purpose": "Key details"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "purpose": "Compliance"
+        }
+      }
+    },
+    {
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/status-images/ARN_SHRIYA_003_tax_optimization_2.png",
+      "theme": "tax_optimization",
+      "advisor": "Shriya Vallabh Petkar",
+      "dimensions": "1080x1920",
+      "fonts_used": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "purpose": "Primary hook"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "purpose": "Supporting info"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "purpose": "Key details"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "purpose": "Compliance"
+        }
+      }
+    },
+    {
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/status-images/ARN_SHRIYA_003_market_update_3.png",
+      "theme": "market_update",
+      "advisor": "Shriya Vallabh Petkar",
+      "dimensions": "1080x1920",
+      "fonts_used": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "purpose": "Primary hook"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "purpose": "Supporting info"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "purpose": "Key details"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "purpose": "Compliance"
+        }
+      }
+    }
+  ]
+}

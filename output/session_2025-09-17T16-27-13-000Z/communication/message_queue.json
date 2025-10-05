@@ -1,0 +1,46 @@
+{
+  "message_queue": {
+    "queue_id": "mcp_message_queue_session_2025-09-17T16-27-13-000Z",
+    "created_at": "2025-09-17T16:27:13.000Z",
+    "status": "active",
+    "queue_depth": 0,
+    "messages": []
+  },
+  "routing_table": {
+    "finadvise_orchestration": {
+      "route_id": "finadvise_orchestration",
+      "subscribers": ["hybrid-orchestrator", "learning-agent", "linkedin-post-generator"],
+      "message_count": 0
+    },
+    "content_refinement": {
+      "route_id": "content_refinement",
+      "subscribers": ["linkedin-post-generator", "learning-agent"],
+      "message_count": 0
+    },
+    "state_synchronization": {
+      "route_id": "state_synchronization",
+      "subscribers": ["state-manager", "hybrid-orchestrator", "learning-agent", "linkedin-post-generator"],
+      "message_count": 0
+    },
+    "communication_bus": {
+      "route_id": "communication_bus",
+      "subscribers": ["communication-bus"],
+      "message_count": 0
+    },
+    "traceability": {
+      "route_id": "traceability",
+      "subscribers": ["all"],
+      "message_count": 0
+    }
+  },
+  "delivery_guarantees": {
+    "delivery_mode": "at_least_once",
+    "retry_policy": {
+      "max_retries": 3,
+      "backoff_strategy": "exponential",
+      "base_delay_ms": 1000
+    },
+    "acknowledgment_required": true,
+    "dead_letter_queue_enabled": true
+  }
+}

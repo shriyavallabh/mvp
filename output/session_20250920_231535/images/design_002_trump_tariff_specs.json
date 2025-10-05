@@ -1,0 +1,403 @@
+{
+  "designId": "viral_002_trump_tariff",
+  "title": "TRUMP 50% TARIFF: IT Jobs at Risk",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920
+  },
+  "layers": [
+    {
+      "layerId": 1,
+      "type": "background",
+      "properties": {
+        "gradient": {
+          "type": "linear",
+          "colors": ["#1A0000", "#331A00", "#000000"],
+          "direction": "vertical"
+        },
+        "pattern": {
+          "type": "danger_stripes",
+          "colors": ["#FF0000", "#FFFF00"],
+          "opacity": 0.05,
+          "angle": 45
+        }
+      }
+    },
+    {
+      "layerId": 2,
+      "type": "shape",
+      "subtype": "rectangle",
+      "properties": {
+        "position": {"x": 540, "y": 192},
+        "size": {"width": 1080, "height": 200},
+        "fill": {
+          "type": "gradient",
+          "colors": ["#FF0000", "#990000"],
+          "direction": "horizontal"
+        }
+      }
+    },
+    {
+      "layerId": 3,
+      "type": "text",
+      "content": "⚠️ TRUMP 50% TARIFF ⚠️",
+      "properties": {
+        "font": "Impact",
+        "fontSize": 108,
+        "fontWeight": "900",
+        "color": "#FFFFFF",
+        "position": {"x": 540, "y": 192},
+        "align": "center",
+        "effects": [
+          {
+            "type": "warning_flash",
+            "duration": 1,
+            "color": "#FF0000"
+          },
+          {
+            "type": "shadow",
+            "offsetX": 0,
+            "offsetY": 4,
+            "blur": 10,
+            "color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 4,
+      "type": "text",
+      "content": "IT Jobs at Risk!",
+      "properties": {
+        "font": "Arial Black",
+        "fontSize": 84,
+        "fontWeight": "900",
+        "color": "#FFFF00",
+        "position": {"x": 540, "y": 384},
+        "align": "center",
+        "effects": [
+          {
+            "type": "blink",
+            "duration": 2,
+            "opacity": [1, 0.3]
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 5,
+      "type": "shape",
+      "subtype": "rectangle",
+      "properties": {
+        "position": {"x": 270, "y": 960},
+        "size": {"width": 480, "height": 600},
+        "fill": "#004400",
+        "stroke": {
+          "color": "#00FF00",
+          "width": 4
+        },
+        "borderRadius": 20
+      }
+    },
+    {
+      "layerId": 6,
+      "type": "text",
+      "content": "BEFORE",
+      "properties": {
+        "font": "Arial Black",
+        "fontSize": 72,
+        "fontWeight": "900",
+        "color": "#00FF00",
+        "position": {"x": 270, "y": 720},
+        "align": "center"
+      }
+    },
+    {
+      "layerId": 7,
+      "type": "text",
+      "content": "Tariff: 25%",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 56,
+        "fontWeight": "bold",
+        "color": "#FFFFFF",
+        "position": {"x": 270, "y": 880},
+        "align": "center"
+      }
+    },
+    {
+      "layerId": 8,
+      "type": "text",
+      "content": "IT Exports: $200B",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 56,
+        "fontWeight": "bold",
+        "color": "#00FF00",
+        "position": {"x": 270, "y": 960},
+        "align": "center"
+      }
+    },
+    {
+      "layerId": 9,
+      "type": "text",
+      "content": "Jobs: 54 Lakh",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 56,
+        "fontWeight": "bold",
+        "color": "#00FF00",
+        "position": {"x": 270, "y": 1040},
+        "align": "center"
+      }
+    },
+    {
+      "layerId": 10,
+      "type": "icon",
+      "content": "checkmark",
+      "properties": {
+        "size": 80,
+        "color": "#00FF00",
+        "position": {"x": 270, "y": 1140}
+      }
+    },
+    {
+      "layerId": 11,
+      "type": "shape",
+      "subtype": "lightning",
+      "properties": {
+        "position": {"x": 540, "y": 960},
+        "size": 120,
+        "color": "#FFD700",
+        "effects": [
+          {
+            "type": "flash",
+            "duration": 0.5,
+            "repeat": "infinite"
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 12,
+      "type": "shape",
+      "subtype": "rectangle",
+      "properties": {
+        "position": {"x": 810, "y": 960},
+        "size": {"width": 480, "height": 600},
+        "fill": "#440000",
+        "stroke": {
+          "color": "#FF0000",
+          "width": 4
+        },
+        "borderRadius": 20
+      }
+    },
+    {
+      "layerId": 13,
+      "type": "text",
+      "content": "AFTER",
+      "properties": {
+        "font": "Arial Black",
+        "fontSize": 72,
+        "fontWeight": "900",
+        "color": "#FF0000",
+        "position": {"x": 810, "y": 720},
+        "align": "center"
+      }
+    },
+    {
+      "layerId": 14,
+      "type": "text",
+      "content": "Tariff: 50%",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 56,
+        "fontWeight": "bold",
+        "color": "#FFFFFF",
+        "position": {"x": 810, "y": 880},
+        "align": "center"
+      }
+    },
+    {
+      "layerId": 15,
+      "type": "text",
+      "content": "IT Exports: -30%",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 56,
+        "fontWeight": "bold",
+        "color": "#FF0000",
+        "position": {"x": 810, "y": 960},
+        "align": "center"
+      }
+    },
+    {
+      "layerId": 16,
+      "type": "text",
+      "content": "Jobs at Risk: 10L",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 56,
+        "fontWeight": "bold",
+        "color": "#FF0000",
+        "position": {"x": 810, "y": 1040},
+        "align": "center"
+      }
+    },
+    {
+      "layerId": 17,
+      "type": "icon",
+      "content": "warning",
+      "properties": {
+        "size": 80,
+        "color": "#FF0000",
+        "position": {"x": 810, "y": 1140},
+        "animation": "blink"
+      }
+    },
+    {
+      "layerId": 18,
+      "type": "text",
+      "content": "Reason: India's Russian Oil Deals",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 56,
+        "fontWeight": "semibold",
+        "color": "#FFFF00",
+        "position": {"x": 540, "y": 1350},
+        "align": "center",
+        "background": {
+          "color": "#000000",
+          "opacity": 0.7,
+          "padding": 10
+        }
+      }
+    },
+    {
+      "layerId": 19,
+      "type": "text",
+      "content": "Impact: Biggest IT Layoffs Ever",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 56,
+        "fontWeight": "bold",
+        "color": "#FF6666",
+        "position": {"x": 540, "y": 1450},
+        "align": "center"
+      }
+    },
+    {
+      "layerId": 20,
+      "type": "text",
+      "content": "Trump: 'Liberation Day'",
+      "properties": {
+        "font": "Arial",
+        "fontSize": 56,
+        "fontWeight": "semibold",
+        "color": "#FFFFFF",
+        "position": {"x": 540, "y": 1550},
+        "align": "center",
+        "style": "italic"
+      }
+    },
+    {
+      "layerId": 21,
+      "type": "shape",
+      "subtype": "rectangle",
+      "properties": {
+        "position": {"x": 540, "y": 1760},
+        "size": {"width": 920, "height": 140},
+        "fill": "#FFFF00",
+        "stroke": {
+          "color": "#FF0000",
+          "width": 4
+        },
+        "borderRadius": 70,
+        "effects": [
+          {
+            "type": "urgent_pulse",
+            "scale": [1, 1.05],
+            "duration": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 22,
+      "type": "text",
+      "content": "⚠️ Protect Your Job: 3 Steps Inside",
+      "properties": {
+        "font": "Arial Black",
+        "fontSize": 64,
+        "fontWeight": "900",
+        "color": "#000000",
+        "position": {"x": 540, "y": 1760},
+        "align": "center"
+      }
+    },
+    {
+      "layerId": 23,
+      "type": "overlay",
+      "properties": {
+        "type": "flag_watermark",
+        "flags": ["US", "India"],
+        "opacity": 0.1,
+        "position": "top_corners"
+      }
+    }
+  ],
+  "animations": [
+    {
+      "targetLayer": 3,
+      "type": "flash",
+      "duration": 2000,
+      "colors": ["#FFFFFF", "#FF0000"],
+      "repeat": "infinite"
+    },
+    {
+      "targetLayer": 4,
+      "type": "blink",
+      "duration": 2000,
+      "repeat": "infinite"
+    },
+    {
+      "targetLayer": 11,
+      "type": "lightning_strike",
+      "duration": 500,
+      "interval": 3000,
+      "repeat": "infinite"
+    },
+    {
+      "targetLayer": 17,
+      "type": "blink",
+      "duration": 1000,
+      "repeat": "infinite"
+    },
+    {
+      "targetLayer": 21,
+      "type": "pulse",
+      "duration": 800,
+      "scale": 1.05,
+      "repeat": "infinite"
+    }
+  ],
+  "effects": [
+    {
+      "type": "emergency_lighting",
+      "color": "#FF0000",
+      "opacity": 0.2,
+      "pulse": true
+    },
+    {
+      "type": "vignette",
+      "color": "#000000",
+      "intensity": 0.3
+    }
+  ],
+  "exportSettings": {
+    "format": "PNG",
+    "quality": 100,
+    "optimization": "web"
+  }
+}

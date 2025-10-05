@@ -1,0 +1,1346 @@
+{
+  "session_id": "session_20250919_023038",
+  "timestamp": "2025-09-19T03:11:27.472444",
+  "summary": {
+    "total_content_pieces": 56,
+    "average_quality_score": 41.68,
+    "score_range": [
+      30.3,
+      49.0
+    ],
+    "auto_approval_rate": 0.0
+  },
+  "category_averages": {
+    "linkedin": 43.61,
+    "whatsapp": 37.63
+  },
+  "top_performers": [
+    {
+      "content_id": "STD_ARN_SHRUTI_001_002",
+      "advisor_id": "ARN_SHRUTI_001",
+      "score": 49.0,
+      "grade": "C",
+      "type": "linkedin"
+    },
+    {
+      "content_id": "STD_ARN_SHRIYA_003_002",
+      "advisor_id": "ARN_SHRIYA_003",
+      "score": 49.0,
+      "grade": "C",
+      "type": "linkedin"
+    },
+    {
+      "content_id": "STD_ARN_VIDYADHAR_002_002",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "score": 49.0,
+      "grade": "C",
+      "type": "linkedin"
+    },
+    {
+      "content_id": "STD_ADV_007_002",
+      "advisor_id": "ADV_007",
+      "score": 47.5,
+      "grade": "C",
+      "type": "linkedin"
+    },
+    {
+      "content_id": "STD_ADV_009_002",
+      "advisor_id": "ADV_009",
+      "score": 47.5,
+      "grade": "C",
+      "type": "linkedin"
+    }
+  ],
+  "underperformers": [
+    {
+      "content_id": "STD_ARN_SHRUTI_001_002",
+      "advisor_id": "ARN_SHRUTI_001",
+      "score": 49.0,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ARN_SHRIYA_003_002",
+      "advisor_id": "ARN_SHRIYA_003",
+      "score": 49.0,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ARN_VIDYADHAR_002_002",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "score": 49.0,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_007_002",
+      "advisor_id": "ADV_007",
+      "score": 47.5,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_009_002",
+      "advisor_id": "ADV_009",
+      "score": 47.5,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_008_002",
+      "advisor_id": "ADV_008",
+      "score": 47.5,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_005_002",
+      "advisor_id": "ADV_005",
+      "score": 47.5,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_006_002",
+      "advisor_id": "ADV_006",
+      "score": 47.5,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_010_002",
+      "advisor_id": "ADV_010",
+      "score": 47.5,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ARN_SHRUTI_001_003",
+      "advisor_id": "ARN_SHRUTI_001",
+      "score": 45.45,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ARN_SHRIYA_003_003",
+      "advisor_id": "ARN_SHRIYA_003",
+      "score": 45.45,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ARN_VIDYADHAR_002_003",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "score": 45.45,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ARN_SHRUTI_001_004",
+      "advisor_id": "ARN_SHRUTI_001",
+      "score": 45.41,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ARN_SHRIYA_003_004",
+      "advisor_id": "ARN_SHRIYA_003",
+      "score": 45.41,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ARN_VIDYADHAR_002_004",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "score": 45.41,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_007_004",
+      "advisor_id": "ADV_007",
+      "score": 43.91,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_009_004",
+      "advisor_id": "ADV_009",
+      "score": 43.91,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_008_004",
+      "advisor_id": "ADV_008",
+      "score": 43.91,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_005_004",
+      "advisor_id": "ADV_005",
+      "score": 43.91,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_006_004",
+      "advisor_id": "ADV_006",
+      "score": 43.91,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_010_004",
+      "advisor_id": "ADV_010",
+      "score": 43.91,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_007_003",
+      "advisor_id": "ADV_007",
+      "score": 41.95,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_009_003",
+      "advisor_id": "ADV_009",
+      "score": 41.95,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_008_003",
+      "advisor_id": "ADV_008",
+      "score": 41.95,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_005_003",
+      "advisor_id": "ADV_005",
+      "score": 41.95,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_006_003",
+      "advisor_id": "ADV_006",
+      "score": 41.95,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_010_003",
+      "advisor_id": "ADV_010",
+      "score": 41.95,
+      "grade": "C"
+    },
+    {
+      "content_id": "ARN_SHRIYA_003_standard_sip_education_20250919_024828",
+      "advisor_id": "ARN_SHRIYA_003",
+      "score": 41.66,
+      "grade": "C"
+    },
+    {
+      "content_id": "ADV_004_standard_sip_education_20250919_024828",
+      "advisor_id": "ADV_004_standard",
+      "score": 41.66,
+      "grade": "C"
+    },
+    {
+      "content_id": "ARN_VIDYADHAR_002_standard_sip_education_20250919_024828",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "score": 41.66,
+      "grade": "C"
+    },
+    {
+      "content_id": "ARN_SHRUTI_001_standard_sip_education_20250919_024828",
+      "advisor_id": "ARN_SHRUTI_001",
+      "score": 41.66,
+      "grade": "C"
+    },
+    {
+      "content_id": "ADV_004_standard_tax_planning_20250919_024828",
+      "advisor_id": "ADV_004_standard",
+      "score": 41.24,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ARN_SHRUTI_001_001",
+      "advisor_id": "ARN_SHRUTI_001",
+      "score": 41.19,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ARN_SHRIYA_003_001",
+      "advisor_id": "ARN_SHRIYA_003",
+      "score": 41.19,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ARN_VIDYADHAR_002_001",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "score": 41.19,
+      "grade": "C"
+    },
+    {
+      "content_id": "ADV_005_standard_sip_education_20250919_024828",
+      "advisor_id": "ADV_005_standard",
+      "score": 41.11,
+      "grade": "C"
+    },
+    {
+      "content_id": "ADV_005_standard_tax_planning_20250919_024828",
+      "advisor_id": "ADV_005_standard",
+      "score": 40.69,
+      "grade": "C"
+    },
+    {
+      "content_id": "ARN_VIDYADHAR_002_standard_tax_planning_20250919_024828",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "score": 39.94,
+      "grade": "C"
+    },
+    {
+      "content_id": "ARN_SHRIYA_003_standard_tax_planning_20250919_024828",
+      "advisor_id": "ARN_SHRIYA_003",
+      "score": 39.94,
+      "grade": "C"
+    },
+    {
+      "content_id": "ARN_SHRUTI_001_standard_tax_planning_20250919_024828",
+      "advisor_id": "ARN_SHRUTI_001",
+      "score": 39.94,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_007_001",
+      "advisor_id": "ADV_007",
+      "score": 39.69,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_009_001",
+      "advisor_id": "ADV_009",
+      "score": 39.69,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_008_001",
+      "advisor_id": "ADV_008",
+      "score": 39.69,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_005_001",
+      "advisor_id": "ADV_005",
+      "score": 39.69,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_006_001",
+      "advisor_id": "ADV_006",
+      "score": 39.69,
+      "grade": "C"
+    },
+    {
+      "content_id": "STD_ADV_010_001",
+      "advisor_id": "ADV_010",
+      "score": 39.69,
+      "grade": "C"
+    },
+    {
+      "content_id": "ADV_004_gold_exclusive_insight_20250919_024828",
+      "advisor_id": "ADV_004_gold",
+      "score": 39.16,
+      "grade": "C"
+    },
+    {
+      "content_id": "GLD_ADV_004_002",
+      "advisor_id": "ADV_004",
+      "score": 38.52,
+      "grade": "C"
+    },
+    {
+      "content_id": "GLD_ADV_004_001",
+      "advisor_id": "ADV_004",
+      "score": 37.06,
+      "grade": "C"
+    },
+    {
+      "content_id": "ADV_004_standard_investment_alternative_20250919_024828",
+      "advisor_id": "ADV_004_standard",
+      "score": 33.96,
+      "grade": "C"
+    },
+    {
+      "content_id": "ADV_005_standard_investment_alternative_20250919_024828",
+      "advisor_id": "ADV_005_standard",
+      "score": 33.41,
+      "grade": "C"
+    },
+    {
+      "content_id": "ADV_004_gold_wealth_preservation_20250919_024828",
+      "advisor_id": "ADV_004_gold",
+      "score": 33.0,
+      "grade": "C"
+    },
+    {
+      "content_id": "ARN_SHRUTI_001_standard_investment_alternative_20250919_024828",
+      "advisor_id": "ARN_SHRUTI_001",
+      "score": 32.66,
+      "grade": "C"
+    },
+    {
+      "content_id": "ARN_SHRIYA_003_standard_investment_alternative_20250919_024828",
+      "advisor_id": "ARN_SHRIYA_003",
+      "score": 32.66,
+      "grade": "C"
+    },
+    {
+      "content_id": "ARN_VIDYADHAR_002_standard_investment_alternative_20250919_024828",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "score": 32.66,
+      "grade": "C"
+    },
+    {
+      "content_id": "ADV_004_gold_alternative_investment_20250919_024828",
+      "advisor_id": "ADV_004_gold",
+      "score": 30.3,
+      "grade": "C"
+    }
+  ],
+  "detailed_scores": [
+    {
+      "final_score": 41.19,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 20.0,
+        "information_value": 17.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 55.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ARN_SHRUTI_001",
+      "content_id": "STD_ARN_SHRUTI_001_001",
+      "topic": "sip_continuation"
+    },
+    {
+      "final_score": 49.0,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 33.0,
+        "information_value": 36.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 55.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ARN_SHRUTI_001",
+      "content_id": "STD_ARN_SHRUTI_001_002",
+      "topic": "tax_saving"
+    },
+    {
+      "final_score": 45.45,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 14.0,
+        "information_value": 41.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 55.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ARN_SHRUTI_001",
+      "content_id": "STD_ARN_SHRUTI_001_003",
+      "topic": "emergency_fund"
+    },
+    {
+      "final_score": 45.41,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 34.0,
+        "information_value": 20.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 55.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ARN_SHRUTI_001",
+      "content_id": "STD_ARN_SHRUTI_001_004",
+      "topic": "market_correction"
+    },
+    {
+      "final_score": 39.69,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 20.0,
+        "information_value": 17.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_007",
+      "content_id": "STD_ADV_007_001",
+      "topic": "sip_continuation"
+    },
+    {
+      "final_score": 47.5,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 33.0,
+        "information_value": 36.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_007",
+      "content_id": "STD_ADV_007_002",
+      "topic": "tax_saving"
+    },
+    {
+      "final_score": 41.95,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 6.0,
+        "information_value": 41.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_007",
+      "content_id": "STD_ADV_007_003",
+      "topic": "emergency_fund"
+    },
+    {
+      "final_score": 43.91,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 34.0,
+        "information_value": 20.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_007",
+      "content_id": "STD_ADV_007_004",
+      "topic": "market_correction"
+    },
+    {
+      "final_score": 41.19,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 20.0,
+        "information_value": 17.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 55.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ARN_SHRIYA_003",
+      "content_id": "STD_ARN_SHRIYA_003_001",
+      "topic": "sip_continuation"
+    },
+    {
+      "final_score": 49.0,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 33.0,
+        "information_value": 36.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 55.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ARN_SHRIYA_003",
+      "content_id": "STD_ARN_SHRIYA_003_002",
+      "topic": "tax_saving"
+    },
+    {
+      "final_score": 45.45,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 14.0,
+        "information_value": 41.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 55.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ARN_SHRIYA_003",
+      "content_id": "STD_ARN_SHRIYA_003_003",
+      "topic": "emergency_fund"
+    },
+    {
+      "final_score": 45.41,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 34.0,
+        "information_value": 20.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 55.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ARN_SHRIYA_003",
+      "content_id": "STD_ARN_SHRIYA_003_004",
+      "topic": "market_correction"
+    },
+    {
+      "final_score": 41.19,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 20.0,
+        "information_value": 17.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 55.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "content_id": "STD_ARN_VIDYADHAR_002_001",
+      "topic": "sip_continuation"
+    },
+    {
+      "final_score": 49.0,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 33.0,
+        "information_value": 36.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 55.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "content_id": "STD_ARN_VIDYADHAR_002_002",
+      "topic": "tax_saving"
+    },
+    {
+      "final_score": 45.45,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 14.0,
+        "information_value": 41.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 55.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "content_id": "STD_ARN_VIDYADHAR_002_003",
+      "topic": "emergency_fund"
+    },
+    {
+      "final_score": 45.41,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 34.0,
+        "information_value": 20.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 55.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "content_id": "STD_ARN_VIDYADHAR_002_004",
+      "topic": "market_correction"
+    },
+    {
+      "final_score": 39.69,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 20.0,
+        "information_value": 17.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_009",
+      "content_id": "STD_ADV_009_001",
+      "topic": "sip_continuation"
+    },
+    {
+      "final_score": 47.5,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 33.0,
+        "information_value": 36.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_009",
+      "content_id": "STD_ADV_009_002",
+      "topic": "tax_saving"
+    },
+    {
+      "final_score": 41.95,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 6.0,
+        "information_value": 41.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_009",
+      "content_id": "STD_ADV_009_003",
+      "topic": "emergency_fund"
+    },
+    {
+      "final_score": 43.91,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 34.0,
+        "information_value": 20.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_009",
+      "content_id": "STD_ADV_009_004",
+      "topic": "market_correction"
+    },
+    {
+      "final_score": 37.06,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 17.0,
+        "information_value": 25.0,
+        "clarity": 56.0,
+        "personalization": 20.0,
+        "technical": 55.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_004",
+      "content_id": "GLD_ADV_004_001",
+      "topic": "global_macro"
+    },
+    {
+      "final_score": 38.52,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 17.0,
+        "information_value": 9.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 55.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_004",
+      "content_id": "GLD_ADV_004_002",
+      "topic": "estate_planning"
+    },
+    {
+      "final_score": 39.69,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 20.0,
+        "information_value": 17.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_008",
+      "content_id": "STD_ADV_008_001",
+      "topic": "sip_continuation"
+    },
+    {
+      "final_score": 47.5,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 33.0,
+        "information_value": 36.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_008",
+      "content_id": "STD_ADV_008_002",
+      "topic": "tax_saving"
+    },
+    {
+      "final_score": 41.95,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 6.0,
+        "information_value": 41.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_008",
+      "content_id": "STD_ADV_008_003",
+      "topic": "emergency_fund"
+    },
+    {
+      "final_score": 43.91,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 34.0,
+        "information_value": 20.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_008",
+      "content_id": "STD_ADV_008_004",
+      "topic": "market_correction"
+    },
+    {
+      "final_score": 39.69,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 20.0,
+        "information_value": 17.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_005",
+      "content_id": "STD_ADV_005_001",
+      "topic": "sip_continuation"
+    },
+    {
+      "final_score": 47.5,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 33.0,
+        "information_value": 36.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_005",
+      "content_id": "STD_ADV_005_002",
+      "topic": "tax_saving"
+    },
+    {
+      "final_score": 41.95,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 6.0,
+        "information_value": 41.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_005",
+      "content_id": "STD_ADV_005_003",
+      "topic": "emergency_fund"
+    },
+    {
+      "final_score": 43.91,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 34.0,
+        "information_value": 20.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_005",
+      "content_id": "STD_ADV_005_004",
+      "topic": "market_correction"
+    },
+    {
+      "final_score": 39.69,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 20.0,
+        "information_value": 17.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_006",
+      "content_id": "STD_ADV_006_001",
+      "topic": "sip_continuation"
+    },
+    {
+      "final_score": 47.5,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 33.0,
+        "information_value": 36.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_006",
+      "content_id": "STD_ADV_006_002",
+      "topic": "tax_saving"
+    },
+    {
+      "final_score": 41.95,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 6.0,
+        "information_value": 41.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_006",
+      "content_id": "STD_ADV_006_003",
+      "topic": "emergency_fund"
+    },
+    {
+      "final_score": 43.91,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 34.0,
+        "information_value": 20.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_006",
+      "content_id": "STD_ADV_006_004",
+      "topic": "market_correction"
+    },
+    {
+      "final_score": 39.69,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 20.0,
+        "information_value": 17.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_010",
+      "content_id": "STD_ADV_010_001",
+      "topic": "sip_continuation"
+    },
+    {
+      "final_score": 47.5,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 33.0,
+        "information_value": 36.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_010",
+      "content_id": "STD_ADV_010_002",
+      "topic": "tax_saving"
+    },
+    {
+      "final_score": 41.95,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 6.0,
+        "information_value": 41.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_010",
+      "content_id": "STD_ADV_010_003",
+      "topic": "emergency_fund"
+    },
+    {
+      "final_score": 43.91,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 34.0,
+        "information_value": 20.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "linkedin",
+      "advisor_id": "ADV_010",
+      "content_id": "STD_ADV_010_004",
+      "topic": "market_correction"
+    },
+    {
+      "final_score": 41.11,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 28.0,
+        "information_value": 20.0,
+        "clarity": 56.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ADV_005_standard",
+      "content_id": "ADV_005_standard_sip_education_20250919_024828",
+      "topic": "whatsapp_message"
+    },
+    {
+      "final_score": 40.69,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 34.0,
+        "information_value": 12.0,
+        "clarity": 56.0,
+        "personalization": 40.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ADV_005_standard",
+      "content_id": "ADV_005_standard_tax_planning_20250919_024828",
+      "topic": "whatsapp_message"
+    },
+    {
+      "final_score": 41.66,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 22.0,
+        "information_value": 20.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 50.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ARN_SHRIYA_003",
+      "content_id": "ARN_SHRIYA_003_standard_sip_education_20250919_024828",
+      "topic": "whatsapp_message"
+    },
+    {
+      "final_score": 41.24,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 28.0,
+        "information_value": 12.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 50.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ADV_004_standard",
+      "content_id": "ADV_004_standard_tax_planning_20250919_024828",
+      "topic": "whatsapp_message"
+    },
+    {
+      "final_score": 39.16,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 28.0,
+        "information_value": 20.0,
+        "clarity": 61.0,
+        "personalization": 20.0,
+        "technical": 50.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ADV_004_gold",
+      "content_id": "ADV_004_gold_exclusive_insight_20250919_024828",
+      "topic": "whatsapp_message"
+    },
+    {
+      "final_score": 41.66,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 22.0,
+        "information_value": 20.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 50.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ADV_004_standard",
+      "content_id": "ADV_004_standard_sip_education_20250919_024828",
+      "topic": "whatsapp_message"
+    },
+    {
+      "final_score": 32.66,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 28.0,
+        "information_value": 15.0,
+        "clarity": 56.0,
+        "personalization": 0.0,
+        "technical": 50.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ARN_SHRUTI_001",
+      "content_id": "ARN_SHRUTI_001_standard_investment_alternative_20250919_024828",
+      "topic": "whatsapp_message"
+    },
+    {
+      "final_score": 41.66,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 22.0,
+        "information_value": 20.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 50.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "content_id": "ARN_VIDYADHAR_002_standard_sip_education_20250919_024828",
+      "topic": "whatsapp_message"
+    },
+    {
+      "final_score": 39.94,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 28.0,
+        "information_value": 12.0,
+        "clarity": 56.0,
+        "personalization": 40.0,
+        "technical": 50.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "content_id": "ARN_VIDYADHAR_002_standard_tax_planning_20250919_024828",
+      "topic": "whatsapp_message"
+    },
+    {
+      "final_score": 41.66,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 22.0,
+        "information_value": 20.0,
+        "clarity": 61.0,
+        "personalization": 40.0,
+        "technical": 50.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ARN_SHRUTI_001",
+      "content_id": "ARN_SHRUTI_001_standard_sip_education_20250919_024828",
+      "topic": "whatsapp_message"
+    },
+    {
+      "final_score": 39.94,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 28.0,
+        "information_value": 12.0,
+        "clarity": 56.0,
+        "personalization": 40.0,
+        "technical": 50.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ARN_SHRIYA_003",
+      "content_id": "ARN_SHRIYA_003_standard_tax_planning_20250919_024828",
+      "topic": "whatsapp_message"
+    },
+    {
+      "final_score": 33.0,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 28.0,
+        "information_value": 11.0,
+        "clarity": 61.0,
+        "personalization": 0.0,
+        "technical": 50.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ADV_004_gold",
+      "content_id": "ADV_004_gold_wealth_preservation_20250919_024828",
+      "topic": "whatsapp_message"
+    },
+    {
+      "final_score": 33.96,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 28.0,
+        "information_value": 15.0,
+        "clarity": 61.0,
+        "personalization": 0.0,
+        "technical": 50.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ADV_004_standard",
+      "content_id": "ADV_004_standard_investment_alternative_20250919_024828",
+      "topic": "whatsapp_message"
+    },
+    {
+      "final_score": 33.41,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 34.0,
+        "information_value": 15.0,
+        "clarity": 56.0,
+        "personalization": 0.0,
+        "technical": 45.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ADV_005_standard",
+      "content_id": "ADV_005_standard_investment_alternative_20250919_024828",
+      "topic": "whatsapp_message"
+    },
+    {
+      "final_score": 32.66,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 28.0,
+        "information_value": 15.0,
+        "clarity": 56.0,
+        "personalization": 0.0,
+        "technical": 50.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ARN_SHRIYA_003",
+      "content_id": "ARN_SHRIYA_003_standard_investment_alternative_20250919_024828",
+      "topic": "whatsapp_message"
+    },
+    {
+      "final_score": 30.3,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 22.0,
+        "information_value": 6.0,
+        "clarity": 61.0,
+        "personalization": 0.0,
+        "technical": 50.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ADV_004_gold",
+      "content_id": "ADV_004_gold_alternative_investment_20250919_024828",
+      "topic": "whatsapp_message"
+    },
+    {
+      "final_score": 39.94,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 28.0,
+        "information_value": 12.0,
+        "clarity": 56.0,
+        "personalization": 40.0,
+        "technical": 50.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ARN_SHRUTI_001",
+      "content_id": "ARN_SHRUTI_001_standard_tax_planning_20250919_024828",
+      "topic": "whatsapp_message"
+    },
+    {
+      "final_score": 32.66,
+      "grade": "C",
+      "segment": "standard",
+      "dimension_scores": {
+        "engagement": 28.0,
+        "information_value": 15.0,
+        "clarity": 56.0,
+        "personalization": 0.0,
+        "technical": 50.0
+      },
+      "auto_approval_eligible": false,
+      "content_type": "whatsapp",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "content_id": "ARN_VIDYADHAR_002_standard_investment_alternative_20250919_024828",
+      "topic": "whatsapp_message"
+    }
+  ]
+}

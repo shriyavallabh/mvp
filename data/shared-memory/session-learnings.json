@@ -1,0 +1,21 @@
+{
+  "learningsVersion": "1.0.0",
+  "sessionId": "session_2025-09-17T21-35-00-000Z",
+  "timestamp": "2025-09-17T21:35:00.000Z",
+  "patterns": {
+    "successful_workflows": [],
+    "optimization_opportunities": [],
+    "common_errors": [],
+    "performance_metrics": {}
+  },
+  "feedback": {
+    "inter_agent": [],
+    "quality_improvements": [],
+    "compliance_issues": []
+  },
+  "memory": {
+    "context_preservation": true,
+    "cross_session_learning": false,
+    "pattern_recognition": true
+  }
+}

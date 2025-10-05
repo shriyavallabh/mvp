@@ -1,0 +1,166 @@
+{
+  "session_id": "session_1758130725",
+  "assessment_timestamp": "2025-01-16T10:15:00Z",
+  "quality_summary": {
+    "total_content_evaluated": 83,
+    "average_quality_score": 0.63,
+    "distribution_readiness": "SELECTIVE",
+    "auto_approved_count": 1,
+    "manual_review_count": 11,
+    "regeneration_needed": 11
+  },
+  "segment_performance": {
+    "Premium": {
+      "average_score": 0.67,
+      "distribution_ready": false,
+      "enhancement_needed": true,
+      "key_issues": ["Low personalization", "Complex jargon", "Weak emotional hooks"]
+    },
+    "Gold": {
+      "average_score": 0.66,
+      "distribution_ready": true,
+      "enhancement_needed": false,
+      "top_content": ["GOLD_002_TAX"],
+      "key_strengths": ["Educational value", "Practical examples"]
+    },
+    "Silver": {
+      "average_score": 0.76,
+      "distribution_ready": true,
+      "enhancement_needed": false,
+      "key_strengths": ["Simplicity", "Accessibility", "Clear advice"]
+    }
+  },
+  "content_type_performance": {
+    "linkedin": {
+      "average_score": 0.67,
+      "total_posts": 14,
+      "ready_for_distribution": 7,
+      "top_performers": ["GOLD_002_TAX", "SILVER_001_BASICS"],
+      "common_issues": ["Inconsistent hooks", "Weak CTAs"]
+    },
+    "whatsapp": {
+      "average_score": 0.57,
+      "total_messages": 9,
+      "ready_for_distribution": 3,
+      "critical_issues": ["Too brief", "Missing personalization", "Weak CTAs"],
+      "urgent_action": "Regenerate with 300+ characters"
+    },
+    "status_images": {
+      "average_score": 0.85,
+      "total_images": 60,
+      "ready_for_distribution": 60,
+      "strengths": ["Consistent branding", "High visual quality", "Good color schemes"]
+    }
+  },
+  "distribution_priorities": {
+    "immediate": [
+      {
+        "content_id": "GOLD_002_TAX",
+        "type": "linkedin",
+        "score": 0.80,
+        "platform": "LinkedIn",
+        "timing": "10:00 AM",
+        "segment": "Gold"
+      },
+      {
+        "content_type": "status_images",
+        "count": 60,
+        "score": 0.85,
+        "platform": "WhatsApp Status",
+        "timing": "Throughout day",
+        "frequency": "2-3 per advisor"
+      }
+    ],
+    "after_enhancement": [
+      {
+        "content_type": "premium_linkedin",
+        "count": 3,
+        "required_improvements": ["Add personal touches", "Simplify jargon", "Strengthen hooks"],
+        "estimated_time": "2 hours"
+      },
+      {
+        "content_type": "gold_whatsapp",
+        "count": 3,
+        "required_improvements": ["Expand to 350 chars", "Add advisor names", "Include tips"],
+        "estimated_time": "1 hour"
+      }
+    ],
+    "regeneration_required": [
+      {
+        "content_type": "silver_whatsapp",
+        "count": 3,
+        "reason": "Too brief, lacks value",
+        "minimum_requirements": "250+ characters, educational content"
+      },
+      {
+        "content_type": "low_scoring_linkedin",
+        "count": 4,
+        "reason": "Below quality threshold",
+        "score_range": "<0.60"
+      }
+    ]
+  },
+  "quality_improvements": {
+    "immediate_actions": {
+      "personalization": {
+        "action": "Add advisor names 2-3 times",
+        "impact": "High",
+        "effort": "Low"
+      },
+      "engagement": {
+        "action": "Strengthen opening hooks with questions/stats",
+        "impact": "High",
+        "effort": "Medium"
+      },
+      "credibility": {
+        "action": "Add specific market data points",
+        "impact": "Medium",
+        "effort": "Low"
+      }
+    },
+    "strategic_improvements": {
+      "content_length": {
+        "linkedin": "1500-1800 characters",
+        "whatsapp": "300-400 characters"
+      },
+      "viral_factors": {
+        "shareable_insights": true,
+        "save_worthy_tips": true,
+        "curiosity_gaps": true
+      }
+    }
+  },
+  "predicted_performance": {
+    "current": {
+      "engagement_rate": 2.6,
+      "viral_probability": 0.35,
+      "conversion_rate": 0.042
+    },
+    "after_improvements": {
+      "engagement_rate": 4.1,
+      "viral_probability": 0.52,
+      "conversion_rate": 0.078
+    }
+  },
+  "distribution_decision": {
+    "recommendation": "SELECTIVE_RELEASE",
+    "immediate_distribution_percentage": 45,
+    "enhancement_needed_percentage": 35,
+    "regeneration_needed_percentage": 20,
+    "expected_quality_after_improvements": 0.78,
+    "expected_readiness_after_improvements": 85
+  },
+  "compliance_check": {
+    "all_content_has_disclaimer": true,
+    "no_guaranteed_returns": true,
+    "arn_numbers_included": true,
+    "sebi_registration_displayed": true
+  },
+  "tracking_metrics": [
+    "engagement_rate",
+    "click_through_rate",
+    "response_rate",
+    "conversion_rate",
+    "negative_feedback"
+  ]
+}

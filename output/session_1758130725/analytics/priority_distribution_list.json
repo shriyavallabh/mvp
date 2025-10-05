@@ -1,0 +1,202 @@
+{
+  "distribution_schedule": {
+    "immediate_batch_1": {
+      "timing": "2025-01-16T10:00:00+05:30",
+      "content": [
+        {
+          "advisor_id": "ADV_002",
+          "advisor_name": "Rajesh Kumar",
+          "content_id": "GOLD_002_TAX",
+          "content_type": "linkedin_post",
+          "platform": "LinkedIn",
+          "quality_score": 0.80,
+          "title": "Save ₹46,800 in Taxes - Last 2 Weeks!",
+          "status": "APPROVED",
+          "distribution_channel": "linkedin_api"
+        }
+      ]
+    },
+    "immediate_batch_2": {
+      "timing": "2025-01-16T09:00:00+05:30",
+      "content": [
+        {
+          "advisor_id": "ADV_001",
+          "content_type": "status_images",
+          "platform": "WhatsApp Status",
+          "quality_score": 0.85,
+          "image_count": 12,
+          "images": [
+            "branded_ADV_001_market_update_20250917_234848.png",
+            "branded_ADV_001_educational_20250917_234848.png",
+            "branded_ADV_001_motivational_20250917_234848.png",
+            "branded_ADV_001_sector_spotlight_20250917_234848.png"
+          ],
+          "status": "APPROVED",
+          "distribution_frequency": "3 per day"
+        },
+        {
+          "advisor_id": "ADV_002",
+          "content_type": "status_images",
+          "platform": "WhatsApp Status",
+          "quality_score": 0.85,
+          "image_count": 12,
+          "status": "APPROVED",
+          "distribution_frequency": "3 per day"
+        },
+        {
+          "advisor_id": "ADV_003",
+          "content_type": "status_images",
+          "platform": "WhatsApp Status",
+          "quality_score": 0.85,
+          "image_count": 12,
+          "status": "APPROVED",
+          "distribution_frequency": "2 per day"
+        }
+      ]
+    },
+    "after_enhancement_batch": {
+      "timing": "2025-01-16T14:00:00+05:30",
+      "content": [
+        {
+          "advisor_id": "ADV_001",
+          "content_ids": ["PREM_001_FED", "PREM_002_TECH"],
+          "content_type": "linkedin_post",
+          "current_score": 0.79,
+          "target_score": 0.85,
+          "enhancements_needed": [
+            "Add Shruti's name 2 more times",
+            "Simplify derivative and arbitrage terms",
+            "Add emotional hook in opening"
+          ],
+          "estimated_enhancement_time": "30 minutes",
+          "status": "PENDING_ENHANCEMENT"
+        },
+        {
+          "advisor_id": "ADV_003",
+          "content_id": "SILVER_001_BASICS",
+          "content_type": "linkedin_post",
+          "current_score": 0.72,
+          "target_score": 0.80,
+          "enhancements_needed": [
+            "Add specific market data",
+            "Include Priya's credentials",
+            "Expand to 500 characters minimum"
+          ],
+          "status": "PENDING_ENHANCEMENT"
+        }
+      ]
+    },
+    "regeneration_batch": {
+      "timing": "2025-01-16T18:00:00+05:30",
+      "content": [
+        {
+          "advisor_id": "ADV_001",
+          "content_type": "whatsapp_messages",
+          "current_score": 0.55,
+          "issues": [
+            "Too brief (227 chars average)",
+            "Weak personalization",
+            "Generic CTAs"
+          ],
+          "regeneration_requirements": {
+            "min_length": 350,
+            "personalization_count": 2,
+            "specific_cta": true,
+            "data_points": 2
+          },
+          "status": "PENDING_REGENERATION"
+        },
+        {
+          "advisor_id": "ADV_002",
+          "content_type": "whatsapp_messages",
+          "current_score": 0.58,
+          "status": "PENDING_REGENERATION"
+        },
+        {
+          "advisor_id": "ADV_003",
+          "content_type": "whatsapp_messages",
+          "current_score": 0.56,
+          "status": "PENDING_REGENERATION"
+        }
+      ]
+    }
+  },
+  "distribution_metrics": {
+    "total_approved": 37,
+    "total_pending_enhancement": 5,
+    "total_pending_regeneration": 9,
+    "total_rejected": 0,
+    "expected_reach": {
+      "immediate": 15000,
+      "after_enhancement": 8000,
+      "total_24hr": 23000
+    }
+  },
+  "quality_gates": {
+    "auto_approval_threshold": 0.80,
+    "manual_review_range": [0.60, 0.79],
+    "rejection_threshold": 0.60,
+    "compliance_checks": [
+      "disclaimer_present",
+      "no_guaranteed_returns",
+      "arn_number_included",
+      "contact_info_accurate"
+    ]
+  },
+  "distribution_channels": {
+    "linkedin": {
+      "api_endpoint": "linkedin_post_api",
+      "rate_limit": "10 posts per hour",
+      "best_times": ["9:00 AM", "10:00 AM", "2:00 PM", "5:00 PM"]
+    },
+    "whatsapp": {
+      "api_endpoint": "whatsapp_business_api",
+      "rate_limit": "1000 messages per hour",
+      "status_update_frequency": "Every 8 hours"
+    }
+  },
+  "monitoring": {
+    "kpis": [
+      {
+        "metric": "engagement_rate",
+        "target": 4.0,
+        "current": null,
+        "measurement_period": "24 hours"
+      },
+      {
+        "metric": "click_through_rate",
+        "target": 2.5,
+        "current": null,
+        "measurement_period": "24 hours"
+      },
+      {
+        "metric": "response_rate",
+        "target": 1.5,
+        "current": null,
+        "measurement_period": "48 hours"
+      }
+    ],
+    "alert_thresholds": {
+      "low_engagement": 1.5,
+      "high_negative_feedback": 0.5,
+      "delivery_failure": 5.0
+    }
+  },
+  "next_actions": {
+    "immediate": [
+      "Deploy GOLD_002_TAX to LinkedIn",
+      "Start status image distribution for all advisors",
+      "Begin enhancement of Premium LinkedIn posts"
+    ],
+    "within_2_hours": [
+      "Complete enhancement of 5 LinkedIn posts",
+      "Test enhanced content quality scores",
+      "Deploy enhanced content if score >= 0.75"
+    ],
+    "within_4_hours": [
+      "Regenerate all WhatsApp messages",
+      "Quality score new WhatsApp content",
+      "Prepare evening distribution batch"
+    ]
+  }
+}

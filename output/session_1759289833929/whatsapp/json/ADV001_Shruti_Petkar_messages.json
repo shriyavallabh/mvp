@@ -1,0 +1,34 @@
+{
+  "messages": [
+    {
+      "messageId": "ADV001_msg_1",
+      "advisorId": "ADV001",
+      "advisorName": "Shruti Petkar",
+      "content": "₹500→₹47L in 12yr 📈\n\nRaju, rickshaw driver, ₹8k income.\nStarted SIP: ₹500.\nToday: ₹47 lakhs.\n\nHis daughter: Engineering student.\n\nYour excuse?\n\nShruti Petkar\nARN: ARN-125847",
+      "charCount": 174,
+      "hookType": "shocking_number",
+      "viralityScore": 8.9,
+      "timestamp": "2025-10-01T03:37:13.937Z"
+    },
+    {
+      "messageId": "ADV001_msg_2",
+      "advisorId": "ADV001",
+      "advisorName": "Shruti Petkar",
+      "content": "STOP your SIP! 🛑\n\nJust kidding. NEVER stop.\n\nHere's why:\n\nMarkets at 83014. Everyone's scared.\nBut SIP investors who DIDN'T stop in 2008 made 127% by 2010.\n\nPanic = Their loss.\nPatience = Your gain.\n\nKeep going 💪\n\nShruti Petkar\nARN: ARN-125847",
+      "charCount": 245,
+      "hookType": "pattern_interrupt",
+      "viralityScore": 8.7,
+      "timestamp": "2025-10-01T03:37:13.938Z"
+    },
+    {
+      "messageId": "ADV001_msg_3",
+      "advisorId": "ADV001",
+      "advisorName": "Shruti Petkar",
+      "content": "IT sector: +4.41% today 🚀\n\nRemember 2020?\nEveryone said \"Don't invest.\"\nThose who did: 2.5x returns.\n\nToday's opportunity:\nSame fear. Same chance.\n\nSmart money buys when everyone sells.\n\nStart your SIP:\n₹500/month = ₹47L in 12 years\n₹2000/month = ₹1.88Cr\n\nYour move 🎯\n\nShruti Petkar\nARN: ARN-125847",
+      "charCount": 300,
+      "hookType": "urgency_data",
+      "viralityScore": 8.5,
+      "timestamp": "2025-10-01T03:37:13.938Z"
+    }
+  ]
+}

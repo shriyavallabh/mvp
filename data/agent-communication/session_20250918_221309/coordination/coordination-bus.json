@@ -1,0 +1,17 @@
+{
+  "sessionId": "session_20250918_221309",
+  "messageQueue": [],
+  "activeChannels": [
+    "feedback",
+    "quality",
+    "compliance",
+    "state",
+    "coordination"
+  ],
+  "broadcastCapability": true,
+  "messageRouting": {
+    "enabled": true,
+    "sessionIsolated": true
+  },
+  "lastActivity": "2025-09-18T22:13:09.000Z"
+}

@@ -1,0 +1,34 @@
+{
+  "messageId": "whatsapp-content-2025-09-18T09-32-12-000Z",
+  "timestamp": "2025-09-18T09:32:12.000Z",
+  "from": "whatsapp-message-creator",
+  "to": "distribution-controller",
+  "type": "content_ready",
+  "sessionId": "session_2025-09-18T03-38-39-062Z",
+  "payload": {
+    "contentType": "whatsapp_messages",
+    "messagesGenerated": 14,
+    "segmentBreakdown": {
+      "HNI_Premium": 4,
+      "Retail_Gold": 5,
+      "Retail_Standard": 5
+    },
+    "characterOptimization": {
+      "min": 189,
+      "max": 242,
+      "avg": 210,
+      "whatsappOptimal": true
+    },
+    "deliveryPriority": "high",
+    "engagementFeatures": [
+      "personalized_greetings",
+      "segment_specific_tone",
+      "market_intelligence_integrated",
+      "tax_urgency_embedded",
+      "clear_ctas"
+    ],
+    "outputLocation": "output/session_2025-09-18T03-38-39-062Z/whatsapp-messages.json",
+    "sharedMemoryPath": "data/shared-memory/session_2025-09-18T03-38-39-062Z/whatsapp-content-memory.json",
+    "readyForDistribution": true
+  }
+}

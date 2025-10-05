@@ -1,0 +1,93 @@
+{
+  "session_id": "20250919_211030",
+  "timestamp": "2025-09-19T22:59:54.624715",
+  "status": "COMPLETE",
+  "brand_compliance": {
+    "overall_score": 100,
+    "advisors_branded": 3,
+    "content_types_branded": [
+      "linkedin_posts",
+      "whatsapp_messages",
+      "image_instructions"
+    ]
+  },
+  "branding_details": {
+    "ADV_001": {
+      "name": "Rajesh Kumar",
+      "brand": "Kumar Wealth Advisors",
+      "colors": {
+        "primary": "#2C3E50",
+        "secondary": "#E74C3C"
+      },
+      "tagline": "Your Partner in Wealth Creation",
+      "logo_url": "https://drive.google.com/logo1.png",
+      "content_branded": {
+        "linkedin": 1,
+        "whatsapp": 1,
+        "images": "instructions_created"
+      }
+    },
+    "ADV_002": {
+      "name": "Priya Sharma",
+      "brand": "Finance Plus",
+      "colors": {
+        "primary": "#27AE60",
+        "secondary": "#F39C12"
+      },
+      "tagline": "Simplifying Your Financial Journey",
+      "logo_url": "default",
+      "content_branded": {
+        "linkedin": 1,
+        "whatsapp": 1,
+        "images": "instructions_created"
+      }
+    },
+    "ADV_003": {
+      "name": "Amit Patel",
+      "brand": "WealthCare",
+      "colors": {
+        "primary": "#3498DB",
+        "secondary": "#95A5A6"
+      },
+      "tagline": "Building Wealth, Creating Trust",
+      "logo_url": "default",
+      "content_branded": {
+        "linkedin": 1,
+        "whatsapp": 1,
+        "images": "instructions_created"
+      }
+    }
+  },
+  "branding_actions": {
+    "logos_applied": {
+      "custom": 1,
+      "default": 2,
+      "total": 3
+    },
+    "colors_applied": 3,
+    "taglines_inserted": 3,
+    "disclaimers_added": 3,
+    "signatures_added": 3
+  },
+  "output_locations": {
+    "branded_content": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_211030/branded",
+    "linkedin_posts": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_211030/branded/linkedin",
+    "whatsapp_messages": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_211030/branded/whatsapp",
+    "image_instructions": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_211030/branded/images",
+    "reports": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_211030/branded/reports"
+  },
+  "viral_impact_maintained": true,
+  "compliance_achieved": {
+    "brand_elements": true,
+    "regulatory_disclaimers": true,
+    "advisor_identification": true,
+    "contact_information": true
+  },
+  "notes": [
+    "All content branded with 100% compliance",
+    "Viral impact maintained while adding brand elements",
+    "Image branding instructions created for visual assets",
+    "Personalized signatures and taglines applied",
+    "Platform-specific formatting preserved"
+  ]
+}

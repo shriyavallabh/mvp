@@ -1,0 +1,507 @@
+{
+  "session_id": "session_2025-09-18T03-38-39-062Z",
+  "timestamp": "2025-09-18T09:37:07.114883",
+  "total_images": 48,
+  "advisors_processed": 3,
+  "categories": {
+    "linkedin": {
+      "count": 12,
+      "total_size": 603485
+    },
+    "whatsapp": {
+      "count": 12,
+      "total_size": 555514
+    },
+    "charts": {
+      "count": 12,
+      "total_size": 686789
+    },
+    "marketing": {
+      "count": 12,
+      "total_size": 920828
+    }
+  },
+  "total_file_size": 2766616,
+  "images": [
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "category": "linkedin",
+      "prompt": "Professional tax optimization infographic with charts and key statistics",
+      "filename": "ARN_SHRUTI_001_linkedin_1_20250918_093634.png",
+      "dimensions": "1200x628",
+      "file_size": 49778,
+      "timestamp": "20250918_093634"
+    },
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "category": "linkedin",
+      "prompt": "Banking sector analysis with performance metrics and growth indicators",
+      "filename": "ARN_SHRUTI_001_linkedin_2_20250918_093634.png",
+      "dimensions": "1200x628",
+      "file_size": 49669,
+      "timestamp": "20250918_093634"
+    },
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "category": "linkedin",
+      "prompt": "Portfolio rebalancing strategy visualization with asset allocation charts",
+      "filename": "ARN_SHRUTI_001_linkedin_3_20250918_093635.png",
+      "dimensions": "1200x628",
+      "file_size": 50005,
+      "timestamp": "20250918_093635"
+    },
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "category": "linkedin",
+      "prompt": "Market outlook infographic with sector performance and trends",
+      "filename": "ARN_SHRUTI_001_linkedin_4_20250918_093636.png",
+      "dimensions": "1200x628",
+      "file_size": 49650,
+      "timestamp": "20250918_093636"
+    },
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "category": "whatsapp",
+      "prompt": "Investment education infographic with simple concepts and icons",
+      "filename": "ARN_SHRUTI_001_whatsapp_1_20250918_093636.png",
+      "dimensions": "1080x1080",
+      "file_size": 45741,
+      "timestamp": "20250918_093636"
+    },
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "category": "whatsapp",
+      "prompt": "Market update summary with key numbers and trends",
+      "filename": "ARN_SHRUTI_001_whatsapp_2_20250918_093637.png",
+      "dimensions": "1080x1080",
+      "file_size": 45416,
+      "timestamp": "20250918_093637"
+    },
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "category": "whatsapp",
+      "prompt": "Tax saving opportunities visual with deadline reminders",
+      "filename": "ARN_SHRUTI_001_whatsapp_3_20250918_093637.png",
+      "dimensions": "1080x1080",
+      "file_size": 45911,
+      "timestamp": "20250918_093637"
+    },
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "category": "whatsapp",
+      "prompt": "Financial planning checklist with actionable steps",
+      "filename": "ARN_SHRUTI_001_whatsapp_4_20250918_093638.png",
+      "dimensions": "1080x1080",
+      "file_size": 45911,
+      "timestamp": "20250918_093638"
+    },
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "category": "charts",
+      "prompt": "Detailed portfolio performance chart with growth projections",
+      "filename": "ARN_SHRUTI_001_charts_1_20250918_093639.png",
+      "dimensions": "1400x800",
+      "file_size": 56568,
+      "timestamp": "20250918_093639"
+    },
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "category": "charts",
+      "prompt": "Sector allocation pie chart with performance metrics",
+      "filename": "ARN_SHRUTI_001_charts_2_20250918_093639.png",
+      "dimensions": "1400x800",
+      "file_size": 57922,
+      "timestamp": "20250918_093639"
+    },
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "category": "charts",
+      "prompt": "Investment timeline visualization with milestones",
+      "filename": "ARN_SHRUTI_001_charts_3_20250918_093640.png",
+      "dimensions": "1400x800",
+      "file_size": 56655,
+      "timestamp": "20250918_093640"
+    },
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "category": "charts",
+      "prompt": "Risk-return analysis scatter plot with fund positions",
+      "filename": "ARN_SHRUTI_001_charts_4_20250918_093641.png",
+      "dimensions": "1400x800",
+      "file_size": 56810,
+      "timestamp": "20250918_093641"
+    },
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "category": "marketing",
+      "prompt": "Professional financial advisory presentation header",
+      "filename": "ARN_SHRUTI_001_marketing_1_20250918_093642.png",
+      "dimensions": "1920x1080",
+      "file_size": 77188,
+      "timestamp": "20250918_093642"
+    },
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "category": "marketing",
+      "prompt": "Wealth management service overview with benefits",
+      "filename": "ARN_SHRUTI_001_marketing_2_20250918_093642.png",
+      "dimensions": "1920x1080",
+      "file_size": 77269,
+      "timestamp": "20250918_093642"
+    },
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "category": "marketing",
+      "prompt": "Client success story template with testimonial space",
+      "filename": "ARN_SHRUTI_001_marketing_3_20250918_093643.png",
+      "dimensions": "1920x1080",
+      "file_size": 77651,
+      "timestamp": "20250918_093643"
+    },
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "category": "marketing",
+      "prompt": "Investment philosophy infographic with core principles",
+      "filename": "ARN_SHRUTI_001_marketing_4_20250918_093644.png",
+      "dimensions": "1920x1080",
+      "file_size": 75206,
+      "timestamp": "20250918_093644"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "category": "linkedin",
+      "prompt": "Professional tax optimization infographic with charts and key statistics",
+      "filename": "ARN_VIDYADHAR_002_linkedin_1_20250918_093645.png",
+      "dimensions": "1200x628",
+      "file_size": 50949,
+      "timestamp": "20250918_093645"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "category": "linkedin",
+      "prompt": "Banking sector analysis with performance metrics and growth indicators",
+      "filename": "ARN_VIDYADHAR_002_linkedin_2_20250918_093645.png",
+      "dimensions": "1200x628",
+      "file_size": 50171,
+      "timestamp": "20250918_093645"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "category": "linkedin",
+      "prompt": "Portfolio rebalancing strategy visualization with asset allocation charts",
+      "filename": "ARN_VIDYADHAR_002_linkedin_3_20250918_093646.png",
+      "dimensions": "1200x628",
+      "file_size": 50161,
+      "timestamp": "20250918_093646"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "category": "linkedin",
+      "prompt": "Market outlook infographic with sector performance and trends",
+      "filename": "ARN_VIDYADHAR_002_linkedin_4_20250918_093647.png",
+      "dimensions": "1200x628",
+      "file_size": 50274,
+      "timestamp": "20250918_093647"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "category": "whatsapp",
+      "prompt": "Investment education infographic with simple concepts and icons",
+      "filename": "ARN_VIDYADHAR_002_whatsapp_1_20250918_093647.png",
+      "dimensions": "1080x1080",
+      "file_size": 46325,
+      "timestamp": "20250918_093647"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "category": "whatsapp",
+      "prompt": "Market update summary with key numbers and trends",
+      "filename": "ARN_VIDYADHAR_002_whatsapp_2_20250918_093648.png",
+      "dimensions": "1080x1080",
+      "file_size": 46013,
+      "timestamp": "20250918_093648"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "category": "whatsapp",
+      "prompt": "Tax saving opportunities visual with deadline reminders",
+      "filename": "ARN_VIDYADHAR_002_whatsapp_3_20250918_093649.png",
+      "dimensions": "1080x1080",
+      "file_size": 46499,
+      "timestamp": "20250918_093649"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "category": "whatsapp",
+      "prompt": "Financial planning checklist with actionable steps",
+      "filename": "ARN_VIDYADHAR_002_whatsapp_4_20250918_093649.png",
+      "dimensions": "1080x1080",
+      "file_size": 46499,
+      "timestamp": "20250918_093649"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "category": "charts",
+      "prompt": "Detailed portfolio performance chart with growth projections",
+      "filename": "ARN_VIDYADHAR_002_charts_1_20250918_093650.png",
+      "dimensions": "1400x800",
+      "file_size": 57443,
+      "timestamp": "20250918_093650"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "category": "charts",
+      "prompt": "Sector allocation pie chart with performance metrics",
+      "filename": "ARN_VIDYADHAR_002_charts_2_20250918_093651.png",
+      "dimensions": "1400x800",
+      "file_size": 58393,
+      "timestamp": "20250918_093651"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "category": "charts",
+      "prompt": "Investment timeline visualization with milestones",
+      "filename": "ARN_VIDYADHAR_002_charts_3_20250918_093651.png",
+      "dimensions": "1400x800",
+      "file_size": 57164,
+      "timestamp": "20250918_093651"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "category": "charts",
+      "prompt": "Risk-return analysis scatter plot with fund positions",
+      "filename": "ARN_VIDYADHAR_002_charts_4_20250918_093652.png",
+      "dimensions": "1400x800",
+      "file_size": 57007,
+      "timestamp": "20250918_093652"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "category": "marketing",
+      "prompt": "Professional financial advisory presentation header",
+      "filename": "ARN_VIDYADHAR_002_marketing_1_20250918_093653.png",
+      "dimensions": "1920x1080",
+      "file_size": 77072,
+      "timestamp": "20250918_093653"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "category": "marketing",
+      "prompt": "Wealth management service overview with benefits",
+      "filename": "ARN_VIDYADHAR_002_marketing_2_20250918_093653.png",
+      "dimensions": "1920x1080",
+      "file_size": 77057,
+      "timestamp": "20250918_093653"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "category": "marketing",
+      "prompt": "Client success story template with testimonial space",
+      "filename": "ARN_VIDYADHAR_002_marketing_3_20250918_093654.png",
+      "dimensions": "1920x1080",
+      "file_size": 77056,
+      "timestamp": "20250918_093654"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "category": "marketing",
+      "prompt": "Investment philosophy infographic with core principles",
+      "filename": "ARN_VIDYADHAR_002_marketing_4_20250918_093655.png",
+      "dimensions": "1920x1080",
+      "file_size": 75141,
+      "timestamp": "20250918_093655"
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "category": "linkedin",
+      "prompt": "Professional tax optimization infographic with charts and key statistics",
+      "filename": "ARN_SHRIYA_003_linkedin_1_20250918_093656.png",
+      "dimensions": "1200x628",
+      "file_size": 51075,
+      "timestamp": "20250918_093656"
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "category": "linkedin",
+      "prompt": "Banking sector analysis with performance metrics and growth indicators",
+      "filename": "ARN_SHRIYA_003_linkedin_2_20250918_093656.png",
+      "dimensions": "1200x628",
+      "file_size": 50570,
+      "timestamp": "20250918_093656"
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "category": "linkedin",
+      "prompt": "Portfolio rebalancing strategy visualization with asset allocation charts",
+      "filename": "ARN_SHRIYA_003_linkedin_3_20250918_093657.png",
+      "dimensions": "1200x628",
+      "file_size": 50743,
+      "timestamp": "20250918_093657"
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "category": "linkedin",
+      "prompt": "Market outlook infographic with sector performance and trends",
+      "filename": "ARN_SHRIYA_003_linkedin_4_20250918_093658.png",
+      "dimensions": "1200x628",
+      "file_size": 50440,
+      "timestamp": "20250918_093658"
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "category": "whatsapp",
+      "prompt": "Investment education infographic with simple concepts and icons",
+      "filename": "ARN_SHRIYA_003_whatsapp_1_20250918_093658.png",
+      "dimensions": "1080x1080",
+      "file_size": 46796,
+      "timestamp": "20250918_093658"
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "category": "whatsapp",
+      "prompt": "Market update summary with key numbers and trends",
+      "filename": "ARN_SHRIYA_003_whatsapp_2_20250918_093659.png",
+      "dimensions": "1080x1080",
+      "file_size": 46477,
+      "timestamp": "20250918_093659"
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "category": "whatsapp",
+      "prompt": "Tax saving opportunities visual with deadline reminders",
+      "filename": "ARN_SHRIYA_003_whatsapp_3_20250918_093700.png",
+      "dimensions": "1080x1080",
+      "file_size": 46963,
+      "timestamp": "20250918_093700"
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "category": "whatsapp",
+      "prompt": "Financial planning checklist with actionable steps",
+      "filename": "ARN_SHRIYA_003_whatsapp_4_20250918_093700.png",
+      "dimensions": "1080x1080",
+      "file_size": 46963,
+      "timestamp": "20250918_093700"
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "category": "charts",
+      "prompt": "Detailed portfolio performance chart with growth projections",
+      "filename": "ARN_SHRIYA_003_charts_1_20250918_093701.png",
+      "dimensions": "1400x800",
+      "file_size": 57103,
+      "timestamp": "20250918_093701"
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "category": "charts",
+      "prompt": "Sector allocation pie chart with performance metrics",
+      "filename": "ARN_SHRIYA_003_charts_2_20250918_093702.png",
+      "dimensions": "1400x800",
+      "file_size": 58009,
+      "timestamp": "20250918_093702"
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "category": "charts",
+      "prompt": "Investment timeline visualization with milestones",
+      "filename": "ARN_SHRIYA_003_charts_3_20250918_093702.png",
+      "dimensions": "1400x800",
+      "file_size": 56955,
+      "timestamp": "20250918_093702"
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "category": "charts",
+      "prompt": "Risk-return analysis scatter plot with fund positions",
+      "filename": "ARN_SHRIYA_003_charts_4_20250918_093703.png",
+      "dimensions": "1400x800",
+      "file_size": 56760,
+      "timestamp": "20250918_093703"
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "category": "marketing",
+      "prompt": "Professional financial advisory presentation header",
+      "filename": "ARN_SHRIYA_003_marketing_1_20250918_093704.png",
+      "dimensions": "1920x1080",
+      "file_size": 77424,
+      "timestamp": "20250918_093704"
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "category": "marketing",
+      "prompt": "Wealth management service overview with benefits",
+      "filename": "ARN_SHRIYA_003_marketing_2_20250918_093704.png",
+      "dimensions": "1920x1080",
+      "file_size": 77264,
+      "timestamp": "20250918_093704"
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "category": "marketing",
+      "prompt": "Client success story template with testimonial space",
+      "filename": "ARN_SHRIYA_003_marketing_3_20250918_093705.png",
+      "dimensions": "1920x1080",
+      "file_size": 77325,
+      "timestamp": "20250918_093705"
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "category": "marketing",
+      "prompt": "Investment philosophy infographic with core principles",
+      "filename": "ARN_SHRIYA_003_marketing_4_20250918_093706.png",
+      "dimensions": "1920x1080",
+      "file_size": 75175,
+      "timestamp": "20250918_093706"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "prompt": "\n            Horizontal marketing banner for mutual fund investment.\n            Theme: Building wealth for future goals.\n            Colors: Trust blue and prosperity green.\n            Elements: Upward trending graph, piggy bank, target icons.\n            Text: 'Your Dreams, Our Expertise'\n            Style: Professional yet approachable.\n            Dimensions: 1200x628px.\n            ",
+  "generated": true,
+  "model": "gemini-imagen3",
+  "format": "png",
+  "dimensions": "1200x628",
+  "file_path": "ADV_001_marketing_image.png",
+  "preview": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
+}

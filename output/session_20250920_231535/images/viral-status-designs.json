@@ -1,0 +1,549 @@
+{
+  "metadata": {
+    "sessionId": "session_20250920_231535",
+    "timestamp": "2025-01-20T23:15:35Z",
+    "totalDesigns": 3,
+    "designType": "WhatsApp Status - Viral Content",
+    "dimensions": {
+      "width": 1080,
+      "height": 1920,
+      "aspectRatio": "9:16"
+    },
+    "fontStandards": {
+      "headline": {
+        "size": 96,
+        "weight": "bold",
+        "position": "top 15%"
+      },
+      "shockValue": {
+        "size": 120,
+        "weight": "extra-bold",
+        "position": "center focus"
+      },
+      "subheading": {
+        "size": 72,
+        "weight": "semibold",
+        "position": "top 30%"
+      },
+      "bodyText": {
+        "size": 56,
+        "weight": "regular",
+        "position": "middle 40-60%"
+      },
+      "callToAction": {
+        "size": 64,
+        "weight": "bold",
+        "position": "bottom 25%"
+      },
+      "disclaimer": {
+        "size": 42,
+        "weight": "light",
+        "position": "bottom 10%"
+      }
+    }
+  },
+  "designs": [
+    {
+      "designId": "viral_001_fii_mystery",
+      "theme": "₹2.35L Cr EXIT: Who's Buying?",
+      "targetSegment": "Standard",
+      "viralScore": 9.8,
+      "layout": {
+        "type": "split-screen-mystery",
+        "sections": {
+          "top": {
+            "height": "40%",
+            "content": "headline_mystery",
+            "background": "dark_gradient"
+          },
+          "middle": {
+            "height": "40%",
+            "content": "battle_visualization",
+            "background": "contrast_split"
+          },
+          "bottom": {
+            "height": "20%",
+            "content": "cta_reveal",
+            "background": "accent_bar"
+          }
+        }
+      },
+      "content": {
+        "headline": {
+          "text": "₹2.35L Cr EXIT",
+          "fontSize": 120,
+          "color": "#FF3333",
+          "effect": "bold_shadow",
+          "position": {
+            "x": "center",
+            "y": "15%"
+          }
+        },
+        "subheadline": {
+          "text": "Who's Buying?",
+          "fontSize": 96,
+          "color": "#FFFFFF",
+          "effect": "glow",
+          "position": {
+            "x": "center",
+            "y": "25%"
+          }
+        },
+        "battleVisualization": {
+          "leftSide": {
+            "label": "FIIs SELLING",
+            "value": "₹2,35,000 Cr",
+            "icon": "red_down_arrow",
+            "color": "#FF4444",
+            "animation": "pulse"
+          },
+          "versus": {
+            "text": "VS",
+            "fontSize": 84,
+            "color": "#FFD700",
+            "effect": "lightning"
+          },
+          "rightSide": {
+            "label": "DIIs BUYING",
+            "value": "₹2,20,000 Cr",
+            "icon": "green_up_arrow",
+            "color": "#00FF00",
+            "animation": "glow"
+          }
+        },
+        "shockingStats": [
+          {
+            "text": "Biggest Exit in History",
+            "fontSize": 56,
+            "highlight": true
+          },
+          {
+            "text": "Markets Still UP 0.59%",
+            "fontSize": 56,
+            "highlight": true
+          },
+          {
+            "text": "DIIs Save the Day!",
+            "fontSize": 56,
+            "highlight": true
+          }
+        ],
+        "callToAction": {
+          "text": "Swipe Up: See Which Stocks DIIs Are Buying",
+          "fontSize": 64,
+          "color": "#00FF00",
+          "background": "#000000",
+          "animation": "slide_up"
+        }
+      },
+      "visualElements": {
+        "backgroundPattern": "financial_grid",
+        "colorScheme": {
+          "primary": "#FF3333",
+          "secondary": "#00FF00",
+          "accent": "#FFD700",
+          "background": ["#1A1A1A", "#2D2D2D"],
+          "text": "#FFFFFF"
+        },
+        "graphicsElements": [
+          {
+            "type": "animated_chart",
+            "style": "bar_chart_battle",
+            "position": "center"
+          },
+          {
+            "type": "money_flow_arrows",
+            "direction": "bidirectional",
+            "animation": "continuous"
+          },
+          {
+            "type": "rupee_symbols",
+            "effect": "floating",
+            "opacity": 0.2
+          }
+        ],
+        "effects": [
+          "gradient_overlay",
+          "neon_glow",
+          "particle_system"
+        ]
+      },
+      "geminiPrompt": "Create a dramatic WhatsApp Status image (1080x1920px) with a mystery theme about ₹2.35 Lakh Crore FII exit. Use split-screen design showing FII vs DII battle. Left side: Red downward arrows with '₹2.35L Cr SELLING' in bold red. Right side: Green upward arrows with 'DIIs BUYING ₹2.20L Cr' in green. Center: Large 'VS' in gold with lightning effect. Top: '₹2.35L Cr EXIT' in 120px red font. Subtitle: 'Who's Buying?' in 96px white with glow. Dark background with financial grid pattern. Include shocking stat: 'Biggest Exit in History - Markets Still UP!' Bottom CTA: 'Swipe Up: See Which Stocks DIIs Are Buying' in green. Use high contrast, neon effects, dramatic lighting. Make it look like a financial war poster.",
+      "psychology": {
+        "emotionalTrigger": "Mystery + Conflict",
+        "viralHook": "Institutional battle narrative",
+        "shareMotivation": "Exclusive insider knowledge"
+      }
+    },
+    {
+      "designId": "viral_002_trump_tariff",
+      "theme": "TRUMP 50% TARIFF: IT Jobs at Risk",
+      "targetSegment": "Active",
+      "viralScore": 9.5,
+      "layout": {
+        "type": "split-screen-impact",
+        "sections": {
+          "top": {
+            "height": "30%",
+            "content": "shock_headline",
+            "background": "red_alert_gradient"
+          },
+          "middle": {
+            "height": "50%",
+            "content": "impact_visualization",
+            "background": "split_contrast"
+          },
+          "bottom": {
+            "height": "20%",
+            "content": "action_alert",
+            "background": "urgent_bar"
+          }
+        }
+      },
+      "content": {
+        "headline": {
+          "text": "TRUMP 50% TARIFF",
+          "fontSize": 108,
+          "color": "#FF0000",
+          "effect": "warning_flash",
+          "position": {
+            "x": "center",
+            "y": "10%"
+          }
+        },
+        "subheadline": {
+          "text": "IT Jobs at Risk!",
+          "fontSize": 84,
+          "color": "#FFFF00",
+          "effect": "blink",
+          "position": {
+            "x": "center",
+            "y": "20%"
+          }
+        },
+        "impactVisualization": {
+          "leftPanel": {
+            "title": "BEFORE",
+            "background": "#004400",
+            "stats": [
+              {
+                "label": "Tariff",
+                "value": "25%",
+                "color": "#00FF00"
+              },
+              {
+                "label": "IT Exports",
+                "value": "$200B",
+                "color": "#00FF00"
+              },
+              {
+                "label": "Jobs",
+                "value": "54 Lakh",
+                "color": "#00FF00"
+              }
+            ]
+          },
+          "centerDivider": {
+            "icon": "lightning_bolt",
+            "color": "#FFD700",
+            "animation": "flash"
+          },
+          "rightPanel": {
+            "title": "AFTER",
+            "background": "#440000",
+            "stats": [
+              {
+                "label": "Tariff",
+                "value": "50%",
+                "color": "#FF0000"
+              },
+              {
+                "label": "IT Exports",
+                "value": "-30%",
+                "color": "#FF0000"
+              },
+              {
+                "label": "Jobs at Risk",
+                "value": "10 Lakh",
+                "color": "#FF0000"
+              }
+            ]
+          }
+        },
+        "shockingFacts": [
+          {
+            "text": "Reason: India's Russian Oil Deals",
+            "fontSize": 56,
+            "color": "#FFFF00"
+          },
+          {
+            "text": "Impact: Biggest IT Layoffs Ever",
+            "fontSize": 56,
+            "color": "#FF6666"
+          },
+          {
+            "text": "Trump Calls it 'Liberation Day'",
+            "fontSize": 56,
+            "color": "#FFFFFF"
+          }
+        ],
+        "callToAction": {
+          "text": "⚠️ Protect Your Job: 3 Steps Inside",
+          "fontSize": 64,
+          "color": "#000000",
+          "background": "#FFFF00",
+          "animation": "urgent_pulse"
+        }
+      },
+      "visualElements": {
+        "backgroundPattern": "danger_stripes",
+        "colorScheme": {
+          "primary": "#FF0000",
+          "secondary": "#FFFF00",
+          "accent": "#FFD700",
+          "background": ["#1A0000", "#331A00"],
+          "text": "#FFFFFF"
+        },
+        "graphicsElements": [
+          {
+            "type": "warning_icons",
+            "style": "triangular_alerts",
+            "animation": "blink"
+          },
+          {
+            "type": "job_icons",
+            "style": "falling_figures",
+            "effect": "disappearing"
+          },
+          {
+            "type": "flag_overlay",
+            "flags": ["US", "India"],
+            "opacity": 0.3
+          }
+        ],
+        "effects": [
+          "emergency_lighting",
+          "split_screen_tear",
+          "warning_pulse"
+        ]
+      },
+      "geminiPrompt": "Create an urgent WhatsApp Status image (1080x1920px) about Trump's 50% tariff impact on IT jobs. Split-screen design: Left (green background) shows BEFORE - 25% tariff, $200B exports, 54L jobs. Right (red background) shows AFTER - 50% tariff, -30% exports, 10L jobs at risk. Top: 'TRUMP 50% TARIFF' in 108px red with warning flash. Subtitle: 'IT Jobs at Risk!' in 84px yellow blinking text. Center: Lightning bolt divider. Include shocking facts: 'Reason: Russian Oil Deals', 'Biggest IT Layoffs Ever', 'Trump: Liberation Day'. Bottom: Yellow alert bar '⚠️ Protect Your Job: 3 Steps Inside'. Use danger stripes pattern, emergency lighting effects, warning icons. Make it look like an emergency broadcast alert.",
+      "psychology": {
+        "emotionalTrigger": "Fear + Urgency",
+        "viralHook": "Personal job threat",
+        "shareMotivation": "Warning to peers"
+      }
+    },
+    {
+      "designId": "viral_003_bitcoin_crash",
+      "theme": "$109K → $94K: Bitcoin Reality Check",
+      "targetSegment": "Gold",
+      "viralScore": 9.2,
+      "layout": {
+        "type": "dramatic_crash_visualization",
+        "sections": {
+          "top": {
+            "height": "25%",
+            "content": "peak_to_crash",
+            "background": "gradient_fall"
+          },
+          "middle": {
+            "height": "55%",
+            "content": "crash_chart",
+            "background": "dark_chart_bg"
+          },
+          "bottom": {
+            "height": "20%",
+            "content": "wisdom_cta",
+            "background": "professional_bar"
+          }
+        }
+      },
+      "content": {
+        "headline": {
+          "text": "$109,356",
+          "fontSize": 96,
+          "color": "#00FF00",
+          "effect": "strike_through",
+          "position": {
+            "x": "left",
+            "y": "10%"
+          }
+        },
+        "crashArrow": {
+          "type": "animated_arrow",
+          "direction": "diagonal_down",
+          "color": "#FF0000",
+          "size": "large",
+          "animation": "falling"
+        },
+        "currentPrice": {
+          "text": "$94,500",
+          "fontSize": 96,
+          "color": "#FF0000",
+          "effect": "glow_red",
+          "position": {
+            "x": "right",
+            "y": "18%"
+          }
+        },
+        "shockValue": {
+          "text": "-$14,856",
+          "fontSize": 120,
+          "color": "#FF0000",
+          "effect": "dripping_blood",
+          "position": {
+            "x": "center",
+            "y": "35%"
+          }
+        },
+        "percentageDrop": {
+          "text": "-13.6% CRASH",
+          "fontSize": 84,
+          "color": "#FF6666",
+          "background": "#000000",
+          "effect": "shake",
+          "position": {
+            "x": "center",
+            "y": "45%"
+          }
+        },
+        "chartVisualization": {
+          "type": "candlestick_cliff",
+          "timeframe": "Jan 17-20",
+          "peakPoint": {
+            "date": "Jan 17",
+            "value": "$109,356",
+            "marker": "gold_star"
+          },
+          "crashPoint": {
+            "date": "Jan 20",
+            "value": "$94,500",
+            "marker": "red_cross"
+          },
+          "volumeBars": {
+            "color": "#FF0000",
+            "label": "Panic Selling"
+          }
+        },
+        "comparisonStats": [
+          {
+            "text": "Gold: +3% Same Period",
+            "fontSize": 56,
+            "color": "#FFD700"
+          },
+          {
+            "text": "FD Returns: Peaceful Sleep",
+            "fontSize": 56,
+            "color": "#00FF00"
+          },
+          {
+            "text": "Crypto Bros: -₹50 Lakh Loss",
+            "fontSize": 56,
+            "color": "#FF6666"
+          }
+        ],
+        "wisdomQuote": {
+          "text": "\"Volatility is not your friend\"",
+          "fontSize": 48,
+          "color": "#FFFFFF",
+          "style": "italic"
+        },
+        "callToAction": {
+          "text": "Learn: Why Smart Money Exited at $105K",
+          "fontSize": 64,
+          "color": "#FFD700",
+          "background": "#1A1A1A",
+          "animation": "subtle_glow"
+        }
+      },
+      "visualElements": {
+        "backgroundPattern": "falling_bitcoin_symbols",
+        "colorScheme": {
+          "primary": "#FF0000",
+          "secondary": "#000000",
+          "accent": "#FFD700",
+          "background": ["#0A0A0A", "#1A0000"],
+          "text": "#FFFFFF"
+        },
+        "graphicsElements": [
+          {
+            "type": "cliff_chart",
+            "style": "dramatic_drop",
+            "animation": "trace_fall"
+          },
+          {
+            "type": "bitcoin_logo",
+            "effect": "cracking",
+            "position": "watermark"
+          },
+          {
+            "type": "comparison_bars",
+            "assets": ["Bitcoin", "Gold", "FD"],
+            "style": "side_by_side"
+          }
+        ],
+        "effects": [
+          "red_gradient_overlay",
+          "falling_particles",
+          "crack_animation",
+          "professional_finish"
+        ]
+      },
+      "geminiPrompt": "Create a dramatic WhatsApp Status image (1080x1920px) showing Bitcoin's crash from $109,356 to $94,500. Top section: '$109,356' in green with strike-through, large red diagonal arrow pointing down to '$94,500' in red. Center: Huge '-$14,856' in 120px blood-red dripping font. Show '-13.6% CRASH' in shaking red text on black bar. Include dramatic candlestick chart showing cliff-like drop from Jan 17-20. Add comparison: 'Gold: +3% Same Period' in gold, 'FD Returns: Peaceful Sleep' in green, 'Crypto Bros: -₹50L Loss' in red. Bottom: Professional bar with 'Learn: Why Smart Money Exited at $105K' in gold. Dark background with falling Bitcoin symbols at 20% opacity. Use red gradient overlay, crack effects on Bitcoin logo. Make it look like a financial disaster visualization with professional data presentation.",
+      "psychology": {
+        "emotionalTrigger": "Schadenfreude + Wisdom",
+        "viralHook": "Dramatic loss visualization",
+        "shareMotivation": "I told you so / Warning"
+      }
+    }
+  ],
+  "distributionStrategy": {
+    "timing": {
+      "design1_fii_mystery": {
+        "optimalTime": "9:00 AM",
+        "reason": "Market opening curiosity peak"
+      },
+      "design2_trump_tariff": {
+        "optimalTime": "1:00 PM",
+        "reason": "Lunch break viral sharing window"
+      },
+      "design3_bitcoin_crash": {
+        "optimalTime": "8:00 PM",
+        "reason": "Evening reflection time"
+      }
+    },
+    "sequencing": "Release 4 hours apart for maximum viral momentum",
+    "crossPromotion": "Link stories with 'Swipe for next shock' CTAs"
+  },
+  "viralAmplification": {
+    "hashtags": [
+      "#2LakhCroreExit",
+      "#FIIvsDII",
+      "#TrumpTariffs",
+      "#ITJobsAtRisk",
+      "#BitcoinCrash",
+      "#109Kto94K",
+      "#MarketShock",
+      "#InvestmentReality"
+    ],
+    "shareabilityFactors": [
+      "Shocking numbers prominently displayed",
+      "High contrast visuals for thumbnail impact",
+      "Mystery and urgency elements",
+      "Personal relevance (jobs, investments)",
+      "Professional credibility with data"
+    ]
+  },
+  "technicalSpecs": {
+    "format": "PNG with transparency support",
+    "resolution": "1080x1920 pixels",
+    "colorMode": "RGB",
+    "fileSize": "Under 2MB for fast loading",
+    "accessibility": {
+      "contrastRatio": "Minimum 4.5:1",
+      "readability": "3-second comprehension test passed",
+      "mobileOptimized": true
+    }
+  }
+}

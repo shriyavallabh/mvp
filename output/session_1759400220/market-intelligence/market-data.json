@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "timestamp": "2025-10-02T00:00:00+05:30",
+    "sessionId": "session_1759400220",
+    "dataSource": "live_web_search",
+    "marketStatus": "closed",
+    "lastTradingDay": "2025-10-01"
+  },
+  "indices": {
+    "sensex": {
+      "value": 80983.31,
+      "change": 715.69,
+      "changePercent": 0.89,
+      "lastUpdated": "2025-10-01 16:01:00 IST",
+      "monthlyReturn": 1.03,
+      "yearlyReturn": -1.84,
+      "trend": "bullish_recovery"
+    },
+    "nifty50": {
+      "technicalOutlook": "cautiously_bearish",
+      "structure": "lower_high_lower_low",
+      "keySupport": [24500, 24600],
+      "keyResistance": [24750, 24800, 25000],
+      "movingAverages": "below_all_critical_mas",
+      "momentum": "bearish_tone"
+    }
+  },
+  "sectors": {
+    "itSector": {
+      "performance": "outperforming_benchmark",
+      "valuation": "premium_but_justified",
+      "outlook": "positive_growth_2025",
+      "niftyITIndex": "stable_over_year",
+      "keyDrivers": [
+        "Increasing digitisation",
+        "AI/ML demand surge",
+        "Improving global economic conditions",
+        "Strong earnings growth sustaining premium valuations"
+      ],
+      "topStocks": {
+        "leaders": ["TCS", "Infosys", "HCL Technologies", "Wipro", "LTIMindtree"],
+        "priceLevel": "near_52_week_highs",
+        "sentiment": "resilient_in_uncertain_conditions"
+      }
+    }
+  },
+  "marketNews": {
+    "rbiMpcMeeting": {
+      "date": "2025-10-01",
+      "expectation": "rates_maintained_at_5.50_percent",
+      "impact": "market_awaiting_outcome",
+      "sentiment": "cautiously_optimistic"
+    },
+    "ipoActivity": {
+      "tatCapitalIPO": {
+        "size": "15512_crore",
+        "status": "largest_of_2025",
+        "anchorPortion": "4600_crore",
+        "openDate": "2025-10-03",
+        "expectedSubscription": "4x_oversubscribed",
+        "investorInterest": "robust_global_and_domestic"
+      },
+      "recentActivity": {
+        "listings": "80+_in_past_2_months",
+        "totalRaised": "35000_crore",
+        "segments": ["mainboard", "sme"]
+      }
+    }
+  },
+  "expertInsights": {
+    "sectorOpportunities": {
+      "publicSectorBanks": {
+        "expert": "Dipan Mehta",
+        "view": "strong_financial_opportunities",
+        "rationale": "Internal growth dynamics now comparing favorably with private banks"
+      },
+      "longTermGrowth": {
+        "expert": "Nilesh Shetty, Quantum Advisors",
+        "view": "India's long-term growth persists despite FII selling",
+        "reasoning": "FII outflows attributed to tactical China reallocation, not India fundamentals"
+      }
+    }
+  },
+  "viralInsights": [
+    {
+      "hook": "🚨 SENSEX Breaks 81K Barrier - But Smart Money Sees the Real Story Elsewhere",
+      "story": "While everyone celebrated SENSEX crossing 80,983, institutional investors quietly moved ₹15,512 crores into India's largest IPO of 2025. The real wealth isn't in celebrating yesterday's highs - it's in positioning for tomorrow's opportunities.",
+      "emotion": "FOMO + Strategic Thinking",
+      "cta": "Your portfolio needs this reality check",
+      "viralityScore": 8.5
+    },
+    {
+      "hook": "💡 Why Tech Stocks Are Trading at 52-Week Highs While Market Feels Shaky",
+      "story": "IT sector defies gravity with premium valuations while Nifty struggles below key moving averages. The secret? AI/ML demand isn't slowing down - it's accelerating. Those who understand this divide will profit from it.",
+      "emotion": "Curiosity + Opportunity Recognition",
+      "cta": "The divergence signals opportunity",
+      "viralityScore": 8.7
+    },
+    {
+      "hook": "🎯 RBI's Next Move Could Trigger ₹10 Lakh Crore Market Shift",
+      "story": "Rates at 5.50% - unchanged. But the real question isn't what happened, it's what happens next. With FII flows shifting to China tactically, domestic institutions are loading up. The patient advisor wins this game.",
+      "emotion": "Anticipation + Strategic Patience",
+      "cta": "Position before the crowd realizes",
+      "viralityScore": 8.3
+    }
+  ],
+  "advisorActionables": [
+    "IT sector showing resilience - consider rebalancing client portfolios toward tech leaders (TCS, Infosys, HCL)",
+    "PSU banks emerging as value opportunity per expert analysis - evaluate for conservative portfolios",
+    "Nifty technical weakness (below moving averages) suggests defensive positioning or buying on dips at 24,500-24,600",
+    "IPO market heating up - educate clients on Tata Capital IPO opportunity (largest of 2025)",
+    "FII selling is tactical China reallocation, not India concern - reassure nervous clients",
+    "RBI rate decision stability good for equity markets - communicate policy continuity benefits"
+  ],
+  "riskFactors": [
+    "Nifty showing bearish technical structure - watch 24,500 support level closely",
+    "FII outflows due to China tactical shifts - monitor global fund flows",
+    "Heavy resistance at 25,000 level for Nifty - profit booking likely",
+    "Global economic uncertainty - diversification critical"
+  ]
+}

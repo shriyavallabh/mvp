@@ -1,0 +1,39 @@
+📊 ANALYTICS DASHBOARD
+==================================================
+
+Session: session_2025-09-17T14-10-23Z
+Generated: 2025-09-17 19:51:36
+
+🌐 PLATFORM METRICS
+------------------------------
+Total Reach: 3,252
+Total Engagement: 402
+Avg Performance: 53.8%
+Best Advisor: Shruti Petkar
+Best Channel: email
+
+👥 ADVISOR PERFORMANCE
+------------------------------
+
+Shruti Petkar:
+  Reach: 1,180
+  Engagement: 132
+  Performance: 55.7%
+  Trend: stable
+
+Vidyadhar Kulkarni:
+  Reach: 984
+  Engagement: 148
+  Performance: 53.0%
+  Trend: stable
+
+Avalok Shah:
+  Reach: 1,088
+  Engagement: 122
+  Performance: 52.7%
+  Trend: stable
+
+💡 KEY INSIGHTS
+------------------------------
+• Strong engagement rate of 12.5% indicates resonating content
+• Email is the most effective distribution channel

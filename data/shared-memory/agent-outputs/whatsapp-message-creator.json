@@ -1,0 +1,30 @@
+{
+  "sessionId": "mcp_session_2025-09-17T22-05-42",
+  "agentName": "whatsapp-message-creator",
+  "status": "pending",
+  "data": {
+    "messages": [],
+    "templates": {},
+    "personalization": {},
+    "delivery": {},
+    "compliance": {}
+  },
+  "metadata": {
+    "messagesGenerated": 0,
+    "templatesCreated": 0,
+    "personalizationsApplied": 0,
+    "complianceScore": "pending"
+  },
+  "structure": {
+    "messages": "Generated WhatsApp messages with full content",
+    "templates": "Message templates for different scenarios",
+    "personalization": "Personalization data per advisor/segment",
+    "delivery": "Delivery optimization and timing",
+    "compliance": "Compliance validation data"
+  },
+  "dependencies": {
+    "requires": ["segment-definitions", "content-strategies", "advisor-context"],
+    "provides": ["whatsapp-content", "message-templates", "delivery-schedule"]
+  },
+  "timestamp": "2025-09-17T22:05:42Z"
+}

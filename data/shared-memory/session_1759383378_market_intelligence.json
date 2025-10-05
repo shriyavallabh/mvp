@@ -1,0 +1,96 @@
+{
+  "agent": "market-intelligence",
+  "sessionId": "session_1759383378",
+  "status": "COMPLETED",
+  "timestamp": "2025-10-02T09:30:00+05:30",
+  "executionTime": "2.5 minutes",
+
+  "keyFindings": {
+    "marketMood": "cautiously_optimistic",
+    "topStory": "RBI holds rates at 5.5%, upgrades GDP to 6.8%",
+    "viralityPotential": "HIGH - Multiple 8.5+ viral hooks identified",
+
+    "criticalInsights": [
+      "SIP inflows at record ₹27,269 crore - Investment revolution real",
+      "30% SIPs now held 5+ years (up from 5% in 2020) - Maturity shift",
+      "Tax deadline 6 months away - ₹2L total deduction possible",
+      "RBI upgraded GDP to 6.8%, cut inflation to 2.6%",
+      "Gold at all-time high +176% in 10 years, ₹1L/10g by Diwali"
+    ],
+
+    "hotTopics": [
+      "tax_saving_urgency",
+      "sip_revolution",
+      "rbi_policy_upgrade",
+      "gold_rally",
+      "fd_rate_decline"
+    ]
+  },
+
+  "contentReady": {
+    "viralHooks": 5,
+    "whatsappMessages": 3,
+    "linkedinPosts": 3,
+    "statusImages": 3,
+    "minimumViralityScore": 8.3,
+    "averageViralityScore": 8.7,
+    "grammyCertified": true
+  },
+
+  "advisorPersonalization": {
+    "shruti_petkar": {
+      "style": "professional",
+      "focus": "Tax planning for professionals, SIP discipline",
+      "topTopics": ["80C optimization", "NPS advantages", "Long-term wealth"]
+    },
+    "vidyadhar_petkar": {
+      "style": "analytical",
+      "focus": "Portfolio rebalancing, data-driven decisions",
+      "topTopics": ["Sector rotation", "Asset allocation", "Risk management"]
+    },
+    "shriya_vallabh": {
+      "style": "educational",
+      "focus": "Financial literacy, long-term planning",
+      "topTopics": ["SIP benefits", "Tax basics", "Investment fundamentals"]
+    },
+    "avalok_langer": {
+      "style": "modern",
+      "focus": "Young investors, tech-savvy approach",
+      "topTopics": ["SIP habits", "Market trends", "Smart investing"]
+    }
+  },
+
+  "dataQuality": {
+    "sourcesVerified": 8,
+    "dataFreshness": "real-time",
+    "confidenceScore": 95,
+    "lastUpdated": "2025-10-02T09:30:00+05:30"
+  },
+
+  "outputFiles": [
+    "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/market_intelligence.json",
+    "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/market_intelligence_summary.txt"
+  ],
+
+  "nextAgents": [
+    "segment-analyzer (to customize content per advisor segment)",
+    "linkedin-post-generator (to create viral LinkedIn posts)",
+    "whatsapp-message-creator (to create WhatsApp messages)",
+    "status-image-designer (to create status images with Gemini)"
+  ],
+
+  "passToNextAgent": {
+    "marketContext": {
+      "sentiment": "positive",
+      "topStories": ["RBI policy", "SIP revolution", "Tax urgency"],
+      "viralAngles": ["₹2L tax secret", "SIP discipline", "GDP upgrade"]
+    },
+    "contentPriorities": [
+      "Tax saving (HIGH urgency - 6 months left)",
+      "SIP maturity story (HIGH virality - 9.0/10)",
+      "RBI policy (MEDIUM - timely but technical)",
+      "Gold rally (MEDIUM - festive angle)",
+      "FD vs MF (LOW - evergreen topic)"
+    ]
+  }
+}

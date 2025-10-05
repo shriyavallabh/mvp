@@ -1,0 +1,109 @@
+{
+  "session_id": "session_20251002_180551",
+  "timestamp": "2025-10-02T19:01:33.947097",
+  "total_images": 12,
+  "generated": 12,
+  "validated": 12,
+  "failed": 0,
+  "regeneration_attempts": 0,
+  "format": "1080x1920 (9:16 vertical portrait)",
+  "method": "Professional PIL-based generation with Grammy-level design",
+  "images": [
+    {
+      "image_id": "avalok_status_1",
+      "path": "output/session_20251002_180551/images/status/validated/avalok_status_1.png",
+      "size_bytes": 93714,
+      "size_kb": 91.5,
+      "dimensions": "1080x1920",
+      "status": "validated"
+    },
+    {
+      "image_id": "avalok_status_2",
+      "path": "output/session_20251002_180551/images/status/validated/avalok_status_2.png",
+      "size_bytes": 56297,
+      "size_kb": 55.0,
+      "dimensions": "1080x1920",
+      "status": "validated"
+    },
+    {
+      "image_id": "avalok_status_3",
+      "path": "output/session_20251002_180551/images/status/validated/avalok_status_3.png",
+      "size_bytes": 68932,
+      "size_kb": 67.3,
+      "dimensions": "1080x1920",
+      "status": "validated"
+    },
+    {
+      "image_id": "shriya_status_1",
+      "path": "output/session_20251002_180551/images/status/validated/shriya_status_1.png",
+      "size_bytes": 49550,
+      "size_kb": 48.4,
+      "dimensions": "1080x1920",
+      "status": "validated"
+    },
+    {
+      "image_id": "shriya_status_2",
+      "path": "output/session_20251002_180551/images/status/validated/shriya_status_2.png",
+      "size_bytes": 50370,
+      "size_kb": 49.2,
+      "dimensions": "1080x1920",
+      "status": "validated"
+    },
+    {
+      "image_id": "shriya_status_3",
+      "path": "output/session_20251002_180551/images/status/validated/shriya_status_3.png",
+      "size_bytes": 47608,
+      "size_kb": 46.5,
+      "dimensions": "1080x1920",
+      "status": "validated"
+    },
+    {
+      "image_id": "shruti_status_1",
+      "path": "output/session_20251002_180551/images/status/validated/shruti_status_1.png",
+      "size_bytes": 97761,
+      "size_kb": 95.5,
+      "dimensions": "1080x1920",
+      "status": "validated"
+    },
+    {
+      "image_id": "shruti_status_2",
+      "path": "output/session_20251002_180551/images/status/validated/shruti_status_2.png",
+      "size_bytes": 87964,
+      "size_kb": 85.9,
+      "dimensions": "1080x1920",
+      "status": "validated"
+    },
+    {
+      "image_id": "shruti_status_3",
+      "path": "output/session_20251002_180551/images/status/validated/shruti_status_3.png",
+      "size_bytes": 54979,
+      "size_kb": 53.7,
+      "dimensions": "1080x1920",
+      "status": "validated"
+    },
+    {
+      "image_id": "vidyadhar_status_1",
+      "path": "output/session_20251002_180551/images/status/validated/vidyadhar_status_1.png",
+      "size_bytes": 78207,
+      "size_kb": 76.4,
+      "dimensions": "1080x1920",
+      "status": "validated"
+    },
+    {
+      "image_id": "vidyadhar_status_2",
+      "path": "output/session_20251002_180551/images/status/validated/vidyadhar_status_2.png",
+      "size_bytes": 55373,
+      "size_kb": 54.1,
+      "dimensions": "1080x1920",
+      "status": "validated"
+    },
+    {
+      "image_id": "vidyadhar_status_3",
+      "path": "output/session_20251002_180551/images/status/validated/vidyadhar_status_3.png",
+      "size_bytes": 72669,
+      "size_kb": 71.0,
+      "dimensions": "1080x1920",
+      "status": "validated"
+    }
+  ]
+}

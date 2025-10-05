@@ -1,0 +1,38 @@
+FATIGUE CHECK SUMMARY - session_20250920_231535
+================================================
+
+🔴 CRITICAL ALERT: HIGH CONTENT FATIGUE DETECTED
+
+Key Issues Found:
+-----------------
+1. FII EXODUS THEME REPETITION (82% similarity)
+   - Current: "₹2.35 lakh crore left India"
+   - Previous: "₹1.2 lakh crore FII exodus"
+   - SAME NARRATIVE, DIFFERENT NUMBERS
+
+2. VIRAL STYLE MONOTONY
+   - Ankur Warikoo style overused (60% of recent posts)
+   - Audience expects this pattern now
+
+3. EMOTIONAL TRIGGER REPETITION
+   - "Fear to Hope" used in both sessions
+   - Missing: Greed, FOMO, Inspiration triggers
+
+Fresh Alternatives Available:
+-----------------------------
+✅ Trump Tariff Impact (unused, high potential)
+✅ Bitcoin Crash Story (trending, viral-worthy)
+✅ Budget 2025 Benefits (timely, actionable)
+✅ Gold vs Equity (evergreen, engaging)
+
+Immediate Actions Required:
+---------------------------
+1. STOP using FII/DII narrative
+2. SWITCH to Trump tariff or Bitcoin angle
+3. ROTATE to Rachana Ranade or Sharan style
+4. VARY hook types beyond shock numbers
+
+Freshness Score: 45/100 (FAIL)
+Recommendation: DO NOT DISTRIBUTE without changes
+
+Override allowed but strongly discouraged.

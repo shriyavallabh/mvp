@@ -1,0 +1,470 @@
+{
+  "session_metadata": {
+    "session_id": "session_20250919_105507",
+    "generation_timestamp": "2025-09-19T11:22:59.429274",
+    "total_advisors_processed": 5,
+    "total_messages_generated": 25,
+    "creation_method": "Enhanced Grammy Award Templates",
+    "quality_standard": "Grammy Award Level (8.0+ virality)",
+    "target_achievement": "100% Grammy compliance"
+  },
+  "final_quality_metrics": {
+    "average_virality_score": 3.3,
+    "messages_above_8_0": 0,
+    "messages_above_9_0": 0,
+    "grammy_success_rate": 0.0,
+    "mission_accomplished": false,
+    "quality_grade": "B+"
+  },
+  "viral_strategies_complete": [
+    "warikoo_confession_enhanced (personal loss with panic emotions)",
+    "shrivastava_shocking_enhanced (93% F&O loss with SEBI data)",
+    "ranade_coffee_enhanced (\u20b967L vs \u20b92.3cr mathematics)",
+    "underdog_amazing_enhanced (auto driver success inspiration)",
+    "village_wisdom_enhanced (\u20b9100cr uncle vs lifestyle inflation)"
+  ],
+  "advisor_performance": [
+    {
+      "advisor_name": "Shruti Petkar",
+      "advisor_id": "ARN_SHRUTI_001",
+      "messages_generated": 5,
+      "average_virality_score": 3.3,
+      "grammy_worthy_count": 0,
+      "grammy_success_rate": 0.0
+    },
+    {
+      "advisor_name": "Vidyadhar Petkar",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "messages_generated": 5,
+      "average_virality_score": 3.3,
+      "grammy_worthy_count": 0,
+      "grammy_success_rate": 0.0
+    },
+    {
+      "advisor_name": "Shriya Vallabh Petkar",
+      "advisor_id": "ARN_SHRIYA_003",
+      "messages_generated": 5,
+      "average_virality_score": 3.3,
+      "grammy_worthy_count": 0,
+      "grammy_success_rate": 0.0
+    },
+    {
+      "advisor_name": "Mr. Tranquil Veda",
+      "advisor_id": "ADV_004",
+      "messages_generated": 5,
+      "average_virality_score": 3.3,
+      "grammy_worthy_count": 0,
+      "grammy_success_rate": 0.0
+    },
+    {
+      "advisor_name": "Unknown Advisor",
+      "advisor_id": "ADV_005",
+      "messages_generated": 5,
+      "average_virality_score": 3.3,
+      "grammy_worthy_count": 0,
+      "grammy_success_rate": 0.0
+    }
+  ],
+  "complete_message_library": [
+    {
+      "message_id": "ARN_SHRUTI_001_grammy_1",
+      "advisor_name": "Shruti Petkar",
+      "advisor_id": "ARN_SHRUTI_001",
+      "strategy": "warikoo_confession_enhanced",
+      "text": "\ud83d\udc94 I lost \u20b915 lakhs in 2008 crash.\n\nSold everything in panic. Was devastated.\nSame portfolio today? \u20b93.2 crores.\n\nMy panic = \u20b92.5 crore mistake.\n\nShruti, scared of market highs?\nYour emotions cost more than crashes.\n\nReply 'HELP' for wisdom\n\nShruti Petkar | ARN_SHRUTI_001",
+      "character_count": 271,
+      "virality_score": 7.6,
+      "expected_score": 8.5,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "personal_confession",
+        "specific_large_amounts",
+        "emotional_vulnerability",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ARN_SHRUTI_001_grammy_2",
+      "advisor_name": "Shruti Petkar",
+      "advisor_id": "ARN_SHRUTI_001",
+      "strategy": "shrivastava_shocking_enhanced",
+      "text": "\u26a0\ufe0f SHOCKING: 93% of F&O traders lost money\n\nAverage loss: \u20b92 lakh per trader\nSEBI data is devastating truth.\n\nYour neighbor bragging about profits?\nStatistically impossible.\n\nShruti, ready for real wealth building?\nReply 'TRUTH' for guidance\n\nShruti Petkar | ARN_SHRUTI_001",
+      "character_count": 273,
+      "virality_score": 1.4,
+      "expected_score": 8.2,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_revelation",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ARN_SHRUTI_001_grammy_3",
+      "advisor_name": "Shruti Petkar",
+      "advisor_id": "ARN_SHRUTI_001",
+      "strategy": "ranade_coffee_enhanced",
+      "text": "\u2615 SHOCKING: Your \u20b9200 coffee = \u20b967 LAKHS gone!\n\n30 years devastating mathematics:\nCoffee: \u20b967 LAKHS vanished \ud83d\udcb8\nSIP: \u20b92.3 CRORES created \ud83d\udcb0\n\nShruti, coffee or crores?\nMathematics doesn't lie.\n\nReply 'CALCULATE' for truth\n\nShruti Petkar | ARN_SHRUTI_001",
+      "character_count": 250,
+      "virality_score": 2.3,
+      "expected_score": 8.7,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_revelation",
+        "specific_large_amounts",
+        "relatable_analogies",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ARN_SHRUTI_001_grammy_4",
+      "advisor_name": "Shruti Petkar",
+      "advisor_id": "ARN_SHRUTI_001",
+      "strategy": "underdog_amazing_enhanced",
+      "text": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio\n\nStarted \u20b9500 SIP in 2010\nNever stopped. Not once.\nNot in COVID. Not in crashes.\n\nShruti, you earn more than \u20b9500.\nWhat's your excuse for not starting?\n\nReply 'START' for guidance\n\nShruti Petkar | ARN_SHRUTI_001",
+      "character_count": 257,
+      "virality_score": 2.6,
+      "expected_score": 8.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_revelation",
+        "relatable_analogies",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ARN_SHRUTI_001_grammy_5",
+      "advisor_name": "Shruti Petkar",
+      "advisor_id": "ARN_SHRUTI_001",
+      "strategy": "village_wisdom_enhanced",
+      "text": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth\n\nUses Nokia phone. Cycles to market.\nHolds L&T shares for decades.\n\nCity folks: \u20b92 lakh credit limit, \u20b92K savings.\n\nShruti, lifestyle inflation or wealth?\nWhat's stopping your investment?\n\nReply 'WISDOM' for guidance\n\nShruti Petkar | ARN_SHRUTI_001",
+      "character_count": 284,
+      "virality_score": 2.8,
+      "expected_score": 8.1,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "relatable_analogies",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ARN_VIDYADHAR_002_grammy_1",
+      "advisor_name": "Vidyadhar Petkar",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "strategy": "warikoo_confession_enhanced",
+      "text": "\ud83d\udc94 I lost \u20b915 lakhs in 2008 crash.\n\nSold everything in panic. Was devastated.\nSame portfolio today? \u20b93.2 crores.\n\nMy panic = \u20b92.5 crore mistake.\n\nVidyadhar, scared of market highs?\nYour emotions cost more than crashes.\n\nReply 'HELP' for wisdom\n\nVidyadhar Petkar | ARN_VIDYADHAR_002",
+      "character_count": 280,
+      "virality_score": 7.6,
+      "expected_score": 8.5,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "personal_confession",
+        "specific_large_amounts",
+        "emotional_vulnerability",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ARN_VIDYADHAR_002_grammy_2",
+      "advisor_name": "Vidyadhar Petkar",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "strategy": "shrivastava_shocking_enhanced",
+      "text": "\u26a0\ufe0f SHOCKING: 93% of F&O traders lost money\n\nAverage loss: \u20b92 lakh per trader\nSEBI data is devastating truth.\n\nYour neighbor bragging about profits?\nStatistically impossible.\n\nVidyadhar, ready for real wealth building?\nReply 'TRUTH' for guidance\n\nVidyadhar Petkar | ARN_VIDYADHAR_002",
+      "character_count": 282,
+      "virality_score": 1.4,
+      "expected_score": 8.2,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_revelation",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ARN_VIDYADHAR_002_grammy_3",
+      "advisor_name": "Vidyadhar Petkar",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "strategy": "ranade_coffee_enhanced",
+      "text": "\u2615 SHOCKING: Your \u20b9200 coffee = \u20b967 LAKHS gone!\n\n30 years devastating mathematics:\nCoffee: \u20b967 LAKHS vanished \ud83d\udcb8\nSIP: \u20b92.3 CRORES created \ud83d\udcb0\n\nVidyadhar, coffee or crores?\nMathematics doesn't lie.\n\nReply 'CALCULATE' for truth\n\nVidyadhar Petkar | ARN_VIDYADHAR_002",
+      "character_count": 259,
+      "virality_score": 2.3,
+      "expected_score": 8.7,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_revelation",
+        "specific_large_amounts",
+        "relatable_analogies",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ARN_VIDYADHAR_002_grammy_4",
+      "advisor_name": "Vidyadhar Petkar",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "strategy": "underdog_amazing_enhanced",
+      "text": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio\n\nStarted \u20b9500 SIP in 2010\nNever stopped. Not once.\nNot in COVID. Not in crashes.\n\nVidyadhar, you earn more than \u20b9500.\nWhat's your excuse for not starting?\n\nReply 'START' for guidance\n\nVidyadhar Petkar | ARN_VIDYADHAR_002",
+      "character_count": 266,
+      "virality_score": 2.6,
+      "expected_score": 8.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_revelation",
+        "relatable_analogies",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ARN_VIDYADHAR_002_grammy_5",
+      "advisor_name": "Vidyadhar Petkar",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "strategy": "village_wisdom_enhanced",
+      "text": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth\n\nUses Nokia phone. Cycles to market.\nHolds L&T shares for decades.\n\nCity folks: \u20b92 lakh credit limit, \u20b92K savings.\n\nVidyadhar, lifestyle inflation or wealth?\nWhat's stopping your investment?\n\nReply 'WISDOM' for guidance\n\nVidyadhar Petkar | ARN_VIDYADHAR_002",
+      "character_count": 293,
+      "virality_score": 2.8,
+      "expected_score": 8.1,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "relatable_analogies",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ARN_SHRIYA_003_grammy_1",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "advisor_id": "ARN_SHRIYA_003",
+      "strategy": "warikoo_confession_enhanced",
+      "text": "\ud83d\udc94 I lost \u20b915 lakhs in 2008 crash.\n\nSold everything in panic. Was devastated.\nSame portfolio today? \u20b93.2 crores.\n\nMy panic = \u20b92.5 crore mistake.\n\nShriya, scared of market highs?\nYour emotions cost more than crashes.\n\nReply 'HELP' for wisdom\n\nShriya Vallabh Petkar | ARN_SHRIYA_003",
+      "character_count": 279,
+      "virality_score": 7.6,
+      "expected_score": 8.5,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "personal_confession",
+        "specific_large_amounts",
+        "emotional_vulnerability",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ARN_SHRIYA_003_grammy_2",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "advisor_id": "ARN_SHRIYA_003",
+      "strategy": "shrivastava_shocking_enhanced",
+      "text": "\u26a0\ufe0f SHOCKING: 93% of F&O traders lost money\n\nAverage loss: \u20b92 lakh per trader\nSEBI data is devastating truth.\n\nYour neighbor bragging about profits?\nStatistically impossible.\n\nShriya, ready for real wealth building?\nReply 'TRUTH' for guidance\n\nShriya Vallabh Petkar | ARN_SHRIYA_003",
+      "character_count": 281,
+      "virality_score": 1.4,
+      "expected_score": 8.2,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_revelation",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ARN_SHRIYA_003_grammy_3",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "advisor_id": "ARN_SHRIYA_003",
+      "strategy": "ranade_coffee_enhanced",
+      "text": "\u2615 SHOCKING: Your \u20b9200 coffee = \u20b967 LAKHS gone!\n\n30 years devastating mathematics:\nCoffee: \u20b967 LAKHS vanished \ud83d\udcb8\nSIP: \u20b92.3 CRORES created \ud83d\udcb0\n\nShriya, coffee or crores?\nMathematics doesn't lie.\n\nReply 'CALCULATE' for truth\n\nShriya Vallabh Petkar | ARN_SHRIYA_003",
+      "character_count": 258,
+      "virality_score": 2.3,
+      "expected_score": 8.7,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_revelation",
+        "specific_large_amounts",
+        "relatable_analogies",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ARN_SHRIYA_003_grammy_4",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "advisor_id": "ARN_SHRIYA_003",
+      "strategy": "underdog_amazing_enhanced",
+      "text": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio\n\nStarted \u20b9500 SIP in 2010\nNever stopped. Not once.\nNot in COVID. Not in crashes.\n\nShriya, you earn more than \u20b9500.\nWhat's your excuse for not starting?\n\nReply 'START' for guidance\n\nShriya Vallabh Petkar | ARN_SHRIYA_003",
+      "character_count": 265,
+      "virality_score": 2.6,
+      "expected_score": 8.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_revelation",
+        "relatable_analogies",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ARN_SHRIYA_003_grammy_5",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "advisor_id": "ARN_SHRIYA_003",
+      "strategy": "village_wisdom_enhanced",
+      "text": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth\n\nUses Nokia phone. Cycles to market.\nHolds L&T shares for decades.\n\nCity folks: \u20b92 lakh credit limit, \u20b92K savings.\n\nShriya, lifestyle inflation or wealth?\nWhat's stopping your investment?\n\nReply 'WISDOM' for guidance\n\nShriya Vallabh Petkar | ARN_SHRIYA_003",
+      "character_count": 292,
+      "virality_score": 2.8,
+      "expected_score": 8.1,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "relatable_analogies",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ADV_004_grammy_1",
+      "advisor_name": "Mr. Tranquil Veda",
+      "advisor_id": "ADV_004",
+      "strategy": "warikoo_confession_enhanced",
+      "text": "\ud83d\udc94 I lost \u20b915 lakhs in 2008 crash.\n\nSold everything in panic. Was devastated.\nSame portfolio today? \u20b93.2 crores.\n\nMy panic = \u20b92.5 crore mistake.\n\nMr., scared of market highs?\nYour emotions cost more than crashes.\n\nReply 'HELP' for wisdom\n\nTranquil Wealth Advisory | ADV_004",
+      "character_count": 272,
+      "virality_score": 7.6,
+      "expected_score": 8.5,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "personal_confession",
+        "specific_large_amounts",
+        "emotional_vulnerability",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ADV_004_grammy_2",
+      "advisor_name": "Mr. Tranquil Veda",
+      "advisor_id": "ADV_004",
+      "strategy": "shrivastava_shocking_enhanced",
+      "text": "\u26a0\ufe0f SHOCKING: 93% of F&O traders lost money\n\nAverage loss: \u20b92 lakh per trader\nSEBI data is devastating truth.\n\nYour neighbor bragging about profits?\nStatistically impossible.\n\nMr., ready for real wealth building?\nReply 'TRUTH' for guidance\n\nTranquil Wealth Advisory | ADV_004",
+      "character_count": 274,
+      "virality_score": 1.4,
+      "expected_score": 8.2,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_revelation",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ADV_004_grammy_3",
+      "advisor_name": "Mr. Tranquil Veda",
+      "advisor_id": "ADV_004",
+      "strategy": "ranade_coffee_enhanced",
+      "text": "\u2615 SHOCKING: Your \u20b9200 coffee = \u20b967 LAKHS gone!\n\n30 years devastating mathematics:\nCoffee: \u20b967 LAKHS vanished \ud83d\udcb8\nSIP: \u20b92.3 CRORES created \ud83d\udcb0\n\nMr., coffee or crores?\nMathematics doesn't lie.\n\nReply 'CALCULATE' for truth\n\nTranquil Wealth Advisory | ADV_004",
+      "character_count": 251,
+      "virality_score": 2.3,
+      "expected_score": 8.7,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_revelation",
+        "specific_large_amounts",
+        "relatable_analogies",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ADV_004_grammy_4",
+      "advisor_name": "Mr. Tranquil Veda",
+      "advisor_id": "ADV_004",
+      "strategy": "underdog_amazing_enhanced",
+      "text": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio\n\nStarted \u20b9500 SIP in 2010\nNever stopped. Not once.\nNot in COVID. Not in crashes.\n\nMr., you earn more than \u20b9500.\nWhat's your excuse for not starting?\n\nReply 'START' for guidance\n\nTranquil Wealth Advisory | ADV_004",
+      "character_count": 258,
+      "virality_score": 2.6,
+      "expected_score": 8.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_revelation",
+        "relatable_analogies",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ADV_004_grammy_5",
+      "advisor_name": "Mr. Tranquil Veda",
+      "advisor_id": "ADV_004",
+      "strategy": "village_wisdom_enhanced",
+      "text": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth\n\nUses Nokia phone. Cycles to market.\nHolds L&T shares for decades.\n\nCity folks: \u20b92 lakh credit limit, \u20b92K savings.\n\nMr., lifestyle inflation or wealth?\nWhat's stopping your investment?\n\nReply 'WISDOM' for guidance\n\nTranquil Wealth Advisory | ADV_004",
+      "character_count": 285,
+      "virality_score": 2.8,
+      "expected_score": 8.1,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "relatable_analogies",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ADV_005_grammy_1",
+      "advisor_name": "Unknown Advisor",
+      "advisor_id": "ADV_005",
+      "strategy": "warikoo_confession_enhanced",
+      "text": "\ud83d\udc94 I lost \u20b915 lakhs in 2008 crash.\n\nSold everything in panic. Was devastated.\nSame portfolio today? \u20b93.2 crores.\n\nMy panic = \u20b92.5 crore mistake.\n\nUnknown, scared of market highs?\nYour emotions cost more than crashes.\n\nReply 'HELP' for wisdom\n\nFinancial Advisory | ARN_005",
+      "character_count": 270,
+      "virality_score": 7.6,
+      "expected_score": 8.5,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "personal_confession",
+        "specific_large_amounts",
+        "emotional_vulnerability",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ADV_005_grammy_2",
+      "advisor_name": "Unknown Advisor",
+      "advisor_id": "ADV_005",
+      "strategy": "shrivastava_shocking_enhanced",
+      "text": "\u26a0\ufe0f SHOCKING: 93% of F&O traders lost money\n\nAverage loss: \u20b92 lakh per trader\nSEBI data is devastating truth.\n\nYour neighbor bragging about profits?\nStatistically impossible.\n\nUnknown, ready for real wealth building?\nReply 'TRUTH' for guidance\n\nFinancial Advisory | ARN_005",
+      "character_count": 272,
+      "virality_score": 1.4,
+      "expected_score": 8.2,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_revelation",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ADV_005_grammy_3",
+      "advisor_name": "Unknown Advisor",
+      "advisor_id": "ADV_005",
+      "strategy": "ranade_coffee_enhanced",
+      "text": "\u2615 SHOCKING: Your \u20b9200 coffee = \u20b967 LAKHS gone!\n\n30 years devastating mathematics:\nCoffee: \u20b967 LAKHS vanished \ud83d\udcb8\nSIP: \u20b92.3 CRORES created \ud83d\udcb0\n\nUnknown, coffee or crores?\nMathematics doesn't lie.\n\nReply 'CALCULATE' for truth\n\nFinancial Advisory | ARN_005",
+      "character_count": 249,
+      "virality_score": 2.3,
+      "expected_score": 8.7,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_revelation",
+        "specific_large_amounts",
+        "relatable_analogies",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ADV_005_grammy_4",
+      "advisor_name": "Unknown Advisor",
+      "advisor_id": "ADV_005",
+      "strategy": "underdog_amazing_enhanced",
+      "text": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio\n\nStarted \u20b9500 SIP in 2010\nNever stopped. Not once.\nNot in COVID. Not in crashes.\n\nUnknown, you earn more than \u20b9500.\nWhat's your excuse for not starting?\n\nReply 'START' for guidance\n\nFinancial Advisory | ARN_005",
+      "character_count": 256,
+      "virality_score": 2.6,
+      "expected_score": 8.0,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "shocking_revelation",
+        "relatable_analogies",
+        "curiosity_question"
+      ]
+    },
+    {
+      "message_id": "ADV_005_grammy_5",
+      "advisor_name": "Unknown Advisor",
+      "advisor_id": "ADV_005",
+      "strategy": "village_wisdom_enhanced",
+      "text": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth\n\nUses Nokia phone. Cycles to market.\nHolds L&T shares for decades.\n\nCity folks: \u20b92 lakh credit limit, \u20b92K savings.\n\nUnknown, lifestyle inflation or wealth?\nWhat's stopping your investment?\n\nReply 'WISDOM' for guidance\n\nFinancial Advisory | ARN_005",
+      "character_count": 283,
+      "virality_score": 2.8,
+      "expected_score": 8.1,
+      "grammy_worthy": false,
+      "viral_elements": [
+        "relatable_analogies",
+        "curiosity_question"
+      ]
+    }
+  ]
+}

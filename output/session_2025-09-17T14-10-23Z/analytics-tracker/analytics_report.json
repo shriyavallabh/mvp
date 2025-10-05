@@ -1,0 +1,194 @@
+{
+  "timestamp": "2025-09-17T19:51:36.332381",
+  "agent": "analytics-tracker",
+  "status": "success",
+  "session_id": "session_2025-09-17T14-10-23Z",
+  "analytics_results": [
+    {
+      "advisor_id": "ADV_001",
+      "advisor_name": "Shruti Petkar",
+      "timestamp": "2025-09-17T19:51:36.332323",
+      "channel_metrics": {
+        "whatsapp": {
+          "metrics": {
+            "views": 336,
+            "likes": 10,
+            "shares": 8,
+            "comments": 3,
+            "clicks": 13,
+            "engagement_rate": 12.81
+          },
+          "performance_score": 32.74,
+          "status": "delivered"
+        },
+        "email": {
+          "metrics": {
+            "views": 478,
+            "likes": 35,
+            "shares": 19,
+            "comments": 6,
+            "clicks": 59,
+            "engagement_rate": 6.55
+          },
+          "performance_score": 73.02,
+          "status": "sent"
+        },
+        "linkedin_draft": {
+          "metrics": {
+            "views": 366,
+            "likes": 37,
+            "shares": 5,
+            "comments": 9,
+            "clicks": 74,
+            "engagement_rate": 13.57
+          },
+          "performance_score": 61.24,
+          "status": "draft_created"
+        }
+      },
+      "overall_metrics": {
+        "total_reach": 1180,
+        "total_engagement": 132,
+        "average_performance": 55.666666666666664
+      },
+      "trends": {
+        "direction": "stable",
+        "growth_rate": 0,
+        "best_performing": "views",
+        "needs_improvement": "comments"
+      },
+      "recommendations": [
+        "Improve whatsapp content strategy",
+        "Focus on improving comments metrics"
+      ]
+    },
+    {
+      "advisor_id": "ADV_002",
+      "advisor_name": "Vidyadhar Kulkarni",
+      "timestamp": "2025-09-17T19:51:36.332351",
+      "channel_metrics": {
+        "whatsapp": {
+          "metrics": {
+            "views": 435,
+            "likes": 39,
+            "shares": 6,
+            "comments": 6,
+            "clicks": 97,
+            "engagement_rate": 10.83
+          },
+          "performance_score": 64.5,
+          "status": "delivered"
+        },
+        "email": {
+          "metrics": {
+            "views": 464,
+            "likes": 36,
+            "shares": 3,
+            "comments": 0,
+            "clicks": 11,
+            "engagement_rate": 12.84
+          },
+          "performance_score": 44.26,
+          "status": "sent"
+        },
+        "linkedin_draft": {
+          "metrics": {
+            "views": 85,
+            "likes": 46,
+            "shares": 5,
+            "comments": 7,
+            "clicks": 50,
+            "engagement_rate": 5.83
+          },
+          "performance_score": 50.33,
+          "status": "draft_created"
+        }
+      },
+      "overall_metrics": {
+        "total_reach": 984,
+        "total_engagement": 148,
+        "average_performance": 53.03
+      },
+      "trends": {
+        "direction": "stable",
+        "growth_rate": 0,
+        "best_performing": "likes",
+        "needs_improvement": "shares"
+      },
+      "recommendations": [
+        "Improve email content strategy",
+        "Focus on improving shares metrics"
+      ]
+    },
+    {
+      "advisor_id": "ADV_003",
+      "advisor_name": "Avalok Shah",
+      "timestamp": "2025-09-17T19:51:36.332371",
+      "channel_metrics": {
+        "whatsapp": {
+          "metrics": {
+            "views": 446,
+            "likes": 34,
+            "shares": 16,
+            "comments": 0,
+            "clicks": 96,
+            "engagement_rate": 2.65
+          },
+          "performance_score": 63.84,
+          "status": "delivered"
+        },
+        "email": {
+          "metrics": {
+            "views": 213,
+            "likes": 48,
+            "shares": 1,
+            "comments": 14,
+            "clicks": 48,
+            "engagement_rate": 7.38
+          },
+          "performance_score": 61.79,
+          "status": "sent"
+        },
+        "linkedin_draft": {
+          "metrics": {
+            "views": 429,
+            "likes": 7,
+            "shares": 1,
+            "comments": 1,
+            "clicks": 87,
+            "engagement_rate": 6.22
+          },
+          "performance_score": 32.39,
+          "status": "draft_created"
+        }
+      },
+      "overall_metrics": {
+        "total_reach": 1088,
+        "total_engagement": 122,
+        "average_performance": 52.67333333333334
+      },
+      "trends": {
+        "direction": "stable",
+        "growth_rate": 0,
+        "best_performing": "views",
+        "needs_improvement": "shares"
+      },
+      "recommendations": [
+        "Improve linkedin_draft content strategy",
+        "Focus on improving shares metrics"
+      ]
+    }
+  ],
+  "platform_metrics": {
+    "total_advisors": 3,
+    "total_reach": 3252,
+    "total_engagement": 402,
+    "average_performance": 53.79,
+    "best_performing_advisor": "Shruti Petkar",
+    "most_engaging_channel": "email"
+  },
+  "insights": [
+    "Strong engagement rate of 12.5% indicates resonating content",
+    "Email is the most effective distribution channel"
+  ]
+}

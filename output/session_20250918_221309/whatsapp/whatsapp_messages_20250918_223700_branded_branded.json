@@ -1,0 +1,47 @@
+{
+  "session_id": "session_20250918_221309",
+  "timestamp": "20250918_223700",
+  "total_messages": 5,
+  "messages": [
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "plan": "Standard",
+      "phone": "91919673758777",
+      "message": "🌟 Good morning Shruti!\n\n📊 Market Pulse:\n• Sensex: 82,876 (+0.22%)\n• IT sector surges 4.41%\n\n💡 Action: Review tech fund allocations - strong global recovery ahead\n\n📱 Reply 'PORTFOLIO' for personalized review\n\nBuilding Wealth, Creating Trust\nARN: ARN_SHRUTI_001",
+      "char_count": 259
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "plan": "Standard",
+      "phone": "91918975758513",
+      "message": "☀️ Namaste Vidyadhar ji!\n\n📈 Today's Opportunity:\n• Nifty: 25,423.6 (+0.37%)\n• PSU Banks outperforming (+2%)\n\n💰 Tip: Consider 20% PSU bank allocation for next 6 months\n\n⚡ Send 'INVEST' to start SIP today\n\nBuilding Wealth, Creating Trust\nARN: ARN_VIDYADHAR_002",
+      "char_count": 258
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "plan": "Standard",
+      "phone": "91919765071249",
+      "message": "✨ Hello Shriya!\n\n🎯 Smart Money Move:\n• Markets at all-time high\n• Pharma showing 40% YTD returns\n\n💊 Healthcare funds: Expected 12-15% growth in 2025\n\nReply 'HEALTH' for top fund picks\n\nBuilding Wealth, Creating Trust\nARN: ARN_SHRIYA_003",
+      "char_count": 236
+    },
+    {
+      "advisor_id": "ADV_004",
+      "advisor_name": "Mr. Tranquil Veda",
+      "plan": "Gold",
+      "phone": "919022810769",
+      "message": "🌅 Peaceful morning, Mr.!\n\n💎 Exclusive Gold Tier Update:\n• Sensex crosses 82,800 milestone\n• DIIs now matching FII flows (₹1.54L cr)\n\n🎯 Premium Strategy: Shift 15% to defensive pharma & IT\n\n📞 Reply 'CONSULT' for priority advisory\n\nCreating Peaceful Wealth Journey\nARN: ADV_004",
+      "char_count": 275
+    },
+    {
+      "advisor_id": "ADV_005_STD",
+      "advisor_name": "Rajesh Kumar",
+      "plan": "Standard",
+      "phone": "919876543210",
+      "message": "🌟 Good morning Rajesh!\n\n📊 Weekly Wrap:\n• Sensex: 82,876 (+0.22%)\n• FY25 GDP forecast: 6.5%\n\n💡 Tax Tip: Only 3 months left for 80C investments!\n\n📱 Reply 'TAXSAVE' for ELSS options\n\nYour Wealth Partner\nARN: ADV_005_STD",
+      "char_count": 216
+    }
+  ]
+}

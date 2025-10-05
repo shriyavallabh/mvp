@@ -1,0 +1,43 @@
+{
+  "advisor": "Shriya Vallabh Petkar",
+  "segment": "Retail_Standard",
+  "messages": [
+    {
+      "category": "financial_education",
+      "text": "\ud83c\udf05 Good morning Shriya! Simple money truth: Start small, dream big! Even \u20b9500/month SIP grows to lakhs over time. Tax saving season - perfect time to begin your wealth journey! \ud83d\udcaa\u2728\n\nStart today\nARN_SHRIYA_003",
+      "character_count": 206,
+      "priority": "high",
+      "timing": "morning"
+    },
+    {
+      "category": "investment_basics",
+      "text": "\ud83d\udca1 Shriya, investing simplified: SIP = Small amount + Regular investment = Big wealth! Markets fluctuate, patient investors win. 6 months for tax benefits - your opportunity window! \ud83c\udfaf\ud83c\udf1f\n\nARN_SHRIYA_003",
+      "character_count": 199,
+      "priority": "medium",
+      "timing": "anytime"
+    },
+    {
+      "category": "saving_strategies",
+      "text": "\ud83c\udfe6 Smart money Shriya: ELSS funds = Tax saving + Wealth building combined! Start with \u20b91000/month, watch it multiply. Every rupee invested today secures tomorrow's dreams! \ud83c\udf1f\ud83d\udcb0\n\nARN_SHRIYA_003",
+      "character_count": 189,
+      "priority": "high",
+      "timing": "afternoon"
+    },
+    {
+      "category": "financial_empowerment",
+      "text": "\u26a1 Success secret Shriya: Rich people make money work for them! You can too. Start today, benefit forever. Knowledge + consistent investing = financial freedom. Ready to begin? \ud83d\ude80\ud83d\udcaa\n\nARN_SHRIYA_003",
+      "character_count": 194,
+      "priority": "medium",
+      "timing": "evening"
+    },
+    {
+      "category": "encouragement",
+      "text": "\ud83c\udf89 Inspiration Shriya: Every successful investor started with step 1! Your financial journey begins now. Small steps, big dreams, consistent actions = guaranteed success! Let's build wealth! \ud83d\udcaa\u2728\n\nARN_SHRIYA_003",
+      "character_count": 208,
+      "priority": "medium",
+      "timing": "anytime"
+    }
+  ],
+  "timestamp": "2025-09-18T09-32-12-000Z",
+  "session_id": "session_2025-09-18T03-38-39-062Z"
+}

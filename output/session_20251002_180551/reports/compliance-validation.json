@@ -1,0 +1,294 @@
+{
+  "session_id": "session_20251002_180551",
+  "validation_timestamp": "2025-10-02T19:08:22.741967",
+  "overall_status": "FAIL",
+  "linkedin_posts": {
+    "total": 12,
+    "passed": 5,
+    "failed": 7,
+    "issues": [
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "Shruti Petkar_post_2",
+        "content_type": "LinkedIn Post",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "Vidyadhar Petkar_post_3",
+        "content_type": "LinkedIn Post",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "Shriya Vallabh Petkar_post_1",
+        "content_type": "LinkedIn Post",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "Shriya Vallabh Petkar_post_2",
+        "content_type": "LinkedIn Post",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "Shriya Vallabh Petkar_post_3",
+        "content_type": "LinkedIn Post",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "Avalok Langer_post_1",
+        "content_type": "LinkedIn Post",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "Avalok Langer_post_3",
+        "content_type": "LinkedIn Post",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      }
+    ]
+  },
+  "whatsapp_messages": {
+    "total": 12,
+    "passed": 0,
+    "failed": 12,
+    "issues": [
+      {
+        "type": "CRITICAL",
+        "category": "Risk Disclaimer",
+        "issue": "Missing required disclaimer: Scheme document warning",
+        "content_id": "shruti_petkar_msg_1",
+        "content_type": "WhatsApp Message"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "shruti_petkar_msg_1",
+        "content_type": "WhatsApp Message",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      },
+      {
+        "type": "CRITICAL",
+        "category": "Risk Disclaimer",
+        "issue": "Missing required disclaimer: Scheme document warning",
+        "content_id": "shruti_petkar_msg_2",
+        "content_type": "WhatsApp Message"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "shruti_petkar_msg_2",
+        "content_type": "WhatsApp Message",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      },
+      {
+        "type": "CRITICAL",
+        "category": "Risk Disclaimer",
+        "issue": "Missing required disclaimer: Scheme document warning",
+        "content_id": "shruti_petkar_msg_3",
+        "content_type": "WhatsApp Message"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "shruti_petkar_msg_3",
+        "content_type": "WhatsApp Message",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      },
+      {
+        "type": "CRITICAL",
+        "category": "Risk Disclaimer",
+        "issue": "Missing required disclaimer: Scheme document warning",
+        "content_id": "vidyadhar_petkar_msg_1",
+        "content_type": "WhatsApp Message"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "vidyadhar_petkar_msg_1",
+        "content_type": "WhatsApp Message",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      },
+      {
+        "type": "CRITICAL",
+        "category": "Risk Disclaimer",
+        "issue": "Missing required disclaimer: Scheme document warning",
+        "content_id": "vidyadhar_petkar_msg_2",
+        "content_type": "WhatsApp Message"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "vidyadhar_petkar_msg_2",
+        "content_type": "WhatsApp Message",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      },
+      {
+        "type": "CRITICAL",
+        "category": "Risk Disclaimer",
+        "issue": "Missing required disclaimer: Market risk disclaimer",
+        "content_id": "vidyadhar_petkar_msg_3",
+        "content_type": "WhatsApp Message"
+      },
+      {
+        "type": "CRITICAL",
+        "category": "Risk Disclaimer",
+        "issue": "Missing required disclaimer: Scheme document warning",
+        "content_id": "vidyadhar_petkar_msg_3",
+        "content_type": "WhatsApp Message"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "vidyadhar_petkar_msg_3",
+        "content_type": "WhatsApp Message",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      },
+      {
+        "type": "CRITICAL",
+        "category": "Risk Disclaimer",
+        "issue": "Missing required disclaimer: Scheme document warning",
+        "content_id": "shriya_vallabh_petkar_msg_1",
+        "content_type": "WhatsApp Message"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "shriya_vallabh_petkar_msg_1",
+        "content_type": "WhatsApp Message",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      },
+      {
+        "type": "WARNING",
+        "category": "WhatsApp Format",
+        "issue": "Message exceeds optimal 400 character limit (403 chars)",
+        "content_id": "shriya_vallabh_petkar_msg_1",
+        "content_type": "WhatsApp Message"
+      },
+      {
+        "type": "CRITICAL",
+        "category": "Risk Disclaimer",
+        "issue": "Missing required disclaimer: Scheme document warning",
+        "content_id": "shriya_vallabh_petkar_msg_2",
+        "content_type": "WhatsApp Message"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "shriya_vallabh_petkar_msg_2",
+        "content_type": "WhatsApp Message",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      },
+      {
+        "type": "CRITICAL",
+        "category": "Risk Disclaimer",
+        "issue": "Missing required disclaimer: Scheme document warning",
+        "content_id": "shriya_vallabh_petkar_msg_3",
+        "content_type": "WhatsApp Message"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "shriya_vallabh_petkar_msg_3",
+        "content_type": "WhatsApp Message",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      },
+      {
+        "type": "WARNING",
+        "category": "WhatsApp Format",
+        "issue": "Message exceeds optimal 400 character limit (417 chars)",
+        "content_id": "shriya_vallabh_petkar_msg_3",
+        "content_type": "WhatsApp Message"
+      },
+      {
+        "type": "CRITICAL",
+        "category": "Risk Disclaimer",
+        "issue": "Missing required disclaimer: Scheme document warning",
+        "content_id": "avalok_langer_msg_1",
+        "content_type": "WhatsApp Message"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "avalok_langer_msg_1",
+        "content_type": "WhatsApp Message",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      },
+      {
+        "type": "CRITICAL",
+        "category": "Risk Disclaimer",
+        "issue": "Missing required disclaimer: Scheme document warning",
+        "content_id": "avalok_langer_msg_2",
+        "content_type": "WhatsApp Message"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "avalok_langer_msg_2",
+        "content_type": "WhatsApp Message",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      },
+      {
+        "type": "CRITICAL",
+        "category": "Risk Disclaimer",
+        "issue": "Missing required disclaimer: Scheme document warning",
+        "content_id": "avalok_langer_msg_3",
+        "content_type": "WhatsApp Message"
+      },
+      {
+        "type": "MAJOR",
+        "category": "Risk Disclaimer",
+        "issue": "Missing past performance disclaimer",
+        "content_id": "avalok_langer_msg_3",
+        "content_type": "WhatsApp Message",
+        "suggestion": "Add: 'Past performance is not indicative of future returns'"
+      }
+    ]
+  },
+  "images": {
+    "total": 12,
+    "passed": 12,
+    "failed": 0,
+    "issues": [
+      {
+        "type": "INFO",
+        "category": "Image Compliance",
+        "issue": "Images require manual visual review for ARN visibility and disclaimer readability",
+        "recommendation": "Verify ARN and disclaimers are clearly visible on all images"
+      }
+    ]
+  },
+  "detailed_findings": [],
+  "compliance_score": 47.22,
+  "total_content_items": 36,
+  "total_passed": 17,
+  "critical_issues_count": 13
+}

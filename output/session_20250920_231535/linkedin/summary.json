@@ -1,0 +1,38 @@
+{
+  "session": "session_20250920_231535",
+  "timestamp": "2025-09-20T23:33:44.354771",
+  "status": "SUCCESS",
+  "files_created": {
+    "json_files": [
+      "output/session_20250920_231535/linkedin/json/viral_posts.json"
+    ],
+    "text_files": [
+      "output/session_20250920_231535/linkedin/text/viral_post_1_ankur_warikoo_personal_story.txt",
+      "output/session_20250920_231535/linkedin/text/viral_post_2_shrivastava_shocking_data.txt",
+      "output/session_20250920_231535/linkedin/text/viral_post_3_sharan_pop_culture_hook.txt"
+    ],
+    "total_files": 4
+  },
+  "content_summary": {
+    "post_1": {
+      "theme": "FII vs DII War",
+      "hook": "I watched \u20b92.35 lakh crore leave India in 90 days.",
+      "virality_score": 9.2
+    },
+    "post_2": {
+      "theme": "Trump Tariffs Impact",
+      "hook": "Trump's 50% tariff = Your IT job at risk.",
+      "virality_score": 9.0
+    },
+    "post_3": {
+      "theme": "Bitcoin Crash Wisdom",
+      "hook": "Bitcoin crashed $14,856. My Uber driver still made money.",
+      "virality_score": 9.5
+    }
+  },
+  "ready_to_post": true,
+  "directories": {
+    "json": "output/session_20250920_231535/linkedin/json",
+    "text": "output/session_20250920_231535/linkedin/text"
+  }
+}

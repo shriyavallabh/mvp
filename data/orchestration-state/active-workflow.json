@@ -1,0 +1,22 @@
+{
+  "workflowId": "hybrid_1726582889",
+  "mode": "hybrid",
+  "mcpEnabled": false,
+  "timestamp": 1726582889000,
+  "agentExecutionOrder": [
+    {"name": "advisor-data-manager", "color": "blue", "phase": 1, "voice": "Alex"},
+    {"name": "market-intelligence", "color": "purple", "phase": 1, "voice": "Victoria"},
+    {"name": "segment-analyzer", "color": "orange", "phase": 2, "voice": "Daniel"},
+    {"name": "linkedin-post-generator", "color": "cyan", "phase": 3, "voice": "Samantha"},
+    {"name": "whatsapp-message-creator", "color": "green", "phase": 3, "voice": "Karen"},
+    {"name": "status-image-designer", "color": "yellow", "phase": 4, "voice": "Fred"},
+    {"name": "gemini-image-generator", "color": "red", "phase": 4, "voice": "Ralph"},
+    {"name": "brand-customizer", "color": "magenta", "phase": 5, "voice": "Kathy"},
+    {"name": "compliance-validator", "color": "brightred", "phase": 6, "voice": "Bruce"},
+    {"name": "quality-scorer", "color": "brightgreen", "phase": 6, "voice": "Princess"},
+    {"name": "fatigue-checker", "color": "brightyellow", "phase": 6, "voice": "Junior"},
+    {"name": "distribution-controller", "color": "teal", "phase": 7, "voice": "Zarvox"},
+    {"name": "analytics-tracker", "color": "brightcyan", "phase": 7, "voice": "Whisper"},
+    {"name": "feedback-processor", "color": "brightmagenta", "phase": 8, "voice": "Trinoids"}
+  ]
+}

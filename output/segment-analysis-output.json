@@ -1,0 +1,163 @@
+{
+  "analysis": {
+    "segment_distribution": {
+      "Standard": 97,
+      "active": 3,
+      "Gold": 1
+    },
+    "content_tones": {
+      "Professional": 100,
+      "Educational": 1
+    },
+    "language_preferences": {
+      "English": 101,
+      "Hindi": 1,
+      "Marathi": 1
+    },
+    "risk_profiles": {
+      "Moderate": 99,
+      "manual": 1,
+      "Balanced": 1
+    },
+    "specializations": {
+      "medium": 1,
+      "high": 1,
+      "low": 1,
+      "Portfolio Management": 1,
+      "Retirement Planning": 1,
+      "Tax Advisory": 1
+    },
+    "aum_levels": {
+      "N/A": 97,
+      "professional": 1,
+      "friendly": 1,
+      "educational": 1,
+      "25 Crores": 1
+    },
+    "client_segments": {
+      "0": 97,
+      "middle": 1,
+      "affluent": 1,
+      "young": 1,
+      "75": 1
+    },
+    "send_frequencies": {
+      "daily": 101
+    },
+    "subscription_plans": {
+      "Standard": 100,
+      "Gold": 1
+    }
+  },
+  "clusters": {
+    "Premium Wealth Managers": 0,
+    "Mass Market Advisors": 101,
+    "Conservative Advisors": 99,
+    "Tech-Savvy Advisors": 1,
+    "Active Traders": 3,
+    "Total Advisors": 101
+  },
+  "strategies": {
+    "Premium Wealth Managers": {
+      "viral_formula": "Ankur Warikoo Style - Personal Success Stories",
+      "content_approach": [
+        "\ud83c\udfaf \"My client turned \u20b950L into \u20b93Cr in 5 years. Here's the exact strategy we used...\"",
+        "\ud83d\udcca Data-heavy case studies with impressive numbers",
+        "\ud83c\udfc6 Success stories of HNI clients achieving financial freedom",
+        "\ud83d\udca1 Exclusive insights from closed-door wealth management sessions"
+      ],
+      "hooks": [
+        "\"The \u20b91 Cr mistake 90% of HNIs make\"",
+        "\"Why billionaires never do SIPs (and what they do instead)\"",
+        "\"The tax loophole that saved my client \u20b945 lakhs\""
+      ],
+      "visuals": "Premium infographics, wealth growth charts, luxury lifestyle imagery",
+      "cta": "Book a private consultation",
+      "tone": "Authoritative, exclusive, sophisticated"
+    },
+    "Mass Market Advisors": {
+      "viral_formula": "Rachana Ranade Style - Simple Explanations",
+      "content_approach": [
+        "\ud83d\udcda \"SIP explained like you're 5 years old\"",
+        "\ud83c\udfa8 Colorful analogies (pizza slices for portfolio allocation)",
+        "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66 Relatable family scenarios",
+        "\ud83d\udcb0 Small investment, big impact stories"
+      ],
+      "hooks": [
+        "\"\u20b9500/month can make you a crorepati\"",
+        "\"The chai-sutta money that could fund your retirement\"",
+        "\"Why your maid invests better than you\""
+      ],
+      "visuals": "Simple illustrations, before/after comparisons, emoji-rich content",
+      "cta": "Start with just \u20b9500",
+      "tone": "Friendly, encouraging, simple"
+    },
+    "Conservative Advisors": {
+      "viral_formula": "CA Rachana Ranade - Educational Authority",
+      "content_approach": [
+        "\ud83d\udee1\ufe0f \"The safest way to beat inflation in 2024\"",
+        "\ud83d\udcd6 Step-by-step investment guides",
+        "\u2696\ufe0f Risk vs reward calculators",
+        "\ud83c\udfe6 Traditional investment wisdom with modern twists"
+      ],
+      "hooks": [
+        "\"FD vs Debt Funds: The truth banks don't want you to know\"",
+        "\"PPF or ELSS? I did the math for 10 years\"",
+        "\"The government scheme giving 8.5% guaranteed returns\""
+      ],
+      "visuals": "Trust badges, safety indicators, comparison tables",
+      "cta": "Download free risk assessment",
+      "tone": "Trustworthy, educational, reassuring"
+    },
+    "Tech-Savvy Advisors": {
+      "viral_formula": "Sharan Hegde Style - Pop Culture Finance",
+      "content_approach": [
+        "\ud83c\udfae \"If investments were like PUBG matches...\"",
+        "\ud83d\udcf1 App-based investment hacks",
+        "\ud83e\udd16 AI and robo-advisory insights",
+        "\ud83d\ude80 Crypto and new-age investments"
+      ],
+      "hooks": [
+        "\"Netflix subscription cost = \u20b950 lakh retirement fund\"",
+        "\"I asked ChatGPT to manage my portfolio for 30 days\"",
+        "\"The investing app that's better than Zerodha\""
+      ],
+      "visuals": "Memes, app screenshots, animated GIFs",
+      "cta": "Try our AI portfolio builder",
+      "tone": "Fun, trendy, tech-forward"
+    },
+    "Active Traders": {
+      "viral_formula": "Akshat Shrivastava - Contrarian Data",
+      "content_approach": [
+        "\ud83d\udcc8 \"Why everyone's wrong about this stock\"",
+        "\ud83d\udd0d Hidden patterns in market data",
+        "\u26a1 Real-time market opportunities",
+        "\ud83c\udfaf Technical analysis simplified"
+      ],
+      "hooks": [
+        "\"The indicator that predicted every crash since 2008\"",
+        "\"This stock is up 300% but no one's talking about it\"",
+        "\"Monday morning trades that print money\""
+      ],
+      "visuals": "Live charts, technical indicators, market heatmaps",
+      "cta": "Join our trading community",
+      "tone": "Bold, contrarian, data-driven"
+    }
+  },
+  "summary": {
+    "total_advisors": 101,
+    "unique_segments": 6,
+    "top_language": [
+      "English",
+      101
+    ],
+    "top_tone": [
+      "Professional",
+      100
+    ],
+    "most_common_frequency": [
+      "daily",
+      101
+    ]
+  }
+}

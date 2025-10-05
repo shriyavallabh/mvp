@@ -1,0 +1,49 @@
+{
+  "session": {
+    "session_id": "session_2025-09-17T16-27-13-000Z",
+    "created_at": "2025-09-17T16:27:13.000Z",
+    "status": "initialized",
+    "phase": "0_infrastructure_setup",
+    "next_phase": "1_content_generation",
+    "session_type": "finadvise_orchestration",
+    "output_directory": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-17T16-27-13-000Z"
+  },
+  "mcp_environment": {
+    "mcp_enabled": true,
+    "mcp_version": "1.0.0",
+    "infrastructure_status": "active",
+    "communication_channels_active": 5,
+    "agents_registered": 5,
+    "state_persistence_enabled": true
+  },
+  "workflow_configuration": {
+    "orchestrator": "hybrid-orchestrator",
+    "primary_agents": ["learning-agent", "linkedin-post-generator"],
+    "infrastructure_agents": ["state-manager", "communication-bus"],
+    "execution_mode": "distributed",
+    "traceability_enabled": true
+  },
+  "phase_tracking": {
+    "phase_0_infrastructure_setup": {
+      "status": "completed",
+      "completed_at": "2025-09-17T16:27:13.000Z",
+      "components": [
+        "directories_created",
+        "channels_initialized",
+        "registry_configured",
+        "session_metadata_established"
+      ]
+    },
+    "phase_1_content_generation": {
+      "status": "pending",
+      "dependencies": ["phase_0_infrastructure_setup"],
+      "ready_to_start": true
+    }
+  },
+  "communication_state": {
+    "active_channels": 5,
+    "message_queue_status": "empty",
+    "last_heartbeat": "2025-09-17T16:27:13.000Z",
+    "network_health": "healthy"
+  }
+}

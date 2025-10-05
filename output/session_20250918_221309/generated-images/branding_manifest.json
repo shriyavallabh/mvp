@@ -1,0 +1,54 @@
+{
+  "ARN_SHRUTI_001_v2_tax_saving_tips_20250918_225146.png": {
+    "advisorId": "ARN_SHRUTI_001",
+    "firmName": "Shruti Petkar",
+    "arn": "ARN_SHRUTI_001",
+    "brandColors": {
+      "primary": "#1A73E8",
+      "secondary": "#34A853"
+    },
+    "tagline": "Building Wealth, Creating Trust",
+    "logoPlacement": "bottom-right",
+    "branded": true,
+    "brandingTimestamp": "2025-09-18T22:57:31.942453"
+  },
+  "ARN_VIDYADHAR_002_educational_animation_20250918_225146.png": {
+    "advisorId": "ARN_VIDYADHAR_002",
+    "firmName": "Vidyadhar Petkar",
+    "arn": "ARN_VIDYADHAR_002",
+    "brandColors": {
+      "primary": "#1A73E8",
+      "secondary": "#34A853"
+    },
+    "tagline": "Building Wealth, Creating Trust",
+    "logoPlacement": "bottom-right",
+    "branded": true,
+    "brandingTimestamp": "2025-09-18T22:57:31.942470"
+  },
+  "ARN_SHRUTI_001_market_update_20250918_225146.png": {
+    "advisorId": "ARN_SHRUTI_001",
+    "firmName": "Shruti Petkar",
+    "arn": "ARN_SHRUTI_001",
+    "brandColors": {
+      "primary": "#1A73E8",
+      "secondary": "#34A853"
+    },
+    "tagline": "Building Wealth, Creating Trust",
+    "logoPlacement": "bottom-right",
+    "branded": true,
+    "brandingTimestamp": "2025-09-18T22:57:31.942486"
+  },
+  "ARN_SHRIYA_003_infographic_20250918_225146.png": {
+    "advisorId": "ARN_SHRIYA_003",
+    "firmName": "Shriya Vallabh Petkar",
+    "arn": "ARN_SHRIYA_003",
+    "brandColors": {
+      "primary": "#1A73E8",
+      "secondary": "#34A853"
+    },
+    "tagline": "Building Wealth, Creating Trust",
+    "logoPlacement": "bottom-right",
+    "branded": true,
+    "brandingTimestamp": "2025-09-18T22:57:31.942494"
+  }
+}

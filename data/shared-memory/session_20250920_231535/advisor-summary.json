@@ -1,0 +1,29 @@
+{
+  "sessionId": "session_20250920_231535",
+  "timestamp": "2025-09-20T17:50:35.759Z",
+  "totalAdvisors": 101,
+  "totalAUM": "₹25.00 Crores",
+  "segmentBreakdown": {
+    "active": 3,
+    "Gold": 1,
+    "Standard": 97
+  },
+  "planBreakdown": {
+    "Standard": 100,
+    "Gold": 1
+  },
+  "customizationStats": {
+    "withCustomLogo": 0,
+    "withCustomBrand": 98,
+    "autoApproveEnabled": 1
+  },
+  "languageStats": {
+    "English": 101,
+    "Hindi": 1,
+    "Marathi": 1
+  },
+  "toneStats": {
+    "Professional": 100,
+    "Educational": 1
+  }
+}

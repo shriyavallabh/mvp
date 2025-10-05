@@ -1,7 +1,7 @@
 ---
 name: segment-analyzer
 description: Analyzes advisor segments to tailor content strategy, tone, complexity, and topics for maximum relevance and engagement
-model: opus
+model: claude-sonnet-4
 color: brown
 ---
 

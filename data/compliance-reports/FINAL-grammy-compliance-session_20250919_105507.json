@@ -1,0 +1,2689 @@
+{
+  "timestamp": "2025-09-19T11:35:22.803654",
+  "session_id": "session_20250919_105507",
+  "validation_type": "FINAL_GRAMMY_SEBI_COMPLIANCE",
+  "summary": {
+    "total_files": 131,
+    "compliant_files": 115,
+    "violation_files": 16,
+    "warning_files": 0,
+    "compliance_score": 0.88,
+    "content_breakdown": {
+      "linkedin_post": {
+        "compliant": 6,
+        "total": 6
+      },
+      "whatsapp_message": {
+        "compliant": 109,
+        "total": 125
+      }
+    }
+  },
+  "violations": [
+    {
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_DOCUMENTS",
+      "missing": "documents",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_1_final.txt",
+      "explanation": "Missing required documents disclaimer"
+    },
+    {
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_DOCUMENTS",
+      "missing": "documents",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_5_grammy_complete.txt",
+      "explanation": "Missing required documents disclaimer"
+    },
+    {
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_DOCUMENTS",
+      "missing": "documents",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_5_grammy.txt",
+      "explanation": "Missing required documents disclaimer"
+    },
+    {
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_DOCUMENTS",
+      "missing": "documents",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_5_grammy_complete.txt",
+      "explanation": "Missing required documents disclaimer"
+    },
+    {
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_DOCUMENTS",
+      "missing": "documents",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_1_enhanced.txt",
+      "explanation": "Missing required documents disclaimer"
+    },
+    {
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_DOCUMENTS",
+      "missing": "documents",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_1_whatsapp.txt",
+      "explanation": "Missing required documents disclaimer"
+    },
+    {
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_DOCUMENTS",
+      "missing": "documents",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_5_grammy_complete.txt",
+      "explanation": "Missing required documents disclaimer"
+    },
+    {
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_DOCUMENTS",
+      "missing": "documents",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_3_grammy.txt",
+      "explanation": "Missing required documents disclaimer"
+    },
+    {
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_DOCUMENTS",
+      "missing": "documents",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_4_grammy_complete.txt",
+      "explanation": "Missing required documents disclaimer"
+    },
+    {
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_DOCUMENTS",
+      "missing": "documents",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_2_enhanced.txt",
+      "explanation": "Missing required documents disclaimer"
+    },
+    {
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_DOCUMENTS",
+      "missing": "documents",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_1_grammy_complete.txt",
+      "explanation": "Missing required documents disclaimer"
+    },
+    {
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_DOCUMENTS",
+      "missing": "documents",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_2_grammy_complete.txt",
+      "explanation": "Missing required documents disclaimer"
+    },
+    {
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_DOCUMENTS",
+      "missing": "documents",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_3_grammy_complete.txt",
+      "explanation": "Missing required documents disclaimer"
+    },
+    {
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_DOCUMENTS",
+      "missing": "documents",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_1_grammy.txt",
+      "explanation": "Missing required documents disclaimer"
+    },
+    {
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_DOCUMENTS",
+      "missing": "documents",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_2_final.txt",
+      "explanation": "Missing required documents disclaimer"
+    },
+    {
+      "type": "missing_disclaimer",
+      "severity": "MAJOR",
+      "rule": "SEBI_DISC_DOCUMENTS",
+      "missing": "documents",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_4_grammy.txt",
+      "explanation": "Missing required documents disclaimer"
+    }
+  ],
+  "warnings": [],
+  "compliant_items": [
+    {
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_002_score_9.2.txt",
+      "type": "linkedin_post",
+      "warnings": 0,
+      "length": 1617
+    },
+    {
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_001_score_9.5.txt",
+      "type": "linkedin_post",
+      "warnings": 0,
+      "length": 1509
+    },
+    {
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_005_score_8.5.txt",
+      "type": "linkedin_post",
+      "warnings": 0,
+      "length": 1953
+    },
+    {
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_004_score_8.8.txt",
+      "type": "linkedin_post",
+      "warnings": 0,
+      "length": 1595
+    },
+    {
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_006_score_8.7.txt",
+      "type": "linkedin_post",
+      "warnings": 0,
+      "length": 1811
+    },
+    {
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_003_score_9.0.txt",
+      "type": "linkedin_post",
+      "warnings": 0,
+      "length": 1802
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_1_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 391
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_3_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 341
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_4_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 349
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_1_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 382
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_4_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 332
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_4_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 357
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_4_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 386
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_4_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 382
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_3_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 326
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_5_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 347
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_3_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 370
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_2_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 393
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_1_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 391
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_2_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 371
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_1_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 386
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_5_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 392
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_2_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 325
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_5_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 357
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_1_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 386
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_4_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 377
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_5_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 346
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_2_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 372
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_4_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 386
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_2_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 399
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_1_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 391
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_1_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 387
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_3_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 322
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_1_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 373
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_1_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 391
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_1_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 387
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_4_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 362
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_2_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 371
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_3_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 331
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_5_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 345
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_5_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 347
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_3_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 366
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_4_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 332
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_3_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 370
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_3_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 399
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_2_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 393
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_1_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 373
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_2_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 389
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_2_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 362
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_4_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 373
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_4_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 348
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_2_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 330
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_3_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 340
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_5_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 362
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_4_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 377
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_3_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 322
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_5_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 400
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_3_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 395
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_3_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 399
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_1_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 387
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_2_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 371
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_3_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 354
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_4_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 381
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_1_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 368
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_5_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 342
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_3_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 377
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_4_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 385
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_5_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 397
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_3_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 379
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_4_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 394
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_5_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 350
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_4_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 328
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_2_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 376
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_5_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 382
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_5_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 393
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_5_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 397
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_5_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 379
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_1_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 386
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_3_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 317
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_1_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 386
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_1_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 391
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_5_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 394
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_2_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 362
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_3_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 345
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_2_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 367
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_4_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 353
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_4_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 327
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_4_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 362
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_3_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 331
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_2_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 326
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_5_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 358
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_5_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 343
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_2_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 367
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_2_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 363
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_4_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 372
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_3_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 345
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_4_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 353
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_5_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 399
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_4_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 358
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_3_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 327
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_3_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 365
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_1_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 369
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_1_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 381
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_2_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 366
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_2_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 330
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_1_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 391
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_4_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 380
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_2_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 388
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_5_whatsapp.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 362
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_5_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 350
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_1_grammy_complete.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 386
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_2_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 367
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_2_enhanced.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 376
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_3_grammy.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 394
+    },
+    {
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_3_final.txt",
+      "type": "whatsapp_message",
+      "warnings": 0,
+      "length": 318
+    }
+  ],
+  "audit_trail": [
+    {
+      "timestamp": "2025-09-19T11:35:22.785998",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_002_score_9.2.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.786090",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_002_score_9.2.txt",
+      "result": "pass",
+      "details": "ARN found: ARN: [ADVISOR_ARN_NUMBER]"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.786334",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_001_score_9.5.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.786363",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_001_score_9.5.txt",
+      "result": "pass",
+      "details": "ARN found: ARN: [ADVISOR_ARN_NUMBER]"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.786750",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_005_score_8.5.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.786786",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_005_score_8.5.txt",
+      "result": "pass",
+      "details": "ARN found: ARN: [ADVISOR_ARN_NUMBER]"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.789392",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_004_score_8.8.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.789422",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_004_score_8.8.txt",
+      "result": "pass",
+      "details": "ARN found: ARN: [ADVISOR_ARN_NUMBER]"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.789716",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_006_score_8.7.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.789749",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_006_score_8.7.txt",
+      "result": "pass",
+      "details": "ARN found: ARN: [ADVISOR_ARN_NUMBER]"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.789981",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_003_score_9.0.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.790013",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/linkedin/text/VIRAL_003_score_9.0.txt",
+      "result": "pass",
+      "details": "ARN found: ARN: [ADVISOR_ARN_NUMBER]"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.790121",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_1_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.790129",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_1_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.790184",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_3_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.790191",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_3_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.790240",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_4_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.790246",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_4_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.790296",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_1_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.790303",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_1_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.790351",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_4_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.790357",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_4_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.790447",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_1_final.txt",
+      "result": "violation",
+      "details": "Missing 1 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.790455",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_1_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.791556",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_4_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.791563",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_4_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.792291",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_4_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.792298",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_4_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.792361",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_4_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.792368",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_4_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.792718",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_3_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.792725",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_3_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.793092",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_5_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.793099",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_5_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.793516",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_3_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.793523",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_3_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.793878",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_2_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.793886",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_2_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794182",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_1_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794189",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_1_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794361",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_2_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794368",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_2_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794533",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_1_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794540",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_1_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794591",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_5_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794599",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_5_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794644",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_2_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794650",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_2_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794697",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_5_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794703",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_5_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794753",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_1_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794760",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_1_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794810",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_4_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794818",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_4_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794925",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_5_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.794932",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_5_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.795007",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_2_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.795014",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_2_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.795084",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_4_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.795091",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_4_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.795166",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_5_grammy_complete.txt",
+      "result": "violation",
+      "details": "Missing 1 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.795173",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_5_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.795475",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_2_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.795482",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_2_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.796215",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_1_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.796222",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_1_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.797774",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_1_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.797782",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_1_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.797941",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_3_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.797947",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_3_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798017",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_1_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798024",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_1_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798094",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_1_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798101",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_1_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798151",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_1_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798158",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_1_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798208",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_4_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798215",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_4_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798281",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_2_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798289",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_2_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798355",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_3_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798362",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_3_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798409",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_5_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798415",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_5_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798479",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_5_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798485",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_5_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798550",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_3_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798557",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_3_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798630",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_5_grammy.txt",
+      "result": "violation",
+      "details": "Missing 1 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798637",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_5_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798683",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_4_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798689",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_4_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798737",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_3_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798744",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_3_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798794",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_3_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798801",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_3_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798853",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_2_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798860",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_2_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798908",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_1_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798914",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_1_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798966",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_2_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.798973",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_2_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799021",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_2_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799028",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_2_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799076",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_4_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799083",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_4_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799128",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_4_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799135",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_4_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799180",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_2_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799187",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_2_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799232",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_3_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799238",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_3_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799286",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_5_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799292",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_5_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799340",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_4_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799347",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_4_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799392",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_3_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799398",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_3_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799447",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_5_grammy_complete.txt",
+      "result": "violation",
+      "details": "Missing 1 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799453",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_5_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799502",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_5_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799509",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_5_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799559",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_1_enhanced.txt",
+      "result": "violation",
+      "details": "Missing 1 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799566",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_1_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799614",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_3_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799621",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_3_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799669",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_3_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799676",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_3_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799725",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_1_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799732",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_1_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799783",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_1_whatsapp.txt",
+      "result": "violation",
+      "details": "Missing 1 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799790",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_1_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799838",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_2_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799846",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_2_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799892",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_3_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799899",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_3_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799947",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_4_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.799953",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_4_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800012",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_5_grammy_complete.txt",
+      "result": "violation",
+      "details": "Missing 1 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800019",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_5_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800066",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_1_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800072",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_viral_1_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800118",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_5_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800124",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_5_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800172",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_3_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800178",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_3_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800230",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_3_grammy.txt",
+      "result": "violation",
+      "details": "Missing 1 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800237",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_3_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800284",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_4_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800291",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_4_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800340",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_4_grammy_complete.txt",
+      "result": "violation",
+      "details": "Missing 1 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800347",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_4_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800398",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_5_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800406",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_5_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800452",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_3_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800461",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_3_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800511",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_4_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800518",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_4_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800566",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_5_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800573",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_5_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800619",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_4_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800625",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_4_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800677",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_2_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800685",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_2_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800733",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_5_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800740",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_5_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800794",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_2_enhanced.txt",
+      "result": "violation",
+      "details": "Missing 1 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800801",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_2_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800851",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_1_grammy_complete.txt",
+      "result": "violation",
+      "details": "Missing 1 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800858",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_1_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800910",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_5_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800918",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_5_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800968",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_5_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.800976",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_5_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801022",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_5_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801029",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_5_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801076",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_1_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801083",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_viral_1_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801127",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_3_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801133",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_3_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801180",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_1_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801187",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_1_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801234",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_1_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801240",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_1_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801294",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_2_grammy_complete.txt",
+      "result": "violation",
+      "details": "Missing 1 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801301",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_2_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801348",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_5_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801355",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_5_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801401",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_2_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801407",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_viral_2_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801453",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_3_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801459",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_3_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801508",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_3_grammy_complete.txt",
+      "result": "violation",
+      "details": "Missing 1 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801663",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_grammy_3_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801712",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_2_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801719",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_2_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801766",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_4_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801772",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_viral_4_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801816",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_4_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801822",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_4_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801872",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_1_grammy.txt",
+      "result": "violation",
+      "details": "Missing 1 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801879",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_1_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801925",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_4_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801931",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_4_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801975",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_3_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.801982",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_3_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802034",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_2_final.txt",
+      "result": "violation",
+      "details": "Missing 1 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802041",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_2_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802085",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_2_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802091",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_2_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802136",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_5_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802142",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_5_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802188",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_5_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802194",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_5_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802240",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_2_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802247",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_manual_viral_2_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802293",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_2_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802300",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_manual_viral_2_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802347",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_4_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802353",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_4_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802399",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_3_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802405",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_3_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802451",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_4_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802457",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_4_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802505",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_5_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802512",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_5_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802558",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_4_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802564",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_4_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802608",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_3_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802615",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_viral_3_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802661",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_3_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802667",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_3_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802713",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_1_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802720",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_grammy_viral_1_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802766",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_1_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802773",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_viral_1_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802822",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_2_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802829",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_2_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802873",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_2_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802879",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_2_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802930",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_1_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802937",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_1_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802983",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_4_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.802990",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_4_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803041",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_2_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803049",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_2_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803114",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_5_whatsapp.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803124",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_viral_5_whatsapp.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803194",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_5_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803201",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_5_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803275",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_1_grammy_complete.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803285",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_grammy_1_grammy_complete.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803350",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_2_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803357",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_manual_viral_2_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-789012"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803415",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_2_enhanced.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803422",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_005_grammy_viral_2_enhanced.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803480",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_4_grammy.txt",
+      "result": "violation",
+      "details": "Missing 1 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803487",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_4_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-000000"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803540",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_3_grammy.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803548",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_manual_viral_3_grammy.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-123456"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803596",
+      "check_type": "disclaimer_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_3_final.txt",
+      "result": "pass",
+      "details": "Missing 0 disclaimers"
+    },
+    {
+      "timestamp": "2025-09-19T11:35:22.803603",
+      "check_type": "arn_check",
+      "file": "output/session_20250919_105507/whatsapp/ARN_SHRIYA_003_final_viral_3_final.txt",
+      "result": "pass",
+      "details": "ARN found: ARN-345678"
+    }
+  ],
+  "status": "CONDITIONAL",
+  "certificate_id": "GRAMMY-FINAL-20250919113522",
+  "compliance_notes": {
+    "grammy_viral_content": "Viral content validated for SEBI compliance",
+    "arn_placeholders": "ARN placeholders recognized - replace with actual ARNs",
+    "disclaimer_enhanced": "Enhanced disclaimers applied",
+    "risk_warnings": "All risk warnings properly included"
+  }
+}

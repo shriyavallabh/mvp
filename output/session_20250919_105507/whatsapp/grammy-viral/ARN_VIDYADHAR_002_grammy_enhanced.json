@@ -1,0 +1,149 @@
+{
+  "advisor": "Vidyadhar Petkar",
+  "arn": "ARN_VIDYADHAR_002",
+  "session_id": "session_20250919_105507",
+  "timestamp": "2025-09-19T11:18:05.629030",
+  "viral_messages": [
+    {
+      "message_id": "ARN_VIDYADHAR_002_grammy_viral_1",
+      "strategy": "warikoo_vulnerability_confession",
+      "text": "\ud83d\udc94 I lost \u20b97 lakhs in 2008 crash.\n\nSold everything in panic.\nSame portfolio today? \u20b93.2 crores.\n\nMy fear = \u20b92.5 crore mistake.\n\nVidyadhar, market at highs. Feeling scared?\nYour emotions are expensive.\n\nReply 'HELP' for wisdom\n\nVidyadhar Petkar | ARN_VIDYADHAR_002",
+      "character_count": 262,
+      "virality_score": 7.9,
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 10,
+        "first_line": "\ud83d\udc94 I lost \u20b97 lakhs in 2008 crash.",
+        "elements": {
+          "shock_opening": true,
+          "specific_number": true,
+          "confession_start": true,
+          "emotional_hook": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "High"
+      },
+      "grammy_worthy": false,
+      "viral_elements": [
+        "personal_confession",
+        "specific_money_amounts",
+        "question_hook",
+        "emotional_emoji",
+        "wealth_language",
+        "emotional_trigger"
+      ]
+    },
+    {
+      "message_id": "ARN_VIDYADHAR_002_grammy_viral_2",
+      "strategy": "shrivastava_contrarian_shocker",
+      "text": "\u26a0\ufe0f SHOCKING TRUTH: 93% F&O traders lost money\n\nAverage loss: \u20b92 lakh per person\nSEBI report doesn't lie.\n\nYour neighbor bragging about profits?\nStatistically impossible.\n\nVidyadhar, ready for real wealth building?\nReply 'TRUTH'\n\nVidyadhar Petkar | ARN_VIDYADHAR_002",
+      "character_count": 265,
+      "virality_score": 5.1,
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 6,
+        "first_line": "\u26a0\ufe0f SHOCKING TRUTH: 93% F&O traders lost money",
+        "elements": {
+          "shock_opening": true,
+          "specific_number": true,
+          "confession_start": false,
+          "emotional_hook": true,
+          "punchy_length": false
+        },
+        "scroll_stopping_power": "Medium"
+      },
+      "grammy_worthy": false,
+      "viral_elements": [
+        "specific_money_amounts",
+        "statistical_shock",
+        "question_hook",
+        "emotional_emoji",
+        "wealth_language",
+        "emotional_trigger"
+      ]
+    },
+    {
+      "message_id": "ARN_VIDYADHAR_002_grammy_viral_3",
+      "strategy": "ranade_kitchen_analogy",
+      "text": "\u2615 Your \u20b9200 daily coffee = \u20b967 LAKHS gone!\n\n30 years math:\nCoffee: \u20b967L vanished \ud83d\udcb8\nSIP: \u20b92.3 CRORES created \ud83d\udcb0\n\nVidyadhar, coffee or crores?\nMathematics doesn't lie.\n\nCalculate yours - Reply 'MATH'\n\nVidyadhar Petkar | ARN_VIDYADHAR_002",
+      "character_count": 234,
+      "virality_score": 2.2,
+      "sidney_sheldon_test": {
+        "passes": false,
+        "score": 4,
+        "first_line": "\u2615 Your \u20b9200 daily coffee = \u20b967 LAKHS gone!",
+        "elements": {
+          "shock_opening": false,
+          "specific_number": true,
+          "confession_start": false,
+          "emotional_hook": true,
+          "punchy_length": false
+        },
+        "scroll_stopping_power": "Low"
+      },
+      "grammy_worthy": false,
+      "viral_elements": [
+        "specific_money_amounts",
+        "question_hook",
+        "emotional_emoji",
+        "wealth_language"
+      ]
+    },
+    {
+      "message_id": "ARN_VIDYADHAR_002_grammy_viral_4",
+      "strategy": "underdog_success_inspiration",
+      "text": "\ud83d\ude96 Auto driver \u2192 \u20b91.2 CRORE portfolio\n\nStarted \u20b9500 SIP in 2010\nNever stopped. Not once.\nNot in COVID. Not in crashes.\n\nVidyadhar, you earn more than \u20b9500.\nWhat's stopping you?\n\nStart TODAY - Reply 'DRIVE'\n\nVidyadhar Petkar | ARN_VIDYADHAR_002",
+      "character_count": 242,
+      "virality_score": 2.2,
+      "sidney_sheldon_test": {
+        "passes": true,
+        "score": 6,
+        "first_line": "\ud83d\ude96 Auto driver \u2192 \u20b91.2 CRORE portfolio",
+        "elements": {
+          "shock_opening": false,
+          "specific_number": true,
+          "confession_start": false,
+          "emotional_hook": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "Medium"
+      },
+      "grammy_worthy": false,
+      "viral_elements": [
+        "specific_money_amounts",
+        "question_hook",
+        "emotional_emoji",
+        "wealth_language"
+      ]
+    },
+    {
+      "message_id": "ARN_VIDYADHAR_002_grammy_viral_5",
+      "strategy": "grammy_pop_culture_hook",
+      "text": "\ud83c\udfc6 Grammy winners diversify genres.\n\nYour wealth needs same strategy:\n\u2022 Large cap (steady rhythm)\n\u2022 Mid cap (exciting melody)\n\u2022 Debt (stable bass)\n\nVidyadhar, compose your wealth symphony!\nReply 'MUSIC'\n\nVidyadhar Petkar | ARN_VIDYADHAR_002",
+      "character_count": 239,
+      "virality_score": 0.5,
+      "sidney_sheldon_test": {
+        "passes": false,
+        "score": 4,
+        "first_line": "\ud83c\udfc6 Grammy winners diversify genres.",
+        "elements": {
+          "shock_opening": false,
+          "specific_number": false,
+          "confession_start": false,
+          "emotional_hook": true,
+          "punchy_length": true
+        },
+        "scroll_stopping_power": "Low"
+      },
+      "grammy_worthy": false,
+      "viral_elements": [
+        "emotional_emoji"
+      ]
+    }
+  ],
+  "quality_metrics": {
+    "average_virality": 3.6,
+    "all_grammy_worthy": false,
+    "sidney_sheldon_passes": 3
+  }
+}

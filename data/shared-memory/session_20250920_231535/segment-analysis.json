@@ -1,0 +1,625 @@
+{
+  "analysis_metadata": {
+    "timestamp": "2025-09-20T23:15:35Z",
+    "sessionId": "session_20250920_231535",
+    "totalAdvisors": 101,
+    "analysisType": "viral_content_strategy",
+    "marketThemes": {
+      "institutional_war": "FII vs DII: ₹2.35 Lakh Crore battle",
+      "trade_shock": "Trump's 50% tariff bomb on Indian goods",
+      "crypto_crash": "Bitcoin plunge from $109K to $94K",
+      "currency_crisis": "Rupee at ₹86.40, heading to ₹90"
+    }
+  },
+
+  "segment_distribution": {
+    "Standard": {
+      "count": 97,
+      "percentage": 96.04,
+      "subscription": "Standard Plan"
+    },
+    "Gold": {
+      "count": 1,
+      "percentage": 0.99,
+      "subscription": "Gold Plan"
+    },
+    "Active": {
+      "count": 3,
+      "percentage": 2.97,
+      "subscription": "Mixed (Standard)"
+    }
+  },
+
+  "segment_profiles": {
+    "Standard": {
+      "demographic_profile": {
+        "advisor_experience": "1-5 years",
+        "typical_aum": "₹1-10 Crores",
+        "client_base": "50-200 clients",
+        "average_ticket": "₹10K-1L",
+        "geography": "Tier 2/3 cities predominantly",
+        "age_group": "25-40 years",
+        "tech_savvy": "Moderate",
+        "primary_channels": "WhatsApp, Personal meetings"
+      },
+
+      "psychographic_profile": {
+        "core_values": ["Trust building", "Relationship focus", "Community respect"],
+        "pain_points": ["Client acquisition", "Retention", "Competition from direct platforms"],
+        "aspirations": ["Grow AUM", "Build reputation", "Financial security"],
+        "decision_triggers": ["Social proof", "Success stories", "Peer recommendations"],
+        "behavioral_biases": ["Herd mentality", "Recency bias", "Loss aversion"],
+        "content_consumption": "Mobile-first, Visual content, Regional language preference",
+        "engagement_patterns": "Peak: 9-11 AM, 7-9 PM",
+        "fears": ["Market volatility", "Client loss", "Regulatory changes"]
+      },
+
+      "client_demographics": {
+        "primary_segment": "Mass affluent beginners",
+        "age": "25-45 years",
+        "income": "₹5-25 Lakhs annual",
+        "investment_appetite": "₹500-10,000 monthly SIPs",
+        "financial_literacy": "Low to moderate",
+        "primary_goals": ["Children education", "Home purchase", "Retirement"],
+        "risk_tolerance": "Conservative to moderate"
+      },
+
+      "viral_content_strategy": {
+        "content_positioning": "David vs Goliath narratives",
+        "emotional_hooks": [
+          "Underdog success stories",
+          "Common man winning against big players",
+          "Relatable family financial victories"
+        ],
+        "viral_formulas": [
+          {
+            "type": "Shocking Revelation",
+            "template": "While FIIs pulled out ₹2.35L Cr, this Mumbai autowala invested ₹500/month and made...",
+            "psychology": "Contrast effect + Hope"
+          },
+          {
+            "type": "Fear + Solution",
+            "template": "Rupee at ₹86.40! Your EMI will increase by ₹[X]. Here's the 3-step protection plan...",
+            "psychology": "Loss aversion + Immediate action"
+          },
+          {
+            "type": "Social Proof Story",
+            "template": "57 teachers in Pune did this when Bitcoin crashed 14%. Their portfolio today...",
+            "psychology": "Community validation + FOMO"
+          }
+        ],
+        "content_themes": {
+          "fii_dii_war": {
+            "angle": "Small investors' opportunity in institutional exit",
+            "message": "When big players fight, smart retail investors win",
+            "examples": [
+              "FIIs sold, but your neighbor bought - who won?",
+              "₹500 SIP vs ₹2.35L Cr FII exit - David's winning formula"
+            ]
+          },
+          "trump_tariff": {
+            "angle": "Local opportunity in global chaos",
+            "message": "Trump's tariff = India's manufacturing boom",
+            "examples": [
+              "3 local stocks that will 2X from Trump's tariff war",
+              "Your job is safe because of Trump's 50% tariff - Here's why"
+            ]
+          },
+          "bitcoin_crash": {
+            "angle": "Traditional wisdom wins",
+            "message": "While Bitcoin crashed, FD investors slept peacefully",
+            "examples": [
+              "Bitcoin -14%, Your PPF +7.1% - Slow & steady wins",
+              "Crypto bro lost ₹50L, Bank FD uncle made ₹50K - Who's laughing?"
+            ]
+          },
+          "rupee_crisis": {
+            "angle": "Protect and profit",
+            "message": "Rupee fall = Export stock opportunity",
+            "examples": [
+              "Rupee at ₹90? These 5 stocks will make you rich",
+              "How a Bangalore IT employee is profiting from Rupee fall"
+            ]
+          }
+        },
+        "viral_triggers": [
+          "Specific numbers (₹2.35L Cr, 50%, ₹86.40)",
+          "Time pressure ('Before Rupee hits ₹90')",
+          "Social identity ('Middle-class investors like you')",
+          "Contrast stories (Big loss vs Small win)",
+          "Local examples (Your city/profession)"
+        ],
+        "distribution_tactics": {
+          "optimal_length": "60-90 seconds read",
+          "format": "Story > Problem > Solution > CTA",
+          "visual_style": "Meme-style infographics, Before/After charts",
+          "language": "Simple Hindi-English mix, Local references",
+          "cta_style": "Soft push - 'Check with your advisor'"
+        }
+      }
+    },
+
+    "Gold": {
+      "demographic_profile": {
+        "advisor_experience": "5-15 years",
+        "typical_aum": "₹10-100 Crores",
+        "client_base": "100-500 clients",
+        "average_ticket": "₹1L-10L",
+        "geography": "Metro and Tier 1 cities",
+        "age_group": "35-50 years",
+        "tech_savvy": "High",
+        "primary_channels": "LinkedIn, Email, Webinars"
+      },
+
+      "psychographic_profile": {
+        "core_values": ["Expertise", "Innovation", "Thought leadership"],
+        "pain_points": ["HNI competition", "Fee pressure", "Robo-advisory threat"],
+        "aspirations": ["Industry recognition", "HNI clientele", "Wealth management transition"],
+        "decision_triggers": ["Data-driven insights", "Exclusive information", "Expert validation"],
+        "behavioral_biases": ["Confirmation bias", "Authority bias", "Sophistication bias"],
+        "content_consumption": "Long-form analysis, Research reports, International perspectives",
+        "engagement_patterns": "Peak: 6-8 AM, 9-10 PM",
+        "fears": ["Relevance loss", "Commoditization", "Direct platform disruption"]
+      },
+
+      "client_demographics": {
+        "primary_segment": "Affluent professionals",
+        "age": "35-55 years",
+        "income": "₹25L-1Cr annual",
+        "investment_appetite": "₹25K-1L monthly",
+        "financial_literacy": "Moderate to high",
+        "primary_goals": ["Wealth creation", "Tax optimization", "Early retirement"],
+        "risk_tolerance": "Moderate to aggressive"
+      },
+
+      "viral_content_strategy": {
+        "content_positioning": "Insider knowledge democratized",
+        "emotional_hooks": [
+          "Exclusive insights before mainstream",
+          "Sophisticated analysis with shocking revelations",
+          "Counter-intuitive wisdom"
+        ],
+        "viral_formulas": [
+          {
+            "type": "Data Revelation",
+            "template": "SEBI data reveals: Only 3% knew this about the ₹2.35L Cr FII exit. The pattern shows...",
+            "psychology": "Exclusivity + Intelligence signaling"
+          },
+          {
+            "type": "Contrarian Analysis",
+            "template": "Everyone's wrong about Trump's tariffs. Game theory suggests India gains $50B because...",
+            "psychology": "Intellectual superiority + Hidden opportunity"
+          },
+          {
+            "type": "Technical Insight",
+            "template": "Bitcoin's crash follows the 2017 pattern exactly. The 94K support means...",
+            "psychology": "Pattern recognition + Predictive confidence"
+          }
+        ],
+        "content_themes": {
+          "fii_dii_war": {
+            "angle": "Institutional rotation strategy decoded",
+            "message": "Smart money movements reveal 2025's winners",
+            "examples": [
+              "Why FII exit at 23X PE is bullish - A quantitative analysis",
+              "DII's ₹2.35L Cr buy list leaked - 5 stocks to accumulate"
+            ]
+          },
+          "trump_tariff": {
+            "angle": "Second-order effects analysis",
+            "message": "Tariff war creates unexpected arbitrage",
+            "examples": [
+              "Trump tariffs = Vietnam's loss, India's $30B gain - The supply chain thesis",
+              "3 chemical stocks set for 300% as China exits US market"
+            ]
+          },
+          "bitcoin_crash": {
+            "angle": "Correlation trades exposed",
+            "message": "Bitcoin crash = Specific equity opportunity",
+            "examples": [
+              "Why Bitcoin at 94K means Nasdaq will correct 7% - The correlation nobody sees",
+              "Indian IT will gain 12% from crypto winter - The talent arbitrage"
+            ]
+          },
+          "rupee_crisis": {
+            "angle": "Currency as asset class",
+            "message": "Rupee depreciation = Structured product opportunity",
+            "examples": [
+              "Building a ₹90 Rupee hedge that pays 18% - The strategy",
+              "Why RBI wants ₹90 - The export competitiveness thesis"
+            ]
+          }
+        },
+        "viral_triggers": [
+          "Exclusive data access",
+          "Mathematical models",
+          "Historical parallels",
+          "Institutional behavior patterns",
+          "Global-local connections"
+        ],
+        "distribution_tactics": {
+          "optimal_length": "3-5 minute read",
+          "format": "Hook > Data > Analysis > Insight > Action",
+          "visual_style": "Professional charts, Heat maps, Correlation matrices",
+          "language": "Sophisticated English, Financial terminology",
+          "cta_style": "Thought leadership - 'Discuss with your wealth advisor'"
+        }
+      }
+    },
+
+    "Active": {
+      "demographic_profile": {
+        "advisor_experience": "3-10 years",
+        "typical_aum": "₹5-50 Crores",
+        "client_base": "75-300 clients",
+        "average_ticket": "₹50K-5L",
+        "geography": "Mixed urban centers",
+        "age_group": "30-45 years",
+        "tech_savvy": "Very high",
+        "primary_channels": "Multi-channel digital natives"
+      },
+
+      "psychographic_profile": {
+        "core_values": ["Performance", "Efficiency", "Innovation adoption"],
+        "pain_points": ["Time management", "Information overload", "Client expectations"],
+        "aspirations": ["Scale without complexity", "Passive income", "Tech-enabled practice"],
+        "decision_triggers": ["ROI evidence", "Peer success", "Efficiency gains"],
+        "behavioral_biases": ["Action bias", "Overconfidence", "Recency bias"],
+        "content_consumption": "Podcasts, Quick videos, Actionable content",
+        "engagement_patterns": "Throughout day - always on",
+        "fears": ["Missing opportunities", "Client churn", "Technology disruption"]
+      },
+
+      "client_demographics": {
+        "primary_segment": "Dynamic professionals",
+        "age": "28-45 years",
+        "income": "₹15L-75L annual",
+        "investment_appetite": "₹10K-50K monthly",
+        "financial_literacy": "Moderate to high",
+        "primary_goals": ["Aggressive wealth creation", "Multiple goals", "International exposure"],
+        "risk_tolerance": "Moderate to very aggressive"
+      },
+
+      "viral_content_strategy": {
+        "content_positioning": "Actionable alpha for busy advisors",
+        "emotional_hooks": [
+          "Quick wins with big impact",
+          "Contrarian bets that paid off",
+          "Time-saving insights"
+        ],
+        "viral_formulas": [
+          {
+            "type": "Speed Execution",
+            "template": "2-minute action: Position for ₹2.35L Cr reversal. Step 1...",
+            "psychology": "Urgency + Actionability"
+          },
+          {
+            "type": "Tactical Alert",
+            "template": "Trump tariff arbitrage closing in 48 hours. The trade setup...",
+            "psychology": "Scarcity + Opportunity"
+          },
+          {
+            "type": "Performance Proof",
+            "template": "This strategy beat Bitcoin's -14% with +7% gain. The method...",
+            "psychology": "Competition + Superiority"
+          }
+        ],
+        "content_themes": {
+          "fii_dii_war": {
+            "angle": "Trading the institutional divergence",
+            "message": "Real-time positioning for flow reversal",
+            "examples": [
+              "FII-DII divergence at 3-year high = Buy these 5 stocks NOW",
+              "₹2.35L Cr exit created oversold RSI<30 in these quality names"
+            ]
+          },
+          "trump_tariff": {
+            "angle": "First-mover advantage plays",
+            "message": "Position before consensus shifts",
+            "examples": [
+              "Trump tariff beneficiaries - 10 stocks before market realizes",
+              "The 72-hour window to buy India's manufacturing renaissance"
+            ]
+          },
+          "bitcoin_crash": {
+            "angle": "Volatility arbitrage",
+            "message": "Profit from crypto fear in equity markets",
+            "examples": [
+              "Bitcoin crash = IT stocks flash sale - The 24-hour opportunity",
+              "Crypto correlation trade: Buy Indian fintech at 40% discount"
+            ]
+          },
+          "rupee_crisis": {
+            "angle": "Multi-asset opportunities",
+            "message": "Currency move = Equity/Debt/Gold plays",
+            "examples": [
+              "Rupee at ₹86.40: The 3-asset portfolio adjustment needed TODAY",
+              "Export champions available at import prices - The list"
+            ]
+          }
+        },
+        "viral_triggers": [
+          "Time-bound opportunities",
+          "Specific action steps",
+          "Performance metrics",
+          "Risk-reward ratios",
+          "Quick implementation"
+        ],
+        "distribution_tactics": {
+          "optimal_length": "30-60 second scan",
+          "format": "Alert > Opportunity > Action > Result",
+          "visual_style": "Trading screens, Live charts, Action buttons",
+          "language": "Crisp English, Trading terminology",
+          "cta_style": "Direct action - 'Execute now or miss out'"
+        }
+      }
+    }
+  },
+
+  "viral_content_recommendations": {
+    "Standard_segment": {
+      "priority_themes": [
+        {
+          "theme": "FII vs DII Battle",
+          "headline": "While FIIs sold ₹2.35L Cr, Mumbai Teacher Made 27% Return",
+          "angle": "Small investor success during institutional panic",
+          "virality_score": 9.5,
+          "emotional_trigger": "Hope + Validation",
+          "distribution_time": "9:00 AM",
+          "expected_engagement": "Very High"
+        },
+        {
+          "theme": "Rupee Crisis",
+          "headline": "Rupee at ₹86.40: Your EMI Will Rise by ₹3,470 - 3 Ways to Save",
+          "angle": "Immediate personal impact with solutions",
+          "virality_score": 9.0,
+          "emotional_trigger": "Fear + Relief",
+          "distribution_time": "7:00 PM",
+          "expected_engagement": "High"
+        }
+      ],
+      "content_calendar": {
+        "monday": "Market opportunity (FII-DII divergence)",
+        "tuesday": "Success story (Local investor win)",
+        "wednesday": "Protection strategy (Rupee hedging)",
+        "thursday": "Myth buster (Bitcoin vs Gold)",
+        "friday": "Weekend prep (Trump tariff opportunities)",
+        "saturday": "Family finance (Kids' education planning)",
+        "sunday": "Inspiration (Rags to riches via SIP)"
+      },
+      "viral_multipliers": [
+        "Include city-specific examples",
+        "Use local language phrases",
+        "Add WhatsApp shareability",
+        "Include calculator/tool",
+        "Before/after visualization"
+      ]
+    },
+
+    "Gold_segment": {
+      "priority_themes": [
+        {
+          "theme": "Institutional Behavior Decode",
+          "headline": "SEBI Data: Why Smart Money Exits at 23X PE Mean Reversion at 18X",
+          "angle": "Exclusive insight into institutional strategies",
+          "virality_score": 8.5,
+          "emotional_trigger": "Intelligence + Exclusivity",
+          "distribution_time": "6:30 AM",
+          "expected_engagement": "High"
+        },
+        {
+          "theme": "Global Arbitrage",
+          "headline": "Trump's 50% Tariff = India's $47B Chemical Export Opportunity",
+          "angle": "Second-order thinking and unique positioning",
+          "virality_score": 8.0,
+          "emotional_trigger": "Sophistication + Opportunity",
+          "distribution_time": "10:00 PM",
+          "expected_engagement": "Medium-High"
+        }
+      ],
+      "content_calendar": {
+        "monday": "Quantitative insight (Market microstructure)",
+        "tuesday": "Global correlation (International arbitrage)",
+        "wednesday": "Technical analysis (Advanced patterns)",
+        "thursday": "Policy impact (Regulatory alpha)",
+        "friday": "Research deep-dive (Sector rotation)",
+        "saturday": "Wealth strategy (Tax + Estate)",
+        "sunday": "Thought leadership (Market philosophy)"
+      },
+      "viral_multipliers": [
+        "Include proprietary data",
+        "Add research citations",
+        "LinkedIn optimization",
+        "Downloadable models",
+        "Webinar follow-up"
+      ]
+    },
+
+    "Active_segment": {
+      "priority_themes": [
+        {
+          "theme": "Immediate Action Required",
+          "headline": "ALERT: ₹2.35L Cr Reversal Starting - 5 Stocks to Buy in Next 2 Hours",
+          "angle": "Time-sensitive opportunity with specific actions",
+          "virality_score": 9.8,
+          "emotional_trigger": "Urgency + FOMO",
+          "distribution_time": "9:15 AM",
+          "expected_engagement": "Very High"
+        },
+        {
+          "theme": "Volatility Trade",
+          "headline": "Bitcoin Crashed 14% = These 3 IT Stocks Flash Sale Ending Today",
+          "angle": "Correlation trade with immediate execution",
+          "virality_score": 9.2,
+          "emotional_trigger": "Opportunity + Competition",
+          "distribution_time": "3:20 PM",
+          "expected_engagement": "High"
+        }
+      ],
+      "content_calendar": {
+        "monday": "Week setup (Positioning alerts)",
+        "tuesday": "Momentum trades (Technical triggers)",
+        "wednesday": "Arbitrage opportunities",
+        "thursday": "Event trades (Results/Policy)",
+        "friday": "Weekly review + Next week prep",
+        "saturday": "Portfolio optimization",
+        "sunday": "Global market prep"
+      },
+      "viral_multipliers": [
+        "Real-time alerts",
+        "Specific entry/exit levels",
+        "Risk-reward clarity",
+        "Performance tracking",
+        "Mobile-first format"
+      ]
+    }
+  },
+
+  "implementation_guidelines": {
+    "content_creation": {
+      "Standard": {
+        "tone": "Conversational, encouraging, relatable",
+        "complexity": "Low - use analogies and stories",
+        "visuals": "Bright, simple infographics with local context",
+        "length": "Short - 60-90 second reads",
+        "cta": "Gentle nudge to consult advisor"
+      },
+      "Gold": {
+        "tone": "Professional, analytical, sophisticated",
+        "complexity": "High - use data and technical analysis",
+        "visuals": "Professional charts, data visualizations",
+        "length": "Medium - 3-5 minute reads",
+        "cta": "Thought leadership positioning"
+      },
+      "Active": {
+        "tone": "Urgent, actionable, performance-focused",
+        "complexity": "Medium - focus on execution",
+        "visuals": "Live charts, trading screens, alerts",
+        "length": "Very short - 30-60 second scans",
+        "cta": "Direct action required"
+      }
+    },
+
+    "distribution_strategy": {
+      "Standard": {
+        "primary_channel": "WhatsApp",
+        "frequency": "Daily morning + evening",
+        "format": "Image + Short text + Link",
+        "personalization": "City, profession, investment size"
+      },
+      "Gold": {
+        "primary_channel": "LinkedIn + Email",
+        "frequency": "3-4 times per week",
+        "format": "Article + Infographic + Data",
+        "personalization": "Industry, expertise, client type"
+      },
+      "Active": {
+        "primary_channel": "Multi-channel push",
+        "frequency": "Real-time alerts + Daily summary",
+        "format": "Alert + Action card + Performance",
+        "personalization": "Trading style, risk level, goals"
+      }
+    },
+
+    "measurement_metrics": {
+      "Standard": {
+        "primary_kpi": "Share rate",
+        "secondary_kpis": ["Open rate", "Client inquiries", "New leads"],
+        "success_threshold": "20% share rate"
+      },
+      "Gold": {
+        "primary_kpi": "Engagement depth",
+        "secondary_kpis": ["Time on content", "Downloads", "Webinar signups"],
+        "success_threshold": "3+ minute average read time"
+      },
+      "Active": {
+        "primary_kpi": "Action rate",
+        "secondary_kpis": ["Speed of action", "Follow-through", "Performance"],
+        "success_threshold": "40% action within 1 hour"
+      }
+    }
+  },
+
+  "optimization_recommendations": {
+    "a_b_testing_priorities": [
+      {
+        "segment": "Standard",
+        "test": "Local language vs English",
+        "hypothesis": "30% higher engagement with local language",
+        "duration": "1 week"
+      },
+      {
+        "segment": "Gold",
+        "test": "Data-heavy vs Story-driven",
+        "hypothesis": "Data drives 2X authority perception",
+        "duration": "2 weeks"
+      },
+      {
+        "segment": "Active",
+        "test": "Push frequency optimization",
+        "hypothesis": "3 alerts/day optimal for engagement",
+        "duration": "3 days"
+      }
+    ],
+
+    "personalization_layers": [
+      {
+        "layer": "Geographic",
+        "variables": ["City", "State", "Regional events"],
+        "impact": "High for Standard, Medium for others"
+      },
+      {
+        "layer": "Professional",
+        "variables": ["Industry", "Designation", "Company size"],
+        "impact": "High for all segments"
+      },
+      {
+        "layer": "Behavioral",
+        "variables": ["Past engagement", "Content preferences", "Action history"],
+        "impact": "Critical for Active, High for others"
+      }
+    ],
+
+    "viral_amplification_tactics": [
+      {
+        "tactic": "Influencer seeding",
+        "description": "Get 5 top advisors to share first",
+        "expected_multiplier": "3X reach"
+      },
+      {
+        "tactic": "Controversy injection",
+        "description": "Contrarian views on mainstream beliefs",
+        "expected_multiplier": "5X engagement"
+      },
+      {
+        "tactic": "Interactive elements",
+        "description": "Polls, calculators, predictions",
+        "expected_multiplier": "2X participation"
+      }
+    ]
+  },
+
+  "execution_roadmap": {
+    "immediate_actions": [
+      "Create segment-specific content templates",
+      "Set up distribution automation",
+      "Implement tracking systems"
+    ],
+    "week_1_priorities": [
+      "Launch Standard segment underdog stories",
+      "Test Gold segment data revelations",
+      "Deploy Active segment alerts"
+    ],
+    "month_1_goals": [
+      "Achieve 30% engagement rate per segment",
+      "Generate 500+ leads through viral content",
+      "Build segment-specific content libraries"
+    ],
+    "success_metrics": {
+      "viral_threshold": "1000+ shares per piece",
+      "engagement_benchmark": "25% average",
+      "conversion_target": "5% content to lead",
+      "retention_goal": "80% monthly active advisors"
+    }
+  }
+}

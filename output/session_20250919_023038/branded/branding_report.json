@@ -1,0 +1,138 @@
+{
+  "success": true,
+  "timestamp": "2025-09-19T02:59:51.148198",
+  "session_id": "session_20250919_023038",
+  "branded_content": {
+    "total_items": 36,
+    "by_type": {
+      "linkedin": 10,
+      "whatsapp": 18,
+      "status_images": 8
+    }
+  },
+  "branding_applied": {
+    "logo_added": false,
+    "colors_applied": true,
+    "tagline_inserted": true,
+    "contact_info_added": true,
+    "disclaimers_added": true
+  },
+  "compliance_verification": {
+    "advisor_attribution": 77.77777777777779,
+    "brand_colors": 77.77777777777779,
+    "contact_info": 52.77777777777778,
+    "disclaimers": 77.77777777777779,
+    "taglines": 77.77777777777779,
+    "overall": 72.77777777777779
+  },
+  "file_locations": {
+    "branded_content_directory": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded",
+    "linkedin_posts": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin",
+    "whatsapp_messages": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp",
+    "status_images": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/images"
+  },
+  "logs": [
+    {
+      "advisor_id": "ADV_006",
+      "platform": "linkedin",
+      "elements_applied": [
+        "signature",
+        "tagline",
+        "contact",
+        "disclaimer"
+      ]
+    },
+    {
+      "advisor_id": "ADV_006",
+      "platform": "linkedin",
+      "elements_applied": [
+        "signature",
+        "tagline",
+        "contact",
+        "disclaimer"
+      ]
+    },
+    {
+      "advisor_id": "ADV_006",
+      "platform": "linkedin",
+      "elements_applied": [
+        "signature",
+        "tagline",
+        "contact",
+        "disclaimer"
+      ]
+    },
+    {
+      "advisor_id": "ADV_006",
+      "platform": "linkedin",
+      "elements_applied": [
+        "signature",
+        "tagline",
+        "contact",
+        "disclaimer"
+      ]
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "platform": "linkedin",
+      "elements_applied": [
+        "signature",
+        "tagline",
+        "contact",
+        "disclaimer"
+      ]
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "platform": "linkedin",
+      "elements_applied": [
+        "signature",
+        "tagline",
+        "contact",
+        "disclaimer"
+      ]
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "platform": "linkedin",
+      "elements_applied": [
+        "signature",
+        "tagline",
+        "contact",
+        "disclaimer"
+      ]
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "platform": "linkedin",
+      "elements_applied": [
+        "signature",
+        "tagline",
+        "contact",
+        "disclaimer"
+      ]
+    },
+    {
+      "advisor_id": "ADV_010",
+      "platform": "linkedin",
+      "elements_applied": [
+        "signature",
+        "tagline",
+        "contact",
+        "disclaimer"
+      ]
+    },
+    {
+      "advisor_id": "ADV_010",
+      "platform": "linkedin",
+      "elements_applied": [
+        "signature",
+        "tagline",
+        "contact",
+        "disclaimer"
+      ]
+    }
+  ],
+  "warnings": [],
+  "ready_for_distribution": false
+}

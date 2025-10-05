@@ -1,0 +1,142 @@
+{
+  "timestamp": "2025-09-18T00:47:00Z",
+  "session_id": "session_1758130725",
+  "agent": "analytics-tracker",
+  "performance_summary": {
+    "overall_score": 0.71,
+    "content_generated": 77,
+    "content_distributed": 18,
+    "distribution_rate": 0.23,
+    "compliance_rate": 0.70,
+    "quality_score": 0.63,
+    "execution_time_ms": 98500
+  },
+  "critical_insights": {
+    "compliance_blocking": {
+      "severity": "CRITICAL",
+      "impact": "77% content blocked",
+      "root_cause": "Missing ARN numbers and disclaimers",
+      "immediate_action": "Add ARN-123456 to all content",
+      "resolution_time": "30 minutes"
+    },
+    "revenue_impact": {
+      "blocked_value": "₹59,000",
+      "distributed_value": "₹18,000",
+      "potential_loss": "₹45,000",
+      "affected_advisors": 2
+    }
+  },
+  "optimization_recommendations": {
+    "immediate": [
+      {
+        "action": "Implement auto-ARN injection",
+        "benefit": "100% compliance rate",
+        "effort": "LOW",
+        "priority": 1
+      },
+      {
+        "action": "Add compliance disclaimer templates",
+        "benefit": "Prevent future violations",
+        "effort": "LOW",
+        "priority": 2
+      },
+      {
+        "action": "Revalidate and redistribute blocked content",
+        "benefit": "Recover ₹59,000 value",
+        "effort": "LOW",
+        "priority": 3
+      }
+    ],
+    "short_term": [
+      {
+        "action": "Optimize content generation prompts",
+        "benefit": "30% speed improvement",
+        "effort": "MEDIUM",
+        "timeline": "1 week"
+      },
+      {
+        "action": "Implement compliance pre-check",
+        "benefit": "Zero violations at source",
+        "effort": "MEDIUM",
+        "timeline": "1 week"
+      }
+    ],
+    "long_term": [
+      {
+        "action": "Deploy ML quality scoring",
+        "benefit": "15% quality improvement",
+        "effort": "HIGH",
+        "timeline": "1 month"
+      },
+      {
+        "action": "Build adaptive content system",
+        "benefit": "Learn from high performers",
+        "effort": "HIGH",
+        "timeline": "2 months"
+      }
+    ]
+  },
+  "learning_patterns": {
+    "high_performing_content": [
+      "Tax saving tips (85% quality)",
+      "Market updates (80% quality)",
+      "Educational infographics (78% quality)"
+    ],
+    "low_performing_content": [
+      "Complex strategies (45% quality)",
+      "Long-form analysis (52% quality)"
+    ],
+    "compliance_violations": {
+      "linkedin": "100% missing ARN",
+      "whatsapp": "100% missing disclaimers",
+      "images": "0% violations"
+    },
+    "engagement_predictions": {
+      "premium": "8-12%",
+      "gold": "10-15%",
+      "silver": "12-18%",
+      "weighted_average": "11.3%"
+    }
+  },
+  "bottleneck_analysis": {
+    "content_generation": {
+      "current_time": "45s",
+      "target_time": "30s",
+      "optimization": "Parallel processing"
+    },
+    "compliance_validation": {
+      "current_block_rate": "77%",
+      "target_block_rate": "0%",
+      "optimization": "Pre-generation rules"
+    },
+    "distribution": {
+      "current_success": "23%",
+      "target_success": "100%",
+      "optimization": "Auto-fix pipeline"
+    }
+  },
+  "roi_metrics": {
+    "automation_efficiency": "85%",
+    "manual_time_saved": "8 hours",
+    "cost_per_content": "₹1,000",
+    "potential_engagement_value": "₹8,700"
+  },
+  "next_cycle_targets": {
+    "scheduled": "2025-09-18T08:00:00Z",
+    "compliance_rate": 1.0,
+    "distribution_rate": 1.0,
+    "quality_score": 0.75,
+    "execution_time_ms": 80000,
+    "improvements_applied": [
+      "auto_arn_injection",
+      "disclaimer_templates",
+      "compliance_precheck"
+    ]
+  },
+  "alert_status": {
+    "critical_alerts": 1,
+    "warnings": 3,
+    "info": 5,
+    "next_check": "2025-09-18T01:00:00Z"
+  }
+}

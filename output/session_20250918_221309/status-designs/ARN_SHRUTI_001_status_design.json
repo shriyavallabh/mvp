@@ -1,0 +1,116 @@
+{
+  "type": "market_update",
+  "layout": "data_visualization",
+  "elements": {
+    "background": {
+      "style": "gradient",
+      "colors": [
+        "#1A73E8",
+        "#FFFFFF"
+      ],
+      "opacity": 0.9
+    },
+    "headline": {
+      "text": "Markets Close Higher",
+      "fontSize": 96,
+      "position": {
+        "x": "center",
+        "y": 150
+      },
+      "color": "#FFFFFF"
+    },
+    "market_data": {
+      "sensex": {
+        "value": 82876,
+        "change": 0.22,
+        "fontSize": 72,
+        "position": {
+          "x": "center",
+          "y": 400
+        }
+      },
+      "nifty": {
+        "value": 25423.6,
+        "change": 0.37,
+        "fontSize": 72,
+        "position": {
+          "x": "center",
+          "y": 550
+        }
+      }
+    },
+    "top_sectors": {
+      "title": "Top Performing Sectors",
+      "items": [
+        "Information Technology",
+        "Healthcare/Pharma",
+        "PSU Banks"
+      ],
+      "fontSize": 56,
+      "position": {
+        "x": "center",
+        "y": 800
+      }
+    },
+    "cta": {
+      "text": "Review Your Portfolio Today",
+      "fontSize": 64,
+      "position": {
+        "x": "center",
+        "y": 1400
+      },
+      "style": "button"
+    },
+    "branding": {
+      "advisorName": "Shruti Petkar",
+      "tagline": "Building Wealth, Creating Trust",
+      "fontSize": 48,
+      "position": {
+        "x": "center",
+        "y": 1700
+      }
+    }
+  },
+  "metadata": {
+    "advisorId": "ARN_SHRUTI_001",
+    "advisorName": "Shruti Petkar",
+    "arn": "ARN_SHRUTI_001",
+    "tier": "Standard",
+    "sessionId": "session_20250918_221309",
+    "timestamp": "2025-09-18T22:43:32.120322",
+    "fontStandards": {
+      "headline": {
+        "size": 96,
+        "weight": "bold",
+        "position": "top 20%",
+        "purpose": "Primary hook, must be readable in 1 second"
+      },
+      "subheading": {
+        "size": 72,
+        "weight": "semibold",
+        "position": "top 30-40%",
+        "purpose": "Supporting information"
+      },
+      "body_text": {
+        "size": 56,
+        "weight": "regular",
+        "position": "middle 40-60%",
+        "purpose": "Key details and data"
+      },
+      "call_to_action": {
+        "size": 64,
+        "weight": "bold",
+        "position": "bottom 30%",
+        "purpose": "Action trigger"
+      },
+      "footer_disclaimer": {
+        "size": 42,
+        "weight": "light",
+        "position": "bottom 10%",
+        "purpose": "Compliance text (still readable)"
+      }
+    },
+    "isVariation": false
+  },
+  "geminiPrompt": "\n    Create a WhatsApp Status image (1080x1920px vertical format):\n\n    DESIGN TYPE: market_update\n    LAYOUT: data_visualization\n\n    VISUAL SPECIFICATIONS:\n    - Canvas: 1080x1920px, 9:16 aspect ratio\n    - Mobile-optimized with thumb-zone awareness\n    - High contrast for outdoor viewing\n    - 3-second comprehension rule applied\n\n    BRAND IDENTITY:\n    - Advisor: Shruti Petkar\n    - Primary Color: #1A73E8\n    - Secondary Color: #34A853\n    - Tagline: Building Wealth, Creating Trust\n\n    FONT HIERARCHY (Mobile Optimized):\n    - Headlines: 96px bold (top 20% of screen)\n    - Subheadings: 72px semibold\n    - Body Text: 56px regular\n    - CTAs: 64px bold\n    - Footer/Disclaimer: 42px minimum\n\n    CONTENT ELEMENTS:\n    {\n  \"background\": {\n    \"style\": \"gradient\",\n    \"colors\": [\n      \"#1A73E8\",\n      \"#FFFFFF\"\n    ],\n    \"opacity\": 0.9\n  },\n  \"headline\": {\n    \"text\": \"Markets Close Higher\",\n    \"fontSize\": 96,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 150\n    },\n    \"color\": \"#FFFFFF\"\n  },\n  \"market_data\": {\n    \"sensex\": {\n      \"value\": 82876,\n      \"change\": 0.22,\n      \"fontSize\": 72,\n      \"position\": {\n        \"x\": \"center\",\n        \"y\": 400\n      }\n    },\n    \"nifty\": {\n      \"value\": 25423.6,\n      \"change\": 0.37,\n      \"fontSize\": 72,\n      \"position\": {\n        \"x\": \"center\",\n        \"y\": 550\n      }\n    }\n  },\n  \"top_sectors\": {\n    \"title\": \"Top Performing Sectors\",\n    \"items\": [\n      \"Information Technology\",\n      \"Healthcare/Pharma\",\n      \"PSU Banks\"\n    ],\n    \"fontSize\": 56,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 800\n    }\n  },\n  \"cta\": {\n    \"text\": \"Review Your Portfolio Today\",\n    \"fontSize\": 64,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1400\n    },\n    \"style\": \"button\"\n  },\n  \"branding\": {\n    \"advisorName\": \"Shruti Petkar\",\n    \"tagline\": \"Building Wealth, Creating Trust\",\n    \"fontSize\": 48,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1700\n    }\n  }\n}\n\n    STYLE GUIDELINES:\n    - Modern, clean, professional\n    - Use brand colors prominently\n    - Ensure text has proper contrast\n    - Include subtle animations/transitions feel\n    - Bottom 15% clear for WhatsApp reply bar\n\n    COMPLIANCE:\n    - Include disclaimer: \"Mutual fund investments are subject to market risks.\"\n    - ARN: ARN_SHRUTI_001\n\n    OUTPUT: High-quality status image optimized for mobile viewing\n    "
+}

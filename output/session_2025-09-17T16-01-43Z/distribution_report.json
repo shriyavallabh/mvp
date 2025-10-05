@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-09-17T16:01:43Z",
+  "source": "distribution-controller",
+  "distribution_plan": {
+    "linkedin": {
+      "scheduled_posts": [
+        {
+          "advisor_id": "adv_001",
+          "scheduled_time": "2025-09-17T09:00:00+05:30",
+          "status": "SCHEDULED",
+          "platform": "LinkedIn",
+          "estimated_reach": 2500
+        },
+        {
+          "advisor_id": "adv_002",
+          "scheduled_time": "2025-09-17T10:30:00+05:30",
+          "status": "SCHEDULED",
+          "platform": "LinkedIn",
+          "estimated_reach": 1800
+        },
+        {
+          "advisor_id": "adv_003",
+          "scheduled_time": "2025-09-17T11:00:00+05:30",
+          "status": "SCHEDULED",
+          "platform": "LinkedIn",
+          "estimated_reach": 3200
+        }
+      ]
+    },
+    "whatsapp": {
+      "broadcast_lists": [
+        {
+          "advisor_id": "adv_001",
+          "list_name": "HNI_Clients",
+          "recipient_count": 145,
+          "scheduled_time": "2025-09-17T09:30:00+05:30",
+          "status": "READY"
+        },
+        {
+          "advisor_id": "adv_002",
+          "list_name": "Women_Investors",
+          "recipient_count": 287,
+          "scheduled_time": "2025-09-17T10:00:00+05:30",
+          "status": "READY"
+        },
+        {
+          "advisor_id": "adv_003",
+          "list_name": "Premium_Clients",
+          "recipient_count": 89,
+          "scheduled_time": "2025-09-17T08:30:00+05:30",
+          "status": "READY"
+        }
+      ]
+    }
+  },
+  "delivery_metrics": {
+    "total_scheduled": 6,
+    "platforms": ["LinkedIn", "WhatsApp"],
+    "estimated_total_reach": 8021,
+    "optimization": {
+      "best_times_detected": true,
+      "audience_segmentation": "ACTIVE",
+      "multi_channel_sync": "ENABLED"
+    }
+  },
+  "retry_policy": {
+    "max_attempts": 3,
+    "backoff_strategy": "exponential",
+    "failure_notifications": true
+  }
+}

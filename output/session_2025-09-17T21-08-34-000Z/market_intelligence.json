@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "timestamp": "2025-09-17T21:08:34.000Z",
+    "session": "session_2025-09-17T21-08-34-000Z",
+    "analysis": "Market Intelligence Key Insights"
+  },
+  "indices": {
+    "sensex": {
+      "currentValue": 82690,
+      "dayChange": 594.95,
+      "changePercent": 0.73,
+      "dayHigh": 82443.48,
+      "monthlyGain": 1.74,
+      "yearlyChange": -0.31,
+      "insight": "Sensex showing resilience at 82,690 with positive momentum (+0.73%), supported by banking and IT sectors"
+    },
+    "nifty50": {
+      "currentValue": 25210.05,
+      "52WeekHigh": 26277.35,
+      "distanceFromHigh": -4.06,
+      "insight": "Nifty at 25,210, trading 4% below 52-week high, indicating consolidation phase"
+    }
+  },
+  "sectorPerformance": {
+    "topPerformers": [
+      {
+        "sector": "Realty",
+        "yearlyReturn": 48.61,
+        "insight": "Stellar outperformer with +48% yearly returns, benefiting from urban demand and infrastructure push"
+      },
+      {
+        "sector": "Pharma",
+        "yearlyReturn": 39.27,
+        "currentIndex": 22302.60,
+        "insight": "Strong +39% yearly gains despite minor daily correction (-0.29%), defensive play attracting investors"
+      },
+      {
+        "sector": "Information Technology",
+        "indexWeight": "Second highest in Sensex",
+        "insight": "Major index contributor with positive momentum, benefiting from global tech demand"
+      },
+      {
+        "sector": "PSU Banks",
+        "keyDriver": "Asset quality improvement",
+        "insight": "Strong Q4 FY25 earnings expected with reduced NPAs and stable NIMs"
+      }
+    ],
+    "sectorRotation": "Clear rotation from traditional sectors to Realty, Pharma, and IT indicating risk-on sentiment with defensive hedging"
+  },
+  "mutualFundTrends": {
+    "totalAUM": "₹30.36 lakh crore",
+    "monthlyInflows": "₹60,363.70 crore",
+    "topPerformingCategories": [
+      {
+        "category": "Small Cap Funds",
+        "topFund": "Quant Small Cap",
+        "nav": 278.59,
+        "insight": "Small-cap funds attracting significant flows, indicating retail risk appetite"
+      },
+      {
+        "category": "Infrastructure Funds",
+        "topFund": "Quant Infrastructure",
+        "3YearCAGR": 28.41,
+        "insight": "Infrastructure theme funds outperforming on government capex push"
+      },
+      {
+        "category": "Hybrid Funds",
+        "topFund": "HDFC Balanced Advantage",
+        "aum": "₹95,569.87 crore",
+        "insight": "Balanced funds seeing massive inflows as investors seek stability with growth"
+      }
+    ],
+    "keyInsight": "Mutual funds outperforming broader indices, attracting consistent retail flows"
+  },
+  "institutionalFlows": {
+    "divergenceAnalysis": {
+      "fii": {
+        "status": "Net Sellers",
+        "fy25Selling": "₹1.27 lakh crore ($14.89 billion)",
+        "recordMonth": "October 2024: ₹114,445.89 crore",
+        "q1_2025": "Inflow of ₹1.51 lakh crore indicating possible reversal",
+        "insight": "FIIs heavy selling creating buying opportunities, but Q1 2025 shows signs of return"
+      },
+      "dii": {
+        "status": "Consistent Buyers",
+        "fy25Buying": "₹6.06 lakh crore ($71.04 billion)",
+        "buyingSellRatio": "4.77x of FII selling",
+        "insight": "DIIs providing strong market support, preventing major corrections"
+      },
+      "netImpact": "DII buying 4.77x of FII selling - domestic institutions now dominate market direction"
+    }
+  },
+  "marketSentiment": {
+    "overall": "Cautiously Optimistic",
+    "score": 6.5,
+    "positiveFactors": [
+      "Strong DII support providing floor to markets",
+      "Banking sector stability with improving NPAs",
+      "Sector rotation indicating healthy market",
+      "Q4 FY25 earnings expectations positive",
+      "India-US trade talks boosting sentiment"
+    ],
+    "riskFactors": [
+      "FII selling pressure persists despite Q1 inflows",
+      "Crude oil above $80 impacting margins",
+      "Global economic uncertainties",
+      "Nifty 4% below 52-week high showing resistance"
+    ]
+  },
+  "keyInsights": [
+    {
+      "insight": "Market Resilience",
+      "detail": "Despite ₹1.27 lakh crore FII selling, indices near all-time highs due to DII support"
+    },
+    {
+      "insight": "Sector Leadership Change",
+      "detail": "Realty (+48%) and Pharma (+39%) replacing traditional FMCG/Auto leadership"
+    },
+    {
+      "insight": "Domestic Story Intact",
+      "detail": "DIIs investing 4.77x of FII selling amount shows confidence in India story"
+    },
+    {
+      "insight": "Small-Cap Resurgence",
+      "detail": "Small-cap mutual funds showing strong performance, indicating broad market participation"
+    },
+    {
+      "insight": "Banking Turnaround",
+      "detail": "PSU banks leading with improved asset quality and stable NIMs"
+    }
+  ],
+  "actionableRecommendations": [
+    {
+      "recommendation": "Accumulate on FII-driven dips",
+      "rationale": "DII support provides floor, FII selling creates value opportunities"
+    },
+    {
+      "recommendation": "Overweight Realty and Pharma",
+      "rationale": "Clear outperformance trend with 48% and 39% yearly returns respectively"
+    },
+    {
+      "recommendation": "Consider Small-cap allocation",
+      "rationale": "Small-cap funds showing strong alpha generation potential"
+    },
+    {
+      "recommendation": "Build Banking positions",
+      "rationale": "PSU banks showing NPA improvement and earnings momentum"
+    },
+    {
+      "recommendation": "Maintain 10-15% cash reserves",
+      "rationale": "Deploy during FII-selling induced corrections"
+    }
+  ],
+  "marketOutlook": {
+    "shortTerm": "Positive with volatility - DII flows to support 81,000-83,500 Sensex range",
+    "mediumTerm": "Bullish - Sector rotation and earnings growth to drive 85,000+ Sensex",
+    "longTerm": "Structural bull market intact - Domestic flows changing market dynamics",
+    "confidence": 75
+  }
+}

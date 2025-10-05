@@ -1,0 +1,64 @@
+{
+  "advisorId": "ADV002",
+  "advisorName": "Vidyadhar Petkar",
+  "segment": "Gold",
+  "arn": "ARN-138924",
+  "brandColors": {
+    "primary": "#2E8B57",
+    "secondary": "#228B22"
+  },
+  "tagline": "Your Financial Growth Partner",
+  "posts": [
+    {
+      "postId": "ADV002_LINKEDIN_1",
+      "formula": "warikoo_personal_loss",
+      "viralityScore": 9.5,
+      "title": "",
+      "content": "I watched my client lose ₹3 lakhs in taxes last year.\n\nNot because they didn't earn enough.\nNot because they didn't invest.\n\nBecause they didn't know about the extra ₹50,000 deduction.\n\nEveryone talks about 80C (₹1.5 lakh).\nNobody mentions 80CCD(1B) (₹50,000 extra through NPS).\n\nTotal possible: ₹2 LAKH tax deduction.\nWhat most people use: ₹1.5 lakh.\nThe gap: ₹50,000 x 31% tax = ₹15,500 lost EVERY year.\n\nOver 10 years?\nThat's ₹1.55 lakhs gone. Plus growth you never got.\n\nThe brutal truth?\n\nYour CA might not tell you this.\nYour bank RM definitely won't.\nEven some advisors miss it.\n\nBut here's what winners do:\n\n1. Max out 80C → ₹1.5L (ELSS/PPF/NPS Tier-I)\n2. Add 80CCD(1B) → Extra ₹50K (NPS only)\n3. Use 80D → Health insurance deductions\n4. Calculate old vs new tax regime\n\nTotal possible tax savings: ₹46,800+ per year.\n\nMarch 31 deadline: 6 months away.\n\nAre you maximizing every rupee?\n\nP.S. That client who lost ₹3L? Now saves ₹50K annually.\nStill regrets not knowing earlier.\n\nVidyadhar Petkar | Your Financial Growth Partner\nARN: ARN-138924\n\n#TaxPlanning #WealthCreation #FinancialFreedom #MutualFunds #NPS",
+      "hooks": [
+        "Personal client story",
+        "Shocking loss number",
+        "Emotional regret",
+        "Clear solution"
+      ],
+      "emotions": [
+        "regret",
+        "urgency",
+        "hope"
+      ],
+      "cta": "maximize_tax_savings",
+      "characterCount": 1247,
+      "viralElements": {
+        "hook": "Client loss story - relatable",
+        "story": "Unknown ₹50K deduction revelation",
+        "emotion": "Regret + Empowerment",
+        "data": "₹3L loss, ₹2L deduction, ₹15.5K yearly",
+        "cta": "Are you maximizing every rupee?"
+      },
+      "timestamp": "2025-10-02T06:34:00.438Z"
+    },
+    {
+      "postId": "ADV002_LINKEDIN_2",
+      "formula": "custom_segment_tailored",
+      "viralityScore": 9.5,
+      "title": "",
+      "content": "Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\n\nYou're part of something historic.\n\n₹27,269 crore monthly SIP inflows.\nThat's ₹906 crore EVERY SINGLE DAY.\n\nYour ₹5,000 SIP?\nIt's part of India's biggest wealth revolution.\n\nBut here's what changed in just 5 years:\n\n2020: 40% investors exit within 1 year\n2025: 30% investors stay 5+ years\n\nFrom panic sellers to patient wealth builders.\n\nYour parents' generation: Fixed Deposits\nYour generation: SIP Portfolios\n\nFD returns (2020-2025): ~35% total\nEquity SIP returns (2020-2025): ~85% total\n\nSame 5 years. 2.5X difference.\n\nRBI just upgraded India's GDP to 6.8%.\nSensex crossed 81,000.\nYour SIP is literally betting on India's growth.\n\nThe winning formula:\n\n✅ Start small (₹500 works!)\n✅ Stay consistent (market timing is a myth)\n✅ Think long-term (5+ years minimum)\n✅ Review yearly (ensure fund quality)\n\n₹5,000 monthly for 20 years at 14% = ₹75 lakh\n₹10,000 monthly for 20 years at 14% = ₹1.5 CRORE\n\nYou're not just investing.\nYou're building financial freedom.\n\nWhat's your SIP goal for 2025?\n\nVidyadhar Petkar | Your Financial Growth Partner\nARN: ARN-138924\n\n#SIPRevolution #WealthCreation #FinancialFreedom #MutualFunds #IndiaGrowthStory",
+      "hooks": [
+        "Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!"
+      ],
+      "emotions": [
+        "Pride, FOMO"
+      ],
+      "cta": "Position as 'You're part of India's ₹27,269 crore SIP movement - Here's how to maximize it'",
+      "characterCount": 1226,
+      "viralElements": {
+        "hook": "Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!",
+        "story": "From panic sellers to patient investors - 30% SIPs now held for 5+ years. Your parents' generation bought gold, you're building portfolios!",
+        "emotion": "Pride, FOMO",
+        "data": "₹27,269 crore peak, 30% long-term holders",
+        "cta": "Start your ₹1000/month SIP today"
+      },
+      "timestamp": "2025-10-02T06:34:00.438Z"
+    }
+  ]
+}

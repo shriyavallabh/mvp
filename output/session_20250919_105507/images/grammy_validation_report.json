@@ -1,0 +1,145 @@
+{
+  "session_id": "session_20250919_105507",
+  "validation_timestamp": "2025-09-19T11:17:32.895272",
+  "summary": {
+    "total_designs": 5,
+    "average_virality_score": 9.08,
+    "grammy_standard_achieved": false,
+    "all_validations_pass": false
+  },
+  "individual_validations": [
+    {
+      "design_id": "village_crorepati_shock",
+      "title": "Village Crorepati Shock",
+      "virality_score": 9.2,
+      "validations": {
+        "virality": {
+          "pass": true,
+          "score": "9.2/10"
+        },
+        "technical": {
+          "pass": true,
+          "details": "1080x1920px, 100px padding"
+        },
+        "content": {
+          "pass": true,
+          "details": "Headlines + CTA present"
+        },
+        "branding": {
+          "pass": true,
+          "details": "Advisor customization integrated"
+        }
+      },
+      "overall_pass": true
+    },
+    {
+      "design_id": "fo_reality_shock",
+      "title": "F&O Reality Check",
+      "virality_score": 8.8,
+      "validations": {
+        "virality": {
+          "pass": true,
+          "score": "8.8/10"
+        },
+        "technical": {
+          "pass": true,
+          "details": "1080x1920px, 100px padding"
+        },
+        "content": {
+          "pass": false,
+          "details": "Headlines + CTA present"
+        },
+        "branding": {
+          "pass": true,
+          "details": "Advisor customization integrated"
+        }
+      },
+      "overall_pass": false
+    },
+    {
+      "design_id": "coffee_wealth_calculator",
+      "title": "Coffee Wealth Calculator",
+      "virality_score": 9.0,
+      "validations": {
+        "virality": {
+          "pass": true,
+          "score": "9.0/10"
+        },
+        "technical": {
+          "pass": true,
+          "details": "1080x1920px, 100px padding"
+        },
+        "content": {
+          "pass": false,
+          "details": "Headlines + CTA present"
+        },
+        "branding": {
+          "pass": true,
+          "details": "Advisor customization integrated"
+        }
+      },
+      "overall_pass": false
+    },
+    {
+      "design_id": "auto_driver_success",
+      "title": "Auto Driver Success Story",
+      "virality_score": 9.5,
+      "validations": {
+        "virality": {
+          "pass": true,
+          "score": "9.5/10"
+        },
+        "technical": {
+          "pass": true,
+          "details": "1080x1920px, 100px padding"
+        },
+        "content": {
+          "pass": false,
+          "details": "Headlines + CTA present"
+        },
+        "branding": {
+          "pass": true,
+          "details": "Advisor customization integrated"
+        }
+      },
+      "overall_pass": false
+    },
+    {
+      "design_id": "grammy_portfolio",
+      "title": "Grammy Portfolio Diversification",
+      "virality_score": 8.9,
+      "validations": {
+        "virality": {
+          "pass": true,
+          "score": "8.9/10"
+        },
+        "technical": {
+          "pass": true,
+          "details": "1080x1920px, 100px padding"
+        },
+        "content": {
+          "pass": true,
+          "details": "Headlines + CTA present"
+        },
+        "branding": {
+          "pass": true,
+          "details": "Advisor customization integrated"
+        }
+      },
+      "overall_pass": true
+    }
+  ],
+  "technical_compliance": {
+    "format": "WhatsApp Status (1080x1920px)",
+    "padding": "100px all sides",
+    "font_hierarchy": "76-92px headlines, 48-64px body",
+    "mobile_optimization": "100%"
+  },
+  "viral_features": [
+    "Shocking statistics with visual proof",
+    "Transformation stories (village to crorepati)",
+    "Daily expense analogies (coffee = \u20b967 lakhs)",
+    "Reality checks (F&O 93% vs 7%)",
+    "Success metaphors (Grammy portfolio)"
+  ]
+}

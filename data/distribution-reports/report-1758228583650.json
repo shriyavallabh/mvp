@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-09-18T20:49:17.723Z",
+  "preFlightChecks": {
+    "webhookHealth": {
+      "passed": true,
+      "data": {
+        "status": "healthy",
+        "domain": "jarvisdaily.com",
+        "platform": "vercel",
+        "advisors": 4,
+        "timestamp": "2025-09-18T20:49:29.460Z",
+        "webhook_url": "https://jarvisdaily.com/webhook",
+        "verify_token": "finadvise-webhook-2024"
+      }
+    },
+    "apiToken": {
+      "passed": true
+    },
+    "templates": {
+      "passed": true,
+      "template": "daily_content_ready_v1"
+    },
+    "subscription": {
+      "passed": true,
+      "error": null
+    },
+    "environment": {
+      "passed": true
+    }
+  },
+  "testDelivery": {
+    "advisor": "Shriya Vallabh Petkar",
+    "phone": "919765071249",
+    "success": true,
+    "messageId": "wamid.HBgMOTE5NzY1MDcxMjQ5FQIAERgSRkE1QjFBNzkzODY4ODZBRjNBAA=="
+  },
+  "productionDeliveries": [
+    {
+      "advisor": "Shruti Petkar",
+      "phone": "919673758777",
+      "success": true,
+      "messageId": "wamid.HBgMOTE5NjczNzU4Nzc3FQIAERgSNUEyMzRGNzBGQjdDNDhDMUZFAA==",
+      "timestamp": "2025-09-18T20:49:38.891Z"
+    },
+    {
+      "advisor": "Vidyadhar Petkar",
+      "phone": "918975758513",
+      "success": true,
+      "messageId": "wamid.HBgMOTE4OTc1NzU4NTEzFQIAERgSMkM0MzRGRkMyRDMwMEI1OTNCAA==",
+      "timestamp": "2025-09-18T20:49:40.948Z"
+    },
+    {
+      "advisor": "Mr. Tranquil Veda",
+      "phone": "919022810769",
+      "success": true,
+      "messageId": "wamid.HBgMOTE5MDIyODEwNzY5FQIAERgSQTM2RDlBNDMwRjhDMTU3MDI4AA==",
+      "timestamp": "2025-09-18T20:49:42.647Z"
+    }
+  ],
+  "metrics": {
+    "attempted": 3,
+    "successful": 3,
+    "failed": 0,
+    "successRate": 100
+  },
+  "errors": []
+}

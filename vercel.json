@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "outputDirectory": ".",
+  "routes": [
+    {
+      "src": "/webhook",
+      "dest": "/api/webhook"
+    },
+    {
+      "src": "/health",
+      "dest": "/api/health"
+    },
+    {
+      "src": "/test",
+      "dest": "/api/test"
+    },
+    {
+      "src": "/send-template",
+      "dest": "/api/send-template"
+    }
+  ]
+}

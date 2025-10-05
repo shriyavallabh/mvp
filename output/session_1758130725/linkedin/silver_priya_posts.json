@@ -1,0 +1,78 @@
+{
+  "advisorSegment": "Silver",
+  "advisorName": "Priya Sharma",
+  "advisorId": "ADV_003",
+  "posts": [
+    {
+      "postId": "SILVER_001_BASICS",
+      "title": "Fed Rate Cut? Here's What It Means For You",
+      "content": "🤔 Everyone's talking about Fed rate cuts. Let me explain in 30 seconds!\n\nTHINK OF IT LIKE THIS:\n🏦 US is making borrowing cheaper\n💸 More money flows to India\n📈 Your investments can grow more!\n\nWHAT TO DO:\n✅ Keep your SIPs running\n✅ Don't panic or get too excited\n✅ Stick to your plan\n\nIT stocks up 4.4% today - that's why your mutual fund NAV looks good! 🚀\n\nInvesting is simple when you understand the basics.\n\n#Investing101 #FedRateCut #SimpleInvesting #FinancialBasics",
+      "characterCount": 438,
+      "hashtags": ["#Investing101", "#FedRateCut", "#SimpleInvesting", "#FinancialBasics"],
+      "postingTime": "8:30 AM",
+      "engagementHooks": ["30-second promise", "Simple analogy", "Clear action items"],
+      "cta": "Keep learning the basics"
+    },
+    {
+      "postId": "SILVER_002_APP",
+      "title": "5 Apps That Make Investing Super Easy!",
+      "content": "📱 Still thinking investing is complicated? Not anymore!\n\nMY TOP 5 APPS:\n\n1️⃣ For mutual funds (start with ₹100!)\n2️⃣ For tracking all investments\n3️⃣ For learning (free courses!)\n4️⃣ For tax saving\n5️⃣ For goal planning\n\n💡 PRO TIP: Start with just one app. Master it. Then add more.\n\nI started investing with just ₹500/month using an app. Now managing lakhs! You can too! 💪\n\n#DigitalInvesting #AppsForInvesting #TechSavvy #ModernInvesting",
+      "characterCount": 386,
+      "hashtags": ["#DigitalInvesting", "#AppsForInvesting", "#TechSavvy", "#ModernInvesting"],
+      "postingTime": "8:30 AM",
+      "engagementHooks": ["Tool recommendations", "Personal journey", "Encouraging message"],
+      "cta": "Start with one app today"
+    },
+    {
+      "postId": "SILVER_003_STORY",
+      "title": "From ₹500 to ₹50,000 - Real Story!",
+      "content": "🌟 My client Sarah, 25, started with just ₹500/month.\n\nTODAY (2 years later):\n💰 Total saved: ₹50,000+\n📈 Returns: 14%\n😊 Confidence: 100%!\n\nHER SECRET?\n• Automated SIP (set and forget)\n• Increased by ₹500 every 6 months\n• Never checked daily prices\n• Focused on her goal\n\nYou don't need lakhs to start. You need to START! 🚀\n\n#SuccessStory #YoungInvestors #StartSmall #FinancialJourney",
+      "characterCount": 367,
+      "hashtags": ["#SuccessStory", "#YoungInvestors", "#StartSmall", "#FinancialJourney"],
+      "postingTime": "8:30 AM",
+      "engagementHooks": ["Relatable story", "Specific numbers", "Motivational message"],
+      "cta": "Start your journey today"
+    },
+    {
+      "postId": "SILVER_004_TECH",
+      "title": "Why Tech Stocks Are 🔥 Right Now",
+      "content": "📱 iPhone 17 launched and tech stocks are flying!\n\nSIMPLE EXPLANATION:\n• New iPhone = More sales for tech companies\n• Redington (iPhone seller) up 20% in one day!\n• IT sector best performer today (+4.4%)\n\n💡 HOW TO BENEFIT:\nDon't buy individual stocks. Get a tech mutual fund instead. Safer and simpler!\n\n🎯 One tech fund covers 30+ companies. Smart, right?\n\n#TechStocks #iPhone17 #SmartInvesting #TechBoom",
+      "characterCount": 379,
+      "hashtags": ["#TechStocks", "#iPhone17", "#SmartInvesting", "#TechBoom"],
+      "postingTime": "8:30 AM",
+      "engagementHooks": ["Trending topic", "Simple explanation", "Practical advice"],
+      "cta": "Consider tech mutual funds"
+    },
+    {
+      "postId": "SILVER_005_TIPS",
+      "title": "3 Money Mistakes I See Daily",
+      "content": "😅 We all make these mistakes!\n\n1️⃣ Waiting for 'perfect time' to invest\n   (Hint: It's always NOW)\n\n2️⃣ Checking portfolio daily\n   (Check monthly, live peacefully)\n\n3️⃣ Following hot tips from WhatsApp\n   (Follow a plan, not the crowd)\n\n💪 FIXING these = WEALTH in future!\n\nWhich one are you guilty of? 🤔\n\n#MoneyMistakes #InvestmentTips #FinancialWisdom #LearnAndGrow",
+      "characterCount": 340,
+      "hashtags": ["#MoneyMistakes", "#InvestmentTips", "#FinancialWisdom", "#LearnAndGrow"],
+      "postingTime": "8:30 AM",
+      "engagementHooks": ["Relatable mistakes", "Interactive question", "Simple solutions"],
+      "cta": "Which mistake do you make?"
+    },
+    {
+      "postId": "SILVER_006_BANKS",
+      "title": "Banking Stocks Rising - Should You Care?",
+      "content": "🏦 Banks up 2.1% today! What does it mean for beginners?\n\nQUICK TAKE:\n✅ Good sign for economy\n✅ Your mutual funds probably have bank stocks\n✅ No need to buy individual bank stocks\n\n💡 BEGINNER TIP:\nLet mutual fund managers handle sector selection. Your job? Keep investing monthly!\n\nSmart Investing Made Simple 🎯\n\n#BankingStocks #BeginnerInvesting #KeepItSimple #MarketUpdate",
+      "characterCount": 344,
+      "hashtags": ["#BankingStocks", "#BeginnerInvesting", "#KeepItSimple", "#MarketUpdate"],
+      "postingTime": "8:30 AM",
+      "engagementHooks": ["Current event", "Beginner focus", "Simple advice"],
+      "cta": "Keep it simple"
+    }
+  ],
+  "brandElements": {
+    "colors": {
+      "primary": "#008080",
+      "secondary": "#F0F8FF",
+      "accent": "#20B2AA"
+    },
+    "tagline": "Smart Investing Made Simple",
+    "voice": "Modern, tech-savvy guide"
+  },
+  "complianceNote": "Simple risk education embedded in casual tone",
+  "generatedAt": "2025-09-17T23:47:00Z"
+}

@@ -1,0 +1,84 @@
+{
+  "type": "educational_carousel",
+  "title": "SIP Benefits Explained",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "aspect_ratio": "9:16"
+  },
+  "content": {
+    "topic": "Power of Systematic Investment Plans",
+    "key_points": [
+      {
+        "title": "Rupee Cost Averaging",
+        "description": "Buy more units when prices are low",
+        "icon": "\ud83d\udcca",
+        "visual": "animated_graph"
+      },
+      {
+        "title": "Power of Compounding",
+        "description": "Your money grows exponentially over time",
+        "icon": "\ud83c\udf31",
+        "visual": "growth_tree"
+      },
+      {
+        "title": "Disciplined Investing",
+        "description": "Automatic monthly investments build wealth",
+        "icon": "\ud83c\udfaf",
+        "visual": "calendar_animation"
+      },
+      {
+        "title": "Start with \u20b9500",
+        "description": "No need for large capital to begin",
+        "icon": "\ud83d\udcb0",
+        "visual": "coin_stack"
+      }
+    ],
+    "example": {
+      "monthly_sip": "\u20b95,000",
+      "duration": "10 years",
+      "expected_returns": "12% p.a.",
+      "final_amount": "\u20b911.6 Lakhs",
+      "invested": "\u20b96 Lakhs",
+      "gains": "\u20b95.6 Lakhs"
+    }
+  },
+  "visual_elements": {
+    "style": "illustrated_educational",
+    "animations": [
+      "step_reveal",
+      "progress_flow",
+      "number_counter"
+    ],
+    "illustrations": "friendly_characters",
+    "background": "subtle_pattern",
+    "layout": "carousel_cards"
+  },
+  "color_scheme": {
+    "primary": "#9C27B0",
+    "secondary": "#E91E63",
+    "background": [
+      "#F5F5F5",
+      "#FFFFFF"
+    ],
+    "accent": "#4CAF50",
+    "text": "#212121"
+  },
+  "branding": {
+    "advisor_name": "Money Matters",
+    "tagline": "Your Financial Growth Partner",
+    "arn": "ARN-789012",
+    "cta": "Start Your SIP Today!",
+    "branding_style": "friendly_approachable"
+  },
+  "gemini_prompt": "Create an educational WhatsApp Status image (1080x1920px):\n\nDESIGN: Illustrated educational carousel about SIP benefits\nTHEME: Making complex investment concepts simple\n\nLAYOUT:\n1. HEADER (15%):\n   - \"Power of SIP\" title with friendly icon\n   - \"Systematic Investment Plan Benefits\" subtitle\n   - Progress dots showing carousel position\n\n2. MAIN CONTENT (60%) - Card-based layout:\n\n   CARD 1: Rupee Cost Averaging\n   - Simple illustration of buying pattern\n   - \"Buy more units when prices are low\"\n   - Graph showing averaging effect\n\n   CARD 2: Power of Compounding\n   - Growing tree illustration with rupee leaves\n   - \"Your money grows exponentially\"\n   - Visual timeline showing growth\n\n   CARD 3: Disciplined Investing\n   - Calendar with checkmarks\n   - \"Automatic monthly investments\"\n   - Progress bar filling up\n\n   CARD 4: Low Entry Barrier\n   - Stack of coins growing\n   - \"Start with just \u20b9500/month\"\n   - Accessibility message\n\n3. EXAMPLE CALCULATION (15%):\n   - Visual calculator showing:\n   - Monthly SIP: \u20b95,000\n   - 10 years = \u20b911.6 Lakhs\n   - Your investment: \u20b96 Lakhs\n   - Your gains: \u20b95.6 Lakhs (shown in green)\n\n4. BRANDING & CTA (10%):\n   - Money Matters\n   - \"Start Your SIP Today!\" button\n   - ARN: ARN-789012\n\nVISUAL STYLE:\n- Clean, friendly illustrations\n- Soft gradients and rounded corners\n- Light background with colorful accents\n- Simple icons and clear typography\n- Brand colors: #9C27B0 and #E91E63\n- Use of white space for clarity\n\nMOOD: Educational, friendly, empowering, approachable",
+  "metadata": {
+    "advisor_id": "ADV_002",
+    "advisor_name": "Rajesh Kumar",
+    "design_number": 2,
+    "created_at": "2025-09-17T21:22:46.028404",
+    "session": "session_2025-09-17T21-08-34-000Z",
+    "content_category": "educational_carousel",
+    "expires_in": "24_hours"
+  }
+}

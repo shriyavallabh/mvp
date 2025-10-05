@@ -1,0 +1,297 @@
+{
+  "sessionId": "session_1759397686841",
+  "timestamp": "2025-10-02T09:46:38.931Z",
+  "summary": {
+    "totalItems": 12,
+    "grammyLevel": 3,
+    "autoApprove": 0,
+    "needsImprovement": 9,
+    "avgScore": 7.637166666666668,
+    "minScore": 6.7715,
+    "maxScore": 8.299000000000001
+  },
+  "linkedin": {
+    "posts": [
+      {
+        "file": "ADV001_post_1.txt",
+        "advisorId": "ADV001",
+        "segment": "Premium",
+        "finalScore": 8.271,
+        "breakdown": {
+          "virality": 8.120000000000001,
+          "engagement": 8.5,
+          "clarity": 8.7,
+          "credibility": 7.8,
+          "brandAlignment": 8
+        },
+        "grammyLevel": true,
+        "autoApprove": false,
+        "metrics": {
+          "hookStrength": 9.8,
+          "wordCount": 163,
+          "emojiCount": 0,
+          "hasQuestion": true,
+          "hasCTA": false,
+          "specificNumbers": 3
+        }
+      },
+      {
+        "file": "ADV001_post_2.txt",
+        "advisorId": "ADV001",
+        "segment": "Premium",
+        "finalScore": 7.634,
+        "breakdown": {
+          "virality": 7.4799999999999995,
+          "engagement": 6.9,
+          "clarity": 8.7,
+          "credibility": 8,
+          "brandAlignment": 7.25
+        },
+        "grammyLevel": false,
+        "autoApprove": false,
+        "metrics": {
+          "hookStrength": 9.7,
+          "wordCount": 112,
+          "emojiCount": 0,
+          "hasQuestion": true,
+          "hasCTA": false,
+          "specificNumbers": 1
+        }
+      },
+      {
+        "file": "ADV002_post_1.txt",
+        "advisorId": "ADV002",
+        "segment": "Gold",
+        "finalScore": 7.492,
+        "breakdown": {
+          "virality": 5.6899999999999995,
+          "engagement": 7.7,
+          "clarity": 8.7,
+          "credibility": 8.8,
+          "brandAlignment": 8
+        },
+        "grammyLevel": false,
+        "autoApprove": false,
+        "metrics": {
+          "hookStrength": 5,
+          "wordCount": 124,
+          "emojiCount": 1,
+          "hasQuestion": true,
+          "hasCTA": false,
+          "specificNumbers": 8
+        }
+      },
+      {
+        "file": "ADV003_post_1.txt",
+        "advisorId": "ADV003",
+        "segment": "Premium",
+        "finalScore": 8.271,
+        "breakdown": {
+          "virality": 8.120000000000001,
+          "engagement": 8.5,
+          "clarity": 8.7,
+          "credibility": 7.8,
+          "brandAlignment": 8
+        },
+        "grammyLevel": true,
+        "autoApprove": false,
+        "metrics": {
+          "hookStrength": 9.8,
+          "wordCount": 163,
+          "emojiCount": 0,
+          "hasQuestion": true,
+          "hasCTA": false,
+          "specificNumbers": 3
+        }
+      },
+      {
+        "file": "ADV003_post_2.txt",
+        "advisorId": "ADV003",
+        "segment": "Premium",
+        "finalScore": 7.634,
+        "breakdown": {
+          "virality": 7.4799999999999995,
+          "engagement": 6.9,
+          "clarity": 8.7,
+          "credibility": 8,
+          "brandAlignment": 7.25
+        },
+        "grammyLevel": false,
+        "autoApprove": false,
+        "metrics": {
+          "hookStrength": 9.7,
+          "wordCount": 113,
+          "emojiCount": 0,
+          "hasQuestion": true,
+          "hasCTA": false,
+          "specificNumbers": 1
+        }
+      },
+      {
+        "file": "ADV004_post_1.txt",
+        "advisorId": "ADV004",
+        "segment": "Silver",
+        "finalScore": 8.299000000000001,
+        "breakdown": {
+          "virality": 7.880000000000001,
+          "engagement": 8.9,
+          "clarity": 8.7,
+          "credibility": 7.8,
+          "brandAlignment": 8
+        },
+        "grammyLevel": true,
+        "autoApprove": false,
+        "metrics": {
+          "hookStrength": 8.3,
+          "wordCount": 131,
+          "emojiCount": 4,
+          "hasQuestion": true,
+          "hasCTA": true,
+          "specificNumbers": 3
+        }
+      }
+    ]
+  },
+  "whatsapp": {
+    "messages": [
+      {
+        "messageId": "WA_ADV001_001",
+        "advisorId": "ADV001",
+        "segment": "Premium",
+        "finalScore": 7.663,
+        "breakdown": {
+          "virality": 7.57,
+          "engagement": 7.7,
+          "clarity": 7.859999999999999,
+          "credibility": 7.8,
+          "brandAlignment": 7.25
+        },
+        "grammyLevel": false,
+        "autoApprove": false,
+        "metrics": {
+          "hookStrength": 8.8,
+          "wordCount": 33,
+          "emojiCount": 1,
+          "hasQuestion": true,
+          "hasCTA": false,
+          "specificNumbers": 3
+        }
+      },
+      {
+        "messageId": "WA_ADV001_002",
+        "advisorId": "ADV001",
+        "segment": "Premium",
+        "finalScore": 7.241499999999999,
+        "breakdown": {
+          "virality": 6.05,
+          "engagement": 7.640000000000001,
+          "clarity": 8.219999999999999,
+          "credibility": 7.15,
+          "brandAlignment": 8
+        },
+        "grammyLevel": false,
+        "autoApprove": false,
+        "metrics": {
+          "hookStrength": 5,
+          "wordCount": 33,
+          "emojiCount": 1,
+          "hasQuestion": true,
+          "hasCTA": false,
+          "specificNumbers": 2
+        }
+      },
+      {
+        "messageId": "WA_ADV002_001",
+        "advisorId": "ADV002",
+        "segment": "Gold",
+        "finalScore": 6.7715,
+        "breakdown": {
+          "virality": 5.45,
+          "engagement": 6.9,
+          "clarity": 7.619999999999999,
+          "credibility": 7.75,
+          "brandAlignment": 7.25
+        },
+        "grammyLevel": false,
+        "autoApprove": false,
+        "metrics": {
+          "hookStrength": 5,
+          "wordCount": 37,
+          "emojiCount": 1,
+          "hasQuestion": false,
+          "hasCTA": false,
+          "specificNumbers": 5
+        }
+      },
+      {
+        "messageId": "WA_ADV003_001",
+        "advisorId": "ADV003",
+        "segment": "Premium",
+        "finalScore": 7.663,
+        "breakdown": {
+          "virality": 7.57,
+          "engagement": 7.7,
+          "clarity": 7.859999999999999,
+          "credibility": 7.8,
+          "brandAlignment": 7.25
+        },
+        "grammyLevel": false,
+        "autoApprove": false,
+        "metrics": {
+          "hookStrength": 8.8,
+          "wordCount": 34,
+          "emojiCount": 1,
+          "hasQuestion": true,
+          "hasCTA": false,
+          "specificNumbers": 3
+        }
+      },
+      {
+        "messageId": "WA_ADV003_002",
+        "advisorId": "ADV003",
+        "segment": "Premium",
+        "finalScore": 7.241499999999999,
+        "breakdown": {
+          "virality": 6.05,
+          "engagement": 7.640000000000001,
+          "clarity": 8.219999999999999,
+          "credibility": 7.15,
+          "brandAlignment": 8
+        },
+        "grammyLevel": false,
+        "autoApprove": false,
+        "metrics": {
+          "hookStrength": 5,
+          "wordCount": 34,
+          "emojiCount": 1,
+          "hasQuestion": true,
+          "hasCTA": false,
+          "specificNumbers": 2
+        }
+      },
+      {
+        "messageId": "WA_ADV004_001",
+        "advisorId": "ADV004",
+        "segment": "Silver",
+        "finalScore": 7.464499999999999,
+        "breakdown": {
+          "virality": 6.35,
+          "engagement": 8.1,
+          "clarity": 8.459999999999999,
+          "credibility": 6.949999999999999,
+          "brandAlignment": 8
+        },
+        "grammyLevel": false,
+        "autoApprove": false,
+        "metrics": {
+          "hookStrength": 5,
+          "wordCount": 46,
+          "emojiCount": 3,
+          "hasQuestion": true,
+          "hasCTA": true,
+          "specificNumbers": 1
+        }
+      }
+    ]
+  }
+}

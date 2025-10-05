@@ -1,0 +1,73 @@
+{
+  "sessionId": "session_1758130725",
+  "timestamp": "2025-01-22T00:52:05.000Z",
+  "sessionType": "finadvise-content-generation",
+  "outputStructure": {
+    "sessionDirectory": "/Users/shriyavallabh/Desktop/mvp/output/session_1758130725",
+    "subdirectories": {
+      "linkedin": "LinkedIn post content and metadata",
+      "whatsapp": "WhatsApp message content and templates",
+      "images": "Generated and customized images",
+      "reports": "Quality, compliance, and analytics reports",
+      "raw-data": "Raw data from advisor and market intelligence",
+      "compliance": "Compliance validation results",
+      "analytics": "Performance and engagement analytics"
+    }
+  },
+  "expectedOutputs": {
+    "advisor-data-manager": {
+      "files": ["advisor-profiles.json", "advisor-metrics.json", "advisor-summary.md"],
+      "directory": "raw-data"
+    },
+    "market-intelligence": {
+      "files": ["market-data.json", "market-trends.json", "market-insights.md"],
+      "directory": "raw-data"
+    },
+    "segment-analyzer": {
+      "files": ["segment-analysis.json", "target-audience.json", "segment-report.md"],
+      "directory": "reports"
+    },
+    "linkedin-post-generator": {
+      "files": ["linkedin-posts.json", "linkedin-content.md", "linkedin-metadata.json"],
+      "directory": "linkedin"
+    },
+    "whatsapp-message-creator": {
+      "files": ["whatsapp-messages.json", "whatsapp-templates.json", "whatsapp-content.md"],
+      "directory": "whatsapp"
+    },
+    "gemini-image-generator": {
+      "files": ["generated-images/", "image-specifications.json", "image-generation-log.json"],
+      "directory": "images"
+    },
+    "brand-customizer": {
+      "files": ["branded-content/", "branding-report.json", "customization-log.json"],
+      "directory": "images"
+    },
+    "compliance-validator": {
+      "files": ["compliance-report.json", "violations.json", "compliance-summary.md"],
+      "directory": "compliance"
+    },
+    "quality-scorer": {
+      "files": ["quality-scores.json", "quality-report.json", "improvement-suggestions.md"],
+      "directory": "reports"
+    },
+    "distribution-manager": {
+      "files": ["distribution-results.json", "delivery-log.json", "distribution-summary.md"],
+      "directory": "analytics"
+    }
+  },
+  "fileTracking": {
+    "generatedFiles": [],
+    "modifiedFiles": [],
+    "totalFiles": 0,
+    "totalSize": 0
+  },
+  "sessionSettings": {
+    "mcpEnabled": true,
+    "stateManagementEnabled": true,
+    "audioFeedbackEnabled": true,
+    "learningCaptureEnabled": true,
+    "traceabilityEnabled": true
+  },
+  "lastUpdated": "2025-01-22T00:52:05.000Z"
+}

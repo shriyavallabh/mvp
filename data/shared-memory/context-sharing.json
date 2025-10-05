@@ -1,0 +1,98 @@
+{
+  "sessionId": "session_1758130725",
+  "timestamp": "2025-01-22T00:52:05.000Z",
+  "contextSharing": {
+    "enabled": true,
+    "realTimeSync": true,
+    "crossAgentAccess": true,
+    "memoryIsolation": false,
+    "contextInheritance": true
+  },
+  "agentContexts": {
+    "advisor-data-manager": {
+      "requiredContext": [],
+      "providesContext": ["advisorData", "advisorProfiles", "advisorMetrics"],
+      "contextSize": "large",
+      "persistContext": true,
+      "shareContext": ["segment-analyzer", "linkedin-post-generator", "whatsapp-message-creator"]
+    },
+    "market-intelligence": {
+      "requiredContext": [],
+      "providesContext": ["marketData", "marketTrends", "marketInsights"],
+      "contextSize": "medium",
+      "persistContext": true,
+      "shareContext": ["segment-analyzer", "linkedin-post-generator", "whatsapp-message-creator"]
+    },
+    "segment-analyzer": {
+      "requiredContext": ["advisorData", "marketData"],
+      "providesContext": ["segmentAnalysis", "targetAudience", "segmentInsights"],
+      "contextSize": "medium",
+      "persistContext": true,
+      "shareContext": ["linkedin-post-generator", "whatsapp-message-creator"]
+    },
+    "linkedin-post-generator": {
+      "requiredContext": ["advisorData", "marketData", "segmentAnalysis"],
+      "providesContext": ["linkedinContent", "linkedinPosts", "linkedinMetadata"],
+      "contextSize": "large",
+      "persistContext": true,
+      "shareContext": ["gemini-image-generator", "compliance-validator", "quality-scorer"]
+    },
+    "whatsapp-message-creator": {
+      "requiredContext": ["advisorData", "marketData", "segmentAnalysis"],
+      "providesContext": ["whatsappContent", "whatsappMessages", "whatsappMetadata"],
+      "contextSize": "large",
+      "persistContext": true,
+      "shareContext": ["gemini-image-generator", "compliance-validator", "quality-scorer"]
+    },
+    "gemini-image-generator": {
+      "requiredContext": ["linkedinContent", "whatsappContent"],
+      "providesContext": ["generatedImages", "imageMetadata", "imageSpecs"],
+      "contextSize": "very-large",
+      "persistContext": true,
+      "shareContext": ["brand-customizer"]
+    },
+    "brand-customizer": {
+      "requiredContext": ["generatedImages", "linkedinContent", "whatsappContent"],
+      "providesContext": ["brandedContent", "brandedImages", "brandingMetadata"],
+      "contextSize": "large",
+      "persistContext": true,
+      "shareContext": ["distribution-manager"]
+    },
+    "compliance-validator": {
+      "requiredContext": ["linkedinContent", "whatsappContent"],
+      "providesContext": ["complianceStatus", "complianceReport", "violations"],
+      "contextSize": "medium",
+      "persistContext": true,
+      "shareContext": ["quality-scorer", "distribution-manager"]
+    },
+    "quality-scorer": {
+      "requiredContext": ["linkedinContent", "whatsappContent", "complianceStatus"],
+      "providesContext": ["qualityScores", "qualityReport", "improvements"],
+      "contextSize": "medium",
+      "persistContext": true,
+      "shareContext": ["distribution-manager"]
+    },
+    "distribution-manager": {
+      "requiredContext": ["brandedContent", "complianceStatus", "qualityScores"],
+      "providesContext": ["distributionResults", "distributionMetrics"],
+      "contextSize": "small",
+      "persistContext": true,
+      "shareContext": []
+    }
+  },
+  "contextFlowRules": {
+    "dataForward": true,
+    "dataBackward": false,
+    "crossBranch": true,
+    "contextValidation": true,
+    "versionControl": true
+  },
+  "memoryManagement": {
+    "maxContextSize": "100MB",
+    "contextCleanup": true,
+    "cleanupAge": 3600000,
+    "compressionEnabled": false,
+    "deduplication": true
+  },
+  "lastUpdated": "2025-01-22T00:52:05.000Z"
+}

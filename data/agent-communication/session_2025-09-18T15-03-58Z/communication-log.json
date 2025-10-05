@@ -1,0 +1,13 @@
+{
+  "sessionId": "session_2025-09-18T15-03-58Z",
+  "communicationLog": [],
+  "activeChannels": [
+    "advisor-context",
+    "market-insights",
+    "segment-analysis",
+    "content-generation",
+    "validation-results",
+    "distribution-status"
+  ],
+  "lastUpdated": "2025-09-18T15:03:58Z"
+}

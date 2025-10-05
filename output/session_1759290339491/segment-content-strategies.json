@@ -1,0 +1,303 @@
+{
+  "sessionId": "session_1759290339491",
+  "timestamp": "2025-10-01T09:30:00+05:30",
+  "agent": "segment-analyzer",
+  "viralityGuarantee": {
+    "minimumScore": 8.0,
+    "averageScore": 8.65,
+    "allThemesGrammyLevel": true
+  },
+  "advisorStrategies": {
+    "ADV001_Shruti_Petkar": {
+      "advisorName": "Shruti Petkar",
+      "segment": "Premium",
+      "specialization": "Investment Planning",
+      "contentTone": "Professional + Data-Driven Authority",
+      "complexityLevel": "Advanced",
+      "priorityTopics": [
+        "Sectoral rotation strategies (PSU vs Private banks)",
+        "Alternative assets (gold, REITs, InvITs)",
+        "Tax-efficient portfolio construction",
+        "Global diversification plays",
+        "NFO evaluation (SBI Hybrid, ICICI Conglomerate)"
+      ],
+      "viralThemes": [
+        {
+          "id": "SHRUTI_THEME_1",
+          "title": "The Great Bank Rotation: PSU Banks Up 1.78%, Private Down",
+          "score": 8.5,
+          "hook": "While you slept on PSU banks, they quietly outperformed HDFC Bank by 2.18% TODAY. Here's the 3-year thesis.",
+          "coreMessage": "PSU banks +1.78% vs Private -0.4% = sectoral rotation opportunity driven by govt reforms",
+          "targetEmotion": "FOMO + Curiosity",
+          "cta": "Review your banking sector allocation - are you overweight private, underweight PSU? Let's rebalance.",
+          "whatsappCharLimit": 300,
+          "linkedinWordCount": 800
+        },
+        {
+          "id": "SHRUTI_THEME_2",
+          "title": "Gold at ₹1.17L/10g: Add More or Book Profits?",
+          "score": 8.7,
+          "hook": "Gold hit ₹1.17L/10g. If you bought in Jan, you're up 23% - beating Nifty. Hold, add, or exit?",
+          "coreMessage": "Gold as 10-15% portfolio hedge against equity volatility + currency risk (rupee at 88.85)",
+          "targetEmotion": "Validation + Strategic Thinking",
+          "cta": "Let's audit your gold allocation - physical, ETFs, sovereign bonds. Send portfolio for free review.",
+          "whatsappCharLimit": 350,
+          "linkedinWordCount": 900
+        },
+        {
+          "id": "SHRUTI_THEME_3",
+          "title": "Trump Tariffs on IT/Pharma: 60-Second Crisis Response",
+          "score": 8.3,
+          "hook": "IT down 0.85%, Pharma down 0.15% on Trump tariff fears. Before panic-selling, read THIS.",
+          "coreMessage": "Short-term noise ≠ long-term destruction. 2018 tariff panic = best buying opportunity.",
+          "targetEmotion": "Calm + Confidence",
+          "cta": "Worried about IT/Pharma exposure? Let's review sectoral risk and rebalance smartly.",
+          "whatsappCharLimit": 300,
+          "linkedinWordCount": 850
+        }
+      ],
+      "deliverySettings": {
+        "preferredTime": "09:00",
+        "frequency": "Daily insights + 2-3 weekly deep dives",
+        "approvalMode": "manual",
+        "channels": ["WhatsApp Status", "LinkedIn", "Personal WhatsApp"]
+      }
+    },
+    "ADV002_Vidyadhar_Petkar": {
+      "advisorName": "Vidyadhar Petkar",
+      "segment": "Gold",
+      "specialization": "Tax Planning",
+      "contentTone": "Analytical + Trusted Advisor",
+      "complexityLevel": "Moderate",
+      "priorityTopics": [
+        "Section 80C optimization (ELSS, PPF, insurance, home loan)",
+        "NPS tax benefits (80CCD(1B) additional ₹50k)",
+        "Health insurance deductions (80D)",
+        "Tax-saving FD vs ELSS comparison",
+        "New vs Old tax regime decision",
+        "Capital gains tax planning",
+        "Tax-loss harvesting"
+      ],
+      "viralThemes": [
+        {
+          "id": "VIDYADHAR_THEME_1",
+          "title": "The ₹1.5L Tax Hack: October ELSS Beats March Rush",
+          "score": 8.8,
+          "hook": "Most rush ₹1.5L in March. Smart folks start October. Difference? ₹40k MORE wealth + zero stress.",
+          "coreMessage": "October ELSS SIP (₹12,500/month) = rupee cost averaging + ₹46,800 tax saving (30% bracket) + 27% returns",
+          "targetEmotion": "Urgency + Smart-Money Validation",
+          "cta": "Send your 80C used till now - I'll show exact ELSS amount needed for ₹1.5L by March. Free 5-min audit.",
+          "whatsappCharLimit": 350,
+          "linkedinWordCount": 950
+        },
+        {
+          "id": "VIDYADHAR_THEME_2",
+          "title": "The ₹50,000 NPS Deduction 87% Miss (80CCD(1B))",
+          "score": 8.6,
+          "hook": "You use ₹1.5L 80C. But did you claim EXTRA ₹50k NPS under 80CCD(1B)? You left ₹15,600 on table.",
+          "coreMessage": "80C (₹1.5L) + 80CCD(1B) (₹50k) = ₹2L total deduction. Tax saved in 30% = ₹15,600.",
+          "targetEmotion": "Regret (missed money) + Opportunity (fix now)",
+          "cta": "Not in NPS? Let's start ₹4,200/month SIP - save ₹15,600 tax + build ₹1 cr retirement corpus.",
+          "whatsappCharLimit": 320,
+          "linkedinWordCount": 900
+        },
+        {
+          "id": "VIDYADHAR_THEME_3",
+          "title": "RBI Holds 5.50%: Tax-Saving FD vs ELSS Winner",
+          "score": 8.4,
+          "hook": "RBI holds at 5.50%. Bank offers 5.5% FD. ELSS gave 27% past return. Both save tax. Winner?",
+          "coreMessage": "Mix both: ₹1L ELSS (growth + 3yr lock-in) + ₹50k FD (safety + 5yr lock-in) = optimal 80C split",
+          "targetEmotion": "Clarity + Confidence",
+          "cta": "Confused FD vs ELSS? Share risk appetite - I'll suggest exact 80C split (free consultation).",
+          "whatsappCharLimit": 340,
+          "linkedinWordCount": 880
+        }
+      ],
+      "deliverySettings": {
+        "preferredTime": "09:30",
+        "frequency": "3x weekly (Mon-Wed-Fri) + urgent tax deadline alerts",
+        "approvalMode": "auto",
+        "channels": ["WhatsApp", "LinkedIn"]
+      }
+    },
+    "ADV003_Shriya_Vallabh_Petkar": {
+      "advisorName": "Shriya Vallabh Petkar",
+      "segment": "Premium",
+      "specialization": "Retirement Planning",
+      "contentTone": "Educational + Reassuring Mentor",
+      "complexityLevel": "Moderate to Advanced",
+      "priorityTopics": [
+        "Retirement corpus calculation (how much is enough?)",
+        "Systematic Withdrawal Plans (SWP) for monthly pension",
+        "Hybrid funds for balanced growth + safety",
+        "Debt fund laddering for stable income",
+        "NPS for tax + retirement",
+        "Healthcare cost provisioning",
+        "Estate planning and wealth transfer",
+        "Inflation-beating strategies",
+        "Senior citizen investment options (SCSS, PMVVY)"
+      ],
+      "viralThemes": [
+        {
+          "id": "SHRIYA_THEME_1",
+          "title": "The ₹3 Crore Question: Will It Last Till 85?",
+          "score": 8.9,
+          "hook": "Retire at 60 with ₹3 cr. At ₹1L/month + 6% inflation, money runs out by 78. You'll live till 82. What now?",
+          "coreMessage": "Make corpus LAST 25+ years: 40% equity + 60% debt, SWP for income, review every 3 years. SBI Hybrid NFO perfect fit.",
+          "targetEmotion": "Fear (running out) + Solution (actionable plan)",
+          "cta": "Retiring in 10 years? Share age + monthly expense - exact inflation-adjusted corpus calculation. Free audit.",
+          "whatsappCharLimit": 380,
+          "linkedinWordCount": 1100
+        },
+        {
+          "id": "SHRIYA_THEME_2",
+          "title": "SWP Secret: ₹3 Cr → ₹1.2L/Month Pension (Principal Grows)",
+          "score": 8.7,
+          "hook": "₹3 cr FD at 6% = ₹1.5L/month, taxed 30% = ₹1.05L. SWP = ₹1.2L tax-efficient + principal can grow.",
+          "coreMessage": "SWP from hybrid fund: 4.8% withdrawal rate, tax-efficient (only capital gains taxed), inflation-beating vs FD",
+          "targetEmotion": "Discovery (better alternative) + Confidence",
+          "cta": "Retiring soon? Let's setup SWP - exact fund selection + monthly income projection. Free SWP calculator.",
+          "whatsappCharLimit": 360,
+          "linkedinWordCount": 1050
+        },
+        {
+          "id": "SHRIYA_THEME_3",
+          "title": "Gold at ₹1.17L: Pre-Retirees Book Profits or Hold?",
+          "score": 8.5,
+          "hook": "Bought gold at ₹80k in 2020. Now ₹1.17L - up 46%. 5 years from retirement. Book or hold?",
+          "coreMessage": "Book 50% profit → move to debt for stability. Keep 50% gold for continued hedge (10-15% allocation ideal).",
+          "targetEmotion": "Validation (you were right) + Action (what now)",
+          "cta": "Holding gold? Share allocation - optimal booking strategy for pre-retirement safety. Free portfolio review.",
+          "whatsappCharLimit": 340,
+          "linkedinWordCount": 980
+        }
+      ],
+      "deliverySettings": {
+        "preferredTime": "10:00",
+        "frequency": "2-3x weekly (Tue-Thu-Sat) + quarterly deep dives",
+        "approvalMode": "manual",
+        "channels": ["WhatsApp", "LinkedIn", "Personal calls"]
+      }
+    },
+    "ADV004_Avalok_Langer": {
+      "advisorName": "Avalok Langer",
+      "segment": "Silver",
+      "specialization": "SIP Planning",
+      "contentTone": "Modern + Relatable Friend",
+      "complexityLevel": "Simple",
+      "priorityTopics": [
+        "SIP basics (how to start, apps, minimum amount)",
+        "Index funds vs actively managed funds",
+        "Emergency fund creation (3-6 months)",
+        "Short vs long-term goals",
+        "Rupee cost averaging explained simply",
+        "Market corrections = opportunity (not panic)",
+        "Tax-saving through ELSS (80C beginners)",
+        "Compounding magic (₹5k SIP × 20 years = ₹46L at 12%)",
+        "Digital gold SIPs",
+        "Avoiding beginner mistakes"
+      ],
+      "viralThemes": [
+        {
+          "id": "AVALOK_THEME_1",
+          "title": "Friend Started at 25, You're 28 = ₹18 Lakh Difference",
+          "score": 9.2,
+          "hook": "Friend: ₹5k SIP at 25. You: 'Next year' since 25. Age 28 now. By 45: Friend ₹46L, You ₹28L. ₹18L difference. Still waiting?",
+          "coreMessage": "3-year delay = ₹18L loss by 45 (12% return). Compounding rewards early starters. Market at 24,635 = perfect entry.",
+          "targetEmotion": "Massive FOMO + Urgency + Hope",
+          "cta": "Don't lose another ₹18L. Start ₹1000 SIP TODAY - DM 'SIP' for 3-min signup link. Let's do this.",
+          "whatsappCharLimit": 350,
+          "linkedinWordCount": 900
+        },
+        {
+          "id": "AVALOK_THEME_2",
+          "title": "Market Flat at 24,635? Your ₹5k SIP Got 8% Cheaper",
+          "score": 8.9,
+          "hook": "Everyone: Market not moving, wait. Smart money: Market flat = SIP buying MORE units. Dream setup.",
+          "coreMessage": "Rupee cost averaging: ₹5k at Nifty 24,635 buys 8% more units than at 25,000. Extra units = extra profit when market rises.",
+          "targetEmotion": "Aha moment + Contrarian pride",
+          "cta": "Market dip = SIP opportunity. Go for Nifty 50 Index Fund SIP. Already investing? Increase ₹1000. DM for funds.",
+          "whatsappCharLimit": 360,
+          "linkedinWordCount": 950
+        },
+        {
+          "id": "AVALOK_THEME_3",
+          "title": "₹1.5L Tax + 27% Returns = First ITR's ₹40k Gift",
+          "score": 8.6,
+          "hook": "First ITR. CA: Invest ₹1.5L 80C to save tax. You: Where? ELSS SIP = ₹46k tax + 27% returns = ₹2.43L in 3yrs.",
+          "coreMessage": "ELSS = mutual fund saving tax. ₹46,800 saved (30% bracket) + only 3yr lock-in (vs 15yr PPF) + 27%+ past returns.",
+          "targetEmotion": "Discovery (tax + returns combo) + Empowerment",
+          "cta": "First time tax-saving? Start ₹12,500 ELSS SIP = ₹46k tax saved. DM 'ELSS' for fund list + instant setup.",
+          "whatsappCharLimit": 340,
+          "linkedinWordCount": 920
+        }
+      ],
+      "deliverySettings": {
+        "preferredTime": "09:00",
+        "frequency": "Daily WhatsApp Status + 4-5 weekly posts (Mon-Wed-Fri-Sun)",
+        "approvalMode": "auto",
+        "channels": ["WhatsApp Status", "LinkedIn", "Instagram-style visuals"]
+      }
+    }
+  },
+  "marketIntelligenceUsed": {
+    "indices": {
+      "nifty50": 24635,
+      "sensex": 80268,
+      "trend": "range-bound consolidation"
+    },
+    "sectors": {
+      "topPerformers": ["PSU Banking +1.78%", "Oil & Gas +1.2%", "Realty +0.9%"],
+      "underPerformers": ["IT -0.85%", "Pharma -0.15%", "Private Banking -0.4%"]
+    },
+    "commodities": {
+      "gold24K": "₹1,17,440 per 10g (all-time high)",
+      "silver": "₹151 per gram"
+    },
+    "forex": {
+      "usdInr": "88.85 (rupee weakening)"
+    },
+    "keyEvents": {
+      "today": "RBI MPC Policy Decision (afternoon) - 5.50% hold expected",
+      "thisWeek": [
+        "SBI Magnum Hybrid Long Short Fund NFO (Oct 1-15)",
+        "ICICI Prudential Conglomerate Fund NFO (Oct 3-17)"
+      ]
+    },
+    "taxSaving": {
+      "elssTopPerformers": [
+        "Motilal Oswal ELSS: 27.26% (3yr)",
+        "HDFC ELSS: 23.35% (3yr)",
+        "Parag Parikh ELSS: 19.99% (3yr)"
+      ],
+      "quarter": "Q3 FY2025-26 optimal for tax planning"
+    }
+  },
+  "viralContentFormulas": {
+    "premium": "(Hook × Story × Emotion) + (Specificity × Simplicity) + CTA²",
+    "gold": "Relatable Pain Point + Data-Backed Solution + Immediate Action",
+    "retirement": "Longevity Fear + Security Assurance + Actionable Roadmap",
+    "silver": "FOMO Trigger + Peer Comparison + Super Easy First Step"
+  },
+  "complianceChecklist": {
+    "sebiGuidelines": "All content includes ARN disclaimers",
+    "riskDisclosures": "Past performance not indicative of future returns",
+    "noGuarantees": "Returns stated as assumptions/historical averages",
+    "factualAccuracy": "Market data from NSE, BSE, RBI, verified fund houses",
+    "ethicalStandards": "Educational focus, no fear-mongering, no stock tips"
+  },
+  "nextAgentsInPipeline": [
+    "linkedin-post-generator-enhanced (use themes above)",
+    "whatsapp-message-creator (300-380 char versions)",
+    "gemini-image-generator (visual assets for each theme)",
+    "brand-customizer (apply logos, colors, taglines)",
+    "quality-scorer (validate ≥8.0/10 virality)",
+    "compliance-validator (SEBI adherence check)",
+    "fatigue-checker (ensure content freshness)"
+  ],
+  "outputFilesGenerated": [
+    "/output/session_1759290339491/segment-analysis.json",
+    "/output/session_1759290339491/segment-analysis-summary.md",
+    "/output/session_1759290339491/segment-content-strategies.json"
+  ]
+}

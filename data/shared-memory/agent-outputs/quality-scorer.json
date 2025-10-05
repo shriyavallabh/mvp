@@ -1,0 +1,30 @@
+{
+  "sessionId": "mcp_session_2025-09-17T22-05-42",
+  "agentName": "quality-scorer",
+  "status": "pending",
+  "data": {
+    "scores": {},
+    "assessments": {},
+    "improvements": {},
+    "benchmarks": {},
+    "rankings": {}
+  },
+  "metadata": {
+    "itemsScored": 0,
+    "averageQuality": "pending",
+    "improvementsIdentified": 0,
+    "benchmarksSet": 0
+  },
+  "structure": {
+    "scores": "Quality scores for all content types",
+    "assessments": "Detailed quality assessments",
+    "improvements": "Identified improvement opportunities",
+    "benchmarks": "Quality benchmarks and standards",
+    "rankings": "Content ranking and prioritization"
+  },
+  "dependencies": {
+    "requires": ["linkedin-content", "whatsapp-content", "branded-content"],
+    "provides": ["quality-metrics", "improvement-plans", "content-rankings"]
+  },
+  "timestamp": "2025-09-17T22:05:42Z"
+}

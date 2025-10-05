@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "timestamp": "2025-09-17T23-40-33-000Z",
+    "session_id": "session_1758130725",
+    "total_advisors": 3,
+    "market_data_used": {
+      "sensex": 82690,
+      "nifty": 25330.25,
+      "top_sector": "Information Technology"
+    }
+  },
+  "messages": {
+    "ADV_001": {
+      "advisor_name": "Shruti Petkar",
+      "segment": "Premium",
+      "phone": "919876543210",
+      "messages": [
+        {
+          "type": "market_alert",
+          "text": "\ud83d\udcca Shruti, IT sector surged 4.41% today!\n\nSensex: 82,690 (+0.38%)\nKey: Redington +20% on iPhone 17\n\n\ud83d\udc8e Action: Book partial profits in tech stocks over 30% YTD\n\nReply 'PORTFOLIO' for detailed review\n\nWealth Creators | ARN: 123456",
+          "character_count": 227
+        },
+        {
+          "type": "global_impact",
+          "text": "\ud83c\udf10 Fed Rate Cut Impact Analysis\n\nExpected: 25bps cut tonight\nImpact: +ve for emerging markets\n\nStrategy for HNI clients:\n\u2022 Increase equity allocation 5%\n\u2022 Focus on IT & Banking\n\nDM for personalized strategy\n\nBuilding Wealth, Creating Trust",
+          "character_count": 238
+        },
+        {
+          "type": "strategy",
+          "text": "\u26a1 Sector Rotation Alert!\n\nOUT: Auto (-4.8%), Pharma (-2.7%)\nIN: IT (+4.4%), Banking (+2.1%)\n\n\u20b985Cr AUM Strategy:\nReallocate 15% to tech leaders\n\nTax tip: Use losses for harvesting\n\nSchedule review: Reply 'MEET'",
+          "character_count": 210
+        }
+      ],
+      "total_messages": 3,
+      "avg_char_count": 225.0
+    },
+    "ADV_002": {
+      "advisor_name": "Rajesh Kumar",
+      "segment": "Gold",
+      "phone": "919876543211",
+      "messages": [
+        {
+          "type": "educational",
+          "text": "\u2600\ufe0f Good morning Rajesh!\n\n\ud83d\udcc8 Today's Market Lesson:\nSensex crossed 82,000! What does this mean?\n\n\u2705 Your SIPs are growing\n\u2705 Good time to review goals\n\u274c Don't stop SIPs in rising market\n\nLearn more: Reply 'SIP'\n\nMoney Matters",
+          "character_count": 221
+        },
+        {
+          "type": "goal_planning",
+          "text": "\ud83c\udfaf Financial Goal Check!\n\nWith markets up 1.36% this week,\nit's perfect time to review:\n\n\ud83d\udcda Child Education Fund\n\ud83c\udfe0 Home Down Payment\n\ud83d\udc74 Retirement Corpus\n\nFree goal calculator: Reply 'CALC'\n\nYour Financial Growth Partner \ud83c\udf31",
+          "character_count": 219
+        },
+        {
+          "type": "sip_education",
+          "text": "\ud83d\udca1 SIP Wisdom for Today:\n\nMarket at all-time high?\nYour SIP still makes sense! Here's why:\n\n\u2713 Rupee cost averaging works\n\u2713 Time in market > Timing\n\u2713 15% CAGR over 10 years\n\nStart new SIP with \u20b95000?\nReply 'START'\n\nARN: 789012",
+          "character_count": 224
+        }
+      ],
+      "total_messages": 3,
+      "avg_char_count": 221.33333333333334
+    },
+    "ADV_003": {
+      "advisor_name": "Priya Sharma",
+      "segment": "Silver",
+      "phone": "919876543212",
+      "messages": [
+        {
+          "type": "simple_update",
+          "text": "\ud83c\udf1f Hi Priya!\n\nGood news! Markets are up today \ud83d\udcc8\n\nYour investments are growing!\nSensex: 82,690 (\u2191 310 points)\n\nTech stocks doing amazing! \ud83d\ude80\n\nQuestions? Just reply here!\n\nSmart Invest \ud83d\udc9a",
+          "character_count": 182
+        },
+        {
+          "type": "beginner_tip",
+          "text": "\ud83d\udcb0 Money Tip Monday!\n\nStart investing with just \u20b9500! \ud83c\udf89\n\nHow?\n1\ufe0f\u20e3 Open SIP in Index Fund\n2\ufe0f\u20e3 Set auto-debit on salary day\n3\ufe0f\u20e3 Forget & watch it grow!\n\n10 years = \u20b91 lakh+ corpus \ud83c\udfc6\n\nReady? Reply 'YES'",
+          "character_count": 198
+        },
+        {
+          "type": "digital_investment",
+          "text": "\u2728 New Age Investing Alert!\n\nTry Digital Gold! \ud83e\ude99\n\u2022 Start with \u20b9100\n\u2022 Buy/sell anytime\n\u2022 No storage worries\n\u2022 Perfect for beginners!\n\nGold up 8% this year \ud83d\udcca\n\nGet started: Reply 'GOLD'\n\nSmart Investing Made Simple! \ud83c\udfaf",
+          "character_count": 213
+        }
+      ],
+      "total_messages": 3,
+      "avg_char_count": 197.66666666666666
+    }
+  },
+  "urgent_alerts": [
+    {
+      "type": "tax_deadline",
+      "segment": "all",
+      "text": "\ud83d\udea8 TAX SAVING ALERT!\n\nOnly 14 days left for Q3 advance tax!\n\nSave tax with:\n\u2022 ELSS Funds (80C)\n\u2022 NPS (Extra 50k)\n\u2022 Health Insurance\n\nNeed help? Reply 'TAX'\n\nDon't wait till March! Act NOW \ud83d\udcaa",
+      "character_count": 188
+    },
+    {
+      "type": "ipo_opportunity",
+      "segment": "premium_gold",
+      "text": "\ud83c\udfaf IPO OPPORTUNITY!\n\nPine Labs IPO approved by SEBI!\nExpected premium: 30-40%\n\nApplication opens: Next week\nMin investment: \u20b915,000\n\nGet analysis: Reply 'IPO'\n\nLimited allocation - Act fast! \u26a1",
+      "character_count": 191
+    }
+  ],
+  "distribution_strategy": {
+    "morning_batch": "7:00-9:00 AM",
+    "afternoon_batch": "12:30-1:30 PM",
+    "evening_batch": "6:00-7:00 PM",
+    "urgent_alerts": "immediate"
+  }
+}

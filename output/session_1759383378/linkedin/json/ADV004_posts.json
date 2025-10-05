@@ -1,0 +1,59 @@
+{
+  "advisorId": "ADV004",
+  "advisorName": "Avalok Langer",
+  "segment": "Silver",
+  "totalPosts": 2,
+  "averageVirality": "8.6",
+  "posts": [
+    {
+      "postId": "VIRAL_ADV004_001",
+      "viralFormula": "WARIKOO_STORY",
+      "hookType": "underdog_inspiration",
+      "title": "",
+      "content": "Indians are investing ₹906 crore DAILY through SIPs.\n\nYou can start with just ₹500/month.\n\nThat's it.\n\nYour coffee budget can become your wealth builder.\n\nReal numbers:\n→ ₹500/month for 20 years\n→ At 12% returns\n→ Becomes ₹5 lakhs\n\nStill think you're \"too young to invest\"?\n\nThe SIP revolution proves you wrong.\n\n30% of investors now hold SIPs for 5+ years.\n(Up from just 5% in 2020!)\n\nYou're not late.\nYou're right on time.\n\n3 simple steps:\n1. Download any mutual fund app\n2. Choose an equity fund\n3. Start ₹500 SIP today\n\nIndia is growing at 6.8% (RBI forecast).\nYour ₹500 is betting on that growth.\n\nStart small. Think big.\n\nSmart Investments, Secure Future\nARN: ARN-169741",
+      "hashtags": [
+        "#StartInvesting",
+        "#SIP",
+        "#FinancialFreedom",
+        "#YoungInvestors",
+        "#WealthBuilding"
+      ],
+      "viralityScore": 8.7,
+      "viralityBreakdown": {
+        "hookStrength": 8.5,
+        "emotionalImpact": 9,
+        "dataSpecificity": 8.5,
+        "cta": 9,
+        "formula": "(Simplicity × Hope) + (Low Barrier × Pride) = 8.7"
+      },
+      "characterCount": 687,
+      "estimatedReach": "4000-10000",
+      "targetAudience": "Young Professionals, First-time Investors, Beginners"
+    },
+    {
+      "postId": "VIRAL_ADV004_002",
+      "viralFormula": "RANADE_ANALOGY",
+      "hookType": "tax_savings_simple",
+      "title": "",
+      "content": "Save ₹46,800 in taxes.\n\nSounds complicated?\nIt's not.\n\nThink of it like this:\n\nYou earn ₹10 lakhs.\nGovernment takes ₹1.12 lakhs (30% bracket).\n\nBut wait!\n\nInvest ₹1.5 lakhs in ELSS (tax-saving mutual fund).\nGovernment gives back ₹46,800.\n\nSame concept as:\n→ Getting cashback on shopping\n→ But this cashback is ₹46,800!\n\nThe best part?\n\nYour ₹1.5 lakh ELSS investment can grow.\nAt 12%, it becomes ₹2.1 lakhs in 3 years.\n\nTax saved: ₹46,800\nWealth grown: ₹60,000\nTotal win: ₹1,06,800\n\nDeadline: March 31, 2026 (6 months away)\n\nStart now. Thank yourself later.\n\nSmart Investments, Secure Future\nARN: ARN-169741",
+      "hashtags": [
+        "#TaxSaving",
+        "#ELSS",
+        "#SimplifiedFinance",
+        "#InvestmentTips",
+        "#MoneyMatters"
+      ],
+      "viralityScore": 8.5,
+      "viralityBreakdown": {
+        "hookStrength": 8,
+        "emotionalImpact": 8.5,
+        "dataSpecificity": 8.8,
+        "cta": 8.7,
+        "formula": "(Analogy × Simplicity) + (Cashback Mental Model) = 8.5"
+      },
+      "characterCount": 621,
+      "estimatedReach": "3000-8000",
+      "targetAudience": "Tax-paying Beginners, Young Salaried"
+    }
+  ]
+}

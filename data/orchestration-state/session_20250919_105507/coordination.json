@@ -1,0 +1,70 @@
+{
+  "sessionId": "session_20250919_105507",
+  "coordinationState": {
+    "currentPhase": "initialization",
+    "nextPhase": "data-collection",
+    "agentOrchestration": {
+      "sequence": [
+        {
+          "agent": "advisor-data-manager",
+          "priority": 1,
+          "dependencies": [],
+          "outputs": ["advisor-context.json"]
+        },
+        {
+          "agent": "market-intelligence",
+          "priority": 2,
+          "dependencies": ["advisor-data-manager"],
+          "outputs": ["market-insights.json"]
+        },
+        {
+          "agent": "gemini-image-generator",
+          "priority": 3,
+          "dependencies": ["market-intelligence"],
+          "outputs": ["viral-images/"]
+        },
+        {
+          "agent": "linkedin-post-generator-enhanced",
+          "priority": 4,
+          "dependencies": ["market-intelligence", "gemini-image-generator"],
+          "outputs": ["linkedin-viral-posts.json"]
+        },
+        {
+          "agent": "whatsapp-message-creator",
+          "priority": 5,
+          "dependencies": ["market-intelligence", "gemini-image-generator"],
+          "outputs": ["whatsapp-viral-messages.json"]
+        },
+        {
+          "agent": "quality-scorer",
+          "priority": 6,
+          "dependencies": ["linkedin-post-generator-enhanced", "whatsapp-message-creator"],
+          "outputs": ["quality-scores.json"]
+        },
+        {
+          "agent": "compliance-validator",
+          "priority": 7,
+          "dependencies": ["quality-scorer"],
+          "outputs": ["compliance-validation.json"]
+        },
+        {
+          "agent": "distribution-controller",
+          "priority": 8,
+          "dependencies": ["compliance-validator"],
+          "outputs": ["distribution-report.json"]
+        }
+      ]
+    },
+    "stateSync": {
+      "enabled": true,
+      "checkpoints": true,
+      "realTimeUpdates": true
+    }
+  },
+  "viralContentFlow": {
+    "contentGeneration": ["gemini-image-generator", "linkedin-post-generator-enhanced", "whatsapp-message-creator"],
+    "qualityAssurance": ["quality-scorer", "compliance-validator"],
+    "distribution": ["distribution-controller"]
+  },
+  "createdAt": "2025-09-19T10:55:07Z"
+}

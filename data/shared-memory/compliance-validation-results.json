@@ -1,0 +1,1531 @@
+{
+  "session_id": "session_2025-09-18T03-38-39-062Z",
+  "timestamp": "2025-09-18T09:43:58.286066",
+  "validation_summary": {
+    "total_items_checked": 52,
+    "compliant_items": 24,
+    "violations_found": 28,
+    "compliance_percentage": 46.15,
+    "approval_status": "REJECTED"
+  },
+  "content_results": [
+    {
+      "item_id": "ARN_VIDYADHAR_002_VID_TAX_001",
+      "content_type": "linkedin",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.277779",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_VIDYADHAR_002_VID_BANKING_002",
+      "content_type": "linkedin",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.278006",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_VIDYADHAR_002_VID_Q3_003",
+      "content_type": "linkedin",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.278243",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_VIDYADHAR_002_VID_PORTFOLIO_004",
+      "content_type": "linkedin",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.278492",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRUTI_001_SHR_TAX_001",
+      "content_type": "linkedin",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.278723",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRUTI_001_SHR_BANKING_002",
+      "content_type": "linkedin",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.279289",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRUTI_001_SHR_GOALS_003",
+      "content_type": "linkedin",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.279556",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRUTI_001_SHR_SIP_004",
+      "content_type": "linkedin",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.279815",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRIYA_003_SHY_BASICS_001",
+      "content_type": "linkedin",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.280083",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRIYA_003_SHY_SAVING_002",
+      "content_type": "linkedin",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.280336",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRIYA_003_SHY_COMPOUND_003",
+      "content_type": "linkedin",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.280607",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRIYA_003_SHY_EMERGENCY_004",
+      "content_type": "linkedin",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.280880",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_VIDYADHAR_002_VID_TAX_001",
+      "content_type": "linkedin_branded",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.281268",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_VIDYADHAR_002_VID_BANKING_002",
+      "content_type": "linkedin_branded",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.281507",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_VIDYADHAR_002_VID_Q3_003",
+      "content_type": "linkedin_branded",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.281766",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_VIDYADHAR_002_VID_PORTFOLIO_004",
+      "content_type": "linkedin_branded",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.282035",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRUTI_001_SHR_TAX_001",
+      "content_type": "linkedin_branded",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.282286",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRUTI_001_SHR_BANKING_002",
+      "content_type": "linkedin_branded",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.282558",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRUTI_001_SHR_GOALS_003",
+      "content_type": "linkedin_branded",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.282849",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRUTI_001_SHR_SIP_004",
+      "content_type": "linkedin_branded",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.283137",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRIYA_003_SHY_BASICS_001",
+      "content_type": "linkedin_branded",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.283436",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRIYA_003_SHY_SAVING_002",
+      "content_type": "linkedin_branded",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.283722",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRIYA_003_SHY_COMPOUND_003",
+      "content_type": "linkedin_branded",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.284040",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRIYA_003_SHY_EMERGENCY_004",
+      "content_type": "linkedin_branded",
+      "compliant": true,
+      "violations": [],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.9,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.284354",
+          "check": "comprehensive_sebi_validation",
+          "result": "compliant",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRUTI_001_market_insights",
+      "content_type": "whatsapp",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.284587",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRUTI_001_systematic_investing",
+      "content_type": "whatsapp",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.284636",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRUTI_001_goal_planning",
+      "content_type": "whatsapp",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.284680",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRUTI_001_tax_efficiency",
+      "content_type": "whatsapp",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.284721",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRUTI_001_smart_investing",
+      "content_type": "whatsapp",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.284766",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_VIDYADHAR_002_market_update",
+      "content_type": "whatsapp",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.284816",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_VIDYADHAR_002_tax_strategy",
+      "content_type": "whatsapp",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.284862",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_VIDYADHAR_002_exclusive_opportunity",
+      "content_type": "whatsapp",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.284907",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_VIDYADHAR_002_wealth_protection",
+      "content_type": "whatsapp",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.284954",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRIYA_003_financial_education",
+      "content_type": "whatsapp",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.284998",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRIYA_003_investment_basics",
+      "content_type": "whatsapp",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.285040",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRIYA_003_saving_strategies",
+      "content_type": "whatsapp",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.285081",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRIYA_003_financial_empowerment",
+      "content_type": "whatsapp",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.285123",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "ARN_SHRIYA_003_encouragement",
+      "content_type": "whatsapp",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.285167",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRUTI_001_market_insights",
+      "content_type": "whatsapp_branded",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.285297",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRUTI_001_systematic_investing",
+      "content_type": "whatsapp_branded",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.285356",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRUTI_001_goal_planning",
+      "content_type": "whatsapp_branded",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.285413",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRUTI_001_tax_efficiency",
+      "content_type": "whatsapp_branded",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.285469",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRUTI_001_smart_investing",
+      "content_type": "whatsapp_branded",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.285527",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_VIDYADHAR_002_market_update",
+      "content_type": "whatsapp_branded",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.285590",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_VIDYADHAR_002_tax_strategy",
+      "content_type": "whatsapp_branded",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.285653",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_VIDYADHAR_002_exclusive_opportunity",
+      "content_type": "whatsapp_branded",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.285712",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_VIDYADHAR_002_wealth_protection",
+      "content_type": "whatsapp_branded",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.285773",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRIYA_003_financial_education",
+      "content_type": "whatsapp_branded",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.285831",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRIYA_003_investment_basics",
+      "content_type": "whatsapp_branded",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.285890",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRIYA_003_saving_strategies",
+      "content_type": "whatsapp_branded",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.285949",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRIYA_003_financial_empowerment",
+      "content_type": "whatsapp_branded",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.286005",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "item_id": "BRANDED_ARN_SHRIYA_003_encouragement",
+      "content_type": "whatsapp_branded",
+      "compliant": false,
+      "violations": [
+        {
+          "type": "missing_element",
+          "severity": "critical",
+          "element": "market_risk_disclaimer",
+          "rule": "SEBI_DISC_001",
+          "explanation": "Missing required market risk disclaimer",
+          "remediation": "Add: 'Mutual fund investments are subject to market risks. Read all scheme related documents carefully.'"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "missing_element",
+          "severity": "major",
+          "element": "document_reading",
+          "rule": "SEBI_DOC_001",
+          "explanation": "Missing recommended document reading"
+        }
+      ],
+      "score": 0.5,
+      "audit_details": [
+        {
+          "timestamp": "2025-09-18T09:43:58.286064",
+          "check": "comprehensive_sebi_validation",
+          "result": "violation",
+          "score": 0.5
+        }
+      ]
+    }
+  ],
+  "regulatory_framework": {
+    "sebi_rules_applied": [
+      "market_risk_disclaimer",
+      "arn_disclosure",
+      "document_reading"
+    ],
+    "prohibited_terms_checked": 24,
+    "whatsapp_policies_applied": true
+  },
+  "recommendations": [
+    "Add market risk disclaimers to 28 content items"
+  ],
+  "certificate": {
+    "id": "SEBI-COMP-session_2025-09-18T03-38-39-062Z-20250918094358",
+    "valid_until": "2025-09-19T23:59:59Z",
+    "validator": "SEBI Compliance Validator v2.0",
+    "confidence": 0.98005698005698
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "from": "quality-scorer",
+  "to": [
+    "fatigue-checker",
+    "distribution-controller"
+  ],
+  "timestamp": "2025-09-17T19:47:40.824736",
+  "message": "Quality scoring completed",
+  "data_location": "output/session_2025-09-17T14-10-23Z/quality-scorer/quality_scores.json",
+  "quality_status": "IMPROVEMENT_NEEDED",
+  "average_score": 0.6626666666666666
+}

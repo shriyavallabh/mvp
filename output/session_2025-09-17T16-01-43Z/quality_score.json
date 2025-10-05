@@ -1,0 +1,115 @@
+{
+  "timestamp": "2025-09-17T16:01:43Z",
+  "source": "quality-scorer",
+  "scoring_results": {
+    "linkedin_posts": {
+      "adv_001": {
+        "overall_score": 8.7,
+        "dimensions": {
+          "relevance": 9.0,
+          "engagement_potential": 8.5,
+          "clarity": 9.0,
+          "personalization": 8.5,
+          "actionability": 8.5,
+          "visual_appeal": 8.8
+        },
+        "strengths": [
+          "Clear market data and insights",
+          "Strong call-to-action",
+          "Well-structured content"
+        ],
+        "improvements": [
+          "Could include more personal anecdotes",
+          "Add industry-specific examples"
+        ]
+      },
+      "adv_002": {
+        "overall_score": 9.2,
+        "dimensions": {
+          "relevance": 9.5,
+          "engagement_potential": 9.5,
+          "clarity": 9.0,
+          "personalization": 9.5,
+          "actionability": 9.0,
+          "visual_appeal": 8.7
+        },
+        "strengths": [
+          "Excellent localization (Hindi content)",
+          "Relatable examples",
+          "Strong emotional connect"
+        ],
+        "improvements": [
+          "Could add more specific numbers",
+          "Include success stories"
+        ]
+      },
+      "adv_003": {
+        "overall_score": 9.0,
+        "dimensions": {
+          "relevance": 9.5,
+          "engagement_potential": 8.5,
+          "clarity": 8.8,
+          "personalization": 9.0,
+          "actionability": 9.2,
+          "visual_appeal": 9.0
+        },
+        "strengths": [
+          "Technical depth appropriate for audience",
+          "Specific actionable strategies",
+          "Professional tone"
+        ],
+        "improvements": [
+          "Simplify some technical terms",
+          "Add risk disclaimers"
+        ]
+      }
+    },
+    "whatsapp_messages": {
+      "adv_001": {
+        "overall_score": 8.8,
+        "dimensions": {
+          "brevity": 9.5,
+          "clarity": 9.0,
+          "engagement": 8.5,
+          "actionability": 8.5,
+          "personalization": 8.5
+        }
+      },
+      "adv_002": {
+        "overall_score": 9.3,
+        "dimensions": {
+          "brevity": 9.0,
+          "clarity": 9.5,
+          "engagement": 9.5,
+          "actionability": 9.0,
+          "personalization": 9.5
+        }
+      },
+      "adv_003": {
+        "overall_score": 8.9,
+        "dimensions": {
+          "brevity": 9.0,
+          "clarity": 8.5,
+          "engagement": 8.8,
+          "actionability": 9.2,
+          "personalization": 9.0
+        }
+      }
+    },
+    "images": {
+      "quality_metrics": {
+        "resolution": "✅ Optimal for platforms",
+        "branding": "✅ Consistent across all images",
+        "text_readability": "✅ Clear and legible",
+        "color_scheme": "✅ Professional and appealing",
+        "file_size": "✅ Optimized for quick loading"
+      }
+    }
+  },
+  "aggregate_scores": {
+    "linkedin_average": 8.97,
+    "whatsapp_average": 9.0,
+    "overall_quality": 8.98,
+    "recommendation": "HIGH_QUALITY_READY_FOR_DISTRIBUTION"
+  }
+}

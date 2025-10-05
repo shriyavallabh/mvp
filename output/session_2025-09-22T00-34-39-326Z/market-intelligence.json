@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-09-22T00:34:39.328Z",
+  "date": "22/9/2025",
+  "indices": {
+    "sensex": {
+      "value": 82869,
+      "change": "-0.10",
+      "trend": "up"
+    },
+    "nifty": {
+      "value": 25439,
+      "change": "0.45",
+      "trend": "down"
+    }
+  },
+  "sectors": [
+    {
+      "name": "IT",
+      "change": "+4.41%",
+      "performance": "strong"
+    },
+    {
+      "name": "Banking",
+      "change": "+2.15%",
+      "performance": "moderate"
+    },
+    {
+      "name": "Auto",
+      "change": "-0.82%",
+      "performance": "weak"
+    },
+    {
+      "name": "Pharma",
+      "change": "+1.23%",
+      "performance": "moderate"
+    }
+  ],
+  "insights": [
+    "IT sector continues to outperform with strong Q3 results",
+    "Banking stocks near 52-week highs on rate cut expectations",
+    "FII inflows turning positive after 3 months of selling",
+    "Small-cap index showing signs of recovery"
+  ],
+  "recommendations": {
+    "buy": [
+      "Tech funds",
+      "Banking ETFs"
+    ],
+    "hold": [
+      "Pharma sector",
+      "Auto stocks"
+    ],
+    "review": [
+      "International funds",
+      "Commodity plays"
+    ]
+  }
+}

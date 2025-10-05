@@ -1,0 +1,109 @@
+{
+  "sessionId": "session_2025-09-18T15-03-58Z",
+  "timestamp": "2025-09-18T20:55:42.151172",
+  "stats": {
+    "messagesGenerated": 10,
+    "advisorsCovered": 10,
+    "messageTypes": {
+      "market_update": 2,
+      "tax_saving": 2,
+      "investment_tip": 2,
+      "educational": 2,
+      "motivational": 1,
+      "goal_planning": 1
+    },
+    "averageLength": 228.7
+  },
+  "messages": [
+    {
+      "advisorId": "ADV_001",
+      "advisorName": "Rajesh Kumar",
+      "brandName": "Wealth Creators",
+      "message": "☀️ Market Update for Rajesh\n\nSensex: 82,690 ⬆️\nNifty: 25,330 (+0.4%)\n\n📈 Banking sector recovery underway\n💰 Time to accumulate quality stocks\n\nSend YES for detailed analysis\n\nWealth Creators",
+      "type": "market_update",
+      "characterCount": 189,
+      "timestamp": "2025-09-18T20:55:42.150297"
+    },
+    {
+      "advisorId": "ADV_002",
+      "advisorName": "Priya Sharma",
+      "brandName": "Money Matters",
+      "message": "💰 Tax Alert for Priya!\n\nSave up to ₹46,800 with ELSS:\n✅ Shortest lock-in (3 years)\n✅ Tax saving + wealth creation\n✅ SIP from ₹500/month\n\n⏰ March deadline approaching!\n\n💬 Ready to grow wealth? Reply ELSS for top funds\n\nMoney Matters",
+      "type": "tax_saving",
+      "characterCount": 231,
+      "timestamp": "2025-09-18T20:55:42.150453"
+    },
+    {
+      "advisorId": "ADV_003",
+      "advisorName": "Amit Patel",
+      "brandName": "Smart Invest",
+      "message": "💡 Investment Tip for Amit\n\nUS Fed cut benefits Indian markets - stay invested\n\n📊 Action: Allocate 10-15% of portfolio\n⏰ Horizon: 12-18 months\n\nMake your money work smarter!\n\n💬 Ready to grow wealth? Reply MORE for details\n\nSmart Invest",
+      "type": "investment_tip",
+      "characterCount": 234,
+      "timestamp": "2025-09-18T20:55:42.150528"
+    },
+    {
+      "advisorId": "ADV_004",
+      "advisorName": "Neha Gupta",
+      "brandName": "FinGrow Advisors",
+      "message": "📚 Neha, learn & earn!\n\nAsset Allocation:\n100 minus your age = % in equity for optimal returns\n\n🎯 Knowledge = Better decisions\n\nStart implementing today!\n\n💬 Ready to grow wealth? Reply LEARN for more\n\nFinGrow Advisors",
+      "type": "educational",
+      "characterCount": 216,
+      "timestamp": "2025-09-18T20:55:42.150594"
+    },
+    {
+      "advisorId": "ADV_005",
+      "advisorName": "Vikram Singh",
+      "brandName": "Prosperity Partners",
+      "message": "✨ Vikram, believe in growth!\n\n\"Every expert was once a beginner. Start your investment journey today!\"\n\n🚀 Take action today:\n• Start a SIP\n• Review portfolio\n• Plan for goals\n\nSuccess starts with step 1!\n\n💬 Ready to grow wealth? Reply START to begin\n\nProsperity Partners",
+      "type": "motivational",
+      "characterCount": 270,
+      "timestamp": "2025-09-18T20:55:42.150696"
+    },
+    {
+      "advisorId": "ADV_006",
+      "advisorName": "Anjali Reddy",
+      "brandName": "SecureFin Solutions",
+      "message": "🎯 Goal Planning for Anjali\n\nWorld Tour Target: ₹10 lakhs\nSolution: SIP of ₹8,000/month for 7 years\n\n📈 Expected return: 12% p.a.\n✅ Tax benefit with ELSS\n\nDreams need planning. Start now!\n\n💬 Ready to grow wealth? Reply PLAN for calculator\n\nSecureFin Solutions",
+      "type": "goal_planning",
+      "characterCount": 257,
+      "timestamp": "2025-09-18T20:55:42.150784"
+    },
+    {
+      "advisorId": "ADV_007",
+      "advisorName": "Suresh Iyer",
+      "brandName": "WealthWise",
+      "message": "🌟 Good morning Suresh!\n\n📊 Sensex: 82,690 (+0.4%)\n🔥 Information Technology up 4.41%\n\n💡 Tech rally continues - consider IT funds for 15-20% returns\n\n📱 💬 Ready to grow wealth? Reply PORTFOLIO for review\n\nWealthWise",
+      "type": "market_update",
+      "characterCount": 211,
+      "timestamp": "2025-09-18T20:55:42.150869"
+    },
+    {
+      "advisorId": "ADV_008",
+      "advisorName": "Kavita Joshi",
+      "brandName": "MoneyMitra",
+      "message": "💰 Tax Alert for Kavita!\n\nSave up to ₹46,800 with ELSS:\n✅ Shortest lock-in (3 years)\n✅ Tax saving + wealth creation\n✅ SIP from ₹500/month\n\n⏰ March deadline approaching!\n\n💬 Ready to grow wealth? Reply ELSS for top funds\n\nMoneyMitra",
+      "type": "tax_saving",
+      "characterCount": 229,
+      "timestamp": "2025-09-18T20:55:42.150954"
+    },
+    {
+      "advisorId": "ADV_009",
+      "advisorName": "Rohit Verma",
+      "brandName": "InvestRight",
+      "message": "💡 Investment Tip for Rohit\n\nGold correction creates entry opportunity at ₹82,690\n\n📊 Action: Allocate 10-15% of portfolio\n⏰ Horizon: 12-18 months\n\nMake your money work smarter!\n\n💬 Ready to grow wealth? Reply MORE for details\n\nInvestRight",
+      "type": "investment_tip",
+      "characterCount": 236,
+      "timestamp": "2025-09-18T20:55:42.151027"
+    },
+    {
+      "advisorId": "ADV_010",
+      "advisorName": "Deepa Nair",
+      "brandName": "FinanceFirst",
+      "message": "📚 Deepa, learn & earn!\n\nInflation Impact:\n₹1 lakh today = ₹50,000 after 10 years @ 7% inflation\n\n🎯 Knowledge = Better decisions\n\nStart implementing today!\n\n💬 Ready to grow wealth? Reply LEARN for more\n\nFinanceFirst",
+      "type": "educational",
+      "characterCount": 214,
+      "timestamp": "2025-09-18T20:55:42.151102"
+    }
+  ]
+}

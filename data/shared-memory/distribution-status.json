@@ -1,0 +1,138 @@
+{
+  "session_id": "session_2025-09-18T03-38-39-062Z",
+  "distribution_id": "DIST_2025-09-18T03-38-39-062Z",
+  "status": "PARTIALLY_EXECUTED",
+  "timestamp": "2025-09-18T10:35:00.000Z",
+  "execution_summary": {
+    "visual_content": {
+      "status": "APPROVED_FOR_DISTRIBUTION",
+      "method": "click_to_unlock",
+      "scheduled_time": "2025-09-19T05:00:00Z",
+      "content_items": 48,
+      "advisors_targeted": 3
+    },
+    "whatsapp_content": {
+      "status": "BLOCKED",
+      "reason": "SEBI compliance violations - missing market risk disclaimers",
+      "violations_count": 28,
+      "action_required": "Content regeneration with proper disclaimers"
+    },
+    "linkedin_content": {
+      "status": "CONDITIONAL_HOLD",
+      "reason": "Quality issues - readability improvements needed",
+      "items_pending": 26,
+      "estimated_fix_time": "6-8 hours"
+    }
+  },
+  "compliance_safeguards": {
+    "zero_violation_policy_enforced": true,
+    "blocked_non_compliant_content": true,
+    "regulatory_risk_eliminated": true,
+    "sebi_compliance_pending": "WhatsApp content requires disclaimers"
+  },
+  "delivery_metrics": {
+    "total_content_generated": 74,
+    "approved_for_distribution": 48,
+    "blocked_due_to_compliance": 28,
+    "conditional_pending_quality": 26,
+    "distribution_approval_rate": "64.9%",
+    "compliance_enforcement_rate": "100%"
+  },
+  "advisor_impact": {
+    "ARN_SHRUTI_001": {
+      "visual_approved": 16,
+      "whatsapp_blocked": 5,
+      "linkedin_conditional": 5,
+      "delivery_status": "Partial - Visual only"
+    },
+    "ARN_VIDYADHAR_002": {
+      "visual_approved": 16,
+      "whatsapp_blocked": 4,
+      "linkedin_conditional": 8,
+      "delivery_status": "Partial - Visual only"
+    },
+    "ARN_SHRIYA_003": {
+      "visual_approved": 16,
+      "whatsapp_blocked": 5,
+      "linkedin_conditional": 5,
+      "delivery_status": "Partial - Visual only"
+    }
+  },
+  "notifications_sent": {
+    "content_team": {
+      "priority": "URGENT",
+      "subject": "CRITICAL: Distribution Blocked - Compliance Violations",
+      "message": "28 WhatsApp items blocked due to missing SEBI disclaimers. Immediate regeneration required.",
+      "timestamp": "2025-09-18T10:35:00Z",
+      "recipient": "Content Generator Agent"
+    },
+    "advisors": {
+      "priority": "INFO",
+      "subject": "Content Delivery Status Update",
+      "message": "Visual content approved for morning delivery. Text content under compliance review.",
+      "delivery_method": "WhatsApp utility message",
+      "scheduled_time": "2025-09-19T05:00:00Z"
+    }
+  },
+  "click_to_unlock_implementation": {
+    "phase_1": {
+      "status": "SCHEDULED",
+      "action": "Send utility messages with unlock buttons",
+      "scheduled_time": "2025-09-19T05:00:00Z",
+      "target_advisors": 3,
+      "message_template": "morning_insights_ready_approved_content"
+    },
+    "phase_2": {
+      "status": "READY",
+      "action": "Deliver approved content on button click",
+      "webhook_handler": "Active",
+      "content_types": ["visual_status_images"],
+      "blocked_content_types": ["whatsapp_text", "linkedin_posts"]
+    }
+  },
+  "performance_tracking": {
+    "kpis": {
+      "compliance_enforcement": "100%",
+      "zero_violations_maintained": true,
+      "approved_content_delivery_rate": "Pending execution",
+      "user_engagement_tracking": "Enabled"
+    },
+    "circuit_breaker": {
+      "status": "ARMED",
+      "threshold": "20% failure rate",
+      "current_failure_rate": "0%"
+    }
+  },
+  "next_actions": [
+    {
+      "priority": "CRITICAL",
+      "action": "Regenerate WhatsApp content with SEBI disclaimers",
+      "owner": "Content Generator Agent",
+      "deadline": "2025-09-18T18:00:00Z"
+    },
+    {
+      "priority": "HIGH",
+      "action": "Improve LinkedIn content readability",
+      "owner": "Content Quality Agent",
+      "deadline": "2025-09-18T20:00:00Z"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Execute approved visual content distribution",
+      "owner": "Distribution Controller",
+      "scheduled": "2025-09-19T05:00:00Z"
+    },
+    {
+      "priority": "LOW",
+      "action": "Monitor button click engagement rates",
+      "owner": "Analytics Agent",
+      "ongoing": true
+    }
+  ],
+  "regulatory_compliance": {
+    "sebi_compliance_enforced": true,
+    "non_compliant_content_blocked": true,
+    "distribution_audit_trail": true,
+    "zero_regulatory_risk": true
+  }
+}

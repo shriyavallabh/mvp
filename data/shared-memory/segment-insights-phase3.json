@@ -1,0 +1,180 @@
+{
+  "memoryType": "segment_insights_for_content_generation",
+  "timestamp": "2025-09-17T23:37:00Z",
+  "sessionId": "session_1758130725",
+  "phase": "Phase_2_to_Phase_3_Handoff",
+  "dataSource": "comprehensive_segment_analysis",
+  "segmentProfiles": {
+    "Premium": {
+      "advisorId": "ADV_001",
+      "name": "Shruti Petkar",
+      "contentRequirements": {
+        "tone": "Professional & Authoritative",
+        "complexity": "High",
+        "wordCount": "250-350 words",
+        "dataIntensity": "High - charts, metrics, detailed analysis",
+        "vocabulary": "Advanced financial terminology",
+        "frequency": "Daily",
+        "optimalTime": "9:00 AM",
+        "languages": ["English", "Hindi"],
+        "reviewMode": "Manual approval required"
+      },
+      "brandIdentity": {
+        "colors": {"primary": "#1A73E8", "secondary": "#34A853", "accent": "#FFD700"},
+        "tagline": "Building Wealth, Creating Trust",
+        "voice": "Authoritative expert positioning"
+      },
+      "topicFocus": [
+        "Advanced Portfolio Strategies",
+        "Market Analysis & Predictions",
+        "Tax Optimization Techniques",
+        "Estate Planning",
+        "HNI-specific Opportunities"
+      ],
+      "currentMarketAngles": [
+        "Fed rate cuts impact on HNI portfolios",
+        "Sector rotation strategies in current market",
+        "Currency hedging opportunities",
+        "IPO investment analysis for large investors"
+      ],
+      "clientProfile": "HNI, Business Owners, NRIs with ₹25L+ investments",
+      "persuasionTriggers": ["Performance data", "Risk mitigation", "Exclusive insights"]
+    },
+    "Gold": {
+      "advisorId": "ADV_002",
+      "name": "Rajesh Kumar",
+      "contentRequirements": {
+        "tone": "Educational & Friendly",
+        "complexity": "Medium",
+        "wordCount": "150-200 words",
+        "dataIntensity": "Medium - key metrics with explanations",
+        "vocabulary": "Professional but accessible",
+        "frequency": "5x per week",
+        "optimalTime": "10:00 AM",
+        "languages": ["English", "Hindi", "Marathi"],
+        "reviewMode": "Auto-approve with oversight"
+      },
+      "brandIdentity": {
+        "colors": {"primary": "#FF6B6B", "secondary": "#4ECDC4", "accent": "#45B7D1"},
+        "tagline": "Your Financial Growth Partner",
+        "voice": "Friendly financial educator"
+      },
+      "topicFocus": [
+        "SIP Benefits & Strategies",
+        "Goal-based Planning",
+        "Financial Literacy",
+        "Insurance Planning",
+        "Tax Saving Options"
+      ],
+      "currentMarketAngles": [
+        "How Fed rate cuts affect your SIPs",
+        "Banking sector recovery and your investments",
+        "Goal planning in changing interest rates",
+        "SIP opportunities in IT sector"
+      ],
+      "clientProfile": "Salaried professionals, young families with ₹8L investment",
+      "persuasionTriggers": ["Goal achievement", "Security", "Steady returns"]
+    },
+    "Silver": {
+      "advisorId": "ADV_003",
+      "name": "Priya Sharma",
+      "contentRequirements": {
+        "tone": "Casual & Approachable",
+        "complexity": "Low",
+        "wordCount": "100-150 words",
+        "dataIntensity": "Low - key numbers with simple explanations",
+        "vocabulary": "Simple language, minimal jargon",
+        "frequency": "3x per week",
+        "optimalTime": "8:30 AM",
+        "languages": ["English"],
+        "reviewMode": "Manual review preferred"
+      },
+      "brandIdentity": {
+        "colors": {"primary": "#008080", "secondary": "#F0F8FF", "accent": "#20B2AA"},
+        "tagline": "Smart Investing Made Simple",
+        "voice": "Modern, tech-savvy guide"
+      },
+      "topicFocus": [
+        "Investment Basics",
+        "Digital Investment Tools",
+        "Simple Tips",
+        "Technology in Finance",
+        "Beginner Guides"
+      ],
+      "currentMarketAngles": [
+        "Simple explanation of Fed rate cuts",
+        "Why tech stocks are doing well",
+        "Easy investing in recovering banking sector",
+        "Market trends made simple"
+      ],
+      "clientProfile": "Millennials, new investors with ₹4L capacity",
+      "persuasionTriggers": ["Simplicity", "Success stories", "Peer validation"]
+    }
+  },
+  "marketContext": {
+    "currentSentiment": "cautiously_optimistic",
+    "keyDrivers": [
+      "US Fed rate cut expectations",
+      "Strong IT sector performance (+4.41%)",
+      "Banking sector recovery (+2.1%)",
+      "India-US trade talks resumption"
+    ],
+    "contentOpportunities": [
+      "Fed rate cuts impact analysis",
+      "IT sector strength explanation",
+      "Banking recovery benefits",
+      "iPhone 17 impact on tech stocks"
+    ],
+    "trendingHashtags": ["#FedRateCut", "#IndianMarkets", "#ITSectorBoom", "#BankingRecovery"]
+  },
+  "contentFormatGuidelines": {
+    "linkedin": {
+      "Premium": {
+        "structure": "Hook + Analysis + Data + Insight + CTA",
+        "hashtags": "5-7 professional tags",
+        "visuals": "Charts, infographics, market data"
+      },
+      "Gold": {
+        "structure": "Hook + Explanation + Benefit + CTA",
+        "hashtags": "3-5 educational tags",
+        "visuals": "Simple charts, educational graphics"
+      },
+      "Silver": {
+        "structure": "Hook + Simple tip + Why it matters + CTA",
+        "hashtags": "2-4 trending tags",
+        "visuals": "Simple visuals, motivational graphics"
+      }
+    },
+    "whatsapp": {
+      "Premium": "2-3 sentences, professional, personalized",
+      "Gold": "1-2 sentences, friendly, educational",
+      "Silver": "1 sentence + emoji, casual, encouraging"
+    },
+    "images": {
+      "Premium": "Professional, data-rich, executive dashboard style",
+      "Gold": "Clean, educational, warm friendly colors",
+      "Silver": "Modern, simple, vibrant colors"
+    }
+  },
+  "complianceNotes": {
+    "universal": "Always include investment risk warnings, SEBI compliance",
+    "premiumSpecific": "Higher risk products need detailed disclosures",
+    "goldSpecific": "Balanced approach with risk education",
+    "silverSpecific": "Extra emphasis on basic risk education"
+  },
+  "qualityChecklist": [
+    "Tone matches segment expectations",
+    "Complexity level appropriate for audience",
+    "Topic relevance for client demographics",
+    "Brand voice consistency maintained",
+    "Market intelligence properly integrated",
+    "Call-to-action segment-appropriate"
+  ],
+  "nextPhaseInstructions": {
+    "linkedinGenerator": "Use segment tone, complexity, and topic guidelines",
+    "whatsappGenerator": "Apply message length and frequency rules",
+    "imageGenerator": "Follow visual style and brand color preferences",
+    "priorityOrder": ["Premium market analysis", "Gold education", "Silver basics"],
+    "marketIntegration": "Incorporate current Fed rate cut and IT sector themes"
+  }
+}

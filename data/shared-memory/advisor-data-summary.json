@@ -1,0 +1,37 @@
+{
+  "advisorDataSummary": {
+    "timestamp": "2025-09-17T23:35:00Z",
+    "sessionId": "session_1758130725",
+    "dataStatus": "processed",
+    "advisorCount": 3,
+    "segments": {
+      "Premium": {
+        "count": 1,
+        "advisors": ["ADV_001"],
+        "totalAUM": "₹85 Crores",
+        "contentRequirements": "Daily, Professional tone, Custom branding"
+      },
+      "Gold": {
+        "count": 1,
+        "advisors": ["ADV_002"],
+        "totalAUM": "₹55 Crores",
+        "contentRequirements": "5x weekly, Educational tone, Semi-custom branding"
+      },
+      "Silver": {
+        "count": 1,
+        "advisors": ["ADV_003"],
+        "totalAUM": "₹35 Crores",
+        "contentRequirements": "3x weekly, Casual tone, Basic branding"
+      }
+    },
+    "aggregateData": {
+      "totalAUM": "₹175 Crores",
+      "totalClients": 650,
+      "averageExperience": "8.3 years",
+      "dataQuality": 0.98
+    },
+    "availableForProcessing": true,
+    "nextPhase": "segment-analysis",
+    "dataLocation": "/Users/shriyavallabh/Desktop/mvp/output/session_1758130725/raw-data/"
+  }
+}

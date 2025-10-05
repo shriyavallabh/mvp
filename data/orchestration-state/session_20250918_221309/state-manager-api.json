@@ -1,0 +1,55 @@
+{
+  "sessionId": "session_20250918_221309",
+  "api": {
+    "getSessionContext": {
+      "description": "Get current session context for any agent",
+      "returns": {
+        "sessionId": "string",
+        "paths": "object",
+        "status": "string",
+        "phase": "string"
+      }
+    },
+    "updateAgentStatus": {
+      "description": "Update agent status and capture learning",
+      "parameters": {
+        "agentName": "string",
+        "status": "pending|in_progress|completed|failed",
+        "data": "object (optional)"
+      }
+    },
+    "captureRealtimeLearning": {
+      "description": "Capture learning immediately",
+      "parameters": {
+        "type": "string",
+        "message": "string",
+        "impact": "critical|high|medium|low",
+        "data": "object (optional)"
+      }
+    },
+    "getSharedMemory": {
+      "description": "Get shared memory for agent",
+      "parameters": {
+        "agentName": "string"
+      }
+    },
+    "updateSharedMemory": {
+      "description": "Update shared memory",
+      "parameters": {
+        "agentName": "string",
+        "data": "object"
+      }
+    }
+  },
+  "endpoints": {
+    "sessionState": "data/orchestration-state/session_20250918_221309/session-state.json",
+    "memoryRegistry": "data/shared-memory/session_20250918_221309/memory-registry.json",
+    "communicationLog": "data/agent-communication/session_20250918_221309/communication-log.json",
+    "realtimeLearnings": "learnings/sessions/session_20250918_221309/realtime_learnings.json"
+  },
+  "isolation": {
+    "level": "complete",
+    "scope": "session_20250918_221309",
+    "contamination": "prevented"
+  }
+}

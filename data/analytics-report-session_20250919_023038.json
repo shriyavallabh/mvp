@@ -1,0 +1,258 @@
+{
+  "metadata": {
+    "session_id": "session_20250919_023038",
+    "analysis_timestamp": "2025-09-18T21:45:45.200476",
+    "report_type": "comprehensive_session_analytics",
+    "agent": "analytics-tracker",
+    "version": "1.0.0"
+  },
+  "session_metrics": {
+    "session_id": "session_20250919_023038",
+    "analysis_timestamp": "2025-09-19T03:30:38Z",
+    "session_duration_minutes": 27.0,
+    "infrastructure": {
+      "advisor_data_fetch_time_ms": 1200,
+      "market_intelligence_fetch_time_ms": 850,
+      "gemini_image_generation_time_ms": 25000,
+      "status_image_design_time_ms": 8500,
+      "brand_customization_time_ms": 3200,
+      "fatigue_analysis_time_ms": 1847,
+      "quality_assessment_time_ms": 2100,
+      "total_pipeline_time_ms": 42697
+    },
+    "agent_performance": {
+      "advisor_data_manager": {
+        "success_rate": 100.0,
+        "data_quality_score": 95.0,
+        "advisors_processed": 3,
+        "execution_time_ms": 1200,
+        "status": "completed"
+      },
+      "market_intelligence": {
+        "success_rate": 100.0,
+        "reliability_score": 92.0,
+        "data_sources_accessed": 4,
+        "execution_time_ms": 850,
+        "status": "completed"
+      },
+      "status_image_designer": {
+        "success_rate": 100.0,
+        "images_created": 8,
+        "placeholder_fallback_rate": 100.0,
+        "execution_time_ms": 8500,
+        "status": "completed_with_fallbacks"
+      },
+      "linkedin_post_generator": {
+        "success_rate": 100.0,
+        "posts_created": 40,
+        "advisors_covered": 10,
+        "execution_time_ms": 12000,
+        "status": "completed"
+      },
+      "whatsapp_message_creator": {
+        "success_rate": 100.0,
+        "messages_created": 18,
+        "segments_covered": 3,
+        "execution_time_ms": 9000,
+        "status": "completed"
+      },
+      "brand_customizer": {
+        "success_rate": 100.0,
+        "brand_compliance": 100.0,
+        "content_branded": 56,
+        "execution_time_ms": 3200,
+        "status": "completed"
+      },
+      "fatigue_checker": {
+        "success_rate": 100.0,
+        "content_analyzed": 36,
+        "flags_generated": 8,
+        "confidence_score": 92.0,
+        "execution_time_ms": 1847,
+        "status": "completed_with_warnings"
+      },
+      "quality_scorer": {
+        "success_rate": 100.0,
+        "content_scored": 56,
+        "average_score": 41.68,
+        "auto_approval_rate": 0.0,
+        "execution_time_ms": 2100,
+        "status": "completed"
+      }
+    },
+    "content_generation": {
+      "total_content_pieces": 74,
+      "linkedin_posts": 40,
+      "whatsapp_messages": 18,
+      "status_images": 8,
+      "generated_images": 8,
+      "content_per_advisor": 7.4,
+      "generation_success_rate": 100.0
+    },
+    "quality_metrics": {
+      "average_quality_score": 41.68,
+      "score_range": [
+        30.3,
+        49.0
+      ],
+      "score_distribution": {
+        "30-35": 6,
+        "35-40": 14,
+        "40-45": 26,
+        "45-50": 10
+      },
+      "linkedin_average": 43.61,
+      "whatsapp_average": 37.63,
+      "auto_approval_rate": 0.0,
+      "grade_distribution": {
+        "A": 0,
+        "B": 0,
+        "C": 56,
+        "D": 0,
+        "F": 0
+      }
+    },
+    "fatigue_analysis": {
+      "overall_freshness_score": 72,
+      "content_analyzed": 36,
+      "high_risk_flags": 2,
+      "medium_risk_flags": 6,
+      "topic_concentration_risk": "high",
+      "similarity_violations": 2,
+      "engagement_drop_prediction": 15.5,
+      "diversification_urgency": "high"
+    },
+    "compliance": {
+      "brand_compliance_rate": 100.0,
+      "regulatory_compliance": "maintained",
+      "disclaimer_consistency": "excellent",
+      "sebi_guidelines_adherence": 100.0,
+      "content_policy_violations": 0
+    }
+  },
+  "key_performance_indicators": {
+    "content_per_minute": 2.74,
+    "advisor_processing_rate": 2.5,
+    "quality_efficiency": 0.026,
+    "content_above_threshold": 36,
+    "quality_consistency": 55.13,
+    "fatigue_risk_score": 28,
+    "agent_reliability": 100.0,
+    "pipeline_efficiency": 97.36,
+    "error_rate": 0.0
+  },
+  "bottleneck_analysis": [
+    {
+      "type": "execution_time",
+      "agent": "status_image_designer",
+      "impact": "medium",
+      "value": 8500,
+      "recommendation": "Optimize status_image_designer processing pipeline"
+    },
+    {
+      "type": "execution_time",
+      "agent": "linkedin_post_generator",
+      "impact": "high",
+      "value": 12000,
+      "recommendation": "Optimize linkedin_post_generator processing pipeline"
+    },
+    {
+      "type": "execution_time",
+      "agent": "whatsapp_message_creator",
+      "impact": "medium",
+      "value": 9000,
+      "recommendation": "Optimize whatsapp_message_creator processing pipeline"
+    },
+    {
+      "type": "quality_threshold",
+      "impact": "high",
+      "value": 0.0,
+      "recommendation": "Review content generation templates and quality criteria"
+    },
+    {
+      "type": "content_fatigue",
+      "impact": "medium",
+      "value": 72,
+      "recommendation": "Implement topic diversification strategy"
+    }
+  ],
+  "improvement_recommendations": [
+    {
+      "category": "Quality Enhancement",
+      "priority": "high",
+      "action": "Improve content templates to achieve 60+ quality scores",
+      "expected_impact": "Increase auto-approval rate from 0% to 40%",
+      "implementation_effort": "medium",
+      "timeline": "1 week"
+    },
+    {
+      "category": "Content Diversification",
+      "priority": "high",
+      "action": "Implement topic rotation and hook variety strategies",
+      "expected_impact": "Increase freshness score from 72 to 85+",
+      "implementation_effort": "low",
+      "timeline": "2 days"
+    },
+    {
+      "category": "Performance Optimization",
+      "priority": "medium",
+      "action": "Optimize image generation pipeline to reduce processing time",
+      "expected_impact": "Reduce session time by 30%",
+      "implementation_effort": "high",
+      "timeline": "2 weeks"
+    },
+    {
+      "category": "Engagement Enhancement",
+      "priority": "medium",
+      "action": "Add statistical hooks and story-based content",
+      "expected_impact": "Reduce predicted engagement drop from 15.5% to 5%",
+      "implementation_effort": "medium",
+      "timeline": "1 week"
+    }
+  ],
+  "predictive_analytics": {
+    "distribution_performance": {
+      "predicted_engagement_rate": 1.26,
+      "predicted_delivery_success": 98.5,
+      "predicted_click_through_rate": 1.17,
+      "predicted_conversion_rate": 0.24
+    },
+    "quality_projections": {
+      "next_batch_quality_score": 46.7,
+      "auto_approval_rate_projection": 25.0,
+      "grade_improvement_timeline": "2-3 sessions"
+    },
+    "compliance_forecast": {
+      "regulatory_risk": "low",
+      "brand_consistency_maintenance": 100.0,
+      "fatigue_remediation_effort": "medium"
+    },
+    "success_rate_predictions": {
+      "linkedin_performance": 35.4,
+      "whatsapp_performance": 54.0,
+      "overall_campaign_success": 24.0
+    }
+  },
+  "executive_summary": {
+    "overall_success_rate": 100.0,
+    "session_rating": "B+",
+    "key_achievements": [
+      "100% agent completion rate",
+      "Zero error execution",
+      "Full compliance maintained",
+      "74 content pieces generated"
+    ],
+    "critical_areas": [
+      "Quality scores averaging 41.68 (needs improvement)",
+      "High topic concentration risk",
+      "Zero auto-approval rate",
+      "Content freshness at 72% (below optimal)"
+    ],
+    "next_session_focus": [
+      "Implement content diversification",
+      "Improve quality scoring thresholds",
+      "Add story-based and statistical content",
+      "Optimize image generation pipeline"
+    ]
+  }
+}

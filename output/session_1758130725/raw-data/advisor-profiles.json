@@ -1,0 +1,251 @@
+{
+  "dataSource": "processed_advisor_data",
+  "sessionId": "session_1758130725",
+  "timestamp": "2025-09-17T23:35:00Z",
+  "advisorCount": 3,
+  "dataQuality": 0.98,
+  "advisors": [
+    {
+      "advisorId": "ADV_001",
+      "profile": {
+        "name": "Shruti Petkar",
+        "segment": "Premium",
+        "brandName": "Wealth Creators",
+        "aum": "₹85 Crores",
+        "clientCount": 280,
+        "experience": "12 years"
+      },
+      "contactInfo": {
+        "phone": "919876543210",
+        "email": "shruti.petkar@wealthcreators.in",
+        "arn": "ARN-123456",
+        "firmName": "Wealth Creators Financial Advisory"
+      },
+      "branding": {
+        "logoUrl": "https://drive.google.com/file/d/1abc123wealthcreators/view",
+        "colors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853",
+          "accent": "#FFD700"
+        },
+        "tagline": "Building Wealth, Creating Trust",
+        "signature": "Shruti Petkar, CFP | Wealth Creators Financial Advisory | ARN: 123456"
+      },
+      "contentPreferences": {
+        "tone": "Professional",
+        "postingTime": "9:00 AM",
+        "languages": ["English", "Hindi"],
+        "frequency": "daily",
+        "reviewMode": "manual",
+        "preferredTopics": ["Market Analysis", "Portfolio Diversification", "Tax Saving"],
+        "avoidTopics": ["Crypto", "F&O Trading", "Penny Stocks", "Unregulated Investments"]
+      },
+      "clientDemographics": {
+        "segments": ["Young Professionals", "HNI Clients", "Business Owners", "NRIs"],
+        "riskProfile": "Moderate to High",
+        "averageInvestment": "₹25 Lakhs"
+      },
+      "specializations": ["Portfolio Management", "HNI Services", "Tax Optimization"],
+      "certifications": ["CFP", "CFA Level II", "NISM XV"],
+      "performance": {
+        "contentEngagement": 0.87,
+        "clientAcquisition": 15,
+        "portfolioPerformance": 0.14,
+        "satisfaction": 4.6
+      },
+      "subscription": {
+        "plan": "Premium",
+        "status": "Active",
+        "validUntil": "2025-12-31",
+        "features": ["Custom Branding", "Daily Posts", "Analytics Dashboard", "Priority Support", "Video Content"]
+      }
+    },
+    {
+      "advisorId": "ADV_002",
+      "profile": {
+        "name": "Rajesh Kumar",
+        "segment": "Gold",
+        "brandName": "Money Matters",
+        "aum": "₹55 Crores",
+        "clientCount": 220,
+        "experience": "8 years"
+      },
+      "contactInfo": {
+        "phone": "919876543211",
+        "email": "rajesh.kumar@moneymatters.co.in",
+        "arn": "ARN-789012",
+        "firmName": "Money Matters Investment Services"
+      },
+      "branding": {
+        "logoUrl": "https://drive.google.com/file/d/2def456moneymatters/view",
+        "colors": {
+          "primary": "#FF6B6B",
+          "secondary": "#4ECDC4",
+          "accent": "#45B7D1"
+        },
+        "tagline": "Your Financial Growth Partner",
+        "signature": "Rajesh Kumar | Money Matters Investment Services | ARN: 789012"
+      },
+      "contentPreferences": {
+        "tone": "Educational",
+        "postingTime": "10:00 AM",
+        "languages": ["English", "Hindi", "Marathi"],
+        "frequency": "5x per week",
+        "reviewMode": "auto-approve",
+        "preferredTopics": ["SIP Benefits", "Goal Planning", "Financial Literacy"],
+        "avoidTopics": ["Day Trading", "Derivatives", "High Risk Investments"]
+      },
+      "clientDemographics": {
+        "segments": ["Salaried Professionals", "First-time Investors", "Young Families", "Middle Class"],
+        "riskProfile": "Low to Moderate",
+        "averageInvestment": "₹8 Lakhs"
+      },
+      "specializations": ["Mutual Funds", "SIP Planning", "Goal-based Planning"],
+      "certifications": ["NISM X-A", "NISM V-A", "CFP"],
+      "performance": {
+        "contentEngagement": 0.75,
+        "clientAcquisition": 12,
+        "portfolioPerformance": 0.11,
+        "satisfaction": 4.3
+      },
+      "subscription": {
+        "plan": "Gold",
+        "status": "Active",
+        "validUntil": "2025-06-30",
+        "features": ["Semi-Custom Branding", "5 Posts/Week", "Basic Analytics", "Email Support"]
+      }
+    },
+    {
+      "advisorId": "ADV_003",
+      "profile": {
+        "name": "Priya Sharma",
+        "segment": "Silver",
+        "brandName": "Smart Invest",
+        "aum": "₹35 Crores",
+        "clientCount": 150,
+        "experience": "5 years"
+      },
+      "contactInfo": {
+        "phone": "919876543212",
+        "email": "priya.sharma@smartinvest.net",
+        "arn": "ARN-345678",
+        "firmName": "Smart Investment Advisors"
+      },
+      "branding": {
+        "logoUrl": "",
+        "colors": {
+          "primary": "#008080",
+          "secondary": "#F0F8FF",
+          "accent": "#20B2AA"
+        },
+        "tagline": "Smart Investing Made Simple",
+        "signature": "Priya Sharma | Smart Investment Advisors | ARN: 345678"
+      },
+      "contentPreferences": {
+        "tone": "Casual",
+        "postingTime": "8:30 AM",
+        "languages": ["English"],
+        "frequency": "3x per week",
+        "reviewMode": "manual",
+        "preferredTopics": ["Simple Investment Tips", "Beginner Guides", "Technology in Finance"],
+        "avoidTopics": ["Complex Derivatives", "International Markets", "High-risk Strategies"]
+      },
+      "clientDemographics": {
+        "segments": ["Millennials", "New Investors", "Small Business Owners", "Tech Professionals"],
+        "riskProfile": "Low to Moderate",
+        "averageInvestment": "₹4 Lakhs"
+      },
+      "specializations": ["Digital Investments", "ETFs", "Young Investor Education"],
+      "certifications": ["NISM X-A", "PG Diploma in Finance"],
+      "performance": {
+        "contentEngagement": 0.68,
+        "clientAcquisition": 8,
+        "portfolioPerformance": 0.09,
+        "satisfaction": 4.1
+      },
+      "subscription": {
+        "plan": "Silver",
+        "status": "Active",
+        "validUntil": "2025-09-30",
+        "features": ["Basic Branding", "3 Posts/Week", "Monthly Reports", "Community Support"]
+      }
+    }
+  ],
+  "segmentAnalysis": {
+    "Premium": {
+      "count": 1,
+      "characteristics": {
+        "avgAUM": "₹85 Crores",
+        "avgClients": 280,
+        "contentFrequency": "Daily",
+        "brandingLevel": "Full Custom",
+        "targetDemographic": "HNI & Business Owners",
+        "riskProfile": "Moderate to High"
+      }
+    },
+    "Gold": {
+      "count": 1,
+      "characteristics": {
+        "avgAUM": "₹55 Crores",
+        "avgClients": 220,
+        "contentFrequency": "5x Weekly",
+        "brandingLevel": "Semi-Custom",
+        "targetDemographic": "Salaried Professionals",
+        "riskProfile": "Low to Moderate"
+      }
+    },
+    "Silver": {
+      "count": 1,
+      "characteristics": {
+        "avgAUM": "₹35 Crores",
+        "avgClients": 150,
+        "contentFrequency": "3x Weekly",
+        "brandingLevel": "Basic",
+        "targetDemographic": "Millennials & New Investors",
+        "riskProfile": "Low to Moderate"
+      }
+    }
+  },
+  "aggregateMetrics": {
+    "totalAUM": "₹175 Crores",
+    "totalClients": 650,
+    "averageExperience": "8.3 years",
+    "averageEngagement": 0.77,
+    "averageSatisfaction": 4.33,
+    "customBrandingAdvisors": 2,
+    "activeSubscriptions": 3
+  },
+  "contentGenerationInputs": {
+    "toneVariations": ["Professional", "Educational", "Casual"],
+    "languageSupport": ["English", "Hindi", "Marathi"],
+    "topicPreferences": [
+      "Market Analysis",
+      "Portfolio Diversification",
+      "Tax Saving",
+      "SIP Benefits",
+      "Goal Planning",
+      "Financial Literacy",
+      "Simple Investment Tips",
+      "Beginner Guides"
+    ],
+    "avoidancePatterns": [
+      "Crypto",
+      "F&O Trading",
+      "Penny Stocks",
+      "Day Trading",
+      "Derivatives",
+      "High Risk Investments",
+      "Complex Derivatives",
+      "International Markets"
+    ],
+    "postingTimeRange": ["8:30 AM", "9:00 AM", "10:00 AM"],
+    "reviewRequirements": {
+      "manual": ["ADV_001", "ADV_003"],
+      "autoApprove": ["ADV_002"]
+    }
+  },
+  "warnings": [
+    "ADV_003 missing logo URL - using default branding",
+    "ADV_003 subscription expires soon (2025-09-30) - renewal reminder needed"
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "session_id": "session_20250919_105507",
+  "timestamp": "20250919_112903",
+  "total_images": 5,
+  "images_generated": [
+    {
+      "theme_key": "village_crorepati",
+      "filename": "village_crorepati_viral_20250919_112903.png",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/images/status/village_crorepati_viral_20250919_112903.png",
+      "virality_score": 8.9,
+      "viral_potential": "HIGH VIRAL POTENTIAL",
+      "grammy_level": false,
+      "file_size_kb": 137.9
+    },
+    {
+      "theme_key": "fo_reality",
+      "filename": "fo_reality_viral_20250919_112903.png",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/images/status/fo_reality_viral_20250919_112903.png",
+      "virality_score": 8.8,
+      "viral_potential": "HIGH VIRAL POTENTIAL",
+      "grammy_level": false,
+      "file_size_kb": 114.2
+    },
+    {
+      "theme_key": "coffee_wealth",
+      "filename": "coffee_wealth_viral_20250919_112903.png",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/images/status/coffee_wealth_viral_20250919_112903.png",
+      "virality_score": 8.8,
+      "viral_potential": "HIGH VIRAL POTENTIAL",
+      "grammy_level": false,
+      "file_size_kb": 111.5
+    },
+    {
+      "theme_key": "auto_success",
+      "filename": "auto_success_viral_20250919_112903.png",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/images/status/auto_success_viral_20250919_112903.png",
+      "virality_score": 8.8,
+      "viral_potential": "HIGH VIRAL POTENTIAL",
+      "grammy_level": false,
+      "file_size_kb": 130.2
+    },
+    {
+      "theme_key": "grammy_portfolio",
+      "filename": "grammy_portfolio_viral_20250919_112903.png",
+      "path": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/images/status/grammy_portfolio_viral_20250919_112903.png",
+      "virality_score": 8.9,
+      "viral_potential": "HIGH VIRAL POTENTIAL",
+      "grammy_level": false,
+      "file_size_kb": 129.8
+    }
+  ],
+  "analysis": {
+    "village_crorepati": {
+      "theme": "Village Crorepati Shock",
+      "overall_score": 8.9,
+      "viral_potential": "HIGH VIRAL POTENTIAL",
+      "detailed_scores": {
+        "visual_impact": 8.5,
+        "mobile_readability": 9.0,
+        "recognition_speed": 8.8,
+        "emotional_trigger": 9.0,
+        "professional_quality": 9.2,
+        "shareability": 8.7
+      },
+      "mobile_optimized": true,
+      "grammy_level": false,
+      "file_size_kb": 137.9,
+      "dimensions": "1080x1920 (WhatsApp Status)",
+      "generated_at": "2025-09-19T11:29:04.401356"
+    },
+    "fo_reality": {
+      "theme": "F&O Reality Check",
+      "overall_score": 8.8,
+      "viral_potential": "HIGH VIRAL POTENTIAL",
+      "detailed_scores": {
+        "visual_impact": 8.5,
+        "mobile_readability": 9.0,
+        "recognition_speed": 8.8,
+        "emotional_trigger": 8.5,
+        "professional_quality": 9.2,
+        "shareability": 8.7
+      },
+      "mobile_optimized": true,
+      "grammy_level": false,
+      "file_size_kb": 114.2,
+      "dimensions": "1080x1920 (WhatsApp Status)",
+      "generated_at": "2025-09-19T11:29:04.721168"
+    },
+    "coffee_wealth": {
+      "theme": "Coffee Wealth Calculator",
+      "overall_score": 8.8,
+      "viral_potential": "HIGH VIRAL POTENTIAL",
+      "detailed_scores": {
+        "visual_impact": 8.5,
+        "mobile_readability": 9.0,
+        "recognition_speed": 8.8,
+        "emotional_trigger": 8.8,
+        "professional_quality": 9.2,
+        "shareability": 8.7
+      },
+      "mobile_optimized": true,
+      "grammy_level": false,
+      "file_size_kb": 111.5,
+      "dimensions": "1080x1920 (WhatsApp Status)",
+      "generated_at": "2025-09-19T11:29:05.066197"
+    },
+    "auto_success": {
+      "theme": "Auto Driver Success",
+      "overall_score": 8.8,
+      "viral_potential": "HIGH VIRAL POTENTIAL",
+      "detailed_scores": {
+        "visual_impact": 8.5,
+        "mobile_readability": 9.0,
+        "recognition_speed": 8.8,
+        "emotional_trigger": 8.7,
+        "professional_quality": 9.2,
+        "shareability": 8.7
+      },
+      "mobile_optimized": true,
+      "grammy_level": false,
+      "file_size_kb": 130.2,
+      "dimensions": "1080x1920 (WhatsApp Status)",
+      "generated_at": "2025-09-19T11:29:05.485223"
+    },
+    "grammy_portfolio": {
+      "theme": "Grammy Portfolio Diversification",
+      "overall_score": 8.9,
+      "viral_potential": "HIGH VIRAL POTENTIAL",
+      "detailed_scores": {
+        "visual_impact": 8.5,
+        "mobile_readability": 9.0,
+        "recognition_speed": 8.8,
+        "emotional_trigger": 9.2,
+        "professional_quality": 9.2,
+        "shareability": 8.7
+      },
+      "mobile_optimized": true,
+      "grammy_level": false,
+      "file_size_kb": 129.8,
+      "dimensions": "1080x1920 (WhatsApp Status)",
+      "generated_at": "2025-09-19T11:29:05.931951"
+    }
+  },
+  "success_count": 5,
+  "gemini_api_used": false
+}

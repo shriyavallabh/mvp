@@ -1,0 +1,486 @@
+{
+  "timestamp": "2025-09-20T23:46:36.716645",
+  "session_id": "session_20250920_231535",
+  "linkedin_posts": [
+    {
+      "file": "branded_post_ADV_010_16.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_010",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ADV_011_17.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_011",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ARN_VIDYADHAR_002_8.json",
+      "advisor": "Vidyadhar Petkar",
+      "arn": "ARN_VIDYADHAR_002",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ARN_SHRIYA_003_9.json",
+      "advisor": "Shriya Vallabh Petkar",
+      "arn": "ARN_SHRIYA_003",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ARN_VIDYADHAR_002_5.json",
+      "advisor": "Vidyadhar Petkar",
+      "arn": "ARN_VIDYADHAR_002",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ADV_006_12.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_006",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ADV_007_13.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_007",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ARN_VIDYADHAR_002_2.json",
+      "advisor": "Vidyadhar Petkar",
+      "arn": "ARN_VIDYADHAR_002",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ARN_SHRIYA_003_3.json",
+      "advisor": "Shriya Vallabh Petkar",
+      "arn": "ARN_SHRIYA_003",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ARN_SHRUTI_001_4.json",
+      "advisor": "Shruti Petkar",
+      "arn": "ARN_SHRUTI_001",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ARN_SHRUTI_001_7.json",
+      "advisor": "Shruti Petkar",
+      "arn": "ARN_SHRUTI_001",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ADV_005_11.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_005",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ADV_004_10.json",
+      "advisor": "Mr. Tranquil Veda",
+      "arn": "ADV_004",
+      "violations": [],
+      "warnings": [],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ADV_013_19.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_013",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ADV_012_18.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_012",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ARN_SHRUTI_001_1.json",
+      "advisor": "Shruti Petkar",
+      "arn": "ARN_SHRUTI_001",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ADV_009_15.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_009",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ADV_008_14.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_008",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_post_ARN_SHRIYA_003_6.json",
+      "advisor": "Shriya Vallabh Petkar",
+      "arn": "ARN_SHRIYA_003",
+      "violations": [],
+      "warnings": [
+        "Missing document reading disclaimer"
+      ],
+      "compliant": true
+    }
+  ],
+  "whatsapp_messages": [
+    {
+      "file": "branded_message_ADV_010_10.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_010",
+      "violations": [],
+      "warnings": [
+        "Message exceeds 400 chars (409 chars)"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_message_ADV_004_4.json",
+      "advisor": "Mr. Tranquil Veda",
+      "arn": "ADV_004",
+      "violations": [],
+      "warnings": [
+        "Message exceeds 400 chars (412 chars)"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_message_ADV_011_11.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_011",
+      "violations": [],
+      "warnings": [
+        "Message exceeds 400 chars (409 chars)"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_message_ADV_008_8.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_008",
+      "violations": [],
+      "warnings": [
+        "Message exceeds 400 chars (409 chars)"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_message_ADV_007_7.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_007",
+      "violations": [],
+      "warnings": [
+        "Message exceeds 400 chars (409 chars)"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_message_ARN_SHRUTI_001_1.json",
+      "advisor": "Shruti Petkar",
+      "arn": "ARN_SHRUTI_001",
+      "violations": [],
+      "warnings": [
+        "Message exceeds 400 chars (414 chars)"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_message_ARN_VIDYADHAR_002_2.json",
+      "advisor": "Vidyadhar Petkar",
+      "arn": "ARN_VIDYADHAR_002",
+      "violations": [],
+      "warnings": [
+        "Message exceeds 400 chars (402 chars)"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_message_ADV_013_13.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_013",
+      "violations": [],
+      "warnings": [
+        "Message exceeds 400 chars (409 chars)"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_message_ADV_005_5.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_005",
+      "violations": [],
+      "warnings": [
+        "Message exceeds 400 chars (409 chars)"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_message_ADV_012_12.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_012",
+      "violations": [],
+      "warnings": [
+        "Message exceeds 400 chars (409 chars)"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_message_ADV_009_9.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_009",
+      "violations": [],
+      "warnings": [
+        "Message exceeds 400 chars (409 chars)"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_message_ADV_006_6.json",
+      "advisor": "Unknown Advisor",
+      "arn": "ADV_006",
+      "violations": [],
+      "warnings": [
+        "Message exceeds 400 chars (409 chars)"
+      ],
+      "compliant": true
+    },
+    {
+      "file": "branded_message_ARN_SHRIYA_003_3.json",
+      "advisor": "Shriya Vallabh Petkar",
+      "arn": "ARN_SHRIYA_003",
+      "violations": [],
+      "warnings": [
+        "Message exceeds 400 chars (439 chars)"
+      ],
+      "compliant": true
+    }
+  ],
+  "images": [
+    {
+      "file": "003_bitcoin_crash.png",
+      "status": "Generated",
+      "note": "Visual compliance check required for text overlays"
+    },
+    {
+      "file": "002_trump_tariff_alert.png",
+      "status": "Generated",
+      "note": "Visual compliance check required for text overlays"
+    },
+    {
+      "file": "001_fii_exit_battle.png",
+      "status": "Generated",
+      "note": "Visual compliance check required for text overlays"
+    }
+  ],
+  "violations": [],
+  "warnings": [
+    "LinkedIn branded_post_ADV_010_16.json: Missing document reading disclaimer",
+    "LinkedIn branded_post_ADV_011_17.json: Missing document reading disclaimer",
+    "LinkedIn branded_post_ARN_VIDYADHAR_002_8.json: Missing document reading disclaimer",
+    "LinkedIn branded_post_ARN_SHRIYA_003_9.json: Missing document reading disclaimer",
+    "LinkedIn branded_post_ARN_VIDYADHAR_002_5.json: Missing document reading disclaimer",
+    "LinkedIn branded_post_ADV_006_12.json: Missing document reading disclaimer",
+    "LinkedIn branded_post_ADV_007_13.json: Missing document reading disclaimer",
+    "LinkedIn branded_post_ARN_VIDYADHAR_002_2.json: Missing document reading disclaimer",
+    "LinkedIn branded_post_ARN_SHRIYA_003_3.json: Missing document reading disclaimer",
+    "LinkedIn branded_post_ARN_SHRUTI_001_4.json: Missing document reading disclaimer",
+    "LinkedIn branded_post_ARN_SHRUTI_001_7.json: Missing document reading disclaimer",
+    "LinkedIn branded_post_ADV_005_11.json: Missing document reading disclaimer",
+    "LinkedIn branded_post_ADV_013_19.json: Missing document reading disclaimer",
+    "LinkedIn branded_post_ADV_012_18.json: Missing document reading disclaimer",
+    "LinkedIn branded_post_ARN_SHRUTI_001_1.json: Missing document reading disclaimer",
+    "LinkedIn branded_post_ADV_009_15.json: Missing document reading disclaimer",
+    "LinkedIn branded_post_ADV_008_14.json: Missing document reading disclaimer",
+    "LinkedIn branded_post_ARN_SHRIYA_003_6.json: Missing document reading disclaimer",
+    "WhatsApp branded_message_ADV_010_10.json: Message exceeds 400 chars (409 chars)",
+    "WhatsApp branded_message_ADV_004_4.json: Message exceeds 400 chars (412 chars)",
+    "WhatsApp branded_message_ADV_011_11.json: Message exceeds 400 chars (409 chars)",
+    "WhatsApp branded_message_ADV_008_8.json: Message exceeds 400 chars (409 chars)",
+    "WhatsApp branded_message_ADV_007_7.json: Message exceeds 400 chars (409 chars)",
+    "WhatsApp branded_message_ARN_SHRUTI_001_1.json: Message exceeds 400 chars (414 chars)",
+    "WhatsApp branded_message_ARN_VIDYADHAR_002_2.json: Message exceeds 400 chars (402 chars)",
+    "WhatsApp branded_message_ADV_013_13.json: Message exceeds 400 chars (409 chars)",
+    "WhatsApp branded_message_ADV_005_5.json: Message exceeds 400 chars (409 chars)",
+    "WhatsApp branded_message_ADV_012_12.json: Message exceeds 400 chars (409 chars)",
+    "WhatsApp branded_message_ADV_009_9.json: Message exceeds 400 chars (409 chars)",
+    "WhatsApp branded_message_ADV_006_6.json: Message exceeds 400 chars (409 chars)",
+    "WhatsApp branded_message_ARN_SHRIYA_003_3.json: Message exceeds 400 chars (439 chars)"
+  ],
+  "compliant_items": [
+    "LinkedIn: branded_post_ADV_004_10.json"
+  ],
+  "data_accuracy": [
+    {
+      "file": "branded_post_ADV_010_16.json",
+      "data_point": "FII outflow \u20b92.35L Cr",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ADV_011_17.json",
+      "data_point": "FII outflow \u20b92.35L Cr",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ARN_VIDYADHAR_002_8.json",
+      "data_point": "Bitcoin price range $94K-$109K",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ARN_SHRIYA_003_9.json",
+      "data_point": "Bitcoin price range $94K-$109K",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ARN_VIDYADHAR_002_5.json",
+      "data_point": "Trump 50% tariff proposal",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ADV_006_12.json",
+      "data_point": "FII outflow \u20b92.35L Cr",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ADV_007_13.json",
+      "data_point": "FII outflow \u20b92.35L Cr",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ARN_VIDYADHAR_002_2.json",
+      "data_point": "FII outflow \u20b92.35L Cr",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ARN_SHRIYA_003_3.json",
+      "data_point": "FII outflow \u20b92.35L Cr",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ARN_SHRUTI_001_4.json",
+      "data_point": "Trump 50% tariff proposal",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ARN_SHRUTI_001_7.json",
+      "data_point": "Bitcoin price range $94K-$109K",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ADV_005_11.json",
+      "data_point": "FII outflow \u20b92.35L Cr",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ADV_004_10.json",
+      "data_point": "FII outflow \u20b92.35L Cr",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ADV_013_19.json",
+      "data_point": "FII outflow \u20b92.35L Cr",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ADV_012_18.json",
+      "data_point": "FII outflow \u20b92.35L Cr",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ARN_SHRUTI_001_1.json",
+      "data_point": "FII outflow \u20b92.35L Cr",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ADV_009_15.json",
+      "data_point": "FII outflow \u20b92.35L Cr",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ADV_008_14.json",
+      "data_point": "FII outflow \u20b92.35L Cr",
+      "status": "Verified"
+    },
+    {
+      "file": "branded_post_ARN_SHRIYA_003_6.json",
+      "data_point": "Trump 50% tariff proposal",
+      "status": "Verified"
+    }
+  ],
+  "compliance_score": 0.03,
+  "status": "APPROVED WITH CONDITIONS - Minor issues to address",
+  "summary": {
+    "total_content_items": 32,
+    "total_violations": 0,
+    "total_warnings": 31,
+    "fully_compliant": 1,
+    "images_generated": 3
+  }
+}

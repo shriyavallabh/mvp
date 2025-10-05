@@ -1,0 +1,54 @@
+{
+  "sessionId": "session_20250918_221309",
+  "registeredAt": "2025-09-18T22:13:09.000Z",
+  "mcpInfrastructure": {
+    "communicationChannels": 5,
+    "sessionIsolation": true,
+    "stateManagement": true,
+    "learningCapture": true
+  },
+  "agents": {
+    "advisor-data-manager": {
+      "capabilities": ["advisor-management", "data-processing", "google-sheets-integration"],
+      "sharedMemory": "data/shared-memory/session_20250918_221309",
+      "communication": "data/agent-communication/session_20250918_221309",
+      "learnings": "learnings/sessions/session_20250918_221309"
+    },
+    "market-intelligence": {
+      "capabilities": ["market-analysis", "trend-detection", "content-insights"],
+      "sharedMemory": "data/shared-memory/session_20250918_221309",
+      "communication": "data/agent-communication/session_20250918_221309",
+      "learnings": "learnings/sessions/session_20250918_221309"
+    },
+    "gemini-image-generator": {
+      "capabilities": ["image-generation", "visual-content", "brand-customization"],
+      "sharedMemory": "data/shared-memory/session_20250918_221309",
+      "communication": "data/agent-communication/session_20250918_221309",
+      "output": "output/session_20250918_221309/images"
+    },
+    "whatsapp-message-creator": {
+      "capabilities": ["message-creation", "template-management", "personalization"],
+      "sharedMemory": "data/shared-memory/session_20250918_221309",
+      "communication": "data/agent-communication/session_20250918_221309",
+      "output": "output/session_20250918_221309/whatsapp"
+    },
+    "distribution-controller": {
+      "capabilities": ["delivery-management", "scheduling", "error-handling"],
+      "sharedMemory": "data/shared-memory/session_20250918_221309",
+      "communication": "data/agent-communication/session_20250918_221309",
+      "learnings": "learnings/sessions/session_20250918_221309"
+    },
+    "compliance-validator": {
+      "capabilities": ["content-validation", "regulation-checking", "quality-assurance"],
+      "sharedMemory": "data/shared-memory/session_20250918_221309",
+      "communication": "data/agent-communication/session_20250918_221309",
+      "learnings": "learnings/sessions/session_20250918_221309"
+    },
+    "status-image-designer": {
+      "capabilities": ["status-visualization", "performance-graphics", "dashboard-images"],
+      "sharedMemory": "data/shared-memory/session_20250918_221309",
+      "communication": "data/agent-communication/session_20250918_221309",
+      "output": "output/session_20250918_221309/images"
+    }
+  }
+}

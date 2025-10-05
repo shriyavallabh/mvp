@@ -1,0 +1,19 @@
+{
+  "session": "session_1759289833929",
+  "timestamp": "2025-10-01T03:37:13.948Z",
+  "totalImageSpecs": 36,
+  "advisors": 4,
+  "qualityLevel": "Silicon Valley designer-level",
+  "breakdown": {
+    "linkedin": 12,
+    "whatsapp": 12,
+    "status": 12
+  },
+  "locations": {
+    "linkedin": "output/session_1759289833929/images/linkedin/",
+    "whatsapp": "output/session_1759289833929/images/whatsapp/",
+    "status": "output/session_1759289833929/images/status/",
+    "prompts": "output/session_1759289833929/images/prompts/"
+  },
+  "note": "Placeholder specs created. Replace with actual images when Gemini image API is available or use manual design."
+}

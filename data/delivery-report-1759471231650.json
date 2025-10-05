@@ -1,0 +1,131 @@
+{
+  "timestamp": "2025-10-03T06:00:31.650Z",
+  "sessionId": "session_20251002_180551",
+  "dryRun": true,
+  "campaigns": {
+    "contentPackage": [
+      {
+        "advisor": "Shruti Petkar",
+        "status": "DRY_RUN",
+        "payload": {
+          "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDJjNGFjM2QyYzcxMDU3NThmZDMwOSIsIm5hbWUiOiJKYXJ2aXMgRGFpbHkgMzI1NCIsImFwcE5hbWUiOiJBaVNlbnN5IiwiY2xpZW50SWQiOiI2OGQyYzRhYzNkMmM3MTA1NzU4ZmQzMDQiLCJhY3RpdmVQbGFuIjoiRlJFRV9GT1JFVkVSIiwiaWF0IjoxNzU4NjQzMzcyfQ.32699H5FrzjmfwRUIMZIzdVG-DjE1qNrNTagMZL5Jk0",
+          "campaignName": "Daily_Package_ADV001_20251003",
+          "destination": "919673758777",
+          "userName": "JarvisDaily",
+          "templateParams": [
+            "Shruti Petkar",
+            "3 October 2025",
+            "\udc8e RBI just handed you Rs 1 CRORE leverage opportunity!",
+            "shruti-petkar-20251003"
+          ],
+          "media": {
+            "url": "https://res.cloudinary.com/dun0gt2bc/image/upload/v1759471195/jarvisdaily/20251003/ADV001_shruti_petkar_status_1_branded.png",
+            "filename": "status_ADV001.png"
+          }
+        }
+      },
+      {
+        "advisor": "Vidyadhar Petkar",
+        "status": "DRY_RUN",
+        "payload": {
+          "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDJjNGFjM2QyYzcxMDU3NThmZDMwOSIsIm5hbWUiOiJKYXJ2aXMgRGFpbHkgMzI1NCIsImFwcE5hbWUiOiJBaVNlbnN5IiwiY2xpZW50SWQiOiI2OGQyYzRhYzNkMmM3MTA1NzU4ZmQzMDQiLCJhY3RpdmVQbGFuIjoiRlJFRV9GT1JFVkVSIiwiaWF0IjoxNzU4NjQzMzcyfQ.32699H5FrzjmfwRUIMZIzdVG-DjE1qNrNTagMZL5Jk0",
+          "campaignName": "Daily_Package_ADV002_20251003",
+          "destination": "918975758513",
+          "userName": "JarvisDaily",
+          "templateParams": [
+            "Vidyadhar Petkar",
+            "3 October 2025",
+            "🇮🇳 Plot Twist: Desi Money CRUSHING Foreign Panic!",
+            "vidyadhar-petkar-20251003"
+          ],
+          "media": {
+            "url": "https://res.cloudinary.com/dun0gt2bc/image/upload/v1759471199/jarvisdaily/20251003/ADV002_vidyadhar_petkar_status_1_branded.png",
+            "filename": "status_ADV002.png"
+          }
+        }
+      },
+      {
+        "advisor": "Shriya Vallabh Petkar",
+        "status": "DRY_RUN",
+        "payload": {
+          "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDJjNGFjM2QyYzcxMDU3NThmZDMwOSIsIm5hbWUiOiJKYXJ2aXMgRGFpbHkgMzI1NCIsImFwcE5hbWUiOiJBaVNlbnN5IiwiY2xpZW50SWQiOiI2OGQyYzRhYzNkMmM3MTA1NzU4ZmQzMDQiLCJhY3RpdmVQbGFuIjoiRlJFRV9GT1JFVkVSIiwiaWF0IjoxNzU4NjQzMzcyfQ.32699H5FrzjmfwRUIMZIzdVG-DjE1qNrNTagMZL5Jk0",
+          "campaignName": "Daily_Package_ADV003_20251003",
+          "destination": "919765071249",
+          "userName": "JarvisDaily",
+          "templateParams": [
+            "Shriya Vallabh Petkar",
+            "3 October 2025",
+            "🎁 Tata Motors: One Stock → TWO Stocks!",
+            "shriya-vallabh-petkar-20251003"
+          ],
+          "media": {
+            "url": "https://res.cloudinary.com/dun0gt2bc/image/upload/v1759471201/jarvisdaily/20251003/ADV003_shriya_vallabh_petkar_status_1_branded.png",
+            "filename": "status_ADV003.png"
+          }
+        }
+      },
+      {
+        "advisor": "Avalok Langer",
+        "status": "DRY_RUN",
+        "payload": {
+          "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDJjNGFjM2QyYzcxMDU3NThmZDMwOSIsIm5hbWUiOiJKYXJ2aXMgRGFpbHkgMzI1NCIsImFwcE5hbWUiOiJBaVNlbnN5IiwiY2xpZW50SWQiOiI2OGQyYzRhYzNkMmM3MTA1NzU4ZmQzMDQiLCJhY3RpdmVQbGFuIjoiRlJFRV9GT1JFVkVSIiwiaWF0IjoxNzU4NjQzMzcyfQ.32699H5FrzjmfwRUIMZIzdVG-DjE1qNrNTagMZL5Jk0",
+          "campaignName": "Daily_Package_ADV004_20251003",
+          "destination": "919022810769",
+          "userName": "JarvisDaily",
+          "templateParams": [
+            "Avalok Langer",
+            "3 October 2025",
+            "Yesterday (Oct 1): Sensex +715 points",
+            "avalok-langer-20251003"
+          ],
+          "media": {
+            "url": "https://res.cloudinary.com/dun0gt2bc/image/upload/v1759471203/jarvisdaily/20251003/ADV004_avalok_langer_status_1_branded.png",
+            "filename": "status_ADV004.png"
+          }
+        }
+      }
+    ],
+    "statusImage": [
+      {
+        "advisor": "Shruti Petkar",
+        "status": "DRY_RUN"
+      },
+      {
+        "advisor": "Vidyadhar Petkar",
+        "status": "DRY_RUN"
+      },
+      {
+        "advisor": "Shriya Vallabh Petkar",
+        "status": "DRY_RUN"
+      },
+      {
+        "advisor": "Avalok Langer",
+        "status": "DRY_RUN"
+      }
+    ],
+    "linkedinPost": [
+      {
+        "advisor": "Shruti Petkar",
+        "status": "DRY_RUN"
+      },
+      {
+        "advisor": "Vidyadhar Petkar",
+        "status": "DRY_RUN"
+      },
+      {
+        "advisor": "Shriya Vallabh Petkar",
+        "status": "DRY_RUN"
+      },
+      {
+        "advisor": "Avalok Langer",
+        "status": "DRY_RUN"
+      }
+    ]
+  },
+  "summary": {
+    "totalAdvisors": 4,
+    "campaign1Success": 0,
+    "campaign2Success": 0,
+    "campaign3Success": 0
+  }
+}

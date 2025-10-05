@@ -1,0 +1,39 @@
+{
+  "sessionId": "session_20250918_221309",
+  "timestamp": "2025-09-18T22:51:47.029257",
+  "totalGenerated": 5,
+  "images": [
+    {
+      "advisor": "Shruti Petkar",
+      "type": "market_update",
+      "file": "output/session_20250918_221309/generated-images/ARN_SHRUTI_001_market_update_20250918_225146.png",
+      "timestamp": "2025-09-18T22:51:46.484384"
+    },
+    {
+      "advisor": "Vidyadhar Petkar",
+      "type": "educational_animation",
+      "file": "output/session_20250918_221309/generated-images/ARN_VIDYADHAR_002_educational_animation_20250918_225146.png",
+      "timestamp": "2025-09-18T22:51:46.624718"
+    },
+    {
+      "advisor": "Shriya Vallabh Petkar",
+      "type": "infographic",
+      "file": "output/session_20250918_221309/generated-images/ARN_SHRIYA_003_infographic_20250918_225146.png",
+      "timestamp": "2025-09-18T22:51:46.752239"
+    },
+    {
+      "advisor": "Mr. Tranquil Veda",
+      "type": "sector_spotlight",
+      "file": "output/session_20250918_221309/generated-images/ADV_004_sector_spotlight_20250918_225146.png",
+      "timestamp": "2025-09-18T22:51:46.882645"
+    },
+    {
+      "advisor": "Shruti Petkar",
+      "type": "tax_saving_tips",
+      "file": "output/session_20250918_221309/generated-images/ARN_SHRUTI_001_v2_tax_saving_tips_20250918_225146.png",
+      "timestamp": "2025-09-18T22:51:47.029248"
+    }
+  ],
+  "dimensions": "1080x1920",
+  "api": "Gemini 2.0 Flash"
+}

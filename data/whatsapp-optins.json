@@ -1,0 +1,186 @@
+{
+  "919876543210": {
+    "phoneNumber": "919876543210",
+    "optedIn": true,
+    "optInDate": "2025-09-21T05:26:01.980Z",
+    "optInSource": "website_button",
+    "marketingConsent": true,
+    "lastInteraction": "2025-09-21T05:26:01.981Z",
+    "preferences": {
+      "promotional": true,
+      "updates": true,
+      "educational": true
+    },
+    "tags": [],
+    "customFields": {},
+    "campaignHistory": []
+  },
+  "919876543211": {
+    "phoneNumber": "919876543211",
+    "optedIn": true,
+    "optInDate": "2025-09-21T05:26:01.981Z",
+    "optInSource": "purchase_flow",
+    "marketingConsent": true,
+    "lastInteraction": "2025-09-21T05:26:01.981Z",
+    "preferences": {
+      "promotional": true,
+      "updates": true,
+      "educational": true
+    },
+    "tags": [
+      "premium"
+    ],
+    "customFields": {}
+  },
+  "919876543212": {
+    "phoneNumber": "919876543212",
+    "optedIn": true,
+    "optInDate": "2025-09-21T05:26:01.981Z",
+    "optInSource": "qr_code",
+    "marketingConsent": true,
+    "lastInteraction": "2025-09-21T05:26:01.981Z",
+    "preferences": {
+      "promotional": true,
+      "updates": true,
+      "educational": true
+    },
+    "tags": [
+      "event_2024"
+    ],
+    "customFields": {}
+  },
+  "919876543213": {
+    "phoneNumber": "919876543213",
+    "optedIn": true,
+    "optInDate": "2025-09-21T05:26:01.981Z",
+    "optInSource": "sms_keyword",
+    "marketingConsent": true,
+    "lastInteraction": "2025-09-21T05:26:01.981Z",
+    "preferences": {
+      "promotional": true,
+      "updates": true,
+      "educational": true
+    },
+    "tags": [
+      "subscriber"
+    ],
+    "customFields": {}
+  },
+  "919022810769": {
+    "phoneNumber": "919022810769",
+    "optedIn": true,
+    "optInDate": "2025-09-21T05:28:40.176Z",
+    "optInSource": "website_form",
+    "marketingConsent": true,
+    "lastInteraction": "2025-09-21T05:28:42.578Z",
+    "preferences": {
+      "promotional": true,
+      "updates": true,
+      "educational": true
+    },
+    "tags": [
+      "premium",
+      "finadvise"
+    ],
+    "customFields": {
+      "name": "Shriya",
+      "advisor_type": "premium"
+    },
+    "campaignHistory": [
+      {
+        "template": "finadvise_daily_v1757531949615",
+        "sentAt": "2025-09-21T05:28:41.515Z",
+        "messageId": "wamid.HBgMOTE5MDIyODEwNzY5FQIAERgSMkYyNDc2Qzc5NUU3QjMzQzdEAA=="
+      },
+      {
+        "template": "finadvise_daily_v1757531949615",
+        "sentAt": "2025-09-21T05:28:42.578Z",
+        "messageId": "wamid.HBgMOTE5MDIyODEwNzY5FQIAERgSNDQ0QTVDMTkwNDhGNkE5MkIzAA=="
+      }
+    ]
+  },
+  "918433915020": {
+    "phoneNumber": "918433915020",
+    "optedIn": true,
+    "optInDate": "2025-09-21T05:28:40.176Z",
+    "optInSource": "qr_code",
+    "marketingConsent": true,
+    "lastInteraction": "2025-09-21T05:28:44.594Z",
+    "preferences": {
+      "promotional": true,
+      "updates": true,
+      "educational": true
+    },
+    "tags": [
+      "finadvise",
+      "subscriber"
+    ],
+    "customFields": {
+      "name": "Avalokiteshwar",
+      "advisor_type": "standard"
+    },
+    "campaignHistory": [
+      {
+        "template": "finadvise_daily_v1757531949615",
+        "sentAt": "2025-09-21T05:28:44.594Z",
+        "messageId": "wamid.HBgMOTE4NDMzOTE1MDIwFQIAERgSNDFDMzhERkQyRDRDMjRGNjY1AA=="
+      }
+    ]
+  },
+  "919112251232": {
+    "phoneNumber": "919112251232",
+    "optedIn": true,
+    "optInDate": "2025-09-21T05:28:40.176Z",
+    "optInSource": "purchase_flow",
+    "marketingConsent": true,
+    "lastInteraction": "2025-09-21T05:28:46.685Z",
+    "preferences": {
+      "promotional": true,
+      "updates": true,
+      "educational": true
+    },
+    "tags": [
+      "finadvise",
+      "vip"
+    ],
+    "customFields": {
+      "name": "Vidyadhar",
+      "advisor_type": "vip"
+    },
+    "campaignHistory": [
+      {
+        "template": "finadvise_daily_v1757531949615",
+        "sentAt": "2025-09-21T05:28:46.685Z",
+        "messageId": "wamid.HBgMOTE5MTEyMjUxMjMyFQIAERgSQzNBN0VBNDEyMERGODAxNjQ0AA=="
+      }
+    ]
+  },
+  "919019844875": {
+    "phoneNumber": "919019844875",
+    "optedIn": true,
+    "optInDate": "2025-09-21T05:28:40.176Z",
+    "optInSource": "sms_keyword",
+    "marketingConsent": true,
+    "lastInteraction": "2025-09-21T05:28:48.808Z",
+    "preferences": {
+      "promotional": true,
+      "updates": true,
+      "educational": true
+    },
+    "tags": [
+      "finadvise",
+      "new"
+    ],
+    "customFields": {
+      "name": "Shruti",
+      "advisor_type": "new"
+    },
+    "campaignHistory": [
+      {
+        "template": "finadvise_daily_v1757531949615",
+        "sentAt": "2025-09-21T05:28:48.808Z",
+        "messageId": "wamid.HBgMOTE5MDE5ODQ0ODc1FQIAERgSNkUzOThCMTIyRjA5NkRDMUI4AA=="
+      }
+    ]
+  }
+}

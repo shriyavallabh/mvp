@@ -1,0 +1,187 @@
+{
+  "sessionId": "session_2025-09-18T15-03-58Z",
+  "timestamp": "2025-09-18T15:42:58.353Z",
+  "eligibleContent": 15,
+  "blockedContent": 4,
+  "reviewNeeded": 0,
+  "distributionPlan": {
+    "immediate": [
+      {
+        "contentId": "ADV_002_LI_001",
+        "channel": "linkedin",
+        "advisorId": "ADV_002",
+        "type": "market_update",
+        "qualityScore": 82
+      },
+      {
+        "contentId": "ADV_002_LI_002",
+        "channel": "linkedin",
+        "advisorId": "ADV_002",
+        "type": "educational_friendly",
+        "qualityScore": 86
+      },
+      {
+        "contentId": "ADV_002_LI_003",
+        "channel": "linkedin",
+        "advisorId": "ADV_002",
+        "type": "trending",
+        "qualityScore": 82
+      },
+      {
+        "contentId": "ADV_003_LI_001",
+        "channel": "linkedin",
+        "advisorId": "ADV_003",
+        "type": "market_basics",
+        "qualityScore": 84
+      },
+      {
+        "contentId": "ADV_003_LI_002",
+        "channel": "linkedin",
+        "advisorId": "ADV_003",
+        "type": "educational_simple",
+        "qualityScore": 85
+      },
+      {
+        "contentId": "ADV_003_LI_003",
+        "channel": "linkedin",
+        "advisorId": "ADV_003",
+        "type": "trending",
+        "qualityScore": 82
+      }
+    ],
+    "scheduled5AM": [
+      {
+        "contentId": "ADV_002",
+        "channel": "whatsapp",
+        "advisorName": "Priya Sharma",
+        "type": "tax_saving",
+        "qualityScore": 85,
+        "needsDisclaimer": true
+      },
+      {
+        "contentId": "ADV_003",
+        "channel": "whatsapp",
+        "advisorName": "Amit Patel",
+        "type": "investment_tip",
+        "qualityScore": 82,
+        "needsDisclaimer": true
+      },
+      {
+        "contentId": "ADV_004",
+        "channel": "whatsapp",
+        "advisorName": "Neha Gupta",
+        "type": "educational",
+        "qualityScore": 79,
+        "needsDisclaimer": true
+      },
+      {
+        "contentId": "ADV_005",
+        "channel": "whatsapp",
+        "advisorName": "Vikram Singh",
+        "type": "motivational",
+        "qualityScore": 83,
+        "needsDisclaimer": true
+      },
+      {
+        "contentId": "ADV_006",
+        "channel": "whatsapp",
+        "advisorName": "Anjali Reddy",
+        "type": "goal_planning",
+        "qualityScore": 84,
+        "needsDisclaimer": true
+      },
+      {
+        "contentId": "ADV_007",
+        "channel": "whatsapp",
+        "advisorName": "Suresh Iyer",
+        "type": "market_update",
+        "qualityScore": 80,
+        "needsDisclaimer": true
+      },
+      {
+        "contentId": "ADV_008",
+        "channel": "whatsapp",
+        "advisorName": "Kavita Joshi",
+        "type": "tax_saving",
+        "qualityScore": 85,
+        "needsDisclaimer": true
+      },
+      {
+        "contentId": "ADV_009",
+        "channel": "whatsapp",
+        "advisorName": "Rohit Verma",
+        "type": "investment_tip",
+        "qualityScore": 82,
+        "needsDisclaimer": true
+      },
+      {
+        "contentId": "ADV_010",
+        "channel": "whatsapp",
+        "advisorName": "Deepa Nair",
+        "type": "educational",
+        "qualityScore": 79,
+        "needsDisclaimer": true
+      }
+    ],
+    "customTime": []
+  },
+  "channelBreakdown": {
+    "linkedin": {
+      "eligible": 6,
+      "blocked": 3,
+      "review": 0
+    },
+    "whatsapp": {
+      "eligible": 9,
+      "blocked": 1,
+      "review": 0
+    },
+    "statusImages": {
+      "eligible": 6,
+      "blocked": 0,
+      "review": 0
+    }
+  },
+  "qualityMetrics": {
+    "averageQualityScore": 82.66666666666667,
+    "freshnessScore": 58.9,
+    "duplicatesFound": 2,
+    "complianceIssues": 0
+  },
+  "deliveryStatus": "READY_FOR_DISTRIBUTION",
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "action": "Fix compliance violations before distribution",
+      "impact": "4 content items blocked",
+      "items": [
+        {
+          "id": "ADV_001_LI_001",
+          "reason": "Contains prohibited term: \"guaranteed returns\""
+        },
+        {
+          "id": "ADV_001_LI_002",
+          "reason": "Contains prohibited term: \"guaranteed returns\""
+        },
+        {
+          "id": "ADV_001_LI_003",
+          "reason": "Contains prohibited term: \"guaranteed returns\""
+        },
+        {
+          "id": "ADV_001",
+          "reason": "Contains prohibited term: \"guaranteed returns\""
+        }
+      ]
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Improve content variety to avoid repetition",
+      "impact": "Freshness score: 58.9%"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Differentiate similar content between advisors",
+      "impact": "2 high-similarity pairs found"
+    }
+  ]
+}

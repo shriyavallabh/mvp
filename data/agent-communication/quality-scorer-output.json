@@ -1,0 +1,119 @@
+{
+  "agent": "quality-scorer",
+  "session_id": "session_2025-09-18T03-38-39-062Z",
+  "timestamp": "2025-09-18T09:46:21.648665",
+  "status": "completed",
+  "summary": {
+    "total_items_evaluated": 83,
+    "average_quality_score": 77.74,
+    "overall_pass_rate": 0.687,
+    "excellence_rate": 0.687,
+    "auto_approval_rate": 0.687,
+    "critical_insights": [
+      "Visual content performs excellently (91.5/100 average)",
+      "LinkedIn posts need significant improvement (54.1/100 average)",
+      "WhatsApp messages require quality enhancement (42.2/100 average)",
+      "26 content items below quality threshold need immediate review"
+    ]
+  },
+  "quality_breakdown": {
+    "by_content_type": {
+      "linkedin": {
+        "count": 12,
+        "average_score": 54.07,
+        "status": "below_threshold",
+        "priority": "high"
+      },
+      "whatsapp": {
+        "count": 14,
+        "average_score": 42.2,
+        "status": "needs_improvement",
+        "priority": "urgent"
+      },
+      "visual": {
+        "count": 57,
+        "average_score": 91.45,
+        "status": "excellent",
+        "priority": "maintain"
+      }
+    },
+    "by_segment": {
+      "HNI_Premium": {
+        "average_score": 54.2,
+        "content_complexity": "appropriate_but_needs_engagement"
+      },
+      "Retail_Gold": {
+        "average_score": 54.25,
+        "accessibility": "good_but_needs_clarity"
+      },
+      "Retail_Standard": {
+        "average_score": 53.76,
+        "simplification": "required_for_target_audience"
+      }
+    }
+  },
+  "dimension_analysis": {
+    "strongest_areas": [
+      "Compliance readiness (100% for most content)",
+      "Visual design quality (88.5-92.0 scores)",
+      "Professional registration display"
+    ],
+    "improvement_needed": [
+      "Engagement potential (hooks, CTAs, emotional triggers)",
+      "Market relevance alignment",
+      "Content readability (Flesch scores too low)",
+      "Segment-specific tone adjustment"
+    ]
+  },
+  "top_performers": [
+    {
+      "type": "visual",
+      "category": "gemini_charts",
+      "score": 92.0,
+      "reason": "AI-enhanced professional design with platform optimization"
+    },
+    {
+      "type": "visual",
+      "category": "status_images",
+      "score": 88.5,
+      "reason": "Professional visual design with brand consistency"
+    }
+  ],
+  "immediate_actions": [
+    "Revise LinkedIn posts to improve readability (currently Very Difficult level)",
+    "Enhance WhatsApp message engagement elements",
+    "Implement content optimization process for 26 failing items",
+    "Establish quality gates before content distribution",
+    "Create segment-specific content guidelines"
+  ],
+  "quality_gates": {
+    "auto_approve_threshold": 80,
+    "manual_review_range": "60-79",
+    "reject_threshold": 60,
+    "current_auto_approve_eligible": "57 items (68.7%)"
+  },
+  "recommendations": {
+    "content_strategy": [
+      "Leverage high-performing visual content as engagement drivers",
+      "Simplify LinkedIn post language for better readability",
+      "Add stronger CTAs and emotional triggers to WhatsApp messages",
+      "Implement A/B testing for content optimization"
+    ],
+    "quality_process": [
+      "Set minimum Flesch readability score of 50",
+      "Require engagement elements in all content",
+      "Mandate segment-appropriate complexity levels",
+      "Establish regular quality auditing schedule"
+    ]
+  },
+  "files_generated": [
+    "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/quality-report.json",
+    "/Users/shriyavallabh/Desktop/mvp/data/shared-memory/quality-scores-memory.json"
+  ],
+  "next_steps": [
+    "Distribution Controller should apply quality gates",
+    "Content generators should implement feedback",
+    "Compliance Validator should review flagged items",
+    "Learning Agent should capture quality patterns"
+  ]
+}

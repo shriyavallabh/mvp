@@ -1,0 +1,405 @@
+{
+  "timestamp": "2025-09-18T00:19:36.089834",
+  "session_id": "session_1758130725",
+  "analysis": {
+    "ADV_001": {
+      "advisor_id": "ADV_001",
+      "timestamp": "2025-09-18T00:19:36.089843",
+      "linkedin": {
+        "total_posts": 3,
+        "topics": [
+          [
+            "fed_rates",
+            "tech_stocks",
+            "banking",
+            "portfolio",
+            "tax",
+            "market_update",
+            "gold"
+          ],
+          [
+            "tech_stocks",
+            "iphone",
+            "portfolio",
+            "estate",
+            "market_update",
+            "gold",
+            "insurance"
+          ],
+          [
+            "fed_rates",
+            "tech_stocks",
+            "banking",
+            "portfolio",
+            "tax",
+            "estate",
+            "market_update",
+            "gold",
+            "insurance"
+          ]
+        ],
+        "hooks": [
+          "statistic",
+          "statement",
+          "statement"
+        ],
+        "ctas": [
+          "schedule",
+          "schedule",
+          "register"
+        ],
+        "similarity_matrix": {
+          "0-1": 0.1954674220963173,
+          "0-2": 0.18435754189944134,
+          "1-2": 0.13527851458885942
+        },
+        "flags": [
+          {
+            "type": "topic_repetition",
+            "details": {
+              "fed_rates": 2,
+              "tech_stocks": 3,
+              "banking": 2,
+              "portfolio": 3,
+              "tax": 2,
+              "market_update": 3,
+              "gold": 3,
+              "iphone": 1,
+              "estate": 2,
+              "insurance": 2
+            },
+            "severity": "medium"
+          }
+        ]
+      },
+      "whatsapp": {
+        "total_messages": 3,
+        "message_lengths": [
+          0,
+          0,
+          0
+        ],
+        "emoji_usage": [
+          0,
+          0,
+          0
+        ],
+        "similarity_scores": [],
+        "flags": [
+          {
+            "type": "uniform_length",
+            "severity": "low",
+            "suggestion": "Vary message lengths for better engagement"
+          }
+        ]
+      },
+      "status_images": {
+        "total_images": 6,
+        "themes": {
+          "001": 6
+        },
+        "color_schemes": [],
+        "text_patterns": [],
+        "flags": [
+          {
+            "type": "theme_concentration",
+            "dominant_theme": "001",
+            "percentage": 100.0,
+            "severity": "medium",
+            "suggestion": "Distribute themes more evenly across status updates"
+          }
+        ]
+      },
+      "freshness_score": 75.0,
+      "suggestions": [
+        "DIVERSIFICATION NEEDED:",
+        "Topic 'tech_stocks' appears 3 times - rotate with other topics like compliance, technology, or market trends",
+        "Vary WhatsApp message lengths - mix short updates with detailed insights",
+        "Theme '001' dominates 100% of images - balance with other themes"
+      ],
+      "approval_status": "APPROVED",
+      "distribution_ready": true
+    },
+    "ADV_002": {
+      "advisor_id": "ADV_002",
+      "timestamp": "2025-09-18T00:19:36.091171",
+      "linkedin": {
+        "total_posts": 5,
+        "topics": [
+          [
+            "fed_rates",
+            "tech_stocks",
+            "banking",
+            "sip",
+            "market_update",
+            "mutual_funds"
+          ],
+          [
+            "tax",
+            "sip",
+            "mutual_funds",
+            "insurance"
+          ],
+          [
+            "tech_stocks",
+            "tax",
+            "sip",
+            "market_update"
+          ],
+          [
+            "fed_rates",
+            "banking",
+            "portfolio",
+            "sip",
+            "market_update",
+            "mutual_funds"
+          ],
+          [
+            "insurance"
+          ]
+        ],
+        "hooks": [
+          "statement",
+          "statement",
+          "emoji_hook",
+          "statistic",
+          "story"
+        ],
+        "ctas": [
+          "contact",
+          "schedule",
+          "generic",
+          "share",
+          "generic"
+        ],
+        "similarity_matrix": {
+          "0-1": 0.17355371900826447,
+          "0-2": 0.20920502092050208,
+          "0-3": 0.2073732718894009,
+          "0-4": 0.15384615384615385,
+          "1-2": 0.1825726141078838,
+          "1-3": 0.19444444444444445,
+          "1-4": 0.19282511210762332,
+          "2-3": 0.18468468468468469,
+          "2-4": 0.19383259911894274,
+          "3-4": 0.1619047619047619
+        },
+        "flags": [
+          {
+            "type": "topic_repetition",
+            "details": {
+              "fed_rates": 2,
+              "tech_stocks": 2,
+              "banking": 2,
+              "sip": 4,
+              "market_update": 3,
+              "mutual_funds": 3,
+              "tax": 2,
+              "insurance": 2,
+              "portfolio": 1
+            },
+            "severity": "medium"
+          }
+        ]
+      },
+      "whatsapp": {
+        "total_messages": 3,
+        "message_lengths": [
+          0,
+          0,
+          0
+        ],
+        "emoji_usage": [
+          0,
+          0,
+          0
+        ],
+        "similarity_scores": [],
+        "flags": [
+          {
+            "type": "uniform_length",
+            "severity": "low",
+            "suggestion": "Vary message lengths for better engagement"
+          }
+        ]
+      },
+      "status_images": {
+        "total_images": 6,
+        "themes": {
+          "002": 6
+        },
+        "color_schemes": [],
+        "text_patterns": [],
+        "flags": [
+          {
+            "type": "theme_concentration",
+            "dominant_theme": "002",
+            "percentage": 100.0,
+            "severity": "medium",
+            "suggestion": "Distribute themes more evenly across status updates"
+          }
+        ]
+      },
+      "freshness_score": 75.0,
+      "suggestions": [
+        "DIVERSIFICATION NEEDED:",
+        "Topic 'sip' appears 4 times - rotate with other topics like compliance, technology, or market trends",
+        "Vary WhatsApp message lengths - mix short updates with detailed insights",
+        "Theme '002' dominates 100% of images - balance with other themes"
+      ],
+      "approval_status": "APPROVED",
+      "distribution_ready": true
+    },
+    "ADV_003": {
+      "advisor_id": "ADV_003",
+      "timestamp": "2025-09-18T00:19:36.092779",
+      "linkedin": {
+        "total_posts": 6,
+        "topics": [
+          [
+            "fed_rates",
+            "sip",
+            "mutual_funds"
+          ],
+          [
+            "tech_stocks",
+            "tax",
+            "mutual_funds"
+          ],
+          [
+            "sip"
+          ],
+          [
+            "tech_stocks",
+            "iphone",
+            "mutual_funds"
+          ],
+          [
+            "portfolio"
+          ],
+          [
+            "banking",
+            "market_update",
+            "mutual_funds"
+          ]
+        ],
+        "hooks": [
+          "statement",
+          "question",
+          "statistic",
+          "statistic",
+          "statement",
+          "statistic"
+        ],
+        "ctas": [
+          "generic",
+          "generic",
+          "generic",
+          "generic",
+          "generic",
+          "generic"
+        ],
+        "similarity_matrix": {
+          "0-1": 0.13934426229508196,
+          "0-2": 0.09917355371900827,
+          "0-3": 0.2018348623853211,
+          "0-4": 0.1271186440677966,
+          "0-5": 0.19626168224299065,
+          "1-2": 0.18446601941747573,
+          "1-3": 0.12149532710280374,
+          "1-4": 0.1619047619047619,
+          "1-5": 0.14705882352941177,
+          "2-3": 0.11764705882352941,
+          "2-4": 0.10476190476190476,
+          "2-5": 0.11,
+          "3-4": 0.14,
+          "3-5": 0.2111111111111111,
+          "4-5": 0.1326530612244898
+        },
+        "flags": [
+          {
+            "type": "topic_repetition",
+            "details": {
+              "fed_rates": 1,
+              "sip": 2,
+              "mutual_funds": 4,
+              "tech_stocks": 2,
+              "tax": 1,
+              "iphone": 1,
+              "portfolio": 1,
+              "banking": 1,
+              "market_update": 1
+            },
+            "severity": "medium"
+          },
+          {
+            "type": "hook_repetition",
+            "details": {
+              "statement": 2,
+              "question": 1,
+              "statistic": 3
+            },
+            "severity": "low"
+          }
+        ]
+      },
+      "whatsapp": {
+        "total_messages": 3,
+        "message_lengths": [
+          0,
+          0,
+          0
+        ],
+        "emoji_usage": [
+          0,
+          0,
+          0
+        ],
+        "similarity_scores": [],
+        "flags": [
+          {
+            "type": "uniform_length",
+            "severity": "low",
+            "suggestion": "Vary message lengths for better engagement"
+          }
+        ]
+      },
+      "status_images": {
+        "total_images": 6,
+        "themes": {
+          "003": 6
+        },
+        "color_schemes": [],
+        "text_patterns": [],
+        "flags": [
+          {
+            "type": "theme_concentration",
+            "dominant_theme": "003",
+            "percentage": 100.0,
+            "severity": "medium",
+            "suggestion": "Distribute themes more evenly across status updates"
+          }
+        ]
+      },
+      "freshness_score": 70.0,
+      "suggestions": [
+        "DIVERSIFICATION NEEDED:",
+        "Topic 'mutual_funds' appears 4 times - rotate with other topics like compliance, technology, or market trends",
+        "Vary opening styles - try mixing questions, statistics, quotes, and stories",
+        "Vary WhatsApp message lengths - mix short updates with detailed insights",
+        "Theme '003' dominates 100% of images - balance with other themes"
+      ],
+      "approval_status": "APPROVED",
+      "distribution_ready": true
+    }
+  },
+  "flags": [],
+  "suggestions": [],
+  "metrics": {
+    "average_freshness": 73.33333333333333,
+    "min_freshness": 70.0,
+    "max_freshness": 75.0,
+    "advisors_requiring_review": 0,
+    "advisors_approved": 3
+  }
+}

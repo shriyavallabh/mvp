@@ -1,0 +1,1821 @@
+{
+  "sessionId": "session_1759383378",
+  "timestamp": "2025-10-02T06:45:30.469Z",
+  "agentName": "brand-customizer",
+  "phase": "Phase 4 - Enhancement",
+  "agentNumber": 8,
+  "executiveSummary": {
+    "totalAdvisors": 4,
+    "totalContentProcessed": 24,
+    "linkedinPosts": 8,
+    "whatsappMessages": 8,
+    "statusImages": 8,
+    "brandElementsApplied": 88,
+    "complianceScore": 100,
+    "processingTime": 0
+  },
+  "advisorBranding": [
+    {
+      "advisorId": "ADV001",
+      "advisorName": "Shruti Petkar",
+      "segment": "Premium",
+      "branding": {
+        "brandName": "Shruti Petkar",
+        "logo": "/assets/logos/shruti-petkar.png",
+        "primaryColor": "#1B365D",
+        "secondaryColor": "#0077B5",
+        "tagline": "Building Wealth, Creating Trust",
+        "arn": "ARN-125847"
+      },
+      "contentCount": {
+        "linkedin": 2,
+        "whatsapp": 2,
+        "statusImages": 2
+      },
+      "complianceStatus": "COMPLIANT"
+    },
+    {
+      "advisorId": "ADV002",
+      "advisorName": "Vidyadhar Petkar",
+      "segment": "Gold",
+      "branding": {
+        "brandName": "Vidyadhar Petkar",
+        "logo": "/assets/logos/vidyadhar-petkar.png",
+        "primaryColor": "#2E8B57",
+        "secondaryColor": "#228B22",
+        "tagline": "Your Financial Growth Partner",
+        "arn": "ARN-138924"
+      },
+      "contentCount": {
+        "linkedin": 2,
+        "whatsapp": 2,
+        "statusImages": 2
+      },
+      "complianceStatus": "COMPLIANT"
+    },
+    {
+      "advisorId": "ADV003",
+      "advisorName": "Shriya Vallabh Petkar",
+      "segment": "Premium",
+      "branding": {
+        "brandName": "Shriya Vallabh Petkar",
+        "logo": "/assets/logos/shriya-vallabh.png",
+        "primaryColor": "#8B4513",
+        "secondaryColor": "#CD853F",
+        "tagline": "Empowering Financial Decisions",
+        "arn": "ARN-147852"
+      },
+      "contentCount": {
+        "linkedin": 2,
+        "whatsapp": 2,
+        "statusImages": 2
+      },
+      "complianceStatus": "COMPLIANT"
+    },
+    {
+      "advisorId": "ADV004",
+      "advisorName": "Avalok Langer",
+      "segment": "Silver",
+      "branding": {
+        "brandName": "Avalok Langer",
+        "logo": "/assets/logos/avalok-langer.png",
+        "primaryColor": "#1A73E8",
+        "secondaryColor": "#34A853",
+        "tagline": "Smart Investments, Secure Future",
+        "arn": "ARN-169741"
+      },
+      "contentCount": {
+        "linkedin": 2,
+        "whatsapp": 2,
+        "statusImages": 2
+      },
+      "complianceStatus": "COMPLIANT"
+    }
+  ],
+  "brandingDetails": {
+    "linkedin": [
+      {
+        "advisorId": "ADV001",
+        "advisorName": "Shruti Petkar",
+        "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/linkedin/text/ADV001_post_1.txt",
+        "contentType": "LinkedIn Post",
+        "originalContent": "Most advisors tell you about ₹1.5L under 80C. Top advisors add ₹50K more through NPS!\n\nI had a client earning ₹2 crore annually.\nSmart. Successful. Savvy investor.\n\nBut paying ₹62 lakh in taxes.\n\nUntil we discovered the family tax optimization strategy:\n\nSelf: ₹2 lakh deduction (80C + 80CCD)\nSpouse: ₹2 lakh deduction\nParents: ₹1 lakh (80D senior citizen)\n\nTotal family deduction: ₹5 LAKH\nTax saved at 31% slab: ₹1,55,000 annually\n\nOver 10 years? ₹15.5 LAKH saved.\nPlus investment growth: ₹35+ lakh additional wealth.\n\nThat's ₹50 LAKH difference.\n\nSame income. Same family.\nDifferent strategy. Generational impact.\n\nThe elite secret:\n→ Individual planning saves thousands\n→ Family planning saves lakhs\n→ Generational planning creates crores\n\nMarch 31 deadline: 6 months away.\n\nAre you optimizing alone?\nOr planning as a family?\n\nP.S. Most advisors plan individual.\nTop advisors plan families.\nExceptional advisors plan generations.\n\nShruti Petkar | Building Wealth, Creating Trust\nARN: ARN-125847\n\n#WealthPlanning #TaxOptimization #FamilyWealth #FinancialPlanning #HNIInvesting\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.8/10\nFormula: custom_segment_tailored\nCharacter Count: 1078\nViral Elements: {\n  \"hook\": \"Most advisors tell you about ₹1.5L under 80C. Top advisors add ₹50K more through NPS!\",\n  \"story\": \"80C = ₹1.5L deduction. 80CCD(1B) = Extra ₹50K through NPS. Total = ₹2L tax savings. This is why you need a great advisor!\",\n  \"emotion\": \"Insider Knowledge, Authority\",\n  \"data\": \"₹2L total deduction, NPS 60% tax-free\",\n  \"cta\": \"Know all tax-saving options\"\n}\nHooks: Most advisors tell you about ₹1.5L under 80C. Top advisors add ₹50K more through NPS!\nEmotions: Insider Knowledge, Authority\nCTA: Position as 'What most wealth managers miss' - appeals to desire for superior advisory\n",
+        "brandedContent": "Most advisors tell you about ₹1.5L under 80C. Top advisors add ₹50K more through NPS!\n\nI had a client earning ₹2 crore annually.\nSmart. Successful. Savvy investor.\n\nBut paying ₹62 lakh in taxes.\n\nUntil we discovered the family tax optimization strategy:\n\nSelf: ₹2 lakh deduction (80C + 80CCD)\nSpouse: ₹2 lakh deduction\nParents: ₹1 lakh (80D senior citizen)\n\nTotal family deduction: ₹5 LAKH\nTax saved at 31% slab: ₹1,55,000 annually\n\nOver 10 years? ₹15.5 LAKH saved.\nPlus investment growth: ₹35+ lakh additional wealth.\n\nThat's ₹50 LAKH difference.\n\nSame income. Same family.\nDifferent strategy. Generational impact.\n\nThe elite secret:\n→ Individual planning saves thousands\n→ Family planning saves lakhs\n→ Generational planning creates crores\n\nMarch 31 deadline: 6 months away.\n\nAre you optimizing alone?\nOr planning as a family?\n\nP.S. Most advisors plan individual.\nTop advisors plan families.\nExceptional advisors plan generations.\n\nShruti Petkar | Building Wealth, Creating Trust\nARN: ARN-125847\n\n#WealthPlanning #TaxOptimization #FamilyWealth #FinancialPlanning #HNIInvesting\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.8/10\nFormula: custom_segment_tailored\nCharacter Count: 1078\nViral Elements: {\n  \"hook\": \"Most advisors tell you about ₹1.5L under 80C. Top advisors add ₹50K more through NPS!\",\n  \"story\": \"80C = ₹1.5L deduction. 80CCD(1B) = Extra ₹50K through NPS. Total = ₹2L tax savings. This is why you need a great advisor!\",\n  \"emotion\": \"Insider Knowledge, Authority\",\n  \"data\": \"₹2L total deduction, NPS 60% tax-free\",\n  \"cta\": \"Know all tax-saving options\"\n}\nHooks: Most advisors tell you about ₹1.5L under 80C. Top advisors add ₹50K more through NPS!\nEmotions: Insider Knowledge, Authority\nCTA: Position as 'What most wealth managers miss' - appeals to desire for superior advisory\n",
+        "brandingApplied": {
+          "firmName": true,
+          "arn": true,
+          "tagline": true,
+          "disclaimer": true,
+          "primaryColor": "#1B365D",
+          "secondaryColor": "#0077B5"
+        },
+        "compliance": {
+          "arnPresent": true,
+          "taglinePresent": true,
+          "disclaimerPresent": true,
+          "brandNamePresent": true
+        },
+        "viralityPreserved": true,
+        "timestamp": "2025-10-02T06:45:30.466Z"
+      },
+      {
+        "advisorId": "ADV001",
+        "advisorName": "Shruti Petkar",
+        "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/linkedin/text/ADV001_post_2.txt",
+        "contentType": "LinkedIn Post",
+        "originalContent": "I watched my client lose ₹3 lakhs in taxes last year.\n\nNot because they didn't earn enough.\nNot because they didn't invest.\n\nBecause they didn't know about the extra ₹50,000 deduction.\n\nEveryone talks about 80C (₹1.5 lakh).\nNobody mentions 80CCD(1B) (₹50,000 extra through NPS).\n\nTotal possible: ₹2 LAKH tax deduction.\nWhat most people use: ₹1.5 lakh.\nThe gap: ₹50,000 x 31% tax = ₹15,500 lost EVERY year.\n\nOver 10 years?\nThat's ₹1.55 lakhs gone. Plus growth you never got.\n\nThe brutal truth?\n\nYour CA might not tell you this.\nYour bank RM definitely won't.\nEven some advisors miss it.\n\nBut here's what winners do:\n\n1. Max out 80C → ₹1.5L (ELSS/PPF/NPS Tier-I)\n2. Add 80CCD(1B) → Extra ₹50K (NPS only)\n3. Use 80D → Health insurance deductions\n4. Calculate old vs new tax regime\n\nTotal possible tax savings: ₹46,800+ per year.\n\nMarch 31 deadline: 6 months away.\n\nAre you maximizing every rupee?\n\nP.S. That client who lost ₹3L? Now saves ₹50K annually.\nStill regrets not knowing earlier.\n\nShruti Petkar | Building Wealth, Creating Trust\nARN: ARN-125847\n\n#TaxPlanning #WealthCreation #FinancialFreedom #MutualFunds #NPS\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.5/10\nFormula: warikoo_personal_loss\nCharacter Count: 1247\nViral Elements: {\n  \"hook\": \"Client loss story - relatable\",\n  \"story\": \"Unknown ₹50K deduction revelation\",\n  \"emotion\": \"Regret + Empowerment\",\n  \"data\": \"₹3L loss, ₹2L deduction, ₹15.5K yearly\",\n  \"cta\": \"Are you maximizing every rupee?\"\n}\nHooks: Personal client story, Shocking loss number, Emotional regret, Clear solution\nEmotions: regret, urgency, hope\nCTA: maximize_tax_savings\n",
+        "brandedContent": "I watched my client lose ₹3 lakhs in taxes last year.\n\nNot because they didn't earn enough.\nNot because they didn't invest.\n\nBecause they didn't know about the extra ₹50,000 deduction.\n\nEveryone talks about 80C (₹1.5 lakh).\nNobody mentions 80CCD(1B) (₹50,000 extra through NPS).\n\nTotal possible: ₹2 LAKH tax deduction.\nWhat most people use: ₹1.5 lakh.\nThe gap: ₹50,000 x 31% tax = ₹15,500 lost EVERY year.\n\nOver 10 years?\nThat's ₹1.55 lakhs gone. Plus growth you never got.\n\nThe brutal truth?\n\nYour CA might not tell you this.\nYour bank RM definitely won't.\nEven some advisors miss it.\n\nBut here's what winners do:\n\n1. Max out 80C → ₹1.5L (ELSS/PPF/NPS Tier-I)\n2. Add 80CCD(1B) → Extra ₹50K (NPS only)\n3. Use 80D → Health insurance deductions\n4. Calculate old vs new tax regime\n\nTotal possible tax savings: ₹46,800+ per year.\n\nMarch 31 deadline: 6 months away.\n\nAre you maximizing every rupee?\n\nP.S. That client who lost ₹3L? Now saves ₹50K annually.\nStill regrets not knowing earlier.\n\nShruti Petkar | Building Wealth, Creating Trust\nARN: ARN-125847\n\n#TaxPlanning #WealthCreation #FinancialFreedom #MutualFunds #NPS\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.5/10\nFormula: warikoo_personal_loss\nCharacter Count: 1247\nViral Elements: {\n  \"hook\": \"Client loss story - relatable\",\n  \"story\": \"Unknown ₹50K deduction revelation\",\n  \"emotion\": \"Regret + Empowerment\",\n  \"data\": \"₹3L loss, ₹2L deduction, ₹15.5K yearly\",\n  \"cta\": \"Are you maximizing every rupee?\"\n}\nHooks: Personal client story, Shocking loss number, Emotional regret, Clear solution\nEmotions: regret, urgency, hope\nCTA: maximize_tax_savings\n",
+        "brandingApplied": {
+          "firmName": true,
+          "arn": true,
+          "tagline": true,
+          "disclaimer": true,
+          "primaryColor": "#1B365D",
+          "secondaryColor": "#0077B5"
+        },
+        "compliance": {
+          "arnPresent": true,
+          "taglinePresent": true,
+          "disclaimerPresent": true,
+          "brandNamePresent": true
+        },
+        "viralityPreserved": true,
+        "timestamp": "2025-10-02T06:45:30.466Z"
+      },
+      {
+        "advisorId": "ADV002",
+        "advisorName": "Vidyadhar Petkar",
+        "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/linkedin/text/ADV002_post_1.txt",
+        "contentType": "LinkedIn Post",
+        "originalContent": "I watched my client lose ₹3 lakhs in taxes last year.\n\nNot because they didn't earn enough.\nNot because they didn't invest.\n\nBecause they didn't know about the extra ₹50,000 deduction.\n\nEveryone talks about 80C (₹1.5 lakh).\nNobody mentions 80CCD(1B) (₹50,000 extra through NPS).\n\nTotal possible: ₹2 LAKH tax deduction.\nWhat most people use: ₹1.5 lakh.\nThe gap: ₹50,000 x 31% tax = ₹15,500 lost EVERY year.\n\nOver 10 years?\nThat's ₹1.55 lakhs gone. Plus growth you never got.\n\nThe brutal truth?\n\nYour CA might not tell you this.\nYour bank RM definitely won't.\nEven some advisors miss it.\n\nBut here's what winners do:\n\n1. Max out 80C → ₹1.5L (ELSS/PPF/NPS Tier-I)\n2. Add 80CCD(1B) → Extra ₹50K (NPS only)\n3. Use 80D → Health insurance deductions\n4. Calculate old vs new tax regime\n\nTotal possible tax savings: ₹46,800+ per year.\n\nMarch 31 deadline: 6 months away.\n\nAre you maximizing every rupee?\n\nP.S. That client who lost ₹3L? Now saves ₹50K annually.\nStill regrets not knowing earlier.\n\nVidyadhar Petkar | Your Financial Growth Partner\nARN: ARN-138924\n\n#TaxPlanning #WealthCreation #FinancialFreedom #MutualFunds #NPS\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.5/10\nFormula: warikoo_personal_loss\nCharacter Count: 1247\nViral Elements: {\n  \"hook\": \"Client loss story - relatable\",\n  \"story\": \"Unknown ₹50K deduction revelation\",\n  \"emotion\": \"Regret + Empowerment\",\n  \"data\": \"₹3L loss, ₹2L deduction, ₹15.5K yearly\",\n  \"cta\": \"Are you maximizing every rupee?\"\n}\nHooks: Personal client story, Shocking loss number, Emotional regret, Clear solution\nEmotions: regret, urgency, hope\nCTA: maximize_tax_savings\n",
+        "brandedContent": "I watched my client lose ₹3 lakhs in taxes last year.\n\nNot because they didn't earn enough.\nNot because they didn't invest.\n\nBecause they didn't know about the extra ₹50,000 deduction.\n\nEveryone talks about 80C (₹1.5 lakh).\nNobody mentions 80CCD(1B) (₹50,000 extra through NPS).\n\nTotal possible: ₹2 LAKH tax deduction.\nWhat most people use: ₹1.5 lakh.\nThe gap: ₹50,000 x 31% tax = ₹15,500 lost EVERY year.\n\nOver 10 years?\nThat's ₹1.55 lakhs gone. Plus growth you never got.\n\nThe brutal truth?\n\nYour CA might not tell you this.\nYour bank RM definitely won't.\nEven some advisors miss it.\n\nBut here's what winners do:\n\n1. Max out 80C → ₹1.5L (ELSS/PPF/NPS Tier-I)\n2. Add 80CCD(1B) → Extra ₹50K (NPS only)\n3. Use 80D → Health insurance deductions\n4. Calculate old vs new tax regime\n\nTotal possible tax savings: ₹46,800+ per year.\n\nMarch 31 deadline: 6 months away.\n\nAre you maximizing every rupee?\n\nP.S. That client who lost ₹3L? Now saves ₹50K annually.\nStill regrets not knowing earlier.\n\nVidyadhar Petkar | Your Financial Growth Partner\nARN: ARN-138924\n\n#TaxPlanning #WealthCreation #FinancialFreedom #MutualFunds #NPS\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.5/10\nFormula: warikoo_personal_loss\nCharacter Count: 1247\nViral Elements: {\n  \"hook\": \"Client loss story - relatable\",\n  \"story\": \"Unknown ₹50K deduction revelation\",\n  \"emotion\": \"Regret + Empowerment\",\n  \"data\": \"₹3L loss, ₹2L deduction, ₹15.5K yearly\",\n  \"cta\": \"Are you maximizing every rupee?\"\n}\nHooks: Personal client story, Shocking loss number, Emotional regret, Clear solution\nEmotions: regret, urgency, hope\nCTA: maximize_tax_savings\n",
+        "brandingApplied": {
+          "firmName": true,
+          "arn": true,
+          "tagline": true,
+          "disclaimer": true,
+          "primaryColor": "#2E8B57",
+          "secondaryColor": "#228B22"
+        },
+        "compliance": {
+          "arnPresent": true,
+          "taglinePresent": true,
+          "disclaimerPresent": true,
+          "brandNamePresent": true
+        },
+        "viralityPreserved": true,
+        "timestamp": "2025-10-02T06:45:30.466Z"
+      },
+      {
+        "advisorId": "ADV002",
+        "advisorName": "Vidyadhar Petkar",
+        "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/linkedin/text/ADV002_post_2.txt",
+        "contentType": "LinkedIn Post",
+        "originalContent": "Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\n\nYou're part of something historic.\n\n₹27,269 crore monthly SIP inflows.\nThat's ₹906 crore EVERY SINGLE DAY.\n\nYour ₹5,000 SIP?\nIt's part of India's biggest wealth revolution.\n\nBut here's what changed in just 5 years:\n\n2020: 40% investors exit within 1 year\n2025: 30% investors stay 5+ years\n\nFrom panic sellers to patient wealth builders.\n\nYour parents' generation: Fixed Deposits\nYour generation: SIP Portfolios\n\nFD returns (2020-2025): ~35% total\nEquity SIP returns (2020-2025): ~85% total\n\nSame 5 years. 2.5X difference.\n\nRBI just upgraded India's GDP to 6.8%.\nSensex crossed 81,000.\nYour SIP is literally betting on India's growth.\n\nThe winning formula:\n\n✅ Start small (₹500 works!)\n✅ Stay consistent (market timing is a myth)\n✅ Think long-term (5+ years minimum)\n✅ Review yearly (ensure fund quality)\n\n₹5,000 monthly for 20 years at 14% = ₹75 lakh\n₹10,000 monthly for 20 years at 14% = ₹1.5 CRORE\n\nYou're not just investing.\nYou're building financial freedom.\n\nWhat's your SIP goal for 2025?\n\nVidyadhar Petkar | Your Financial Growth Partner\nARN: ARN-138924\n\n#SIPRevolution #WealthCreation #FinancialFreedom #MutualFunds #IndiaGrowthStory\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.5/10\nFormula: custom_segment_tailored\nCharacter Count: 1226\nViral Elements: {\n  \"hook\": \"Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\",\n  \"story\": \"From panic sellers to patient investors - 30% SIPs now held for 5+ years. Your parents' generation bought gold, you're building portfolios!\",\n  \"emotion\": \"Pride, FOMO\",\n  \"data\": \"₹27,269 crore peak, 30% long-term holders\",\n  \"cta\": \"Start your ₹1000/month SIP today\"\n}\nHooks: Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\nEmotions: Pride, FOMO\nCTA: Position as 'You're part of India's ₹27,269 crore SIP movement - Here's how to maximize it'\n",
+        "brandedContent": "Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\n\nYou're part of something historic.\n\n₹27,269 crore monthly SIP inflows.\nThat's ₹906 crore EVERY SINGLE DAY.\n\nYour ₹5,000 SIP?\nIt's part of India's biggest wealth revolution.\n\nBut here's what changed in just 5 years:\n\n2020: 40% investors exit within 1 year\n2025: 30% investors stay 5+ years\n\nFrom panic sellers to patient wealth builders.\n\nYour parents' generation: Fixed Deposits\nYour generation: SIP Portfolios\n\nFD returns (2020-2025): ~35% total\nEquity SIP returns (2020-2025): ~85% total\n\nSame 5 years. 2.5X difference.\n\nRBI just upgraded India's GDP to 6.8%.\nSensex crossed 81,000.\nYour SIP is literally betting on India's growth.\n\nThe winning formula:\n\n✅ Start small (₹500 works!)\n✅ Stay consistent (market timing is a myth)\n✅ Think long-term (5+ years minimum)\n✅ Review yearly (ensure fund quality)\n\n₹5,000 monthly for 20 years at 14% = ₹75 lakh\n₹10,000 monthly for 20 years at 14% = ₹1.5 CRORE\n\nYou're not just investing.\nYou're building financial freedom.\n\nWhat's your SIP goal for 2025?\n\nVidyadhar Petkar | Your Financial Growth Partner\nARN: ARN-138924\n\n#SIPRevolution #WealthCreation #FinancialFreedom #MutualFunds #IndiaGrowthStory\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.5/10\nFormula: custom_segment_tailored\nCharacter Count: 1226\nViral Elements: {\n  \"hook\": \"Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\",\n  \"story\": \"From panic sellers to patient investors - 30% SIPs now held for 5+ years. Your parents' generation bought gold, you're building portfolios!\",\n  \"emotion\": \"Pride, FOMO\",\n  \"data\": \"₹27,269 crore peak, 30% long-term holders\",\n  \"cta\": \"Start your ₹1000/month SIP today\"\n}\nHooks: Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\nEmotions: Pride, FOMO\nCTA: Position as 'You're part of India's ₹27,269 crore SIP movement - Here's how to maximize it'\n",
+        "brandingApplied": {
+          "firmName": true,
+          "arn": true,
+          "tagline": true,
+          "disclaimer": true,
+          "primaryColor": "#2E8B57",
+          "secondaryColor": "#228B22"
+        },
+        "compliance": {
+          "arnPresent": true,
+          "taglinePresent": true,
+          "disclaimerPresent": true,
+          "brandNamePresent": true
+        },
+        "viralityPreserved": true,
+        "timestamp": "2025-10-02T06:45:30.466Z"
+      },
+      {
+        "advisorId": "ADV003",
+        "advisorName": "Shriya Vallabh Petkar",
+        "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/linkedin/text/ADV003_post_1.txt",
+        "contentType": "LinkedIn Post",
+        "originalContent": "Most advisors tell you about ₹1.5L under 80C. Top advisors add ₹50K more through NPS!\n\nI had a client earning ₹2 crore annually.\nSmart. Successful. Savvy investor.\n\nBut paying ₹62 lakh in taxes.\n\nUntil we discovered the family tax optimization strategy:\n\nSelf: ₹2 lakh deduction (80C + 80CCD)\nSpouse: ₹2 lakh deduction\nParents: ₹1 lakh (80D senior citizen)\n\nTotal family deduction: ₹5 LAKH\nTax saved at 31% slab: ₹1,55,000 annually\n\nOver 10 years? ₹15.5 LAKH saved.\nPlus investment growth: ₹35+ lakh additional wealth.\n\nThat's ₹50 LAKH difference.\n\nSame income. Same family.\nDifferent strategy. Generational impact.\n\nThe elite secret:\n→ Individual planning saves thousands\n→ Family planning saves lakhs\n→ Generational planning creates crores\n\nMarch 31 deadline: 6 months away.\n\nAre you optimizing alone?\nOr planning as a family?\n\nP.S. Most advisors plan individual.\nTop advisors plan families.\nExceptional advisors plan generations.\n\nShriya Vallabh Petkar | Empowering Financial Decisions\nARN: ARN-147852\n\n#WealthPlanning #TaxOptimization #FamilyWealth #FinancialPlanning #HNIInvesting\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.7/10\nFormula: custom_segment_tailored\nCharacter Count: 1085\nViral Elements: {\n  \"hook\": \"Most advisors tell you about ₹1.5L under 80C. Top advisors add ₹50K more through NPS!\",\n  \"story\": \"80C = ₹1.5L deduction. 80CCD(1B) = Extra ₹50K through NPS. Total = ₹2L tax savings. This is why you need a great advisor!\",\n  \"emotion\": \"Insider Knowledge, Authority\",\n  \"data\": \"₹2L total deduction, NPS 60% tax-free\",\n  \"cta\": \"Know all tax-saving options\"\n}\nHooks: Most advisors tell you about ₹1.5L under 80C. Top advisors add ₹50K more through NPS!\nEmotions: Insider Knowledge, Authority\nCTA: Frame as financial literacy - 'Understanding the complete tax-saving puzzle: 80C, 80CCD, 80D explained'\n",
+        "brandedContent": "Most advisors tell you about ₹1.5L under 80C. Top advisors add ₹50K more through NPS!\n\nI had a client earning ₹2 crore annually.\nSmart. Successful. Savvy investor.\n\nBut paying ₹62 lakh in taxes.\n\nUntil we discovered the family tax optimization strategy:\n\nSelf: ₹2 lakh deduction (80C + 80CCD)\nSpouse: ₹2 lakh deduction\nParents: ₹1 lakh (80D senior citizen)\n\nTotal family deduction: ₹5 LAKH\nTax saved at 31% slab: ₹1,55,000 annually\n\nOver 10 years? ₹15.5 LAKH saved.\nPlus investment growth: ₹35+ lakh additional wealth.\n\nThat's ₹50 LAKH difference.\n\nSame income. Same family.\nDifferent strategy. Generational impact.\n\nThe elite secret:\n→ Individual planning saves thousands\n→ Family planning saves lakhs\n→ Generational planning creates crores\n\nMarch 31 deadline: 6 months away.\n\nAre you optimizing alone?\nOr planning as a family?\n\nP.S. Most advisors plan individual.\nTop advisors plan families.\nExceptional advisors plan generations.\n\nShriya Vallabh Petkar | Empowering Financial Decisions\nARN: ARN-147852\n\n#WealthPlanning #TaxOptimization #FamilyWealth #FinancialPlanning #HNIInvesting\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.7/10\nFormula: custom_segment_tailored\nCharacter Count: 1085\nViral Elements: {\n  \"hook\": \"Most advisors tell you about ₹1.5L under 80C. Top advisors add ₹50K more through NPS!\",\n  \"story\": \"80C = ₹1.5L deduction. 80CCD(1B) = Extra ₹50K through NPS. Total = ₹2L tax savings. This is why you need a great advisor!\",\n  \"emotion\": \"Insider Knowledge, Authority\",\n  \"data\": \"₹2L total deduction, NPS 60% tax-free\",\n  \"cta\": \"Know all tax-saving options\"\n}\nHooks: Most advisors tell you about ₹1.5L under 80C. Top advisors add ₹50K more through NPS!\nEmotions: Insider Knowledge, Authority\nCTA: Frame as financial literacy - 'Understanding the complete tax-saving puzzle: 80C, 80CCD, 80D explained'\n",
+        "brandingApplied": {
+          "firmName": true,
+          "arn": true,
+          "tagline": true,
+          "disclaimer": true,
+          "primaryColor": "#8B4513",
+          "secondaryColor": "#CD853F"
+        },
+        "compliance": {
+          "arnPresent": true,
+          "taglinePresent": true,
+          "disclaimerPresent": true,
+          "brandNamePresent": true
+        },
+        "viralityPreserved": true,
+        "timestamp": "2025-10-02T06:45:30.466Z"
+      },
+      {
+        "advisorId": "ADV003",
+        "advisorName": "Shriya Vallabh Petkar",
+        "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/linkedin/text/ADV003_post_2.txt",
+        "contentType": "LinkedIn Post",
+        "originalContent": "I watched my client lose ₹3 lakhs in taxes last year.\n\nNot because they didn't earn enough.\nNot because they didn't invest.\n\nBecause they didn't know about the extra ₹50,000 deduction.\n\nEveryone talks about 80C (₹1.5 lakh).\nNobody mentions 80CCD(1B) (₹50,000 extra through NPS).\n\nTotal possible: ₹2 LAKH tax deduction.\nWhat most people use: ₹1.5 lakh.\nThe gap: ₹50,000 x 31% tax = ₹15,500 lost EVERY year.\n\nOver 10 years?\nThat's ₹1.55 lakhs gone. Plus growth you never got.\n\nThe brutal truth?\n\nYour CA might not tell you this.\nYour bank RM definitely won't.\nEven some advisors miss it.\n\nBut here's what winners do:\n\n1. Max out 80C → ₹1.5L (ELSS/PPF/NPS Tier-I)\n2. Add 80CCD(1B) → Extra ₹50K (NPS only)\n3. Use 80D → Health insurance deductions\n4. Calculate old vs new tax regime\n\nTotal possible tax savings: ₹46,800+ per year.\n\nMarch 31 deadline: 6 months away.\n\nAre you maximizing every rupee?\n\nP.S. That client who lost ₹3L? Now saves ₹50K annually.\nStill regrets not knowing earlier.\n\nShriya Vallabh Petkar | Empowering Financial Decisions\nARN: ARN-147852\n\n#TaxPlanning #WealthCreation #FinancialFreedom #MutualFunds #NPS\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.5/10\nFormula: warikoo_personal_loss\nCharacter Count: 1247\nViral Elements: {\n  \"hook\": \"Client loss story - relatable\",\n  \"story\": \"Unknown ₹50K deduction revelation\",\n  \"emotion\": \"Regret + Empowerment\",\n  \"data\": \"₹3L loss, ₹2L deduction, ₹15.5K yearly\",\n  \"cta\": \"Are you maximizing every rupee?\"\n}\nHooks: Personal client story, Shocking loss number, Emotional regret, Clear solution\nEmotions: regret, urgency, hope\nCTA: maximize_tax_savings\n",
+        "brandedContent": "I watched my client lose ₹3 lakhs in taxes last year.\n\nNot because they didn't earn enough.\nNot because they didn't invest.\n\nBecause they didn't know about the extra ₹50,000 deduction.\n\nEveryone talks about 80C (₹1.5 lakh).\nNobody mentions 80CCD(1B) (₹50,000 extra through NPS).\n\nTotal possible: ₹2 LAKH tax deduction.\nWhat most people use: ₹1.5 lakh.\nThe gap: ₹50,000 x 31% tax = ₹15,500 lost EVERY year.\n\nOver 10 years?\nThat's ₹1.55 lakhs gone. Plus growth you never got.\n\nThe brutal truth?\n\nYour CA might not tell you this.\nYour bank RM definitely won't.\nEven some advisors miss it.\n\nBut here's what winners do:\n\n1. Max out 80C → ₹1.5L (ELSS/PPF/NPS Tier-I)\n2. Add 80CCD(1B) → Extra ₹50K (NPS only)\n3. Use 80D → Health insurance deductions\n4. Calculate old vs new tax regime\n\nTotal possible tax savings: ₹46,800+ per year.\n\nMarch 31 deadline: 6 months away.\n\nAre you maximizing every rupee?\n\nP.S. That client who lost ₹3L? Now saves ₹50K annually.\nStill regrets not knowing earlier.\n\nShriya Vallabh Petkar | Empowering Financial Decisions\nARN: ARN-147852\n\n#TaxPlanning #WealthCreation #FinancialFreedom #MutualFunds #NPS\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.5/10\nFormula: warikoo_personal_loss\nCharacter Count: 1247\nViral Elements: {\n  \"hook\": \"Client loss story - relatable\",\n  \"story\": \"Unknown ₹50K deduction revelation\",\n  \"emotion\": \"Regret + Empowerment\",\n  \"data\": \"₹3L loss, ₹2L deduction, ₹15.5K yearly\",\n  \"cta\": \"Are you maximizing every rupee?\"\n}\nHooks: Personal client story, Shocking loss number, Emotional regret, Clear solution\nEmotions: regret, urgency, hope\nCTA: maximize_tax_savings\n",
+        "brandingApplied": {
+          "firmName": true,
+          "arn": true,
+          "tagline": true,
+          "disclaimer": true,
+          "primaryColor": "#8B4513",
+          "secondaryColor": "#CD853F"
+        },
+        "compliance": {
+          "arnPresent": true,
+          "taglinePresent": true,
+          "disclaimerPresent": true,
+          "brandNamePresent": true
+        },
+        "viralityPreserved": true,
+        "timestamp": "2025-10-02T06:45:30.466Z"
+      },
+      {
+        "advisorId": "ADV004",
+        "advisorName": "Avalok Langer",
+        "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/linkedin/text/ADV004_post_1.txt",
+        "contentType": "LinkedIn Post",
+        "originalContent": "Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\n\nLet me tell you about Priya.\n\nAge: 26\nSalary: ₹6 lakh per year\nSIP: Started with ₹1,000\n\nEveryone told her:\n\"Save for marriage\"\n\"₹1,000 is too small\"\n\"Start when salary increases\"\n\nShe started anyway. October 2020.\n\n5 years later (October 2025):\nInvested: ₹60,000\nCurrent value: ₹1,05,000\nGain: ₹45,000 (75% returns!)\n\nBut here's the real win:\n\n→ Built investing habit\n→ Learned about markets\n→ Increased to ₹3,000/month by 2023\n→ Now has ₹2.5 lakh portfolio\n\nShe's part of ₹27,269 CRORE monthly SIP movement.\nIndians investing ₹906 crore DAILY.\n\nThe secret?\n\nNot waiting for \"perfect time\"\nNot waiting for \"big salary\"\nNot waiting for \"market bottom\"\n\nJust. Starting. Now.\n\n₹500 monthly for 25 years = ₹1.15 crore\n₹1,000 monthly for 25 years = ₹2.3 crore\n\nYour coffee budget today.\nYour retirement corpus tomorrow.\n\nPriya's advice to beginners?\n\"Best time to start: 5 years ago.\nSecond best time: TODAY.\"\n\nReady to start your ₹500 SIP journey?\n\nAvalok Langer | Smart Investments, Secure Future\nARN: ARN-169741\n\n#StartInvesting #SIPJourney #FinancialFreedom #YoungInvestor #WealthCreation\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.8/10\nFormula: custom_segment_tailored\nCharacter Count: 1173\nViral Elements: {\n  \"hook\": \"Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\",\n  \"story\": \"From panic sellers to patient investors - 30% SIPs now held for 5+ years. Your parents' generation bought gold, you're building portfolios!\",\n  \"emotion\": \"Pride, FOMO\",\n  \"data\": \"₹27,269 crore peak, 30% long-term holders\",\n  \"cta\": \"Start your ₹1000/month SIP today\"\n}\nHooks: Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\nEmotions: Pride, FOMO\nCTA: Simplify to 'Indians investing ₹906 crore DAILY - You can start with just ₹500/month!'\n",
+        "brandedContent": "Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\n\nLet me tell you about Priya.\n\nAge: 26\nSalary: ₹6 lakh per year\nSIP: Started with ₹1,000\n\nEveryone told her:\n\"Save for marriage\"\n\"₹1,000 is too small\"\n\"Start when salary increases\"\n\nShe started anyway. October 2020.\n\n5 years later (October 2025):\nInvested: ₹60,000\nCurrent value: ₹1,05,000\nGain: ₹45,000 (75% returns!)\n\nBut here's the real win:\n\n→ Built investing habit\n→ Learned about markets\n→ Increased to ₹3,000/month by 2023\n→ Now has ₹2.5 lakh portfolio\n\nShe's part of ₹27,269 CRORE monthly SIP movement.\nIndians investing ₹906 crore DAILY.\n\nThe secret?\n\nNot waiting for \"perfect time\"\nNot waiting for \"big salary\"\nNot waiting for \"market bottom\"\n\nJust. Starting. Now.\n\n₹500 monthly for 25 years = ₹1.15 crore\n₹1,000 monthly for 25 years = ₹2.3 crore\n\nYour coffee budget today.\nYour retirement corpus tomorrow.\n\nPriya's advice to beginners?\n\"Best time to start: 5 years ago.\nSecond best time: TODAY.\"\n\nReady to start your ₹500 SIP journey?\n\nAvalok Langer | Smart Investments, Secure Future\nARN: ARN-169741\n\n#StartInvesting #SIPJourney #FinancialFreedom #YoungInvestor #WealthCreation\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.8/10\nFormula: custom_segment_tailored\nCharacter Count: 1173\nViral Elements: {\n  \"hook\": \"Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\",\n  \"story\": \"From panic sellers to patient investors - 30% SIPs now held for 5+ years. Your parents' generation bought gold, you're building portfolios!\",\n  \"emotion\": \"Pride, FOMO\",\n  \"data\": \"₹27,269 crore peak, 30% long-term holders\",\n  \"cta\": \"Start your ₹1000/month SIP today\"\n}\nHooks: Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\nEmotions: Pride, FOMO\nCTA: Simplify to 'Indians investing ₹906 crore DAILY - You can start with just ₹500/month!'\n",
+        "brandingApplied": {
+          "firmName": true,
+          "arn": true,
+          "tagline": true,
+          "disclaimer": true,
+          "primaryColor": "#1A73E8",
+          "secondaryColor": "#34A853"
+        },
+        "compliance": {
+          "arnPresent": true,
+          "taglinePresent": true,
+          "disclaimerPresent": true,
+          "brandNamePresent": true
+        },
+        "viralityPreserved": true,
+        "timestamp": "2025-10-02T06:45:30.467Z"
+      },
+      {
+        "advisorId": "ADV004",
+        "advisorName": "Avalok Langer",
+        "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/linkedin/text/ADV004_post_2.txt",
+        "contentType": "LinkedIn Post",
+        "originalContent": "₹500 per month. That's all Ramesh started with in 2015.\n\nAuto driver. Two kids. Monthly income: ₹18,000.\n\nEveryone said \"Save for emergencies, don't invest.\"\n\nHe did both. Started ₹500 SIP in equity fund.\n\n10 years later:\n• Invested: ₹60,000 total\n• Current value: ₹1,47,000\n• Daughter: Engineering college (partially funded)\n\nBut here's the real story:\n\n→ 2016: Market crash. He continued.\n→ 2020: COVID panic. He increased to ₹1000.\n→ 2023: Market high. He stayed disciplined.\n→ 2025: Portfolio worth 2.45X his investment.\n\nWhile others with ₹10,000 salary waited for \"right time,\"\nRamesh with ₹18,000 salary STARTED.\n\nToday, India's SIP story is ₹27,269 CRORE monthly.\nThat's ₹906 crore invested DAILY by people like Ramesh.\n\nFrom 2020 to 2025:\n• Short-term SIPs (under 1 year): 40% → 21%\n• Long-term SIPs (over 5 years): 5% → 30%\n\nIndians are finally thinking long-term.\n\nYour salary doesn't matter.\nYour discipline does.\n\nThe question isn't \"How much should I invest?\"\nIt's \"When will I start?\"\n\nRamesh started at ₹500.\nWhat's YOUR excuse?\n\nAvalok Langer | Smart Investments, Secure Future\nARN: ARN-169741\n\n#SIPRevolution #WealthCreation #FinancialDiscipline #MutualFunds #InvestmentJourney\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.2/10\nFormula: warikoo_underdog\nCharacter Count: 1289\nViral Elements: {\n  \"hook\": \"₹500 SIP by auto driver\",\n  \"story\": \"10-year journey through crashes\",\n  \"emotion\": \"Inspiration + Remove excuses\",\n  \"data\": \"₹60K → ₹1.47L, SIP ₹27,269 Cr\",\n  \"cta\": \"What's YOUR excuse?\"\n}\nHooks: Underdog hero (auto driver), Small amount (₹500), Massive transformation (₹1.47L), Remove excuses\nEmotions: inspiration, pride, motivation\nCTA: whats_your_excuse\n",
+        "brandedContent": "₹500 per month. That's all Ramesh started with in 2015.\n\nAuto driver. Two kids. Monthly income: ₹18,000.\n\nEveryone said \"Save for emergencies, don't invest.\"\n\nHe did both. Started ₹500 SIP in equity fund.\n\n10 years later:\n• Invested: ₹60,000 total\n• Current value: ₹1,47,000\n• Daughter: Engineering college (partially funded)\n\nBut here's the real story:\n\n→ 2016: Market crash. He continued.\n→ 2020: COVID panic. He increased to ₹1000.\n→ 2023: Market high. He stayed disciplined.\n→ 2025: Portfolio worth 2.45X his investment.\n\nWhile others with ₹10,000 salary waited for \"right time,\"\nRamesh with ₹18,000 salary STARTED.\n\nToday, India's SIP story is ₹27,269 CRORE monthly.\nThat's ₹906 crore invested DAILY by people like Ramesh.\n\nFrom 2020 to 2025:\n• Short-term SIPs (under 1 year): 40% → 21%\n• Long-term SIPs (over 5 years): 5% → 30%\n\nIndians are finally thinking long-term.\n\nYour salary doesn't matter.\nYour discipline does.\n\nThe question isn't \"How much should I invest?\"\nIt's \"When will I start?\"\n\nRamesh started at ₹500.\nWhat's YOUR excuse?\n\nAvalok Langer | Smart Investments, Secure Future\nARN: ARN-169741\n\n#SIPRevolution #WealthCreation #FinancialDiscipline #MutualFunds #InvestmentJourney\n\nMutual fund investments are subject to market risks. Read all scheme related documents carefully.\n\n---\nPOST METADATA\n---\nVirality Score: 9.2/10\nFormula: warikoo_underdog\nCharacter Count: 1289\nViral Elements: {\n  \"hook\": \"₹500 SIP by auto driver\",\n  \"story\": \"10-year journey through crashes\",\n  \"emotion\": \"Inspiration + Remove excuses\",\n  \"data\": \"₹60K → ₹1.47L, SIP ₹27,269 Cr\",\n  \"cta\": \"What's YOUR excuse?\"\n}\nHooks: Underdog hero (auto driver), Small amount (₹500), Massive transformation (₹1.47L), Remove excuses\nEmotions: inspiration, pride, motivation\nCTA: whats_your_excuse\n",
+        "brandingApplied": {
+          "firmName": true,
+          "arn": true,
+          "tagline": true,
+          "disclaimer": true,
+          "primaryColor": "#1A73E8",
+          "secondaryColor": "#34A853"
+        },
+        "compliance": {
+          "arnPresent": true,
+          "taglinePresent": true,
+          "disclaimerPresent": true,
+          "brandNamePresent": true
+        },
+        "viralityPreserved": true,
+        "timestamp": "2025-10-02T06:45:30.467Z"
+      }
+    ],
+    "whatsapp": [
+      {
+        "advisorId": "ADV001",
+        "advisorName": "Shruti Petkar",
+        "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/whatsapp/ADV001_whatsapp_20251002_112107_msg1.txt",
+        "contentType": "WhatsApp Message",
+        "originalContent": "🎯 Shruti, Premium Tax Alert!\n\n₹2 LAKH tax deduction possible (not just ₹1.5L!)\n\n80C: ₹1.5L ✓\n80CCD(1B): ₹50K via NPS ✓\nTotal: ₹2L deduction = ₹62,400 saved*\n\nOnly 6 months to March 31. HNIs act fast.\n\nWhat top wealth managers know, you deserve.\n\n📞 Executive tax planning session?\n\n*30% tax bracket\nShruti Petkar\nARN: ARN-125847",
+        "brandedContent": "🎯 Shruti, Premium Tax Alert!\n\n₹2 LAKH tax deduction possible (not just ₹1.5L!)\n\n80C: ₹1.5L ✓\n80CCD(1B): ₹50K via NPS ✓\nTotal: ₹2L deduction = ₹62,400 saved*\n\nOnly 6 months to March 31. HNIs act fast.\n\nWhat top wealth managers know, you deserve.\n\n📞 Executive tax planning session?\n\n*30% tax bracket\nShruti Petkar\nARN: ARN-125847",
+        "brandingApplied": {
+          "firmName": true,
+          "arn": true,
+          "primaryColor": "#1B365D",
+          "secondaryColor": "#0077B5"
+        },
+        "compliance": {
+          "arnPresent": true,
+          "brandNamePresent": true,
+          "characterCount": 329,
+          "withinLimit": true
+        },
+        "viralityPreserved": true,
+        "timestamp": "2025-10-02T06:45:30.467Z"
+      },
+      {
+        "advisorId": "ADV001",
+        "advisorName": "Shruti Petkar",
+        "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/whatsapp/ADV001_whatsapp_20251002_112107_msg2.txt",
+        "contentType": "WhatsApp Message",
+        "originalContent": "⏰ October Alert: 6 Months Left!\n\nSave ₹62,400 in taxes before March 31!\n\n= One luxury watch OR smart wealth move?\n\nELSS: Tax saving + Equity returns\n3-year lock-in (shortest!)\n\nMarket corrected = Good entry point 📊\n\nSmart people act in October.\nStressed people rush in March.\n\nBe smart. Start NOW! ✅\n\nShruti Petkar\nARN: ARN-125847",
+        "brandedContent": "⏰ October Alert: 6 Months Left!\n\nSave ₹62,400 in taxes before March 31!\n\n= One luxury watch OR smart wealth move?\n\nELSS: Tax saving + Equity returns\n3-year lock-in (shortest!)\n\nMarket corrected = Good entry point 📊\n\nSmart people act in October.\nStressed people rush in March.\n\nBe smart. Start NOW! ✅\n\nShruti Petkar\nARN: ARN-125847",
+        "brandingApplied": {
+          "firmName": true,
+          "arn": true,
+          "primaryColor": "#1B365D",
+          "secondaryColor": "#0077B5"
+        },
+        "compliance": {
+          "arnPresent": true,
+          "brandNamePresent": true,
+          "characterCount": 331,
+          "withinLimit": true
+        },
+        "viralityPreserved": true,
+        "timestamp": "2025-10-02T06:45:30.467Z"
+      },
+      {
+        "advisorId": "ADV002",
+        "advisorName": "Vidyadhar Petkar",
+        "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/whatsapp/ADV002_whatsapp_20251002_112107_msg1.txt",
+        "contentType": "WhatsApp Message",
+        "originalContent": "💪 Vidyadhar, You're Part of History!\n\nSIP Revolution: ₹27,269 Crore monthly\nThat's ₹906 Cr DAILY! 🚀\n\n30% investors now hold SIPs 5+ years\n(Up from 5% in 2020)\n\nFrom panic sellers → Patient wealth builders\n\nYour ₹5K SIP? You're in India's top investor league.\n\nKeep the discipline. Results coming! 📈\n\nVidyadhar Petkar\nARN: ARN-138924",
+        "brandedContent": "💪 Vidyadhar, You're Part of History!\n\nSIP Revolution: ₹27,269 Crore monthly\nThat's ₹906 Cr DAILY! 🚀\n\n30% investors now hold SIPs 5+ years\n(Up from 5% in 2020)\n\nFrom panic sellers → Patient wealth builders\n\nYour ₹5K SIP? You're in India's top investor league.\n\nKeep the discipline. Results coming! 📈\n\nVidyadhar Petkar\nARN: ARN-138924",
+        "brandingApplied": {
+          "firmName": true,
+          "arn": true,
+          "primaryColor": "#2E8B57",
+          "secondaryColor": "#228B22"
+        },
+        "compliance": {
+          "arnPresent": true,
+          "brandNamePresent": true,
+          "characterCount": 335,
+          "withinLimit": true
+        },
+        "viralityPreserved": true,
+        "timestamp": "2025-10-02T06:45:30.468Z"
+      },
+      {
+        "advisorId": "ADV002",
+        "advisorName": "Vidyadhar Petkar",
+        "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/whatsapp/ADV002_whatsapp_20251002_112107_msg2.txt",
+        "contentType": "WhatsApp Message",
+        "originalContent": "⏰ October Alert: 6 Months Left!\n\nSave ₹46,800 in taxes before March 31!\n\n= 3 months groceries OR smart ELSS?\n\nELSS: Tax saving + Equity returns\n3-year lock-in (shortest!)\n\nMarket corrected = Good entry point 📊\n\nSmart people act in October.\nStressed people rush in March.\n\nBe smart. Start NOW! ✅\n\nVidyadhar Petkar\nARN: ARN-138924",
+        "brandedContent": "⏰ October Alert: 6 Months Left!\n\nSave ₹46,800 in taxes before March 31!\n\n= 3 months groceries OR smart ELSS?\n\nELSS: Tax saving + Equity returns\n3-year lock-in (shortest!)\n\nMarket corrected = Good entry point 📊\n\nSmart people act in October.\nStressed people rush in March.\n\nBe smart. Start NOW! ✅\n\nVidyadhar Petkar\nARN: ARN-138924",
+        "brandingApplied": {
+          "firmName": true,
+          "arn": true,
+          "primaryColor": "#2E8B57",
+          "secondaryColor": "#228B22"
+        },
+        "compliance": {
+          "arnPresent": true,
+          "brandNamePresent": true,
+          "characterCount": 329,
+          "withinLimit": true
+        },
+        "viralityPreserved": true,
+        "timestamp": "2025-10-02T06:45:30.468Z"
+      },
+      {
+        "advisorId": "ADV003",
+        "advisorName": "Shriya Vallabh Petkar",
+        "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/whatsapp/ADV003_whatsapp_20251002_112107_msg1.txt",
+        "contentType": "WhatsApp Message",
+        "originalContent": "📚 Shriya, Tax Mastery 101\n\nMost advisors: \"Invest ₹1.5L under 80C\"\nSmart advisors: \"Here's ₹2L deduction\"\n\nHow?\n• 80C: ₹1.5L (ELSS/PPF/NPS Tier-I)\n• 80CCD(1B): ₹50K (NPS Tier-I extra)\n• 80D: ₹25K (Health insurance)\n\nTotal deductions: ₹2.75L possible!\nTax saved at 30%: ₹82,500 💰\n\nKnowledge = Wealth. Always.\n\nShriya Vallabh Petkar\nARN: ARN-147852",
+        "brandedContent": "📚 Shriya, Tax Mastery 101\n\nMost advisors: \"Invest ₹1.5L under 80C\"\nSmart advisors: \"Here's ₹2L deduction\"\n\nHow?\n• 80C: ₹1.5L (ELSS/PPF/NPS Tier-I)\n• 80CCD(1B): ₹50K (NPS Tier-I extra)\n• 80D: ₹25K (Health insurance)\n\nTotal deductions: ₹2.75L possible!\nTax saved at 30%: ₹82,500 💰\n\nKnowledge = Wealth. Always.\n\nShriya Vallabh Petkar\nARN: ARN-147852",
+        "brandingApplied": {
+          "firmName": true,
+          "arn": true,
+          "primaryColor": "#8B4513",
+          "secondaryColor": "#CD853F"
+        },
+        "compliance": {
+          "arnPresent": true,
+          "brandNamePresent": true,
+          "characterCount": 348,
+          "withinLimit": true
+        },
+        "viralityPreserved": true,
+        "timestamp": "2025-10-02T06:45:30.468Z"
+      },
+      {
+        "advisorId": "ADV003",
+        "advisorName": "Shriya Vallabh Petkar",
+        "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/whatsapp/ADV003_whatsapp_20251002_112107_msg2.txt",
+        "contentType": "WhatsApp Message",
+        "originalContent": "⏰ October Alert: 6 Months Left!\n\nSave ₹62,400 in taxes before March 31!\n\n= One luxury watch OR smart wealth move?\n\nELSS: Tax saving + Equity returns\n3-year lock-in (shortest!)\n\nMarket corrected = Good entry point 📊\n\nSmart people act in October.\nStressed people rush in March.\n\nBe smart. Start NOW! ✅\n\nShriya Vallabh Petkar\nARN: ARN-147852",
+        "brandedContent": "⏰ October Alert: 6 Months Left!\n\nSave ₹62,400 in taxes before March 31!\n\n= One luxury watch OR smart wealth move?\n\nELSS: Tax saving + Equity returns\n3-year lock-in (shortest!)\n\nMarket corrected = Good entry point 📊\n\nSmart people act in October.\nStressed people rush in March.\n\nBe smart. Start NOW! ✅\n\nShriya Vallabh Petkar\nARN: ARN-147852",
+        "brandingApplied": {
+          "firmName": true,
+          "arn": true,
+          "primaryColor": "#8B4513",
+          "secondaryColor": "#CD853F"
+        },
+        "compliance": {
+          "arnPresent": true,
+          "brandNamePresent": true,
+          "characterCount": 339,
+          "withinLimit": true
+        },
+        "viralityPreserved": true,
+        "timestamp": "2025-10-02T06:45:30.468Z"
+      },
+      {
+        "advisorId": "ADV004",
+        "advisorName": "Avalok Langer",
+        "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/whatsapp/ADV004_whatsapp_20251002_112107_msg1.txt",
+        "contentType": "WhatsApp Message",
+        "originalContent": "🌟 Avalok, Inspiring News!\n\nIndians investing ₹906 CRORE daily via SIPs! 🇮🇳\n\nYou can start with just ₹500/month! 💯\n\nReal story: ₹1,000/month for 15 years\n= ₹6.7 Lakhs at 12% returns!\n\nSmall start. Big dreams. Smart future.\n\n97% wait. 3% act. Which are you?\n\nStart your ₹500 SIP today! 🚀\n\nAvalok Langer\nARN: ARN-169741",
+        "brandedContent": "🌟 Avalok, Inspiring News!\n\nIndians investing ₹906 CRORE daily via SIPs! 🇮🇳\n\nYou can start with just ₹500/month! 💯\n\nReal story: ₹1,000/month for 15 years\n= ₹6.7 Lakhs at 12% returns!\n\nSmall start. Big dreams. Smart future.\n\n97% wait. 3% act. Which are you?\n\nStart your ₹500 SIP today! 🚀\n\nAvalok Langer\nARN: ARN-169741",
+        "brandingApplied": {
+          "firmName": true,
+          "arn": true,
+          "primaryColor": "#1A73E8",
+          "secondaryColor": "#34A853"
+        },
+        "compliance": {
+          "arnPresent": true,
+          "brandNamePresent": true,
+          "characterCount": 321,
+          "withinLimit": true
+        },
+        "viralityPreserved": true,
+        "timestamp": "2025-10-02T06:45:30.468Z"
+      },
+      {
+        "advisorId": "ADV004",
+        "advisorName": "Avalok Langer",
+        "originalFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/whatsapp/ADV004_whatsapp_20251002_112107_msg2.txt",
+        "contentType": "WhatsApp Message",
+        "originalContent": "⏰ October Alert: 6 Months Left!\n\nSave ₹15,600 in taxes before March 31!\n\n= New iPhone case OR first investment?\n\nELSS: Tax saving + Equity returns\n3-year lock-in (shortest!)\n\nMarket corrected = Good entry point 📊\n\nSmart people act in October.\nStressed people rush in March.\n\nBe smart. Start NOW! ✅\n\nAvalok Langer\nARN: ARN-169741",
+        "brandedContent": "⏰ October Alert: 6 Months Left!\n\nSave ₹15,600 in taxes before March 31!\n\n= New iPhone case OR first investment?\n\nELSS: Tax saving + Equity returns\n3-year lock-in (shortest!)\n\nMarket corrected = Good entry point 📊\n\nSmart people act in October.\nStressed people rush in March.\n\nBe smart. Start NOW! ✅\n\nAvalok Langer\nARN: ARN-169741",
+        "brandingApplied": {
+          "firmName": true,
+          "arn": true,
+          "primaryColor": "#1A73E8",
+          "secondaryColor": "#34A853"
+        },
+        "compliance": {
+          "arnPresent": true,
+          "brandNamePresent": true,
+          "characterCount": 329,
+          "withinLimit": true
+        },
+        "viralityPreserved": true,
+        "timestamp": "2025-10-02T06:45:30.468Z"
+      }
+    ],
+    "statusImages": [
+      {
+        "designId": "STATUS_ADV001_001",
+        "advisorId": "ADV001",
+        "advisorName": "Shruti Petkar",
+        "contentType": "WhatsApp Status Image",
+        "brandingApplied": {
+          "logo": true,
+          "primaryColor": true,
+          "secondaryColor": true,
+          "tagline": true,
+          "arn": true
+        },
+        "compliance": {
+          "logoPresent": true,
+          "colorsMatched": true,
+          "taglinePresent": true,
+          "arnPresent": true,
+          "dimensions": true
+        },
+        "designSpecification": {
+          "designId": "STATUS_ADV001_001",
+          "advisorId": "ADV001",
+          "advisorName": "Shruti Petkar",
+          "advisorSegment": "Premium",
+          "contentType": "tax_alert_infographic",
+          "viralHook": "VH005 - The ₹2 Lakh Tax Secret",
+          "dimensions": {
+            "width": 1080,
+            "height": 1920,
+            "aspectRatio": "9:16",
+            "format": "PNG"
+          },
+          "brandingElements": {
+            "logo": {
+              "url": "/assets/logos/shruti-petkar.png",
+              "position": "bottom-right",
+              "size": "150x150px",
+              "opacity": 0.9
+            },
+            "colors": {
+              "primary": "#1B365D",
+              "secondary": "#0077B5",
+              "background": "#F5F7FA",
+              "accent": "#FFD700"
+            },
+            "tagline": {
+              "text": "Building Wealth, Creating Trust",
+              "position": "bottom-center",
+              "fontSize": "32px",
+              "color": "#1B365D"
+            },
+            "arn": {
+              "text": "ARN-125847",
+              "position": "bottom-left",
+              "fontSize": "24px",
+              "color": "#666666"
+            }
+          },
+          "contentLayout": {
+            "headline": {
+              "text": "The ₹2 Lakh Tax Secret",
+              "position": "top-20%",
+              "fontSize": "96px",
+              "fontWeight": "bold",
+              "color": "#1B365D",
+              "alignment": "center",
+              "lineHeight": "110px"
+            },
+            "subheadline": {
+              "text": "Most Advisors Tell You About ₹1.5L",
+              "position": "top-30%",
+              "fontSize": "56px",
+              "fontWeight": "semibold",
+              "color": "#0077B5",
+              "alignment": "center"
+            },
+            "mainVisual": {
+              "type": "infographic_comparison",
+              "position": "center-40-60%",
+              "elements": [
+                {
+                  "type": "comparison_box",
+                  "leftSide": {
+                    "label": "Regular Advisor",
+                    "amount": "₹1.5L",
+                    "description": "80C Only",
+                    "color": "#CCCCCC"
+                  },
+                  "rightSide": {
+                    "label": "Premium Advisor",
+                    "amount": "₹2L",
+                    "description": "80C + 80CCD(1B)",
+                    "color": "#FFD700",
+                    "highlight": true
+                  }
+                },
+                {
+                  "type": "benefit_highlight",
+                  "text": "Extra ₹50,000 via NPS",
+                  "fontSize": "64px",
+                  "color": "#1B365D",
+                  "icon": "arrow_up"
+                }
+              ]
+            },
+            "cta": {
+              "text": "Get Complete Tax Strategy",
+              "position": "bottom-30%",
+              "fontSize": "64px",
+              "fontWeight": "bold",
+              "backgroundColor": "#1B365D",
+              "textColor": "#FFFFFF",
+              "padding": "20px 40px",
+              "borderRadius": "12px"
+            },
+            "urgency": {
+              "text": "Only 6 Months to March 31!",
+              "position": "bottom-20%",
+              "fontSize": "48px",
+              "color": "#FF4444",
+              "fontWeight": "bold"
+            }
+          },
+          "visualStyle": {
+            "theme": "sophisticated_executive",
+            "colorScheme": "professional_blue_gold",
+            "typography": "clean_modern_sans",
+            "mood": "authoritative_exclusive",
+            "padding": "80px all sides",
+            "shadowEffects": true,
+            "gradientBackground": true
+          },
+          "geminiPrompt": "Create a sophisticated WhatsApp Status image (1080x1920px) for premium financial advisor:\n\nHeadline (96px bold, #1B365D): 'The ₹2 Lakh Tax Secret'\nSubheadline (56px, #0077B5): 'Most Advisors Tell You About ₹1.5L'\n\nMain Visual: Side-by-side comparison infographic\n- Left box (gray): 'Regular Advisor - ₹1.5L - 80C Only'\n- Right box (gold highlight): 'Premium Advisor - ₹2L - 80C + 80CCD(1B)'\n- Below: 'Extra ₹50,000 via NPS' in large 64px text with upward arrow\n\nCTA Button (64px white on navy #1B365D): 'Get Complete Tax Strategy'\nUrgency Banner (48px red): 'Only 6 Months to March 31!'\n\nBranding:\n- Logo: Bottom-right (150x150px)\n- Tagline: 'Building Wealth, Creating Trust' - Bottom-center (32px)\n- ARN: 'ARN-125847' - Bottom-left (24px)\n\nStyle: Executive, sophisticated, high-end financial advisory\nColors: Navy blue (#1B365D), Professional blue (#0077B5), Gold (#FFD700)\nBackground: Soft gradient (#F5F7FA to white)\n80px padding all sides, clean modern typography",
+          "viralityElements": {
+            "hook": "Insider knowledge angle - 'What most advisors miss'",
+            "emotion": "Exclusivity, Authority, Smart money",
+            "data": "Specific numbers (₹1.5L vs ₹2L)",
+            "urgency": "6-month deadline",
+            "shareability": "High - Premium clients share exclusive tips",
+            "viralityScore": 9.3
+          },
+          "mobileOptimization": {
+            "thumbZoneAware": true,
+            "primeRealEstate": "Top 20% has key message",
+            "readabilityInSunlight": true,
+            "3SecondRule": "Complete message conveyed",
+            "swipePrevention": "Compelling enough to hold attention"
+          }
+        },
+        "timestamp": "2025-10-02T06:45:30.469Z"
+      },
+      {
+        "designId": "STATUS_ADV001_002",
+        "advisorId": "ADV001",
+        "advisorName": "Shruti Petkar",
+        "contentType": "WhatsApp Status Image",
+        "brandingApplied": {
+          "logo": true,
+          "primaryColor": true,
+          "secondaryColor": true,
+          "tagline": true,
+          "arn": true
+        },
+        "compliance": {
+          "logoPresent": true,
+          "colorsMatched": true,
+          "taglinePresent": true,
+          "arnPresent": true,
+          "dimensions": true
+        },
+        "designSpecification": {
+          "designId": "STATUS_ADV001_002",
+          "advisorId": "ADV001",
+          "advisorName": "Shruti Petkar",
+          "advisorSegment": "Premium",
+          "contentType": "market_update_sophisticated",
+          "viralHook": "VH002 - RBI's Growth Bet: 6.8% GDP Forecast",
+          "dimensions": {
+            "width": 1080,
+            "height": 1920,
+            "aspectRatio": "9:16",
+            "format": "PNG"
+          },
+          "brandingElements": {
+            "logo": {
+              "url": "/assets/logos/shruti-petkar.png",
+              "position": "bottom-right",
+              "size": "150x150px",
+              "opacity": 0.9
+            },
+            "colors": {
+              "primary": "#1B365D",
+              "secondary": "#0077B5",
+              "background": "#FFFFFF",
+              "accent": "#34A853"
+            },
+            "tagline": {
+              "text": "Building Wealth, Creating Trust",
+              "position": "bottom-center",
+              "fontSize": "32px",
+              "color": "#1B365D"
+            },
+            "arn": {
+              "text": "ARN-125847",
+              "position": "bottom-left",
+              "fontSize": "24px",
+              "color": "#666666"
+            }
+          },
+          "contentLayout": {
+            "headline": {
+              "text": "India: 6.8% Growth",
+              "position": "top-15%",
+              "fontSize": "96px",
+              "fontWeight": "bold",
+              "color": "#1B365D",
+              "alignment": "center"
+            },
+            "subheadline": {
+              "text": "RBI Upgrades GDP Forecast",
+              "position": "top-25%",
+              "fontSize": "64px",
+              "fontWeight": "semibold",
+              "color": "#0077B5",
+              "alignment": "center"
+            },
+            "mainVisual": {
+              "type": "data_dashboard",
+              "position": "center-35-70%",
+              "elements": [
+                {
+                  "type": "metric_card",
+                  "label": "GDP Growth",
+                  "value": "6.8%",
+                  "change": "+0.3%",
+                  "color": "#34A853",
+                  "fontSize": "84px"
+                },
+                {
+                  "type": "metric_card",
+                  "label": "Inflation",
+                  "value": "2.6%",
+                  "change": "Down from 3.1%",
+                  "color": "#34A853",
+                  "fontSize": "72px"
+                },
+                {
+                  "type": "metric_card",
+                  "label": "Repo Rate",
+                  "value": "5.5%",
+                  "change": "Unchanged",
+                  "color": "#0077B5",
+                  "fontSize": "72px"
+                },
+                {
+                  "type": "insight_box",
+                  "text": "Fastest Growth Among Major Economies",
+                  "fontSize": "56px",
+                  "color": "#1B365D",
+                  "background": "#F0F8FF"
+                }
+              ]
+            },
+            "cta": {
+              "text": "Position Your Portfolio",
+              "position": "bottom-25%",
+              "fontSize": "64px",
+              "fontWeight": "bold",
+              "backgroundColor": "#34A853",
+              "textColor": "#FFFFFF",
+              "padding": "20px 40px",
+              "borderRadius": "12px"
+            }
+          },
+          "visualStyle": {
+            "theme": "executive_dashboard",
+            "colorScheme": "professional_growth",
+            "typography": "data_heavy_clean",
+            "mood": "confident_optimistic",
+            "padding": "80px all sides",
+            "chartStyle": "minimalist_professional",
+            "iconography": "subtle"
+          },
+          "geminiPrompt": "Create a sophisticated market update WhatsApp Status (1080x1920px) for premium advisor:\n\nHeadline (96px bold, navy #1B365D): 'India: 6.8% Growth'\nSubheadline (64px, #0077B5): 'RBI Upgrades GDP Forecast'\n\nMain Dashboard (center section):\n3 metric cards in clean boxes:\n1. GDP Growth: 6.8% (84px green #34A853) | '+0.3%' upgrade\n2. Inflation: 2.6% (72px green) | 'Down from 3.1%'\n3. Repo Rate: 5.5% (72px blue) | 'Unchanged'\n\nInsight Box (56px, navy on light blue background): 'Fastest Growth Among Major Economies'\n\nCTA Button (64px white on green #34A853): 'Position Your Portfolio'\n\nBranding:\n- Logo: Bottom-right (150x150px)\n- Tagline: 'Building Wealth, Creating Trust' (32px bottom-center)\n- ARN: 'ARN-125847' (24px bottom-left)\n\nStyle: Executive dashboard, clean data visualization, professional confidence\nColors: Navy (#1B365D), Blue (#0077B5), Green (#34A853)\nBackground: Clean white with subtle grid\n80px padding, minimalist icons, premium feel",
+          "viralityElements": {
+            "hook": "India's growth story - national pride",
+            "emotion": "Optimism, Confidence, Strategic thinking",
+            "data": "Three key metrics (GDP, Inflation, Repo)",
+            "urgency": "Market positioning opportunity",
+            "shareability": "High - Professionals share macro insights",
+            "viralityScore": 8.9
+          },
+          "mobileOptimization": {
+            "thumbZoneAware": true,
+            "primeRealEstate": "Growth headline in top 20%",
+            "readabilityInSunlight": true,
+            "3SecondRule": "3 metrics absorbed quickly",
+            "dataHierarchy": "Clear visual separation"
+          }
+        },
+        "timestamp": "2025-10-02T06:45:30.469Z"
+      },
+      {
+        "designId": "STATUS_ADV002_001",
+        "advisorId": "ADV002",
+        "advisorName": "Vidyadhar Petkar",
+        "contentType": "WhatsApp Status Image",
+        "brandingApplied": {
+          "logo": true,
+          "primaryColor": true,
+          "secondaryColor": true,
+          "tagline": true,
+          "arn": true
+        },
+        "compliance": {
+          "logoPresent": true,
+          "colorsMatched": true,
+          "taglinePresent": true,
+          "arnPresent": true,
+          "dimensions": true
+        },
+        "designSpecification": {
+          "designId": "STATUS_ADV002_001",
+          "advisorId": "ADV002",
+          "advisorName": "Vidyadhar Petkar",
+          "advisorSegment": "Gold",
+          "contentType": "educational_sip_infographic",
+          "viralHook": "VH001 - The SIP Revolution: ₹27,269 Crore Story",
+          "dimensions": {
+            "width": 1080,
+            "height": 1920,
+            "aspectRatio": "9:16",
+            "format": "PNG"
+          },
+          "brandingElements": {
+            "logo": {
+              "url": "/assets/logos/vidyadhar-petkar.png",
+              "position": "bottom-right",
+              "size": "150x150px",
+              "opacity": 0.9
+            },
+            "colors": {
+              "primary": "#2E8B57",
+              "secondary": "#228B22",
+              "background": "#F0FFF0",
+              "accent": "#FFD700"
+            },
+            "tagline": {
+              "text": "Your Financial Growth Partner",
+              "position": "bottom-center",
+              "fontSize": "32px",
+              "color": "#2E8B57"
+            },
+            "arn": {
+              "text": "ARN-138924",
+              "position": "bottom-left",
+              "fontSize": "24px",
+              "color": "#666666"
+            }
+          },
+          "contentLayout": {
+            "headline": {
+              "text": "SIP Revolution!",
+              "position": "top-18%",
+              "fontSize": "96px",
+              "fontWeight": "bold",
+              "color": "#2E8B57",
+              "alignment": "center"
+            },
+            "subheadline": {
+              "text": "₹27,269 Crore Monthly Inflows",
+              "position": "top-28%",
+              "fontSize": "72px",
+              "fontWeight": "bold",
+              "color": "#FFD700",
+              "alignment": "center",
+              "background": "#2E8B57",
+              "padding": "15px"
+            },
+            "mainVisual": {
+              "type": "growth_chart_infographic",
+              "position": "center-40-65%",
+              "elements": [
+                {
+                  "type": "daily_stat",
+                  "icon": "rupee_growth",
+                  "text": "Indians Investing",
+                  "value": "₹906 Crore",
+                  "suffix": "DAILY!",
+                  "fontSize": "72px",
+                  "color": "#2E8B57"
+                },
+                {
+                  "type": "behavior_shift",
+                  "beforeAfter": {
+                    "before": {
+                      "label": "2020: Panic Sellers",
+                      "percentage": "40%",
+                      "tenure": "<1 year",
+                      "color": "#FF6B6B"
+                    },
+                    "after": {
+                      "label": "2025: Patient Investors",
+                      "percentage": "30%",
+                      "tenure": "5+ years",
+                      "color": "#34A853"
+                    }
+                  },
+                  "arrowTransition": true
+                },
+                {
+                  "type": "validation_message",
+                  "text": "You're Part of This Revolution!",
+                  "fontSize": "64px",
+                  "color": "#2E8B57",
+                  "fontWeight": "bold",
+                  "background": "#FFFACD"
+                }
+              ]
+            },
+            "cta": {
+              "text": "Review Your SIP Strategy",
+              "position": "bottom-30%",
+              "fontSize": "64px",
+              "fontWeight": "bold",
+              "backgroundColor": "#228B22",
+              "textColor": "#FFFFFF",
+              "padding": "20px 40px",
+              "borderRadius": "12px"
+            }
+          },
+          "visualStyle": {
+            "theme": "growth_celebration",
+            "colorScheme": "green_gold_success",
+            "typography": "bold_friendly",
+            "mood": "inspirational_validating",
+            "padding": "80px all sides",
+            "visualElements": "charts_arrows_growth",
+            "energyLevel": "high"
+          },
+          "geminiPrompt": "Create an inspiring SIP Revolution WhatsApp Status (1080x1920px) for Gold segment advisor:\n\nHeadline (96px bold, forest green #2E8B57): 'SIP Revolution!'\nSubheadline (72px bold white on green badge #2E8B57): '₹27,269 Crore Monthly Inflows'\n\nMain Infographic (center):\n1. Daily Stat Box:\n   Icon: Upward rupee arrow\n   Text: 'Indians Investing'\n   Value: '₹906 Crore' (72px bold green)\n   Suffix: 'DAILY!' (72px)\n\n2. Before/After Comparison:\n   Left (red badge): '2020: Panic Sellers - 40% hold <1 year'\n   Arrow transition →\n   Right (green badge): '2025: Patient Investors - 30% hold 5+ years'\n\n3. Validation Banner (64px bold on yellow #FFFACD):\n   'You're Part of This Revolution!'\n\nCTA Button (64px white on green #228B22): 'Review Your SIP Strategy'\n\nBranding:\n- Logo: Bottom-right (150x150px)\n- Tagline: 'Your Financial Growth Partner' (32px)\n- ARN: 'ARN-138924' (24px)\n\nStyle: Inspirational, celebratory, data-driven success story\nColors: Forest green (#2E8B57), Spring green (#228B22), Gold (#FFD700)\nBackground: Soft mint green (#F0FFF0) with growth patterns\n80px padding, upward arrows, success imagery",
+          "viralityElements": {
+            "hook": "Pride in being part of revolution",
+            "emotion": "Validation, Inspiration, FOMO",
+            "data": "₹27,269 crore, ₹906 crore daily",
+            "behaviorShift": "Panic to patience narrative",
+            "shareability": "Very High - Investors share success",
+            "viralityScore": 9.5
+          },
+          "mobileOptimization": {
+            "thumbZoneAware": true,
+            "primeRealEstate": "Revolution headline grabs attention",
+            "readabilityInSunlight": true,
+            "3SecondRule": "₹906 crore daily stat immediately visible",
+            "emotionalImpact": "Validation creates holding power"
+          }
+        },
+        "timestamp": "2025-10-02T06:45:30.469Z"
+      },
+      {
+        "designId": "STATUS_ADV002_002",
+        "advisorId": "ADV002",
+        "advisorName": "Vidyadhar Petkar",
+        "contentType": "WhatsApp Status Image",
+        "brandingApplied": {
+          "logo": true,
+          "primaryColor": true,
+          "secondaryColor": true,
+          "tagline": true,
+          "arn": true
+        },
+        "compliance": {
+          "logoPresent": true,
+          "colorsMatched": true,
+          "taglinePresent": true,
+          "arnPresent": true,
+          "dimensions": true
+        },
+        "designSpecification": {
+          "designId": "STATUS_ADV002_002",
+          "advisorId": "ADV002",
+          "advisorName": "Vidyadhar Petkar",
+          "advisorSegment": "Gold",
+          "contentType": "tax_planning_actionable",
+          "viralHook": "VH003 - Tax Season Alert: ₹46,800 or iPhone?",
+          "dimensions": {
+            "width": 1080,
+            "height": 1920,
+            "aspectRatio": "9:16",
+            "format": "PNG"
+          },
+          "brandingElements": {
+            "logo": {
+              "url": "/assets/logos/vidyadhar-petkar.png",
+              "position": "bottom-right",
+              "size": "150x150px",
+              "opacity": 0.9
+            },
+            "colors": {
+              "primary": "#2E8B57",
+              "secondary": "#228B22",
+              "background": "#FFFFFF",
+              "accent": "#FF6B35"
+            },
+            "tagline": {
+              "text": "Your Financial Growth Partner",
+              "position": "bottom-center",
+              "fontSize": "32px",
+              "color": "#2E8B57"
+            },
+            "arn": {
+              "text": "ARN-138924",
+              "position": "bottom-left",
+              "fontSize": "24px",
+              "color": "#666666"
+            }
+          },
+          "contentLayout": {
+            "headline": {
+              "text": "₹46,800 or iPhone?",
+              "position": "top-15%",
+              "fontSize": "96px",
+              "fontWeight": "bold",
+              "color": "#2E8B57",
+              "alignment": "center"
+            },
+            "urgencyBanner": {
+              "text": "⏰ Only 6 Months Left!",
+              "position": "top-26%",
+              "fontSize": "56px",
+              "fontWeight": "bold",
+              "color": "#FFFFFF",
+              "backgroundColor": "#FF6B35",
+              "padding": "15px",
+              "alignment": "center"
+            },
+            "mainVisual": {
+              "type": "choice_comparison",
+              "position": "center-35-70%",
+              "elements": [
+                {
+                  "type": "option_card",
+                  "label": "Option A",
+                  "icon": "phone_emoji",
+                  "text": "New iPhone 16",
+                  "subtext": "Nice gadget for 2 years",
+                  "color": "#CCCCCC",
+                  "fontSize": "56px"
+                },
+                {
+                  "type": "divider",
+                  "text": "OR",
+                  "fontSize": "72px",
+                  "fontWeight": "bold",
+                  "color": "#2E8B57"
+                },
+                {
+                  "type": "option_card",
+                  "label": "Option B",
+                  "icon": "growth_chart",
+                  "text": "ELSS Investment",
+                  "subtext": "₹46,800 tax saved + Returns",
+                  "highlight": true,
+                  "color": "#228B22",
+                  "fontSize": "56px",
+                  "badge": "SMART CHOICE"
+                },
+                {
+                  "type": "calculation_box",
+                  "calculation": "₹1.5L investment → ₹46.8K tax saving",
+                  "compounding": "Plus: 12-15% annual returns!",
+                  "fontSize": "52px",
+                  "color": "#2E8B57",
+                  "background": "#F0FFF0"
+                }
+              ]
+            },
+            "cta": {
+              "text": "Start Tax-Saving SIP Now",
+              "position": "bottom-28%",
+              "fontSize": "64px",
+              "fontWeight": "bold",
+              "backgroundColor": "#228B22",
+              "textColor": "#FFFFFF",
+              "padding": "20px 40px",
+              "borderRadius": "12px"
+            }
+          },
+          "visualStyle": {
+            "theme": "choice_urgency",
+            "colorScheme": "green_orange_contrast",
+            "typography": "bold_decision_focused",
+            "mood": "urgent_smart_choice",
+            "padding": "80px all sides",
+            "comparisonStyle": "clear_winner",
+            "urgencyElements": "clock_deadline"
+          },
+          "geminiPrompt": "Create an urgent tax-planning WhatsApp Status (1080x1920px) for Gold segment advisor:\n\nHeadline (96px bold, green #2E8B57): '₹46,800 or iPhone?'\nUrgency Banner (56px white on orange #FF6B35): '⏰ Only 6 Months Left!'\n\nMain Comparison (center):\nOption A Card (gray):\n  📱 'New iPhone 16'\n  'Nice gadget for 2 years' (56px)\n\nDivider: 'OR' (72px bold green)\n\nOption B Card (green #228B22, highlighted):\n  📈 'ELSS Investment'\n  '₹46,800 tax saved + Returns' (56px)\n  Badge: 'SMART CHOICE' (gold badge)\n\nCalculation Box (52px on mint background):\n  '₹1.5L investment → ₹46.8K tax saving'\n  'Plus: 12-15% annual returns!'\n\nCTA Button (64px white on green #228B22): 'Start Tax-Saving SIP Now'\n\nBranding:\n- Logo: Bottom-right (150x150px)\n- Tagline: 'Your Financial Growth Partner' (32px)\n- ARN: 'ARN-138924' (24px)\n\nStyle: Urgent decision-making, clear winner comparison\nColors: Green (#2E8B57, #228B22), Orange urgency (#FF6B35)\nBackground: Clean white with subtle patterns\n80px padding, emojis for visual appeal, deadline emphasis",
+          "viralityElements": {
+            "hook": "Relatable comparison (iPhone vs Investment)",
+            "emotion": "Urgency, Smart choice, FOMO",
+            "data": "₹46,800 tax saving (tangible benefit)",
+            "deadline": "6 months creates action urgency",
+            "shareability": "Very High - Professionals relate to choice",
+            "viralityScore": 9.1
+          },
+          "mobileOptimization": {
+            "thumbZoneAware": true,
+            "primeRealEstate": "Headline creates immediate intrigue",
+            "readabilityInSunlight": true,
+            "3SecondRule": "iPhone vs Investment choice clear",
+            "urgencyVisibility": "Orange banner catches attention"
+          }
+        },
+        "timestamp": "2025-10-02T06:45:30.469Z"
+      },
+      {
+        "designId": "STATUS_ADV003_001",
+        "advisorId": "ADV003",
+        "advisorName": "Shriya Vallabh Petkar",
+        "contentType": "WhatsApp Status Image",
+        "brandingApplied": {
+          "logo": true,
+          "primaryColor": true,
+          "secondaryColor": true,
+          "tagline": true,
+          "arn": true
+        },
+        "compliance": {
+          "logoPresent": true,
+          "colorsMatched": true,
+          "taglinePresent": true,
+          "arnPresent": true,
+          "dimensions": true
+        },
+        "designSpecification": {
+          "designId": "STATUS_ADV003_001",
+          "advisorId": "ADV003",
+          "advisorName": "Shriya Vallabh Petkar",
+          "advisorSegment": "Premium",
+          "contentType": "educational_deep_dive",
+          "viralHook": "VH005 - The ₹2 Lakh Tax Secret (Educational Angle)",
+          "dimensions": {
+            "width": 1080,
+            "height": 1920,
+            "aspectRatio": "9:16",
+            "format": "PNG"
+          },
+          "brandingElements": {
+            "logo": {
+              "url": "/assets/logos/shriya-vallabh.png",
+              "position": "bottom-right",
+              "size": "150x150px",
+              "opacity": 0.9
+            },
+            "colors": {
+              "primary": "#8B4513",
+              "secondary": "#CD853F",
+              "background": "#FFF8E7",
+              "accent": "#FF8C00"
+            },
+            "tagline": {
+              "text": "Empowering Financial Decisions",
+              "position": "bottom-center",
+              "fontSize": "32px",
+              "color": "#8B4513"
+            },
+            "arn": {
+              "text": "ARN-147852",
+              "position": "bottom-left",
+              "fontSize": "24px",
+              "color": "#666666"
+            }
+          },
+          "contentLayout": {
+            "headline": {
+              "text": "Tax Saving 101:",
+              "position": "top-12%",
+              "fontSize": "84px",
+              "fontWeight": "bold",
+              "color": "#8B4513",
+              "alignment": "center"
+            },
+            "subheadline": {
+              "text": "The Complete ₹2L Deduction Guide",
+              "position": "top-22%",
+              "fontSize": "64px",
+              "fontWeight": "semibold",
+              "color": "#CD853F",
+              "alignment": "center"
+            },
+            "mainVisual": {
+              "type": "educational_infographic",
+              "position": "center-32-75%",
+              "elements": [
+                {
+                  "type": "step_by_step",
+                  "steps": [
+                    {
+                      "number": "1",
+                      "title": "Section 80C",
+                      "amount": "₹1,50,000",
+                      "instruments": [
+                        "ELSS",
+                        "PPF",
+                        "Life Insurance"
+                      ],
+                      "fontSize": "56px",
+                      "color": "#8B4513"
+                    },
+                    {
+                      "number": "2",
+                      "title": "Section 80CCD(1B)",
+                      "amount": "+ ₹50,000",
+                      "instruments": [
+                        "NPS (Extra Deduction)"
+                      ],
+                      "fontSize": "56px",
+                      "color": "#FF8C00",
+                      "highlight": true
+                    },
+                    {
+                      "number": "3",
+                      "title": "Total Deduction",
+                      "amount": "₹2,00,000",
+                      "benefit": "Save up to ₹62,400 in taxes!",
+                      "fontSize": "72px",
+                      "color": "#8B4513",
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "knowledge_box",
+                  "icon": "lightbulb",
+                  "text": "Most people miss the extra ₹50K NPS benefit!",
+                  "fontSize": "52px",
+                  "color": "#FFFFFF",
+                  "background": "#FF8C00",
+                  "padding": "20px"
+                }
+              ]
+            },
+            "cta": {
+              "text": "Learn Complete Strategy",
+              "position": "bottom-26%",
+              "fontSize": "64px",
+              "fontWeight": "bold",
+              "backgroundColor": "#8B4513",
+              "textColor": "#FFFFFF",
+              "padding": "20px 40px",
+              "borderRadius": "12px"
+            }
+          },
+          "visualStyle": {
+            "theme": "educational_empowerment",
+            "colorScheme": "warm_brown_orange",
+            "typography": "clear_educational",
+            "mood": "empowering_informative",
+            "padding": "80px all sides",
+            "stepByStepVisual": true,
+            "iconography": "educational_friendly"
+          },
+          "geminiPrompt": "Create an educational WhatsApp Status (1080x1920px) for Premium educational advisor:\n\nHeadline (84px bold, brown #8B4513): 'Tax Saving 101:'\nSubheadline (64px, tan #CD853F): 'The Complete ₹2L Deduction Guide'\n\nMain Educational Infographic (center):\nStep 1 (56px brown):\n  '1. Section 80C - ₹1,50,000'\n  Icons: ELSS | PPF | Life Insurance\n\nStep 2 (56px orange #FF8C00, highlighted):\n  '2. Section 80CCD(1B) - + ₹50,000'\n  Icon: NPS (Extra Deduction)\n  Badge: 'MOST PEOPLE MISS THIS'\n\nStep 3 (72px bold brown):\n  '3. Total Deduction - ₹2,00,000'\n  'Save up to ₹62,400 in taxes!'\n\nKnowledge Box (52px white on orange background):\n  💡 'Most people miss the extra ₹50K NPS benefit!'\n\nCTA Button (64px white on brown #8B4513): 'Learn Complete Strategy'\n\nBranding:\n- Logo: Bottom-right (150x150px)\n- Tagline: 'Empowering Financial Decisions' (32px)\n- ARN: 'ARN-147852' (24px)\n\nStyle: Educational, step-by-step, empowering knowledge\nColors: Saddle brown (#8B4513), Peru (#CD853F), Dark orange (#FF8C00)\nBackground: Warm cream (#FFF8E7)\n80px padding, numbered steps, educational icons, lightbulb moments",
+          "viralityElements": {
+            "hook": "Educational empowerment - 'What you should know'",
+            "emotion": "Knowledge, Empowerment, Confidence",
+            "data": "Step-by-step breakdown (₹1.5L + ₹50K)",
+            "revelation": "Missing ₹50K insight",
+            "shareability": "High - Educational content shared widely",
+            "viralityScore": 9
+          },
+          "mobileOptimization": {
+            "thumbZoneAware": true,
+            "primeRealEstate": "Educational headline sets tone",
+            "readabilityInSunlight": true,
+            "3SecondRule": "3-step process visually clear",
+            "learningFlow": "Numbered steps guide eye movement"
+          }
+        },
+        "timestamp": "2025-10-02T06:45:30.469Z"
+      },
+      {
+        "designId": "STATUS_ADV003_002",
+        "advisorId": "ADV003",
+        "advisorName": "Shriya Vallabh Petkar",
+        "contentType": "WhatsApp Status Image",
+        "brandingApplied": {
+          "logo": true,
+          "primaryColor": true,
+          "secondaryColor": true,
+          "tagline": true,
+          "arn": true
+        },
+        "compliance": {
+          "logoPresent": true,
+          "colorsMatched": true,
+          "taglinePresent": true,
+          "arnPresent": true,
+          "dimensions": true
+        },
+        "designSpecification": {
+          "designId": "STATUS_ADV003_002",
+          "advisorId": "ADV003",
+          "advisorName": "Shriya Vallabh Petkar",
+          "advisorSegment": "Premium",
+          "contentType": "behavioral_finance_educational",
+          "viralHook": "VH001 - The SIP Revolution (Behavioral Angle)",
+          "dimensions": {
+            "width": 1080,
+            "height": 1920,
+            "aspectRatio": "9:16",
+            "format": "PNG"
+          },
+          "brandingElements": {
+            "logo": {
+              "url": "/assets/logos/shriya-vallabh.png",
+              "position": "bottom-right",
+              "size": "150x150px",
+              "opacity": 0.9
+            },
+            "colors": {
+              "primary": "#8B4513",
+              "secondary": "#CD853F",
+              "background": "#F5F5DC",
+              "accent": "#2E8B57"
+            },
+            "tagline": {
+              "text": "Empowering Financial Decisions",
+              "position": "bottom-center",
+              "fontSize": "32px",
+              "color": "#8B4513"
+            },
+            "arn": {
+              "text": "ARN-147852",
+              "position": "bottom-left",
+              "fontSize": "24px",
+              "color": "#666666"
+            }
+          },
+          "contentLayout": {
+            "headline": {
+              "text": "From Panic to Patience",
+              "position": "top-15%",
+              "fontSize": "88px",
+              "fontWeight": "bold",
+              "color": "#8B4513",
+              "alignment": "center"
+            },
+            "subheadline": {
+              "text": "The Psychology of India's SIP Revolution",
+              "position": "top-26%",
+              "fontSize": "56px",
+              "fontWeight": "semibold",
+              "color": "#CD853F",
+              "alignment": "center"
+            },
+            "mainVisual": {
+              "type": "behavioral_transformation",
+              "position": "center-38-72%",
+              "elements": [
+                {
+                  "type": "timeline_comparison",
+                  "year2020": {
+                    "icon": "panic_face",
+                    "label": "2020: Panic Sellers",
+                    "stat": "40% sold within 1 year",
+                    "behavior": "Fear-driven decisions",
+                    "color": "#FF6B6B"
+                  },
+                  "transformArrow": {
+                    "text": "Evolution →",
+                    "fontSize": "48px",
+                    "color": "#8B4513"
+                  },
+                  "year2025": {
+                    "icon": "patient_investor",
+                    "label": "2025: Patient Investors",
+                    "stat": "30% hold for 5+ years",
+                    "behavior": "Discipline over emotion",
+                    "color": "#2E8B57"
+                  }
+                },
+                {
+                  "type": "insight_bubble",
+                  "text": "₹27,269 Crore Monthly SIPs",
+                  "subtext": "Indians Conquered Investment Fear!",
+                  "fontSize": "64px",
+                  "color": "#FFFFFF",
+                  "background": "#2E8B57",
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            "cta": {
+              "text": "Build Your Patient Portfolio",
+              "position": "bottom-28%",
+              "fontSize": "60px",
+              "fontWeight": "bold",
+              "backgroundColor": "#8B4513",
+              "textColor": "#FFFFFF",
+              "padding": "20px 40px",
+              "borderRadius": "12px"
+            }
+          },
+          "visualStyle": {
+            "theme": "behavioral_transformation",
+            "colorScheme": "warm_growth_journey",
+            "typography": "storytelling_educational",
+            "mood": "inspiring_analytical",
+            "padding": "80px all sides",
+            "visualNarrative": "before_after_journey",
+            "emotionCurve": "fear_to_confidence"
+          },
+          "geminiPrompt": "Create a behavioral finance WhatsApp Status (1080x1920px) for educational advisor:\n\nHeadline (88px bold, brown #8B4513): 'From Panic to Patience'\nSubheadline (56px, tan #CD853F): 'The Psychology of India's SIP Revolution'\n\nMain Behavioral Infographic (center):\n\nLeft Side (2020 - Red zone #FF6B6B):\n  😰 Icon: Panic face\n  '2020: Panic Sellers'\n  '40% sold within 1 year'\n  'Fear-driven decisions'\n\nTransition Arrow (48px brown): 'Evolution →'\n\nRight Side (2025 - Green zone #2E8B57):\n  😌 Icon: Patient investor\n  '2025: Patient Investors'\n  '30% hold for 5+ years'\n  'Discipline over emotion'\n\nInsight Bubble (64px white on green background):\n  '₹27,269 Crore Monthly SIPs'\n  'Indians Conquered Investment Fear!'\n\nCTA Button (60px white on brown #8B4513): 'Build Your Patient Portfolio'\n\nBranding:\n- Logo: Bottom-right (150x150px)\n- Tagline: 'Empowering Financial Decisions' (32px)\n- ARN: 'ARN-147852' (24px)\n\nStyle: Educational storytelling, behavioral transformation narrative\nColors: Saddle brown (#8B4513), Peru (#CD853F), Red panic (#FF6B6B), Green growth (#2E8B57)\nBackground: Beige (#F5F5DC) with subtle journey path\n80px padding, timeline flow, emotional journey visualization",
+          "viralityElements": {
+            "hook": "Behavioral transformation story",
+            "emotion": "Inspiration, Self-awareness, Growth",
+            "data": "40% to 30% behavioral shift",
+            "narrative": "Fear to discipline journey",
+            "shareability": "High - Investors see themselves in story",
+            "viralityScore": 8.8
+          },
+          "mobileOptimization": {
+            "thumbZoneAware": true,
+            "primeRealEstate": "Transformation headline grabs attention",
+            "readabilityInSunlight": true,
+            "3SecondRule": "Before/after visual immediately clear",
+            "emotionalJourney": "Visual flow from panic to patience"
+          }
+        },
+        "timestamp": "2025-10-02T06:45:30.469Z"
+      },
+      {
+        "designId": "STATUS_ADV004_001",
+        "advisorId": "ADV004",
+        "advisorName": "Avalok Langer",
+        "contentType": "WhatsApp Status Image",
+        "brandingApplied": {
+          "logo": true,
+          "primaryColor": true,
+          "secondaryColor": true,
+          "tagline": true,
+          "arn": true
+        },
+        "compliance": {
+          "logoPresent": true,
+          "colorsMatched": true,
+          "taglinePresent": true,
+          "arnPresent": true,
+          "dimensions": true
+        },
+        "designSpecification": {
+          "designId": "STATUS_ADV004_001",
+          "advisorId": "ADV004",
+          "advisorName": "Avalok Langer",
+          "advisorSegment": "Silver",
+          "contentType": "beginner_inspiration",
+          "viralHook": "VH001 - The SIP Revolution (Beginner Angle)",
+          "dimensions": {
+            "width": 1080,
+            "height": 1920,
+            "aspectRatio": "9:16",
+            "format": "PNG"
+          },
+          "brandingElements": {
+            "logo": {
+              "url": "/assets/logos/avalok-langer.png",
+              "position": "bottom-right",
+              "size": "150x150px",
+              "opacity": 0.9
+            },
+            "colors": {
+              "primary": "#1A73E8",
+              "secondary": "#34A853",
+              "background": "#E8F4F8",
+              "accent": "#FBBC04"
+            },
+            "tagline": {
+              "text": "Smart Investments, Secure Future",
+              "position": "bottom-center",
+              "fontSize": "32px",
+              "color": "#1A73E8"
+            },
+            "arn": {
+              "text": "ARN-169741",
+              "position": "bottom-left",
+              "fontSize": "24px",
+              "color": "#666666"
+            }
+          },
+          "contentLayout": {
+            "headline": {
+              "text": "₹906 Crore DAILY!",
+              "position": "top-18%",
+              "fontSize": "96px",
+              "fontWeight": "bold",
+              "color": "#1A73E8",
+              "alignment": "center",
+              "background": "#FBBC04",
+              "padding": "20px"
+            },
+            "subheadline": {
+              "text": "Indians Investing Through SIPs",
+              "position": "top-32%",
+              "fontSize": "64px",
+              "fontWeight": "semibold",
+              "color": "#34A853",
+              "alignment": "center"
+            },
+            "mainVisual": {
+              "type": "simple_inspiration",
+              "position": "center-42-70%",
+              "elements": [
+                {
+                  "type": "big_stat",
+                  "emoji": "🚀",
+                  "text": "You can start with just",
+                  "amount": "₹500/month",
+                  "fontSize": "72px",
+                  "color": "#1A73E8"
+                },
+                {
+                  "type": "simple_math",
+                  "calculation": [
+                    {
+                      "line": "₹500 × 12 months = ₹6,000/year",
+                      "fontSize": "52px"
+                    },
+                    {
+                      "line": "After 20 years @ 12%:",
+                      "fontSize": "52px"
+                    },
+                    {
+                      "line": "₹5 Lakh! 💰",
+                      "fontSize": "84px",
+                      "fontWeight": "bold",
+                      "color": "#34A853"
+                    }
+                  ]
+                },
+                {
+                  "type": "motivation_box",
+                  "icon": "💪",
+                  "text": "Join the SIP Revolution Today!",
+                  "fontSize": "64px",
+                  "color": "#FFFFFF",
+                  "background": "#1A73E8",
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            "cta": {
+              "text": "Start ₹500 SIP Now",
+              "position": "bottom-30%",
+              "fontSize": "72px",
+              "fontWeight": "bold",
+              "backgroundColor": "#34A853",
+              "textColor": "#FFFFFF",
+              "padding": "25px 45px",
+              "borderRadius": "16px",
+              "pulseEffect": true
+            }
+          },
+          "visualStyle": {
+            "theme": "beginner_friendly_inspiration",
+            "colorScheme": "bold_colorful_modern",
+            "typography": "large_friendly_clear",
+            "mood": "exciting_accessible",
+            "padding": "80px all sides",
+            "emojiUsage": "moderate_friendly",
+            "simplicityLevel": "very_high"
+          },
+          "geminiPrompt": "Create a beginner-friendly inspirational WhatsApp Status (1080x1920px) for Silver segment advisor:\n\nHeadline (96px bold white on yellow badge #FBBC04): '₹906 Crore DAILY!'\nSubheadline (64px green #34A853): 'Indians Investing Through SIPs'\n\nMain Simple Visual (center):\n\n1. Big Stat with Emoji:\n   🚀 'You can start with just'\n   '₹500/month' (72px bold blue #1A73E8)\n\n2. Simple Math (52px):\n   '₹500 × 12 months = ₹6,000/year'\n   'After 20 years @ 12%:'\n   '₹5 Lakh! 💰' (84px bold green #34A853)\n\n3. Motivation Box (64px white on blue #1A73E8):\n   💪 'Join the SIP Revolution Today!'\n\nCTA Button (72px white on green #34A853, pulse effect):\n  'Start ₹500 SIP Now'\n\nBranding:\n- Logo: Bottom-right (150x150px)\n- Tagline: 'Smart Investments, Secure Future' (32px)\n- ARN: 'ARN-169741' (24px)\n\nStyle: Bold, colorful, beginner-friendly, motivational\nColors: Google blue (#1A73E8), Green (#34A853), Yellow (#FBBC04)\nBackground: Light blue (#E8F4F8)\n80px padding, emojis for friendliness, large simple numbers, very clear hierarchy",
+          "viralityElements": {
+            "hook": "₹906 crore daily - mind-blowing stat",
+            "emotion": "Inspiration, FOMO, Hope, Accessibility",
+            "data": "₹500 to ₹5 lakh transformation",
+            "barrier": "Low - Just ₹500 to start",
+            "shareability": "Very High - Beginners share inspiration",
+            "viralityScore": 9.7
+          },
+          "mobileOptimization": {
+            "thumbZoneAware": true,
+            "primeRealEstate": "₹906 crore headline creates wow",
+            "readabilityInSunlight": true,
+            "3SecondRule": "₹500 start amount immediately visible",
+            "motivationalPower": "High - Emojis and simple math inspire"
+          }
+        },
+        "timestamp": "2025-10-02T06:45:30.469Z"
+      },
+      {
+        "designId": "STATUS_ADV004_002",
+        "advisorId": "ADV004",
+        "advisorName": "Avalok Langer",
+        "contentType": "WhatsApp Status Image",
+        "brandingApplied": {
+          "logo": true,
+          "primaryColor": true,
+          "secondaryColor": true,
+          "tagline": true,
+          "arn": true
+        },
+        "compliance": {
+          "logoPresent": true,
+          "colorsMatched": true,
+          "taglinePresent": true,
+          "arnPresent": true,
+          "dimensions": true
+        },
+        "designSpecification": {
+          "designId": "STATUS_ADV004_002",
+          "advisorId": "ADV004",
+          "advisorName": "Avalok Langer",
+          "advisorSegment": "Silver",
+          "contentType": "relatable_tax_saving",
+          "viralHook": "VH003 - Tax Season Alert: ₹46,800 or iPhone? (Simplified)",
+          "dimensions": {
+            "width": 1080,
+            "height": 1920,
+            "aspectRatio": "9:16",
+            "format": "PNG"
+          },
+          "brandingElements": {
+            "logo": {
+              "url": "/assets/logos/avalok-langer.png",
+              "position": "bottom-right",
+              "size": "150x150px",
+              "opacity": 0.9
+            },
+            "colors": {
+              "primary": "#1A73E8",
+              "secondary": "#34A853",
+              "background": "#FFFFFF",
+              "accent": "#EA4335"
+            },
+            "tagline": {
+              "text": "Smart Investments, Secure Future",
+              "position": "bottom-center",
+              "fontSize": "32px",
+              "color": "#1A73E8"
+            },
+            "arn": {
+              "text": "ARN-169741",
+              "position": "bottom-left",
+              "fontSize": "24px",
+              "color": "#666666"
+            }
+          },
+          "contentLayout": {
+            "headline": {
+              "text": "Save ₹46,800 =",
+              "position": "top-15%",
+              "fontSize": "88px",
+              "fontWeight": "bold",
+              "color": "#1A73E8",
+              "alignment": "center"
+            },
+            "mainVisual": {
+              "type": "fun_comparison",
+              "position": "center-28-75%",
+              "elements": [
+                {
+                  "type": "option_boxes",
+                  "options": [
+                    {
+                      "emoji": "📱",
+                      "text": "New iPhone 16",
+                      "fontSize": "64px",
+                      "color": "#666666"
+                    },
+                    {
+                      "emoji": "🏍️",
+                      "text": "Royal Enfield bike",
+                      "fontSize": "64px",
+                      "color": "#666666"
+                    },
+                    {
+                      "emoji": "🏠",
+                      "text": "3 months rent",
+                      "fontSize": "64px",
+                      "color": "#666666"
+                    },
+                    {
+                      "divider": "OR",
+                      "fontSize": "96px",
+                      "fontWeight": "bold",
+                      "color": "#EA4335"
+                    },
+                    {
+                      "emoji": "💰",
+                      "text": "Smart ELSS that GROWS!",
+                      "fontSize": "72px",
+                      "fontWeight": "bold",
+                      "color": "#34A853",
+                      "highlight": true,
+                      "badge": "BEST CHOICE"
+                    }
+                  ]
+                },
+                {
+                  "type": "simple_benefit",
+                  "text": "Tax saved + 12-15% returns every year!",
+                  "fontSize": "56px",
+                  "color": "#1A73E8",
+                  "background": "#E8F4F8",
+                  "padding": "20px"
+                },
+                {
+                  "type": "urgency_timer",
+                  "icon": "⏰",
+                  "text": "Only 6 months left!",
+                  "fontSize": "64px",
+                  "color": "#EA4335",
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            "cta": {
+              "text": "Start Tax-Saving SIP",
+              "position": "bottom-28%",
+              "fontSize": "72px",
+              "fontWeight": "bold",
+              "backgroundColor": "#34A853",
+              "textColor": "#FFFFFF",
+              "padding": "25px 45px",
+              "borderRadius": "16px"
+            }
+          },
+          "visualStyle": {
+            "theme": "relatable_fun_comparison",
+            "colorScheme": "bold_google_colors",
+            "typography": "large_friendly_emojis",
+            "mood": "exciting_relatable",
+            "padding": "80px all sides",
+            "emojiUsage": "high_relatable",
+            "comparisonStyle": "fun_clear_winner"
+          },
+          "geminiPrompt": "Create a fun, relatable tax-saving WhatsApp Status (1080x1920px) for Silver segment beginner:\n\nHeadline (88px bold blue #1A73E8): 'Save ₹46,800 ='\n\nMain Fun Comparison (center):\n\nOptions List (64px each):\n  📱 'New iPhone 16'\n  🏍️ 'Royal Enfield bike'\n  🏠 '3 months rent'\n\nBig Divider (96px bold red #EA4335): 'OR'\n\nWinning Option (72px bold green #34A853, highlighted):\n  💰 'Smart ELSS that GROWS!'\n  Gold badge: 'BEST CHOICE'\n\nSimple Benefit Box (56px blue on light blue background):\n  'Tax saved + 12-15% returns every year!'\n\nUrgency Timer (64px bold red):\n  ⏰ 'Only 6 months left!'\n\nCTA Button (72px white on green #34A853):\n  'Start Tax-Saving SIP'\n\nBranding:\n- Logo: Bottom-right (150x150px)\n- Tagline: 'Smart Investments, Secure Future' (32px)\n- ARN: 'ARN-169741' (24px)\n\nStyle: Fun, relatable comparisons, emoji-heavy, beginner-friendly\nColors: Google Blue (#1A73E8), Green (#34A853), Red (#EA4335)\nBackground: Clean white\n80px padding, lots of emojis, simple relatable items, clear winner",
+          "viralityElements": {
+            "hook": "Relatable comparisons (iPhone, bike, rent)",
+            "emotion": "Fun, Smart choice, Urgency, FOMO",
+            "data": "₹46,800 tangible benefit",
+            "relatability": "Very High - Items young professionals want",
+            "shareability": "Very High - Viral comparison format",
+            "viralityScore": 9.4
+          },
+          "mobileOptimization": {
+            "thumbZoneAware": true,
+            "primeRealEstate": "Save ₹46,800 headline creates interest",
+            "readabilityInSunlight": true,
+            "3SecondRule": "Emoji comparisons scan quickly",
+            "funFactor": "High - Shareable format"
+          }
+        },
+        "timestamp": "2025-10-02T06:45:30.469Z"
+      }
+    ]
+  },
+  "complianceValidation": {
+    "totalIssues": 0,
+    "issuesByType": {},
+    "criticalIssues": [],
+    "warnings": []
+  },
+  "qualityMetrics": {
+    "brandConsistency": "33.33",
+    "complianceRate": "100.00",
+    "colorAccuracy": "100.00",
+    "logoPlacement": "100.00"
+  },
+  "recommendations": [
+    {
+      "priority": "INFO",
+      "category": "Success",
+      "issue": "100% brand compliance achieved",
+      "action": "Content ready for compliance validation and distribution"
+    }
+  ],
+  "logs": [
+    {
+      "timestamp": "2025-10-02T06:45:30.464Z",
+      "level": "info",
+      "message": "Starting Brand Customizer Agent execution"
+    },
+    {
+      "timestamp": "2025-10-02T06:45:30.464Z",
+      "level": "info",
+      "message": "Session: session_1759383378"
+    },
+    {
+      "timestamp": "2025-10-02T06:45:30.464Z",
+      "level": "info",
+      "message": "Created directory: /Users/shriyavallabh/Desktop/mvp/output/session_1759383378/branded"
+    },
+    {
+      "timestamp": "2025-10-02T06:45:30.464Z",
+      "level": "info",
+      "message": "Created directory: /Users/shriyavallabh/Desktop/mvp/output/session_1759383378/branded/linkedin"
+    },
+    {
+      "timestamp": "2025-10-02T06:45:30.464Z",
+      "level": "info",
+      "message": "Created directory: /Users/shriyavallabh/Desktop/mvp/output/session_1759383378/branded/whatsapp"
+    },
+    {
+      "timestamp": "2025-10-02T06:45:30.465Z",
+      "level": "info",
+      "message": "Created directory: /Users/shriyavallabh/Desktop/mvp/output/session_1759383378/branded/status-images"
+    },
+    {
+      "timestamp": "2025-10-02T06:45:30.465Z",
+      "level": "info",
+      "message": "Created directory: /Users/shriyavallabh/Desktop/mvp/output/session_1759383378/branded/compliance-reports"
+    },
+    {
+      "timestamp": "2025-10-02T06:45:30.465Z",
+      "level": "info",
+      "message": "Step 1: Loading advisor branding data"
+    },
+    {
+      "timestamp": "2025-10-02T06:45:30.465Z",
+      "level": "info",
+      "message": "Loaded 4 advisors with branding data"
+    },
+    {
+      "timestamp": "2025-10-02T06:45:30.465Z",
+      "level": "info",
+      "message": "Step 2: Processing LinkedIn posts for brand compliance"
+    },
+    {
+      "timestamp": "2025-10-02T06:45:30.467Z",
+      "level": "info",
+      "message": "Step 3: Processing WhatsApp messages for brand compliance"
+    },
+    {
+      "timestamp": "2025-10-02T06:45:30.468Z",
+      "level": "info",
+      "message": "Step 4: Verifying Status Image branding specifications"
+    },
+    {
+      "timestamp": "2025-10-02T06:45:30.469Z",
+      "level": "info",
+      "message": "Step 5: Generating brand compliance report"
+    },
+    {
+      "timestamp": "2025-10-02T06:45:30.469Z",
+      "level": "info",
+      "message": "Step 6: Saving branded outputs"
+    }
+  ]
+}

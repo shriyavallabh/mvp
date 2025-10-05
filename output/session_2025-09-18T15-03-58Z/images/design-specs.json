@@ -1,0 +1,2586 @@
+{
+  "sessionId": "session_2025-09-18T15-03-58Z",
+  "timestamp": "2025-09-18T20:53:47.177541",
+  "specifications": [
+    {
+      "type": "market_dashboard",
+      "advisorId": "ADV_001",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "grid": "3x4",
+        "sections": [
+          {
+            "id": "header",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 400
+            },
+            "content": {
+              "type": "text",
+              "text": "Market Update",
+              "fontSize": 96,
+              "fontWeight": "bold",
+              "color": "#1A73E8"
+            }
+          },
+          {
+            "id": "indices",
+            "position": {
+              "x": 50,
+              "y": 450,
+              "w": 980,
+              "h": 500
+            },
+            "content": {
+              "type": "data_cards",
+              "cards": [
+                {
+                  "title": "SENSEX",
+                  "value": "82690",
+                  "change": "+310",
+                  "changePercent": "0.38%"
+                },
+                {
+                  "title": "NIFTY 50",
+                  "value": "25330.25",
+                  "change": "+90",
+                  "changePercent": "0.36%"
+                }
+              ]
+            }
+          },
+          {
+            "id": "sectors",
+            "position": {
+              "x": 50,
+              "y": 1000,
+              "w": 980,
+              "h": 600
+            },
+            "content": {
+              "type": "chart",
+              "chartType": "horizontal_bar",
+              "data": [
+                {
+                  "name": "Information Technology",
+                  "value": 4.41,
+                  "color": "#00C851"
+                },
+                {
+                  "name": "Banking",
+                  "value": 2.1,
+                  "color": "#00C851"
+                },
+                {
+                  "name": "PSU Banks",
+                  "value": 1.8,
+                  "color": "#00C851"
+                },
+                {
+                  "name": "Auto",
+                  "value": -4.8,
+                  "color": "#ff4444"
+                },
+                {
+                  "name": "Pharma",
+                  "value": -2.7,
+                  "color": "#ff4444"
+                },
+                {
+                  "name": "FMCG",
+                  "value": -1.2,
+                  "color": "#ff4444"
+                }
+              ]
+            }
+          },
+          {
+            "id": "footer",
+            "position": {
+              "x": 0,
+              "y": 1650,
+              "w": 1080,
+              "h": 270
+            },
+            "content": {
+              "type": "branding",
+              "brandName": "Wealth Creators",
+              "tagline": "Building Wealth, Creating Trust",
+              "disclaimer": "Investment decisions should be made after careful consideration of your financial goals. Past performance is not indicative of future results.",
+              "fontSize": 42
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#1A73E8",
+        "secondary": "#34A853",
+        "accent": "#FFD700",
+        "background": "#FFFFFF",
+        "text": "#333333"
+      },
+      "animations": {
+        "entrance": "fade_in",
+        "dataPoints": "count_up",
+        "charts": "draw_bars"
+      }
+    },
+    {
+      "type": "tax_saving_infographic",
+      "advisorId": "ADV_001",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "style": "vertical_flow",
+        "sections": [
+          {
+            "id": "title",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 350
+            },
+            "content": {
+              "type": "text",
+              "text": "Save Tax Under 80C",
+              "fontSize": 96,
+              "fontWeight": "bold",
+              "alignment": "center"
+            }
+          },
+          {
+            "id": "amount",
+            "position": {
+              "x": 0,
+              "y": 350,
+              "w": 1080,
+              "h": 250
+            },
+            "content": {
+              "type": "highlight",
+              "text": "\u20b91.5 Lakh Limit",
+              "fontSize": 72,
+              "backgroundColor": "#FFD700"
+            }
+          },
+          {
+            "id": "options",
+            "position": {
+              "x": 50,
+              "y": 650,
+              "w": 980,
+              "h": 900
+            },
+            "content": {
+              "type": "icon_list",
+              "items": [
+                {
+                  "icon": "piggy_bank",
+                  "text": "PPF - 7.1% Returns",
+                  "detail": "Tax-free maturity"
+                },
+                {
+                  "icon": "shield",
+                  "text": "Life Insurance",
+                  "detail": "Protection + Savings"
+                },
+                {
+                  "icon": "chart",
+                  "text": "ELSS Funds",
+                  "detail": "3-year lock-in, Market returns"
+                },
+                {
+                  "icon": "building",
+                  "text": "Home Loan Principal",
+                  "detail": "Upto \u20b91.5L deduction"
+                },
+                {
+                  "icon": "graduation",
+                  "text": "Children Education",
+                  "detail": "Tuition fees eligible"
+                }
+              ],
+              "fontSize": 56
+            }
+          },
+          {
+            "id": "cta",
+            "position": {
+              "x": 0,
+              "y": 1550,
+              "w": 1080,
+              "h": 150
+            },
+            "content": {
+              "type": "button",
+              "text": "Plan Your Taxes Now!",
+              "fontSize": 64,
+              "fontWeight": "bold"
+            }
+          },
+          {
+            "id": "branding",
+            "position": {
+              "x": 0,
+              "y": 1720,
+              "w": 1080,
+              "h": 200
+            },
+            "content": {
+              "type": "footer",
+              "brandName": "Wealth Creators",
+              "fontSize": 42
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#1A73E8",
+        "secondary": "#34A853",
+        "accent": "#FFD700",
+        "background": "gradient_blue_green",
+        "text": "#FFFFFF"
+      },
+      "visualElements": {
+        "icons": "flat_style",
+        "borders": "rounded_corners",
+        "shadows": "soft"
+      }
+    },
+    {
+      "type": "investment_tip",
+      "advisorId": "ADV_001",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "style": "card_based",
+        "sections": [
+          {
+            "id": "header",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 300
+            },
+            "content": {
+              "type": "label",
+              "text": "\ud83d\udca1 Investment Tip",
+              "fontSize": 72,
+              "fontWeight": "semibold"
+            }
+          },
+          {
+            "id": "card",
+            "position": {
+              "x": 50,
+              "y": 350,
+              "w": 980,
+              "h": 1200
+            },
+            "content": {
+              "type": "tip_card",
+              "title": "Start Early, Benefit More",
+              "titleFontSize": 96,
+              "content": "Starting SIP at 25 vs 35 can double your corpus",
+              "contentFontSize": 56,
+              "visual": "compound_growth_chart",
+              "visualPosition": "center"
+            }
+          },
+          {
+            "id": "footer",
+            "position": {
+              "x": 0,
+              "y": 1600,
+              "w": 1080,
+              "h": 320
+            },
+            "content": {
+              "type": "branding_cta",
+              "cta": "Learn More \u2192",
+              "brandName": "Wealth Creators",
+              "fontSize": 64
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#1A73E8",
+        "secondary": "#34A853",
+        "background": "gradient_warm",
+        "cardBackground": "#FFFFFF",
+        "text": "#333333"
+      },
+      "animations": {
+        "card": "slide_up",
+        "visual": "fade_in"
+      }
+    },
+    {
+      "type": "educational",
+      "advisorId": "ADV_001",
+      "segment": "Premium",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "style": "educational_flow",
+        "sections": [
+          {
+            "id": "title",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 400
+            },
+            "content": {
+              "type": "title",
+              "text": "Alternative Investment Funds",
+              "fontSize": 96,
+              "fontWeight": "bold"
+            }
+          },
+          {
+            "id": "visual",
+            "position": {
+              "x": 100,
+              "y": 450,
+              "w": 880,
+              "h": 500
+            },
+            "content": {
+              "type": "illustration",
+              "style": "sophisticated_chart"
+            }
+          },
+          {
+            "id": "points",
+            "position": {
+              "x": 50,
+              "y": 1000,
+              "w": 980,
+              "h": 600
+            },
+            "content": {
+              "type": "bullet_points",
+              "points": [
+                "Minimum investment: \u20b91 Crore",
+                "Category I, II, III explained",
+                "Tax implications",
+                "Risk-return profile"
+              ],
+              "fontSize": 56,
+              "bulletStyle": "checkmark"
+            }
+          },
+          {
+            "id": "footer",
+            "position": {
+              "x": 0,
+              "y": 1650,
+              "w": 1080,
+              "h": 270
+            },
+            "content": {
+              "type": "branding",
+              "brandName": "Wealth Creators",
+              "tagline": "Your Learning Partner",
+              "fontSize": 42
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#1A1A2E",
+        "secondary": "#16213E",
+        "accent": "#FFD700",
+        "background": "#F5F5F5",
+        "text": "#333333"
+      },
+      "complexity": "high"
+    },
+    {
+      "type": "motivational_quote",
+      "advisorId": "ADV_001",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "style": "centered_quote",
+        "sections": [
+          {
+            "id": "background",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 1920
+            },
+            "content": {
+              "type": "gradient_background",
+              "style": "sunrise"
+            }
+          },
+          {
+            "id": "quote",
+            "position": {
+              "x": 100,
+              "y": 600,
+              "w": 880,
+              "h": 600
+            },
+            "content": {
+              "type": "quote",
+              "text": "The best time to plant a tree was 20 years ago. The second best time is now.",
+              "fontSize": 72,
+              "fontStyle": "italic",
+              "alignment": "center"
+            }
+          },
+          {
+            "id": "author",
+            "position": {
+              "x": 100,
+              "y": 1250,
+              "w": 880,
+              "h": 100
+            },
+            "content": {
+              "type": "attribution",
+              "text": "- Chinese Proverb",
+              "fontSize": 56,
+              "alignment": "right"
+            }
+          },
+          {
+            "id": "context",
+            "position": {
+              "x": 100,
+              "y": 1400,
+              "w": 880,
+              "h": 150
+            },
+            "content": {
+              "type": "context",
+              "text": "Start investing today",
+              "fontSize": 64,
+              "fontWeight": "bold",
+              "alignment": "center"
+            }
+          },
+          {
+            "id": "branding",
+            "position": {
+              "x": 0,
+              "y": 1750,
+              "w": 1080,
+              "h": 170
+            },
+            "content": {
+              "type": "minimal_branding",
+              "brandName": "Wealth Creators",
+              "fontSize": 42
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#FFFFFF",
+        "text": "#FFFFFF",
+        "background": "gradient",
+        "overlay": "rgba(0,0,0,0.3)"
+      },
+      "effects": {
+        "blur": "background",
+        "vignette": true
+      }
+    },
+    {
+      "type": "data_visualization",
+      "advisorId": "ADV_001",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "style": "data_focused",
+        "sections": [
+          {
+            "id": "title",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 300
+            },
+            "content": {
+              "type": "title",
+              "text": "Sector Performance",
+              "fontSize": 96,
+              "fontWeight": "bold"
+            }
+          },
+          {
+            "id": "main_chart",
+            "position": {
+              "x": 50,
+              "y": 350,
+              "w": 980,
+              "h": 800
+            },
+            "content": {
+              "type": "chart",
+              "chartType": "treemap",
+              "data": {
+                "children": [
+                  {
+                    "name": "Gainers",
+                    "children": [
+                      {
+                        "name": "Information Technology",
+                        "value": 4.41,
+                        "change": 4.41
+                      },
+                      {
+                        "name": "Banking",
+                        "value": 2.1,
+                        "change": 2.1
+                      },
+                      {
+                        "name": "PSU Banks",
+                        "value": 1.8,
+                        "change": 1.8
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Losers",
+                    "children": [
+                      {
+                        "name": "Auto",
+                        "value": 4.8,
+                        "change": -4.8
+                      },
+                      {
+                        "name": "Pharma",
+                        "value": 2.7,
+                        "change": -2.7
+                      },
+                      {
+                        "name": "FMCG",
+                        "value": 1.2,
+                        "change": -1.2
+                      }
+                    ]
+                  }
+                ]
+              },
+              "colorCoding": "performance_based"
+            }
+          },
+          {
+            "id": "legend",
+            "position": {
+              "x": 100,
+              "y": 1200,
+              "w": 880,
+              "h": 200
+            },
+            "content": {
+              "type": "legend",
+              "items": [
+                {
+                  "color": "#00C851",
+                  "label": "Top Gainers"
+                },
+                {
+                  "color": "#ffbb33",
+                  "label": "Moderate"
+                },
+                {
+                  "color": "#ff4444",
+                  "label": "Losers"
+                }
+              ],
+              "fontSize": 56
+            }
+          },
+          {
+            "id": "insight",
+            "position": {
+              "x": 50,
+              "y": 1450,
+              "w": 980,
+              "h": 200
+            },
+            "content": {
+              "type": "insight",
+              "text": "IT outperforming, banking recovering, auto and pharma under pressure",
+              "fontSize": 56,
+              "icon": "lightbulb"
+            }
+          },
+          {
+            "id": "footer",
+            "position": {
+              "x": 0,
+              "y": 1700,
+              "w": 1080,
+              "h": 220
+            },
+            "content": {
+              "type": "data_footer",
+              "source": "Live market data",
+              "brandName": "Wealth Creators",
+              "fontSize": 42
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#1A73E8",
+        "positive": "#00C851",
+        "negative": "#ff4444",
+        "neutral": "#ffbb33",
+        "background": "#F5F5F5",
+        "text": "#333333"
+      },
+      "interactivity": {
+        "hover": "show_details",
+        "tap": "expand_sector"
+      }
+    },
+    {
+      "type": "market_dashboard",
+      "advisorId": "ADV_002",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "grid": "3x4",
+        "sections": [
+          {
+            "id": "header",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 400
+            },
+            "content": {
+              "type": "text",
+              "text": "Market Update",
+              "fontSize": 96,
+              "fontWeight": "bold",
+              "color": "#FF6B6B"
+            }
+          },
+          {
+            "id": "indices",
+            "position": {
+              "x": 50,
+              "y": 450,
+              "w": 980,
+              "h": 500
+            },
+            "content": {
+              "type": "data_cards",
+              "cards": [
+                {
+                  "title": "SENSEX",
+                  "value": "82690",
+                  "change": "+310",
+                  "changePercent": "0.38%"
+                },
+                {
+                  "title": "NIFTY 50",
+                  "value": "25330.25",
+                  "change": "+90",
+                  "changePercent": "0.36%"
+                }
+              ]
+            }
+          },
+          {
+            "id": "sectors",
+            "position": {
+              "x": 50,
+              "y": 1000,
+              "w": 980,
+              "h": 600
+            },
+            "content": {
+              "type": "chart",
+              "chartType": "horizontal_bar",
+              "data": [
+                {
+                  "name": "Information Technology",
+                  "value": 4.41,
+                  "color": "#00C851"
+                },
+                {
+                  "name": "Banking",
+                  "value": 2.1,
+                  "color": "#00C851"
+                },
+                {
+                  "name": "PSU Banks",
+                  "value": 1.8,
+                  "color": "#00C851"
+                },
+                {
+                  "name": "Auto",
+                  "value": -4.8,
+                  "color": "#ff4444"
+                },
+                {
+                  "name": "Pharma",
+                  "value": -2.7,
+                  "color": "#ff4444"
+                },
+                {
+                  "name": "FMCG",
+                  "value": -1.2,
+                  "color": "#ff4444"
+                }
+              ]
+            }
+          },
+          {
+            "id": "footer",
+            "position": {
+              "x": 0,
+              "y": 1650,
+              "w": 1080,
+              "h": 270
+            },
+            "content": {
+              "type": "branding",
+              "brandName": "Money Matters",
+              "tagline": "Your Financial Growth Partner",
+              "disclaimer": "All investments are subject to market risks. Please read scheme documents carefully before investing.",
+              "fontSize": 42
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#FF6B6B",
+        "secondary": "#4ECDC4",
+        "accent": "#45B7D1",
+        "background": "#FFFFFF",
+        "text": "#333333"
+      },
+      "animations": {
+        "entrance": "fade_in",
+        "dataPoints": "count_up",
+        "charts": "draw_bars"
+      }
+    },
+    {
+      "type": "tax_saving_infographic",
+      "advisorId": "ADV_002",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "style": "vertical_flow",
+        "sections": [
+          {
+            "id": "title",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 350
+            },
+            "content": {
+              "type": "text",
+              "text": "Save Tax Under 80C",
+              "fontSize": 96,
+              "fontWeight": "bold",
+              "alignment": "center"
+            }
+          },
+          {
+            "id": "amount",
+            "position": {
+              "x": 0,
+              "y": 350,
+              "w": 1080,
+              "h": 250
+            },
+            "content": {
+              "type": "highlight",
+              "text": "\u20b91.5 Lakh Limit",
+              "fontSize": 72,
+              "backgroundColor": "#45B7D1"
+            }
+          },
+          {
+            "id": "options",
+            "position": {
+              "x": 50,
+              "y": 650,
+              "w": 980,
+              "h": 900
+            },
+            "content": {
+              "type": "icon_list",
+              "items": [
+                {
+                  "icon": "piggy_bank",
+                  "text": "PPF - 7.1% Returns",
+                  "detail": "Tax-free maturity"
+                },
+                {
+                  "icon": "shield",
+                  "text": "Life Insurance",
+                  "detail": "Protection + Savings"
+                },
+                {
+                  "icon": "chart",
+                  "text": "ELSS Funds",
+                  "detail": "3-year lock-in, Market returns"
+                },
+                {
+                  "icon": "building",
+                  "text": "Home Loan Principal",
+                  "detail": "Upto \u20b91.5L deduction"
+                },
+                {
+                  "icon": "graduation",
+                  "text": "Children Education",
+                  "detail": "Tuition fees eligible"
+                }
+              ],
+              "fontSize": 56
+            }
+          },
+          {
+            "id": "cta",
+            "position": {
+              "x": 0,
+              "y": 1550,
+              "w": 1080,
+              "h": 150
+            },
+            "content": {
+              "type": "button",
+              "text": "Plan Your Taxes Now!",
+              "fontSize": 64,
+              "fontWeight": "bold"
+            }
+          },
+          {
+            "id": "branding",
+            "position": {
+              "x": 0,
+              "y": 1720,
+              "w": 1080,
+              "h": 200
+            },
+            "content": {
+              "type": "footer",
+              "brandName": "Money Matters",
+              "fontSize": 42
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#FF6B6B",
+        "secondary": "#4ECDC4",
+        "accent": "#45B7D1",
+        "background": "gradient_blue_green",
+        "text": "#FFFFFF"
+      },
+      "visualElements": {
+        "icons": "flat_style",
+        "borders": "rounded_corners",
+        "shadows": "soft"
+      }
+    },
+    {
+      "type": "investment_tip",
+      "advisorId": "ADV_002",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "style": "card_based",
+        "sections": [
+          {
+            "id": "header",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 300
+            },
+            "content": {
+              "type": "label",
+              "text": "\ud83d\udca1 Investment Tip",
+              "fontSize": 72,
+              "fontWeight": "semibold"
+            }
+          },
+          {
+            "id": "card",
+            "position": {
+              "x": 50,
+              "y": 350,
+              "w": 980,
+              "h": 1200
+            },
+            "content": {
+              "type": "tip_card",
+              "title": "Emergency Fund First",
+              "titleFontSize": 96,
+              "content": "Keep 6 months expenses before investing",
+              "contentFontSize": 56,
+              "visual": "safety_shield",
+              "visualPosition": "center"
+            }
+          },
+          {
+            "id": "footer",
+            "position": {
+              "x": 0,
+              "y": 1600,
+              "w": 1080,
+              "h": 320
+            },
+            "content": {
+              "type": "branding_cta",
+              "cta": "Learn More \u2192",
+              "brandName": "Money Matters",
+              "fontSize": 64
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#FF6B6B",
+        "secondary": "#4ECDC4",
+        "background": "gradient_warm",
+        "cardBackground": "#FFFFFF",
+        "text": "#333333"
+      },
+      "animations": {
+        "card": "slide_up",
+        "visual": "fade_in"
+      }
+    },
+    {
+      "type": "educational",
+      "advisorId": "ADV_002",
+      "segment": "Gold",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "style": "educational_flow",
+        "sections": [
+          {
+            "id": "title",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 400
+            },
+            "content": {
+              "type": "title",
+              "text": "Mutual Fund Basics",
+              "fontSize": 96,
+              "fontWeight": "bold"
+            }
+          },
+          {
+            "id": "visual",
+            "position": {
+              "x": 100,
+              "y": 450,
+              "w": 880,
+              "h": 500
+            },
+            "content": {
+              "type": "illustration",
+              "style": "simple_infographic"
+            }
+          },
+          {
+            "id": "points",
+            "position": {
+              "x": 50,
+              "y": 1000,
+              "w": 980,
+              "h": 600
+            },
+            "content": {
+              "type": "bullet_points",
+              "points": [
+                "Types: Equity, Debt, Hybrid",
+                "SIP vs Lumpsum",
+                "Expense ratios matter",
+                "Past performance \u2260 Future"
+              ],
+              "fontSize": 56,
+              "bulletStyle": "checkmark"
+            }
+          },
+          {
+            "id": "footer",
+            "position": {
+              "x": 0,
+              "y": 1650,
+              "w": 1080,
+              "h": 270
+            },
+            "content": {
+              "type": "branding",
+              "brandName": "Money Matters",
+              "tagline": "Your Learning Partner",
+              "fontSize": 42
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#FF6B6B",
+        "secondary": "#4ECDC4",
+        "accent": "#45B7D1",
+        "background": "#FFFFFF",
+        "text": "#333333"
+      },
+      "complexity": "medium"
+    },
+    {
+      "type": "motivational_quote",
+      "advisorId": "ADV_002",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "style": "centered_quote",
+        "sections": [
+          {
+            "id": "background",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 1920
+            },
+            "content": {
+              "type": "gradient_background",
+              "style": "sunrise"
+            }
+          },
+          {
+            "id": "quote",
+            "position": {
+              "x": 100,
+              "y": 600,
+              "w": 880,
+              "h": 600
+            },
+            "content": {
+              "type": "quote",
+              "text": "Compound interest is the eighth wonder of the world.",
+              "fontSize": 72,
+              "fontStyle": "italic",
+              "alignment": "center"
+            }
+          },
+          {
+            "id": "author",
+            "position": {
+              "x": 100,
+              "y": 1250,
+              "w": 880,
+              "h": 100
+            },
+            "content": {
+              "type": "attribution",
+              "text": "- Albert Einstein",
+              "fontSize": 56,
+              "alignment": "right"
+            }
+          },
+          {
+            "id": "context",
+            "position": {
+              "x": 100,
+              "y": 1400,
+              "w": 880,
+              "h": 150
+            },
+            "content": {
+              "type": "context",
+              "text": "Power of compounding",
+              "fontSize": 64,
+              "fontWeight": "bold",
+              "alignment": "center"
+            }
+          },
+          {
+            "id": "branding",
+            "position": {
+              "x": 0,
+              "y": 1750,
+              "w": 1080,
+              "h": 170
+            },
+            "content": {
+              "type": "minimal_branding",
+              "brandName": "Money Matters",
+              "fontSize": 42
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#FFFFFF",
+        "text": "#FFFFFF",
+        "background": "gradient",
+        "overlay": "rgba(0,0,0,0.3)"
+      },
+      "effects": {
+        "blur": "background",
+        "vignette": true
+      }
+    },
+    {
+      "type": "data_visualization",
+      "advisorId": "ADV_002",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "style": "data_focused",
+        "sections": [
+          {
+            "id": "title",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 300
+            },
+            "content": {
+              "type": "title",
+              "text": "Sector Performance",
+              "fontSize": 96,
+              "fontWeight": "bold"
+            }
+          },
+          {
+            "id": "main_chart",
+            "position": {
+              "x": 50,
+              "y": 350,
+              "w": 980,
+              "h": 800
+            },
+            "content": {
+              "type": "chart",
+              "chartType": "treemap",
+              "data": {
+                "children": [
+                  {
+                    "name": "Gainers",
+                    "children": [
+                      {
+                        "name": "Information Technology",
+                        "value": 4.41,
+                        "change": 4.41
+                      },
+                      {
+                        "name": "Banking",
+                        "value": 2.1,
+                        "change": 2.1
+                      },
+                      {
+                        "name": "PSU Banks",
+                        "value": 1.8,
+                        "change": 1.8
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Losers",
+                    "children": [
+                      {
+                        "name": "Auto",
+                        "value": 4.8,
+                        "change": -4.8
+                      },
+                      {
+                        "name": "Pharma",
+                        "value": 2.7,
+                        "change": -2.7
+                      },
+                      {
+                        "name": "FMCG",
+                        "value": 1.2,
+                        "change": -1.2
+                      }
+                    ]
+                  }
+                ]
+              },
+              "colorCoding": "performance_based"
+            }
+          },
+          {
+            "id": "legend",
+            "position": {
+              "x": 100,
+              "y": 1200,
+              "w": 880,
+              "h": 200
+            },
+            "content": {
+              "type": "legend",
+              "items": [
+                {
+                  "color": "#00C851",
+                  "label": "Top Gainers"
+                },
+                {
+                  "color": "#ffbb33",
+                  "label": "Moderate"
+                },
+                {
+                  "color": "#ff4444",
+                  "label": "Losers"
+                }
+              ],
+              "fontSize": 56
+            }
+          },
+          {
+            "id": "insight",
+            "position": {
+              "x": 50,
+              "y": 1450,
+              "w": 980,
+              "h": 200
+            },
+            "content": {
+              "type": "insight",
+              "text": "IT outperforming, banking recovering, auto and pharma under pressure",
+              "fontSize": 56,
+              "icon": "lightbulb"
+            }
+          },
+          {
+            "id": "footer",
+            "position": {
+              "x": 0,
+              "y": 1700,
+              "w": 1080,
+              "h": 220
+            },
+            "content": {
+              "type": "data_footer",
+              "source": "Live market data",
+              "brandName": "Money Matters",
+              "fontSize": 42
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#FF6B6B",
+        "positive": "#00C851",
+        "negative": "#ff4444",
+        "neutral": "#ffbb33",
+        "background": "#F5F5F5",
+        "text": "#333333"
+      },
+      "interactivity": {
+        "hover": "show_details",
+        "tap": "expand_sector"
+      }
+    },
+    {
+      "type": "market_dashboard",
+      "advisorId": "ADV_003",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "grid": "3x4",
+        "sections": [
+          {
+            "id": "header",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 400
+            },
+            "content": {
+              "type": "text",
+              "text": "Market Update",
+              "fontSize": 96,
+              "fontWeight": "bold",
+              "color": "#008080"
+            }
+          },
+          {
+            "id": "indices",
+            "position": {
+              "x": 50,
+              "y": 450,
+              "w": 980,
+              "h": 500
+            },
+            "content": {
+              "type": "data_cards",
+              "cards": [
+                {
+                  "title": "SENSEX",
+                  "value": "82690",
+                  "change": "+310",
+                  "changePercent": "0.38%"
+                },
+                {
+                  "title": "NIFTY 50",
+                  "value": "25330.25",
+                  "change": "+90",
+                  "changePercent": "0.36%"
+                }
+              ]
+            }
+          },
+          {
+            "id": "sectors",
+            "position": {
+              "x": 50,
+              "y": 1000,
+              "w": 980,
+              "h": 600
+            },
+            "content": {
+              "type": "chart",
+              "chartType": "horizontal_bar",
+              "data": [
+                {
+                  "name": "Information Technology",
+                  "value": 4.41,
+                  "color": "#00C851"
+                },
+                {
+                  "name": "Banking",
+                  "value": 2.1,
+                  "color": "#00C851"
+                },
+                {
+                  "name": "PSU Banks",
+                  "value": 1.8,
+                  "color": "#00C851"
+                },
+                {
+                  "name": "Auto",
+                  "value": -4.8,
+                  "color": "#ff4444"
+                },
+                {
+                  "name": "Pharma",
+                  "value": -2.7,
+                  "color": "#ff4444"
+                },
+                {
+                  "name": "FMCG",
+                  "value": -1.2,
+                  "color": "#ff4444"
+                }
+              ]
+            }
+          },
+          {
+            "id": "footer",
+            "position": {
+              "x": 0,
+              "y": 1650,
+              "w": 1080,
+              "h": 270
+            },
+            "content": {
+              "type": "branding",
+              "brandName": "Smart Invest",
+              "tagline": "Smart Investing Made Simple",
+              "disclaimer": "Investment advice is personalized. Please consult before making investment decisions.",
+              "fontSize": 42
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#008080",
+        "secondary": "#F0F8FF",
+        "accent": "#20B2AA",
+        "background": "#FFFFFF",
+        "text": "#333333"
+      },
+      "animations": {
+        "entrance": "fade_in",
+        "dataPoints": "count_up",
+        "charts": "draw_bars"
+      }
+    },
+    {
+      "type": "tax_saving_infographic",
+      "advisorId": "ADV_003",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "style": "vertical_flow",
+        "sections": [
+          {
+            "id": "title",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 350
+            },
+            "content": {
+              "type": "text",
+              "text": "Save Tax Under 80C",
+              "fontSize": 96,
+              "fontWeight": "bold",
+              "alignment": "center"
+            }
+          },
+          {
+            "id": "amount",
+            "position": {
+              "x": 0,
+              "y": 350,
+              "w": 1080,
+              "h": 250
+            },
+            "content": {
+              "type": "highlight",
+              "text": "\u20b91.5 Lakh Limit",
+              "fontSize": 72,
+              "backgroundColor": "#20B2AA"
+            }
+          },
+          {
+            "id": "options",
+            "position": {
+              "x": 50,
+              "y": 650,
+              "w": 980,
+              "h": 900
+            },
+            "content": {
+              "type": "icon_list",
+              "items": [
+                {
+                  "icon": "piggy_bank",
+                  "text": "PPF - 7.1% Returns",
+                  "detail": "Tax-free maturity"
+                },
+                {
+                  "icon": "shield",
+                  "text": "Life Insurance",
+                  "detail": "Protection + Savings"
+                },
+                {
+                  "icon": "chart",
+                  "text": "ELSS Funds",
+                  "detail": "3-year lock-in, Market returns"
+                },
+                {
+                  "icon": "building",
+                  "text": "Home Loan Principal",
+                  "detail": "Upto \u20b91.5L deduction"
+                },
+                {
+                  "icon": "graduation",
+                  "text": "Children Education",
+                  "detail": "Tuition fees eligible"
+                }
+              ],
+              "fontSize": 56
+            }
+          },
+          {
+            "id": "cta",
+            "position": {
+              "x": 0,
+              "y": 1550,
+              "w": 1080,
+              "h": 150
+            },
+            "content": {
+              "type": "button",
+              "text": "Plan Your Taxes Now!",
+              "fontSize": 64,
+              "fontWeight": "bold"
+            }
+          },
+          {
+            "id": "branding",
+            "position": {
+              "x": 0,
+              "y": 1720,
+              "w": 1080,
+              "h": 200
+            },
+            "content": {
+              "type": "footer",
+              "brandName": "Smart Invest",
+              "fontSize": 42
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#008080",
+        "secondary": "#F0F8FF",
+        "accent": "#20B2AA",
+        "background": "gradient_blue_green",
+        "text": "#FFFFFF"
+      },
+      "visualElements": {
+        "icons": "flat_style",
+        "borders": "rounded_corners",
+        "shadows": "soft"
+      }
+    },
+    {
+      "type": "investment_tip",
+      "advisorId": "ADV_003",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "style": "card_based",
+        "sections": [
+          {
+            "id": "header",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 300
+            },
+            "content": {
+              "type": "label",
+              "text": "\ud83d\udca1 Investment Tip",
+              "fontSize": 72,
+              "fontWeight": "semibold"
+            }
+          },
+          {
+            "id": "card",
+            "position": {
+              "x": 50,
+              "y": 350,
+              "w": 980,
+              "h": 1200
+            },
+            "content": {
+              "type": "tip_card",
+              "title": "Start Early, Benefit More",
+              "titleFontSize": 96,
+              "content": "Starting SIP at 25 vs 35 can double your corpus",
+              "contentFontSize": 56,
+              "visual": "compound_growth_chart",
+              "visualPosition": "center"
+            }
+          },
+          {
+            "id": "footer",
+            "position": {
+              "x": 0,
+              "y": 1600,
+              "w": 1080,
+              "h": 320
+            },
+            "content": {
+              "type": "branding_cta",
+              "cta": "Learn More \u2192",
+              "brandName": "Smart Invest",
+              "fontSize": 64
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#008080",
+        "secondary": "#F0F8FF",
+        "background": "gradient_warm",
+        "cardBackground": "#FFFFFF",
+        "text": "#333333"
+      },
+      "animations": {
+        "card": "slide_up",
+        "visual": "fade_in"
+      }
+    },
+    {
+      "type": "educational",
+      "advisorId": "ADV_003",
+      "segment": "Silver",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "style": "educational_flow",
+        "sections": [
+          {
+            "id": "title",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 400
+            },
+            "content": {
+              "type": "title",
+              "text": "Start Your Investment Journey",
+              "fontSize": 96,
+              "fontWeight": "bold"
+            }
+          },
+          {
+            "id": "visual",
+            "position": {
+              "x": 100,
+              "y": 450,
+              "w": 880,
+              "h": 500
+            },
+            "content": {
+              "type": "illustration",
+              "style": "step_by_step"
+            }
+          },
+          {
+            "id": "points",
+            "position": {
+              "x": 50,
+              "y": 1000,
+              "w": 980,
+              "h": 600
+            },
+            "content": {
+              "type": "bullet_points",
+              "points": [
+                "Open Demat account",
+                "Start with \u20b9500 SIP",
+                "Choose diversified funds",
+                "Stay invested for long term"
+              ],
+              "fontSize": 56,
+              "bulletStyle": "checkmark"
+            }
+          },
+          {
+            "id": "footer",
+            "position": {
+              "x": 0,
+              "y": 1650,
+              "w": 1080,
+              "h": 270
+            },
+            "content": {
+              "type": "branding",
+              "brandName": "Smart Invest",
+              "tagline": "Your Learning Partner",
+              "fontSize": 42
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#008080",
+        "secondary": "#F0F8FF",
+        "accent": "#20B2AA",
+        "background": "gradient_light",
+        "text": "#333333"
+      },
+      "complexity": "low"
+    },
+    {
+      "type": "motivational_quote",
+      "advisorId": "ADV_003",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "style": "centered_quote",
+        "sections": [
+          {
+            "id": "background",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 1920
+            },
+            "content": {
+              "type": "gradient_background",
+              "style": "sunrise"
+            }
+          },
+          {
+            "id": "quote",
+            "position": {
+              "x": 100,
+              "y": 600,
+              "w": 880,
+              "h": 600
+            },
+            "content": {
+              "type": "quote",
+              "text": "The best time to plant a tree was 20 years ago. The second best time is now.",
+              "fontSize": 72,
+              "fontStyle": "italic",
+              "alignment": "center"
+            }
+          },
+          {
+            "id": "author",
+            "position": {
+              "x": 100,
+              "y": 1250,
+              "w": 880,
+              "h": 100
+            },
+            "content": {
+              "type": "attribution",
+              "text": "- Chinese Proverb",
+              "fontSize": 56,
+              "alignment": "right"
+            }
+          },
+          {
+            "id": "context",
+            "position": {
+              "x": 100,
+              "y": 1400,
+              "w": 880,
+              "h": 150
+            },
+            "content": {
+              "type": "context",
+              "text": "Start investing today",
+              "fontSize": 64,
+              "fontWeight": "bold",
+              "alignment": "center"
+            }
+          },
+          {
+            "id": "branding",
+            "position": {
+              "x": 0,
+              "y": 1750,
+              "w": 1080,
+              "h": 170
+            },
+            "content": {
+              "type": "minimal_branding",
+              "brandName": "Smart Invest",
+              "fontSize": 42
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#FFFFFF",
+        "text": "#FFFFFF",
+        "background": "gradient",
+        "overlay": "rgba(0,0,0,0.3)"
+      },
+      "effects": {
+        "blur": "background",
+        "vignette": true
+      }
+    },
+    {
+      "type": "data_visualization",
+      "advisorId": "ADV_003",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "fontStandards": {
+        "headline": {
+          "size": 96,
+          "weight": "bold",
+          "position": "top 20%",
+          "purpose": "Primary hook, must be readable in 1 second"
+        },
+        "subheading": {
+          "size": 72,
+          "weight": "semibold",
+          "position": "top 30-40%",
+          "purpose": "Supporting information"
+        },
+        "body_text": {
+          "size": 56,
+          "weight": "regular",
+          "position": "middle 40-60%",
+          "purpose": "Key details and data"
+        },
+        "call_to_action": {
+          "size": 64,
+          "weight": "bold",
+          "position": "bottom 30%",
+          "purpose": "Action trigger"
+        },
+        "footer_disclaimer": {
+          "size": 42,
+          "weight": "light",
+          "position": "bottom 10%",
+          "purpose": "Compliance text (still readable)"
+        }
+      },
+      "layout": {
+        "style": "data_focused",
+        "sections": [
+          {
+            "id": "title",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 300
+            },
+            "content": {
+              "type": "title",
+              "text": "Sector Performance",
+              "fontSize": 96,
+              "fontWeight": "bold"
+            }
+          },
+          {
+            "id": "main_chart",
+            "position": {
+              "x": 50,
+              "y": 350,
+              "w": 980,
+              "h": 800
+            },
+            "content": {
+              "type": "chart",
+              "chartType": "treemap",
+              "data": {
+                "children": [
+                  {
+                    "name": "Gainers",
+                    "children": [
+                      {
+                        "name": "Information Technology",
+                        "value": 4.41,
+                        "change": 4.41
+                      },
+                      {
+                        "name": "Banking",
+                        "value": 2.1,
+                        "change": 2.1
+                      },
+                      {
+                        "name": "PSU Banks",
+                        "value": 1.8,
+                        "change": 1.8
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Losers",
+                    "children": [
+                      {
+                        "name": "Auto",
+                        "value": 4.8,
+                        "change": -4.8
+                      },
+                      {
+                        "name": "Pharma",
+                        "value": 2.7,
+                        "change": -2.7
+                      },
+                      {
+                        "name": "FMCG",
+                        "value": 1.2,
+                        "change": -1.2
+                      }
+                    ]
+                  }
+                ]
+              },
+              "colorCoding": "performance_based"
+            }
+          },
+          {
+            "id": "legend",
+            "position": {
+              "x": 100,
+              "y": 1200,
+              "w": 880,
+              "h": 200
+            },
+            "content": {
+              "type": "legend",
+              "items": [
+                {
+                  "color": "#00C851",
+                  "label": "Top Gainers"
+                },
+                {
+                  "color": "#ffbb33",
+                  "label": "Moderate"
+                },
+                {
+                  "color": "#ff4444",
+                  "label": "Losers"
+                }
+              ],
+              "fontSize": 56
+            }
+          },
+          {
+            "id": "insight",
+            "position": {
+              "x": 50,
+              "y": 1450,
+              "w": 980,
+              "h": 200
+            },
+            "content": {
+              "type": "insight",
+              "text": "IT outperforming, banking recovering, auto and pharma under pressure",
+              "fontSize": 56,
+              "icon": "lightbulb"
+            }
+          },
+          {
+            "id": "footer",
+            "position": {
+              "x": 0,
+              "y": 1700,
+              "w": 1080,
+              "h": 220
+            },
+            "content": {
+              "type": "data_footer",
+              "source": "Live market data",
+              "brandName": "Smart Invest",
+              "fontSize": 42
+            }
+          }
+        ]
+      },
+      "colorScheme": {
+        "primary": "#008080",
+        "positive": "#00C851",
+        "negative": "#ff4444",
+        "neutral": "#ffbb33",
+        "background": "#F5F5F5",
+        "text": "#333333"
+      },
+      "interactivity": {
+        "hover": "show_details",
+        "tap": "expand_sector"
+      }
+    }
+  ],
+  "summary": {
+    "designsCreated": 18,
+    "designTypes": [
+      "market_dashboard",
+      "tax_saving_infographic",
+      "educational",
+      "data_visualization",
+      "motivational_quote",
+      "investment_tip"
+    ],
+    "advisorsCovered": [
+      "ADV_001",
+      "ADV_002",
+      "ADV_003"
+    ],
+    "customizationLevel": "High",
+    "fontHierarchy": "Mobile-optimized (42-96px range)"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "success": true,
+  "timestamp": "2025-10-02T15:46:59Z",
+  "sessionId": "session_20251002_154659",
+  "advisorCount": 4,
+  "activeSubscriptions": 4,
+  "advisors": [
+    {
+      "advisorId": "ADV001",
+      "personalInfo": {
+        "name": "Shruti Petkar",
+        "phone": "919673758777",
+        "email": "shruti.petkar@finadvise.com",
+        "arn": "ARN-125847"
+      },
+      "businessInfo": {
+        "advisorType": "Premium"
+      },
+      "segmentInfo": {
+        "primarySegment": "Premium"
+      },
+      "customization": {
+        "brandName": "Shruti Petkar",
+        "logoUrl": "/assets/logos/shruti-petkar.png",
+        "brandColors": {
+          "primary": "#1B365D",
+          "secondary": "#0077B5"
+        },
+        "tagline": "Building Wealth, Creating Trust"
+      },
+      "preferences": {
+        "contentTone": "professional",
+        "approvalMode": "manual",
+        "deliveryTime": "09:00",
+        "timezone": "Asia/Kolkata"
+      },
+      "subscription": {
+        "plan": "Premium",
+        "status": "Active"
+      }
+    },
+    {
+      "advisorId": "ADV002",
+      "personalInfo": {
+        "name": "Vidyadhar Petkar",
+        "phone": "918975758513",
+        "email": "vidyadhar.petkar@finadvise.com",
+        "arn": "ARN-138924"
+      },
+      "businessInfo": {
+        "advisorType": "Gold"
+      },
+      "segmentInfo": {
+        "primarySegment": "Gold"
+      },
+      "customization": {
+        "brandName": "Vidyadhar Petkar",
+        "logoUrl": "/assets/logos/vidyadhar-petkar.png",
+        "brandColors": {
+          "primary": "#2E8B57",
+          "secondary": "#228B22"
+        },
+        "tagline": "Your Financial Growth Partner"
+      },
+      "preferences": {
+        "contentTone": "analytical",
+        "approvalMode": "auto",
+        "deliveryTime": "09:30",
+        "timezone": "Asia/Kolkata"
+      },
+      "subscription": {
+        "plan": "Gold",
+        "status": "Active"
+      }
+    },
+    {
+      "advisorId": "ADV003",
+      "personalInfo": {
+        "name": "Shriya Vallabh Petkar",
+        "phone": "919765071249",
+        "email": "shriya.vallabh@finadvise.com",
+        "arn": "ARN-147852"
+      },
+      "businessInfo": {
+        "advisorType": "Premium"
+      },
+      "segmentInfo": {
+        "primarySegment": "Premium"
+      },
+      "customization": {
+        "brandName": "Shriya Vallabh Petkar",
+        "logoUrl": "/assets/logos/shriya-vallabh.png",
+        "brandColors": {
+          "primary": "#8B4513",
+          "secondary": "#CD853F"
+        },
+        "tagline": "Empowering Financial Decisions"
+      },
+      "preferences": {
+        "contentTone": "educational",
+        "approvalMode": "manual",
+        "deliveryTime": "10:00",
+        "timezone": "Asia/Kolkata"
+      },
+      "subscription": {
+        "plan": "Premium",
+        "status": "Active"
+      }
+    },
+    {
+      "advisorId": "ADV004",
+      "personalInfo": {
+        "name": "Avalok Langer",
+        "phone": "919022810769",
+        "email": "avalok.langer@finadvise.com",
+        "arn": "ARN-169741"
+      },
+      "businessInfo": {
+        "advisorType": "Silver"
+      },
+      "segmentInfo": {
+        "primarySegment": "Silver"
+      },
+      "customization": {
+        "brandName": "Avalok Langer",
+        "logoUrl": "/assets/logos/avalok-langer.png",
+        "brandColors": {
+          "primary": "#1A73E8",
+          "secondary": "#34A853"
+        },
+        "tagline": "Smart Investments, Secure Future"
+      },
+      "preferences": {
+        "contentTone": "modern",
+        "approvalMode": "auto",
+        "deliveryTime": "09:00",
+        "timezone": "Asia/Kolkata"
+      },
+      "subscription": {
+        "plan": "Silver",
+        "status": "Active"
+      }
+    }
+  ],
+  "metadata": {
+    "activeSubscriptions": 4,
+    "premiumAdvisors": 2,
+    "goldAdvisors": 1,
+    "silverAdvisors": 1,
+    "customBranding": 4,
+    "dataQuality": 1.0,
+    "manualApproval": 2,
+    "autoApproval": 2
+  },
+  "segmentBreakdown": {
+    "Premium": 2,
+    "Gold": 1,
+    "Silver": 1
+  },
+  "warnings": []
+}

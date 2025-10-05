@@ -1,0 +1,80 @@
+{
+  "sessionId": "session_1759383378",
+  "timestamp": "2025-10-02T06:34:00.436Z",
+  "totalAdvisors": 4,
+  "totalPosts": 8,
+  "avgViralityScore": 9.56,
+  "advisorBreakdown": [
+    {
+      "advisorId": "ADV001",
+      "advisorName": "Shruti Petkar",
+      "segment": "Premium",
+      "postsGenerated": 2,
+      "avgViralityScore": 9.65,
+      "minScore": 9.5,
+      "maxScore": 9.8,
+      "formulas": [
+        "custom_segment_tailored",
+        "warikoo_personal_loss"
+      ]
+    },
+    {
+      "advisorId": "ADV002",
+      "advisorName": "Vidyadhar Petkar",
+      "segment": "Gold",
+      "postsGenerated": 2,
+      "avgViralityScore": 9.5,
+      "minScore": 9.5,
+      "maxScore": 9.5,
+      "formulas": [
+        "warikoo_personal_loss",
+        "custom_segment_tailored"
+      ]
+    },
+    {
+      "advisorId": "ADV003",
+      "advisorName": "Shriya Vallabh Petkar",
+      "segment": "Premium",
+      "postsGenerated": 2,
+      "avgViralityScore": 9.6,
+      "minScore": 9.5,
+      "maxScore": 9.7,
+      "formulas": [
+        "custom_segment_tailored",
+        "warikoo_personal_loss"
+      ]
+    },
+    {
+      "advisorId": "ADV004",
+      "advisorName": "Avalok Langer",
+      "segment": "Silver",
+      "postsGenerated": 2,
+      "avgViralityScore": 9.5,
+      "minScore": 9.2,
+      "maxScore": 9.8,
+      "formulas": [
+        "custom_segment_tailored",
+        "warikoo_underdog"
+      ]
+    }
+  ],
+  "formulasUsed": {
+    "warikoo_personal_loss": 3,
+    "warikoo_underdog": 1,
+    "ranade_analogy": 0,
+    "shrivastava_controversy": 0,
+    "custom_segment_tailored": 4
+  },
+  "outputLocations": {
+    "json": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/linkedin/json",
+    "text": "/Users/shriyavallabh/Desktop/mvp/output/session_1759383378/linkedin/text"
+  },
+  "grammy_certification": "APPROVED",
+  "grammy_analysis": {
+    "minimum_required": 8,
+    "achieved": 9.56,
+    "status": "✅ GRAMMY-LEVEL CERTIFIED",
+    "allPostsAbove8": true,
+    "postsBelow8": 0
+  }
+}

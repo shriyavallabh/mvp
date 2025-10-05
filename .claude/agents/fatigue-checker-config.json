@@ -1,0 +1,121 @@
+{
+  "agent_name": "Fatigue Checker",
+  "version": "1.0.0",
+  "description": "Prevents audience fatigue by ensuring content diversity over 30-day window",
+  "configuration": {
+    "similarity_threshold": 0.70,
+    "history_window_days": 30,
+    "topic_rotation_days": 14,
+    "cta_rotation_posts": 3,
+    "campaign_mode_threshold": 0.85,
+    "response_time_target_ms": 2000,
+    "confidence_calculation": "linear",
+    "override_permissions": {
+      "allowed": true,
+      "require_justification": true,
+      "log_overrides": true
+    }
+  },
+  "diversity_rules": {
+    "topic_rotation": {
+      "description": "No identical topic within X days",
+      "default_days": 14,
+      "configurable": true,
+      "enforcement": "strict"
+    },
+    "hook_variety": {
+      "description": "Different content hook style each day",
+      "enforcement": "strict",
+      "hook_types": ["question", "quote", "statistic", "story", "statement", "emoji_hook"]
+    },
+    "cta_variation": {
+      "description": "Rotate call-to-action every N posts",
+      "default_interval": 3,
+      "configurable": true,
+      "cta_types": ["schedule", "download", "register", "contact", "learn_more", "share"]
+    },
+    "similarity_threshold": {
+      "description": "Maximum allowed semantic similarity",
+      "default": 0.70,
+      "range": [0.60, 0.90],
+      "configurable": true
+    },
+    "campaign_mode": {
+      "description": "Allow intentional repetition during campaigns",
+      "default": false,
+      "threshold_adjustment": 0.15
+    },
+    "visual_diversity": {
+      "description": "Ensure variety in visual content themes",
+      "max_theme_concentration": 0.40,
+      "min_unique_themes": 5
+    }
+  },
+  "scoring": {
+    "base_score": 100,
+    "penalties": {
+      "high_similarity": 20,
+      "topic_repetition": 10,
+      "hook_monotony": 5,
+      "cta_repetition": 5,
+      "visual_concentration": 10
+    },
+    "thresholds": {
+      "approved": 70,
+      "review_recommended": 50,
+      "revision_required": 30
+    }
+  },
+  "monitoring": {
+    "track_metrics": [
+      "similarity_scores",
+      "topic_distribution",
+      "hook_variety",
+      "cta_rotation",
+      "visual_themes",
+      "engagement_correlation"
+    ],
+    "alert_conditions": {
+      "freshness_below_50": {
+        "severity": "high",
+        "action": "block_distribution"
+      },
+      "topic_concentration_above_60": {
+        "severity": "medium",
+        "action": "flag_for_review"
+      },
+      "three_similar_posts": {
+        "severity": "low",
+        "action": "suggest_alternatives"
+      }
+    }
+  },
+  "integration": {
+    "input_sources": [
+      "branded_content",
+      "historical_posts",
+      "engagement_metrics"
+    ],
+    "output_destinations": [
+      "analytics_dashboard",
+      "distribution_controller",
+      "shared_memory"
+    ],
+    "api_endpoints": {
+      "check_fatigue": "/api/fatigue/check",
+      "get_suggestions": "/api/fatigue/suggestions",
+      "override_decision": "/api/fatigue/override"
+    }
+  },
+  "performance_targets": {
+    "analysis_time_ms": 2000,
+    "accuracy_rate": 0.95,
+    "false_positive_rate": 0.05,
+    "suggestion_relevance": 0.90
+  },
+  "data_retention": {
+    "content_history_days": 90,
+    "analysis_reports_days": 30,
+    "override_logs_days": 180
+  }
+}

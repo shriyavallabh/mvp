@@ -1,0 +1,45 @@
+{
+  "sessionId": "mcp_session_2025-09-17T22-05-42",
+  "mcpEnabled": true,
+  "timestamp": "2025-09-17T22:05:42Z",
+  "status": "initialized",
+  "agents": {
+    "registered": [],
+    "active": [],
+    "communication_endpoints": {}
+  },
+  "communicationChannels": {
+    "feedback": {
+      "type": "bidirectional",
+      "description": "agent-to-agent feedback loop",
+      "active": true
+    },
+    "quality": {
+      "type": "chain",
+      "description": "quality improvement chain",
+      "active": true
+    },
+    "compliance": {
+      "type": "validation",
+      "description": "compliance validation chain",
+      "active": true
+    },
+    "state": {
+      "type": "synchronization",
+      "description": "state synchronization channel",
+      "active": true
+    }
+  },
+  "sharedMemory": {
+    "context": "/Users/shriyavallabh/Desktop/mvp/data/shared-memory/shared-context.json",
+    "messageQueue": "/Users/shriyavallabh/Desktop/mvp/data/agent-communication/communication-queue.json",
+    "agentRegistry": "/Users/shriyavallabh/Desktop/mvp/data/shared-memory/agent-registry.json"
+  },
+  "outputStorage": {
+    "sessionDirectory": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-17T22-05-42Z",
+    "images": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-17T22-05-42Z/images",
+    "linkedin": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-17T22-05-42Z/linkedin",
+    "whatsapp": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-17T22-05-42Z/whatsapp",
+    "traceability": "/Users/shriyavallabh/Desktop/mvp/traceability/mcp-trace-2025-09-17T22-05-42Z.md"
+  }
+}

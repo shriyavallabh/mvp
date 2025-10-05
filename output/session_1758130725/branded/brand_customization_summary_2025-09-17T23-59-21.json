@@ -1,0 +1,59 @@
+{
+  "status": "success",
+  "timestamp": "2025-09-17T23-59-21",
+  "session_id": "session_1758130725",
+  "statistics": {
+    "advisors_processed": 3,
+    "linkedin_posts_branded": 0,
+    "whatsapp_messages_branded": 0,
+    "images_branded": 36,
+    "compliance_score": 100.0
+  },
+  "branded_content_location": "/Users/shriyavallabh/Desktop/mvp/output/session_1758130725/branded",
+  "compliance_report": {
+    "timestamp": "2025-09-17T23-59-21",
+    "session_id": "session_1758130725",
+    "compliance_summary": {
+      "total_advisors": 3,
+      "premium_branded": 1,
+      "gold_branded": 1,
+      "silver_branded": 1
+    },
+    "brand_elements_applied": {
+      "logos": true,
+      "colors": true,
+      "taglines": true,
+      "signatures": true,
+      "contact_info": true
+    },
+    "platform_coverage": {
+      "linkedin": true,
+      "whatsapp": true,
+      "status_images": true,
+      "gemini_images": true
+    },
+    "compliance_score": 100.0,
+    "actions_log": [
+      {
+        "timestamp": "2025-09-17T23:59:21.835393",
+        "advisor_id": "ADV_001",
+        "segment": "Premium",
+        "action": "Full custom branding applied with logos, colors, signatures"
+      },
+      {
+        "timestamp": "2025-09-17T23:59:21.843354",
+        "advisor_id": "ADV_002",
+        "segment": "Gold",
+        "action": "Semi-custom branding with standardized elements"
+      },
+      {
+        "timestamp": "2025-09-17T23:59:21.850581",
+        "advisor_id": "ADV_003",
+        "segment": "Silver",
+        "action": "Basic branding with minimal customization"
+      }
+    ]
+  },
+  "next_phase": "Phase 5 - Compliance Validation",
+  "message": "All content successfully branded with 100% compliance"
+}

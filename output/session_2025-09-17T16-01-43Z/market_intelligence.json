@@ -1,0 +1,85 @@
+{
+  "timestamp": "2025-09-17T16:01:43Z",
+  "source": "market-intelligence",
+  "market_overview": {
+    "nifty50": {
+      "value": 25438.75,
+      "change": 186.50,
+      "change_percent": 0.74,
+      "trend": "bullish"
+    },
+    "sensex": {
+      "value": 83467.15,
+      "change": 523.80,
+      "change_percent": 0.63,
+      "trend": "bullish"
+    },
+    "nifty_bank": {
+      "value": 52234.60,
+      "change": -145.20,
+      "change_percent": -0.28,
+      "trend": "bearish"
+    }
+  },
+  "sectoral_performance": {
+    "IT": { "change_percent": 1.85, "outlook": "positive" },
+    "Banking": { "change_percent": -0.45, "outlook": "neutral" },
+    "Pharma": { "change_percent": 2.10, "outlook": "positive" },
+    "Auto": { "change_percent": 0.95, "outlook": "positive" },
+    "FMCG": { "change_percent": 0.35, "outlook": "stable" },
+    "Realty": { "change_percent": 3.20, "outlook": "strong" }
+  },
+  "top_gainers": [
+    { "symbol": "TCS", "price": 4234.50, "change_percent": 3.45 },
+    { "symbol": "INFY", "price": 1876.30, "change_percent": 2.80 },
+    { "symbol": "WIPRO", "price": 567.85, "change_percent": 2.65 }
+  ],
+  "top_losers": [
+    { "symbol": "HDFC", "price": 1654.20, "change_percent": -1.85 },
+    { "symbol": "ICICI", "price": 1243.75, "change_percent": -1.20 },
+    { "symbol": "AXIS", "price": 1187.90, "change_percent": -0.95 }
+  ],
+  "mutual_fund_insights": {
+    "equity_funds": {
+      "avg_returns_1yr": 18.5,
+      "top_performer": "Axis Bluechip Fund",
+      "recommendation": "Continue SIPs in large-cap funds"
+    },
+    "debt_funds": {
+      "avg_returns_1yr": 7.2,
+      "top_performer": "HDFC Short Term Debt",
+      "recommendation": "Good for conservative investors"
+    },
+    "hybrid_funds": {
+      "avg_returns_1yr": 12.8,
+      "top_performer": "ICICI Balanced Advantage",
+      "recommendation": "Ideal for moderate risk appetite"
+    }
+  },
+  "commodities": {
+    "gold": {
+      "price_per_10g": 63450,
+      "change": 285,
+      "outlook": "Hedge against inflation"
+    },
+    "silver": {
+      "price_per_kg": 73600,
+      "change": -420,
+      "outlook": "Industrial demand strong"
+    }
+  },
+  "key_insights": [
+    "IT sector showing strong momentum due to global digital transformation",
+    "Banking sector consolidating, good entry point for long-term investors",
+    "Real estate sector benefiting from festive season demand",
+    "Gold remains attractive as inflation hedge",
+    "Quality mid-cap stocks offering value opportunities"
+  ],
+  "actionable_recommendations": [
+    "Increase allocation to IT and Pharma sectors",
+    "Consider profit booking in overvalued small-caps",
+    "Start SIPs in flexicap funds for long-term wealth creation",
+    "Maintain 10-15% portfolio allocation to gold",
+    "Review and rebalance portfolio quarterly"
+  ]
+}

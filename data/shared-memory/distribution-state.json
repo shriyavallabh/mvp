@@ -1,0 +1,1758 @@
+{
+  "sessionId": "session_20250919_023038",
+  "timestamp": "2025-09-18T21:50:54.606Z",
+  "status": "DISTRIBUTION_BLOCKED",
+  "results": {
+    "readyForDistribution": 0,
+    "blockedByCompliance": 28,
+    "requiresRemediation": 28,
+    "totalProcessed": 28,
+    "blockedItems": [
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_SHRUTI_001_branded_posts.json",
+        "type": "linkedin",
+        "advisor": "ARN_SHRUTI_001_branded_posts",
+        "compliance": {
+          "score": 0,
+          "compliant": false,
+          "violations": 4,
+          "criticalViolations": 0,
+          "majorViolations": 4,
+          "suggestions": [
+            "Add: 'Mutual fund investments are subject to market risks'",
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 41.19,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ARN_SHRUTI_001",
+          "content_id": "STD_ARN_SHRUTI_001_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (4 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_007_branded_posts.json",
+        "type": "linkedin",
+        "advisor": "ADV_007",
+        "compliance": {
+          "score": 0,
+          "compliant": false,
+          "violations": 4,
+          "criticalViolations": 0,
+          "majorViolations": 4,
+          "suggestions": [
+            "Add: 'Mutual fund investments are subject to market risks'",
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 39.69,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 45
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ADV_007",
+          "content_id": "STD_ADV_007_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (4 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_SHRIYA_003_branded_posts.json",
+        "type": "linkedin",
+        "advisor": "ARN_SHRIYA_003_branded_posts",
+        "compliance": {
+          "score": 0,
+          "compliant": false,
+          "violations": 4,
+          "criticalViolations": 0,
+          "majorViolations": 4,
+          "suggestions": [
+            "Add: 'Mutual fund investments are subject to market risks'",
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 41.19,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ARN_SHRIYA_003",
+          "content_id": "STD_ARN_SHRIYA_003_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (4 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_VIDYADHAR_002_branded_posts.json",
+        "type": "linkedin",
+        "advisor": "ARN_VIDYADHAR_002_branded_posts",
+        "compliance": {
+          "score": 0,
+          "compliant": false,
+          "violations": 4,
+          "criticalViolations": 0,
+          "majorViolations": 4,
+          "suggestions": [
+            "Add: 'Mutual fund investments are subject to market risks'",
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 41.19,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ARN_VIDYADHAR_002",
+          "content_id": "STD_ARN_VIDYADHAR_002_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (4 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_009_branded_posts.json",
+        "type": "linkedin",
+        "advisor": "ADV_009",
+        "compliance": {
+          "score": 0,
+          "compliant": false,
+          "violations": 4,
+          "criticalViolations": 0,
+          "majorViolations": 4,
+          "suggestions": [
+            "Add: 'Mutual fund investments are subject to market risks'",
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 39.69,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 45
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ADV_009",
+          "content_id": "STD_ADV_009_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (4 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_004_branded_posts.json",
+        "type": "linkedin",
+        "advisor": "ADV_004",
+        "compliance": {
+          "score": 0,
+          "compliant": false,
+          "violations": 4,
+          "criticalViolations": 0,
+          "majorViolations": 4,
+          "suggestions": [
+            "Add: 'Mutual fund investments are subject to market risks'",
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 37.06,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 17,
+            "information_value": 25,
+            "clarity": 56,
+            "personalization": 20,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ADV_004",
+          "content_id": "GLD_ADV_004_001",
+          "topic": "global_macro"
+        },
+        "blockingReason": "Major compliance violations (4 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_008_branded_posts.json",
+        "type": "linkedin",
+        "advisor": "ADV_008",
+        "compliance": {
+          "score": 0,
+          "compliant": false,
+          "violations": 4,
+          "criticalViolations": 0,
+          "majorViolations": 4,
+          "suggestions": [
+            "Add: 'Mutual fund investments are subject to market risks'",
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 39.69,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 45
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ADV_008",
+          "content_id": "STD_ADV_008_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (4 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_005_branded_posts.json",
+        "type": "linkedin",
+        "advisor": "ADV_005",
+        "compliance": {
+          "score": 0,
+          "compliant": false,
+          "violations": 4,
+          "criticalViolations": 0,
+          "majorViolations": 4,
+          "suggestions": [
+            "Add: 'Mutual fund investments are subject to market risks'",
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 39.69,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 45
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ADV_005",
+          "content_id": "STD_ADV_005_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (4 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_006_branded_posts.json",
+        "type": "linkedin",
+        "advisor": "ADV_006",
+        "compliance": {
+          "score": 0,
+          "compliant": false,
+          "violations": 4,
+          "criticalViolations": 0,
+          "majorViolations": 4,
+          "suggestions": [
+            "Add: 'Mutual fund investments are subject to market risks'",
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 39.69,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 45
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ADV_006",
+          "content_id": "STD_ADV_006_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (4 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_010_branded_posts.json",
+        "type": "linkedin",
+        "advisor": "ADV_010",
+        "compliance": {
+          "score": 0,
+          "compliant": false,
+          "violations": 4,
+          "criticalViolations": 0,
+          "majorViolations": 4,
+          "suggestions": [
+            "Add: 'Mutual fund investments are subject to market risks'",
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 39.69,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 45
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ADV_010",
+          "content_id": "STD_ADV_010_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (4 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_sip_education_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ADV_005",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 39.69,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 45
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ADV_005",
+          "content_id": "STD_ADV_005_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_tax_planning_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ADV_005",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 39.69,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 45
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ADV_005",
+          "content_id": "STD_ADV_005_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_sip_education_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ARN_SHRIYA_003_standard_sip_education_20250919_024828",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 41.19,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ARN_SHRIYA_003",
+          "content_id": "STD_ARN_SHRIYA_003_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_tax_planning_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ADV_004",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 37.06,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 17,
+            "information_value": 25,
+            "clarity": 56,
+            "personalization": 20,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ADV_004",
+          "content_id": "GLD_ADV_004_001",
+          "topic": "global_macro"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_exclusive_insight_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ADV_004",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 37.06,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 17,
+            "information_value": 25,
+            "clarity": 56,
+            "personalization": 20,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ADV_004",
+          "content_id": "GLD_ADV_004_001",
+          "topic": "global_macro"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_sip_education_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ADV_004",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 37.06,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 17,
+            "information_value": 25,
+            "clarity": 56,
+            "personalization": 20,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ADV_004",
+          "content_id": "GLD_ADV_004_001",
+          "topic": "global_macro"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_investment_alternative_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ARN_SHRUTI_001_standard_investment_alternative_20250919_024828",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 41.19,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ARN_SHRUTI_001",
+          "content_id": "STD_ARN_SHRUTI_001_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_sip_education_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ARN_VIDYADHAR_002_standard_sip_education_20250919_024828",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 41.19,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ARN_VIDYADHAR_002",
+          "content_id": "STD_ARN_VIDYADHAR_002_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_tax_planning_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ARN_VIDYADHAR_002_standard_tax_planning_20250919_024828",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 41.19,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ARN_VIDYADHAR_002",
+          "content_id": "STD_ARN_VIDYADHAR_002_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_sip_education_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ARN_SHRUTI_001_standard_sip_education_20250919_024828",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 41.19,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ARN_SHRUTI_001",
+          "content_id": "STD_ARN_SHRUTI_001_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_tax_planning_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ARN_SHRIYA_003_standard_tax_planning_20250919_024828",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 41.19,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ARN_SHRIYA_003",
+          "content_id": "STD_ARN_SHRIYA_003_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_wealth_preservation_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ADV_004",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 37.06,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 17,
+            "information_value": 25,
+            "clarity": 56,
+            "personalization": 20,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ADV_004",
+          "content_id": "GLD_ADV_004_001",
+          "topic": "global_macro"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_investment_alternative_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ADV_004",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 37.06,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 17,
+            "information_value": 25,
+            "clarity": 56,
+            "personalization": 20,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ADV_004",
+          "content_id": "GLD_ADV_004_001",
+          "topic": "global_macro"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_investment_alternative_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ADV_005",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 39.69,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 45
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ADV_005",
+          "content_id": "STD_ADV_005_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_investment_alternative_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ARN_SHRIYA_003_standard_investment_alternative_20250919_024828",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 41.19,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ARN_SHRIYA_003",
+          "content_id": "STD_ARN_SHRIYA_003_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_alternative_investment_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ADV_004",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 37.06,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 17,
+            "information_value": 25,
+            "clarity": 56,
+            "personalization": 20,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ADV_004",
+          "content_id": "GLD_ADV_004_001",
+          "topic": "global_macro"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_tax_planning_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ARN_SHRUTI_001_standard_tax_planning_20250919_024828",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 41.19,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ARN_SHRUTI_001",
+          "content_id": "STD_ARN_SHRUTI_001_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_investment_alternative_20250919_024828.txt",
+        "type": "whatsapp",
+        "advisor": "ARN_VIDYADHAR_002_standard_investment_alternative_20250919_024828",
+        "compliance": {
+          "score": 0.09999999999999998,
+          "compliant": false,
+          "violations": 3,
+          "criticalViolations": 0,
+          "majorViolations": 3,
+          "suggestions": [
+            "Add: 'Read all scheme related documents carefully'",
+            "Add: 'Past performance may not be sustained in future'",
+            "Add ARN number in format 'ARN: XXXXXX'"
+          ]
+        },
+        "quality": {
+          "final_score": 41.19,
+          "grade": "C",
+          "segment": "standard",
+          "dimension_scores": {
+            "engagement": 20,
+            "information_value": 17,
+            "clarity": 61,
+            "personalization": 40,
+            "technical": 55
+          },
+          "auto_approval_eligible": false,
+          "content_type": "linkedin",
+          "advisor_id": "ARN_VIDYADHAR_002",
+          "content_id": "STD_ARN_VIDYADHAR_002_001",
+          "topic": "sip_continuation"
+        },
+        "blockingReason": "Major compliance violations (3 violations)",
+        "remediationRequired": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "status": "BLOCKED"
+      }
+    ],
+    "remediationQueue": [
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_SHRUTI_001_branded_posts.json",
+        "priority": 28.810000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "estimatedTime": 18
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_007_branded_posts.json",
+        "priority": 30.310000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "estimatedTime": 18
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_SHRIYA_003_branded_posts.json",
+        "priority": 28.810000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "estimatedTime": 18
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ARN_VIDYADHAR_002_branded_posts.json",
+        "priority": 28.810000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "estimatedTime": 18
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_009_branded_posts.json",
+        "priority": 30.310000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "estimatedTime": 18
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_004_branded_posts.json",
+        "priority": 32.94,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "estimatedTime": 18
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_008_branded_posts.json",
+        "priority": 30.310000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "estimatedTime": 18
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_005_branded_posts.json",
+        "priority": 30.310000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "estimatedTime": 18
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_006_branded_posts.json",
+        "priority": 30.310000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "estimatedTime": 18
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_010_branded_posts.json",
+        "priority": 30.310000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add market risk disclaimer",
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 18
+        },
+        "estimatedTime": 18
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_sip_education_20250919_024828.txt",
+        "priority": 25.310000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_tax_planning_20250919_024828.txt",
+        "priority": 25.310000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_sip_education_20250919_024828.txt",
+        "priority": 23.810000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_tax_planning_20250919_024828.txt",
+        "priority": 27.939999999999998,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_exclusive_insight_20250919_024828.txt",
+        "priority": 27.939999999999998,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_sip_education_20250919_024828.txt",
+        "priority": 27.939999999999998,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_investment_alternative_20250919_024828.txt",
+        "priority": 23.810000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_sip_education_20250919_024828.txt",
+        "priority": 23.810000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_tax_planning_20250919_024828.txt",
+        "priority": 23.810000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_sip_education_20250919_024828.txt",
+        "priority": 23.810000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_tax_planning_20250919_024828.txt",
+        "priority": 23.810000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_wealth_preservation_20250919_024828.txt",
+        "priority": 27.939999999999998,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_standard_investment_alternative_20250919_024828.txt",
+        "priority": 27.939999999999998,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_005_standard_investment_alternative_20250919_024828.txt",
+        "priority": 25.310000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_investment_alternative_20250919_024828.txt",
+        "priority": 23.810000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ADV_004_gold_alternative_investment_20250919_024828.txt",
+        "priority": 27.939999999999998,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRUTI_001_standard_tax_planning_20250919_024828.txt",
+        "priority": 23.810000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      },
+      {
+        "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_VIDYADHAR_002_standard_investment_alternative_20250919_024828.txt",
+        "priority": 23.810000000000002,
+        "requirements": {
+          "canBeRemediated": true,
+          "primaryIssue": "compliance",
+          "requiredActions": [
+            "Add document reading requirement",
+            "Add past performance disclaimer",
+            "Add ARN display"
+          ],
+          "estimatedTime": 13
+        },
+        "estimatedTime": 13
+      }
+    ],
+    "distributionPlan": null
+  },
+  "complianceStatus": "FAILED",
+  "qualityStatus": "NEEDS_IMPROVEMENT",
+  "nextAction": "REMEDIATION_REQUIRED",
+  "reportLocation": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/distribution-report-1758232254606.json"
+}

@@ -1,0 +1,88 @@
+{
+  "timestamp": "2025-09-17T05:54:35.249Z",
+  "market_summary": {
+    "nifty_50": {
+      "current": 19850.25,
+      "change": "+125.40",
+      "change_percent": "+0.64%",
+      "trend": "bullish",
+      "support": 19600,
+      "resistance": 20000
+    },
+    "sensex": {
+      "current": 66950.45,
+      "change": "+380.15",
+      "change_percent": "+0.57%",
+      "trend": "bullish",
+      "support": 66200,
+      "resistance": 67500
+    },
+    "sector_performance": {
+      "banking": "+1.2%",
+      "it": "+0.8%",
+      "pharma": "-0.3%",
+      "auto": "+1.5%",
+      "metals": "+2.1%"
+    }
+  },
+  "key_insights": [
+    "Banking sector showing strong momentum with Q2 results",
+    "IT sector remains stable despite global headwinds",
+    "Metal stocks outperforming on commodity price recovery",
+    "Auto sector benefiting from festive season demand"
+  ],
+  "advisor_specific_insights": {
+    "ADV_001": {
+      "focus": "High-beta stocks for aggressive growth",
+      "recommendation": "Increase exposure to banking and metals",
+      "risk_level": "moderate_high"
+    },
+    "ADV_002": {
+      "focus": "Tax-efficient investment options",
+      "recommendation": "ELSS funds and tax-saving bonds",
+      "risk_level": "moderate"
+    },
+    "ADV_003": {
+      "focus": "Dividend-yielding stocks for income",
+      "recommendation": "Utility and FMCG dividend aristocrats",
+      "risk_level": "conservative"
+    }
+  },
+  "content_themes": {
+    "trending_topics": [
+      "Festive season investment strategies",
+      "Q2 earnings impact analysis",
+      "Year-end tax planning",
+      "Portfolio rebalancing for 2024"
+    ],
+    "urgency_levels": {
+      "high": [
+        "Tax planning deadline approaching"
+      ],
+      "medium": [
+        "Q2 results analysis"
+      ],
+      "low": [
+        "Long-term portfolio review"
+      ]
+    }
+  },
+  "compliance_alerts": [
+    "SEBI circular on mutual fund categorization",
+    "New tax implications for crypto investments",
+    "Updated KYC requirements for high-value transactions"
+  ],
+  "metadata": {
+    "created_by": "market-intelligence",
+    "agent_color": "purple",
+    "agent_voice": "Victoria",
+    "data_sources": [
+      "NSE",
+      "BSE",
+      "Economic Times",
+      "SEBI"
+    ],
+    "reliability_score": 0.92,
+    "last_updated": "2025-09-17T05:54:35.249Z"
+  }
+}

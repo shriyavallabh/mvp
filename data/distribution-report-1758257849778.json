@@ -1,0 +1,32 @@
+{
+  "timestamp": "2025-09-19T04:57:29.778Z",
+  "totalAdvisors": 4,
+  "successCount": 4,
+  "failureCount": 0,
+  "advisors": [
+    {
+      "name": "Shruti Petkar",
+      "phone": "919673758777"
+    },
+    {
+      "name": "Vidyadhar Petkar",
+      "phone": "918975758513"
+    },
+    {
+      "name": "Shriya Vallabh Petkar",
+      "phone": "919765071249"
+    },
+    {
+      "name": "Mr. Tranquil Veda",
+      "phone": "919022810769"
+    }
+  ],
+  "viralContent": {
+    "messages": [
+      "😱 Lost ₹16.4 LAKHS keeping money in savings. Your fear costs you wealth. Reply BEAT to defeat inflation",
+      "☕ ₹10 chai teaches ₹10Cr lesson. Chaiwala owns 3 shops, MBA owns 0. Consistency > Degrees. Reply START",
+      "🏆 My maid teaches at IIM now. ₹200 SIP → ₹8.7L → Bought flat. Your excuse? Reply WIN"
+    ],
+    "score": "9.6/10"
+  }
+}

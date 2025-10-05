@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-09-17T19:42:24.820486",
+  "agent": "market-intelligence",
+  "status": "success",
+  "market_summary": {
+    "nifty50": {
+      "value": 24823.15,
+      "change": 147.5,
+      "change_percent": 0.6,
+      "trend": "bullish"
+    },
+    "sensex": {
+      "value": 81455.4,
+      "change": 483.7,
+      "change_percent": 0.6,
+      "trend": "bullish"
+    },
+    "gold_price": {
+      "value": 73250,
+      "change": -350,
+      "change_percent": -0.48,
+      "unit": "per_10g"
+    },
+    "usd_inr": {
+      "value": 86.52,
+      "change": 0.12,
+      "change_percent": 0.14
+    }
+  },
+  "top_performers": [
+    {
+      "symbol": "TCS",
+      "change_percent": 2.3
+    },
+    {
+      "symbol": "INFY",
+      "change_percent": 1.8
+    },
+    {
+      "symbol": "HDFC",
+      "change_percent": 1.5
+    }
+  ],
+  "sector_performance": {
+    "IT": "+1.8%",
+    "Banking": "+1.2%",
+    "Auto": "-0.5%",
+    "Pharma": "+0.8%",
+    "FMCG": "+0.3%"
+  },
+  "key_events": [
+    "RBI MPC meeting scheduled for Feb 6-8",
+    "Q3 earnings season continues with major banks reporting",
+    "Union Budget 2025 on February 1",
+    "Global markets watching Fed policy signals"
+  ],
+  "insights": {
+    "market_sentiment": "Positive momentum driven by IT sector recovery",
+    "investment_theme": "Quality stocks in focus ahead of budget",
+    "risk_factors": "Global uncertainty and crude oil prices",
+    "opportunity": "Mid-cap stocks showing value after recent correction"
+  }
+}

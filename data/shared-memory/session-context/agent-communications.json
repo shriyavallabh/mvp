@@ -1,0 +1,60 @@
+{
+  "sessionId": "mcp_session_2025-09-17T22-05-42",
+  "communicationLog": [],
+  "pendingMessages": {},
+  "broadcastMessages": [],
+  "agentRequests": {},
+  "contextSharing": {
+    "advisor-data-manager": {
+      "requestedBy": [],
+      "sharedWith": [],
+      "lastUpdate": null
+    },
+    "market-intelligence": {
+      "requestedBy": [],
+      "sharedWith": [],
+      "lastUpdate": null
+    },
+    "segment-analyzer": {
+      "requestedBy": [],
+      "sharedWith": [],
+      "lastUpdate": null
+    },
+    "linkedin-post-generator": {
+      "requestedBy": [],
+      "sharedWith": [],
+      "lastUpdate": null
+    },
+    "whatsapp-message-creator": {
+      "requestedBy": [],
+      "sharedWith": [],
+      "lastUpdate": null
+    },
+    "image-generator": {
+      "requestedBy": [],
+      "sharedWith": [],
+      "lastUpdate": null
+    },
+    "brand-customizer": {
+      "requestedBy": [],
+      "sharedWith": [],
+      "lastUpdate": null
+    },
+    "compliance-validator": {
+      "requestedBy": [],
+      "sharedWith": [],
+      "lastUpdate": null
+    },
+    "quality-scorer": {
+      "requestedBy": [],
+      "sharedWith": [],
+      "lastUpdate": null
+    },
+    "distribution-manager": {
+      "requestedBy": [],
+      "sharedWith": [],
+      "lastUpdate": null
+    }
+  },
+  "timestamp": "2025-09-17T22:05:42Z"
+}

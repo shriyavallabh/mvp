@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-10-03T07:17:03.591Z",
+  "sessionId": "session_20251002_180551",
+  "dryRun": false,
+  "campaigns": {
+    "contentPackage": [
+      {
+        "advisor": "Avalok Langer",
+        "status": "SUCCESS",
+        "response": {
+          "success": "true",
+          "submitted_message_id": "3003e420-3c30-4061-bb93-57ab8035399d"
+        }
+      }
+    ],
+    "statusImage": [
+      {
+        "advisor": "Avalok Langer",
+        "status": "SUCCESS",
+        "response": {
+          "success": "true",
+          "submitted_message_id": "9c24d235-0cc9-4705-8dd8-48ab5bfcbe46"
+        }
+      }
+    ],
+    "linkedinPost": [
+      {
+        "advisor": "Avalok Langer",
+        "status": "FAILED",
+        "error": "Request failed with status code 400"
+      }
+    ]
+  },
+  "summary": {
+    "totalAdvisors": 1,
+    "campaign1Success": 1,
+    "campaign2Success": 1,
+    "campaign3Success": 0
+  }
+}

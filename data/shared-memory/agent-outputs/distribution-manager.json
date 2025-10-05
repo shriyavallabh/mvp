@@ -1,0 +1,30 @@
+{
+  "sessionId": "mcp_session_2025-09-17T22-05-42",
+  "agentName": "distribution-manager",
+  "status": "pending",
+  "data": {
+    "distributions": {},
+    "schedule": {},
+    "analytics": {},
+    "performance": {},
+    "optimizations": {}
+  },
+  "metadata": {
+    "distributionsPlanned": 0,
+    "contentDelivered": 0,
+    "performanceTracked": 0,
+    "optimizationsApplied": 0
+  },
+  "structure": {
+    "distributions": "Distribution plans and executions",
+    "schedule": "Content distribution schedules",
+    "analytics": "Distribution analytics and metrics",
+    "performance": "Performance tracking and results",
+    "optimizations": "Distribution optimizations and improvements"
+  },
+  "dependencies": {
+    "requires": ["compliance-status", "quality-metrics", "branded-content"],
+    "provides": ["distribution-results", "performance-analytics", "final-metrics"]
+  },
+  "timestamp": "2025-09-17T22:05:42Z"
+}

@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-09-18-09-39",
+  "session_id": "session_2025-09-18T03-38-39-062Z",
+  "compliance_summary": {
+    "total_advisors": 3,
+    "premium_branded": 1,
+    "gold_branded": 1,
+    "standard_branded": 1
+  },
+  "brand_elements_applied": {
+    "logos": true,
+    "colors": true,
+    "taglines": true,
+    "signatures": true,
+    "contact_info": true
+  },
+  "platform_coverage": {
+    "linkedin": true,
+    "whatsapp": true,
+    "status_images": true,
+    "gemini_images": true
+  },
+  "compliance_score": 100.0,
+  "actions_log": [
+    {
+      "timestamp": "2025-09-18T09:39:56.484818",
+      "advisor_id": "ARN_SHRUTI_001",
+      "segment": "Gold",
+      "action": "Branding applied for Shruti Petkar"
+    },
+    {
+      "timestamp": "2025-09-18T09:39:56.484838",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "segment": "Premium",
+      "action": "Branding applied for Vidyadhar Petkar"
+    },
+    {
+      "timestamp": "2025-09-18T09:39:56.484847",
+      "advisor_id": "ARN_SHRIYA_003",
+      "segment": "Standard",
+      "action": "Branding applied for Shriya Vallabh Petkar"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "advisor": "Rajesh Kumar",
+  "segment": "Gold",
+  "messages": [
+    {
+      "type": "educational",
+      "text": "\u2600\ufe0f Good morning Rajesh!\n\n\ud83d\udcc8 Today's Market Lesson:\nSensex crossed 82,000! What does this mean?\n\n\u2705 Your SIPs are growing\n\u2705 Good time to review goals\n\u274c Don't stop SIPs in rising market\n\nLearn more: Reply 'SIP'\n\nMoney Matters",
+      "character_count": 221
+    },
+    {
+      "type": "goal_planning",
+      "text": "\ud83c\udfaf Financial Goal Check!\n\nWith markets up 1.36% this week,\nit's perfect time to review:\n\n\ud83d\udcda Child Education Fund\n\ud83c\udfe0 Home Down Payment\n\ud83d\udc74 Retirement Corpus\n\nFree goal calculator: Reply 'CALC'\n\nYour Financial Growth Partner \ud83c\udf31",
+      "character_count": 219
+    },
+    {
+      "type": "sip_education",
+      "text": "\ud83d\udca1 SIP Wisdom for Today:\n\nMarket at all-time high?\nYour SIP still makes sense! Here's why:\n\n\u2713 Rupee cost averaging works\n\u2713 Time in market > Timing\n\u2713 15% CAGR over 10 years\n\nStart new SIP with \u20b95000?\nReply 'START'\n\nARN: 789012",
+      "character_count": 224
+    }
+  ],
+  "timestamp": "2025-09-17T23-40-33-000Z"
+}

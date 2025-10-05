@@ -1,0 +1,35 @@
+{
+  "advisor_id": "ADV_003",
+  "advisor_name": "Amit Patel",
+  "branding_instructions": {
+    "logo": {
+      "url": "",
+      "position": "bottom-right",
+      "size": "10% of image width",
+      "opacity": 0.9
+    },
+    "colors": {
+      "primary": "#3498DB",
+      "secondary": "#95A5A6",
+      "application": {
+        "borders": "primary color, 5px width",
+        "text_overlays": "secondary color for accents",
+        "background_gradient": "subtle gradient using both colors"
+      }
+    },
+    "text_overlays": {
+      "brand_name": {
+        "text": "WealthCare",
+        "position": "top-left",
+        "font": "bold, modern sans-serif",
+        "color": "#3498DB"
+      },
+      "tagline": {
+        "text": "Building Wealth, Creating Trust",
+        "position": "bottom-center",
+        "font": "italic, elegant serif",
+        "color": "#95A5A6"
+      }
+    }
+  }
+}

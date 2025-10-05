@@ -1,0 +1,106 @@
+{
+  "timestamp": "2025-09-18T21:50:54.605Z",
+  "sessionId": "session_20250919_023038",
+  "distributionStatus": "COMPLETELY_BLOCKED",
+  "summary": {
+    "totalContentPieces": 28,
+    "readyForDistribution": 0,
+    "blockedByCompliance": 28,
+    "requiresRemediation": 28,
+    "compliancePassRate": 0,
+    "averageQualityScore": 41.68,
+    "autoApprovalRate": 0
+  },
+  "blockingAnalysis": {
+    "topViolationTypes": [
+      {
+        "rule": "SEBI_DOCUMENT_READING_001",
+        "count": 28
+      },
+      {
+        "rule": "SEBI_PAST_PERFORMANCE_001",
+        "count": 28
+      },
+      {
+        "rule": "SEBI_ARN_DISPLAY_001",
+        "count": 28
+      },
+      {
+        "rule": "SEBI_MARKET_RISK_DISCLAIMER_001",
+        "count": 10
+      }
+    ],
+    "qualityIssues": [
+      "Overall quality below acceptable threshold",
+      "No content meets auto-approval criteria"
+    ],
+    "remediationPriorities": [
+      {
+        "action": "Fix SEBI compliance violations",
+        "priority": "CRITICAL"
+      },
+      {
+        "action": "Add required disclaimers",
+        "priority": "HIGH"
+      },
+      {
+        "action": "Improve content quality scores",
+        "priority": "MEDIUM"
+      },
+      {
+        "action": "Standardize content format",
+        "priority": "LOW"
+      }
+    ]
+  },
+  "recommendedActions": {
+    "immediate": [
+      "STOP ALL DISTRIBUTION - 0% compliance rate detected",
+      "Review and fix SEBI compliance violations",
+      "Implement market risk disclaimers",
+      "Add ARN display requirements",
+      "Review past performance statements"
+    ],
+    "shortTerm": [
+      "Set up compliance review process",
+      "Implement automated compliance checking",
+      "Train content generation on SEBI requirements",
+      "Establish quality assurance workflow"
+    ],
+    "longTerm": [
+      "Implement real-time compliance validation",
+      "Set up automated remediation workflows",
+      "Establish content approval hierarchy",
+      "Implement continuous quality monitoring"
+    ]
+  },
+  "remediationWorkflow": {
+    "stagingAreas": {
+      "compliance-fixes": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/remediation-staging/compliance-fixes",
+      "quality-improvements": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/remediation-staging/quality-improvements",
+      "ready-for-review": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/remediation-staging/ready-for-review",
+      "approved-for-distribution": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/remediation-staging/approved-for-distribution"
+    },
+    "estimatedTimeToCompletion": "420 minutes (estimated)",
+    "requiredResources": [
+      "Compliance officer for SEBI requirement review",
+      "Content writer for disclaimer addition",
+      "Quality assurance specialist",
+      "Legal review for financial content"
+    ],
+    "workflowSteps": [
+      "1. Compliance officer reviews SEBI violations",
+      "2. Content team adds required disclaimers",
+      "3. Quality team improves content scores",
+      "4. Legal team performs final review",
+      "5. Re-run compliance validation",
+      "6. Move to distribution queue if approved"
+    ]
+  },
+  "distributionPlan": {
+    "currentStatus": "BLOCKED",
+    "nextSteps": "Complete remediation before any distribution",
+    "estimatedDistributionDate": "2025-09-20",
+    "contingencyPlan": "Manual review and approval required for all content"
+  }
+}

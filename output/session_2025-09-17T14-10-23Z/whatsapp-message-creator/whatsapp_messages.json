@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-09-17T19:45:14.547019",
+  "agent": "whatsapp-message-creator",
+  "status": "success",
+  "total_messages": 3,
+  "messages": [
+    {
+      "advisor_id": "ADV_001",
+      "advisor_name": "Shruti Petkar",
+      "phone": "+919022810769",
+      "message_content": "\ud83c\udf05 Good morning! Shruti here.\n\n\ud83d\udcc8 Market Update:\nNifty: 24,823 (+0.6%)\nSensex: 81,455 (+0.6%)\n\n\ud83d\udca1 Today's Insight:\nBullish momentum continues! Perfect time to review your SIPs. IT sector showing strength.\n\n\u2728 Tip: Start investing \u20b95,000/month today, build \u20b950 lakhs in 20 years!\n\n\ud83d\udcde Need guidance? Reply with 'ADVICE' for free consultation.\n\nBest,\nShruti | ARN-001",
+      "character_count": 359,
+      "segment": "Retail",
+      "generated_at": "2025-09-17T19:45:14.546688"
+    },
+    {
+      "advisor_id": "ADV_002",
+      "advisor_name": "Vidyadhar Kulkarni",
+      "phone": "+919850123456",
+      "message_content": "\ud83c\udf1f Exclusive Update for HNI Clients\n\nDear Investor,\nVidyadhar here with today's strategic insight.\n\nMarket: Nifty 24,823 (+0.6%)\n\n\ud83c\udfaf Opportunity: IT sector recovery presents entry points for quality picks.\n\nPortfolio Action: Consider 15% allocation to sectoral funds.\n\n\ud83d\udcca Your portfolio review is due. Let's optimize for the upcoming budget.\n\nConnect today: +919850123456\n\nRegards,\nVidyadhar | Portfolio Management",
+      "character_count": 411,
+      "segment": "HNI",
+      "generated_at": "2025-09-17T19:45:14.546842"
+    },
+    {
+      "advisor_id": "ADV_003",
+      "advisor_name": "Avalok Shah",
+      "phone": "+919876543210",
+      "message_content": "\ud83c\udfe2 Treasury Alert from Avalok\n\nCorporate Treasury Update:\n\u2022 Market: 24,823\n\u2022 Yields: Attractive 7.5%+\n\u2022 Liquidity: Optimal\n\n\ud83d\udcbc Action: Deploy surplus in short-duration funds for 8%+ returns.\n\nIT and Banking stocks leading the rally!\n\n\ud83d\udcc8 Beat FD returns with better liquidity!\n\nConnect: +919876543210\n\nAvalok | Treasury Specialist",
+      "character_count": 326,
+      "segment": "Corporate",
+      "generated_at": "2025-09-17T19:45:14.546935"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "session_id": "session_20250918_221309",
+  "timestamp": "20250918_223828",
+  "generation_type": "enhanced_300_400_chars",
+  "total_messages": 5,
+  "average_length": 377,
+  "messages": [
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "advisor_name": "Shruti Petkar",
+      "plan": "Standard",
+      "phone": "91919673758777",
+      "message": "🌟 Good morning Shruti!\n\n📊 Market Pulse Today:\n• Sensex: 82,876 (+0.22%)\n• Nifty: 25,423.6 (+0.37%)\n• IT sector leads: +4.41%\n\n💡 Action Alert: Tech funds show strong momentum with global recovery. Consider increasing allocation by 10-15% this quarter.\n\n📱 Reply 'PORTFOLIO' for your personalized wealth report\n\nBuilding Wealth, Creating Trust\nARN: ARN_SHRUTI_001 | MF subject to market risks",
+      "char_count": 389,
+      "optimization": "perfect"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "advisor_name": "Vidyadhar Petkar",
+      "plan": "Standard",
+      "phone": "91918975758513",
+      "message": "☀️ Namaste Vidyadhar ji!\n\n📈 Wealth Building Opportunity:\n• Sensex crosses 82,800 milestone!\n• PSU Banks surge +2% today\n• Banking sector shows strength\n\n💰 Smart Move: Add PSU bank funds to portfolio - target 20% allocation. Strong govt backing & improving NPAs.\n\n📞 Call for free consultation\n\nBuilding Wealth, Creating Trust\nARN: ARN_VIDYADHAR_002 | Invest wisely",
+      "char_count": 363,
+      "optimization": "perfect"
+    },
+    {
+      "advisor_id": "ARN_SHRIYA_003",
+      "advisor_name": "Shriya Vallabh Petkar",
+      "plan": "Standard",
+      "phone": "91919765071249",
+      "message": "✨ Hello Shriya! Exciting updates 🚀\n\n🎯 Market Highlights:\n• All-time high: Sensex 82,876\n• Pharma sector: 40% YTD returns\n• Healthcare boom continues\n\n💊 Investment Tip: Healthcare & pharma funds expected to deliver 12-15% returns in 2025. Perfect for long-term wealth.\n\n📱 Reply 'HEALTH' for top 3 fund recommendations\n\nBuilding Wealth, Creating Trust\nARN: ARN_SHRIYA_003",
+      "char_count": 369,
+      "optimization": "perfect"
+    },
+    {
+      "advisor_id": "ADV_004",
+      "advisor_name": "Mr. Tranquil Veda",
+      "plan": "Gold",
+      "phone": "919022810769",
+      "message": "🌅 Peaceful morning, Mr.!\n\n💎 Exclusive Gold Tier Insights:\n• Sensex: 82,876 (new record!)\n• DIIs invest ₹1.54L cr this quarter\n• FIIs turning positive on India\n\n🎯 Premium Strategy: Rotate 15% from banking to defensive IT & pharma. Lock profits in overheated sectors.\n\n📞 Reply 'VIP' for priority advisory call\n\nCreating Peaceful Wealth Journey\nARN: ADV_004 | Premium Advisory",
+      "char_count": 373,
+      "optimization": "perfect"
+    },
+    {
+      "advisor_id": "ADV_005_STD",
+      "advisor_name": "Rajesh Kumar",
+      "plan": "Standard",
+      "phone": "919876543210",
+      "message": "🌟 Good morning Rajesh! Market wisdom inside 📊\n\n📈 Weekly Performance:\n• Sensex: 82,876 (+182 pts today)\n• GDP forecast: 6.5% for FY25\n• Inflation drops to 3.16%\n\n💡 Tax Alert: Only 3 months left for 80C! Save up to ₹46,800 in taxes with ELSS funds.\n\n📱 Reply 'TAXSAVE' for best ELSS picks\n💬 Send 'CALCULATOR' for tax savings tool\n\nYour Wealth Partner Since 2020\nARN: ADV_005 | Grow wealth, save tax",
+      "char_count": 395,
+      "optimization": "perfect"
+    }
+  ]
+}

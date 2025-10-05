@@ -1,0 +1,77 @@
+{
+  "session_metadata": {
+    "session_id": "session_20250919_105507",
+    "generation_timestamp": "2025-09-19T11:18:05.637784",
+    "total_advisors_processed": 5,
+    "total_messages_generated": 25,
+    "quality_standard": "Grammy Award Enhanced (8.0+ virality score)",
+    "enhancement_applied": true
+  },
+  "quality_metrics": {
+    "average_virality_score": 3.6,
+    "messages_above_8_0": 0,
+    "messages_above_9_0": 0,
+    "sidney_sheldon_pass_rate": 60.0,
+    "grammy_award_standard_met": false,
+    "overall_quality_grade": "B"
+  },
+  "viral_strategies_enhanced": [
+    "warikoo_vulnerability_confession (personal loss stories)",
+    "shrivastava_contrarian_shocker (93% F&O loss reality)",
+    "ranade_kitchen_analogy (coffee vs SIP mathematics)",
+    "underdog_success_inspiration (auto driver crorepati)",
+    "grammy_pop_culture_hook (portfolio diversification)"
+  ],
+  "advisor_performance": [
+    {
+      "advisor_name": "Shruti Petkar",
+      "advisor_id": "ARN_SHRUTI_001",
+      "messages_generated": 5,
+      "average_virality_score": 3.6,
+      "minimum_virality_score": 0.5,
+      "grammy_worthy_count": 0,
+      "all_grammy_standard": false,
+      "sidney_sheldon_passes": 3
+    },
+    {
+      "advisor_name": "Vidyadhar Petkar",
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "messages_generated": 5,
+      "average_virality_score": 3.6,
+      "minimum_virality_score": 0.5,
+      "grammy_worthy_count": 0,
+      "all_grammy_standard": false,
+      "sidney_sheldon_passes": 3
+    },
+    {
+      "advisor_name": "Shriya Vallabh Petkar",
+      "advisor_id": "ARN_SHRIYA_003",
+      "messages_generated": 5,
+      "average_virality_score": 3.6,
+      "minimum_virality_score": 0.5,
+      "grammy_worthy_count": 0,
+      "all_grammy_standard": false,
+      "sidney_sheldon_passes": 3
+    },
+    {
+      "advisor_name": "Mr. Tranquil Veda",
+      "advisor_id": "ADV_004",
+      "messages_generated": 5,
+      "average_virality_score": 3.6,
+      "minimum_virality_score": 0.5,
+      "grammy_worthy_count": 0,
+      "all_grammy_standard": false,
+      "sidney_sheldon_passes": 3
+    },
+    {
+      "advisor_name": "Unknown Advisor",
+      "advisor_id": "ADV_005",
+      "messages_generated": 5,
+      "average_virality_score": 3.6,
+      "minimum_virality_score": 0.5,
+      "grammy_worthy_count": 0,
+      "all_grammy_standard": false,
+      "sidney_sheldon_passes": 3
+    }
+  ]
+}

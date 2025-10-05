@@ -1,0 +1,82 @@
+{
+  "agentId": "advisor-data-manager",
+  "timestamp": "2025-09-17T16:01:43Z",
+  "sessionId": "session_2025-09-17T16-01-43Z",
+  "status": "completed",
+  "action": "fetch_and_structure_advisor_data",
+  "results": {
+    "advisorsProcessed": 3,
+    "dataSource": "existing_data/advisors.json",
+    "enrichmentApplied": true,
+    "outputGenerated": true
+  },
+  "advisorSummary": [
+    {
+      "advisorId": "ADV_001",
+      "name": "Shruti Petkar",
+      "segment": "Premium",
+      "customizationLevel": "full",
+      "contentTone": "Professional",
+      "primaryTopics": ["Equity Markets", "Portfolio Management", "Tax Planning"],
+      "brandingStatus": "complete"
+    },
+    {
+      "advisorId": "ADV_002",
+      "name": "Rajesh Kumar",
+      "segment": "Gold",
+      "customizationLevel": "semi-custom",
+      "contentTone": "Educational",
+      "primaryTopics": ["Mutual Funds", "SIP Planning", "Insurance"],
+      "brandingStatus": "complete"
+    },
+    {
+      "advisorId": "ADV_003",
+      "name": "Priya Sharma",
+      "segment": "Silver",
+      "customizationLevel": "basic",
+      "contentTone": "Casual",
+      "primaryTopics": ["Digital Gold", "ETFs", "Financial Literacy"],
+      "brandingStatus": "default"
+    }
+  ],
+  "communicationPayload": {
+    "forAgent": "all",
+    "message": "Advisor data successfully fetched and structured",
+    "advisorCount": 3,
+    "customizationRequirements": {
+      "fullyCustomized": 1,
+      "semiCustomized": 1,
+      "basicCustomization": 1
+    },
+    "contentGenerationGuidelines": {
+      "ADV_001": {
+        "complexity": "advanced",
+        "tone": "professional",
+        "avoidTopics": ["Crypto", "F&O Trading", "Penny Stocks"],
+        "preferredLanguages": ["English", "Hindi"]
+      },
+      "ADV_002": {
+        "complexity": "intermediate",
+        "tone": "educational",
+        "avoidTopics": ["Day Trading", "Derivatives"],
+        "preferredLanguages": ["English", "Hindi", "Marathi"]
+      },
+      "ADV_003": {
+        "complexity": "beginner",
+        "tone": "casual",
+        "avoidTopics": ["Complex Derivatives", "International Markets"],
+        "preferredLanguages": ["English"]
+      }
+    }
+  },
+  "nextActions": [
+    "Content strategist should use advisor preferences for content generation",
+    "Brand customizer should apply specific color schemes and logos",
+    "Distribution manager should respect posting times and notification preferences"
+  ],
+  "metrics": {
+    "executionTime": "1.2s",
+    "dataQuality": 0.95,
+    "completenessScore": 0.93
+  }
+}

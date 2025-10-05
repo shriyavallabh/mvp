@@ -1,0 +1,107 @@
+{
+  "type": "infographic",
+  "layout": "data_comparison",
+  "elements": {
+    "background": {
+      "style": "modern_pattern",
+      "baseColor": "#1A73E8",
+      "opacity": 0.1
+    },
+    "headline": {
+      "text": "FII vs DII: Who's Winning?",
+      "fontSize": 96,
+      "position": {
+        "x": "center",
+        "y": 150
+      }
+    },
+    "chart": {
+      "type": "comparison_bars",
+      "data": {
+        "fii": "17.23%",
+        "dii": "16.90%"
+      },
+      "position": {
+        "x": "center",
+        "y": 500
+      },
+      "size": {
+        "width": 900,
+        "height": 400
+      }
+    },
+    "insights": {
+      "title": "Key Insights",
+      "points": [
+        "DIIs invested \u20b91.54 lakh crore in Q3",
+        "Record domestic participation",
+        "FIIs focus on export sectors"
+      ],
+      "fontSize": 56,
+      "position": {
+        "x": 100,
+        "y": 1000
+      }
+    },
+    "trend_indicator": {
+      "text": "Domestic Investors Lead the Charge",
+      "fontSize": 64,
+      "style": "highlight",
+      "position": {
+        "x": "center",
+        "y": 1400
+      }
+    },
+    "branding": {
+      "advisorName": "Shriya Vallabh Petkar",
+      "tagline": "Building Wealth, Creating Trust",
+      "fontSize": 48,
+      "position": {
+        "x": "center",
+        "y": 1750
+      }
+    }
+  },
+  "metadata": {
+    "advisorId": "ARN_SHRIYA_003",
+    "advisorName": "Shriya Vallabh Petkar",
+    "arn": "ARN_SHRIYA_003",
+    "tier": "Standard",
+    "sessionId": "session_20250918_221309",
+    "timestamp": "2025-09-18T22:43:32.120386",
+    "fontStandards": {
+      "headline": {
+        "size": 96,
+        "weight": "bold",
+        "position": "top 20%",
+        "purpose": "Primary hook, must be readable in 1 second"
+      },
+      "subheading": {
+        "size": 72,
+        "weight": "semibold",
+        "position": "top 30-40%",
+        "purpose": "Supporting information"
+      },
+      "body_text": {
+        "size": 56,
+        "weight": "regular",
+        "position": "middle 40-60%",
+        "purpose": "Key details and data"
+      },
+      "call_to_action": {
+        "size": 64,
+        "weight": "bold",
+        "position": "bottom 30%",
+        "purpose": "Action trigger"
+      },
+      "footer_disclaimer": {
+        "size": 42,
+        "weight": "light",
+        "position": "bottom 10%",
+        "purpose": "Compliance text (still readable)"
+      }
+    },
+    "isVariation": false
+  },
+  "geminiPrompt": "\n    Create a WhatsApp Status image (1080x1920px vertical format):\n\n    DESIGN TYPE: infographic\n    LAYOUT: data_comparison\n\n    VISUAL SPECIFICATIONS:\n    - Canvas: 1080x1920px, 9:16 aspect ratio\n    - Mobile-optimized with thumb-zone awareness\n    - High contrast for outdoor viewing\n    - 3-second comprehension rule applied\n\n    BRAND IDENTITY:\n    - Advisor: Shriya Vallabh Petkar\n    - Primary Color: #1A73E8\n    - Secondary Color: #34A853\n    - Tagline: Building Wealth, Creating Trust\n\n    FONT HIERARCHY (Mobile Optimized):\n    - Headlines: 96px bold (top 20% of screen)\n    - Subheadings: 72px semibold\n    - Body Text: 56px regular\n    - CTAs: 64px bold\n    - Footer/Disclaimer: 42px minimum\n\n    CONTENT ELEMENTS:\n    {\n  \"background\": {\n    \"style\": \"modern_pattern\",\n    \"baseColor\": \"#1A73E8\",\n    \"opacity\": 0.1\n  },\n  \"headline\": {\n    \"text\": \"FII vs DII: Who's Winning?\",\n    \"fontSize\": 96,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 150\n    }\n  },\n  \"chart\": {\n    \"type\": \"comparison_bars\",\n    \"data\": {\n      \"fii\": \"17.23%\",\n      \"dii\": \"16.90%\"\n    },\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 500\n    },\n    \"size\": {\n      \"width\": 900,\n      \"height\": 400\n    }\n  },\n  \"insights\": {\n    \"title\": \"Key Insights\",\n    \"points\": [\n      \"DIIs invested \\u20b91.54 lakh crore in Q3\",\n      \"Record domestic participation\",\n      \"FIIs focus on export sectors\"\n    ],\n    \"fontSize\": 56,\n    \"position\": {\n      \"x\": 100,\n      \"y\": 1000\n    }\n  },\n  \"trend_indicator\": {\n    \"text\": \"Domestic Investors Lead the Charge\",\n    \"fontSize\": 64,\n    \"style\": \"highlight\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1400\n    }\n  },\n  \"branding\": {\n    \"advisorName\": \"Shriya Vallabh Petkar\",\n    \"tagline\": \"Building Wealth, Creating Trust\",\n    \"fontSize\": 48,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1750\n    }\n  }\n}\n\n    STYLE GUIDELINES:\n    - Modern, clean, professional\n    - Use brand colors prominently\n    - Ensure text has proper contrast\n    - Include subtle animations/transitions feel\n    - Bottom 15% clear for WhatsApp reply bar\n\n    COMPLIANCE:\n    - Include disclaimer: \"Mutual fund investments are subject to market risks.\"\n    - ARN: ARN_SHRIYA_003\n\n    OUTPUT: High-quality status image optimized for mobile viewing\n    "
+}

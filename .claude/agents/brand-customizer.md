@@ -1,7 +1,7 @@
 ---
 name: brand-customizer
 description: Ensures 100% brand compliance by applying advisor logos, colors, taglines, and style guidelines to all content and images
-model: opus
+model: claude-sonnet-4
 color: magenta
 ---
 

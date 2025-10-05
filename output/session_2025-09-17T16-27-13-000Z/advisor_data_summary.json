@@ -1,0 +1,57 @@
+{
+  "session_id": "session_2025-09-17T16-27-13-000Z",
+  "agent": "advisor-data-manager",
+  "timestamp": "2025-09-17T22:03:34.959784",
+  "total_advisors": 3,
+  "segments_identified": [
+    "Premium",
+    "Gold",
+    "Silver"
+  ],
+  "customization_preferences": {
+    "custom_branding_count": 3,
+    "logos_available": 2,
+    "review_modes": {
+      "manual": 2,
+      "auto-approve": 1
+    },
+    "supported_languages": [
+      "Marathi",
+      "English",
+      "Hindi"
+    ],
+    "content_tones": [
+      "Professional",
+      "Educational",
+      "Casual"
+    ]
+  },
+  "data_stored_location": "output/session_2025-09-17T16-27-13-000Z/state/shared_memory.json",
+  "ready_for_analysis": true,
+  "advisor_details": [
+    {
+      "id": "ADV_001",
+      "name": "Shruti Petkar",
+      "firm": "Wealth Creators Financial Advisory",
+      "segment": "Premium",
+      "plan": "Premium",
+      "branding": "Wealth Creators"
+    },
+    {
+      "id": "ADV_002",
+      "name": "Rajesh Kumar",
+      "firm": "Money Matters Investment Services",
+      "segment": "Gold",
+      "plan": "Gold",
+      "branding": "Money Matters"
+    },
+    {
+      "id": "ADV_003",
+      "name": "Priya Sharma",
+      "firm": "Smart Investment Advisors",
+      "segment": "Silver",
+      "plan": "Silver",
+      "branding": "Smart Invest"
+    }
+  ]
+}

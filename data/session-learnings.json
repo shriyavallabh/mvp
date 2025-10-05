@@ -1,0 +1,32 @@
+{
+  "sessionId": "session_1758130725",
+  "timestamp": "2025-01-22T00:52:05.000Z",
+  "learnings": [],
+  "patterns": {
+    "missing_data": 0,
+    "api_errors": 0,
+    "compliance_issues": 0,
+    "performance_issues": 0,
+    "agent_failures": 0,
+    "context_misalignment": 0,
+    "quality_issues": 0,
+    "dependency_failures": 0
+  },
+  "criticalIssues": [],
+  "improvements": [],
+  "sessionMetrics": {
+    "totalLearnings": 0,
+    "highImpactLearnings": 0,
+    "mediumImpactLearnings": 0,
+    "lowImpactLearnings": 0,
+    "patternsDetected": 0
+  },
+  "metadata": {
+    "version": "1.0",
+    "format": "real-time learning capture",
+    "updated_by": "state-manager",
+    "learning_count": 0,
+    "session_start": "2025-01-22T00:52:05.000Z"
+  },
+  "lastUpdated": "2025-01-22T00:52:05.000Z"
+}

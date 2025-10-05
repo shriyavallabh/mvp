@@ -1,0 +1,676 @@
+{
+  "metadata": {
+    "sessionId": "session_20250919_023038",
+    "timestamp": "2025-09-19T02:35:00Z",
+    "designCount": 15,
+    "dimensions": {
+      "width": 1080,
+      "height": 1920,
+      "aspectRatio": "9:16",
+      "format": "WhatsApp Status"
+    },
+    "fontHierarchy": {
+      "headline": {
+        "size": 96,
+        "weight": "bold",
+        "purpose": "Primary hook, readable in 1 second"
+      },
+      "subheading": {
+        "size": 72,
+        "weight": "semibold",
+        "purpose": "Supporting information"
+      },
+      "bodyText": {
+        "size": 56,
+        "weight": "regular",
+        "purpose": "Key details and data"
+      },
+      "callToAction": {
+        "size": 64,
+        "weight": "bold",
+        "purpose": "Action trigger"
+      },
+      "footer": {
+        "size": 42,
+        "weight": "light",
+        "purpose": "Compliance and branding"
+      }
+    }
+  },
+
+  "designs": [
+    {
+      "id": "EDU_001",
+      "type": "Educational Infographic",
+      "theme": "Market Correction Explained",
+      "targetSegment": "Standard",
+      "content": {
+        "headline": "Market Dip = Opportunity!",
+        "subheading": "Why Smart Investors Love Corrections",
+        "bodyPoints": [
+          "📉 Buy quality stocks at discount",
+          "💰 Lower NAV = More units in SIP",
+          "📈 Historical recovery always follows",
+          "⏰ Perfect time to increase SIP"
+        ],
+        "cta": "Start Your SIP Today",
+        "footer": "Markets are subject to risks"
+      },
+      "design": {
+        "background": "Gradient: #E8F5E9 to #C8E6C9",
+        "colors": {
+          "primary": "#2E7D32",
+          "secondary": "#66BB6A",
+          "accent": "#FFC107"
+        },
+        "visuals": "Simple line graph showing dip and recovery",
+        "layout": "Top 20% headline, Middle 50% infographic, Bottom 30% CTA"
+      },
+      "customization": {
+        "advisorLogo": "bottom-center",
+        "brandName": "overlay",
+        "arnNumber": "bottom-right small"
+      }
+    },
+
+    {
+      "id": "EDU_002",
+      "type": "Visual Story",
+      "theme": "SEBI F&O Changes Impact",
+      "targetSegment": "Active",
+      "content": {
+        "headline": "F&O Rules Changed!",
+        "subheading": "What It Means for Your Trading",
+        "bodyPoints": [
+          "Contract size: ₹5L → ₹15-20L",
+          "Weekly expiry: 6 → 1 per exchange",
+          "Margin benefits removed Feb 10",
+          "STT increased by 60%"
+        ],
+        "cta": "Adjust Your Strategy Now",
+        "footer": "Source: SEBI Circular"
+      },
+      "design": {
+        "background": "Dark gradient: #1A237E to #283593",
+        "colors": {
+          "primary": "#FFFFFF",
+          "secondary": "#64B5F6",
+          "accent": "#FF5252"
+        },
+        "visuals": "Before/After comparison table",
+        "layout": "Professional data visualization"
+      },
+      "customization": {
+        "advisorLogo": "top-right",
+        "brandName": "header",
+        "arnNumber": "footer"
+      }
+    },
+
+    {
+      "id": "TAX_001",
+      "type": "Countdown Timer Visual",
+      "theme": "Tax Saving Deadline",
+      "targetSegment": "Standard",
+      "content": {
+        "headline": "73 Days Left!",
+        "subheading": "Save ₹46,800 in Taxes",
+        "bodyPoints": [
+          "✅ ELSS Mutual Funds",
+          "✅ PPF Investment",
+          "✅ Life Insurance Premium",
+          "✅ NPS Contribution"
+        ],
+        "cta": "Plan Your Tax Saving",
+        "footer": "Under Section 80C"
+      },
+      "design": {
+        "background": "Urgent gradient: #FF6F00 to #FFB300",
+        "colors": {
+          "primary": "#FFFFFF",
+          "secondary": "#212121",
+          "accent": "#4CAF50"
+        },
+        "visuals": "Large countdown timer, checklist style",
+        "layout": "Timer prominent at top, checklist below"
+      },
+      "customization": {
+        "advisorLogo": "watermark",
+        "brandName": "bottom",
+        "arnNumber": "small footer"
+      }
+    },
+
+    {
+      "id": "PERF_001",
+      "type": "Market Dashboard",
+      "theme": "Weekly Market Performance",
+      "targetSegment": "Active",
+      "content": {
+        "headline": "Market Pulse",
+        "subheading": "Week Ending Jan 19, 2025",
+        "bodyData": {
+          "nifty50": "-1.10% 📉",
+          "midCap": "-6.90% 📉",
+          "smallCap": "-10.44% 📉",
+          "psuBanks": "+2.00% 📈",
+          "gold": "+0.8% 📈"
+        },
+        "cta": "Review Your Portfolio",
+        "footer": "Data: NSE/BSE"
+      },
+      "design": {
+        "background": "Professional dark: #263238",
+        "colors": {
+          "primary": "#ECEFF1",
+          "gains": "#4CAF50",
+          "losses": "#F44336"
+        },
+        "visuals": "Clean data cards with trend arrows",
+        "layout": "Grid layout with color-coded performance"
+      },
+      "customization": {
+        "advisorLogo": "header",
+        "brandName": "prominent",
+        "arnNumber": "footer"
+      }
+    },
+
+    {
+      "id": "TIPS_001",
+      "type": "Investment Tips Carousel",
+      "theme": "5 Smart SIP Rules",
+      "targetSegment": "Standard",
+      "content": {
+        "headline": "SIP Success Secrets",
+        "tips": [
+          "1️⃣ Start with ₹500/month",
+          "2️⃣ Increase 10% yearly",
+          "3️⃣ Never skip in dips",
+          "4️⃣ Choose growth option",
+          "5️⃣ Review every 6 months"
+        ],
+        "cta": "Start Your SIP Journey",
+        "footer": "Discipline beats timing"
+      },
+      "design": {
+        "background": "Friendly gradient: #4FC3F7 to #29B6F6",
+        "colors": {
+          "primary": "#FFFFFF",
+          "secondary": "#01579B",
+          "accent": "#FFF176"
+        },
+        "visuals": "Numbered cards in carousel format",
+        "layout": "Swipeable card design"
+      },
+      "customization": {
+        "advisorLogo": "each card",
+        "brandName": "consistent placement",
+        "arnNumber": "last card"
+      }
+    },
+
+    {
+      "id": "GOLD_001",
+      "type": "Exclusive Insight",
+      "theme": "Global Portfolio Strategy",
+      "targetSegment": "Gold",
+      "content": {
+        "headline": "Dollar at ₹86",
+        "subheading": "International Diversification Time",
+        "insights": [
+          "US Tech correction = Entry opportunity",
+          "Geographic hedge against INR volatility",
+          "Consider 15-20% international allocation",
+          "Focus: Nasdaq-100, S&P 500 funds"
+        ],
+        "cta": "Schedule Consultation",
+        "footer": "Exclusive for HNI Clients"
+      },
+      "design": {
+        "background": "Premium black gradient with gold accents",
+        "colors": {
+          "primary": "#FFD700",
+          "secondary": "#FFFFFF",
+          "background": "#000000"
+        },
+        "visuals": "Minimalist world map with allocation",
+        "layout": "Executive brief style"
+      },
+      "customization": {
+        "advisorLogo": "premium placement",
+        "brandName": "elegant typography",
+        "arnNumber": "discrete footer"
+      }
+    },
+
+    {
+      "id": "MOT_001",
+      "type": "Motivational Quote",
+      "theme": "Investment Wisdom",
+      "targetSegment": "Standard",
+      "content": {
+        "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+        "author": "- Chinese Proverb",
+        "context": "Start your investment journey today",
+        "cta": "Begin Investing",
+        "footer": "Your financial future starts now"
+      },
+      "design": {
+        "background": "Sunrise gradient: #FF8A65 to #FFB74D",
+        "colors": {
+          "primary": "#FFFFFF",
+          "secondary": "#5D4037",
+          "accent": "#8BC34A"
+        },
+        "visuals": "Growing tree silhouette",
+        "layout": "Quote centered, visual background"
+      },
+      "customization": {
+        "advisorLogo": "subtle watermark",
+        "brandName": "bottom placement",
+        "arnNumber": "minimal footer"
+      }
+    },
+
+    {
+      "id": "CALC_001",
+      "type": "Calculator Visual",
+      "theme": "Retirement Calculator",
+      "targetSegment": "Standard",
+      "content": {
+        "headline": "₹5000/month",
+        "subheading": "Can become ₹1.5 Crore!",
+        "calculation": {
+          "monthlyInvestment": "₹5,000",
+          "years": "30 years",
+          "expectedReturn": "12% p.a.",
+          "maturityAmount": "₹1,52,60,000"
+        },
+        "cta": "Calculate Your Goal",
+        "footer": "Start early, retire wealthy"
+      },
+      "design": {
+        "background": "Trust blue: #E3F2FD to #BBDEFB",
+        "colors": {
+          "primary": "#1565C0",
+          "secondary": "#0D47A1",
+          "highlight": "#4CAF50"
+        },
+        "visuals": "Calculator interface mockup",
+        "layout": "Interactive-looking design"
+      },
+      "customization": {
+        "advisorLogo": "app-like placement",
+        "brandName": "calculator branding",
+        "arnNumber": "tool footer"
+      }
+    },
+
+    {
+      "id": "ALERT_001",
+      "type": "Market Alert",
+      "theme": "Small Cap Opportunity",
+      "targetSegment": "Active",
+      "content": {
+        "headline": "Small Cap -10.44%",
+        "subheading": "Accumulation Zone Reached",
+        "analysis": [
+          "📊 Below 200-DMA",
+          "💎 Quality stocks oversold",
+          "📈 3-year CAGR potential: 25%+",
+          "⚠️ Only for high risk appetite"
+        ],
+        "cta": "View Top Picks",
+        "footer": "Risk Disclosure Applied"
+      },
+      "design": {
+        "background": "Alert gradient: #B71C1C to #D32F2F",
+        "colors": {
+          "primary": "#FFFFFF",
+          "secondary": "#FFEB3B",
+          "accent": "#4CAF50"
+        },
+        "visuals": "Chart showing support levels",
+        "layout": "Alert-style with data points"
+      },
+      "customization": {
+        "advisorLogo": "authority placement",
+        "brandName": "alert sender",
+        "arnNumber": "compliance footer"
+      }
+    },
+
+    {
+      "id": "RBI_001",
+      "type": "Policy Update",
+      "theme": "RBI Rate Cut Impact",
+      "targetSegment": "Standard",
+      "content": {
+        "headline": "FD Rates Falling!",
+        "subheading": "Lock-in Current Rates Now",
+        "impact": [
+          "📉 CRR cut to 3%",
+          "🏦 FD rates down 30-70 bps",
+          "📈 Debt funds attractive",
+          "💰 RBI Bonds: 8.05% p.a."
+        ],
+        "cta": "Review Fixed Income",
+        "footer": "Source: RBI Bulletin"
+      },
+      "design": {
+        "background": "Official gradient: #37474F to #455A64",
+        "colors": {
+          "primary": "#FFFFFF",
+          "secondary": "#FFC107",
+          "accent": "#8BC34A"
+        },
+        "visuals": "Rate comparison chart",
+        "layout": "News bulletin style"
+      },
+      "customization": {
+        "advisorLogo": "news source style",
+        "brandName": "bulletin header",
+        "arnNumber": "source citation"
+      }
+    },
+
+    {
+      "id": "FEST_001",
+      "type": "Festival Theme",
+      "theme": "Budget 2025 Preparation",
+      "targetSegment": "All",
+      "content": {
+        "headline": "Budget in 12 Days!",
+        "subheading": "What to Expect",
+        "expectations": [
+          "🎯 Tax slab changes",
+          "🏠 Housing benefits",
+          "💼 Corporate tax tweaks",
+          "📈 Capital gains revision"
+        ],
+        "cta": "Prepare Your Portfolio",
+        "footer": "Budget Date: Feb 1, 2025"
+      },
+      "design": {
+        "background": "Tricolor theme gradient",
+        "colors": {
+          "primary": "#FF9933",
+          "secondary": "#FFFFFF",
+          "accent": "#138808"
+        },
+        "visuals": "Budget briefcase icon",
+        "layout": "Announcement style"
+      },
+      "customization": {
+        "advisorLogo": "official placement",
+        "brandName": "advisory source",
+        "arnNumber": "advisory footer"
+      }
+    },
+
+    {
+      "id": "PSU_001",
+      "type": "Sector Focus",
+      "theme": "PSU Banks Rally",
+      "targetSegment": "Active",
+      "content": {
+        "headline": "PSU Banks +2%",
+        "subheading": "Near 52-Week Highs",
+        "analysis": [
+          "✅ Strong Q3 results expected",
+          "✅ Asset quality improving",
+          "✅ Government backing",
+          "⚡ Book partial profits"
+        ],
+        "cta": "Review Banking Allocation",
+        "footer": "Sector Analysis"
+      },
+      "design": {
+        "background": "Banking blue: #0277BD to #0288D1",
+        "colors": {
+          "primary": "#FFFFFF",
+          "secondary": "#B3E5FC",
+          "accent": "#4CAF50"
+        },
+        "visuals": "Bank building icons with uptrend",
+        "layout": "Sector report card"
+      },
+      "customization": {
+        "advisorLogo": "research badge",
+        "brandName": "analysis credit",
+        "arnNumber": "report footer"
+      }
+    },
+
+    {
+      "id": "MYTH_001",
+      "type": "Myth Buster",
+      "theme": "Investment Myths",
+      "targetSegment": "Standard",
+      "content": {
+        "headline": "MYTH BUSTED!",
+        "myth": "Need ₹1 Lakh to Start Investing",
+        "reality": [
+          "✅ Start with just ₹500",
+          "✅ SIP from ₹100 available",
+          "✅ Digital gold from ₹1",
+          "✅ Wealth grows from small steps"
+        ],
+        "cta": "Start Small, Dream Big",
+        "footer": "Every investor started somewhere"
+      },
+      "design": {
+        "background": "Myth-busting red to green gradient",
+        "colors": {
+          "myth": "#F44336",
+          "reality": "#4CAF50",
+          "text": "#FFFFFF"
+        },
+        "visuals": "Before/After split screen",
+        "layout": "Myth vs Reality format"
+      },
+      "customization": {
+        "advisorLogo": "educator badge",
+        "brandName": "knowledge source",
+        "arnNumber": "educational footer"
+      }
+    },
+
+    {
+      "id": "GOAL_001",
+      "type": "Goal Visualizer",
+      "theme": "Child Education Planning",
+      "targetSegment": "Standard",
+      "content": {
+        "headline": "₹50 Lakhs",
+        "subheading": "For Child's Education in 15 Years",
+        "plan": [
+          "📚 Today's cost: ₹20 Lakhs",
+          "📈 Inflation: 8% p.a.",
+          "💰 SIP needed: ₹12,000/month",
+          "🎯 Start today, secure tomorrow"
+        ],
+        "cta": "Plan Your Child's Future",
+        "footer": "Education inflation is real"
+      },
+      "design": {
+        "background": "Education theme: #FFF9C4 to #FFF176",
+        "colors": {
+          "primary": "#F57F17",
+          "secondary": "#827717",
+          "accent": "#4CAF50"
+        },
+        "visuals": "Graduation cap with growth chart",
+        "layout": "Goal-focused visualization"
+      },
+      "customization": {
+        "advisorLogo": "planner badge",
+        "brandName": "planning partner",
+        "arnNumber": "advisory footer"
+      }
+    },
+
+    {
+      "id": "COMPARE_001",
+      "type": "Comparison Visual",
+      "theme": "FD vs Debt Funds",
+      "targetSegment": "Active",
+      "content": {
+        "headline": "After-Tax Returns",
+        "comparison": {
+          "fd": {
+            "return": "6.5%",
+            "tax": "30%",
+            "postTax": "4.55%"
+          },
+          "debtFund": {
+            "return": "7.5%",
+            "tax": "20% with indexation",
+            "postTax": "6.8%"
+          }
+        },
+        "cta": "Switch to Tax-Efficient Options",
+        "footer": "Tax rates as per current slabs"
+      },
+      "design": {
+        "background": "Comparison split: #E0F2F1 and #E8EAF6",
+        "colors": {
+          "fd": "#FF7043",
+          "debtFund": "#66BB6A",
+          "text": "#212121"
+        },
+        "visuals": "Side-by-side comparison bars",
+        "layout": "VS style comparison"
+      },
+      "customization": {
+        "advisorLogo": "comparison validator",
+        "brandName": "analysis provider",
+        "arnNumber": "calculation footer"
+      }
+    }
+  ],
+
+  "segmentDesignGuidelines": {
+    "Standard": {
+      "colorPalette": {
+        "primary": ["#4CAF50", "#2196F3", "#FF9800"],
+        "backgrounds": ["Light gradients", "Soft pastels", "White space"],
+        "avoid": ["Dark themes", "Complex patterns"]
+      },
+      "typography": {
+        "fonts": ["Sans-serif", "Rounded fonts"],
+        "style": "Clean, friendly, approachable",
+        "readability": "High contrast, large text"
+      },
+      "visualComplexity": "Low to Medium",
+      "iconography": "Simple, universally understood",
+      "dataVisualization": "Basic charts, pie graphs, simple comparisons",
+      "emotionalTone": "Encouraging, supportive, educational"
+    },
+
+    "Active": {
+      "colorPalette": {
+        "primary": ["#1A237E", "#0D47A1", "#263238"],
+        "backgrounds": ["Professional gradients", "Data-focused layouts"],
+        "accents": ["#FFC107", "#00BCD4"]
+      },
+      "typography": {
+        "fonts": ["Professional sans-serif", "Data fonts"],
+        "style": "Clean, professional, authoritative",
+        "hierarchy": "Clear data hierarchy"
+      },
+      "visualComplexity": "Medium to High",
+      "iconography": "Professional, industry-standard",
+      "dataVisualization": "Advanced charts, heatmaps, technical indicators",
+      "emotionalTone": "Professional, analytical, action-oriented"
+    },
+
+    "Gold": {
+      "colorPalette": {
+        "primary": ["#000000", "#212121", "#FFD700"],
+        "backgrounds": ["Premium black", "Subtle gold accents"],
+        "minimal": true
+      },
+      "typography": {
+        "fonts": ["Premium serif", "Elegant sans-serif"],
+        "style": "Sophisticated, minimal, exclusive",
+        "spacing": "Generous white space"
+      },
+      "visualComplexity": "Sophisticated simplicity",
+      "iconography": "Minimal, premium",
+      "dataVisualization": "Executive dashboards, clean metrics",
+      "emotionalTone": "Exclusive, sophisticated, trustworthy"
+    }
+  },
+
+  "technicalSpecifications": {
+    "fileFormat": "PNG with transparency support",
+    "colorMode": "RGB",
+    "resolution": "72 DPI (optimized for mobile)",
+    "maxFileSize": "500KB per image",
+    "safeZones": {
+      "top": "180px (avoid critical content)",
+      "bottom": "200px (reply bar area)",
+      "sides": "50px padding"
+    },
+    "readabilityStandards": {
+      "contrastRatio": "Minimum 4.5:1",
+      "lineHeight": "1.5x font size",
+      "characterLimit": "30-40 per line"
+    }
+  },
+
+  "brandingElements": {
+    "advisorLogoPlacement": {
+      "standard": "Bottom center, 100px width max",
+      "active": "Top right or bottom center, 120px",
+      "gold": "Subtle watermark or premium placement"
+    },
+    "arnDisplay": {
+      "fontSize": 42,
+      "position": "Bottom right",
+      "opacity": 0.8
+    },
+    "disclaimerText": {
+      "standard": "Mutual fund investments are subject to market risks",
+      "fontSize": 42,
+      "position": "Bottom 5%"
+    }
+  },
+
+  "geminiPromptTemplate": {
+    "structure": "Create a WhatsApp Status image (1080x1920px) for [SEGMENT] segment financial advisors featuring [THEME]. Use [COLOR_SCHEME] with headline font 96px, subheading 72px, body text 56px minimum. Include [VISUAL_ELEMENTS] and place advisor branding at [POSITION]. Ensure mobile readability with high contrast and clear visual hierarchy.",
+    "variables": {
+      "segment": "From segmentInfo",
+      "theme": "From design.theme",
+      "colorScheme": "From design.colors",
+      "visualElements": "From design.visuals",
+      "position": "From customization"
+    }
+  },
+
+  "deliveryReadiness": {
+    "totalDesigns": 15,
+    "segmentCoverage": {
+      "Standard": 9,
+      "Active": 5,
+      "Gold": 1
+    },
+    "contentTypes": [
+      "Educational Infographics",
+      "Market Dashboards",
+      "Tax Planning Visuals",
+      "Investment Calculators",
+      "Myth Busters",
+      "Goal Visualizers",
+      "Policy Updates",
+      "Sector Analysis",
+      "Comparison Charts",
+      "Motivational Content"
+    ],
+    "geminiReady": true,
+    "mobileOptimized": true,
+    "fontHierarchyApplied": true
+  }
+}

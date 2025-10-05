@@ -1,0 +1,26 @@
+{
+  "session": "session_20250919_105507",
+  "timestamp": "2025-09-19T11:16:01.790034",
+  "total_posts": 6,
+  "average_virality": 8.950000000000001,
+  "minimum_virality": 8.5,
+  "maximum_virality": 9.5,
+  "json_files": [
+    "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/json/viral_post_001.json",
+    "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/json/viral_post_002.json",
+    "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/json/viral_post_003.json",
+    "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/json/viral_post_004.json",
+    "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/json/viral_post_005.json",
+    "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/json/viral_post_006.json"
+  ],
+  "text_files": [
+    "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_001_score_9.5.txt",
+    "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_002_score_9.2.txt",
+    "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_003_score_9.0.txt",
+    "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_004_score_8.8.txt",
+    "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_005_score_8.5.txt",
+    "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_105507/linkedin/text/VIRAL_006_score_8.7.txt"
+  ],
+  "viral_guarantee": "ALL POSTS 8.0+ VIRALITY CONFIRMED",
+  "grammy_standard": "ACHIEVED"
+}

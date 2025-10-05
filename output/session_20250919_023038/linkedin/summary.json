@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "sessionId": "session_20250919_023038",
+    "timestamp": "2025-09-19T02:54:43.032348",
+    "generatorVersion": "2.0"
+  },
+  "statistics": {
+    "totalPosts": 38,
+    "jsonFiles": 10,
+    "textFiles": 38,
+    "topicsCovered": [
+      "tax_saving",
+      "sip_continuation",
+      "estate_planning",
+      "emergency_fund",
+      "global_macro",
+      "market_correction"
+    ],
+    "segmentDistribution": {
+      "Standard": 9,
+      "Active": 0,
+      "Gold": 1
+    }
+  },
+  "directories": {
+    "base": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/linkedin",
+    "json": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/linkedin/json",
+    "text": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/linkedin/text"
+  },
+  "brandCustomization": {
+    "status": "ready",
+    "nextStep": "Apply brand colors and logos using brand-customizer agent"
+  }
+}

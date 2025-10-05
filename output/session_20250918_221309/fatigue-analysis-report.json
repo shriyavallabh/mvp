@@ -1,0 +1,238 @@
+{
+  "session_id": "session_20250918_221309",
+  "analysis_timestamp": "2025-09-18T23:10:20.775867",
+  "advisors_analyzed": 6,
+  "total_content_items": 10,
+  "fatigue_alerts": [
+    {
+      "advisor": "ADV_004",
+      "issue": "Same CTA type used across all content",
+      "severity": "MEDIUM",
+      "recommendation": "Rotate call-to-action types for better engagement"
+    },
+    {
+      "advisor": "ARN_VIDYADHAR_002",
+      "issue": "Same CTA type used across all content",
+      "severity": "MEDIUM",
+      "recommendation": "Rotate call-to-action types for better engagement"
+    },
+    {
+      "issue": "Identical market data repeated across advisors",
+      "severity": "LOW",
+      "recommendation": "Use different time frames or focus on different market aspects"
+    }
+  ],
+  "similarity_alerts": [
+    {
+      "severity": "MEDIUM",
+      "similarity_score": 0.8333333333333334,
+      "advisor1": "ARN_SHRIYA_003",
+      "advisor2": "ADV_005",
+      "content1_type": "linkedin",
+      "content2_type": "linkedin",
+      "issue": "Content similarity 83.3% between ARN_SHRIYA_003 and ADV_005",
+      "recommendation": "Diversify content or assign different topics to each advisor"
+    },
+    {
+      "severity": "HIGH",
+      "similarity_score": 0.956140350877193,
+      "advisor1": "ARN_SHRIYA_003",
+      "advisor2": "ARN_VIDYADHAR_002",
+      "content1_type": "linkedin",
+      "content2_type": "linkedin",
+      "issue": "Content similarity 95.6% between ARN_SHRIYA_003 and ARN_VIDYADHAR_002",
+      "recommendation": "Diversify content or assign different topics to each advisor"
+    },
+    {
+      "severity": "MEDIUM",
+      "similarity_score": 0.84,
+      "advisor1": "ADV_005",
+      "advisor2": "ARN_VIDYADHAR_002",
+      "content1_type": "linkedin",
+      "content2_type": "linkedin",
+      "issue": "Content similarity 84.0% between ADV_005 and ARN_VIDYADHAR_002",
+      "recommendation": "Diversify content or assign different topics to each advisor"
+    }
+  ],
+  "diversity_analysis": {
+    "ARN_SHRIYA_003": {
+      "advisor_id": "ARN_SHRIYA_003",
+      "total_items": 2,
+      "content_types": [
+        "linkedin",
+        "whatsapp"
+      ],
+      "hook_styles": [
+        "emoji_hook",
+        "statistic"
+      ],
+      "cta_types": [
+        "investment_action",
+        "contact"
+      ],
+      "topics": [
+        "market_update",
+        "investment_strategy",
+        "sector_analysis",
+        "educational",
+        "economic_update",
+        "market_update"
+      ],
+      "diversity_scores": {
+        "hook_diversity": 1.0,
+        "cta_diversity": 1.0,
+        "topic_diversity": 0.8333333333333334,
+        "overall_diversity": 0.9444444444444445
+      }
+    },
+    "ADV_004": {
+      "advisor_id": "ADV_004",
+      "total_items": 2,
+      "content_types": [
+        "linkedin",
+        "whatsapp"
+      ],
+      "hook_styles": [
+        "statistic",
+        "statement"
+      ],
+      "cta_types": [
+        "contact",
+        "contact"
+      ],
+      "topics": [
+        "market_update",
+        "investment_strategy",
+        "economic_update",
+        "market_update",
+        "educational"
+      ],
+      "diversity_scores": {
+        "hook_diversity": 1.0,
+        "cta_diversity": 0.5,
+        "topic_diversity": 0.8,
+        "overall_diversity": 0.7666666666666666
+      }
+    },
+    "ADV_005": {
+      "advisor_id": "ADV_005",
+      "total_items": 1,
+      "content_types": [
+        "linkedin"
+      ],
+      "hook_styles": [
+        "emoji_hook"
+      ],
+      "cta_types": [
+        "learn_more"
+      ],
+      "topics": [
+        "market_update",
+        "investment_strategy",
+        "sector_analysis",
+        "educational",
+        "economic_update"
+      ],
+      "diversity_scores": {
+        "hook_diversity": 1.0,
+        "cta_diversity": 1.0,
+        "topic_diversity": 1.0,
+        "overall_diversity": 1.0
+      }
+    },
+    "ARN_SHRUTI_001": {
+      "advisor_id": "ARN_SHRUTI_001",
+      "total_items": 2,
+      "content_types": [
+        "linkedin",
+        "whatsapp"
+      ],
+      "hook_styles": [
+        "emoji_hook",
+        "statistic"
+      ],
+      "cta_types": [
+        "learn_more",
+        "contact"
+      ],
+      "topics": [
+        "market_update",
+        "investment_strategy",
+        "sector_analysis",
+        "educational",
+        "economic_update",
+        "market_update",
+        "sector_analysis"
+      ],
+      "diversity_scores": {
+        "hook_diversity": 1.0,
+        "cta_diversity": 1.0,
+        "topic_diversity": 0.7142857142857143,
+        "overall_diversity": 0.9047619047619048
+      }
+    },
+    "ARN_VIDYADHAR_002": {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "total_items": 2,
+      "content_types": [
+        "linkedin",
+        "whatsapp"
+      ],
+      "hook_styles": [
+        "emoji_hook",
+        "statistic"
+      ],
+      "cta_types": [
+        "investment_action",
+        "investment_action"
+      ],
+      "topics": [
+        "market_update",
+        "investment_strategy",
+        "sector_analysis",
+        "educational",
+        "economic_update",
+        "market_update",
+        "investment_strategy",
+        "sector_analysis"
+      ],
+      "diversity_scores": {
+        "hook_diversity": 1.0,
+        "cta_diversity": 0.5,
+        "topic_diversity": 0.625,
+        "overall_diversity": 0.7083333333333334
+      }
+    },
+    "ADV_005_STD": {
+      "advisor_id": "ADV_005_STD",
+      "total_items": 1,
+      "content_types": [
+        "whatsapp"
+      ],
+      "hook_styles": [
+        "statistic"
+      ],
+      "cta_types": [
+        "contact"
+      ],
+      "topics": [
+        "market_update",
+        "investment_strategy"
+      ],
+      "diversity_scores": {
+        "hook_diversity": 1.0,
+        "cta_diversity": 1.0,
+        "topic_diversity": 1.0,
+        "overall_diversity": 1.0
+      }
+    }
+  },
+  "recommendations": [
+    "URGENT: Address content duplication between advisors before distribution",
+    "Improve content variety within individual advisor streams"
+  ],
+  "visual_content": {
+    "total_images": 5,
+    "recommendation": "Review image themes for visual diversity"
+  }
+}

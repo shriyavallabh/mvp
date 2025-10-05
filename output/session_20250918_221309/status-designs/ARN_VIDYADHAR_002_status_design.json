@@ -1,0 +1,106 @@
+{
+  "type": "educational_animation",
+  "topic": "diversification",
+  "layout": "animated_story",
+  "elements": {
+    "background": {
+      "style": "animated_gradient",
+      "colors": [
+        "#1A73E8",
+        "#34A853"
+      ]
+    },
+    "headline": {
+      "text": "Don't Put All Eggs in One Basket",
+      "fontSize": 96,
+      "animation": "fade_in",
+      "position": {
+        "x": "center",
+        "y": 200
+      }
+    },
+    "visual": {
+      "type": "basket_with_different_assets",
+      "position": {
+        "x": "center",
+        "y": 600
+      },
+      "size": {
+        "width": 800,
+        "height": 600
+      },
+      "animation": "loop"
+    },
+    "key_points": {
+      "items": [
+        "Reduce Risk",
+        "Stable Returns",
+        "Peace of Mind"
+      ],
+      "fontSize": 56,
+      "animation": "slide_in",
+      "position": {
+        "x": "center",
+        "y": 1200
+      }
+    },
+    "cta": {
+      "text": "Learn More \u2192",
+      "fontSize": 64,
+      "position": {
+        "x": "center",
+        "y": 1500
+      }
+    },
+    "branding": {
+      "advisorName": "Vidyadhar Petkar",
+      "fontSize": 42,
+      "position": {
+        "x": "center",
+        "y": 1800
+      }
+    }
+  },
+  "metadata": {
+    "advisorId": "ARN_VIDYADHAR_002",
+    "advisorName": "Vidyadhar Petkar",
+    "arn": "ARN_VIDYADHAR_002",
+    "tier": "Standard",
+    "sessionId": "session_20250918_221309",
+    "timestamp": "2025-09-18T22:43:32.120364",
+    "fontStandards": {
+      "headline": {
+        "size": 96,
+        "weight": "bold",
+        "position": "top 20%",
+        "purpose": "Primary hook, must be readable in 1 second"
+      },
+      "subheading": {
+        "size": 72,
+        "weight": "semibold",
+        "position": "top 30-40%",
+        "purpose": "Supporting information"
+      },
+      "body_text": {
+        "size": 56,
+        "weight": "regular",
+        "position": "middle 40-60%",
+        "purpose": "Key details and data"
+      },
+      "call_to_action": {
+        "size": 64,
+        "weight": "bold",
+        "position": "bottom 30%",
+        "purpose": "Action trigger"
+      },
+      "footer_disclaimer": {
+        "size": 42,
+        "weight": "light",
+        "position": "bottom 10%",
+        "purpose": "Compliance text (still readable)"
+      }
+    },
+    "isVariation": false
+  },
+  "geminiPrompt": "\n    Create a WhatsApp Status image (1080x1920px vertical format):\n\n    DESIGN TYPE: educational_animation\n    LAYOUT: animated_story\n\n    VISUAL SPECIFICATIONS:\n    - Canvas: 1080x1920px, 9:16 aspect ratio\n    - Mobile-optimized with thumb-zone awareness\n    - High contrast for outdoor viewing\n    - 3-second comprehension rule applied\n\n    BRAND IDENTITY:\n    - Advisor: Vidyadhar Petkar\n    - Primary Color: #1A73E8\n    - Secondary Color: #34A853\n    - Tagline: Building Wealth, Creating Trust\n\n    FONT HIERARCHY (Mobile Optimized):\n    - Headlines: 96px bold (top 20% of screen)\n    - Subheadings: 72px semibold\n    - Body Text: 56px regular\n    - CTAs: 64px bold\n    - Footer/Disclaimer: 42px minimum\n\n    CONTENT ELEMENTS:\n    {\n  \"background\": {\n    \"style\": \"animated_gradient\",\n    \"colors\": [\n      \"#1A73E8\",\n      \"#34A853\"\n    ]\n  },\n  \"headline\": {\n    \"text\": \"Don't Put All Eggs in One Basket\",\n    \"fontSize\": 96,\n    \"animation\": \"fade_in\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 200\n    }\n  },\n  \"visual\": {\n    \"type\": \"basket_with_different_assets\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 600\n    },\n    \"size\": {\n      \"width\": 800,\n      \"height\": 600\n    },\n    \"animation\": \"loop\"\n  },\n  \"key_points\": {\n    \"items\": [\n      \"Reduce Risk\",\n      \"Stable Returns\",\n      \"Peace of Mind\"\n    ],\n    \"fontSize\": 56,\n    \"animation\": \"slide_in\",\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1200\n    }\n  },\n  \"cta\": {\n    \"text\": \"Learn More \\u2192\",\n    \"fontSize\": 64,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1500\n    }\n  },\n  \"branding\": {\n    \"advisorName\": \"Vidyadhar Petkar\",\n    \"fontSize\": 42,\n    \"position\": {\n      \"x\": \"center\",\n      \"y\": 1800\n    }\n  }\n}\n\n    STYLE GUIDELINES:\n    - Modern, clean, professional\n    - Use brand colors prominently\n    - Ensure text has proper contrast\n    - Include subtle animations/transitions feel\n    - Bottom 15% clear for WhatsApp reply bar\n\n    COMPLIANCE:\n    - Include disclaimer: \"Mutual fund investments are subject to market risks.\"\n    - ARN: ARN_VIDYADHAR_002\n\n    OUTPUT: High-quality status image optimized for mobile viewing\n    "
+}

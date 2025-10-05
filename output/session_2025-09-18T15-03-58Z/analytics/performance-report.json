@@ -1,0 +1,88 @@
+{
+  "sessionId": "session_2025-09-18T15-03-58Z",
+  "timestamp": "2025-09-18T21:12:25.795187",
+  "metricsTracked": 25,
+  "kpis": {
+    "content_approval_rate": 100.0,
+    "average_quality_score": 83.26315789473684,
+    "compliance_percentage": 42.10526315789473,
+    "content_freshness": 58.9,
+    "distribution_readiness": 100.0,
+    "overall_health_score": 70.22736842105263
+  },
+  "insights": [
+    "Good content quality (83.3) with room for improvement in clarity and engagement",
+    "CRITICAL: 1 critical compliance violations detected - immediate remediation required",
+    "Low SEBI compliance rate (42%) - add required disclaimers and remove prohibited terms",
+    "Content duplication detected across 4 advisor pairs - diversify messaging for unique perspectives",
+    "Content distribution: 47% LinkedIn, 53% WhatsApp - consider channel balance",
+    "Strong performance in educational and market analysis content - leverage this strength"
+  ],
+  "recommendations": [
+    "Add mandatory SEBI disclaimers to all investment-related content",
+    "Include ARN/AMFI registration numbers for transparency",
+    "Increase content variety using different hooks, statistics, and personalized insights",
+    "Customize content for each advisor's unique voice and expertise area",
+    "Schedule content delivery during peak engagement hours (9-11 AM, 5-7 PM)"
+  ],
+  "performanceScore": 69.38763157894736,
+  "metrics": {
+    "generation": {
+      "linkedin_posts_generated": 9,
+      "whatsapp_messages_generated": 10,
+      "images_generated": 0,
+      "total_content_pieces": 19,
+      "generation_success_rate": 100.0,
+      "content_per_advisor": {
+        "ADV_001": 4,
+        "ADV_002": 4,
+        "ADV_003": 4,
+        "ADV_004": 1,
+        "ADV_005": 1,
+        "ADV_006": 1,
+        "ADV_007": 1,
+        "ADV_008": 1,
+        "ADV_009": 1,
+        "ADV_010": 1
+      }
+    },
+    "quality": {
+      "average_quality_score": 83.26315789473684,
+      "auto_approved_count": 19,
+      "manual_review_count": 0,
+      "rejected_count": 0,
+      "quality_distribution": {
+        "A": 6,
+        "A-": 0,
+        "B+": 9,
+        "B": 4,
+        "B-": 0,
+        "C": 0
+      },
+      "approval_rate": 100.0
+    },
+    "compliance": {
+      "sebi_compliance_rate": 42.10526315789473,
+      "whatsapp_compliance_rate": 100.0,
+      "critical_violations": 1,
+      "high_violations": 10,
+      "medium_warnings": 16,
+      "content_validated": 19,
+      "compliance_score": 0
+    },
+    "freshness": {
+      "freshness_score": 58.9,
+      "duplicates_found": 0,
+      "high_similarity_pairs": 4,
+      "topic_diversity": 63.0,
+      "hook_diversity": 22.0,
+      "unique_topics_count": 12
+    }
+  },
+  "summary": {
+    "contentGenerated": 19,
+    "contentApproved": 19,
+    "complianceIssues": 11,
+    "qualityGrade": "B+"
+  }
+}

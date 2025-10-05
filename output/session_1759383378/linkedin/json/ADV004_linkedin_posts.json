@@ -1,0 +1,64 @@
+{
+  "advisorId": "ADV004",
+  "advisorName": "Avalok Langer",
+  "segment": "Silver",
+  "arn": "ARN-169741",
+  "brandColors": {
+    "primary": "#1A73E8",
+    "secondary": "#34A853"
+  },
+  "tagline": "Smart Investments, Secure Future",
+  "posts": [
+    {
+      "postId": "ADV004_LINKEDIN_1",
+      "formula": "custom_segment_tailored",
+      "viralityScore": 9.8,
+      "title": "",
+      "content": "Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!\n\nLet me tell you about Priya.\n\nAge: 26\nSalary: ₹6 lakh per year\nSIP: Started with ₹1,000\n\nEveryone told her:\n\"Save for marriage\"\n\"₹1,000 is too small\"\n\"Start when salary increases\"\n\nShe started anyway. October 2020.\n\n5 years later (October 2025):\nInvested: ₹60,000\nCurrent value: ₹1,05,000\nGain: ₹45,000 (75% returns!)\n\nBut here's the real win:\n\n→ Built investing habit\n→ Learned about markets\n→ Increased to ₹3,000/month by 2023\n→ Now has ₹2.5 lakh portfolio\n\nShe's part of ₹27,269 CRORE monthly SIP movement.\nIndians investing ₹906 crore DAILY.\n\nThe secret?\n\nNot waiting for \"perfect time\"\nNot waiting for \"big salary\"\nNot waiting for \"market bottom\"\n\nJust. Starting. Now.\n\n₹500 monthly for 25 years = ₹1.15 crore\n₹1,000 monthly for 25 years = ₹2.3 crore\n\nYour coffee budget today.\nYour retirement corpus tomorrow.\n\nPriya's advice to beginners?\n\"Best time to start: 5 years ago.\nSecond best time: TODAY.\"\n\nReady to start your ₹500 SIP journey?\n\nAvalok Langer | Smart Investments, Secure Future\nARN: ARN-169741\n\n#StartInvesting #SIPJourney #FinancialFreedom #YoungInvestor #WealthCreation",
+      "hooks": [
+        "Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!"
+      ],
+      "emotions": [
+        "Pride, FOMO"
+      ],
+      "cta": "Simplify to 'Indians investing ₹906 crore DAILY - You can start with just ₹500/month!'",
+      "characterCount": 1173,
+      "viralElements": {
+        "hook": "Indians are investing ₹906 crore DAILY through SIPs - More than entire IPO amounts!",
+        "story": "From panic sellers to patient investors - 30% SIPs now held for 5+ years. Your parents' generation bought gold, you're building portfolios!",
+        "emotion": "Pride, FOMO",
+        "data": "₹27,269 crore peak, 30% long-term holders",
+        "cta": "Start your ₹1000/month SIP today"
+      },
+      "timestamp": "2025-10-02T06:34:00.438Z"
+    },
+    {
+      "postId": "ADV004_LINKEDIN_2",
+      "formula": "warikoo_underdog",
+      "viralityScore": 9.2,
+      "title": "",
+      "content": "₹500 per month. That's all Ramesh started with in 2015.\n\nAuto driver. Two kids. Monthly income: ₹18,000.\n\nEveryone said \"Save for emergencies, don't invest.\"\n\nHe did both. Started ₹500 SIP in equity fund.\n\n10 years later:\n• Invested: ₹60,000 total\n• Current value: ₹1,47,000\n• Daughter: Engineering college (partially funded)\n\nBut here's the real story:\n\n→ 2016: Market crash. He continued.\n→ 2020: COVID panic. He increased to ₹1000.\n→ 2023: Market high. He stayed disciplined.\n→ 2025: Portfolio worth 2.45X his investment.\n\nWhile others with ₹10,000 salary waited for \"right time,\"\nRamesh with ₹18,000 salary STARTED.\n\nToday, India's SIP story is ₹27,269 CRORE monthly.\nThat's ₹906 crore invested DAILY by people like Ramesh.\n\nFrom 2020 to 2025:\n• Short-term SIPs (under 1 year): 40% → 21%\n• Long-term SIPs (over 5 years): 5% → 30%\n\nIndians are finally thinking long-term.\n\nYour salary doesn't matter.\nYour discipline does.\n\nThe question isn't \"How much should I invest?\"\nIt's \"When will I start?\"\n\nRamesh started at ₹500.\nWhat's YOUR excuse?\n\nAvalok Langer | Smart Investments, Secure Future\nARN: ARN-169741\n\n#SIPRevolution #WealthCreation #FinancialDiscipline #MutualFunds #InvestmentJourney",
+      "hooks": [
+        "Underdog hero (auto driver)",
+        "Small amount (₹500)",
+        "Massive transformation (₹1.47L)",
+        "Remove excuses"
+      ],
+      "emotions": [
+        "inspiration",
+        "pride",
+        "motivation"
+      ],
+      "cta": "whats_your_excuse",
+      "characterCount": 1289,
+      "viralElements": {
+        "hook": "₹500 SIP by auto driver",
+        "story": "10-year journey through crashes",
+        "emotion": "Inspiration + Remove excuses",
+        "data": "₹60K → ₹1.47L, SIP ₹27,269 Cr",
+        "cta": "What's YOUR excuse?"
+      },
+      "timestamp": "2025-10-02T06:34:00.438Z"
+    }
+  ]
+}

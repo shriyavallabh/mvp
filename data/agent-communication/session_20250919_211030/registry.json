@@ -1,0 +1,49 @@
+{
+  "sessionId": "session_20250919_211030",
+  "registeredAt": "2025-09-19T21:10:30.000Z",
+  "agents": {
+    "state-manager": {
+      "capabilities": ["state-persistence", "learning-capture"],
+      "sharedMemory": "data/shared-memory/session_20250919_211030",
+      "learnings": "learnings/sessions/session_20250919_211030"
+    },
+    "communication-bus": {
+      "capabilities": ["message-routing", "broadcast"],
+      "channels": "data/agent-communication/session_20250919_211030"
+    },
+    "advisor-data-manager": {
+      "capabilities": ["data-fetching", "google-sheets-integration"],
+      "sharedMemory": "data/shared-memory/session_20250919_211030",
+      "output": "output/session_20250919_211030"
+    },
+    "market-intelligence": {
+      "capabilities": ["market-analysis", "segment-analysis"],
+      "sharedMemory": "data/shared-memory/session_20250919_211030",
+      "output": "output/session_20250919_211030"
+    },
+    "gemini-image-generator": {
+      "capabilities": ["image-generation", "visual-content"],
+      "output": "output/session_20250919_211030/images"
+    },
+    "status-image-designer": {
+      "capabilities": ["status-design", "image-composition"],
+      "output": "output/session_20250919_211030/images"
+    },
+    "whatsapp-message-creator": {
+      "capabilities": ["message-creation", "template-management"],
+      "output": "output/session_20250919_211030/whatsapp"
+    },
+    "distribution-controller": {
+      "capabilities": ["content-distribution", "delivery-management"],
+      "sharedMemory": "data/shared-memory/session_20250919_211030"
+    },
+    "compliance-validator": {
+      "capabilities": ["sebi-compliance", "content-validation"],
+      "sharedMemory": "data/shared-memory/session_20250919_211030"
+    },
+    "quality-scorer": {
+      "capabilities": ["quality-assessment", "content-scoring"],
+      "sharedMemory": "data/shared-memory/session_20250919_211030"
+    }
+  }
+}

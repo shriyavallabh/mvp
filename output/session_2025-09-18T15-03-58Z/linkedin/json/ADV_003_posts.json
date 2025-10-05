@@ -1,0 +1,68 @@
+[
+  {
+    "advisorId": "ADV_003",
+    "postId": "ADV_003_LI_001",
+    "type": "market_basics",
+    "hook": "\ud83d\ude80 Sensex hits new high! But what does it mean for YOU?",
+    "content": "Markets reached 82,690 today (+0.38%) - sounds great, but let me simplify this for you!\n\n\ud83e\udd14 WHAT IS SENSEX?\nThink of it as a 'report card' of India's top 30 companies. When it goes up, these companies are doing well!\n\n\u2705 GOOD NEWS FOR BEGINNERS:\n\u2022 Your SIPs are growing! \ud83d\udcc8\n\u2022 Economy looking positive\n\u2022 Good time to start investing\n\n\u26a0\ufe0f BUT REMEMBER:\n\u2022 Markets go up AND down\n\u2022 Don't invest all at once\n\u2022 Start small, learn as you go\n\n\ud83d\udc76 BEGINNER'S ACTION PLAN:\nStep 1: Start a \u20b9500 SIP (yes, that's enough!)\nStep 2: Build emergency fund first (\u20b950,000)\nStep 3: Increase SIP by \u20b9500 every 6 months\n\n\ud83c\udfaf SIMPLE GOALS TO START:\n- Save for a holiday: \u20b91,000/month\n- New phone next year: \u20b92,000/month\n- Future car: \u20b95,000/month\n\nNo big words, no confusion - just simple steps to grow your money!\n\nSmart Investing Made Simple\n\nQuestions? I explain in simple language!",
+    "cta": "\ud83d\ude4b Ask your investment doubts below!",
+    "hashtags": [
+      "#BeginnerInvesting",
+      "#StartInvesting",
+      "#SimplifiedFinance",
+      "#FirstTimeInvestor",
+      "#FinancialLiteracy",
+      "#MoneyBasics"
+    ],
+    "metrics": {
+      "characterCount": 1089,
+      "wordCount": 162,
+      "readingTime": "40 seconds"
+    },
+    "timestamp": "2025-09-18T20:55:28.067085"
+  },
+  {
+    "advisorId": "ADV_003",
+    "postId": "ADV_003_LI_002",
+    "type": "educational_simple",
+    "hook": "\ud83c\udf93 SIP Explained in 30 Seconds (Save this!)",
+    "content": "Confused about SIP? Let me explain with chai! \u2615\n\nImagine you buy chai everyday:\nMonday: \u20b910\nTuesday: \u20b912\nWednesday: \u20b98\nThursday: \u20b911\nFriday: \u20b99\n\nAverage price? \u20b910!\nYou saved money on expensive days! \ud83d\udcb0\n\nTHAT'S EXACTLY HOW SIP WORKS!\n\n\ud83d\udcc8 When market is UP = You buy less units\n\ud83d\udcc9 When market is DOWN = You buy more units\n= Average cost becomes lower!\n\nREAL EXAMPLE:\n\u20b95,000 SIP for 5 years\nTotal invested: \u20b93,00,000\nValue after 5 years: \u20b94,25,000*\nProfit: \u20b91,25,000! \ud83c\udf89\n\nSTART YOUR SIP WITH:\n\u2705 \u20b9500 - Coffee money\n\u2705 \u20b91,000 - Movie ticket\n\u2705 \u20b95,000 - Weekend party\n\n3 SIMPLE RULES:\n1. Start NOW (time > timing)\n2. Never stop (even in bad markets)\n3. Increase yearly (raise = raise SIP)\n\nSmart Investing Made Simple\n\n*Returns assumed at 12% annually\n\nReady to start your wealth journey?",
+    "cta": "\ud83d\ude80 Reply 'START' to begin your first SIP!",
+    "hashtags": [
+      "#SIPSimplified",
+      "#BeginnerInvesting",
+      "#StartSmall",
+      "#FinancialEducation",
+      "#WealthBuilding",
+      "#InvestingMadeEasy"
+    ],
+    "metrics": {
+      "characterCount": 978,
+      "wordCount": 156,
+      "readingTime": "35 seconds"
+    },
+    "timestamp": "2025-09-18T20:55:28.067087"
+  },
+  {
+    "advisorId": "ADV_003",
+    "postId": "ADV_003_LI_003",
+    "type": "trending",
+    "hook": "\ud83d\udd25 Fed rate cuts impact on Indian portfolios - What it means for YOUR money",
+    "content": "Everyone's talking about Fed rate cuts, but here's what actually matters for Indian investors:\n\n\ud83c\udf0d GLOBAL IMPACT:\n\u2022 US cuts rates = Dollar weakens\n\u2022 Foreign money flows to India\n\u2022 IT companies benefit (earn in dollars!)\n\n\ud83c\uddee\ud83c\uddf3 INDIA IMPACT:\n\u2705 Good for stocks (money seeks returns)\n\u2705 Good for gold (dollar weakness)\n\u274c Bad for NRIs (rupee may strengthen)\n\n\ud83d\udcca YOUR ACTION PLAN:\n\nIf you have \u20b91 Lakh to invest:\n\u2022 40% in IT funds (\u20b940,000)\n\u2022 30% in banking funds (\u20b930,000)\n\u2022 20% in gold ETFs (\u20b920,000)\n\u2022 10% keep liquid (\u20b910,000)\n\nIf you're a SIP investor:\n\u2022 Continue as normal\n\u2022 Add IT sector fund if possible\n\u2022 Don't stop existing SIPs!\n\nIf you have loans:\n\u2022 Lock floating rates NOW\n\u2022 RBI may change stance in 2026\n\n\ud83c\udfaf BOTTOM LINE:\nFed cuts = Opportunity for Indian markets\nBut don't go all-in! Stay diversified.\n\nSmart Investing Made Simple\n\nQuestions about Fed impact? Ask below!",
+    "cta": "\ud83d\udcca Share if this helped you understand!",
+    "hashtags": [
+      "#FedRateCut",
+      "#MarketImpact",
+      "#InvestmentStrategy",
+      "#GlobalMarkets",
+      "#IndianStocks",
+      "#FinancialNews"
+    ],
+    "metrics": {
+      "characterCount": 1045,
+      "wordCount": 164,
+      "readingTime": "40 seconds"
+    },
+    "timestamp": "2025-09-18T20:55:28.067089"
+  }
+]

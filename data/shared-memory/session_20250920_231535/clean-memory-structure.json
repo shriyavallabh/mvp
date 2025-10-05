@@ -1,0 +1,55 @@
+{
+  "advisorContext": {
+    "dataSource": "google-sheets",
+    "advisors": [],
+    "lastFetched": null,
+    "totalCount": 0,
+    "segmentation": {
+      "segments": [],
+      "criteria": [],
+      "analysis": null
+    }
+  },
+  "marketIntelligence": {
+    "trends": [],
+    "insights": [],
+    "recommendations": [],
+    "analysisDate": null,
+    "confidence": null
+  },
+  "contentGeneration": {
+    "images": {
+      "generated": [],
+      "pending": [],
+      "failed": []
+    },
+    "whatsappMessages": {
+      "templates": [],
+      "personalized": [],
+      "ready": []
+    },
+    "linkedinPosts": {
+      "posts": [],
+      "hashtags": [],
+      "ready": []
+    }
+  },
+  "complianceValidation": {
+    "status": "pending",
+    "violations": [],
+    "warnings": [],
+    "approved": [],
+    "lastValidated": null
+  },
+  "distributionQueue": {
+    "ready": [],
+    "pending": [],
+    "completed": [],
+    "failed": []
+  },
+  "crossAgentData": {
+    "sharedInsights": [],
+    "dependencies": {},
+    "handoffs": []
+  }
+}

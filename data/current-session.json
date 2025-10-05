@@ -1,0 +1,12 @@
+{
+  "sessionId": "session_20251002_180551",
+  "timestamp": "2025-10-02T18:05:51+05:30",
+  "sessionDir": "/Users/shriyavallabh/Desktop/mvp/output/session_20251002_180551",
+  "phase": "market-intelligence",
+  "status": "completed",
+  "startTime": 1727873751,
+  "agents_completed": ["market-intelligence"],
+  "market_data_status": "fresh_data_fetched",
+  "market_data_timestamp": "2025-10-02T18:05:51+05:30",
+  "next_agent": "segment-analyzer"
+}

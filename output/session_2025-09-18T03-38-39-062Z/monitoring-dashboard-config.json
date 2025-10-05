@@ -1,0 +1,327 @@
+{
+  "dashboard_configuration": {
+    "version": "2.0",
+    "session_id": "session_2025-09-18T03-38-39-062Z",
+    "created_at": "2025-09-18T09:49:00.000Z",
+    "auto_refresh_interval": 30,
+    "theme": "financial_professional"
+  },
+  "dashboard_layout": {
+    "overview_panel": {
+      "position": "top",
+      "height": "25%",
+      "widgets": [
+        {
+          "type": "kpi_cards",
+          "metrics": [
+            "total_content_items",
+            "compliance_rate",
+            "distribution_success",
+            "advisor_satisfaction"
+          ],
+          "update_frequency": "real_time"
+        },
+        {
+          "type": "status_indicator",
+          "name": "system_health",
+          "color_coding": {
+            "green": "all_systems_operational",
+            "yellow": "warnings_present",
+            "red": "critical_issues"
+          }
+        }
+      ]
+    },
+    "performance_panel": {
+      "position": "middle_left",
+      "width": "60%",
+      "height": "50%",
+      "widgets": [
+        {
+          "type": "time_series_chart",
+          "name": "engagement_trends",
+          "metrics": ["open_rate", "click_rate", "engagement_rate"],
+          "time_range": "24_hours",
+          "granularity": "hourly"
+        },
+        {
+          "type": "heatmap",
+          "name": "advisor_activity",
+          "dimensions": ["advisor_segment", "content_type", "time_of_day"],
+          "color_scale": "engagement_intensity"
+        },
+        {
+          "type": "correlation_matrix",
+          "name": "performance_factors",
+          "variables": ["quality_score", "compliance_score", "engagement_rate", "advisor_satisfaction"]
+        }
+      ]
+    },
+    "alerts_panel": {
+      "position": "middle_right",
+      "width": "40%",
+      "height": "50%",
+      "widgets": [
+        {
+          "type": "alert_feed",
+          "name": "real_time_alerts",
+          "categories": ["critical", "warning", "info"],
+          "max_items": 10,
+          "auto_scroll": true
+        },
+        {
+          "type": "compliance_radar",
+          "name": "compliance_status",
+          "metrics": [
+            "sebi_compliance",
+            "whatsapp_policy",
+            "content_quality",
+            "distribution_approval"
+          ]
+        }
+      ]
+    },
+    "analytics_panel": {
+      "position": "bottom",
+      "height": "25%",
+      "widgets": [
+        {
+          "type": "advisor_performance_table",
+          "columns": [
+            "advisor_name",
+            "segment",
+            "content_received",
+            "engagement_score",
+            "satisfaction_rating"
+          ],
+          "sortable": true,
+          "filterable": true
+        },
+        {
+          "type": "content_performance_ranking",
+          "metrics": ["engagement_rate", "quality_score", "compliance_score"],
+          "top_n": 5
+        }
+      ]
+    }
+  },
+  "real_time_tracking": {
+    "event_listeners": [
+      {
+        "event_type": "content_delivery",
+        "metrics_to_update": ["delivery_rate", "delivery_success_count"],
+        "notification_threshold": "every_10_deliveries"
+      },
+      {
+        "event_type": "advisor_engagement",
+        "metrics_to_update": ["engagement_rate", "advisor_activity_score"],
+        "notification_threshold": "real_time"
+      },
+      {
+        "event_type": "compliance_violation",
+        "metrics_to_update": ["compliance_score", "violation_count"],
+        "notification_threshold": "immediate"
+      },
+      {
+        "event_type": "quality_assessment",
+        "metrics_to_update": ["average_quality_score", "content_approval_rate"],
+        "notification_threshold": "every_assessment"
+      }
+    ],
+    "data_aggregation": {
+      "rolling_windows": ["5min", "1hour", "24hour", "7day"],
+      "calculation_methods": {
+        "engagement_rate": "weighted_average",
+        "compliance_score": "minimum_threshold",
+        "quality_score": "arithmetic_mean",
+        "advisor_satisfaction": "net_promoter_score"
+      }
+    }
+  },
+  "automated_insights": {
+    "pattern_detection": {
+      "enabled": true,
+      "algorithms": [
+        "trend_analysis",
+        "anomaly_detection",
+        "correlation_discovery",
+        "seasonal_pattern_recognition"
+      ],
+      "confidence_threshold": 0.8,
+      "update_frequency": "hourly"
+    },
+    "predictive_analytics": {
+      "forecasting_models": [
+        {
+          "name": "engagement_prediction",
+          "horizon": "24_hours",
+          "accuracy_target": 85.0,
+          "variables": ["content_type", "timing", "advisor_segment", "market_sentiment"]
+        },
+        {
+          "name": "compliance_risk_prediction",
+          "horizon": "7_days",
+          "accuracy_target": 90.0,
+          "variables": ["content_category", "regulatory_changes", "historical_violations"]
+        }
+      ]
+    },
+    "recommendation_engine": {
+      "optimization_areas": [
+        "content_timing",
+        "advisor_targeting",
+        "channel_selection",
+        "content_personalization"
+      ],
+      "recommendation_frequency": "daily",
+      "implementation_tracking": true
+    }
+  },
+  "alert_configuration": {
+    "severity_levels": {
+      "critical": {
+        "color": "red",
+        "notification_channels": ["dashboard", "email", "sms"],
+        "escalation_time": "immediate",
+        "auto_actions": ["block_distribution", "notify_admin"]
+      },
+      "warning": {
+        "color": "orange",
+        "notification_channels": ["dashboard", "email"],
+        "escalation_time": "15_minutes",
+        "auto_actions": ["flag_for_review"]
+      },
+      "info": {
+        "color": "blue",
+        "notification_channels": ["dashboard"],
+        "escalation_time": "none",
+        "auto_actions": ["log_event"]
+      }
+    },
+    "alert_rules": [
+      {
+        "name": "compliance_violation_detected",
+        "condition": "compliance_score < 80",
+        "severity": "critical",
+        "message": "Content compliance violation detected - immediate review required"
+      },
+      {
+        "name": "low_engagement_alert",
+        "condition": "engagement_rate < 1.5% AND sample_size > 10",
+        "severity": "warning",
+        "message": "Engagement rate below threshold - content optimization needed"
+      },
+      {
+        "name": "advisor_satisfaction_drop",
+        "condition": "advisor_satisfaction < 7.0 AND response_count > 5",
+        "severity": "warning",
+        "message": "Advisor satisfaction declining - feedback collection required"
+      },
+      {
+        "name": "high_performance_content",
+        "condition": "engagement_rate > 5.0% AND quality_score > 0.8",
+        "severity": "info",
+        "message": "High-performing content identified - analyze and replicate"
+      }
+    ]
+  },
+  "performance_benchmarks": {
+    "target_metrics": {
+      "delivery_success_rate": 98.0,
+      "compliance_score": 95.0,
+      "engagement_rate": 2.5,
+      "advisor_satisfaction": 8.0,
+      "content_quality_score": 0.8,
+      "response_time": 120
+    },
+    "benchmark_sources": [
+      "industry_standards",
+      "historical_performance",
+      "competitive_analysis",
+      "advisor_expectations"
+    ],
+    "performance_grading": {
+      "excellent": "> 95% of target",
+      "good": "85-95% of target",
+      "acceptable": "70-85% of target",
+      "needs_improvement": "< 70% of target"
+    }
+  },
+  "data_export": {
+    "automated_reports": [
+      {
+        "name": "daily_performance_summary",
+        "schedule": "06:00_IST",
+        "format": "pdf",
+        "recipients": ["admin@finadvise.com"],
+        "sections": ["overview", "compliance", "engagement", "recommendations"]
+      },
+      {
+        "name": "weekly_analytics_deep_dive",
+        "schedule": "monday_09:00_IST",
+        "format": "excel",
+        "recipients": ["analytics@finadvise.com"],
+        "sections": ["trends", "predictions", "optimization_opportunities"]
+      }
+    ],
+    "manual_exports": {
+      "formats": ["csv", "json", "pdf", "excel"],
+      "date_ranges": ["custom", "today", "yesterday", "last_7_days", "last_30_days"],
+      "data_granularity": ["raw", "hourly", "daily", "weekly"]
+    }
+  },
+  "integration_apis": {
+    "webhook_endpoints": [
+      {
+        "endpoint": "/api/analytics/events",
+        "method": "POST",
+        "purpose": "receive_real_time_events",
+        "authentication": "api_key"
+      },
+      {
+        "endpoint": "/api/analytics/metrics",
+        "method": "GET",
+        "purpose": "query_current_metrics",
+        "authentication": "jwt_token"
+      }
+    ],
+    "data_connectors": [
+      {
+        "name": "distribution_controller",
+        "type": "database_connector",
+        "update_frequency": "real_time"
+      },
+      {
+        "name": "compliance_validator",
+        "type": "api_connector",
+        "update_frequency": "on_event"
+      },
+      {
+        "name": "advisor_feedback",
+        "type": "webhook_listener",
+        "update_frequency": "real_time"
+      }
+    ]
+  },
+  "user_access_control": {
+    "roles": {
+      "admin": {
+        "permissions": ["full_access", "configuration", "user_management"],
+        "dashboard_views": ["all_panels", "system_health", "configuration"]
+      },
+      "analyst": {
+        "permissions": ["read_analytics", "export_data", "create_reports"],
+        "dashboard_views": ["performance_panel", "analytics_panel", "alerts_panel"]
+      },
+      "advisor": {
+        "permissions": ["view_own_metrics", "basic_analytics"],
+        "dashboard_views": ["personal_performance", "content_feed"]
+      }
+    },
+    "session_management": {
+      "timeout": "4_hours",
+      "concurrent_sessions": 3,
+      "activity_tracking": true
+    }
+  }
+}

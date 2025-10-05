@@ -1,0 +1,183 @@
+{
+  "designId": "viral_002_trump_tariff",
+  "theme": "TRUMP 50% TARIFF: IT Jobs at Risk",
+  "targetSegment": "Active",
+  "viralScore": 9.5,
+  "layout": {
+    "type": "split-screen-impact",
+    "sections": {
+      "top": {
+        "height": "30%",
+        "content": "shock_headline",
+        "background": "red_alert_gradient"
+      },
+      "middle": {
+        "height": "50%",
+        "content": "impact_visualization",
+        "background": "split_contrast"
+      },
+      "bottom": {
+        "height": "20%",
+        "content": "action_alert",
+        "background": "urgent_bar"
+      }
+    }
+  },
+  "content": {
+    "headline": {
+      "text": "TRUMP 50% TARIFF",
+      "fontSize": 108,
+      "color": "#FF0000",
+      "effect": "warning_flash",
+      "position": {
+        "x": "center",
+        "y": "10%"
+      }
+    },
+    "subheadline": {
+      "text": "IT Jobs at Risk!",
+      "fontSize": 84,
+      "color": "#FFFF00",
+      "effect": "blink",
+      "position": {
+        "x": "center",
+        "y": "20%"
+      }
+    },
+    "impactVisualization": {
+      "leftPanel": {
+        "title": "BEFORE",
+        "background": "#004400",
+        "stats": [
+          {
+            "label": "Tariff",
+            "value": "25%",
+            "color": "#00FF00"
+          },
+          {
+            "label": "IT Exports",
+            "value": "$200B",
+            "color": "#00FF00"
+          },
+          {
+            "label": "Jobs",
+            "value": "54 Lakh",
+            "color": "#00FF00"
+          }
+        ]
+      },
+      "centerDivider": {
+        "icon": "lightning_bolt",
+        "color": "#FFD700",
+        "animation": "flash"
+      },
+      "rightPanel": {
+        "title": "AFTER",
+        "background": "#440000",
+        "stats": [
+          {
+            "label": "Tariff",
+            "value": "50%",
+            "color": "#FF0000"
+          },
+          {
+            "label": "IT Exports",
+            "value": "-30%",
+            "color": "#FF0000"
+          },
+          {
+            "label": "Jobs at Risk",
+            "value": "10 Lakh",
+            "color": "#FF0000"
+          }
+        ]
+      }
+    },
+    "shockingFacts": [
+      {
+        "text": "Reason: India's Russian Oil Deals",
+        "fontSize": 56,
+        "color": "#FFFF00"
+      },
+      {
+        "text": "Impact: Biggest IT Layoffs Ever",
+        "fontSize": 56,
+        "color": "#FF6666"
+      },
+      {
+        "text": "Trump Calls it 'Liberation Day'",
+        "fontSize": 56,
+        "color": "#FFFFFF"
+      }
+    ],
+    "callToAction": {
+      "text": "⚠️ Protect Your Job: 3 Steps Inside",
+      "fontSize": 64,
+      "color": "#000000",
+      "background": "#FFFF00",
+      "animation": "urgent_pulse"
+    }
+  },
+  "visualElements": {
+    "backgroundPattern": "danger_stripes",
+    "colorScheme": {
+      "primary": "#FF0000",
+      "secondary": "#FFFF00",
+      "accent": "#FFD700",
+      "background": [
+        "#1A0000",
+        "#331A00"
+      ],
+      "text": "#FFFFFF"
+    },
+    "graphicsElements": [
+      {
+        "type": "warning_icons",
+        "style": "triangular_alerts",
+        "animation": "blink"
+      },
+      {
+        "type": "job_icons",
+        "style": "falling_figures",
+        "effect": "disappearing"
+      },
+      {
+        "type": "flag_overlay",
+        "flags": [
+          "US",
+          "India"
+        ],
+        "opacity": 0.3
+      }
+    ],
+    "effects": [
+      "emergency_lighting",
+      "split_screen_tear",
+      "warning_pulse"
+    ]
+  },
+  "geminiPrompt": "Create an urgent WhatsApp Status image (1080x1920px) about Trump's 50% tariff impact on IT jobs. Split-screen design: Left (green background) shows BEFORE - 25% tariff, $200B exports, 54L jobs. Right (red background) shows AFTER - 50% tariff, -30% exports, 10L jobs at risk. Top: 'TRUMP 50% TARIFF' in 108px red with warning flash. Subtitle: 'IT Jobs at Risk!' in 84px yellow blinking text. Center: Lightning bolt divider. Include shocking facts: 'Reason: Russian Oil Deals', 'Biggest IT Layoffs Ever', 'Trump: Liberation Day'. Bottom: Yellow alert bar '⚠️ Protect Your Job: 3 Steps Inside'. Use danger stripes pattern, emergency lighting effects, warning icons. Make it look like an emergency broadcast alert.",
+  "psychology": {
+    "emotionalTrigger": "Fear + Urgency",
+    "viralHook": "Personal job threat",
+    "shareMotivation": "Warning to peers"
+  },
+  "brand_elements": {
+    "advisor_name": "Shriya Vallabh Petkar",
+    "firm_name": "Shriya Vallabh Petkar",
+    "logo_url": "",
+    "tagline": "Building Wealth, Creating Trust",
+    "colors": {
+      "primary": "#1A73E8",
+      "secondary": "#34A853"
+    },
+    "arn": "ARN_SHRIYA_003"
+  },
+  "branding_instructions": {
+    "logo_position": "bottom-right",
+    "logo_size": "10%",
+    "text_overlay": "Shriya Vallabh Petkar | Building Wealth, Creating Trust",
+    "color_scheme": "use_brand_colors",
+    "watermark": "ARN_SHRIYA_003"
+  }
+}

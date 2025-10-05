@@ -1,0 +1,29 @@
+{
+  "sessionId": "session_2025-09-17T05-45-00-000Z",
+  "timestamp": "2025-09-17T05:45:00.000Z",
+  "workflowId": "hybrid_1758086700000",
+  "startTime": "2025-09-17T05:45:00.000Z",
+  "outputPaths": {
+    "linkedin": "output/session_2025-09-17T05-45-00-000Z/linkedin/",
+    "whatsapp": "output/session_2025-09-17T05-45-00-000Z/whatsapp/",
+    "statusImages": "output/session_2025-09-17T05-45-00-000Z/images/status/",
+    "whatsappImages": "output/session_2025-09-17T05-45-00-000Z/images/whatsapp/",
+    "marketingImages": "output/session_2025-09-17T05-45-00-000Z/images/marketing/",
+    "rawData": "output/session_2025-09-17T05-45-00-000Z/raw-data/"
+  },
+  "agents": [
+    "advisor-data-manager",
+    "market-intelligence",
+    "linkedin-post-generator",
+    "whatsapp-message-creator",
+    "gemini-image-generator"
+  ],
+  "status": "initializing",
+  "fileNamingPattern": "{advisor_id}_{content_type}_{timestamp}.{ext}",
+  "examples": {
+    "linkedinPost": "ADV_001_linkedin_2025-09-17T05-45-00-000Z.txt",
+    "whatsappMessage": "ADV_001_whatsapp_2025-09-17T05-45-00-000Z.txt",
+    "statusImage": "ADV_001_status_2025-09-17T05-45-00-000Z.png",
+    "whatsappImage": "ADV_001_whatsapp_2025-09-17T05-45-00-000Z.png"
+  }
+}

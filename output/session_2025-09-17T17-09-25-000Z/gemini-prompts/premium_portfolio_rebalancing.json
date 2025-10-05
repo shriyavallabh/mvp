@@ -1,0 +1,24 @@
+{
+  "advisorId": "ADV_001",
+  "segmentType": "Premium",
+  "contentType": "portfolio_strategy_animation",
+  "marketTheme": "Global Diversification Strategy",
+  "brandCustomization": {
+    "brandName": "Wealth Creators",
+    "primaryColor": "#1A73E8",
+    "secondaryColor": "#34A853",
+    "accentColor": "#FFD700",
+    "tagline": "Building Wealth, Creating Trust",
+    "advisorName": "Shruti Petkar",
+    "arn": "ARN-123456"
+  },
+  "geminiPrompt": "Create a sophisticated WhatsApp Status image (1080x1920px vertical) showing portfolio rebalancing strategy:\n\nCONTENT THEME: Global Portfolio Rebalancing\nSTYLE: Premium financial advisory, animated-style progression\n\nVISUAL ELEMENTS:\n- Background: Professional dark navy gradient\n- Central focus: Portfolio pie chart transformation (before → after)\n- Global market indicators: Asian markets at record highs\n- Gold allocation strategy with current record prices\n- Currency hedging visualization\n\nKEY STRATEGIC INSIGHTS:\n- 'Asian Markets: Record Highs'\n- 'Gold: ₹3,643/oz (Record Level)'\n- 'Fed Rate Cut Expected'\n- 'Portfolio Rebalancing Window'\n- 'Global Diversification Opportunity'\n\nVISUAL PROGRESSION:\n- Before: Traditional 60-40 portfolio\n- Arrow indicating rebalancing\n- After: Optimized global allocation\n\nDATA VISUALIZATION:\n- Interactive-style chart elements\n- Percentage allocations clearly shown\n- Risk-return optimization indicators\n- Currency exposure breakdown\n\nBRANDING:\n- Wealth Creators logo prominently placed\n- Gold accent for premium positioning\n- Executive contact information\n- Professional color scheme maintained\n\nMOOD: Strategic, sophisticated, opportunity-focused\nTARGET: HNI clients with global investment appetite",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "aspectRatio": "9:16"
+  },
+  "targetAudience": "HNI clients, business owners with global exposure",
+  "keyMessage": "Current market conditions present optimal portfolio rebalancing opportunities",
+  "callToAction": "Schedule portfolio review for global diversification strategy"
+}

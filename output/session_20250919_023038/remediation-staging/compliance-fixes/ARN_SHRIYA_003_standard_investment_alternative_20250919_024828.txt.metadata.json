@@ -1,0 +1,15 @@
+{
+  "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/whatsapp/ARN_SHRIYA_003_standard_investment_alternative_20250919_024828.txt",
+  "priority": 23.810000000000002,
+  "requirements": {
+    "canBeRemediated": true,
+    "primaryIssue": "compliance",
+    "requiredActions": [
+      "Add document reading requirement",
+      "Add past performance disclaimer",
+      "Add ARN display"
+    ],
+    "estimatedTime": 13
+  },
+  "estimatedTime": 13
+}

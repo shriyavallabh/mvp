@@ -1,0 +1,40 @@
+{
+  "919765071249": {
+    "phone_number": "919765071249",
+    "name": "Shriya",
+    "opted_in": true,
+    "opt_in_date": "2025-09-21T05:27:07.297Z",
+    "opt_in_source": "website_form",
+    "marketing_consent": true,
+    "utility_consent": true,
+    "last_interaction": "2025-09-21T05:27:07.298Z",
+    "preferences": {
+      "promotional": true,
+      "updates": true,
+      "educational": true
+    },
+    "metadata": {},
+    "opt_out_date": null,
+    "last_message_sent": "2025-09-21T05:27:08.022Z"
+  },
+  "919673758777": {
+    "phone_number": "919673758777",
+    "name": "Shruti",
+    "opted_in": true,
+    "opt_in_date": "2025-09-21T05:26:53.930Z",
+    "opt_in_source": "qr_code",
+    "marketing_consent": true,
+    "utility_consent": true,
+    "last_interaction": "2025-09-21T05:26:53.930Z",
+    "preferences": {
+      "promotional": true,
+      "updates": true,
+      "educational": true
+    },
+    "metadata": {
+      "location": "store_mumbai",
+      "timestamp": "2024-06-10T15:30:00Z"
+    },
+    "opt_out_date": null
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "quality_assessment_summary": {
+    "session_id": "session_20250919_023038",
+    "timestamp": "2025-09-19T03:12:21.615317",
+    "overall_status": "REQUIRES_IMMEDIATE_IMPROVEMENT",
+    "average_score": 41.68,
+    "auto_approval_rate": 0.0,
+    "critical_issues": [
+      "Extremely low engagement scores (24.7/100)",
+      "Poor information value delivery (23.8/100)",
+      "Weak personalization (34.3/100)",
+      "No content meets auto-approval threshold (80+)"
+    ]
+  },
+  "priority_improvements": {
+    "immediate_actions": [
+      {
+        "dimension": "Engagement",
+        "current_score": 24.7,
+        "target_score": 70.0,
+        "improvements": [
+          "Add compelling question hooks (\"Are you missing out on..?\", \"What if I told you..?\")",
+          "Include 4-6 strategic emojis per post for visual engagement",
+          "Add specific numbers and statistics (\"Save \u20b931,200 in taxes\")",
+          "Create urgency with deadlines (\"March 31st deadline approaching\")",
+          "Strengthen CTAs with action words (\"DM now\", \"Reply START\")"
+        ]
+      },
+      {
+        "dimension": "Information Value",
+        "current_score": 23.8,
+        "target_score": 75.0,
+        "improvements": [
+          "Add \"How to\" sections with 3-5 actionable steps",
+          "Include specific calculations and examples",
+          "Provide educational \"Why this matters\" explanations",
+          "Add Pro Tips and insider insights",
+          "Reference current market data and trends"
+        ]
+      },
+      {
+        "dimension": "Personalization",
+        "current_score": 34.3,
+        "target_score": 80.0,
+        "improvements": [
+          "Increase advisor name mentions to 2-3 times per post",
+          "Add segment-specific language and examples",
+          "Include local market references (Nifty, Sensex, Indian economy)",
+          "Customize content complexity for target audience",
+          "Add personal stories and client examples"
+        ]
+      }
+    ],
+    "secondary_improvements": [
+      {
+        "dimension": "Technical Quality",
+        "current_score": 48.8,
+        "target_score": 85.0,
+        "improvements": [
+          "Ensure all content has proper SEBI disclaimers",
+          "Add complete contact information",
+          "Improve formatting consistency",
+          "Check grammar and spelling accuracy"
+        ]
+      }
+    ]
+  },
+  "content_type_specific_recommendations": {
+    "linkedin_posts": {
+      "current_avg": 43.61,
+      "target": 85.0,
+      "specific_improvements": [
+        "Extend posts to 800-1200 characters for better engagement",
+        "Add 3-5 relevant hashtags for discoverability",
+        "Include visual elements (charts, infographics)",
+        "Structure with clear sections and bullet points",
+        "End with conversation-starting questions"
+      ]
+    },
+    "whatsapp_messages": {
+      "current_avg": 37.63,
+      "target": 80.0,
+      "specific_improvements": [
+        "Keep messages concise (300-400 characters)",
+        "Use emojis strategically for mobile readability",
+        "Add clear reply instructions",
+        "Include immediate value proposition",
+        "Personalize with recipient name"
+      ]
+    }
+  },
+  "segment_optimization": {
+    "standard_segment": {
+      "focus_areas": [
+        "Simplify language and concepts",
+        "Add educational explanations",
+        "Use relatable examples and amounts",
+        "Focus on basic financial literacy",
+        "Emphasize step-by-step guidance"
+      ]
+    },
+    "gold_segment": {
+      "recommendations": [
+        "Use sophisticated financial terminology",
+        "Include complex investment strategies",
+        "Reference larger investment amounts",
+        "Add exclusive insights and market analysis",
+        "Focus on wealth preservation and growth"
+      ]
+    }
+  },
+  "quality_gates": {
+    "minimum_scores_for_approval": {
+      "engagement": 70,
+      "information_value": 70,
+      "clarity": 80,
+      "personalization": 75,
+      "technical": 85,
+      "overall": 80
+    },
+    "review_triggers": [
+      "Overall score below 70",
+      "Any dimension below 60",
+      "Missing compliance elements",
+      "Poor readability score"
+    ]
+  },
+  "implementation_timeline": {
+    "week_1": [
+      "Revise all content below 40/100",
+      "Add engagement hooks to all posts",
+      "Ensure proper disclaimers on all content"
+    ],
+    "week_2": [
+      "Implement personalization improvements",
+      "Add actionable content elements",
+      "Test improved content with small group"
+    ],
+    "week_3": [
+      "Roll out improved content templates",
+      "Monitor engagement metrics",
+      "Adjust based on performance data"
+    ]
+  },
+  "success_metrics": {
+    "target_improvements": {
+      "average_quality_score": "75+",
+      "auto_approval_rate": "80%+",
+      "engagement_dimension": "70+",
+      "information_value": "75+",
+      "personalization": "80+"
+    },
+    "monitoring_frequency": "Weekly quality assessments",
+    "review_cycle": "Monthly strategy review"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "from": "market-intelligence",
+  "to": "all-agents",
+  "timestamp": "2025-09-18T03:38:39.062Z",
+  "sessionId": "session_2025-09-18T03-38-39-062Z",
+  "message": "market-intelligence-update",
+  "data": {
+    "status": "completed",
+    "marketStatus": "positive_momentum",
+    "keyInsights": [
+      "Markets showing resilience with Sensex +0.38% and Nifty +0.36%",
+      "RBI in easing cycle supporting growth while inflation controlled",
+      "Strong DII buying vs FII selling trend continues",
+      "Tax saving season critical with 6 months left in FY25",
+      "IT sector leading performance with strong growth outlook"
+    ],
+    "priorityTopics": [
+      "tax_saving_strategies",
+      "q3_earnings_analysis",
+      "rate_cut_impact_sectors",
+      "ai_investment_themes"
+    ],
+    "outputFiles": {
+      "detailed": "output/session_2025-09-18T03-38-39-062Z/market-intelligence.json",
+      "memory": "data/shared-memory/session_2025-09-18T03-38-39-062Z/market-intelligence-memory.json"
+    },
+    "contentOpportunities": {
+      "immediate": ["tax_saving_guide", "q3_earnings_watchlist"],
+      "short_term": ["rbi_rate_impact", "portfolio_review"],
+      "medium_term": ["ai_themes", "green_energy_transition"]
+    }
+  }
+}

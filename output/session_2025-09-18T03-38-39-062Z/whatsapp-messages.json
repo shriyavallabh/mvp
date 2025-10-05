@@ -1,0 +1,210 @@
+{
+  "sessionId": "session_2025-09-18T03-38-39-062Z",
+  "timestamp": "2025-09-18T09-32-12-000Z",
+  "metadata": {
+    "total_advisors": 3,
+    "market_context": {
+      "sentiment": "cautiously_optimistic",
+      "confidence": 0.72,
+      "key_trends": [
+        "dii_buying_support",
+        "rbi_easing_cycle",
+        "it_sector_outperformance",
+        "tax_saving_season"
+      ],
+      "priority_themes": [
+        "tax_optimization",
+        "earnings_analysis",
+        "rate_cut_impact",
+        "sector_rotation"
+      ]
+    },
+    "segment_distribution": {
+      "HNI_Premium": 1,
+      "Retail_Gold": 1,
+      "Retail_Standard": 1
+    }
+  },
+  "advisorMessages": {
+    "ARN_SHRUTI_001": {
+      "advisor_name": "Shruti Petkar",
+      "segment": "Retail_Gold",
+      "phone": "919673758777",
+      "email": "shruti@finadvise.com",
+      "messages": [
+        {
+          "category": "market_insights",
+          "text": "\u2600\ufe0f Good morning Shruti! Markets showing steady momentum with DII support. IT sector strength + RBI easing cycle ahead = opportunities. Tax planning window: 6 months to optimize wealth creation! \ud83d\udcca\u2728\n\nReply 'PLAN'\nARN_SHRUTI_001",
+          "character_count": 225,
+          "priority": "high",
+          "timing": "morning"
+        },
+        {
+          "category": "systematic_investing",
+          "text": "\ud83d\udca1 Shruti, SIP strategy insight: Market volatility creates rupee-cost averaging advantage! Your disciplined approach building wealth steadily. Continue the momentum - success demands consistency! \ud83c\udfaf\ud83d\udcc8\n\nARN_SHRUTI_001",
+          "character_count": 213,
+          "priority": "medium",
+          "timing": "anytime"
+        },
+        {
+          "category": "goal_planning",
+          "text": "\ud83c\udfaf Goal alignment Shruti: 6 months for tax year-end - perfect for portfolio review! ELSS for tax + growth, balanced funds for stability. Strategic planning secures financial goals! Ready? \ud83d\udcbc\u2728\n\nARN_SHRUTI_001",
+          "character_count": 205,
+          "priority": "high",
+          "timing": "afternoon"
+        },
+        {
+          "category": "tax_efficiency",
+          "text": "\ud83d\udccb Tax efficiency Shruti: 80C limit \u20b91.5L, ELSS delivers equity upside + tax benefit! Banking sector positioned for rate cuts. Strategic moves needed for wealth optimization! \ud83c\udf1f\ud83d\udcb0\n\nARN_SHRUTI_001",
+          "character_count": 192,
+          "priority": "urgent",
+          "timing": "anytime"
+        },
+        {
+          "category": "smart_investing",
+          "text": "\ud83e\udde0 Investment wisdom Shruti: Market confidence 72%, selective participation trend. Your balanced approach perfectly positioned! Banking benefits from easing cycle. Stay disciplined, stay ahead! \ud83d\udcca\ud83d\udcaa\n\nARN_SHRUTI_001",
+          "character_count": 211,
+          "priority": "medium",
+          "timing": "evening"
+        }
+      ],
+      "total_count": 5,
+      "character_stats": {
+        "min": 192,
+        "max": 225,
+        "avg": 209
+      },
+      "categories": [
+        "systematic_investing",
+        "market_insights",
+        "tax_efficiency",
+        "smart_investing",
+        "goal_planning"
+      ]
+    },
+    "ARN_VIDYADHAR_002": {
+      "advisor_name": "Vidyadhar Petkar",
+      "segment": "HNI_Premium",
+      "phone": "918975758513",
+      "email": "vidyadhar@finadvise.com",
+      "messages": [
+        {
+          "category": "market_update",
+          "text": "\ud83c\udf1f Good morning Vidyadhar! DII buying supports Sensex at 82K. IT outperformance continues with rate cuts ahead. Portfolio rebalancing opportunity! Tax season - 6 months left for optimization \ud83d\udcca\ud83d\udcbc\n\nReply 'PORTFOLIO' for analysis\nARN_VIDYADHAR_002",
+          "character_count": 242,
+          "priority": "high",
+          "timing": "morning"
+        },
+        {
+          "category": "tax_strategy",
+          "text": "\ud83d\udca1 Vidyadhar, wealth protection insight: ELSS + PMS combo maximizing tax efficiency! RBI easing cycle creating alpha opportunities. Your HNI status unlocks exclusive strategies others can't access \ud83c\udfaf\u2728\n\nARN_VIDYADHAR_002",
+          "character_count": 217,
+          "priority": "urgent",
+          "timing": "anytime"
+        },
+        {
+          "category": "exclusive_opportunity",
+          "text": "\u26a1 Vidyadhar, sector rotation alert: Banking positioned for rate cuts, IT shows global resilience. Your 50Cr AUM enables diversified plays. Alternative investments beckoning! Ready to capitalize? \ud83d\udcb0\ud83d\ude80\n\nARN_VIDYADHAR_002",
+          "character_count": 216,
+          "priority": "medium",
+          "timing": "afternoon"
+        },
+        {
+          "category": "wealth_protection",
+          "text": "\ud83d\udee1\ufe0f Wealth update Vidyadhar: Market confidence at 72%, selective participation trending. Your diversified approach delivering! Q3 earnings create allocation opportunities. Time for strategic review? \ud83d\udcc8\ud83d\udc8e\n\nARN_VIDYADHAR_002",
+          "character_count": 219,
+          "priority": "medium",
+          "timing": "evening"
+        }
+      ],
+      "total_count": 4,
+      "character_stats": {
+        "min": 216,
+        "max": 242,
+        "avg": 223
+      },
+      "categories": [
+        "market_update",
+        "tax_strategy",
+        "wealth_protection",
+        "exclusive_opportunity"
+      ]
+    },
+    "ARN_SHRIYA_003": {
+      "advisor_name": "Shriya Vallabh Petkar",
+      "segment": "Retail_Standard",
+      "phone": "919765071249",
+      "email": "shriya@finadvise.com",
+      "messages": [
+        {
+          "category": "financial_education",
+          "text": "\ud83c\udf05 Good morning Shriya! Simple money truth: Start small, dream big! Even \u20b9500/month SIP grows to lakhs over time. Tax saving season - perfect time to begin your wealth journey! \ud83d\udcaa\u2728\n\nStart today\nARN_SHRIYA_003",
+          "character_count": 206,
+          "priority": "high",
+          "timing": "morning"
+        },
+        {
+          "category": "investment_basics",
+          "text": "\ud83d\udca1 Shriya, investing simplified: SIP = Small amount + Regular investment = Big wealth! Markets fluctuate, patient investors win. 6 months for tax benefits - your opportunity window! \ud83c\udfaf\ud83c\udf1f\n\nARN_SHRIYA_003",
+          "character_count": 199,
+          "priority": "medium",
+          "timing": "anytime"
+        },
+        {
+          "category": "saving_strategies",
+          "text": "\ud83c\udfe6 Smart money Shriya: ELSS funds = Tax saving + Wealth building combined! Start with \u20b91000/month, watch it multiply. Every rupee invested today secures tomorrow's dreams! \ud83c\udf1f\ud83d\udcb0\n\nARN_SHRIYA_003",
+          "character_count": 189,
+          "priority": "high",
+          "timing": "afternoon"
+        },
+        {
+          "category": "financial_empowerment",
+          "text": "\u26a1 Success secret Shriya: Rich people make money work for them! You can too. Start today, benefit forever. Knowledge + consistent investing = financial freedom. Ready to begin? \ud83d\ude80\ud83d\udcaa\n\nARN_SHRIYA_003",
+          "character_count": 194,
+          "priority": "medium",
+          "timing": "evening"
+        },
+        {
+          "category": "encouragement",
+          "text": "\ud83c\udf89 Inspiration Shriya: Every successful investor started with step 1! Your financial journey begins now. Small steps, big dreams, consistent actions = guaranteed success! Let's build wealth! \ud83d\udcaa\u2728\n\nARN_SHRIYA_003",
+          "character_count": 208,
+          "priority": "medium",
+          "timing": "anytime"
+        }
+      ],
+      "total_count": 5,
+      "character_stats": {
+        "min": 189,
+        "max": 208,
+        "avg": 199
+      },
+      "categories": [
+        "saving_strategies",
+        "financial_empowerment",
+        "financial_education",
+        "investment_basics",
+        "encouragement"
+      ]
+    }
+  },
+  "urgent_alerts": [
+    {
+      "type": "tax_deadline",
+      "segment": "all",
+      "text": "\ud83d\udea8 TAX SAVING ALERT!\n\nOnly 14 days left for Q3 advance tax!\n\nSave tax with:\n\u2022 ELSS Funds (80C)\n\u2022 NPS (Extra 50k)\n\u2022 Health Insurance\n\nNeed help? Reply 'TAX'\n\nDon't wait till March! Act NOW \ud83d\udcaa",
+      "character_count": 188
+    },
+    {
+      "type": "ipo_opportunity",
+      "segment": "premium_gold",
+      "text": "\ud83c\udfaf IPO OPPORTUNITY!\n\nPine Labs IPO approved by SEBI!\nExpected premium: 30-40%\n\nApplication opens: Next week\nMin investment: \u20b915,000\n\nGet analysis: Reply 'IPO'\n\nLimited allocation - Act fast! \u26a1",
+      "character_count": 191
+    }
+  ],
+  "deliveryMetadata": {
+    "priority": "high",
+    "timing": "morning_optimal",
+    "engagement_expected": "high",
+    "approval_required": true
+  }
+}

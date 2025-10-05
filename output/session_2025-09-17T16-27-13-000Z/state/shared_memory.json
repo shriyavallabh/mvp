@@ -1,0 +1,372 @@
+{
+  "session_metadata": {
+    "session_id": "session_2025-09-17T16-27-13-000Z",
+    "created_at": "2025-09-17T16:27:13.000Z",
+    "updated_at": "2025-09-17T22:03:34.959322",
+    "current_phase": "0_infrastructure_setup",
+    "agents_completed": [
+      "advisor-data-manager"
+    ],
+    "agents_in_progress": [
+      "state-manager"
+    ],
+    "agents_pending": [
+      "advisor-data-manager",
+      "market-intelligence",
+      "segment-analyzer",
+      "linkedin-post-generator",
+      "whatsapp-message-generator",
+      "image-generator",
+      "brand-customizer",
+      "compliance-validator",
+      "quality-scorer",
+      "fatigue-checker",
+      "distribution-manager"
+    ]
+  },
+  "memory_areas": {
+    "advisor_data": {
+      "status": "completed",
+      "last_updated": "2025-09-17T22:03:34.959315",
+      "data": {
+        "advisors": [
+          {
+            "advisor_id": "ADV_001",
+            "basic_info": {
+              "name": "Shruti Petkar",
+              "phone": "919876543210",
+              "email": "shruti.petkar@wealthcreators.in",
+              "arn": "ARN-123456"
+            },
+            "business_profile": {
+              "firm_name": "Wealth Creators Financial Advisory",
+              "experience": "12 years",
+              "aum": "\u20b975 Crores",
+              "client_count": 250
+            },
+            "segment": {
+              "primary": "Premium",
+              "demographics": [
+                "Young Professionals",
+                "HNI Clients",
+                "Business Owners"
+              ],
+              "focus_areas": [
+                "Equity Markets",
+                "Portfolio Management",
+                "Tax Planning",
+                "Retirement Planning"
+              ]
+            },
+            "branding": {
+              "brand_name": "Wealth Creators",
+              "has_logo": true,
+              "logo_url": "https://drive.google.com/file/d/1abc123wealthcreators/view",
+              "colors": {
+                "primary": "#1A73E8",
+                "secondary": "#34A853"
+              },
+              "tagline": "Building Wealth, Creating Trust",
+              "disclaimer": "Investment decisions should be made after careful consideration of your financial goals. Past performance is not indicative of future results."
+            },
+            "content_preferences": {
+              "tone": "Professional",
+              "posting_time": "9:00 AM",
+              "languages": [
+                "English",
+                "Hindi"
+              ],
+              "avoid_topics": [
+                "Crypto",
+                "F&O Trading",
+                "Penny Stocks"
+              ],
+              "review_mode": "manual",
+              "notification": "email"
+            },
+            "subscription": {
+              "plan": "Premium",
+              "status": "Active",
+              "valid_until": "2025-12-31",
+              "features": [
+                "Custom Branding",
+                "Daily Posts",
+                "Analytics Dashboard",
+                "Priority Support"
+              ]
+            }
+          },
+          {
+            "advisor_id": "ADV_002",
+            "basic_info": {
+              "name": "Rajesh Kumar",
+              "phone": "919876543211",
+              "email": "rajesh.kumar@moneymatters.co.in",
+              "arn": "ARN-789012"
+            },
+            "business_profile": {
+              "firm_name": "Money Matters Investment Services",
+              "experience": "8 years",
+              "aum": "\u20b945 Crores",
+              "client_count": 180
+            },
+            "segment": {
+              "primary": "Gold",
+              "demographics": [
+                "Salaried Professionals",
+                "First-time Investors",
+                "Young Families"
+              ],
+              "focus_areas": [
+                "Mutual Funds",
+                "SIP Planning",
+                "Insurance",
+                "Goal-based Investment"
+              ]
+            },
+            "branding": {
+              "brand_name": "Money Matters",
+              "has_logo": true,
+              "logo_url": "https://drive.google.com/file/d/2def456moneymatters/view",
+              "colors": {
+                "primary": "#FF6B6B",
+                "secondary": "#4ECDC4"
+              },
+              "tagline": "Your Financial Growth Partner",
+              "disclaimer": "All investments are subject to market risks. Please read scheme documents carefully before investing."
+            },
+            "content_preferences": {
+              "tone": "Educational",
+              "posting_time": "10:00 AM",
+              "languages": [
+                "English",
+                "Hindi",
+                "Marathi"
+              ],
+              "avoid_topics": [
+                "Day Trading",
+                "Derivatives"
+              ],
+              "review_mode": "auto-approve",
+              "notification": "whatsapp"
+            },
+            "subscription": {
+              "plan": "Gold",
+              "status": "Active",
+              "valid_until": "2025-06-30",
+              "features": [
+                "Semi-Custom Branding",
+                "5 Posts/Week",
+                "Basic Analytics",
+                "Email Support"
+              ]
+            }
+          },
+          {
+            "advisor_id": "ADV_003",
+            "basic_info": {
+              "name": "Priya Sharma",
+              "phone": "919876543212",
+              "email": "priya.sharma@smartinvest.net",
+              "arn": "ARN-345678"
+            },
+            "business_profile": {
+              "firm_name": "Smart Investment Advisors",
+              "experience": "5 years",
+              "aum": "\u20b925 Crores",
+              "client_count": 120
+            },
+            "segment": {
+              "primary": "Silver",
+              "demographics": [
+                "Millennials",
+                "New Investors",
+                "Small Business Owners"
+              ],
+              "focus_areas": [
+                "Digital Gold",
+                "Small Case Investments",
+                "ETFs",
+                "Financial Literacy"
+              ]
+            },
+            "branding": {
+              "brand_name": "Smart Invest",
+              "has_logo": false,
+              "logo_url": "",
+              "colors": {
+                "primary": "#008080",
+                "secondary": "#F0F8FF"
+              },
+              "tagline": "Smart Investing Made Simple",
+              "disclaimer": "Investment advice is personalized. Please consult before making investment decisions."
+            },
+            "content_preferences": {
+              "tone": "Casual",
+              "posting_time": "8:30 AM",
+              "languages": [
+                "English"
+              ],
+              "avoid_topics": [
+                "Complex Derivatives",
+                "International Markets"
+              ],
+              "review_mode": "manual",
+              "notification": "both"
+            },
+            "subscription": {
+              "plan": "Silver",
+              "status": "Active",
+              "valid_until": "2025-09-30",
+              "features": [
+                "Basic Branding",
+                "3 Posts/Week",
+                "Monthly Reports",
+                "Community Support"
+              ]
+            }
+          }
+        ],
+        "statistics": {
+          "total_count": 3,
+          "segments": [
+            "Premium",
+            "Gold",
+            "Silver"
+          ],
+          "active_subscriptions": 3,
+          "customization_summary": {
+            "with_custom_branding": 3,
+            "with_logos": 2,
+            "review_modes": {
+              "manual": 2,
+              "auto-approve": 1
+            },
+            "languages": [
+              "Marathi",
+              "English",
+              "Hindi"
+            ],
+            "content_tones": [
+              "Professional",
+              "Educational",
+              "Casual"
+            ]
+          }
+        }
+      },
+      "schema_version": "1.0",
+      "owner_agent": "advisor-data-manager"
+    },
+    "market_intelligence": {
+      "status": "pending",
+      "last_updated": null,
+      "data": {},
+      "schema_version": "1.0",
+      "owner_agent": "market-intelligence"
+    },
+    "segment_analysis": {
+      "status": "pending",
+      "last_updated": null,
+      "data": {},
+      "schema_version": "1.0",
+      "owner_agent": "segment-analyzer"
+    },
+    "content_generation": {
+      "linkedin_posts": {
+        "status": "pending",
+        "last_updated": null,
+        "data": {},
+        "owner_agent": "linkedin-post-generator"
+      },
+      "whatsapp_messages": {
+        "status": "pending",
+        "last_updated": null,
+        "data": {},
+        "owner_agent": "whatsapp-message-generator"
+      },
+      "images": {
+        "status": "pending",
+        "last_updated": null,
+        "data": {},
+        "owner_agent": "image-generator"
+      },
+      "branding": {
+        "status": "pending",
+        "last_updated": null,
+        "data": {},
+        "owner_agent": "brand-customizer"
+      }
+    },
+    "validation_results": {
+      "compliance": {
+        "status": "pending",
+        "last_updated": null,
+        "data": {},
+        "owner_agent": "compliance-validator"
+      },
+      "quality": {
+        "status": "pending",
+        "last_updated": null,
+        "data": {},
+        "owner_agent": "quality-scorer"
+      },
+      "fatigue": {
+        "status": "pending",
+        "last_updated": null,
+        "data": {},
+        "owner_agent": "fatigue-checker"
+      }
+    },
+    "distribution_tracking": {
+      "status": "pending",
+      "last_updated": null,
+      "data": {},
+      "schema_version": "1.0",
+      "owner_agent": "distribution-manager"
+    }
+  },
+  "workflow_dependencies": {
+    "advisor-data-manager": [],
+    "market-intelligence": [],
+    "segment-analyzer": [
+      "advisor-data-manager",
+      "market-intelligence"
+    ],
+    "linkedin-post-generator": [
+      "segment-analyzer"
+    ],
+    "whatsapp-message-generator": [
+      "segment-analyzer"
+    ],
+    "image-generator": [
+      "segment-analyzer"
+    ],
+    "brand-customizer": [
+      "linkedin-post-generator",
+      "whatsapp-message-generator",
+      "image-generator"
+    ],
+    "compliance-validator": [
+      "brand-customizer"
+    ],
+    "quality-scorer": [
+      "brand-customizer"
+    ],
+    "fatigue-checker": [
+      "brand-customizer"
+    ],
+    "distribution-manager": [
+      "compliance-validator",
+      "quality-scorer",
+      "fatigue-checker"
+    ]
+  },
+  "synchronization": {
+    "enabled": true,
+    "mode": "real_time",
+    "last_sync": "2025-09-17T16:27:13.000Z",
+    "sync_locks": {},
+    "pending_updates": []
+  }
+}

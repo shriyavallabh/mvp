@@ -1,0 +1,79 @@
+{
+  "message_id": "URGENT_DIST_BLOCK_2025-09-18T10-35-00",
+  "sender": "distribution-controller",
+  "recipients": ["whatsapp-message-creator", "compliance-validator", "hybrid-orchestrator"],
+  "priority": "CRITICAL",
+  "timestamp": "2025-09-18T10:35:00.000Z",
+  "subject": "CRITICAL: Content Distribution Blocked - Immediate Action Required",
+  "message_type": "COMPLIANCE_VIOLATION_ALERT",
+  "content": {
+    "alert_summary": {
+      "issue": "SEBI Compliance Violations Detected",
+      "severity": "CRITICAL",
+      "impact": "Distribution Blocked",
+      "items_affected": 28,
+      "session_id": "session_2025-09-18T03-38-39-062Z"
+    },
+    "violation_details": {
+      "violation_type": "Missing market risk disclaimers",
+      "regulation": "SEBI_DISC_001",
+      "affected_content": "All WhatsApp messages",
+      "compliance_score": "46.15%",
+      "required_score": "100%"
+    },
+    "immediate_actions_required": [
+      {
+        "action": "Regenerate all WhatsApp messages with SEBI disclaimers",
+        "owner": "whatsapp-message-creator",
+        "deadline": "2025-09-18T18:00:00Z",
+        "mandatory_text": "Mutual fund investments are subject to market risks. Read all scheme related documents carefully."
+      },
+      {
+        "action": "Re-validate content for 100% compliance",
+        "owner": "compliance-validator",
+        "deadline": "2025-09-18T20:00:00Z",
+        "requirement": "Full SEBI compliance certification"
+      },
+      {
+        "action": "Approve distribution only after compliance verification",
+        "owner": "hybrid-orchestrator",
+        "condition": "100% compliance score achieved"
+      }
+    ],
+    "current_distribution_status": {
+      "visual_content": "✅ APPROVED - Scheduled for 5:00 AM delivery",
+      "whatsapp_content": "🚫 BLOCKED - Compliance violations",
+      "linkedin_content": "⏸️ CONDITIONAL - Quality improvements needed"
+    },
+    "regulatory_safeguards_activated": {
+      "zero_violation_policy": "ENFORCED",
+      "distribution_circuit_breaker": "ARMED",
+      "compliance_monitoring": "ACTIVE",
+      "audit_trail": "MAINTAINED"
+    },
+    "business_impact": {
+      "advisors_affected": 3,
+      "content_delivery_delayed": "Text content only",
+      "approved_content_proceeding": "Visual content on schedule",
+      "estimated_resolution": "6-8 hours for full distribution"
+    }
+  },
+  "communication_channels": [
+    {
+      "channel": "agent-to-agent",
+      "delivery_method": "shared-memory",
+      "status": "delivered"
+    },
+    {
+      "channel": "internal-alert",
+      "delivery_method": "communication-bus",
+      "status": "delivered"
+    }
+  ],
+  "response_tracking": {
+    "acknowledgment_required": true,
+    "deadline": "2025-09-18T11:00:00Z",
+    "escalation_if_no_response": "hybrid-orchestrator",
+    "follow_up_interval": "30 minutes"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "sessionId": "session_2025-09-17T21-35-00-000Z",
+  "patternTracking": {
+    "dataQualityPatterns": {
+      "missingAdvisorData": 0,
+      "incompleteMarketData": 0,
+      "dataValidationFailures": 0
+    },
+    "performancePatterns": {
+      "slowAgentExecution": 0,
+      "memoryUsageHigh": 0,
+      "timeoutOccurrences": 0
+    },
+    "compliancePatterns": {
+      "regulatoryViolations": 0,
+      "contentPolicyViolations": 0,
+      "disclaimerMissing": 0
+    },
+    "integrationPatterns": {
+      "apiFailures": 0,
+      "authenticationIssues": 0,
+      "rateLimitHits": 0
+    },
+    "contentQualityPatterns": {
+      "lowQualityScores": 0,
+      "inappropriateContent": 0,
+      "formattingIssues": 0
+    }
+  },
+  "detectedPatterns": [],
+  "recommendations": [],
+  "learningThreshold": {
+    "patternDetection": 3,
+    "criticalPattern": 2,
+    "improvementSuggestion": 5
+  },
+  "lastUpdated": "2025-09-17T21:35:00.000Z"
+}

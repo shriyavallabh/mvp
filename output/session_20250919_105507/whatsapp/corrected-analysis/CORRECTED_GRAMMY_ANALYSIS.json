@@ -1,0 +1,68 @@
+{
+  "session_metadata": {
+    "session_id": "session_20250919_105507",
+    "analysis_timestamp": "2025-09-19T11:21:29.329749",
+    "messages_analyzed": 5,
+    "scoring_method": "Corrected Grammy Award Algorithm",
+    "quality_standard": "Grammy Award Level (8.0+)"
+  },
+  "corrected_quality_metrics": {
+    "average_virality_score": 4.8,
+    "messages_above_8_0": 2,
+    "messages_above_9_0": 0,
+    "grammy_success_rate": 40.0,
+    "mission_accomplished": false
+  },
+  "message_analysis": [
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "message_number": "viral",
+      "strategy": "underdog_crorepati",
+      "text": "\ud83d\ude96 AMAZING: Auto driver \u2192 \u20b91.2 crore portfolio\n\nStarted \u20b9500 SIP in 2010\nNever stopped. Not once.\nNot in COVID. Not in crashes.\n\nVidyadhar, you earn more than \u20b9500.\nWhat's your excuse?\n\nReply 'START' | Vidyadhar Petkar | ARN_VIDYADHAR_002",
+      "character_count": 237,
+      "virality_score": 2.6,
+      "grammy_worthy": false,
+      "file_path": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_4_final.txt"
+    },
+    {
+      "advisor_id": "ADV_004_final",
+      "message_number": "1",
+      "strategy": "warikoo_confession",
+      "text": "\ud83d\udc94 I lost \u20b915 lakhs in 2008 crash.\n\nSold everything in panic. Was devastated.\nSame portfolio today? \u20b93.2 crores.\n\nMy panic = \u20b92.5 crore mistake.\n\nMr., scared of market highs?\nYour emotions cost more than crashes.\n\nReply 'HELP' for wisdom\n\nTranquil Wealth Advisory | ADV_004",
+      "character_count": 272,
+      "virality_score": 8.2,
+      "grammy_worthy": true,
+      "file_path": "output/session_20250919_105507/whatsapp/ADV_004_final_viral_1_final.txt"
+    },
+    {
+      "advisor_id": "ADV_005_final",
+      "message_number": "5",
+      "strategy": "village_uncle_wisdom",
+      "text": "\ud83d\udcf1 Village uncle: \u20b9100+ crore wealth\n\nUses Nokia phone. Cycles to market.\nHolds L&T shares for decades.\n\nCity folks: \u20b92 lakh credit limit, \u20b92K savings.\n\nUnknown, lifestyle or wealth?\nReply 'WISDOM'\n\nFinancial Advisory | ARN_005",
+      "character_count": 226,
+      "virality_score": 3.0,
+      "grammy_worthy": false,
+      "file_path": "output/session_20250919_105507/whatsapp/ADV_005_final_viral_5_final.txt"
+    },
+    {
+      "advisor_id": "ARN_VIDYADHAR_002",
+      "message_number": "viral",
+      "strategy": "shrivastava_shocker",
+      "text": "\u26a0\ufe0f SHOCKING: 93% of F&O traders lost money\n\nAverage loss: \u20b92 lakh per trader\nSEBI data doesn't lie.\n\nYour neighbor bragging about profits?\nStatistically impossible.\n\nVidyadhar, ready for real wealth building?\nReply 'TRUTH'\n\nVidyadhar Petkar | ARN_VIDYADHAR_002",
+      "character_count": 260,
+      "virality_score": 2.0,
+      "grammy_worthy": false,
+      "file_path": "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_final_viral_2_final.txt"
+    },
+    {
+      "advisor_id": "ARN_SHRUTI_001",
+      "message_number": "viral",
+      "strategy": "warikoo_confession",
+      "text": "\ud83d\udc94 I lost \u20b915 lakhs in 2008 crash.\n\nSold everything in panic. Was devastated.\nSame portfolio today? \u20b93.2 crores.\n\nMy panic = \u20b92.5 crore mistake.\n\nShruti, scared of market highs?\nYour emotions cost more than crashes.\n\nReply 'HELP' for wisdom\n\nShruti Petkar | ARN_SHRUTI_001",
+      "character_count": 271,
+      "virality_score": 8.2,
+      "grammy_worthy": true,
+      "file_path": "output/session_20250919_105507/whatsapp/ARN_SHRUTI_001_final_viral_1_final.txt"
+    }
+  ]
+}

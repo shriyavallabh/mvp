@@ -1,0 +1,128 @@
+{
+  "timestamp": "2025-09-17T19:54:04.255247",
+  "agent": "learning-agent",
+  "status": "success",
+  "session_id": "session_2025-09-17T14-10-23Z",
+  "agents_processed": 13,
+  "learnings": {
+    "performance_insights": [
+      "email identified as most effective channel"
+    ],
+    "content_improvements": [
+      "Enhance data visualization in content",
+      "Increase tax-saving content focus"
+    ],
+    "process_optimizations": [
+      "14-agent orchestration completed successfully",
+      "Bidirectional communication between agents effective"
+    ],
+    "success_patterns": [
+      "High satisfaction ratings from stakeholders"
+    ],
+    "failure_patterns": []
+  },
+  "optimization_plan": {
+    "immediate_actions": [
+      {
+        "action": "Update content templates with tax-saving focus",
+        "target": "linkedin-post-generator, whatsapp-message-creator",
+        "priority": "high"
+      }
+    ],
+    "short_term_improvements": [
+      {
+        "action": "Optimize content generation for best performing channel",
+        "timeline": "Next 3 runs",
+        "expected_impact": "10-15% engagement increase"
+      }
+    ],
+    "long_term_strategies": [
+      {
+        "strategy": "Implement ML-based content personalization",
+        "timeline": "Next quarter",
+        "expected_outcome": "30% improvement in engagement"
+      }
+    ],
+    "configuration_updates": {
+      "content_length": {
+        "linkedin": "Maintain 1200+ characters",
+        "whatsapp": "Optimize to 350-380 characters"
+      },
+      "posting_time": "Continue 7:30-9:00 AM window",
+      "image_generation": "Increase use of data visualizations"
+    }
+  },
+  "learning_model": {
+    "version": "1.0",
+    "session_id": "session_2025-09-17T14-10-23Z",
+    "trained_on": "2025-09-17T19:54:04.255236",
+    "parameters": {
+      "content_quality_threshold": 0.8,
+      "compliance_score_minimum": 0.95,
+      "engagement_target": 5.0,
+      "distribution_success_rate": 0.95
+    },
+    "learned_preferences": {
+      "Retail": {
+        "optimal_content_length": {
+          "linkedin": 1800,
+          "whatsapp": 365
+        },
+        "best_posting_time": "8:30 AM",
+        "preferred_tone": "professional",
+        "effective_ctas": [
+          "Reply",
+          "Connect",
+          "Schedule"
+        ]
+      },
+      "HNI": {
+        "optimal_content_length": {
+          "linkedin": 1800,
+          "whatsapp": 365
+        },
+        "best_posting_time": "8:30 AM",
+        "preferred_tone": "professional",
+        "effective_ctas": [
+          "Reply",
+          "Connect",
+          "Schedule"
+        ]
+      },
+      "Corporate": {
+        "optimal_content_length": {
+          "linkedin": 1800,
+          "whatsapp": 365
+        },
+        "best_posting_time": "8:30 AM",
+        "preferred_tone": "professional",
+        "effective_ctas": [
+          "Reply",
+          "Connect",
+          "Schedule"
+        ]
+      }
+    },
+    "performance_baselines": {
+      "minimum_engagement_rate": 3.0,
+      "target_engagement_rate": 7.0,
+      "minimum_delivery_rate": 0.9,
+      "target_quality_score": 0.85
+    }
+  },
+  "session_metrics": {
+    "agents_executed": 13,
+    "total_content_generated": 6,
+    "compliance_rate": 0.9833333333333334,
+    "quality_rate": 0.6626666666666666,
+    "distribution_success": 1.0,
+    "overall_success": true
+  },
+  "recommendations_for_next_run": [
+    "Maintain current content quality standards",
+    "Focus on tax-saving content as requested",
+    "Enhance data visualization in images",
+    "Continue personalization strategy",
+    "Monitor WhatsApp engagement closely"
+  ]
+}

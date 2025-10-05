@@ -1,0 +1,202 @@
+{
+  "session": "session_2025-09-17T17-09-25-000Z",
+  "lastUpdated": "2025-09-17T22:50:28.482068",
+  "marketData": {
+    "metadata": {
+      "timestamp": "2025-09-17T22:50:28.482068",
+      "session": "session_2025-09-17T17-09-25-000Z",
+      "dataSource": "fetched_from_live_web_sources",
+      "marketStatus": "open",
+      "dataAccuracy": "high",
+      "lastUpdated": "2025-09-17T17:09:00+05:30"
+    },
+    "indices": {
+      "sensex": {
+        "value": 82690,
+        "change": 262.74,
+        "changePercent": 0.38,
+        "high": 82643.43,
+        "low": 81779.94,
+        "open": 81852.11,
+        "source": "BSE_live_data"
+      },
+      "nifty50": {
+        "value": 25330.25,
+        "change": 85.25,
+        "changePercent": 0.36,
+        "high": 25324.35,
+        "low": 25324.35,
+        "source": "NSE_live_data"
+      }
+    },
+    "topGainers": [
+      {
+        "symbol": "BEL",
+        "gain": 41.89,
+        "period": "year"
+      },
+      {
+        "symbol": "HCLTECH",
+        "gain": 4.5,
+        "period": "day"
+      },
+      {
+        "symbol": "BAJAJFINSV",
+        "gain": 4.5,
+        "period": "day"
+      },
+      {
+        "symbol": "AXISBANK",
+        "gain": 4.5,
+        "period": "day"
+      },
+      {
+        "symbol": "TCS",
+        "gain": 4.5,
+        "period": "day"
+      }
+    ],
+    "topLosers": [
+      {
+        "symbol": "INDUSINDBK",
+        "loss": -50.0,
+        "period": "year"
+      }
+    ],
+    "sectors": {
+      "topPerformers": [
+        {
+          "name": "Information Technology",
+          "change": 2.63,
+          "period": "recent"
+        },
+        {
+          "name": "PSU Banks",
+          "change": 2.09,
+          "period": "recent"
+        },
+        {
+          "name": "Pharma",
+          "change": 39.27,
+          "period": "year"
+        }
+      ],
+      "underPerformers": [
+        {
+          "name": "Auto",
+          "change": -1.28,
+          "period": "recent"
+        },
+        {
+          "name": "Banking",
+          "change": -0.35,
+          "period": "recent"
+        }
+      ]
+    },
+    "globalMarkets": {
+      "asianMarkets": {
+        "msciAsiaPacific": {
+          "change": 0.2,
+          "status": "record_high"
+        },
+        "southKorea": {
+          "change": 0.4,
+          "status": "record_high"
+        },
+        "chinese": {
+          "change": 0.5,
+          "status": "positive"
+        },
+        "hongKong": {
+          "change": 0.2,
+          "status": "positive"
+        }
+      },
+      "commodities": {
+        "crudeOil": {
+          "wti": {
+            "value": 64.55,
+            "change": -0.02
+          },
+          "brent": {
+            "value": 67.31,
+            "change": 0.32
+          }
+        },
+        "gold": {
+          "spot": {
+            "value": 3642.65,
+            "change": "steady"
+          },
+          "futures": {
+            "value": 3680.2,
+            "change": -0.2
+          },
+          "weeklyGain": 1.6,
+          "recordHigh": 3673.95
+        }
+      },
+      "currency": {
+        "usdInr": {
+          "trend": "stable",
+          "context": "fed_rate_cut_expected"
+        }
+      }
+    },
+    "marketSentiment": {
+      "overall": "cautiously_positive",
+      "keyDrivers": [
+        "Fed rate cut expectations",
+        "IT sector outperformance",
+        "Asian market strength",
+        "Record high gold prices"
+      ],
+      "concerns": [
+        "Auto sector weakness",
+        "Banking sector pressure",
+        "Global economic uncertainty"
+      ]
+    },
+    "institutionalActivity": {
+      "fii": {
+        "activity": 308.32,
+        "currency": "crores",
+        "date": "2025-09-16",
+        "trend": "mixed"
+      },
+      "dii": {
+        "activity": 1518.73,
+        "currency": "crores",
+        "date": "2025-09-16",
+        "trend": "positive"
+      }
+    },
+    "keyInsights": [
+      "Indian markets showing resilience with Sensex gaining 0.38% and Nifty up 0.36%",
+      "IT sector leading gains with 2.63% outperformance driven by global demand",
+      "PSU Banks showing strength with 2.09% gains amid sector rotation",
+      "Auto sector facing headwinds with 1.28% decline despite GST benefits",
+      "Global markets supportive with Asian indices hitting record highs",
+      "Fed rate cut expectations providing positive sentiment backdrop",
+      "Gold at record highs indicating safe-haven demand amid uncertainty",
+      "DII flows stronger than FII flows showing domestic institutional support"
+    ],
+    "contentThemes": [
+      "IT sector outperformance opportunities",
+      "Banking sector value hunting strategies",
+      "Global diversification amid Fed policy changes",
+      "Commodity allocation with gold at highs",
+      "Sector rotation from auto to IT and banking",
+      "Institutional flow analysis for retail investors"
+    ],
+    "advisorActionItems": [
+      "Review IT sector allocations for clients",
+      "Assess auto sector holdings amid weakness",
+      "Consider gold allocation given record highs",
+      "Monitor Fed policy impact on portfolio positioning",
+      "Evaluate banking sector opportunities on weakness",
+      "Prepare client communications on market resilience"
+    ]
+  }
+}

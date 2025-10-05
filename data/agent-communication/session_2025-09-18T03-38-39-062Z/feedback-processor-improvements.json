@@ -1,0 +1,73 @@
+{
+  "timestamp": "2025-09-18T09:54:00.000Z",
+  "from": "feedback-processor-agent",
+  "to": "all_agents",
+  "type": "process_improvements",
+  "priority": "critical",
+  "session_id": "session_2025-09-18T03-38-39-062Z",
+  "message": "Critical process improvements identified from orchestration feedback analysis",
+  "data": {
+    "feedback_analysis_complete": true,
+    "learning_insights_captured": true,
+    "regeneration_requirements_defined": true,
+    "immediate_actions_required": [
+      {
+        "agent": "whatsapp-message-creator",
+        "priority": "CRITICAL",
+        "action": "implement_auto_disclaimers",
+        "description": "Auto-inject SEBI disclaimers in all investment-related WhatsApp content",
+        "implementation": "Add disclaimer logic to generation process",
+        "deadline": "2025-09-18T15:00:00.000Z"
+      },
+      {
+        "agent": "linkedin-post-generator",
+        "priority": "HIGH",
+        "action": "improve_readability",
+        "description": "Implement readability scoring and improvement guidelines",
+        "targets": {
+          "flesch_score": "50+",
+          "quality_score": "75+"
+        },
+        "deadline": "2025-09-18T17:00:00.000Z"
+      },
+      {
+        "agent": "compliance-validator",
+        "priority": "CRITICAL",
+        "action": "early_validation",
+        "description": "Implement pre-generation template compliance validation",
+        "implementation": "Validate content templates before full generation",
+        "deadline": "2025-09-19T09:00:00.000Z"
+      },
+      {
+        "agent": "quality-scorer",
+        "priority": "HIGH",
+        "action": "generation_integration",
+        "description": "Integrate quality scoring into content generation pipeline",
+        "implementation": "Real-time quality feedback during generation",
+        "deadline": "2025-09-19T12:00:00.000Z"
+      }
+    ],
+    "regeneration_batch": {
+      "priority": "CRITICAL",
+      "items_count": 40,
+      "estimated_time": "4 hours",
+      "requirements_file": "/Users/shriyavallabh/Desktop/mvp/output/session_2025-09-18T03-38-39-062Z/regeneration-requirements.json"
+    },
+    "process_improvements": {
+      "compliance_automation": "Auto-inject disclaimers based on content classification",
+      "quality_gating": "Add quality checks during generation, not just validation",
+      "early_validation": "Validate templates before resource-intensive generation",
+      "segment_optimization": "Implement distinct guidelines per advisor segment"
+    },
+    "success_patterns_to_maintain": {
+      "visual_content": "Continue excellent AI-generated visual content (91.5/100)",
+      "freshness_management": "Maintain 100% approval rate for content diversity"
+    }
+  },
+  "next_steps": [
+    "Agents implement immediate improvements",
+    "Regenerate blocked content with fixes",
+    "Monitor improvement effectiveness",
+    "Capture learnings from regeneration process"
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "timestamp": "2025-10-02T14:21:35.738027",
+  "total_images": 8,
+  "accepted": 4,
+  "rejected": 1,
+  "regenerate_needed": 3,
+  "results": [
+    {
+      "overall_score": 4.0,
+      "pass": false,
+      "critical_issues": [
+        "Debug text found",
+        "Text cutoff at edges"
+      ],
+      "warnings": [
+        "Padding from edges is less than the required 60px in places"
+      ],
+      "aesthetic_score": 5.0,
+      "text_quality_score": 3.0,
+      "visual_distortion_score": 10.0,
+      "layout_score": 6.0,
+      "brand_compliance_score": 8.0,
+      "recommendation": "REJECT",
+      "specific_problems": {
+        "debug_text_found": true,
+        "duplicate_text": false,
+        "alignment_issues": false,
+        "stretching_detected": false,
+        "pixelation": false,
+        "text_cutoff": true,
+        "branding_missing": false
+      },
+      "detailed_feedback": "The image contains debug text '360px'. The padding is insufficient, especially on left side. Also the text is getting cut off in bottom corner. The design aesthetic is also quite basic. Remove the debug text, improve padding, fix text cutoff and redesign for a more professional look.",
+      "image_file": "FINAL_ADV001_001.png",
+      "advisor": "Shruti Petkar"
+    },
+    {
+      "overall_score": 8.5,
+      "pass": true,
+      "critical_issues": [],
+      "warnings": [],
+      "aesthetic_score": 9.0,
+      "text_quality_score": 9.0,
+      "visual_distortion_score": 10.0,
+      "layout_score": 8.0,
+      "brand_compliance_score": 9.0,
+      "recommendation": "ACCEPT",
+      "specific_problems": {
+        "debug_text_found": false,
+        "duplicate_text": false,
+        "alignment_issues": false,
+        "stretching_detected": false,
+        "pixelation": false,
+        "text_cutoff": false,
+        "branding_missing": false
+      },
+      "detailed_feedback": "The image is well-designed and meets the required criteria. The visual hierarchy is clear, and the branding elements are present and consistent. The text is readable and properly aligned. No critical issues were found. The layout could be improved with a bit more white space, but it's acceptable. Overall, a great visual.",
+      "image_file": "FINAL_ADV001_002.png",
+      "advisor": "Shruti Petkar"
+    },
+    {
+      "overall_score": 9.0,
+      "pass": true,
+      "critical_issues": [],
+      "warnings": [],
+      "aesthetic_score": 9.0,
+      "text_quality_score": 10.0,
+      "visual_distortion_score": 10.0,
+      "layout_score": 9.0,
+      "brand_compliance_score": 9.0,
+      "recommendation": "ACCEPT",
+      "specific_problems": {
+        "debug_text_found": false,
+        "duplicate_text": false,
+        "alignment_issues": false,
+        "stretching_detected": false,
+        "pixelation": false,
+        "text_cutoff": false,
+        "branding_missing": false
+      },
+      "detailed_feedback": "The image adheres to all requirements and is of high quality. The advisor name, tagline, and ARN are present and correct. The visual hierarchy is clear, and the composition is balanced. No areas of significant improvement are apparent. The image is ready for use.",
+      "image_file": "FINAL_ADV002_003.png",
+      "advisor": "Vidyadhar Petkar"
+    },
+    {
+      "overall_score": 8.2,
+      "pass": true,
+      "critical_issues": [],
+      "warnings": [],
+      "aesthetic_score": 8.5,
+      "text_quality_score": 9.0,
+      "visual_distortion_score": 10.0,
+      "layout_score": 8.0,
+      "brand_compliance_score": 8.5,
+      "recommendation": "ACCEPT",
+      "specific_problems": {
+        "debug_text_found": false,
+        "duplicate_text": false,
+        "alignment_issues": false,
+        "stretching_detected": false,
+        "pixelation": false,
+        "text_cutoff": false,
+        "branding_missing": false
+      },
+      "detailed_feedback": "The image is well-designed and meets the requirements. The text is clear and readable, and there are no visual distortions. The layout is balanced, and the branding elements are present and consistent. No specific issues to fix.",
+      "image_file": "FINAL_ADV002_004.png",
+      "advisor": "Vidyadhar Petkar"
+    },
+    {
+      "overall_score": 8.0,
+      "pass": true,
+      "critical_issues": [],
+      "warnings": [],
+      "aesthetic_score": 8.0,
+      "text_quality_score": 9.0,
+      "visual_distortion_score": 10.0,
+      "layout_score": 8.0,
+      "brand_compliance_score": 10.0,
+      "recommendation": "ACCEPT",
+      "specific_problems": {
+        "debug_text_found": false,
+        "duplicate_text": false,
+        "alignment_issues": false,
+        "stretching_detected": false,
+        "pixelation": false,
+        "text_cutoff": false,
+        "branding_missing": false
+      },
+      "detailed_feedback": "The image is well-designed and meets the requirements. The text is clear, the layout is balanced, and the branding is consistent. There are no critical issues.",
+      "image_file": "FINAL_ADV003_005.png",
+      "advisor": "Shriya Vallabh Petkar"
+    },
+    {
+      "overall_score": 7.5,
+      "pass": false,
+      "critical_issues": [],
+      "warnings": [
+        "The title 'VH001 - The SIP Revolution (Behaviroral Angle)' is not very compelling and could be improved.",
+        "The design feels somewhat generic and lacks the stop-scroll-worthy appeal of top fintech brands.",
+        "The color scheme, while consistent, might not be the most visually engaging for a mobile audience.",
+        "Padding around the content seems adequate but could be slightly adjusted for better balance."
+      ],
+      "aesthetic_score": 7.0,
+      "text_quality_score": 9.0,
+      "visual_distortion_score": 10.0,
+      "layout_score": 7.5,
+      "brand_compliance_score": 9.0,
+      "recommendation": "REGENERATE",
+      "specific_problems": {
+        "debug_text_found": false,
+        "duplicate_text": false,
+        "alignment_issues": false,
+        "stretching_detected": false,
+        "pixelation": false,
+        "text_cutoff": false,
+        "branding_missing": false
+      },
+      "detailed_feedback": "The image meets the basic requirements for text, visual quality, and branding. However, it lacks the visual appeal and polish to be truly effective as a WhatsApp status. Consider the following: 1. Enhance the title to be more engaging. 2. Refine the color palette for better visual impact and brand recognition. 3. Improve the overall design to be more modern and comparable to top fintech brands. 4. Make sure the '906 Crore DAILY' stands out even more. 5. Adjust the padding around all elements of the design to improve balance and visual flow.",
+      "image_file": "FINAL_ADV003_006.png",
+      "advisor": "Shriya Vallabh Petkar"
+    },
+    {
+      "overall_score": 7.5,
+      "pass": false,
+      "critical_issues": [],
+      "warnings": [
+        "The phrase '\u20b9906 Chore DAILY' is confusing and doesn't convey a clear message. Needs to be rephrased to something more understandable and relevant to investments.",
+        "The design feels a little generic and not as polished as top fintech brands. It needs a visual upgrade to be 'stop-scroll-worthy'.",
+        "Padding on the bottom edge seems less than 60px, specifically for the ARN and SIP logo."
+      ],
+      "aesthetic_score": 7,
+      "text_quality_score": 9,
+      "visual_distortion_score": 10,
+      "layout_score": 7,
+      "brand_compliance_score": 10,
+      "recommendation": "REGENERATE",
+      "specific_problems": {
+        "debug_text_found": false,
+        "duplicate_text": false,
+        "alignment_issues": false,
+        "stretching_detected": false,
+        "pixelation": false,
+        "text_cutoff": false,
+        "branding_missing": false
+      },
+      "detailed_feedback": "The main issue is the confusing phrase '\u20b9906 Chore DAILY'. This needs to be replaced with clear, understandable text related to the investment product or service being advertised. Also, ensure there's sufficient padding (at least 60px) on all sides, particularly the bottom. The design needs to be elevated to meet the standards of top fintech brands \u2013 consider improving the visual elements and overall aesthetic to be more professional and engaging.",
+      "image_file": "FINAL_ADV004_007.png",
+      "advisor": "Avalok Langer"
+    },
+    {
+      "overall_score": 7.5,
+      "pass": false,
+      "critical_issues": [],
+      "warnings": [
+        "The phrase 'Equivalent to a a New iPhone!' has duplicate 'a' which needs to be fixed.",
+        "While the image dimensions are correct, the layout could be improved for better visual hierarchy. The savings amount is not as prominent as it could be.",
+        "The tagline and advisor name placement feels a bit cramped at the bottom. Some additional whitespace would improve readability."
+      ],
+      "aesthetic_score": 7,
+      "text_quality_score": 8,
+      "visual_distortion_score": 10,
+      "layout_score": 7,
+      "brand_compliance_score": 10,
+      "recommendation": "REGENERATE",
+      "specific_problems": {
+        "debug_text_found": false,
+        "duplicate_text": true,
+        "alignment_issues": false,
+        "stretching_detected": false,
+        "pixelation": false,
+        "text_cutoff": false,
+        "branding_missing": false
+      },
+      "detailed_feedback": "The image is generally good, but there are some issues to address before it can be accepted. First, remove the duplicate 'a' in \"Equivalent to a a New iPhone!\". Second, consider increasing the prominence of the potential savings figure for better visual impact. Finally, add a bit more whitespace around the tagline and advisor name at the bottom to improve readability. The ARN number, advisor name, tagline, and dimensions are all correct.",
+      "image_file": "FINAL_ADV004_008.png",
+      "advisor": "Avalok Langer"
+    }
+  ]
+}

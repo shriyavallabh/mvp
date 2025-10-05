@@ -1,0 +1,16 @@
+{
+  "file": "/Users/shriyavallabh/Desktop/mvp/output/session_20250919_023038/branded/linkedin/ADV_004_branded_posts.json",
+  "priority": 32.94,
+  "requirements": {
+    "canBeRemediated": true,
+    "primaryIssue": "compliance",
+    "requiredActions": [
+      "Add market risk disclaimer",
+      "Add document reading requirement",
+      "Add past performance disclaimer",
+      "Add ARN display"
+    ],
+    "estimatedTime": 18
+  },
+  "estimatedTime": 18
+}

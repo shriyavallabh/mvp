@@ -1,0 +1,53 @@
+{
+  "sessionId": "session_20250919_211030",
+  "timestamp": "2025-09-20T03:20:39.188Z",
+  "completedAt": "2025-09-20T03:20:43.617Z",
+  "duration": 4429,
+  "summary": {
+    "totalAdvisors": 3,
+    "successful": 3,
+    "failed": 0,
+    "retried": 0,
+    "contentDelivered": 0,
+    "successRate": "100.00%"
+  },
+  "webhookStatus": "Active",
+  "deliveries": [
+    {
+      "advisor": "Rajesh Kumar",
+      "advisorId": "ADV_001",
+      "phone": "9198765432",
+      "arn": "ARN-12345",
+      "timestamp": "2025-09-20T03:20:41.101Z",
+      "success": true,
+      "messageId": "wamid.HBgMOTE5MTk4NzY1NDMyFQIAERgSNDhENzQ2NDkzOTRDOUU1MTdCAA==",
+      "status": "sent"
+    },
+    {
+      "advisor": "Priya Sharma",
+      "advisorId": "ADV_002",
+      "phone": "9187654321",
+      "arn": "ARN-67890",
+      "timestamp": "2025-09-20T03:20:42.295Z",
+      "success": true,
+      "messageId": "wamid.HBgMOTE5MTg3NjU0MzIxFQIAERgSRDY2NEYwNzMwMzc1OEI4MjIyAA==",
+      "status": "sent"
+    },
+    {
+      "advisor": "Amit Patel",
+      "advisorId": "ADV_003",
+      "phone": "9176543210",
+      "arn": "ARN-11223",
+      "timestamp": "2025-09-20T03:20:43.415Z",
+      "success": true,
+      "messageId": "wamid.HBgMOTE5MTc2NTQzMjEwFQIAERgSQjg5MTYwNEQxOENEQzU4RTJEAA==",
+      "status": "sent"
+    }
+  ],
+  "metadata": {
+    "template": "daily_content_ready_v1",
+    "phoneNumberId": "574744175733556",
+    "contentType": "viral",
+    "strategy": "click-to-unlock"
+  }
+}

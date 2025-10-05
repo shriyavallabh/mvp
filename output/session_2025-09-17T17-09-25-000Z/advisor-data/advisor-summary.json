@@ -1,0 +1,28 @@
+{
+  "executionTimestamp": "2025-09-17T22:47:55.308964",
+  "totalAdvisors": 3,
+  "segmentBreakdown": {
+    "Premium": 1,
+    "Gold": 1,
+    "Silver": 1
+  },
+  "businessMetrics": {
+    "totalAUM": "\u20b9175 Crores",
+    "totalClients": 650,
+    "averageExperience": 8.3
+  },
+  "customizationStats": {
+    "customLogos": 2,
+    "customColors": 3,
+    "customTaglines": 3
+  },
+  "contentPreferences": {
+    "professionalTone": 1,
+    "friendlyTone": 0,
+    "educationalTone": 1
+  },
+  "subscriptionStatus": {
+    "active": 3,
+    "expiringSoon": 0
+  }
+}

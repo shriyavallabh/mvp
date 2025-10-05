@@ -1,0 +1,41 @@
+{
+  "messageType": "ADVISOR_DATA_READY",
+  "sender": "advisor-data-manager",
+  "timestamp": "2025-09-18T21:06:58.214Z",
+  "sessionId": "session_20250919_023038",
+  "payload": {
+    "status": "success",
+    "advisorCount": 101,
+    "dataLocation": "/Users/shriyavallabh/Desktop/mvp/data/shared-memory/session_20250919_023038/advisor-data.json",
+    "summary": {
+      "totalAdvisors": 101,
+      "bySegment": {
+        "active": 3,
+        "Gold": 1,
+        "Standard": 97
+      },
+      "bySubscription": {
+        "Standard": 100,
+        "Gold": 1
+      },
+      "withCustomBranding": 98,
+      "withLogos": 0,
+      "dataQuality": "0.0%",
+      "issues": [
+        "Missing phone numbers for some advisors",
+        "Some data fields contain misaligned values (needs column mapping review)"
+      ]
+    },
+    "recommendations": {
+      "dataMapping": "Review column mapping in Google Sheets - some fields appear to have shifted",
+      "phoneNumbers": "Validate phone number format for all advisors",
+      "segmentation": "Most advisors (97) are in Standard segment - consider segment-based strategies"
+    }
+  },
+  "nextAgents": [
+    "market-intelligence",
+    "linkedin-post-generator-enhanced",
+    "gemini-image-generator",
+    "whatsapp-message-creator"
+  ]
+}
