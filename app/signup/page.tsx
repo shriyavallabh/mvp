@@ -66,7 +66,7 @@ export default function SignupPage() {
     setError('');
 
     try {
-      const fullPhone = countryCode === '+91' ? '91' + formData.phone : formData.phone;
+      const fullPhone = countryCode === '+91' ? '+91' + formData.phone : countryCode + formData.phone;
       const [firstName, ...lastNameParts] = formData.name.split(' ');
       const lastName = lastNameParts.join(' ');
 
