@@ -70,15 +70,22 @@ export default function SignupPage() {
       const [firstName, ...lastNameParts] = formData.name.split(' ');
       const lastName = lastNameParts.join(' ');
 
-      const result = await signUp?.create({
+      // Build signup params - only include lastName if it exists
+      const signUpParams = {
         firstName,
-        lastName: lastName || '',
         emailAddress: formData.email,
         password: formData.password,
         unsafeMetadata: {
           phone: fullPhone
         }
-      });
+      };
+
+      // Only add lastName if user provided it (not empty)
+      if (lastName && lastName.trim()) {
+        signUpParams.lastName = lastName;
+      }
+
+      const result = await signUp?.create(signUpParams);
 
       // Set the session active since email verification is disabled
       if (result && result.status === 'complete') {
@@ -99,7 +106,18 @@ export default function SignupPage() {
       let errorMessage = 'Failed to create account. Please try again.';
 
       if (err.errors && err.errors.length > 0) {
-        errorMessage = err.errors[0].longMessage || err.errors[0].message;
+        const clerkError = err.errors[0];
+        errorMessage = clerkError.longMessage || clerkError.message;
+
+        // Improve password breach error message
+        if (errorMessage.includes('password') && errorMessage.includes('breach')) {
+          errorMessage = 'This password has been found in data breaches. Please use a stronger, unique password.';
+        }
+
+        // Improve lastName error message
+        if (errorMessage.includes('last_name') || errorMessage.includes('lastName')) {
+          errorMessage = 'There was an issue with the name format. Please try entering your full name or just first name.';
+        }
       } else if (err.message) {
         errorMessage = err.message;
       } else if (err.clerkError) {
