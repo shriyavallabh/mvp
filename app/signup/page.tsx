@@ -340,7 +340,7 @@ export default function SignupPage() {
           </div>
 
           <div className="signin-link">
-            Already have an account? <a href="/auth-dashboard">Sign in</a>
+            Already have an account? <a href="/sign-in">Sign in</a>
           </div>
         </div>
       </div>
