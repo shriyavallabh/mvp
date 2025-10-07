@@ -93,7 +93,20 @@ export default function SignupPage() {
 
     } catch (err: any) {
       console.error('Signup error:', err);
-      setError(err.errors?.[0]?.message || 'Failed to create account. Please try again.');
+      console.error('Full error object:', JSON.stringify(err, null, 2));
+
+      // Extract the most detailed error message
+      let errorMessage = 'Failed to create account. Please try again.';
+
+      if (err.errors && err.errors.length > 0) {
+        errorMessage = err.errors[0].longMessage || err.errors[0].message;
+      } else if (err.message) {
+        errorMessage = err.message;
+      } else if (err.clerkError) {
+        errorMessage = JSON.stringify(err);
+      }
+
+      setError(errorMessage);
     } finally {
       setLoading(false);
     }
