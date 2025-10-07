@@ -1,0 +1,170 @@
+{
+  "advisorId": "ADV003",
+  "advisorName": "Shriya Vallabh Petkar",
+  "designId": "ADV003_design_1",
+  "sessionId": "session_1759798367",
+  "timestamp": "2025-10-07T06:26:39Z",
+  "dimensions": "1080x1920",
+  "aspectRatio": "9:16",
+  "theme": "educational",
+  "contentType": "Investment Philosophy - Buffett Quote Analysis",
+  "viralityScore": 9.8,
+  "viralityJustification": "Buffett paradox + Philosophical depth + Current $4000 context + Educational storytelling = Maximum viral engagement",
+
+  "headline": "BUFFETT vs REALITY",
+  "subtext": "Can Both Be True?",
+  "philosophicalQuestion": "Gold: \"Unproductive\" Asset or Wealth Preserver?",
+  "dataPoint": "$4,000",
+  "dataContext": "Gold Today | Buffett's Dilemma",
+  "callToAction": "Understand Your Philosophy",
+  "educationalMessage": "Portfolios need CREATORS (equity) AND PRESERVERS (gold)",
+
+  "colors": {
+    "primary": "#8B4513",
+    "secondary": "#CD853F",
+    "accent": "#FFD700",
+    "background": "#1A0F0A",
+    "text": "#FFFFFF",
+    "quote": "#CD853F"
+  },
+
+  "typography": {
+    "headlineFont": "Merriweather Bold",
+    "headlineSize": "98px",
+    "quoteFont": "Georgia Italic",
+    "quoteSize": "64px",
+    "bodyFont": "Open Sans SemiBold",
+    "bodySize": "58px",
+    "philosophyFont": "Merriweather Regular",
+    "philosophySize": "54px"
+  },
+
+  "layout": {
+    "composition": "story_driven_philosophy",
+    "sections": [
+      {
+        "position": "top_15_percent",
+        "content": "BUFFETT vs REALITY",
+        "alignment": "center",
+        "color": "#FFD700",
+        "fontSize": "98px",
+        "letterSpacing": "1px"
+      },
+      {
+        "position": "18_to_22_percent",
+        "content": "Can Both Be True?",
+        "alignment": "center",
+        "color": "#FFFFFF",
+        "fontSize": "56px",
+        "fontStyle": "italic"
+      },
+      {
+        "position": "25_to_42_percent",
+        "content": "Left quote box",
+        "sectionType": "quote_comparison",
+        "leftQuote": {
+          "text": "\"Gold is unproductive\"",
+          "author": "- Warren Buffett",
+          "style": "italic",
+          "fontSize": "64px",
+          "color": "#CD853F",
+          "border": "left_accent"
+        }
+      },
+      {
+        "position": "44_to_61_percent",
+        "content": "Right fact box",
+        "rightFact": {
+          "text": "Gold touches $4,000",
+          "subtext": "Historic rally | Inflation hedge",
+          "fontSize": "64px",
+          "color": "#FFD700",
+          "style": "bold"
+        }
+      },
+      {
+        "position": "64_to_80_percent",
+        "content": "Educational insight panel",
+        "sectionType": "philosophy_box",
+        "backgroundColor": "rgba(205, 133, 63, 0.15)",
+        "borderLeft": "5px solid #CD853F",
+        "padding": "30px",
+        "text": "Both are true.\n\nGold doesn't create value—but it preserves wealth during chaos.\n\nYour portfolio needs CREATORS (equity) AND PRESERVERS (gold).\n\nDiversification is philosophy, not just allocation.",
+        "fontSize": "54px",
+        "lineHeight": "1.5",
+        "fontFamily": "Merriweather Regular"
+      },
+      {
+        "position": "83_to_88_percent",
+        "content": "What's your portfolio philosophy?",
+        "alignment": "center",
+        "color": "#CD853F",
+        "fontSize": "56px",
+        "fontStyle": "italic"
+      },
+      {
+        "position": "90_to_96_percent",
+        "content": "branding_section",
+        "logo": "centered_120px",
+        "tagline": "Empowering Financial Decisions",
+        "arn": "ARN-147852"
+      }
+    ]
+  },
+
+  "visualElements": [
+    {
+      "type": "split_comparison",
+      "leftSide": "quote_card",
+      "rightSide": "data_card",
+      "separator": "vertical_line_gold"
+    },
+    {
+      "type": "philosophy_box",
+      "style": "warm_educational",
+      "leftBorder": "5px #CD853F",
+      "backgroundTint": "brown_15_percent"
+    },
+    {
+      "type": "gradient_background",
+      "colors": ["#1A0F0A", "#3D2817"],
+      "direction": "radial_center"
+    }
+  ],
+
+  "brandAssets": {
+    "logo": "/assets/logos/shriya-vallabh.png",
+    "logoPosition": "bottom_center",
+    "logoSize": "120x120",
+    "tagline": "Empowering Financial Decisions",
+    "arn": "ARN-147852"
+  },
+
+  "designPrinciples": {
+    "sophistication": "Very High - Philosophical storytelling",
+    "educationalDepth": "Deep - Buffett paradox explained",
+    "colorPsychology": "Brown (warmth/trust) + Gold (wealth/wisdom)",
+    "whiteSpace": "40% for contemplation",
+    "hierarchy": "Question → Paradox → Resolution → Personal reflection",
+    "mobileOptimized": true,
+    "thumbStoppingPower": "Buffett name + Philosophical conflict + Gold $4000"
+  },
+
+  "contentAlignment": {
+    "whatsappMessage": "ADV003_msg_1 - Buffett gold philosophy",
+    "segmentFit": "HNI educational segment loves deep thinking",
+    "toneMatch": "Educator-philosopher, empowering through understanding",
+    "ctaStyle": "Reflective question invitation"
+  },
+
+  "geminiPrompt": "Create an educational philosophical WhatsApp Status (1080x1920):\n\nTHEME: Buffett vs Reality - Gold Philosophy\n\nVISUAL COMPOSITION:\n- Warm dark brown background (#1A0F0A to #3D2817 radial gradient)\n- Top 15%: Bold 'BUFFETT vs REALITY' in gold (#FFD700), 98px Merriweather Bold\n- 18-22%: Italic subtext 'Can Both Be True?' white 56px\n- 25-42%: LEFT QUOTE BOX:\n  \"Gold is unproductive\"\n  - Warren Buffett\n  64px Georgia Italic, bronze (#CD853F), left accent border\n- 44-61%: RIGHT FACT BOX:\n  Gold touches $4,000\n  Historic rally | Inflation hedge\n  64px bold, gold (#FFD700)\n- 64-80%: Educational philosophy panel (brown tint bg, left bronze border):\n  \"Both are true.\n  \n  Gold doesn't create value—but it preserves wealth during chaos.\n  \n  Your portfolio needs CREATORS (equity) AND PRESERVERS (gold).\n  \n  Diversification is philosophy, not just allocation.\"\n  54px Merriweather, white, line-height 1.5\n- 83-88%: Question 'What's your portfolio philosophy?' bronze italic 56px\n- Bottom: Logo centered, 'Empowering Financial Decisions' tagline, ARN\n\nSTYLE: Warm educational, philosophical depth, storytelling aesthetic\nMOOD: Contemplative, empowering, wisdom-sharing",
+
+  "qualityChecklist": {
+    "dimensions_correct": "1080x1920",
+    "virality_score": "9.8/10",
+    "mobile_optimized": true,
+    "brand_alignment": "Educational philosopher",
+    "segment_fit": "HNI deep learning",
+    "font_sizes_readable": "98px headline, 64px quotes, 54px philosophy"
+  }
+}

@@ -58,6 +58,16 @@ async function getAdvisorContent(advisorId) {
       }
     } catch (e) {}
 
+    // Find WhatsApp image
+    let whatsappImage = '';
+    try {
+      const imageFiles = await fs.readdir(advisorPath);
+      const waImageFile = imageFiles.find(f => f.includes('whatsapp') && (f.endsWith('.png') || f.endsWith('.jpg')));
+      if (waImageFile) {
+        whatsappImage = `/api/image?session=${path.basename(sessionPath)}&advisor=${advisorId}&file=${waImageFile}`;
+      }
+    } catch (e) {}
+
     // Find status image
     let statusImage = '';
     try {
@@ -70,6 +80,7 @@ async function getAdvisorContent(advisorId) {
 
     return {
       whatsappMessage,
+      whatsappImage,
       linkedinPost,
       statusImage,
       sessionDate: path.basename(sessionPath).replace('session_', '')

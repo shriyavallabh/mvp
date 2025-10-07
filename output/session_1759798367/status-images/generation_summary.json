@@ -1,0 +1,83 @@
+{
+  "sessionId": "session_1759798367",
+  "timestamp": "2025-10-07T07:17:19.157772",
+  "totalDesigns": 12,
+  "validated": 0,
+  "failed": 12,
+  "errors": 0,
+  "passRate": "0.0%",
+  "results": [
+    {
+      "designId": "ADV001_design_1",
+      "status": "FAILED",
+      "reason": "Generation failed after max attempts",
+      "attempts": 3
+    },
+    {
+      "designId": "ADV001_design_2",
+      "status": "FAILED",
+      "reason": "Generation failed after max attempts",
+      "attempts": 3
+    },
+    {
+      "designId": "ADV001_design_3",
+      "status": "FAILED",
+      "reason": "Generation failed after max attempts",
+      "attempts": 3
+    },
+    {
+      "designId": "ADV002_design_1",
+      "status": "FAILED",
+      "reason": "Generation failed after max attempts",
+      "attempts": 3
+    },
+    {
+      "designId": "ADV002_design_2",
+      "status": "FAILED",
+      "reason": "Generation failed after max attempts",
+      "attempts": 3
+    },
+    {
+      "designId": "ADV002_design_3",
+      "status": "FAILED",
+      "reason": "Generation failed after max attempts",
+      "attempts": 3
+    },
+    {
+      "designId": "ADV003_design_1",
+      "status": "FAILED",
+      "reason": "Generation failed after max attempts",
+      "attempts": 3
+    },
+    {
+      "designId": "ADV003_design_2",
+      "status": "FAILED",
+      "reason": "Generation failed after max attempts",
+      "attempts": 3
+    },
+    {
+      "designId": "ADV003_design_3",
+      "status": "FAILED",
+      "reason": "Generation failed after max attempts",
+      "attempts": 3
+    },
+    {
+      "designId": "ADV004_design_1",
+      "status": "FAILED",
+      "reason": "Generation failed after max attempts",
+      "attempts": 3
+    },
+    {
+      "designId": "ADV004_design_2",
+      "status": "FAILED",
+      "reason": "Generation failed after max attempts",
+      "attempts": 3
+    },
+    {
+      "designId": "ADV004_design_3",
+      "status": "FAILED",
+      "reason": "Generation failed after max attempts",
+      "attempts": 3
+    }
+  ]
+}

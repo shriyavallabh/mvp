@@ -19,7 +19,7 @@
 ✅ Project ID: prj_QQAial59AHSd44kXyY1fGkPk3rkA
 ✅ User ID: nlkueSK4czn3NjQoM6nwiJXV
 ✅ Token: jAxr7wRF6lKNvkRLCU6HPMsg
-✅ Domain: jarvisdaily.in
+✅ Domain: jarvisdaily.com
 ✅ Webhook endpoint: /api/webhook.js (exists ✅)
 ```
 
@@ -133,9 +133,9 @@ vercel --prod
 
 **Copy the production URL!** You'll need it for webhook configuration.
 
-**Note**: If your domain is jarvisdaily.in, the webhook URL will be:
+**Note**: If your domain is jarvisdaily.com, the webhook URL will be:
 ```
-https://jarvisdaily.in/api/webhook
+https://jarvisdaily.com/api/webhook
 ```
 
 ---
@@ -152,7 +152,7 @@ https://jarvisdaily.in/api/webhook
 
 **Callback URL:**
 ```
-https://jarvisdaily.in/api/webhook
+https://jarvisdaily.com/api/webhook
 ```
 (Or use your Vercel URL if different)
 
@@ -206,7 +206,7 @@ CnsKNwjkp5K7vI6GAhIGZW50OndhIh5KYXJ2aXMgRGFpbHkgYnkgVGhlIFNraW4gUlVsZXNQnZKDxwYa
 ### STEP 6: Test Webhook (1 min)
 
 ```bash
-curl "https://jarvisdaily.in/api/webhook?hub.mode=subscribe&hub.challenge=test123&hub.verify_token=finadvise-webhook-2024"
+curl "https://jarvisdaily.com/api/webhook?hub.mode=subscribe&hub.challenge=test123&hub.verify_token=finadvise-webhook-2024"
 ```
 
 **Expected response:** `test123`
@@ -272,7 +272,7 @@ Copy the secret
 
 ### Webhook verification fails
 ```
-1. Check callback URL: https://jarvisdaily.in/api/webhook
+1. Check callback URL: https://jarvisdaily.com/api/webhook
 2. Check verify token: finadvise-webhook-2024
 3. Redeploy: vercel --prod
 4. Wait 30 seconds, try again
@@ -296,7 +296,7 @@ WhatsApp Config: https://developers.facebook.com/apps/100088701756168/whatsapp-b
 Phone Status: https://developers.facebook.com/apps/100088701756168/whatsapp-business/wa-dev-console/
 
 Vercel Project: https://vercel.com/dashboard
-Webhook URL: https://jarvisdaily.in/api/webhook
+Webhook URL: https://jarvisdaily.com/api/webhook
 Verify Token: finadvise-webhook-2024
 
 Phone Number ID: 792411637295195

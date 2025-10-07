@@ -95,11 +95,11 @@
 
 ## Domain Setup (Optional - 10 minutes)
 
-### If you want jarvisdaily.in instead of Vercel subdomain:
+### If you want jarvisdaily.com instead of Vercel subdomain:
 
 - [ ] **Add Domain in Vercel**
   1. Vercel Dashboard → Project → Settings → Domains
-  2. Add: `jarvisdaily.in`
+  2. Add: `jarvisdaily.com`
 
 - [ ] **Update DNS** (Your domain registrar)
   ```
@@ -110,7 +110,7 @@
 
 - [ ] **Update DASHBOARD_URL** in Vercel env vars
   ```
-  DASHBOARD_URL=https://jarvisdaily.in
+  DASHBOARD_URL=https://jarvisdaily.com
   ```
 
 ## Testing (15 minutes)

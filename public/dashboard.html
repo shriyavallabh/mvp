@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Your Daily Content - JarvisDaily</title>
+    <title>JarvisDaily - Your Daily Content</title>
     <style>
         * {
             margin: 0;
@@ -12,89 +12,128 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
-            padding: 20px;
+            padding: 0;
         }
 
         .container {
             max-width: 600px;
             margin: 0 auto;
+            min-height: 100vh;
         }
 
         .header {
-            background: white;
-            border-radius: 20px 20px 0 0;
-            padding: 30px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px 30px;
+            color: white;
             text-align: center;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
         }
 
         .header h1 {
-            font-size: 28px;
-            color: #333;
+            font-size: 32px;
+            font-weight: 700;
             margin-bottom: 10px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
         }
 
         .header p {
-            color: #666;
+            font-size: 16px;
+            opacity: 0.95;
+            margin-bottom: 20px;
+        }
+
+        .date-badge {
+            background: rgba(255,255,255,0.25);
+            backdrop-filter: blur(10px);
+            padding: 8px 20px;
+            border-radius: 25px;
             font-size: 14px;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+        .content-wrapper {
+            background: #f5f7fa;
+            border-radius: 30px 30px 0 0;
+            margin-top: -20px;
+            padding: 30px 20px;
+            min-height: 80vh;
         }
 
         .content-card {
             background: white;
+            border-radius: 20px;
             padding: 0;
-            margin-top: 2px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            overflow: hidden;
+            animation: slideUp 0.5s ease-out;
         }
 
-        .content-card:last-child {
-            border-radius: 0 0 20px 20px;
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         .card-header {
             padding: 20px;
-            border-bottom: 2px solid #f0f0f0;
+            border-bottom: 1px solid #f0f0f0;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            background: linear-gradient(to right, #f8f9fa, white);
         }
 
         .card-header h2 {
-            font-size: 18px;
-            color: #333;
+            font-size: 20px;
+            font-weight: 700;
+            color: #2d3748;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
         .card-body {
-            padding: 20px;
+            padding: 25px;
         }
 
         .content-text {
             background: #f8f9fa;
+            border-left: 4px solid #667eea;
             border-radius: 12px;
-            padding: 15px;
+            padding: 20px;
             font-size: 15px;
-            line-height: 1.6;
-            color: #333;
-            margin-bottom: 15px;
+            line-height: 1.7;
+            color: #2d3748;
+            margin-bottom: 20px;
             white-space: pre-wrap;
             word-wrap: break-word;
         }
 
+        .content-image {
+            width: 100%;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+            border: 3px solid #f0f0f0;
+        }
+
         .btn {
             width: 100%;
-            padding: 15px;
+            padding: 16px;
             border: none;
-            border-radius: 12px;
-            font-size: 16px;
-            font-weight: 600;
+            border-radius: 15px;
+            font-size: 17px;
+            font-weight: 700;
             cursor: pointer;
             transition: all 0.3s;
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
 
         .btn-primary {
@@ -104,99 +143,127 @@
 
         .btn-primary:active {
             transform: scale(0.98);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
         }
 
         .btn-success {
-            background: #10b981;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
             color: white;
         }
 
-        .image-preview {
-            width: 100%;
-            border-radius: 12px;
+        .char-count {
+            font-size: 13px;
+            color: #718096;
             margin-bottom: 15px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: right;
         }
 
         .loading {
             text-align: center;
-            padding: 60px 20px;
+            padding: 100px 20px;
             color: white;
-            font-size: 18px;
+        }
+
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(255,255,255,0.3);
+            border-top-color: white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
         }
 
         .error {
             background: white;
             border-radius: 20px;
             padding: 40px 20px;
+            margin: 20px;
             text-align: center;
-            color: #e74c3c;
+        }
+
+        .error h2 {
+            color: #ef4444;
+            margin-bottom: 10px;
         }
 
         .phone-input {
             background: white;
             border-radius: 20px;
             padding: 40px 20px;
+            margin: 20px;
             text-align: center;
         }
 
         .phone-input input {
             width: 100%;
-            padding: 15px;
-            border: 2px solid #ddd;
+            padding: 16px;
+            border: 2px solid #e2e8f0;
             border-radius: 12px;
             font-size: 16px;
             margin: 20px 0;
+            transition: border-color 0.3s;
         }
 
-        .char-count {
-            font-size: 12px;
-            color: #666;
-            margin-top: 5px;
+        .phone-input input:focus {
+            outline: none;
+            border-color: #667eea;
         }
 
-        .date-badge {
-            background: #667eea;
-            color: white;
-            padding: 5px 15px;
-            border-radius: 20px;
+        .section-title {
             font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #718096;
             font-weight: 600;
+            margin-bottom: 8px;
         }
 
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+        .status-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
         }
 
-        .content-card {
-            animation: fadeIn 0.5s ease-out;
+        .status-item {
+            text-align: center;
+        }
+
+        .status-label {
+            font-size: 14px;
+            color: #64748b;
+            margin-top: 10px;
+            font-weight: 600;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div id="loading" class="loading">
-            <div>Loading your content...</div>
+            <div class="loading-spinner"></div>
+            <div style="font-size: 18px; font-weight: 600;">Loading your content...</div>
         </div>
 
         <div id="phone-input" class="phone-input" style="display: none;">
-            <h2 style="margin-bottom: 10px;">Enter Your WhatsApp Number</h2>
-            <p style="color: #666; margin-bottom: 20px;">We'll show you today's content</p>
-            <input type="tel" id="phoneNumber" placeholder="Enter 10-digit number" maxlength="10">
-            <button class="btn btn-primary" onclick="loadContent()">View Content</button>
+            <h2 style="margin-bottom: 10px; color: #2d3748;">Enter Your WhatsApp Number</h2>
+            <p style="color: #718096; margin-bottom: 20px;">We'll show you today's viral content</p>
+            <input type="tel" id="phoneNumber" placeholder="91XXXXXXXXXX">
+            <button class="btn btn-primary" onclick="loadContent()">View Content 🚀</button>
         </div>
 
         <div id="error" class="error" style="display: none;">
             <h2>Content Not Available</h2>
-            <p id="error-message"></p>
+            <p id="error-message" style="color: #64748b; margin-top: 10px;"></p>
         </div>
 
         <div id="content" style="display: none;"></div>
     </div>
 
     <script>
-        // Get phone from URL or prompt
         const urlParams = new URLSearchParams(window.location.search);
         let phone = urlParams.get('phone');
 
@@ -213,7 +280,6 @@
             const contentEl = document.getElementById('content');
             const phoneInputEl = document.getElementById('phone-input');
 
-            // Get phone number
             if (!phone) {
                 phone = document.getElementById('phoneNumber').value.trim();
                 if (!phone) {
@@ -222,7 +288,6 @@
                 }
             }
 
-            // Show loading
             loadingEl.style.display = 'block';
             errorEl.style.display = 'none';
             contentEl.style.display = 'none';
@@ -236,7 +301,6 @@
                     throw new Error(data.error || 'Failed to load content');
                 }
 
-                // Render content
                 renderContent(data);
             } catch (e) {
                 loadingEl.style.display = 'none';
@@ -251,63 +315,99 @@
 
             const html = `
                 <div class="header">
-                    <h1>Hello, ${advisor.name}!</h1>
-                    <p>Your daily content is ready to share</p>
+                    <h1>Hello, ${advisor.name.split(' ')[0]}! 👋</h1>
+                    <p>Your daily viral content is ready</p>
                     <div style="margin-top: 15px;">
                         <span class="date-badge">${formatDate(content.sessionDate)}</span>
                     </div>
                 </div>
 
-                ${content.whatsappMessage ? `
-                <div class="content-card">
-                    <div class="card-header">
-                        <h2>📱 WhatsApp Message</h2>
-                    </div>
-                    <div class="card-body">
-                        <div class="content-text">${escapeHtml(content.whatsappMessage)}</div>
-                        <div class="char-count">${content.whatsappMessage.length} characters</div>
-                        <button class="btn btn-primary" onclick="copyText('whatsapp', \`${escapeForJs(content.whatsappMessage)}\`)">
-                            📋 Copy Message
-                        </button>
-                    </div>
-                </div>
-                ` : ''}
-
-                ${content.linkedinPost ? `
-                <div class="content-card">
-                    <div class="card-header">
-                        <h2>💼 LinkedIn Post</h2>
-                    </div>
-                    <div class="card-body">
-                        <div class="content-text">${escapeHtml(content.linkedinPost)}</div>
-                        <div class="char-count">${content.linkedinPost.length} characters</div>
-                        <button class="btn btn-primary" onclick="copyText('linkedin', \`${escapeForJs(content.linkedinPost)}\`)">
-                            📋 Copy Post
-                        </button>
-                    </div>
-                </div>
-                ` : ''}
-
-                ${content.statusImage ? `
-                <div class="content-card">
-                    <div class="card-header">
-                        <h2>📸 Status Image</h2>
-                    </div>
-                    <div class="card-body">
-                        <img src="${content.statusImage}" class="image-preview" alt="Status Image">
-                        <a href="${content.statusImage}" download="status-${content.sessionDate}.png">
-                            <button class="btn btn-primary">
-                                ⬇️ Download Image
+                <div class="content-wrapper">
+                    ${content.whatsappMessage ? `
+                    <div class="content-card">
+                        <div class="card-header">
+                            <h2>📱 WhatsApp Message</h2>
+                        </div>
+                        <div class="card-body">
+                            ${content.whatsappImage ? `<img src="${content.whatsappImage}" class="content-image" alt="WhatsApp Image">` : ''}
+                            <div class="content-text">${escapeHtml(extractFirstMessage(content.whatsappMessage))}</div>
+                            <div class="char-count">${extractFirstMessage(content.whatsappMessage).length} characters</div>
+                            <button class="btn btn-primary" onclick="copyText('whatsapp', \`${escapeForJs(extractFirstMessage(content.whatsappMessage))}\`)">
+                                📋 Copy Message
                             </button>
-                        </a>
+                        </div>
+                    </div>
+                    ` : ''}
+
+                    ${content.linkedinPost ? `
+                    <div class="content-card">
+                        <div class="card-header">
+                            <h2>💼 LinkedIn Post</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="content-text">${escapeHtml(content.linkedinPost)}</div>
+                            <div class="char-count">${content.linkedinPost.length} characters</div>
+                            <button class="btn btn-primary" onclick="copyText('linkedin', \`${escapeForJs(content.linkedinPost)}\`)">
+                                📋 Copy Post
+                            </button>
+                        </div>
+                    </div>
+                    ` : ''}
+
+                    ${content.statusImage ? `
+                    <div class="content-card">
+                        <div class="card-header">
+                            <h2>📸 WhatsApp Status</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="status-grid">
+                                <div class="status-item">
+                                    <img src="${content.statusImage}" class="content-image" alt="WhatsApp Status">
+                                    <div class="status-label">1080 × 1920 (9:16)</div>
+                                </div>
+                            </div>
+                            <a href="${content.statusImage}" download="jarvisdaily-status-${content.sessionDate}.png">
+                                <button class="btn btn-primary">
+                                    ⬇️ Download Status Image
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    ` : ''}
+
+                    <div style="text-align: center; padding: 30px 20px; color: #94a3b8;">
+                        <p style="font-size: 14px;">Powered by <strong>JarvisDaily</strong></p>
+                        <p style="font-size: 12px; margin-top: 5px;">Grammy-Level Viral Content for Financial Advisors</p>
                     </div>
                 </div>
-                ` : ''}
             `;
 
             contentEl.innerHTML = html;
             document.getElementById('loading').style.display = 'none';
             contentEl.style.display = 'block';
+        }
+
+        function extractFirstMessage(fullText) {
+            const lines = fullText.split('\n');
+            let message = '';
+            let capturing = false;
+            
+            for (const line of lines) {
+                if (line.includes('Message 1') || line.includes('simple_update')) {
+                    capturing = true;
+                    continue;
+                }
+                if (capturing) {
+                    if (line.includes('Message 2') || line.includes('---')) {
+                        break;
+                    }
+                    if (line.trim() && !line.includes('chars:') && !line.startsWith('----')) {
+                        message += line + '\n';
+                    }
+                }
+            }
+            
+            return message.trim() || fullText.substring(0, 300);
         }
 
         function copyText(type, text) {
@@ -333,20 +433,25 @@
         }
 
         function escapeForJs(text) {
-            return text.replace(/`/g, '\\`').replace(/\$/g, '\\$');
+            return text.replace(/`/g, '\\`').replace(/\$/g, '\\$').replace(/\\/g, '\\\\');
         }
 
         function formatDate(dateStr) {
             try {
+                if (dateStr === 'latest') {
+                    return 'Latest';
+                }
                 const date = new Date(dateStr);
+                if (isNaN(date)) {
+                    return 'Today';
+                }
                 return date.toLocaleDateString('en-IN', {
                     weekday: 'short',
-                    year: 'numeric',
                     month: 'short',
                     day: 'numeric'
                 });
             } catch (e) {
-                return dateStr;
+                return 'Today';
             }
         }
     </script>

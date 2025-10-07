@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>JarvisDaily - Your Daily Content</title>
+    <script src="https://cdn.jsdelivr.net/npm/@clerk/clerk-js@latest/dist/clerk.browser.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            min-height: 100vh;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px 30px;
+            color: white;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .auth-container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px 20px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .content-wrapper {
+            background: #f5f7fa;
+            border-radius: 30px 30px 0 0;
+            margin-top: -20px;
+            padding: 30px 20px;
+            min-height: 80vh;
+        }
+
+        .content-card {
+            background: white;
+            border-radius: 20px;
+            padding: 0;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+
+        .card-header {
+            padding: 20px;
+            border-bottom: 1px solid #f0f0f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to right, #f8f9fa, white);
+        }
+
+        .card-header h2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .card-body {
+            padding: 25px;
+        }
+
+        .content-text {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            border-radius: 12px;
+            padding: 20px;
+            font-size: 15px;
+            line-height: 1.7;
+            color: #2d3748;
+            margin-bottom: 20px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .content-image {
+            width: 100%;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        }
+
+        .btn {
+            width: 100%;
+            padding: 16px;
+            border: none;
+            border-radius: 15px;
+            font-size: 17px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 100px 20px;
+            color: white;
+        }
+
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(255,255,255,0.3);
+            border-top-color: white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .user-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .user-info button {
+            background: rgba(255,255,255,0.3);
+            border: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            color: white;
+            cursor: pointer;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="loading" class="loading">
+            <div class="loading-spinner"></div>
+            <div style="font-size: 18px; font-weight: 600;">Loading...</div>
+        </div>
+
+        <div id="auth" class="auth-container" style="display: none;">
+            <h2 style="margin-bottom: 20px; color: #2d3748;">Sign In to Access Your Content</h2>
+            <div id="clerk-sign-in"></div>
+        </div>
+
+        <div id="content" style="display: none;"></div>
+    </div>
+
+    <script>
+        const CLERK_PUBLISHABLE_KEY = 'pk_test_dG91Y2hlZC1hZGRlci03Mi5jbGVyay5hY2NvdW50cy5kZXYk';
+
+        let clerkInstance;
+
+        async function initClerk() {
+            // Initialize Clerk
+            clerkInstance = window.Clerk;
+            await clerkInstance.load({
+                publishableKey: CLERK_PUBLISHABLE_KEY
+            });
+
+            // Check if user is signed in
+            if (clerkInstance.user) {
+                await loadDashboard();
+            } else {
+                showSignIn();
+            }
+
+            // Listen for auth changes
+            clerkInstance.addListener((session) => {
+                if (session) {
+                    loadDashboard();
+                } else {
+                    showSignIn();
+                }
+            });
+        }
+
+        function showSignIn() {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('auth').style.display = 'block';
+            document.getElementById('content').style.display = 'none';
+
+            clerkInstance.mountSignIn(document.getElementById('clerk-sign-in'), {
+                afterSignInUrl: window.location.href,
+                appearance: {
+                    elements: {
+                        rootBox: 'w-full',
+                        card: 'bg-white shadow-none'
+                    }
+                }
+            });
+        }
+
+        async function loadDashboard() {
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('auth').style.display = 'none';
+            document.getElementById('content').style.display = 'none';
+
+            try {
+                const urlParams = new URLSearchParams(window.location.search);
+                const phone = urlParams.get('phone');
+
+                // Get session token
+                const token = await clerkInstance.session.getToken();
+
+                // Fetch dashboard data
+                const apiUrl = phone ? `/api/auth-dashboard?phone=${phone}` : '/api/auth-dashboard';
+                const response = await fetch(apiUrl, {
+                    headers: {
+                        'Authorization': `Bearer ${token}`
+                    }
+                });
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.error || 'Failed to load content');
+                }
+
+                renderDashboard(data);
+            } catch (e) {
+                console.error('Error:', e);
+                document.getElementById('loading').innerHTML = `
+                    <div style="background: white; border-radius: 20px; padding: 40px; margin: 20px; color: #ef4444;">
+                        <h2>Error Loading Content</h2>
+                        <p style="color: #64748b; margin-top: 10px;">${e.message}</p>
+                    </div>
+                `;
+            }
+        }
+
+        function renderDashboard(data) {
+            const { advisor, content, user } = data;
+            const contentEl = document.getElementById('content');
+
+            const html = `
+                <div class="header">
+                    <div class="user-info">
+                        <span>👋 ${clerkInstance.user.firstName || 'User'}</span>
+                        <button onclick="clerkInstance.signOut()">Sign Out</button>
+                    </div>
+                    <h1>Hello, ${advisor.name.split(' ')[0]}!</h1>
+                    <p>Your daily viral content is ready</p>
+                </div>
+
+                <div class="content-wrapper">
+                    ${content.whatsappMessage ? `
+                    <div class="content-card">
+                        <div class="card-header">
+                            <h2>📱 WhatsApp Message</h2>
+                        </div>
+                        <div class="card-body">
+                            ${content.whatsappImage ? `<img src="${content.whatsappImage}" class="content-image">` : ''}
+                            <div class="content-text">${escapeHtml(content.whatsappMessage)}</div>
+                            <button class="btn btn-primary" onclick="copyText(\`${escapeForJs(content.whatsappMessage)}\`)">
+                                📋 Copy Message
+                            </button>
+                        </div>
+                    </div>
+                    ` : ''}
+
+                    ${content.linkedinPost ? `
+                    <div class="content-card">
+                        <div class="card-header">
+                            <h2>💼 LinkedIn Post</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="content-text">${escapeHtml(content.linkedinPost)}</div>
+                            <button class="btn btn-primary" onclick="copyText(\`${escapeForJs(content.linkedinPost)}\`)">
+                                📋 Copy Post
+                            </button>
+                        </div>
+                    </div>
+                    ` : ''}
+
+                    ${content.statusImage ? `
+                    <div class="content-card">
+                        <div class="card-header">
+                            <h2>📸 WhatsApp Status</h2>
+                        </div>
+                        <div class="card-body">
+                            <img src="${content.statusImage}" class="content-image">
+                            <a href="${content.statusImage}" download>
+                                <button class="btn btn-primary">⬇️ Download</button>
+                            </a>
+                        </div>
+                    </div>
+                    ` : ''}
+                </div>
+            `;
+
+            contentEl.innerHTML = html;
+            document.getElementById('loading').style.display = 'none';
+            contentEl.style.display = 'block';
+        }
+
+        function copyText(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                const btn = event.target;
+                const originalText = btn.innerHTML;
+                btn.innerHTML = '✅ Copied!';
+                btn.classList.remove('btn-primary');
+                btn.classList.add('btn-success');
+
+                setTimeout(() => {
+                    btn.innerHTML = originalText;
+                    btn.classList.remove('btn-success');
+                    btn.classList.add('btn-primary');
+                }, 2000);
+            });
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function escapeForJs(text) {
+            return text.replace(/`/g, '\\`').replace(/\$/g, '\\$').replace(/\\/g, '\\\\');
+        }
+
+        // Initialize on load
+        initClerk();
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "/api/webhook/route": "app/api/webhook/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/dashboard/route": "app/api/dashboard/route.js",
+  "/api/image/route": "app/api/image/route.js",
+  "/page": "app/page.js",
+  "/signup/page": "app/signup/page.js",
+  "/dashboard/page": "app/dashboard/page.js"
+}

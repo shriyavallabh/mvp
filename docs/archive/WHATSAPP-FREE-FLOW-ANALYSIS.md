@@ -32,7 +32,7 @@ After deep research of Meta's WhatsApp Business API documentation:
 
 **CTA URL Button:**
 ```
-[Button: "View Content"] → https://jarvisdaily.in/content/xyz
+[Button: "View Content"] → https://jarvisdaily.com/content/xyz
                            ↓
                     Opens in browser
                            ↓
@@ -132,7 +132,7 @@ If you want to track website clicks but NOT rely on free-flow:
 
 **Step 1: Send Utility Template with CTA URL**
 ```
-Button: "View Content" → https://jarvisdaily.in/c/xyz
+Button: "View Content" → https://jarvisdaily.com/c/xyz
 ```
 
 **Step 2: User Clicks → Website Opens**
@@ -195,7 +195,7 @@ Choose how to receive:
   3. Status image (with download link)
 
 **Flow 2: User Clicks "Open Web View"**
-- Send URL in reply: "https://jarvisdaily.in/c/xyz"
+- Send URL in reply: "https://jarvisdaily.com/c/xyz"
 - User visits website
 - Track analytics
 - Display content beautifully

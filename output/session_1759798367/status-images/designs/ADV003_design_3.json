@@ -1,0 +1,86 @@
+{
+  "advisorId": "ADV003",
+  "advisorName": "Shriya Vallabh Petkar",
+  "designId": "ADV003_design_3",
+  "sessionId": "session_1759798367",
+  "timestamp": "2025-10-07T06:26:39Z",
+  "dimensions": "1080x1920",
+  "aspectRatio": "9:16",
+  "theme": "educational",
+  "contentType": "Market Structure Evolution Teaching",
+  "viralityScore": 8.7,
+  "viralityJustification": "FII vs DII educational narrative + Ownership transformation + Structural understanding = Deep learning engagement",
+
+  "headline": "INDIA'S OWNERSHIP SHIFT",
+  "subtext": "Market Structure Revolution",
+  "educationalConcept": "From Foreign-Dependent to Domestic-Driven",
+  "dataPoint": "$15.46B",
+  "dataContext": "FII Exit | DII Absorption",
+  "callToAction": "Understand the Future",
+
+  "colors": {
+    "primary": "#8B4513",
+    "secondary": "#CD853F",
+    "accent": "#FFD700",
+    "background": "#120D0A",
+    "text": "#FFFFFF"
+  },
+
+  "typography": {
+    "headlineFont": "Merriweather Bold",
+    "headlineSize": "92px"
+  },
+
+  "layout": {
+    "composition": "transformation_timeline",
+    "sections": [
+      {
+        "position": "top_18_percent",
+        "content": "INDIA'S OWNERSHIP SHIFT",
+        "fontSize": "92px",
+        "color": "#FFD700"
+      },
+      {
+        "position": "28_to_68_percent",
+        "content": "Before/After transformation visual",
+        "beforePanel": {
+          "label": "BEFORE (2024)",
+          "content": "FII Dominant\nForeign-dependent\nVolatile flows",
+          "icon": "🌍"
+        },
+        "arrow": "→",
+        "afterPanel": {
+          "label": "NOW (2025)",
+          "content": "DII + Retail Strong\nDomestic-driven\nStable ownership",
+          "icon": "🇮🇳"
+        }
+      },
+      {
+        "position": "70_to_82_percent",
+        "content": "Educational insight",
+        "text": "$15.46B FII outflows absorbed by:\n• ₹41.9K Cr DII buying\n• ₹25K Cr monthly SIPs\n• Structural ownership change",
+        "fontSize": "50px"
+      },
+      {
+        "position": "84_to_88_percent",
+        "content": "What this means for your long-term investments",
+        "fontSize": "52px",
+        "style": "italic"
+      }
+    ]
+  },
+
+  "geminiPrompt": "Create educational WhatsApp Status (1080x1920):\n\nTHEME: India Market Ownership Transformation\n\nVISUAL:\n- Warm dark bg (#120D0A)\n- Headline 'INDIA'S OWNERSHIP SHIFT' gold 92px\n- Split comparison:\n  LEFT: BEFORE (2024)\n  🌍 FII Dominant | Foreign-dependent | Volatile\n  ARROW →\n  RIGHT: NOW (2025)\n  🇮🇳 DII + Retail Strong | Domestic-driven | Stable\n- Educational text:\n  $15.46B FII outflows absorbed by:\n  • ₹41.9K Cr DII buying\n  • ₹25K Cr monthly SIPs\n  • Structural ownership change\n  50px\n- Question: 'What this means for your long-term investments' 52px italic\n- Logo + tagline + ARN\n\nSTYLE: Educational transformation story\nMOOD: Empowering structural understanding",
+
+  "brandAssets": {
+    "logo": "/assets/logos/shriya-vallabh.png",
+    "tagline": "Empowering Financial Decisions",
+    "arn": "ARN-147852"
+  },
+
+  "qualityChecklist": {
+    "dimensions_correct": "1080x1920",
+    "virality_score": "8.7/10",
+    "mobile_optimized": true
+  }
+}

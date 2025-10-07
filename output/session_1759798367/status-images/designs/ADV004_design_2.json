@@ -1,0 +1,93 @@
+{
+  "advisorId": "ADV004",
+  "advisorName": "Avalok Langer",
+  "designId": "ADV004_design_2",
+  "sessionId": "session_1759798367",
+  "timestamp": "2025-10-07T06:26:39Z",
+  "dimensions": "1080x1920",
+  "aspectRatio": "9:16",
+  "theme": "educational",
+  "contentType": "Simple SIP Calculator Visual",
+  "viralityScore": 9.0,
+  "viralityJustification": "Relatable ₹500 starting point + Visual wealth journey + Clear outcome = Beginner aspiration",
+
+  "headline": "EVEN ₹500 MATTERS!",
+  "subtext": "Your SIP Journey Visualized",
+  "educationalConcept": "Small Start → Big Wealth",
+  "dataPoint": "₹5 LAKHS",
+  "dataContext": "From just ₹500/month in 15 years",
+  "callToAction": "START WITH ₹500 TODAY",
+
+  "colors": {
+    "primary": "#1A73E8",
+    "secondary": "#34A853",
+    "accent": "#FBBC04",
+    "background": "#0D1B2E",
+    "text": "#FFFFFF"
+  },
+
+  "typography": {
+    "headlineFont": "Poppins Bold",
+    "headlineSize": "100px",
+    "dataFont": "Poppins Black",
+    "dataSize": "104px"
+  },
+
+  "layout": {
+    "composition": "simple_progression_visual",
+    "sections": [
+      {
+        "position": "top_18_percent",
+        "content": "EVEN ₹500 MATTERS!",
+        "fontSize": "100px",
+        "color": "#34A853"
+      },
+      {
+        "position": "30_to_60_percent",
+        "content": "Visual progression",
+        "sectionType": "growth_bars",
+        "progression": [
+          {"year": "Year 1", "amount": "₹6K", "barHeight": "10%"},
+          {"year": "Year 5", "amount": "₹42K", "barHeight": "25%"},
+          {"year": "Year 10", "amount": "₹1.2L", "barHeight": "50%"},
+          {"year": "Year 15", "amount": "₹5L", "barHeight": "100%", "highlight": true}
+        ],
+        "colors": ["#1A73E8", "#1A73E8", "#34A853", "#FBBC04"]
+      },
+      {
+        "position": "63_to_72_percent",
+        "content": "Large outcome",
+        "dataValue": "₹5 LAKHS",
+        "fontSize": "104px",
+        "color": "#FBBC04"
+      },
+      {
+        "position": "74_to_78_percent",
+        "content": "From just ₹500/month × 15 years",
+        "fontSize": "50px",
+        "color": "#FFFFFF"
+      },
+      {
+        "position": "82_to_88_percent",
+        "content": "START WITH ₹500 TODAY",
+        "fontSize": "64px",
+        "color": "#FFFFFF",
+        "background": "blue_gradient_button"
+      }
+    ]
+  },
+
+  "geminiPrompt": "Create simple educational WhatsApp Status (1080x1920):\n\nTHEME: ₹500 SIP Journey to ₹5 Lakhs\n\nVISUAL:\n- Dark blue bg (#0D1B2E)\n- Headline 'EVEN ₹500 MATTERS!' green (#34A853) 100px\n- Growth progression bars:\n  Year 1: ₹6K (small blue bar)\n  Year 5: ₹42K (medium blue bar)\n  Year 10: ₹1.2L (taller green bar)\n  Year 15: ₹5L (tallest yellow bar, HIGHLIGHTED)\n  Ascending bar chart style\n- Large outcome '₹5 LAKHS' yellow (#FBBC04) 104px\n- Subtext 'From just ₹500/month × 15 years' 50px\n- CTA 'START WITH ₹500 TODAY' 64px on blue button\n- Logo + 'Smart Investments, Secure Future' + ARN\n\nSTYLE: Clean, simple, aspirational progression\nMOOD: Beginner-friendly motivation, achievable goals",
+
+  "brandAssets": {
+    "logo": "/assets/logos/avalok-langer.png",
+    "tagline": "Smart Investments, Secure Future",
+    "arn": "ARN-169741"
+  },
+
+  "qualityChecklist": {
+    "dimensions_correct": "1080x1920",
+    "virality_score": "9.0/10",
+    "mobile_optimized": true
+  }
+}

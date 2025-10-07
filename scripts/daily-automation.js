@@ -110,7 +110,7 @@ async function runDailyWorkflow() {
     console.log(`\n✅ Daily workflow completed in ${duration} minutes!`);
     console.log(`\n📊 Summary:`);
     console.log(`   Session: ${path.basename(sessionPath)}`);
-    console.log(`   Dashboard: https://jarvisdaily.in/dashboard`);
+    console.log(`   Dashboard: https://jarvisdaily.com/dashboard`);
     console.log(`   Log: ${logPath}\n`);
 
   } catch (error) {

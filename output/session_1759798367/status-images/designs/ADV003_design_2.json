@@ -1,0 +1,87 @@
+{
+  "advisorId": "ADV003",
+  "advisorName": "Shriya Vallabh Petkar",
+  "designId": "ADV003_design_2",
+  "sessionId": "session_1759798367",
+  "timestamp": "2025-10-07T06:26:39Z",
+  "dimensions": "1080x1920",
+  "aspectRatio": "9:16",
+  "theme": "educational",
+  "contentType": "SIP Behavioral Finance Lesson",
+  "viralityScore": 9.5,
+  "viralityJustification": "Behavioral finance storytelling + ₹25K Cr validation + Psychology teaching = Deep engagement",
+
+  "headline": "₹25K CR REVOLUTION",
+  "subtext": "Behavioral Finance Triumph",
+  "educationalConcept": "Why Discipline Beats Market Timing",
+  "dataPoint": "4.5 Cr",
+  "dataContext": "Investors Proving Psychology Works",
+  "callToAction": "Apply This to Your Decisions",
+
+  "colors": {
+    "primary": "#8B4513",
+    "secondary": "#CD853F",
+    "accent": "#FFD700",
+    "background": "#0F0A08",
+    "text": "#FFFFFF"
+  },
+
+  "typography": {
+    "headlineFont": "Merriweather Bold",
+    "headlineSize": "96px",
+    "educationalFont": "Open Sans SemiBold",
+    "educationalSize": "58px"
+  },
+
+  "layout": {
+    "composition": "educational_storytelling",
+    "sections": [
+      {
+        "position": "top_18_percent",
+        "content": "₹25K CR REVOLUTION",
+        "fontSize": "96px",
+        "color": "#FFD700"
+      },
+      {
+        "position": "30_to_50_percent",
+        "content": "Large centered data",
+        "dataValue": "4.5 CRORE",
+        "subtext": "Investors | Systematic Discipline",
+        "fontSize": "88px"
+      },
+      {
+        "position": "53_to_75_percent",
+        "content": "Educational lesson box",
+        "title": "Behavioral Finance Lesson:",
+        "lessons": [
+          "🧠 Discipline > Market Timing",
+          "📈 Small amounts + Time = Wealth",
+          "✅ System removes emotion",
+          "💡 4.5Cr Indians validating strategy"
+        ],
+        "fontSize": "52px"
+      },
+      {
+        "position": "78_to_84_percent",
+        "content": "What this teaches about your investment psychology",
+        "fontSize": "54px",
+        "color": "#CD853F",
+        "style": "italic"
+      }
+    ]
+  },
+
+  "geminiPrompt": "Create educational WhatsApp Status (1080x1920):\n\nTHEME: SIP Behavioral Finance Triumph\n\nVISUAL:\n- Dark warm bg (#0F0A08 to brown gradient)\n- Headline '₹25K CR REVOLUTION' gold 96px\n- Large '4.5 CRORE' 88px center\n- Subtext 'Investors | Systematic Discipline'\n- Educational box:\n  Behavioral Finance Lesson:\n  🧠 Discipline > Market Timing\n  📈 Small amounts + Time = Wealth\n  ✅ System removes emotion\n  💡 4.5Cr Indians validating strategy\n  52px lessons\n- Question: 'What this teaches about your investment psychology' italic 54px\n- Logo + 'Empowering Financial Decisions' + ARN\n\nSTYLE: Educational storytelling, warm wisdom\nMOOD: Empowering through psychology understanding",
+
+  "brandAssets": {
+    "logo": "/assets/logos/shriya-vallabh.png",
+    "tagline": "Empowering Financial Decisions",
+    "arn": "ARN-147852"
+  },
+
+  "qualityChecklist": {
+    "dimensions_correct": "1080x1920",
+    "virality_score": "9.5/10",
+    "mobile_optimized": true
+  }
+}

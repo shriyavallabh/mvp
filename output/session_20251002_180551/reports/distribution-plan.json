@@ -445,7 +445,7 @@
       "advisors": ["Shruti Petkar", "Shriya Vallabh Petkar"],
       "method": "Email with preview links",
       "approval_format": {
-        "preview_link": "https://jarvisdaily.in/preview/{session_id}/{advisor_arn}",
+        "preview_link": "https://jarvisdaily.com/preview/{session_id}/{advisor_arn}",
         "content_included": "All 3 LinkedIn posts + 3 WhatsApp messages + 3 images",
         "approval_options": ["Approve All", "Approve Selected", "Request Changes", "Reject"]
       },

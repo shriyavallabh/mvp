@@ -1,0 +1,1142 @@
+{
+  "sessionId": "session_1759798367",
+  "timestamp": "2025-10-07T06:30:00Z",
+  "analysisComplete": true,
+  "advisorCount": 4,
+  "segmentAnalyses": [
+    {
+      "advisorId": "ADV001",
+      "advisorName": "Shruti Petkar",
+      "segment": "Premium",
+      "contentStyle": "professional",
+      "clientProfile": {
+        "demographics": {
+          "typicalAge": "45-65 years",
+          "incomeLevel": "HNI/Ultra-HNI (₹1.5Cr+ annual)",
+          "education": "Post-graduate, Business owners, CXO level",
+          "location": "Metro cities, Tier-1 urban centers",
+          "occupations": "Entrepreneurs, Senior executives, Business families"
+        },
+        "psychographics": {
+          "riskTolerance": "Moderate to High (calculated risks)",
+          "decisionStyle": "Data-driven, seeks detailed analysis before decisions",
+          "primaryMotivations": [
+            "Wealth preservation and legacy building",
+            "Tax optimization and estate planning",
+            "Exclusive investment opportunities",
+            "Reputation and social status maintenance"
+          ],
+          "informationPreference": "In-depth research reports, institutional-grade insights",
+          "biases": [
+            "Confirmation bias - prefers information validating existing beliefs",
+            "Home bias - trusts domestic markets, cautious on international",
+            "Authority bias - values credentials and track record"
+          ],
+          "values": "Trust, exclusivity, sophistication, long-term thinking",
+          "fears": [
+            "Capital erosion",
+            "Tax inefficiency",
+            "Regulatory non-compliance",
+            "Reputation damage from poor investments"
+          ],
+          "aspirations": "Generational wealth, financial independence for heirs, philanthropic legacy"
+        },
+        "behavioralPatterns": {
+          "investmentHorizon": "7-15 years, multi-generational",
+          "portfolioSize": "₹50L - ₹50Cr+",
+          "decisionSpeed": "Deliberate, requires 3-5 touchpoints",
+          "preferredChannels": "LinkedIn (thought leadership), WhatsApp (concise updates), Email (detailed reports)",
+          "engagementTime": "Early morning (6-8 AM) or evening (7-9 PM)",
+          "contentConsumption": "Scans headlines, deep-dives selectively into topics of interest"
+        }
+      },
+      "contentStrategy": {
+        "bestPerformingTypes": [
+          {
+            "type": "Data-driven market analysis",
+            "reason": "HNI clients demand institutional-grade insights",
+            "frequency": "40%",
+            "examples": ["FII flow analysis", "Sector rotation strategies", "Global macro trends"]
+          },
+          {
+            "type": "Tax & estate planning strategies",
+            "reason": "High tax burden makes optimization critical",
+            "frequency": "25%",
+            "examples": ["Capital gains harvesting", "Trust structures", "Succession planning"]
+          },
+          {
+            "type": "Exclusive investment opportunities",
+            "reason": "Desire for differentiated returns",
+            "frequency": "20%",
+            "examples": ["PMS strategies", "AIF investments", "Pre-IPO opportunities"]
+          },
+          {
+            "type": "Thought leadership content",
+            "reason": "Positions advisor as peer/trusted expert",
+            "frequency": "15%",
+            "examples": ["Economic outlook pieces", "Portfolio philosophy", "Risk management frameworks"]
+          }
+        ],
+        "optimalContentMix": {
+          "marketUpdates": "30% (daily/weekly market commentary with depth)",
+          "evergreenContent": "50% (timeless wealth principles, tax planning, portfolio construction)",
+          "promotional": "5% (subtle, value-first approach)",
+          "educational": "15% (advanced concepts like options, international diversification)"
+        },
+        "postingFrequency": {
+          "linkedin": "3-4 posts per week (Tuesday, Thursday, Sunday for max reach)",
+          "whatsapp": "Daily morning brief (9:00 AM) + 2-3 weekly deep-dives",
+          "optimalCadence": "Consistent but not overwhelming - quality over quantity"
+        },
+        "timingStrategy": {
+          "linkedin": "7:30-8:30 AM (pre-market), 7-8 PM (post-work reflection)",
+          "whatsapp": "9:00 AM (delivery time as per preference)",
+          "reasoning": "Align with decision-maker schedules, avoid market hours"
+        }
+      },
+      "toneAndComplexity": {
+        "languageLevel": "Advanced financial terminology (comfortable with P/E ratios, yield curves, alpha/beta)",
+        "vocabularyProfile": {
+          "use": [
+            "Portfolio rebalancing",
+            "Asset allocation optimization",
+            "Risk-adjusted returns",
+            "Tax loss harvesting",
+            "Alpha generation",
+            "Drawdown management"
+          ],
+          "avoid": [
+            "Basic mutual fund explanations",
+            "Emoji-heavy casual language",
+            "Fear-mongering or hype",
+            "Oversimplified analogies"
+          ]
+        },
+        "emotionalVsData": {
+          "dataRatio": "70%",
+          "emotionalAppealRatio": "30%",
+          "approach": "Lead with data, support with subtle emotional hooks (legacy, family security)"
+        },
+        "formalityLevel": {
+          "rating": "Executive/Authoritative (8.5/10)",
+          "style": "Professional but warm, consultative not salesy",
+          "pronounStyle": "Use 'we' (partnership), avoid 'you' (preachy)",
+          "examples": [
+            "Good: 'Our analysis suggests HNI portfolios benefit from 15% gold allocation in current macro environment'",
+            "Bad: 'You should buy gold now!'"
+          ]
+        },
+        "sentenceStructure": "Complex, multi-clause sentences acceptable. Data-dense paragraphs work well.",
+        "callToAction": "Soft CTAs focused on consultation, portfolio review, exclusive insights"
+      },
+      "topicPrioritization": {
+        "tier1Topics": [
+          {
+            "topic": "Tax-efficient wealth creation strategies",
+            "relevance": "Critical for HNI segment - saves crores annually",
+            "currentMarketLink": "FII selling creates tax loss harvesting opportunities",
+            "viralityPotential": 8.2,
+            "painPoint": "High tax outgo reducing portfolio returns"
+          },
+          {
+            "topic": "Portfolio rebalancing in sector rotation environment",
+            "relevance": "IT & Pharma outperforming, Auto underperforming - tactical shifts needed",
+            "currentMarketLink": "Market intelligence shows clear sector rotation from Banking/Auto to IT/Pharma",
+            "viralityPotential": 8.5,
+            "painPoint": "Concentration risk, missing sectoral opportunities"
+          },
+          {
+            "topic": "Gold's $4000 milestone - Portfolio implications",
+            "relevance": "Historic rally, diversification importance",
+            "currentMarketLink": "Gold at $3955.90, nearing $4000 - inflation hedge",
+            "viralityPotential": 9.8,
+            "painPoint": "Portfolio volatility, inflation erosion concerns"
+          },
+          {
+            "topic": "FII outflow impact & DII support dynamics",
+            "relevance": "Understanding market drivers critical for HNI decisions",
+            "currentMarketLink": "$15.46B FII outflows vs record SIP inflows",
+            "viralityPotential": 8.7,
+            "painPoint": "Market uncertainty, FII exodus fear"
+          },
+          {
+            "topic": "Alternative investments - PMS, AIF, Pre-IPO strategies",
+            "relevance": "HNI seek differentiated returns beyond mutual funds",
+            "currentMarketLink": "IPO market booming - $5B in Oct 2025",
+            "viralityPotential": 8.0,
+            "painPoint": "Desire for exclusive access, alpha generation"
+          }
+        ],
+        "tier2Topics": [
+          "International diversification strategies",
+          "Estate planning & succession for business families",
+          "Derivatives for downside protection",
+          "Real estate vs equity allocation debate",
+          "Philanthropic investing & CSR opportunities"
+        ],
+        "topicsToAvoid": [
+          "Basic SIP explanations",
+          "Small-ticket investment schemes",
+          "Beginner investing guides",
+          "Overly promotional content"
+        ]
+      },
+      "platformStrategy": {
+        "linkedin": {
+          "approach": "Thought leadership positioning - establish Shruti as HNI wealth expert",
+          "contentPillars": [
+            "Weekly market commentary (data-driven, 500-800 words)",
+            "Tax planning deep-dives (quarterly, aligned with tax calendar)",
+            "Portfolio case studies (anonymized, problem-solution format)",
+            "Economic outlook pieces (monthly macro views)"
+          ],
+          "format": "Long-form posts (1200-1800 chars), occasional carousels with data visualizations",
+          "tone": "Authoritative consultant - 'Here's what we're seeing in HNI portfolios'",
+          "hashtags": "#WealthManagement #PortfolioStrategy #TaxPlanning #HNIInvesting (strategic, not spam)",
+          "engagementStrategy": "Comment on relevant finance thought leaders, share insights in groups"
+        },
+        "whatsapp": {
+          "approach": "Concise daily value + exclusive insights for inner circle",
+          "messageTypes": [
+            "Morning brief (300 chars): Key market movers + one insight",
+            "Mid-week deep-dive (600 chars): Topic exploration with data",
+            "Weekend reflection (400 chars): Week wrap + forward outlook"
+          ],
+          "format": "Professional but personal - 'Good morning, here's what matters today'",
+          "tone": "Trusted advisor in your pocket - consultative, not promotional",
+          "ctaStyle": "Soft nudges - 'Let's discuss your portfolio positioning' vs 'Book now!'"
+        },
+        "visualContent": {
+          "preferences": "Clean, data-rich infographics over flashy graphics",
+          "statusImageThemes": [
+            "Sector rotation heat maps with performance data",
+            "Portfolio allocation pie charts with rationale",
+            "Tax calendar with key dates and strategies",
+            "Market milestone infographics (Gold $4000, SIP ₹25K cr)"
+          ],
+          "designPrinciples": "Sophisticated color palette (#1B365D primary), minimal text, data-forward",
+          "brandAlignment": "Always include 'Building Wealth, Creating Trust' tagline subtly"
+        }
+      },
+      "marketIntelligenceApplication": {
+        "goldRally": {
+          "angle": "Portfolio rebalancing opportunity - HNI portfolios should review 10-15% gold allocation",
+          "hook": "Gold touches $4000: Your portfolio's diversification stress test",
+          "data": "$3955.90/oz, up 1.2% - inflation hedge + global uncertainty",
+          "cta": "Review your gold allocation - optimal range for HNI portfolios"
+        },
+        "sipMilestone": {
+          "angle": "Retail awakening creates market stability - benefits HNI long-term holdings",
+          "hook": "₹25,000 Cr monthly SIPs: The new market backbone supporting HNI portfolios",
+          "data": "Historic milestone - retail democratization reduces volatility",
+          "cta": "How systematic flows change HNI portfolio construction strategies"
+        },
+        "rbiPolicy": {
+          "angle": "Goldilocks economy creates favorable environment for equity allocation",
+          "hook": "RBI's 8-year inflation low + 6.8% GDP growth: Portfolio implications",
+          "data": "Inflation 2.6%, growth revised UP - rare sweet spot",
+          "cta": "Tactical equity allocation opportunities in quality largecaps"
+        },
+        "fiiOutflows": {
+          "angle": "FII exodus = DII opportunity - contrarian positioning for HNI",
+          "hook": "$15.46B FII outflows met by record DII buying - the great wealth transfer",
+          "data": "FII selling since Oct 2024, DII + retail absorbing supply",
+          "cta": "Contrarian opportunities for patient HNI capital"
+        },
+        "sectorRotation": {
+          "angle": "IT & Pharma leadership - tactical rebalancing for HNI portfolios",
+          "hook": "Sector rotation in play: From Banking/Auto to IT/Pharma - time to rebalance?",
+          "data": "IT up 2.3%, Pharma +1.8% vs Auto -0.5%",
+          "cta": "Portfolio review to capture sectoral shifts"
+        }
+      },
+      "keyDifferentiators": {
+        "vs_Gold": "More sophisticated data depth, tax focus, exclusive opportunities",
+        "vs_Premium_Educational": "Professional vs educational tone, authority vs empowerment positioning",
+        "vs_Silver": "Complex concepts vs simplified basics, legacy building vs starting out"
+      }
+    },
+    {
+      "advisorId": "ADV002",
+      "advisorName": "Vidyadhar Petkar",
+      "segment": "Gold",
+      "contentStyle": "analytical",
+      "clientProfile": {
+        "demographics": {
+          "typicalAge": "35-55 years",
+          "incomeLevel": "Affluent professionals (₹15L - ₹1Cr annual)",
+          "education": "Graduate/Post-graduate, Salaried professionals, Small business owners",
+          "location": "Tier-1 & Tier-2 cities",
+          "occupations": "IT professionals, Doctors, CA/CS, Mid-level managers, Entrepreneurs"
+        },
+        "psychographics": {
+          "riskTolerance": "Moderate (balanced approach, willing to learn)",
+          "decisionStyle": "Analytical but needs guidance - wants to understand 'why' behind recommendations",
+          "primaryMotivations": [
+            "Wealth accumulation for life goals (home, education, retirement)",
+            "Financial security for family",
+            "Beating inflation systematically",
+            "Becoming financially literate"
+          ],
+          "informationPreference": "Balanced mix of data and explanation - 'Teach me while guiding me'",
+          "biases": [
+            "Recency bias - recent market moves heavily influence decisions",
+            "Analysis paralysis - overthinks, needs nudging to act",
+            "Familiarity bias - prefers known brands (HDFC, SBI, etc.)"
+          ],
+          "values": "Growth, learning, systematic approach, transparency",
+          "fears": [
+            "Making wrong investment choices",
+            "Missing out on market rallies",
+            "Not having enough for retirement",
+            "Children's education funding gaps"
+          ],
+          "aspirations": "Financial independence, early retirement possibility, being smart with money"
+        },
+        "behavioralPatterns": {
+          "investmentHorizon": "5-10 years, goal-oriented",
+          "portfolioSize": "₹5L - ₹50L",
+          "decisionSpeed": "Moderate - needs 1-2 validations before action",
+          "preferredChannels": "WhatsApp (quick tips), LinkedIn (learning), YouTube (video explanations)",
+          "engagementTime": "9-11 AM (office breaks), 9-10 PM (post-dinner)",
+          "contentConsumption": "Reads summaries, clicks through for interesting topics"
+        }
+      },
+      "contentStrategy": {
+        "bestPerformingTypes": [
+          {
+            "type": "Analytical market breakdowns",
+            "reason": "Appeals to analytical mindset - 'Why is this happening?'",
+            "frequency": "35%",
+            "examples": ["IT sector rally explained", "FII outflow impact analysis", "Sector rotation decoded"]
+          },
+          {
+            "type": "Goal-based planning content",
+            "reason": "Directly addresses life stage needs",
+            "frequency": "25%",
+            "examples": ["Retirement corpus calculation", "Child education planning", "Home purchase via SIP"]
+          },
+          {
+            "type": "Educational deep-dives",
+            "reason": "Segment wants to learn and become informed investors",
+            "frequency": "25%",
+            "examples": ["Understanding P/E ratios", "Debt vs equity allocation", "SIP vs lumpsum math"]
+          },
+          {
+            "type": "Actionable investment ideas",
+            "reason": "Wants specific recommendations with reasoning",
+            "frequency": "15%",
+            "examples": ["Top 3 funds for current market", "Rebalancing checklist", "Tax saving last-minute tips"]
+          }
+        ],
+        "optimalContentMix": {
+          "marketUpdates": "40% (explain what's happening and why it matters)",
+          "evergreenContent": "35% (goal planning, investment fundamentals, wealth building strategies)",
+          "promotional": "10% (clear value propositions for services)",
+          "educational": "15% (teach concepts that empower decisions)"
+        },
+        "postingFrequency": {
+          "linkedin": "4-5 posts per week (Monday market preview, Wed analysis, Fri wrap, Weekend learning)",
+          "whatsapp": "Daily brief (9:30 AM) + 3 weekly detailed posts",
+          "optimalCadence": "Consistent daily presence with weekly deep-dives"
+        },
+        "timingStrategy": {
+          "linkedin": "8:30-9:30 AM (work commute/office start), 9-10 PM (post-dinner relaxation)",
+          "whatsapp": "9:30 AM (delivery time as per preference)",
+          "reasoning": "Align with salaried professional schedules"
+        }
+      },
+      "toneAndComplexity": {
+        "languageLevel": "Moderate financial terminology with explanations (explain concepts, don't assume knowledge)",
+        "vocabularyProfile": {
+          "use": [
+            "Asset allocation (with brief explanation)",
+            "Diversification (with examples)",
+            "Market correction (with context)",
+            "SIP power (with data)",
+            "Rupee cost averaging (explained simply)",
+            "Portfolio rebalancing (step-by-step)"
+          ],
+          "avoid": [
+            "Overly technical jargon without explanation",
+            "Condescending basic explanations",
+            "Fear-mongering language",
+            "Hype without substance"
+          ]
+        },
+        "emotionalVsData": {
+          "dataRatio": "60%",
+          "emotionalAppealRatio": "40%",
+          "approach": "Balance data with relatable context - 'Here's what the numbers show and what it means for you'"
+        },
+        "formalityLevel": {
+          "rating": "Professional yet approachable (7/10)",
+          "style": "Teacher-guide hybrid - educate while advising",
+          "pronounStyle": "Mix of 'we' (partnership) and 'you' (personalized guidance)",
+          "examples": [
+            "Good: 'IT sector surged 2.3% today. Why? Weaker rupee boosts export revenues. For your portfolio, this means...'",
+            "Bad: 'IT stocks rally on forex tailwinds impacting revenue realization metrics' (too complex without context)"
+          ]
+        },
+        "sentenceStructure": "Medium-length sentences, clear cause-effect relationships, bullet points for clarity",
+        "callToAction": "Direct but consultative - 'Let's plan your next SIP step' or 'Review your portfolio allocation with me'"
+      },
+      "topicPrioritization": {
+        "tier1Topics": [
+          {
+            "topic": "SIP strategy in current market environment",
+            "relevance": "₹25K Cr monthly SIPs - validation of systematic approach",
+            "currentMarketLink": "Historic SIP milestone proves strategy works",
+            "viralityPotential": 9.5,
+            "painPoint": "Confusion about SIP timing, market volatility fears"
+          },
+          {
+            "topic": "Sector rotation explained - IT & Pharma opportunities",
+            "relevance": "Actionable insights for portfolio adjustment",
+            "currentMarketLink": "IT +2.3%, Pharma +1.8% leading gains",
+            "viralityPotential": 8.5,
+            "painPoint": "Missing sectoral opportunities, portfolio underperformance"
+          },
+          {
+            "topic": "Gold allocation for portfolio stability",
+            "relevance": "Diversification need as gold nears $4000",
+            "currentMarketLink": "Gold $3955.90 - inflation hedge importance",
+            "viralityPotential": 9.0,
+            "painPoint": "Portfolio volatility, inflation anxiety"
+          },
+          {
+            "topic": "Retirement planning with ₹25K monthly SIP",
+            "relevance": "Directly addresses affluent professional life stage",
+            "currentMarketLink": "SIP milestone shows systematic investing power",
+            "viralityPotential": 8.8,
+            "painPoint": "Retirement corpus inadequacy, starting late fears"
+          },
+          {
+            "topic": "Understanding FII outflows (and why not to panic)",
+            "relevance": "Addresses market anxiety, educates on DII support",
+            "currentMarketLink": "$15.46B FII outflows offset by DII buying",
+            "viralityPotential": 8.2,
+            "painPoint": "Market fall fears, FII exodus worry"
+          }
+        ],
+        "tier2Topics": [
+          "Tax saving strategies for salaried professionals",
+          "Child education corpus planning with equity",
+          "Debt fund vs FD - which is better now?",
+          "How to read mutual fund factsheets",
+          "Portfolio review checklist - DIY guide"
+        ],
+        "topicsToAvoid": [
+          "Ultra-complex derivatives strategies",
+          "HNI-specific PMS/AIF content",
+          "Overly basic 'what is SIP' content (segment already knows)",
+          "High-risk speculative trading ideas"
+        ]
+      },
+      "platformStrategy": {
+        "linkedin": {
+          "approach": "Financial educator positioning - 'Your financial growth partner'",
+          "contentPillars": [
+            "Weekly market analysis (What happened + Why + What it means for you)",
+            "Bi-weekly educational posts (Concepts explained with examples)",
+            "Monthly goal planning content (Retirement, education, wealth milestones)",
+            "Data-driven insights (Charts, graphs with clear explanations)"
+          ],
+          "format": "Medium-form posts (800-1200 chars), infographics, occasional carousels",
+          "tone": "Analytical teacher - 'Let me break this down for you'",
+          "hashtags": "#InvestSmart #SIPStrategy #WealthBuilding #FinancialPlanning (educational focus)",
+          "engagementStrategy": "Answer questions in comments, create polls for engagement"
+        },
+        "whatsapp": {
+          "approach": "Daily analytical insights + actionable guidance",
+          "messageTypes": [
+            "Morning market brief (350 chars): What's moving + why it matters",
+            "Mid-week analysis (500 chars): Deep-dive into one topic with data",
+            "Weekend planning tip (400 chars): Goal-based actionable advice"
+          ],
+          "format": "Data + explanation + action - complete thought loop",
+          "tone": "Growth partner - 'Here's what we're seeing and how you can benefit'",
+          "ctaStyle": "Clear and consultative - 'Let's optimize your portfolio for this trend'"
+        },
+        "visualContent": {
+          "preferences": "Charts, graphs, comparison tables - visual data explanations",
+          "statusImageThemes": [
+            "Sector performance comparison charts with trend arrows",
+            "SIP growth calculators with real examples",
+            "Portfolio allocation models (conservative/moderate/aggressive)",
+            "Market milestone infographics with context"
+          ],
+          "designPrinciples": "Clean analytics vibe (#2E8B57 green), data visualization focus, clear labels",
+          "brandAlignment": "Consistent 'Your Financial Growth Partner' messaging"
+        }
+      },
+      "marketIntelligenceApplication": {
+        "sipMilestone": {
+          "angle": "Validation of SIP strategy - proof systematic investing works",
+          "hook": "₹25,000 Cr MONTHLY! India's SIP revolution validates your strategy",
+          "data": "Historic milestone - first time crossing ₹25K cr/month",
+          "cta": "Time to review: Are you optimizing your SIP amounts?"
+        },
+        "goldRally": {
+          "angle": "Portfolio diversification lesson - gold's role explained",
+          "hook": "Gold nears $4000: Why every portfolio needs 10-15% allocation",
+          "data": "$3955.90/oz, up 1.2% - inflation hedge + stability",
+          "cta": "Check your gold allocation - here's the optimal range"
+        },
+        "rbiPolicy": {
+          "angle": "Economic sweet spot creates equity opportunity",
+          "hook": "RBI delivers goldilocks: Low inflation (2.6%) + High growth (6.8%)",
+          "data": "Inflation 8-year low, GDP revised UP - rare combination",
+          "cta": "What this means for your equity allocation strategy"
+        },
+        "sectorRotation": {
+          "angle": "Tactical opportunity for portfolio rebalancing",
+          "hook": "Sector shift happening NOW: IT & Pharma surge while Auto lags",
+          "data": "IT +2.3%, Pharma +1.8%, Auto -0.5% - rotation in play",
+          "cta": "Portfolio rebalancing guide for current sector dynamics"
+        },
+        "fiiOutflows": {
+          "angle": "Don't panic - understand the complete picture",
+          "hook": "FII outflows: ₹1.27 lakh Cr exit but DII buying absorbs - Here's why you shouldn't panic",
+          "data": "$15.46B FII selling offset by record DII + retail inflows",
+          "cta": "Market correction = SIP opportunity for long-term investors"
+        }
+      },
+      "keyDifferentiators": {
+        "vs_Premium_Professional": "Educational explanations vs assumed knowledge, goal-focus vs wealth preservation",
+        "vs_Premium_Educational": "Analytical data-first vs storytelling-first approach",
+        "vs_Silver": "Moderate complexity with nuance vs simplified basics"
+      }
+    },
+    {
+      "advisorId": "ADV003",
+      "advisorName": "Shriya Vallabh Petkar",
+      "segment": "Premium",
+      "contentStyle": "educational",
+      "clientProfile": {
+        "demographics": {
+          "typicalAge": "40-60 years",
+          "incomeLevel": "HNI (₹1Cr+ annual, ₹10Cr+ net worth)",
+          "education": "Highly educated, values continuous learning",
+          "location": "Metro cities, globally mobile",
+          "occupations": "Senior professionals, Business owners, Inheritors of wealth"
+        },
+        "psychographics": {
+          "riskTolerance": "Moderate to High (with education and understanding)",
+          "decisionStyle": "Empowerment-focused - wants to understand deeply before committing",
+          "primaryMotivations": [
+            "Financial literacy and empowerment",
+            "Making informed independent decisions",
+            "Teaching family members about wealth",
+            "Staying ahead of market trends through learning"
+          ],
+          "informationPreference": "Educational storytelling - teach me the fundamentals and philosophies",
+          "biases": [
+            "Knowledge bias - believes more information = better decisions (sometimes analysis paralysis)",
+            "Self-attribution bias - attributes success to own knowledge",
+            "Availability bias - recent stories/cases influence thinking"
+          ],
+          "values": "Education, empowerment, independence, continuous improvement",
+          "fears": [
+            "Being taken advantage of due to lack of knowledge",
+            "Making uninformed decisions",
+            "Family not understanding wealth management",
+            "Falling behind on financial trends"
+          ],
+          "aspirations": "Financial independence through knowledge, empowering next generation, creating lasting impact"
+        },
+        "behavioralPatterns": {
+          "investmentHorizon": "7-20 years, multi-generational thinking",
+          "portfolioSize": "₹50L - ₹20Cr+",
+          "decisionSpeed": "Thoughtful - needs education before action, but decisive once convinced",
+          "preferredChannels": "LinkedIn (learning), WhatsApp (daily insights), Webinars (deep education)",
+          "engagementTime": "Morning (6-8 AM) learning time, Evening (8-10 PM) reflection",
+          "contentConsumption": "Deep reader - engages fully with educational content"
+        }
+      },
+      "contentStrategy": {
+        "bestPerformingTypes": [
+          {
+            "type": "Educational storytelling content",
+            "reason": "Segment values learning through narratives and case studies",
+            "frequency": "40%",
+            "examples": ["Warren Buffett principles applied to India", "How SIP math actually works", "The psychology of market cycles"]
+          },
+          {
+            "type": "Investment philosophy deep-dives",
+            "reason": "Builds understanding of 'why' behind strategies",
+            "frequency": "30%",
+            "examples": ["Value vs growth investing", "Active vs passive debate", "Diversification science"]
+          },
+          {
+            "type": "Market education with historical context",
+            "reason": "Learning from history prevents future mistakes",
+            "frequency": "20%",
+            "examples": ["2008 crisis lessons", "Dot-com bubble parallels", "India's inflation journey"]
+          },
+          {
+            "type": "Empowerment frameworks",
+            "reason": "Provides tools for independent decision-making",
+            "frequency": "10%",
+            "examples": ["How to evaluate mutual funds", "Portfolio health checkup guide", "Reading annual reports"]
+          }
+        ],
+        "optimalContentMix": {
+          "marketUpdates": "20% (with educational context - not just what, but why and what it teaches)",
+          "evergreenContent": "60% (timeless investing principles, wealth philosophies, financial education)",
+          "promotional": "5% (positioned as educational opportunities - webinars, masterclasses)",
+          "educational": "15% (deep-dive learning content on complex topics made accessible)"
+        },
+        "postingFrequency": {
+          "linkedin": "3-4 posts per week (Tuesday/Thursday thought pieces, Sunday deep-dive)",
+          "whatsapp": "Daily educational insight (10:00 AM) + 2 weekly deep educational pieces",
+          "optimalCadence": "Quality over quantity - each piece should be a learning moment"
+        },
+        "timingStrategy": {
+          "linkedin": "7-8 AM (morning learning routine), 8-9 PM (evening reflection)",
+          "whatsapp": "10:00 AM (delivery time as per preference)",
+          "reasoning": "Align with HNI learning and reflection schedules"
+        }
+      },
+      "toneAndComplexity": {
+        "languageLevel": "Advanced but accessible - teach complex concepts clearly",
+        "vocabularyProfile": {
+          "use": [
+            "Investment philosophy",
+            "Behavioral finance principles",
+            "Market cycle dynamics",
+            "Portfolio construction frameworks",
+            "Risk-return tradeoffs",
+            "Compounding mechanics"
+          ],
+          "avoid": [
+            "Talking down or over-simplifying for HNI audience",
+            "Jargon without educational value",
+            "Prescriptive 'do this' without explaining why",
+            "Surface-level content lacking depth"
+          ]
+        },
+        "emotionalVsData": {
+          "dataRatio": "50%",
+          "emotionalAppealRatio": "50%",
+          "approach": "Balance data with narrative - teach through stories backed by evidence"
+        },
+        "formalityLevel": {
+          "rating": "Educator-mentor (8/10)",
+          "style": "Professor meets coach - inspire through education",
+          "pronounStyle": "Use 'we' (learning together), occasional 'you' (personalized insights)",
+          "examples": [
+            "Good: 'Let's explore why Warren Buffett calls gold 'unproductive.' Understanding this reveals deeper truths about value creation...'",
+            "Bad: 'Gold is bad investment, don't buy' (no education, just prescription)"
+          ]
+        },
+        "sentenceStructure": "Varied - short for impact, longer for explanation. Storytelling arcs with clear lessons.",
+        "callToAction": "Educational invitations - 'Dive deeper into this concept' or 'Let's discuss your portfolio philosophy'"
+      },
+      "topicPrioritization": {
+        "tier1Topics": [
+          {
+            "topic": "The SIP revolution: Behavioral finance lessons from ₹25K Cr milestone",
+            "relevance": "Educational narrative about systematic investing psychology",
+            "currentMarketLink": "Historic SIP flows demonstrate power of behavioral nudges",
+            "viralityPotential": 9.5,
+            "painPoint": "Understanding why discipline beats market timing"
+          },
+          {
+            "topic": "Gold at $4000: Understanding non-productive assets in modern portfolios",
+            "relevance": "Deep educational dive into asset class philosophy",
+            "currentMarketLink": "Gold rally prompts examination of diversification science",
+            "viralityPotential": 9.8,
+            "painPoint": "Confusion about gold's role beyond tradition"
+          },
+          {
+            "topic": "FII exodus vs DII resilience: Market structure evolution in India",
+            "relevance": "Educational framework for understanding market dynamics",
+            "currentMarketLink": "$15.46B FII outflows absorbed by domestic flows",
+            "viralityPotential": 8.7,
+            "painPoint": "Fear from headlines without understanding structure"
+          },
+          {
+            "topic": "RBI's goldilocks moment: Economic cycles and investment implications",
+            "relevance": "Teaching economic cycle awareness for investors",
+            "currentMarketLink": "2.6% inflation + 6.8% growth - rare macro setup",
+            "viralityPotential": 9.2,
+            "painPoint": "Connecting macro to portfolio decisions"
+          },
+          {
+            "topic": "Sector rotation decoded: Portfolio rebalancing frameworks",
+            "relevance": "Educational approach to tactical asset allocation",
+            "currentMarketLink": "IT/Pharma outperforming, Banking/Auto underperforming",
+            "viralityPotential": 8.5,
+            "painPoint": "Knowing when and how to rebalance portfolios"
+          }
+        ],
+        "tier2Topics": [
+          "The psychology of market corrections - learning from history",
+          "Building multi-generational wealth - family office principles",
+          "Tax efficiency as portfolio alpha - strategic thinking",
+          "Active vs passive investing - the evidence-based view",
+          "Behavioral biases that destroy wealth - self-awareness guide"
+        ],
+        "topicsToAvoid": [
+          "Surface-level tips without depth",
+          "Hype-driven trading ideas",
+          "Content that doesn't educate or empower",
+          "Prescriptive advice without explanation of principles"
+        ]
+      },
+      "platformStrategy": {
+        "linkedin": {
+          "approach": "Financial educator and thought leader - 'Empowering Financial Decisions'",
+          "contentPillars": [
+            "Weekly investment philosophy posts (timeless principles explained)",
+            "Market event educational analysis (what happened, why, what it teaches)",
+            "Behavioral finance insights (psychology of investing)",
+            "Case studies & historical parallels (learning from market history)"
+          ],
+          "format": "Long-form educational posts (1500-2000 chars), occasional article links, story-driven",
+          "tone": "Empowering educator - 'Here's what this teaches us about investing'",
+          "hashtags": "#InvestmentEducation #FinancialEmpowerment #WealthWisdom #BehavioralFinance",
+          "engagementStrategy": "Pose thought-provoking questions, create learning discussions in comments"
+        },
+        "whatsapp": {
+          "approach": "Daily financial wisdom + deeper educational explorations",
+          "messageTypes": [
+            "Morning insight (350 chars): Market event + educational takeaway",
+            "Mid-week deep-dive (600 chars): Educational topic exploration",
+            "Weekend reflection (500 chars): Investment philosophy piece"
+          ],
+          "format": "Story + lesson + application - educational arc",
+          "tone": "Mentor-guide - 'Let's understand what this means for long-term investors'",
+          "ctaStyle": "Learning invitations - 'Explore this concept together' or 'Deepen your portfolio understanding'"
+        },
+        "visualContent": {
+          "preferences": "Educational infographics, concept visualizations, historical charts with lessons",
+          "statusImageThemes": [
+            "Investment principle diagrams (compounding, diversification)",
+            "Historical market cycle charts with annotations",
+            "Behavioral finance concept illustrations",
+            "Portfolio philosophy frameworks visualized"
+          ],
+          "designPrinciples": "Warm educational aesthetic (#8B4513 brown tones), clarity over flash, wisdom-focused",
+          "brandAlignment": "Consistent 'Empowering Financial Decisions' philosophy in every visual"
+        }
+      },
+      "marketIntelligenceApplication": {
+        "sipMilestone": {
+          "angle": "Behavioral finance triumph - systematic investing psychology wins",
+          "hook": "₹25,000 Cr monthly SIPs: The behavioral finance revolution transforming India's wealth",
+          "data": "Historic milestone proves discipline > market timing",
+          "cta": "What this teaches us about investment psychology and your own decisions"
+        },
+        "goldRally": {
+          "angle": "Asset philosophy examination - productive vs non-productive assets",
+          "hook": "Gold touches $4000: Revisiting Warren Buffett's 'unproductive asset' thesis",
+          "data": "$3955.90 rally forces re-examination of diversification science",
+          "cta": "Understanding gold's true role in modern portfolios - beyond emotion"
+        },
+        "rbiPolicy": {
+          "angle": "Economic cycle awareness - recognizing goldilocks moments",
+          "hook": "RBI's rare gift: 2.6% inflation + 6.8% growth - Economic cycles explained",
+          "data": "8-year inflation low + growth acceleration = textbook goldilocks",
+          "cta": "How to recognize and position for different economic regimes"
+        },
+        "fiiOutflows": {
+          "angle": "Market structure evolution - India's ownership transformation",
+          "hook": "$15.46B FII exodus: Understanding India's market structure revolution",
+          "data": "Domestic flows ($41.9K cr equity inflows) absorb foreign selling",
+          "cta": "What ownership shift teaches about India's investment future"
+        },
+        "sectorRotation": {
+          "angle": "Portfolio rebalancing framework - tactical vs strategic thinking",
+          "hook": "IT/Pharma surge, Banking/Auto lag: When to rebalance vs when to hold",
+          "data": "IT +2.3%, Pharma +1.8% leading rotation from cyclicals",
+          "cta": "Building your portfolio rebalancing decision framework"
+        }
+      },
+      "keyDifferentiators": {
+        "vs_Premium_Professional": "Educational storytelling vs professional authority, empowerment vs consulting",
+        "vs_Gold": "HNI-focused deep education vs mass-affluent practical guidance",
+        "vs_Silver": "Complex concepts taught clearly vs simplified basics"
+      }
+    },
+    {
+      "advisorId": "ADV004",
+      "advisorName": "Avalok Langer",
+      "segment": "Silver",
+      "contentStyle": "modern",
+      "clientProfile": {
+        "demographics": {
+          "typicalAge": "25-40 years",
+          "incomeLevel": "Mass affluent (₹5L - ₹20L annual)",
+          "education": "Graduate, early-career professionals, gig workers",
+          "location": "Urban India, Tier-1 to Tier-3 cities",
+          "occupations": "Young professionals, startup employees, freelancers, small business owners"
+        },
+        "psychographics": {
+          "riskTolerance": "Moderate to Low (cautious but willing to learn and grow)",
+          "decisionStyle": "Simplicity-seeking - wants clear, actionable steps without complexity",
+          "primaryMotivations": [
+            "Starting investment journey correctly",
+            "Building emergency fund and financial safety net",
+            "Achieving first financial milestones (first lakh, first car, home down payment)",
+            "Learning basics without feeling overwhelmed"
+          ],
+          "informationPreference": "Simple, relatable explanations with real-life examples",
+          "biases": [
+            "Present bias - focuses on immediate needs over long-term",
+            "Overconfidence from recent gains - needs tempering",
+            "Herd mentality - follows trends and peer recommendations"
+          ],
+          "values": "Simplicity, accessibility, transparency, growth mindset",
+          "fears": [
+            "Losing hard-earned savings",
+            "Making beginner mistakes",
+            "Not understanding financial jargon",
+            "Starting too late or with too little"
+          ],
+          "aspirations": "Financial freedom, owning assets (home, car), being smart with money, early retirement dreams"
+        },
+        "behavioralPatterns": {
+          "investmentHorizon": "3-7 years, milestone-driven",
+          "portfolioSize": "₹10K - ₹10L",
+          "decisionSpeed": "Quick once convinced - less analysis paralysis",
+          "preferredChannels": "WhatsApp (primary), Instagram (visual), YouTube (video learning)",
+          "engagementTime": "Lunch breaks (1-2 PM), evening (7-9 PM), weekend mornings",
+          "contentConsumption": "Quick reads, scrolls, visual content - attention span 30-60 seconds"
+        }
+      },
+      "contentStrategy": {
+        "bestPerformingTypes": [
+          {
+            "type": "Simplified actionable guides",
+            "reason": "Segment needs clear steps, not complex theory",
+            "frequency": "40%",
+            "examples": ["Start SIP in 3 steps", "Emergency fund checklist", "First investment guide"]
+          },
+          {
+            "type": "Relatable financial stories",
+            "reason": "Learns through peer examples and real scenarios",
+            "frequency": "30%",
+            "examples": ["How Rahul saved ₹10L in 5 years", "From zero to first mutual fund", "Salary increment investment plan"]
+          },
+          {
+            "type": "Trending market updates (simplified)",
+            "reason": "Wants to stay informed without jargon",
+            "frequency": "20%",
+            "examples": ["Why markets fell today (in simple words)", "Gold hitting ₹80K - should you buy?", "SIP flows record - what it means"]
+          },
+          {
+            "type": "Motivational finance content",
+            "reason": "Needs encouragement to start and stay consistent",
+            "frequency": "10%",
+            "examples": ["Why ₹500 SIP matters", "It's never too late to start", "Your future self will thank you"]
+          }
+        ],
+        "optimalContentMix": {
+          "marketUpdates": "25% (simplified, jargon-free market context)",
+          "evergreenContent": "45% (investing basics, SIP benefits, goal planning fundamentals)",
+          "promotional": "15% (clear calls to action for starting investments)",
+          "educational": "15% (beginner-friendly learning content)"
+        },
+        "postingFrequency": {
+          "linkedin": "2-3 posts per week (focus on relatable professional stories)",
+          "whatsapp": "Daily tip (9:00 AM) + 3 weekly actionable posts",
+          "optimalCadence": "Consistent but not overwhelming - build habit without fatigue"
+        },
+        "timingStrategy": {
+          "linkedin": "12-1 PM (lunch break), 8-9 PM (post-work)",
+          "whatsapp": "9:00 AM (delivery time as per preference)",
+          "reasoning": "Align with young professional schedules and attention windows"
+        }
+      },
+      "toneAndComplexity": {
+        "languageLevel": "Simple, conversational - avoid jargon, explain when necessary",
+        "vocabularyProfile": {
+          "use": [
+            "Start investing",
+            "Monthly savings",
+            "Emergency fund",
+            "SIP (explain as 'systematic investment plan - like a recurring deposit but for mutual funds')",
+            "Build wealth slowly",
+            "Financial goals"
+          ],
+          "avoid": [
+            "Complex terminology (alpha, beta, standard deviation) without explanation",
+            "Technical market jargon",
+            "Intimidating language that creates barriers",
+            "Assumptions of prior knowledge"
+          ]
+        },
+        "emotionalVsData": {
+          "dataRatio": "30%",
+          "emotionalAppealRatio": "70%",
+          "approach": "Lead with emotion and aspiration, support with simple data points"
+        },
+        "formalityLevel": {
+          "rating": "Casual-friendly (5/10)",
+          "style": "Friendly guide and motivator - 'Your investment buddy'",
+          "pronounStyle": "Use 'you' (direct, personal), 'we' (in this together)",
+          "examples": [
+            "Good: 'Started your first SIP yet? Even ₹500/month can grow to ₹5 lakhs in 15 years! 🚀'",
+            "Bad: 'Asset allocation strategies for optimal risk-adjusted returns in equity portfolios' (too complex)"
+          ]
+        },
+        "sentenceStructure": "Short, punchy sentences. Use emojis sparingly but effectively. Bullet points and numbered lists.",
+        "callToAction": "Direct and encouraging - 'Start your first SIP today' or 'DM me to begin your investment journey'"
+      },
+      "topicPrioritization": {
+        "tier1Topics": [
+          {
+            "topic": "How to start your first SIP with just ₹500",
+            "relevance": "Removes barrier of 'too little to invest'",
+            "currentMarketLink": "₹25K Cr SIP milestone shows small amounts add up",
+            "viralityPotential": 9.0,
+            "painPoint": "Feeling like savings are too small to matter"
+          },
+          {
+            "topic": "Emergency fund basics - Why you need 6 months expenses saved",
+            "relevance": "Foundation before investing",
+            "currentMarketLink": "Market volatility shows importance of safety net",
+            "viralityPotential": 8.5,
+            "painPoint": "Living paycheck to paycheck, financial insecurity"
+          },
+          {
+            "topic": "Gold at all-time high - Should beginners buy now?",
+            "relevance": "Trending topic simplified for beginners",
+            "currentMarketLink": "Gold nearing $4000 creates FOMO",
+            "viralityPotential": 9.8,
+            "painPoint": "FOMO, not knowing if it's right time to invest"
+          },
+          {
+            "topic": "Why ₹2,000/month SIP can make you a crorepati (with simple math)",
+            "relevance": "Aspirational goal with achievable starting point",
+            "currentMarketLink": "SIP flows at record high validates strategy",
+            "viralityPotential": 9.5,
+            "painPoint": "Feeling like crorepati status is impossible"
+          },
+          {
+            "topic": "3 mistakes to avoid as a new investor",
+            "relevance": "Saves beginners from common pitfalls",
+            "currentMarketLink": "Market corrections punish beginner mistakes",
+            "viralityPotential": 8.2,
+            "painPoint": "Fear of making wrong investment choices"
+          }
+        ],
+        "tier2Topics": [
+          "How to use salary increment wisely (50-30-20 rule)",
+          "Tax saving made easy - ELSS for beginners",
+          "Should I invest lumpsum or SIP? (Simplified comparison)",
+          "Top 3 beginner-friendly mutual funds to start",
+          "How to track your investments (simple apps & tools)"
+        ],
+        "topicsToAvoid": [
+          "Complex portfolio rebalancing strategies",
+          "Advanced tax optimization techniques",
+          "HNI-focused wealth preservation",
+          "Derivatives, options, futures trading",
+          "Over-technical market analysis"
+        ]
+      },
+      "platformStrategy": {
+        "linkedin": {
+          "approach": "Relatable young professional positioning - 'Smart Investments, Secure Future'",
+          "contentPillars": [
+            "Weekly motivation (Monday - 'Start the week right with smart money moves')",
+            "Mid-week tips (Wednesday - practical actionable advice)",
+            "Success stories (Friday - relatable peer investment journeys)",
+            "Weekend learning (Sunday - beginner-friendly educational content)"
+          ],
+          "format": "Short posts (400-600 chars), visual carousels, quick tips",
+          "tone": "Friendly motivator - 'Let's build wealth together, one step at a time'",
+          "hashtags": "#InvestmentForBeginners #SIPKaroHarDin #SmartInvesting #FinancialFreedom",
+          "engagementStrategy": "Polls, Q&A sessions, DM invitations for 1-on-1 guidance"
+        },
+        "whatsapp": {
+          "approach": "Daily bite-sized financial wisdom for young investors",
+          "messageTypes": [
+            "Morning motivation (200 chars): Quick tip or inspiring fact",
+            "Mid-week actionable (300 chars): Simple step-by-step guidance",
+            "Weekend guide (400 chars): Slightly deeper educational content"
+          ],
+          "format": "Simple language + emoji + clear action point",
+          "tone": "Investment buddy - 'Hey! Quick tip for your financial journey'",
+          "ctaStyle": "Friendly and direct - 'Ready to start? Let's do this together! 💪'"
+        },
+        "visualContent": {
+          "preferences": "Bright, modern, Instagram-style graphics over data-heavy charts",
+          "statusImageThemes": [
+            "Motivational quotes on wealth building",
+            "Simple SIP growth calculators with visual bars",
+            "Step-by-step investment guides (numbered infographics)",
+            "Before/After investment journey stories",
+            "Goal achievement milestones (₹1L, ₹5L, ₹10L)"
+          ],
+          "designPrinciples": "Modern vibrant colors (#1A73E8 blue, #34A853 green), minimal text, emoji usage, mobile-first",
+          "brandAlignment": "'Smart Investments, Secure Future' tagline on every visual"
+        }
+      },
+      "marketIntelligenceApplication": {
+        "sipMilestone": {
+          "angle": "You're part of a movement - validation and motivation",
+          "hook": "₹25,000 CRORE! Indians are investing via SIP every month. Have you started? 🚀",
+          "data": "Historic milestone - crores of people investing small amounts",
+          "cta": "Join the SIP revolution. Start with just ₹500 today!"
+        },
+        "goldRally": {
+          "angle": "Simplified gold opportunity - should beginners buy?",
+          "hook": "Gold touching ₹80,000! Should you invest in gold now? (Simple guide)",
+          "data": "Gold up 50% in 3 years - but is it right for beginners?",
+          "cta": "Here's how to add gold to your portfolio the smart way"
+        },
+        "rbiPolicy": {
+          "angle": "Good news for your investments - simplified economy update",
+          "hook": "RBI keeps interest rates same + inflation lowest in 8 years = Good news for your SIPs!",
+          "data": "Economy growing at 6.8%, prices stable - perfect for investments",
+          "cta": "Why NOW is a great time to start investing (if you haven't)"
+        },
+        "ipoMarket": {
+          "angle": "IPO frenzy explained - should beginners participate?",
+          "hook": "IPO craze is back! WeWork, Tata Capital... Should YOU apply? ⚠️",
+          "data": "$5 Billion IPOs in October - but beginners beware",
+          "cta": "IPOs for beginners: What you MUST know before applying"
+        },
+        "sectorRotation": {
+          "angle": "Simplified market movement - what it means for you",
+          "hook": "IT stocks up 2.3% today! But what does 'sector rotation' even mean? 🤔",
+          "data": "Some sectors rise, others fall - that's normal market behavior",
+          "cta": "This is why diversification matters (explained simply)"
+        }
+      },
+      "keyDifferentiators": {
+        "vs_Premium": "Simplified basics vs sophisticated strategies, small amounts vs large portfolios",
+        "vs_Gold": "Beginner-first vs moderate complexity, motivation vs analysis",
+        "vs_all_Premium": "Modern casual tone vs professional/educational formality"
+      }
+    }
+  ],
+  "crossAdvisorInsights": {
+    "segmentDistribution": {
+      "premium": 2,
+      "gold": 1,
+      "silver": 1
+    },
+    "contentStyleDiversity": {
+      "professional": 1,
+      "analytical": 1,
+      "educational": 1,
+      "modern": 1
+    },
+    "keyDifferentiationMatrix": {
+      "complexity": {
+        "highest": "ADV001 (Shruti - Professional HNI) & ADV003 (Shriya - Educational HNI)",
+        "moderate": "ADV002 (Vidyadhar - Analytical Affluent)",
+        "simplest": "ADV004 (Avalok - Modern Beginner)"
+      },
+      "tone": {
+        "mostFormal": "ADV001 (Executive/Authoritative 8.5/10)",
+        "balanced": "ADV002 (Professional yet approachable 7/10) & ADV003 (Educator-mentor 8/10)",
+        "mostCasual": "ADV004 (Casual-friendly 5/10)"
+      },
+      "dataVsEmotion": {
+        "mostDataDriven": "ADV001 (70% data, 30% emotional)",
+        "balanced": "ADV002 (60/40) & ADV003 (50/50)",
+        "mostEmotional": "ADV004 (30% data, 70% emotional)"
+      },
+      "primaryFocus": {
+        "ADV001": "Wealth preservation + Tax optimization + Exclusivity",
+        "ADV002": "Goal achievement + Learning + Systematic growth",
+        "ADV003": "Financial empowerment + Education + Independence",
+        "ADV004": "Getting started + Simplicity + Building first lakh"
+      },
+      "contentApproach": {
+        "ADV001": "Institutional-grade insights with executive positioning",
+        "ADV002": "Analytical breakdowns with educational guidance",
+        "ADV003": "Storytelling with deep educational philosophy",
+        "ADV004": "Relatable stories with actionable steps"
+      }
+    },
+    "platformUsagePatterns": {
+      "linkedinStrategy": {
+        "ADV001": "Thought leadership, long-form analysis, HNI positioning",
+        "ADV002": "Educational analytics, teaching through data",
+        "ADV003": "Investment philosophy, behavioral finance insights",
+        "ADV004": "Motivational stories, quick tips, peer relatability"
+      },
+      "whatsappStrategy": {
+        "ADV001": "Concise premium insights, exclusive updates",
+        "ADV002": "Daily analytical briefs with explanations",
+        "ADV003": "Daily wisdom with educational depth",
+        "ADV004": "Bite-sized motivation and simple actions"
+      }
+    },
+    "marketIntelligenceAdaptation": {
+      "sipMilestone": {
+        "ADV001": "Market stability signal for HNI long-term holdings",
+        "ADV002": "Validation of systematic investing strategy",
+        "ADV003": "Behavioral finance triumph story",
+        "ADV004": "You're part of the movement - join now!"
+      },
+      "goldRally": {
+        "ADV001": "Portfolio rebalancing opportunity analysis",
+        "ADV002": "Diversification strategy with allocation guidance",
+        "ADV003": "Asset philosophy deep-dive (productive vs non-productive)",
+        "ADV004": "Should beginners buy gold? Simple guide"
+      },
+      "rbiPolicy": {
+        "ADV001": "Macro environment analysis for HNI tactical allocation",
+        "ADV002": "Economic sweet spot creates equity opportunity",
+        "ADV003": "Economic cycle awareness education",
+        "ADV004": "Good news for your SIPs - simplified explanation"
+      },
+      "fiiOutflows": {
+        "ADV001": "Contrarian opportunity for patient HNI capital",
+        "ADV002": "Don't panic - complete picture with DII support",
+        "ADV003": "Market structure evolution and ownership transformation",
+        "ADV004": "Why markets fell (in simple words) + don't worry about daily moves"
+      },
+      "sectorRotation": {
+        "ADV001": "Tactical rebalancing for HNI portfolios",
+        "ADV002": "Portfolio adjustment guide with analytical breakdown",
+        "ADV003": "Rebalancing framework education",
+        "ADV004": "What sector rotation means (simplified) + diversification importance"
+      }
+    }
+  },
+  "contentCreationGuidelines": {
+    "doNotHomogenize": [
+      "Never create identical content for different segments",
+      "Respect the sophistication gap between Premium and Silver",
+      "ADV001 & ADV003 are both Premium but VERY different styles (professional vs educational)",
+      "Same market event = 4 completely different angles and narratives"
+    ],
+    "hyperPersonalizationChecklist": [
+      "Does complexity match segment? (Silver simple, Gold moderate, Premium advanced)",
+      "Does tone match style? (Professional ≠ Educational ≠ Analytical ≠ Modern)",
+      "Does data-emotion ratio fit profile?",
+      "Are topics relevant to life stage and portfolio size?",
+      "Does CTA match decision style and approval mode?",
+      "Is vocabulary appropriate for audience sophistication?"
+    ],
+    "successMetrics": {
+      "ADV001": "Engagement from HNI clients, consultation requests, referral quality",
+      "ADV002": "Educational engagement, portfolio review requests, SIP step-ups",
+      "ADV003": "Learning engagement, deep discussions, webinar participation",
+      "ADV004": "New investor sign-ups, first SIP starts, beginner questions"
+    }
+  },
+  "recommendations": {
+    "immediate": [
+      "Generate 4 completely different versions of each market event",
+      "Never reuse content across advisors - always customize",
+      "Test different formats per segment (ADV004 loves visuals, ADV002 loves charts, ADV003 loves narratives)",
+      "Ensure brand colors and taglines are consistently applied per advisor"
+    ],
+    "ongoing": [
+      "Track engagement by segment to refine profiles over time",
+      "A/B test content complexity within segments",
+      "Seasonal adjustments (Diwali for ADV004 motivation, year-end tax for ADV001)",
+      "Continuously update psychographic profiles based on feedback"
+    ]
+  }
+}

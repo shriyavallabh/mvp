@@ -1,0 +1,226 @@
+{
+  "sessionId": "session_1759798367",
+  "timestamp": "2025-10-07T06:43:30.892666",
+  "totalPosts": 12,
+  "advisors": [
+    {
+      "advisorId": "ADV001",
+      "advisorName": "Shruti Petkar",
+      "segment": "Premium",
+      "contentStyle": "professional",
+      "postsGenerated": 3,
+      "posts": [
+        {
+          "postId": "ADV001_POST_1",
+          "type": "market_commentary",
+          "viralityScore": 7.3,
+          "characterCount": 1524,
+          "jsonFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/json/ADV001_post_1.json",
+          "textFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/text/ADV001_post_1.txt"
+        },
+        {
+          "postId": "ADV001_POST_2",
+          "type": "educational_principle",
+          "viralityScore": 7.3,
+          "characterCount": 1688,
+          "jsonFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/json/ADV001_post_2.json",
+          "textFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/text/ADV001_post_2.txt"
+        },
+        {
+          "postId": "ADV001_POST_3",
+          "type": "client_success",
+          "viralityScore": 8.0,
+          "characterCount": 2078,
+          "jsonFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/json/ADV001_post_3.json",
+          "textFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/text/ADV001_post_3.txt"
+        }
+      ]
+    },
+    {
+      "advisorId": "ADV002",
+      "advisorName": "Vidyadhar Petkar",
+      "segment": "Gold",
+      "contentStyle": "analytical",
+      "postsGenerated": 3,
+      "posts": [
+        {
+          "postId": "ADV002_POST_1",
+          "type": "market_commentary",
+          "viralityScore": 7.8,
+          "characterCount": 2316,
+          "jsonFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/json/ADV002_post_1.json",
+          "textFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/text/ADV002_post_1.txt"
+        },
+        {
+          "postId": "ADV002_POST_2",
+          "type": "educational_principle",
+          "viralityScore": 7.3,
+          "characterCount": 2829,
+          "jsonFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/json/ADV002_post_2.json",
+          "textFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/text/ADV002_post_2.txt"
+        },
+        {
+          "postId": "ADV002_POST_3",
+          "type": "client_success",
+          "viralityScore": 8.0,
+          "characterCount": 2882,
+          "jsonFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/json/ADV002_post_3.json",
+          "textFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/text/ADV002_post_3.txt"
+        }
+      ]
+    },
+    {
+      "advisorId": "ADV003",
+      "advisorName": "Shriya Vallabh Petkar",
+      "segment": "Premium",
+      "contentStyle": "educational",
+      "postsGenerated": 3,
+      "posts": [
+        {
+          "postId": "ADV003_POST_1",
+          "type": "market_commentary",
+          "viralityScore": 8.1,
+          "characterCount": 3786,
+          "jsonFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/json/ADV003_post_1.json",
+          "textFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/text/ADV003_post_1.txt"
+        },
+        {
+          "postId": "ADV003_POST_2",
+          "type": "educational_principle",
+          "viralityScore": 8.5,
+          "characterCount": 3934,
+          "jsonFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/json/ADV003_post_2.json",
+          "textFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/text/ADV003_post_2.txt"
+        },
+        {
+          "postId": "ADV003_POST_3",
+          "type": "client_success",
+          "viralityScore": 7.5,
+          "characterCount": 4151,
+          "jsonFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/json/ADV003_post_3.json",
+          "textFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/text/ADV003_post_3.txt"
+        }
+      ]
+    },
+    {
+      "advisorId": "ADV004",
+      "advisorName": "Avalok Langer",
+      "segment": "Silver",
+      "contentStyle": "modern",
+      "postsGenerated": 3,
+      "posts": [
+        {
+          "postId": "ADV004_POST_1",
+          "type": "market_commentary",
+          "viralityScore": 8.4,
+          "characterCount": 4012,
+          "jsonFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/json/ADV004_post_1.json",
+          "textFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/text/ADV004_post_1.txt"
+        },
+        {
+          "postId": "ADV004_POST_2",
+          "type": "educational_principle",
+          "viralityScore": 9.2,
+          "characterCount": 3922,
+          "jsonFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/json/ADV004_post_2.json",
+          "textFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/text/ADV004_post_2.txt"
+        },
+        {
+          "postId": "ADV004_POST_3",
+          "type": "client_success",
+          "viralityScore": 9.0,
+          "characterCount": 4927,
+          "jsonFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/json/ADV004_post_3.json",
+          "textFile": "/Users/shriyavallabh/Desktop/mvp/output/session_1759798367/linkedin/text/ADV004_post_3.txt"
+        }
+      ]
+    }
+  ],
+  "viralityStats": {
+    "averageScore": 8.03,
+    "highest": {
+      "advisorId": "ADV004",
+      "postId": "ADV004_POST_2",
+      "score": 9.2
+    },
+    "allScores": [
+      {
+        "advisorId": "ADV004",
+        "postId": "ADV004_POST_2",
+        "score": 9.2
+      },
+      {
+        "advisorId": "ADV004",
+        "postId": "ADV004_POST_3",
+        "score": 9.0
+      },
+      {
+        "advisorId": "ADV003",
+        "postId": "ADV003_POST_2",
+        "score": 8.5
+      },
+      {
+        "advisorId": "ADV004",
+        "postId": "ADV004_POST_1",
+        "score": 8.4
+      },
+      {
+        "advisorId": "ADV003",
+        "postId": "ADV003_POST_1",
+        "score": 8.1
+      },
+      {
+        "advisorId": "ADV001",
+        "postId": "ADV001_POST_3",
+        "score": 8.0
+      },
+      {
+        "advisorId": "ADV002",
+        "postId": "ADV002_POST_3",
+        "score": 8.0
+      },
+      {
+        "advisorId": "ADV002",
+        "postId": "ADV002_POST_1",
+        "score": 7.8
+      },
+      {
+        "advisorId": "ADV003",
+        "postId": "ADV003_POST_3",
+        "score": 7.5
+      },
+      {
+        "advisorId": "ADV001",
+        "postId": "ADV001_POST_1",
+        "score": 7.3
+      },
+      {
+        "advisorId": "ADV001",
+        "postId": "ADV001_POST_2",
+        "score": 7.3
+      },
+      {
+        "advisorId": "ADV002",
+        "postId": "ADV002_POST_2",
+        "score": 7.3
+      }
+    ],
+    "top3": [
+      {
+        "advisorId": "ADV004",
+        "postId": "ADV004_POST_2",
+        "score": 9.2
+      },
+      {
+        "advisorId": "ADV004",
+        "postId": "ADV004_POST_3",
+        "score": 9.0
+      },
+      {
+        "advisorId": "ADV003",
+        "postId": "ADV003_POST_2",
+        "score": 8.5
+      }
+    ]
+  }
+}

@@ -11,7 +11,7 @@ require('dotenv').config();
 
 const AISENSY_API_KEY = process.env.AISENSY_API_KEY;
 const AISENSY_BASE_URL = process.env.AISENSY_BASE_URL || 'https://api.aisensy.com';
-const DASHBOARD_URL = process.env.DASHBOARD_URL || 'https://jarvisdaily.in/dashboard';
+const DASHBOARD_URL = process.env.DASHBOARD_URL || 'https://jarvisdaily.com/dashboard';
 
 async function sendUtilityMessage(phone, name) {
   const url = `${AISENSY_BASE_URL}/campaign-manager/api/v1/campaign/t1/api/v2`;

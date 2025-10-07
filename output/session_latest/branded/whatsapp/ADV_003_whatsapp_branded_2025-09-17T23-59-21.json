@@ -1,0 +1,36 @@
+{
+  "advisor_id": "ADV_003",
+  "brand_name": "Smart Invest",
+  "segment": "Silver",
+  "branding_level": "silver",
+  "messages": [
+    {
+      "type": "simple_update",
+      "text": "\ud83c\udf1f Hi Priya!\n\nGood news! Markets are up today \ud83d\udcc8\n\nYour investments are growing!\nSensex: 82,690 (\u2191 310 points)\n\nTech stocks doing amazing! \ud83d\ude80\n\nQuestions? Just reply here!\n\nSmart Investment Advisors",
+      "character_count": 182,
+      "brand_applied": true,
+      "branding_level": "silver"
+    },
+    {
+      "type": "beginner_tip",
+      "text": "\ud83d\udcb0 Money Tip Monday!\n\nStart investing with just \u20b9500! \ud83c\udf89\n\nHow?\n1\ufe0f\u20e3 Open SIP in Index Fund\n2\ufe0f\u20e3 Set auto-debit on salary day\n3\ufe0f\u20e3 Forget & watch it grow!\n\n10 years = \u20b91 lakh+ corpus \ud83c\udfc6\n\nReady? Reply 'YES'\n\nSmart Investment Advisors",
+      "character_count": 198,
+      "brand_applied": true,
+      "branding_level": "silver"
+    },
+    {
+      "type": "digital_investment",
+      "text": "\u2728 New Age Investing Alert!\n\nTry Digital Gold! \ud83e\ude99\n\u2022 Start with \u20b9100\n\u2022 Buy/sell anytime\n\u2022 No storage worries\n\u2022 Perfect for beginners!\n\nGold up 8% this year \ud83d\udcca\n\nGet started: Reply 'GOLD'\n\nSmart Investment Advisors",
+      "character_count": 213,
+      "brand_applied": true,
+      "branding_level": "silver"
+    }
+  ],
+  "branding_applied": {
+    "signature": true,
+    "brand_name": true,
+    "arn": true,
+    "tagline": true
+  },
+  "timestamp": "2025-09-17T23-59-21"
+}

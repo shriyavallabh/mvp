@@ -38,7 +38,7 @@ Open: `http://localhost:3000/dashboard?phone=919765071249`
 npm run deploy
 ```
 
-Dashboard will be live at: `https://jarvisdaily.in/dashboard`
+Dashboard will be live at: `https://jarvisdaily.com/dashboard`
 
 ### 4. Send Notifications
 
@@ -126,7 +126,7 @@ Click below to view:
 **Button:**
 - Type: URL
 - Text: "View Content"
-- URL: `https://jarvisdaily.in/dashboard?phone={phone}`
+- URL: `https://jarvisdaily.com/dashboard?phone={phone}`
 
 ### Sending Logic
 
@@ -272,12 +272,12 @@ The API handles both automatically.
    - `CLOUDINARY_CLOUD_NAME`
    - `CLOUDINARY_API_KEY`
    - `CLOUDINARY_API_SECRET`
-   - `DASHBOARD_URL=https://jarvisdaily.in`
+   - `DASHBOARD_URL=https://jarvisdaily.com`
 
 3. ✅ **Create AiSensy Template**
    - Go to AiSensy dashboard
    - Create utility template (no approval needed)
-   - Add button with URL: `https://jarvisdaily.in/dashboard`
+   - Add button with URL: `https://jarvisdaily.com/dashboard`
    - Variable in URL: `?phone={phone}`
 
 4. ✅ **Test with One Advisor**

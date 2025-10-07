@@ -175,8 +175,8 @@ output/${SESSION_ID}/linkedin/
 
 ## 🌐 DOMAIN & BRANDING
 
-**Official Domain**: jarvisdaily.in (NOT finadvise.in)
-**All URLs must use**: https://jarvisdaily.in
+**Official Domain**: jarvisdaily.com (NOT finadvise.in)
+**All URLs must use**: https://jarvisdaily.com
 
 ## 🎨 ADVISOR CUSTOMIZATION
 

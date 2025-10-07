@@ -1,0 +1,689 @@
+{
+  "summary": {
+    "totalAssets": 36,
+    "approved": 24,
+    "rejected": 12,
+    "grammyLevel": 4,
+    "passRate": "66.7%",
+    "distributionReady": false
+  },
+  "averageScores": {
+    "linkedin": "8.11",
+    "whatsapp": "7.99",
+    "images": "7.90",
+    "overall": "8.00"
+  },
+  "top5Performers": [
+    {
+      "filename": "ADV001_post_1.txt",
+      "type": "linkedin",
+      "dimensions": {
+        "hook": "9.5",
+        "story": "10.0",
+        "emotion": "9.8",
+        "specificity": "10.0",
+        "simplicity": "8.0",
+        "cta": "10.0"
+      },
+      "viralScore": "9.3",
+      "status": "APPROVED",
+      "quality": "GRAMMY-LEVEL"
+    },
+    {
+      "filename": "ADV001_msg_1.txt",
+      "type": "whatsapp",
+      "dimensions": {
+        "hook": "10.0",
+        "density": "10.0",
+        "action": "10.0",
+        "emotion": "8.5",
+        "share": "8.0"
+      },
+      "viralScore": "9.3",
+      "status": "APPROVED",
+      "quality": "GRAMMY-LEVEL"
+    },
+    {
+      "filename": "ADV004_post_1.txt",
+      "type": "linkedin",
+      "dimensions": {
+        "hook": "9.5",
+        "story": "9.5",
+        "emotion": "8.4",
+        "specificity": "10.0",
+        "simplicity": "8.0",
+        "cta": "10.0"
+      },
+      "viralScore": "9.1",
+      "status": "APPROVED",
+      "quality": "GRAMMY-LEVEL"
+    },
+    {
+      "filename": "ADV004_msg_2.txt",
+      "type": "whatsapp",
+      "dimensions": {
+        "hook": "8.0",
+        "density": "10.0",
+        "action": "8.5",
+        "emotion": "9.0",
+        "share": "10.0"
+      },
+      "viralScore": "9.1",
+      "status": "APPROVED",
+      "quality": "GRAMMY-LEVEL"
+    },
+    {
+      "filename": "ADV004_post_3.txt",
+      "type": "linkedin",
+      "dimensions": {
+        "hook": "6.5",
+        "story": "10.0",
+        "emotion": "9.6",
+        "specificity": "10.0",
+        "simplicity": "8.0",
+        "cta": "10.0"
+      },
+      "viralScore": "8.6",
+      "status": "APPROVED",
+      "quality": "HIGH-QUALITY"
+    }
+  ],
+  "bottom5Performers": [
+    {
+      "filename": "ADV001_post_3.txt",
+      "type": "linkedin",
+      "dimensions": {
+        "hook": "10.0",
+        "story": "7.0",
+        "emotion": "6.2",
+        "specificity": "10.0",
+        "simplicity": "6.5",
+        "cta": "7.0"
+      },
+      "viralScore": "6.0",
+      "status": "REJECTED",
+      "quality": "NEEDS-REVISION"
+    },
+    {
+      "filename": "ADV003_msg_1.txt",
+      "type": "whatsapp",
+      "dimensions": {
+        "hook": "5.0",
+        "density": "10.0",
+        "action": "6.5",
+        "emotion": "5.0",
+        "share": "6.0"
+      },
+      "viralScore": "6.5",
+      "status": "REJECTED",
+      "quality": "NEEDS-REVISION"
+    },
+    {
+      "filename": "ADV003_msg_3.txt",
+      "type": "whatsapp",
+      "dimensions": {
+        "hook": "8.0",
+        "density": "10.0",
+        "action": "5.0",
+        "emotion": "5.0",
+        "share": "6.0"
+      },
+      "viralScore": "6.8",
+      "status": "REJECTED",
+      "quality": "NEEDS-REVISION"
+    },
+    {
+      "filename": "ADV001_msg_3.txt",
+      "type": "whatsapp",
+      "dimensions": {
+        "hook": "5.0",
+        "density": "10.0",
+        "action": "10.0",
+        "emotion": "5.0",
+        "share": "6.0"
+      },
+      "viralScore": "7.2",
+      "status": "REJECTED",
+      "quality": "NEEDS-REVISION"
+    },
+    {
+      "filename": "ADV002_post_1.txt",
+      "type": "linkedin",
+      "dimensions": {
+        "hook": "8.5",
+        "story": "8.5",
+        "emotion": "6.0",
+        "specificity": "10.0",
+        "simplicity": "8.0",
+        "cta": "10.0"
+      },
+      "viralScore": "7.3",
+      "status": "REJECTED",
+      "quality": "NEEDS-REVISION"
+    }
+  ],
+  "detailedScores": {
+    "linkedin": [
+      {
+        "filename": "ADV001_post_1.txt",
+        "type": "linkedin",
+        "dimensions": {
+          "hook": "9.5",
+          "story": "10.0",
+          "emotion": "9.8",
+          "specificity": "10.0",
+          "simplicity": "8.0",
+          "cta": "10.0"
+        },
+        "viralScore": "9.3",
+        "status": "APPROVED",
+        "quality": "GRAMMY-LEVEL"
+      },
+      {
+        "filename": "ADV001_post_2.txt",
+        "type": "linkedin",
+        "dimensions": {
+          "hook": "8.5",
+          "story": "10.0",
+          "emotion": "8.4",
+          "specificity": "10.0",
+          "simplicity": "6.5",
+          "cta": "10.0"
+        },
+        "viralScore": "8.2",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      },
+      {
+        "filename": "ADV001_post_3.txt",
+        "type": "linkedin",
+        "dimensions": {
+          "hook": "10.0",
+          "story": "7.0",
+          "emotion": "6.2",
+          "specificity": "10.0",
+          "simplicity": "6.5",
+          "cta": "7.0"
+        },
+        "viralScore": "6.0",
+        "status": "REJECTED",
+        "quality": "NEEDS-REVISION"
+      },
+      {
+        "filename": "ADV002_post_1.txt",
+        "type": "linkedin",
+        "dimensions": {
+          "hook": "8.5",
+          "story": "8.5",
+          "emotion": "6.0",
+          "specificity": "10.0",
+          "simplicity": "8.0",
+          "cta": "10.0"
+        },
+        "viralScore": "7.3",
+        "status": "REJECTED",
+        "quality": "NEEDS-REVISION"
+      },
+      {
+        "filename": "ADV002_post_2.txt",
+        "type": "linkedin",
+        "dimensions": {
+          "hook": "10.0",
+          "story": "8.5",
+          "emotion": "8.4",
+          "specificity": "10.0",
+          "simplicity": "8.0",
+          "cta": "10.0"
+        },
+        "viralScore": "8.5",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      },
+      {
+        "filename": "ADV002_post_3.txt",
+        "type": "linkedin",
+        "dimensions": {
+          "hook": "8.5",
+          "story": "8.5",
+          "emotion": "6.0",
+          "specificity": "10.0",
+          "simplicity": "8.0",
+          "cta": "10.0"
+        },
+        "viralScore": "7.3",
+        "status": "REJECTED",
+        "quality": "NEEDS-REVISION"
+      },
+      {
+        "filename": "ADV003_post_1.txt",
+        "type": "linkedin",
+        "dimensions": {
+          "hook": "10.0",
+          "story": "9.5",
+          "emotion": "7.2",
+          "specificity": "10.0",
+          "simplicity": "6.5",
+          "cta": "10.0"
+        },
+        "viralScore": "8.5",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      },
+      {
+        "filename": "ADV003_post_2.txt",
+        "type": "linkedin",
+        "dimensions": {
+          "hook": "10.0",
+          "story": "8.5",
+          "emotion": "9.6",
+          "specificity": "10.0",
+          "simplicity": "8.0",
+          "cta": "7.0"
+        },
+        "viralScore": "8.3",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      },
+      {
+        "filename": "ADV003_post_3.txt",
+        "type": "linkedin",
+        "dimensions": {
+          "hook": "8.5",
+          "story": "8.5",
+          "emotion": "7.2",
+          "specificity": "10.0",
+          "simplicity": "8.0",
+          "cta": "10.0"
+        },
+        "viralScore": "8.2",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      },
+      {
+        "filename": "ADV004_post_1.txt",
+        "type": "linkedin",
+        "dimensions": {
+          "hook": "9.5",
+          "story": "9.5",
+          "emotion": "8.4",
+          "specificity": "10.0",
+          "simplicity": "8.0",
+          "cta": "10.0"
+        },
+        "viralScore": "9.1",
+        "status": "APPROVED",
+        "quality": "GRAMMY-LEVEL"
+      },
+      {
+        "filename": "ADV004_post_2.txt",
+        "type": "linkedin",
+        "dimensions": {
+          "hook": "9.5",
+          "story": "8.5",
+          "emotion": "6.0",
+          "specificity": "10.0",
+          "simplicity": "8.0",
+          "cta": "10.0"
+        },
+        "viralScore": "8.0",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      },
+      {
+        "filename": "ADV004_post_3.txt",
+        "type": "linkedin",
+        "dimensions": {
+          "hook": "6.5",
+          "story": "10.0",
+          "emotion": "9.6",
+          "specificity": "10.0",
+          "simplicity": "8.0",
+          "cta": "10.0"
+        },
+        "viralScore": "8.6",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      }
+    ],
+    "whatsapp": [
+      {
+        "filename": "ADV001_msg_1.txt",
+        "type": "whatsapp",
+        "dimensions": {
+          "hook": "10.0",
+          "density": "10.0",
+          "action": "10.0",
+          "emotion": "8.5",
+          "share": "8.0"
+        },
+        "viralScore": "9.3",
+        "status": "APPROVED",
+        "quality": "GRAMMY-LEVEL"
+      },
+      {
+        "filename": "ADV001_msg_2.txt",
+        "type": "whatsapp",
+        "dimensions": {
+          "hook": "10.0",
+          "density": "10.0",
+          "action": "8.5",
+          "emotion": "5.0",
+          "share": "6.0"
+        },
+        "viralScore": "7.9",
+        "status": "REJECTED",
+        "quality": "NEEDS-REVISION"
+      },
+      {
+        "filename": "ADV001_msg_3.txt",
+        "type": "whatsapp",
+        "dimensions": {
+          "hook": "5.0",
+          "density": "10.0",
+          "action": "10.0",
+          "emotion": "5.0",
+          "share": "6.0"
+        },
+        "viralScore": "7.2",
+        "status": "REJECTED",
+        "quality": "NEEDS-REVISION"
+      },
+      {
+        "filename": "ADV002_msg_1.txt",
+        "type": "whatsapp",
+        "dimensions": {
+          "hook": "8.0",
+          "density": "10.0",
+          "action": "8.5",
+          "emotion": "7.5",
+          "share": "8.0"
+        },
+        "viralScore": "8.4",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      },
+      {
+        "filename": "ADV002_msg_2.txt",
+        "type": "whatsapp",
+        "dimensions": {
+          "hook": "10.0",
+          "density": "10.0",
+          "action": "10.0",
+          "emotion": "5.0",
+          "share": "8.0"
+        },
+        "viralScore": "8.6",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      },
+      {
+        "filename": "ADV002_msg_3.txt",
+        "type": "whatsapp",
+        "dimensions": {
+          "hook": "7.0",
+          "density": "10.0",
+          "action": "8.5",
+          "emotion": "6.5",
+          "share": "8.0"
+        },
+        "viralScore": "8.0",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      },
+      {
+        "filename": "ADV003_msg_1.txt",
+        "type": "whatsapp",
+        "dimensions": {
+          "hook": "5.0",
+          "density": "10.0",
+          "action": "6.5",
+          "emotion": "5.0",
+          "share": "6.0"
+        },
+        "viralScore": "6.5",
+        "status": "REJECTED",
+        "quality": "NEEDS-REVISION"
+      },
+      {
+        "filename": "ADV003_msg_2.txt",
+        "type": "whatsapp",
+        "dimensions": {
+          "hook": "8.0",
+          "density": "10.0",
+          "action": "6.5",
+          "emotion": "6.0",
+          "share": "6.0"
+        },
+        "viralScore": "7.3",
+        "status": "REJECTED",
+        "quality": "NEEDS-REVISION"
+      },
+      {
+        "filename": "ADV003_msg_3.txt",
+        "type": "whatsapp",
+        "dimensions": {
+          "hook": "8.0",
+          "density": "10.0",
+          "action": "5.0",
+          "emotion": "5.0",
+          "share": "6.0"
+        },
+        "viralScore": "6.8",
+        "status": "REJECTED",
+        "quality": "NEEDS-REVISION"
+      },
+      {
+        "filename": "ADV004_msg_1.txt",
+        "type": "whatsapp",
+        "dimensions": {
+          "hook": "8.0",
+          "density": "10.0",
+          "action": "5.0",
+          "emotion": "10.0",
+          "share": "8.0"
+        },
+        "viralScore": "8.2",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      },
+      {
+        "filename": "ADV004_msg_2.txt",
+        "type": "whatsapp",
+        "dimensions": {
+          "hook": "8.0",
+          "density": "10.0",
+          "action": "8.5",
+          "emotion": "9.0",
+          "share": "10.0"
+        },
+        "viralScore": "9.1",
+        "status": "APPROVED",
+        "quality": "GRAMMY-LEVEL"
+      },
+      {
+        "filename": "ADV004_msg_3.txt",
+        "type": "whatsapp",
+        "dimensions": {
+          "hook": "8.0",
+          "density": "10.0",
+          "action": "10.0",
+          "emotion": "9.0",
+          "share": "6.0"
+        },
+        "viralScore": "8.6",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      }
+    ],
+    "images": [
+      {
+        "filename": "ADV001_design_1.png",
+        "type": "image",
+        "dimensions": {
+          "visual": "8.5",
+          "clarity": "8.5",
+          "brand": "7.0",
+          "dataViz": "7.0",
+          "mobile": "9.0"
+        },
+        "viralScore": "8.0",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      },
+      {
+        "filename": "ADV001_design_2.png",
+        "type": "image",
+        "dimensions": {
+          "visual": "8.5",
+          "clarity": "8.5",
+          "brand": "7.0",
+          "dataViz": "7.0",
+          "mobile": "9.0"
+        },
+        "viralScore": "8.0",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      },
+      {
+        "filename": "ADV001_design_3.png",
+        "type": "image",
+        "dimensions": {
+          "visual": "7.0",
+          "clarity": "8.5",
+          "brand": "7.0",
+          "dataViz": "7.0",
+          "mobile": "9.0"
+        },
+        "viralScore": "7.7",
+        "status": "REJECTED",
+        "quality": "NEEDS-REVISION"
+      },
+      {
+        "filename": "ADV002_design_1.png",
+        "type": "image",
+        "dimensions": {
+          "visual": "8.5",
+          "clarity": "8.5",
+          "brand": "7.0",
+          "dataViz": "7.0",
+          "mobile": "9.0"
+        },
+        "viralScore": "8.0",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      },
+      {
+        "filename": "ADV002_design_2.png",
+        "type": "image",
+        "dimensions": {
+          "visual": "7.0",
+          "clarity": "8.5",
+          "brand": "7.0",
+          "dataViz": "7.0",
+          "mobile": "9.0"
+        },
+        "viralScore": "7.7",
+        "status": "REJECTED",
+        "quality": "NEEDS-REVISION"
+      },
+      {
+        "filename": "ADV002_design_3.png",
+        "type": "image",
+        "dimensions": {
+          "visual": "8.5",
+          "clarity": "8.5",
+          "brand": "7.0",
+          "dataViz": "7.0",
+          "mobile": "9.0"
+        },
+        "viralScore": "8.0",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      },
+      {
+        "filename": "ADV003_design_1.png",
+        "type": "image",
+        "dimensions": {
+          "visual": "7.0",
+          "clarity": "8.5",
+          "brand": "7.0",
+          "dataViz": "7.0",
+          "mobile": "9.0"
+        },
+        "viralScore": "7.7",
+        "status": "REJECTED",
+        "quality": "NEEDS-REVISION"
+      },
+      {
+        "filename": "ADV003_design_2.png",
+        "type": "image",
+        "dimensions": {
+          "visual": "8.5",
+          "clarity": "8.5",
+          "brand": "7.0",
+          "dataViz": "7.0",
+          "mobile": "9.0"
+        },
+        "viralScore": "8.0",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      },
+      {
+        "filename": "ADV003_design_3.png",
+        "type": "image",
+        "dimensions": {
+          "visual": "7.0",
+          "clarity": "8.5",
+          "brand": "7.0",
+          "dataViz": "7.0",
+          "mobile": "9.0"
+        },
+        "viralScore": "7.7",
+        "status": "REJECTED",
+        "quality": "NEEDS-REVISION"
+      },
+      {
+        "filename": "ADV004_design_1.png",
+        "type": "image",
+        "dimensions": {
+          "visual": "8.5",
+          "clarity": "8.5",
+          "brand": "7.0",
+          "dataViz": "7.0",
+          "mobile": "9.0"
+        },
+        "viralScore": "8.0",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      },
+      {
+        "filename": "ADV004_design_2.png",
+        "type": "image",
+        "dimensions": {
+          "visual": "8.5",
+          "clarity": "8.5",
+          "brand": "7.0",
+          "dataViz": "7.0",
+          "mobile": "9.0"
+        },
+        "viralScore": "8.0",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      },
+      {
+        "filename": "ADV004_design_3.png",
+        "type": "image",
+        "dimensions": {
+          "visual": "8.5",
+          "clarity": "8.5",
+          "brand": "7.0",
+          "dataViz": "7.0",
+          "mobile": "9.0"
+        },
+        "viralScore": "8.0",
+        "status": "APPROVED",
+        "quality": "HIGH-QUALITY"
+      }
+    ]
+  }
+}

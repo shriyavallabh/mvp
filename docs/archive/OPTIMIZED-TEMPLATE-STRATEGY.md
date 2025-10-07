@@ -199,7 +199,7 @@ Mutual fund investments are subject to market risks.
 ```
 
 **BUTTONS:**
-- CTA Button 1: "View Full Content" → URL: `https://jarvisdaily.in/c/{{4}}`
+- CTA Button 1: "View Full Content" → URL: `https://jarvisdaily.com/c/{{4}}`
 - Quick Reply Button 2: "Send Next Update"
 
 **VARIABLES (5 MAX):**
@@ -225,7 +225,7 @@ Mutual fund investments are subject to market risks.
 
 **What We Removed & Why:**
 - **ARN Display ({{5}}):** Meta WhatsApp templates require SEBI disclaimer in footer already. ARN is advisor-specific but not needed in every message. Advisors already know their ARN.
-- **Content ID ({{6}}):** This was purely internal tracking (`ADV001_20251002`). We can include this in the Content URL instead (`jarvisdaily.in/c/shruti-20251002` = same info).
+- **Content ID ({{6}}):** This was purely internal tracking (`ADV001_20251002`). We can include this in the Content URL instead (`jarvisdaily.com/c/shruti-20251002` = same info).
 
 ---
 
@@ -336,7 +336,7 @@ Market-linked investments carry risks. Consult your financial advisor.
 ```
 
 **BUTTONS:**
-- CTA: "View All Posts" → URL: `https://jarvisdaily.in/linkedin`
+- CTA: "View All Posts" → URL: `https://jarvisdaily.com/linkedin`
 
 **VARIABLES (5 MAX):**
 1. **{{1}}** = Advisor Name | Sample: `Vidyadhar Petkar`
@@ -927,7 +927,7 @@ LinkedIn_Post_Shriya_20251002_0902
 | AiSensy Pro Plan | ₹2,399-3,200 | Current plan |
 | Meta WhatsApp Messages | ₹540-810 | 360 marketing messages (3×4×30) |
 | Cloudinary Image Hosting | ₹0 (FREE) | 25 GB free tier, we use <1 GB |
-| Vercel Hosting | ₹0 (FREE) | For jarvisdaily.in website |
+| Vercel Hosting | ₹0 (FREE) | For jarvisdaily.com website |
 | **TOTAL** | **₹2,939-4,010** | All-inclusive |
 
 **Per Advisor Cost:** ₹735-1,002/month

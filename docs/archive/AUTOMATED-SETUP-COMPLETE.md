@@ -41,7 +41,7 @@ Unfortunately, Meta requires these 2 things to be done manually through their da
 
 4. Enter EXACTLY:
    ```
-   Callback URL: https://jarvisdaily.in/api/webhook
+   Callback URL: https://jarvisdaily.com/api/webhook
    Verify Token: finadvise-webhook-2024
    ```
 
@@ -95,7 +95,7 @@ Unfortunately, Meta requires these 2 things to be done manually through their da
 ### Step 1: Test Webhook Verification
 
 ```bash
-curl "https://jarvisdaily.in/api/webhook?hub.mode=subscribe&hub.challenge=test123&hub.verify_token=finadvise-webhook-2024"
+curl "https://jarvisdaily.com/api/webhook?hub.mode=subscribe&hub.challenge=test123&hub.verify_token=finadvise-webhook-2024"
 ```
 
 **Expected:** `test123`
@@ -200,13 +200,13 @@ node send-via-meta-direct.js
 Go to: https://developers.facebook.com/apps/100088701756168/whatsapp-business/wa-settings/
 
 **Set:**
-- URL: `https://jarvisdaily.in/api/webhook`
+- URL: `https://jarvisdaily.com/api/webhook`
 - Token: `finadvise-webhook-2024`
 - Subscribe to: `messages`
 
 ### Step 2: Test Webhook
 ```bash
-curl "https://jarvisdaily.in/api/webhook?hub.mode=subscribe&hub.challenge=test&hub.verify_token=finadvise-webhook-2024"
+curl "https://jarvisdaily.com/api/webhook?hub.mode=subscribe&hub.challenge=test&hub.verify_token=finadvise-webhook-2024"
 ```
 
 ### Step 3: Create Template
@@ -237,7 +237,7 @@ Create template as described above.
 
 ### Webhook verification fails:
 ```
-1. Double-check URL: https://jarvisdaily.in/api/webhook
+1. Double-check URL: https://jarvisdaily.com/api/webhook
 2. Double-check token: finadvise-webhook-2024
 3. Make sure no extra spaces
 4. Try again (Meta can be slow)

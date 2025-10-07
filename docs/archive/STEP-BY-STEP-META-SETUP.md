@@ -60,7 +60,7 @@ Example: +919765071249
 
 **Website (optional):**
 ```
-Enter: jarvisdaily.in
+Enter: jarvisdaily.com
 (or leave blank if you don't have)
 ```
 

@@ -1,0 +1,22 @@
+{
+  "original": "/Users/shriyavallabh/Desktop/mvp/output/session_1758130725/images/ADV_003_motivational_20250917_234849.png",
+  "branded": "/Users/shriyavallabh/Desktop/mvp/output/session_1758130725/branded/status-images/branded_ADV_003_motivational_20250917_234849.png",
+  "brand_config": {
+    "brand_name": "Smart Invest",
+    "colors": {
+      "primary": "#008080",
+      "secondary": "#F0F8FF",
+      "accent": "#20B2AA"
+    },
+    "level": "silver"
+  },
+  "branding_applied": {
+    "logo_placement": "bottom-center",
+    "colors_applied": false,
+    "watermark": false,
+    "brand_name_overlay": false,
+    "opacity": 0.5
+  },
+  "platform": "status",
+  "timestamp": "2025-09-17T23-59-21"
+}

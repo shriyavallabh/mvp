@@ -148,7 +148,7 @@ mvp/
 - ✅ Grammy/Oscar-level quality mandate (8.0/10 minimum)
 - ✅ Viral content formulas
 - ✅ Auto-file-creation logic
-- ✅ Domain update (jarvisdaily.in)
+- ✅ Domain update (jarvisdaily.com)
 - ✅ Advisor customization (logo, colors, tone)
 - ✅ Gemini 2.5 Flash API specifications
 
@@ -196,7 +196,7 @@ archive/
 
 1. **CLAUDE.md**
    - Project instructions for Claude Code
-   - Updated with jarvisdaily.in
+   - Updated with jarvisdaily.com
    - Updated with Sonnet 4.5 info
 
 2. **execute-finadvise-mvp.js**
@@ -279,7 +279,7 @@ archive/
 | Root items | <15 files | 10 files | ✅ 33% better |
 | Test files archived | 100% | 100% | ✅ |
 | Model consistency | Sonnet 4.5 | 14/14 agents | ✅ |
-| Domain consistency | jarvisdaily.in | All files | ✅ |
+| Domain consistency | jarvisdaily.com | All files | ✅ |
 | Grammy standards | 5 agents | 5 agents | ✅ |
 | Auto-file-creation | All agents | 5/14 agents | ⚠️ Partial |
 | Gemini integration | Specified | Specified | ✅ |
@@ -292,14 +292,14 @@ archive/
 - ✅ Ultra-clean codebase
 - ✅ All 14 agents use Sonnet 4.5
 - ✅ 5 agents fully optimized (Grammy-level)
-- ✅ Consistent domain (jarvisdaily.in)
+- ✅ Consistent domain (jarvisdaily.com)
 - ✅ Clear project structure
 - ✅ Archive system for historical reference
 
 ### What's Next:
 1. **Complete remaining 9 agents** with Grammy-level optimization
 2. **Test `/o` orchestration** with Sonnet 4.5
-3. **Build advisor portal** at jarvisdaily.in
+3. **Build advisor portal** at jarvisdaily.com
 4. **Integrate AiSensy** utility templates
 5. **Deploy to Vercel** production
 
@@ -344,7 +344,7 @@ The FinAdvise MVP (now **JarvisDaily**) has undergone a complete transformation:
 - 17 essential items
 - Clean separation (archive system)
 - Consistent Sonnet 4.5 across all agents
-- Consistent domain (jarvisdaily.in)
+- Consistent domain (jarvisdaily.com)
 - Professional, production-ready structure
 
 **The project is now ready for:**

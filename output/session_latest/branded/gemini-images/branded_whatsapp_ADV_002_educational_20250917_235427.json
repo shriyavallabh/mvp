@@ -1,0 +1,22 @@
+{
+  "original": "/Users/shriyavallabh/Desktop/mvp/output/session_1758130725/images/gemini/whatsapp/whatsapp_ADV_002_educational_20250917_235427.png",
+  "branded": "/Users/shriyavallabh/Desktop/mvp/output/session_1758130725/branded/gemini-images/branded_whatsapp_ADV_002_educational_20250917_235427.png",
+  "brand_config": {
+    "brand_name": "Money Matters",
+    "colors": {
+      "primary": "#FF6B6B",
+      "secondary": "#4ECDC4",
+      "accent": "#45B7D1"
+    },
+    "level": "gold"
+  },
+  "branding_applied": {
+    "logo_placement": "bottom-right",
+    "colors_applied": true,
+    "watermark": false,
+    "brand_name_overlay": true,
+    "opacity": 0.5
+  },
+  "platform": "gemini",
+  "timestamp": "2025-09-17T23-59-21"
+}

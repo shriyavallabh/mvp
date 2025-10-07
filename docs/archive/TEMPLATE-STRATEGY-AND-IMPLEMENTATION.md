@@ -182,7 +182,7 @@ ARN: {{5}} | Mutual fund investments are subject to market risks.
 ```
 
 **BUTTONS:**
-- CTA Button 1: "View LinkedIn Post" → URL: https://jarvisdaily.in/content/{{6}}
+- CTA Button 1: "View LinkedIn Post" → URL: https://jarvisdaily.com/content/{{6}}
 - CTA Button 2: "Forward to Clients" → Quick Reply
 
 **Variable Definitions (to submit with template):**
@@ -324,7 +324,7 @@ ARN: {{7}} | Market-linked investments carry risks.
 ```
 
 **BUTTONS:**
-- CTA Button: "View More Posts" → URL: https://jarvisdaily.in/linkedin/{{8}}
+- CTA Button: "View More Posts" → URL: https://jarvisdaily.com/linkedin/{{8}}
 
 **Variable Definitions:**
 1. {{1}} = Advisor Name | Sample: "Vidyadhar Petkar"
@@ -726,7 +726,7 @@ function loadStatusImages(sessionPath) {
 function uploadImageAndGetUrl(imagePath) {
   // TODO: Implement image upload to hosting service
   // For now, return placeholder
-  return `https://jarvisdaily.in/images/${path.basename(imagePath)}`;
+  return `https://jarvisdaily.com/images/${path.basename(imagePath)}`;
 }
 
 // Run if called directly

@@ -1,0 +1,213 @@
+{
+  "session_id": "session_1759798367",
+  "timestamp": "2025-10-07T07:31:15.600291",
+  "advisors": {
+    "ADV001": {
+      "advisor_id": "ADV001",
+      "freshness_score": 8.5,
+      "linkedin_analysis": {
+        "score": 7.5,
+        "flags": [
+          {
+            "type": "topic_repetition",
+            "severity": "high",
+            "details": "Topic overlap: 66.7% (threshold: 40%)"
+          },
+          {
+            "type": "emotion_imbalance",
+            "severity": "low",
+            "details": "Dominant emotion at 100.0%"
+          }
+        ],
+        "post_count": 3
+      },
+      "whatsapp_analysis": {
+        "score": 9.5,
+        "flags": [
+          {
+            "type": "emotion_imbalance",
+            "severity": "low",
+            "details": "Dominant emotion at 100.0%"
+          }
+        ],
+        "message_count": 3
+      },
+      "flags": [
+        {
+          "type": "topic_repetition",
+          "severity": "high",
+          "details": "Topic overlap: 66.7% (threshold: 40%)"
+        },
+        {
+          "type": "emotion_imbalance",
+          "severity": "low",
+          "details": "Dominant emotion at 100.0%"
+        },
+        {
+          "type": "emotion_imbalance",
+          "severity": "low",
+          "details": "Dominant emotion at 100.0%"
+        }
+      ],
+      "recommendations": [
+        "APPROVED: Content freshness is excellent."
+      ]
+    },
+    "ADV002": {
+      "advisor_id": "ADV002",
+      "freshness_score": 8.25,
+      "linkedin_analysis": {
+        "score": 7.0,
+        "flags": [
+          {
+            "type": "topic_repetition",
+            "severity": "high",
+            "details": "Topic overlap: 72.7% (threshold: 40%)"
+          },
+          {
+            "type": "data_point_reuse",
+            "severity": "medium",
+            "details": "18 repeated data points detected"
+          }
+        ],
+        "post_count": 3
+      },
+      "whatsapp_analysis": {
+        "score": 9.5,
+        "flags": [
+          {
+            "type": "emotion_imbalance",
+            "severity": "low",
+            "details": "Dominant emotion at 100.0%"
+          }
+        ],
+        "message_count": 3
+      },
+      "flags": [
+        {
+          "type": "topic_repetition",
+          "severity": "high",
+          "details": "Topic overlap: 72.7% (threshold: 40%)"
+        },
+        {
+          "type": "data_point_reuse",
+          "severity": "medium",
+          "details": "18 repeated data points detected"
+        },
+        {
+          "type": "emotion_imbalance",
+          "severity": "low",
+          "details": "Dominant emotion at 100.0%"
+        }
+      ],
+      "recommendations": [
+        "APPROVED: Content freshness is excellent."
+      ]
+    },
+    "ADV003": {
+      "advisor_id": "ADV003",
+      "freshness_score": 8.5,
+      "linkedin_analysis": {
+        "score": 7.0,
+        "flags": [
+          {
+            "type": "topic_repetition",
+            "severity": "high",
+            "details": "Topic overlap: 72.7% (threshold: 40%)"
+          },
+          {
+            "type": "data_point_reuse",
+            "severity": "medium",
+            "details": "17 repeated data points detected"
+          }
+        ],
+        "post_count": 3
+      },
+      "whatsapp_analysis": {
+        "score": 10.0,
+        "flags": [],
+        "message_count": 3
+      },
+      "flags": [
+        {
+          "type": "topic_repetition",
+          "severity": "high",
+          "details": "Topic overlap: 72.7% (threshold: 40%)"
+        },
+        {
+          "type": "data_point_reuse",
+          "severity": "medium",
+          "details": "17 repeated data points detected"
+        }
+      ],
+      "recommendations": [
+        "APPROVED: Content freshness is excellent."
+      ]
+    },
+    "ADV004": {
+      "advisor_id": "ADV004",
+      "freshness_score": 8.0,
+      "linkedin_analysis": {
+        "score": 6.5,
+        "flags": [
+          {
+            "type": "topic_repetition",
+            "severity": "medium",
+            "details": "Topic overlap: 44.4% (threshold: 40%)"
+          },
+          {
+            "type": "data_point_reuse",
+            "severity": "medium",
+            "details": "9 repeated data points detected"
+          },
+          {
+            "type": "emotion_imbalance",
+            "severity": "low",
+            "details": "Dominant emotion at 100.0%"
+          }
+        ],
+        "post_count": 3
+      },
+      "whatsapp_analysis": {
+        "score": 9.5,
+        "flags": [
+          {
+            "type": "emotion_imbalance",
+            "severity": "low",
+            "details": "Dominant emotion at 100.0%"
+          }
+        ],
+        "message_count": 3
+      },
+      "flags": [
+        {
+          "type": "topic_repetition",
+          "severity": "medium",
+          "details": "Topic overlap: 44.4% (threshold: 40%)"
+        },
+        {
+          "type": "data_point_reuse",
+          "severity": "medium",
+          "details": "9 repeated data points detected"
+        },
+        {
+          "type": "emotion_imbalance",
+          "severity": "low",
+          "details": "Dominant emotion at 100.0%"
+        },
+        {
+          "type": "emotion_imbalance",
+          "severity": "low",
+          "details": "Dominant emotion at 100.0%"
+        }
+      ],
+      "recommendations": [
+        "APPROVED: Content freshness is excellent."
+      ]
+    }
+  },
+  "overall_score": 8.3125,
+  "approved_count": 4,
+  "flagged_count": 0,
+  "distribution_status": "APPROVED"
+}

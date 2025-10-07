@@ -1,0 +1,2875 @@
+{
+  "config": {
+    "configFile": "/Users/shriyavallabh/Desktop/mvp/playwright.config.js",
+    "rootDir": "/Users/shriyavallabh/Desktop/mvp/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/shriyavallabh/Desktop/mvp/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/shriyavallabh/Desktop/mvp/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "signup-split-screen.spec.js",
+      "file": "signup-split-screen.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "SPLIT-SCREEN DESIGN TESTING",
+          "file": "signup-split-screen.spec.js",
+          "line": 6,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "Left Panel - Decorative Section",
+              "file": "signup-split-screen.spec.js",
+              "line": 14,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "001 - Left panel should exist and be visible",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3964,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:23.320Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-4e5687bc6b29ac23d5e7",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 15,
+                  "column": 5
+                },
+                {
+                  "title": "002 - Left panel should be 60% width on desktop",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 3890,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:23.314Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-bcabf8630dfc2e1174ac",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 19,
+                  "column": 5
+                },
+                {
+                  "title": "003 - Left panel should have gradient background",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 4124,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:23.309Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-660587f9b743775d5106",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 29,
+                  "column": 5
+                },
+                {
+                  "title": "004 - Logo section should exist",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 3844,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:23.331Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-16f3a8a1ef3f8bf2c124",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 36,
+                  "column": 5
+                },
+                {
+                  "title": "005 - Logo should have icon and text",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 3108,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:27.628Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-aa2ede73efaa8edb9190",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 40,
+                  "column": 5
+                },
+                {
+                  "title": "006 - Logo icon should be SVG chart design",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 3076,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:27.670Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-f9343faa99b2d4eeb8ea",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 46,
+                  "column": 5
+                },
+                {
+                  "title": "007 - Decorative shapes container should exist",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3209,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:27.750Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-4b77c95e60f946e3f829",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 51,
+                  "column": 5
+                },
+                {
+                  "title": "008 - Chat bubble 1 should exist and be visible",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 3302,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:27.912Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-23205e97390c4f5338cf",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 55,
+                  "column": 5
+                },
+                {
+                  "title": "009 - Chat bubble 1 should have green gradient",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 3364,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:30.751Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-8b2b517a1546f2694eef",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 59,
+                  "column": 5
+                },
+                {
+                  "title": "010 - Chat bubble 1 should show three dots",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 3336,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:30.780Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-cc3a9f40e78219627968",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 66,
+                  "column": 5
+                },
+                {
+                  "title": "011 - Chat bubble 2 should exist",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3259,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:30.976Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-26c3d0fe9aaedb5fd60d",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 73,
+                  "column": 5
+                },
+                {
+                  "title": "012 - Chat bubble 2 should be circular",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 3106,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:31.226Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-ba22b4150fc8b8d06528",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 77,
+                  "column": 5
+                },
+                {
+                  "title": "013 - Chart line should exist",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 3265,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:34.139Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-2522e9ec3d23b8f7bc09",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 84,
+                  "column": 5
+                },
+                {
+                  "title": "014 - Chart line should have gold/amber gradient",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 3239,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:34.142Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-d934b95c9a2f4d0531b7",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 88,
+                  "column": 5
+                },
+                {
+                  "title": "015 - Decorative shapes should have animations",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3247,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:34.256Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-90f729f7949562cdbea6",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 95,
+                  "column": 5
+                },
+                {
+                  "title": "017 - All shapes should have float animation",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 3257,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:34.344Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-a651ee0828cf7aa8e529",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 100,
+                  "column": 5
+                },
+                {
+                  "title": "018 - Testimonial card should exist",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 3163,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:37.400Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-ac0ed7e9bc503cdc3fd5",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 107,
+                  "column": 5
+                },
+                {
+                  "title": "019 - Testimonial card should have glass-morphism effect",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 3243,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:37.427Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-5336340a6fe2c070744d",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 111,
+                  "column": 5
+                },
+                {
+                  "title": "020 - Testimonial avatar should exist",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3251,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:37.525Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-d11481c3afc5d0b026bc",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 118,
+                  "column": 5
+                },
+                {
+                  "title": "021 - Testimonial avatar should show initials",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 3261,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:37.611Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-e7f330c89b461640a1b1",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 122,
+                  "column": 5
+                },
+                {
+                  "title": "022 - Testimonial should have name",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 3172,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:40.588Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-3e4f4fe9e7445d2f0b7a",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 127,
+                  "column": 5
+                },
+                {
+                  "title": "023 - Testimonial should have role and location",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 3281,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:40.697Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-06d3031207bbc4a98e12",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 132,
+                  "column": 5
+                },
+                {
+                  "title": "024 - Testimonial should have 5 stars",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3138,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:40.804Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-ce0206e3c5adc8867d71",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 138,
+                  "column": 5
+                },
+                {
+                  "title": "025 - Testimonial should have quote text",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 3257,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:40.886Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-44384876cf189d9958b5",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 143,
+                  "column": 5
+                },
+                {
+                  "title": "026 - Testimonial section is complete",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 3431,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:43.785Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-85024f4719ca04688217",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 147,
+                  "column": 5
+                },
+                {
+                  "title": "027 - Left panel should have proper spacing",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3400,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:43.962Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-0ec72667d524cd1bb6f8",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 151,
+                  "column": 5
+                },
+                {
+                  "title": "029 - Left panel should have vertical layout",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 3441,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:43.996Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-ad29fb7b5d32aa4322b0",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 158,
+                  "column": 5
+                },
+                {
+                  "title": "030 - Left panel should justify content with space-between",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 3340,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:44.153Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-12ca0f4348705e7d294a",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 165,
+                  "column": 5
+                }
+              ]
+            },
+            {
+              "title": "Right Panel - Form Section",
+              "file": "signup-split-screen.spec.js",
+              "line": 174,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "031 - Right panel should exist",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 3118,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:47.287Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-aba004dcbee5ade65ec2",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 175,
+                  "column": 5
+                },
+                {
+                  "title": "032 - Right panel should be 40% width",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3202,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:47.395Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-3293c1ee257b7f4027bb",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 179,
+                  "column": 5
+                },
+                {
+                  "title": "033 - Right panel should have white background",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 3339,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:47.453Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-5599ee30e2f058686320",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 189,
+                  "column": 5
+                },
+                {
+                  "title": "034 - Step indicator should exist",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 3211,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:47.584Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-791ba8a020f0fa09327b",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 196,
+                  "column": 5
+                },
+                {
+                  "title": "035 - Step indicator should show Step 1 of 3",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 3612,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:50.417Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-830ffd7b6751e5400ff1",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 200,
+                  "column": 5
+                },
+                {
+                  "title": "036 - Form header h2 should be large",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3399,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:50.627Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-bf4e91d07c08c3bb07b8",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 205,
+                  "column": 5
+                },
+                {
+                  "title": "037 - Form header should show \"Create your account\"",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 3239,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:50.809Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-e310d1cb88c1fd491024",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 212,
+                  "column": 5
+                },
+                {
+                  "title": "038 - Form header subtitle should exist",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 3424,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:50.815Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-f2cbec48aad351588a64",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 216,
+                  "column": 5
+                },
+                {
+                  "title": "039 - Full Name field should exist",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3224,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:54.043Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-6ccf7f9bf59079ce455d",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 220,
+                  "column": 5
+                },
+                {
+                  "title": "040 - Email field should exist with checkmark support",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "failed",
+                          "duration": 3341,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m0\u001b[39m",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n    at /Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js:227:35",
+                            "location": {
+                              "file": "/Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js",
+                              "column": 35,
+                              "line": 227
+                            },
+                            "snippet": "  225 |       await expect(page.locator('#email')).toBeVisible();\n  226 |       const check = page.locator('#email-check');\n> 227 |       expect(await check.count()).toBe(1);\n      |                                   ^\n  228 |     });\n  229 |\n  230 |     test('041 - Email validation checkmark should work', async ({ page }) => {"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js",
+                                "column": 35,
+                                "line": 227
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n\n  225 |       await expect(page.locator('#email')).toBeVisible();\n  226 |       const check = page.locator('#email-check');\n> 227 |       expect(await check.count()).toBe(1);\n      |                                   ^\n  228 |     });\n  229 |\n  230 |     test('041 - Email validation checkmark should work', async ({ page }) => {\n    at /Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js:227:35"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:54.067Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--0173c-xist-with-checkmark-support-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--0173c-xist-with-checkmark-support-chromium/video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--0173c-xist-with-checkmark-support-chromium/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js",
+                            "column": 35,
+                            "line": 227
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-914193a3c099dd71dd7d",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 224,
+                  "column": 5
+                },
+                {
+                  "title": "041 - Email validation checkmark should work",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "timedOut",
+                          "duration": 30435,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js",
+                                "column": 58,
+                                "line": 234
+                              },
+                              "message": "Error: locator.evaluate: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#email-check')\u001b[22m\n\n\n  232 |       await page.locator('#email').blur();\n  233 |       await page.waitForTimeout(100);\n> 234 |       const display = await page.locator('#email-check').evaluate(el =>\n      |                                                          ^\n  235 |         window.getComputedStyle(el).display\n  236 |       );\n  237 |       expect(display).toBe('block');\n    at /Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js:234:58"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:54.083Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--64c10-ation-checkmark-should-work-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--64c10-ation-checkmark-should-work-chromium/video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--64c10-ation-checkmark-should-work-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-929a968d4de4b55608cb",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 230,
+                  "column": 5
+                },
+                {
+                  "title": "042 - Phone field should have country code selector",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 4042,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:54.250Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-e1d8762b52bbb4200f9e",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 240,
+                  "column": 5
+                },
+                {
+                  "title": "043 - Country code should default to +91",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3451,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:57.298Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-31454bc72ae6ee87119c",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 244,
+                  "column": 5
+                },
+                {
+                  "title": "044 - Phone input should have special padding for country code",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 3746,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:58.691Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-f6e08a8189a470fa67ce",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 249,
+                  "column": 5
+                },
+                {
+                  "title": "045 - Password field should have strength indicator",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 1,
+                          "status": "failed",
+                          "duration": 8107,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#password-strength')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#password-strength')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#password-strength')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#password-strength')\u001b[22m\n\n    at /Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js:257:56",
+                            "location": {
+                              "file": "/Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js",
+                              "column": 56,
+                              "line": 257
+                            },
+                            "snippet": "  255 |\n  256 |     test('045 - Password field should have strength indicator', async ({ page }) => {\n> 257 |       await expect(page.locator('#password-strength')).toBeVisible();\n      |                                                        ^\n  258 |     });\n  259 |\n  260 |     test('046 - Password strength should show Weak initially', async ({ page }) => {"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js",
+                                "column": 56,
+                                "line": 257
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#password-strength')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#password-strength')\u001b[22m\n\n\n  255 |\n  256 |     test('045 - Password field should have strength indicator', async ({ page }) => {\n> 257 |       await expect(page.locator('#password-strength')).toBeVisible();\n      |                                                        ^\n  258 |     });\n  259 |\n  260 |     test('046 - Password strength should show Weak initially', async ({ page }) => {\n    at /Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js:257:56"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:01:58.307Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--d7944-uld-have-strength-indicator-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--d7944-uld-have-strength-indicator-chromium/video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--d7944-uld-have-strength-indicator-chromium/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js",
+                            "column": 56,
+                            "line": 257
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-eff9ce47e2aaa8f95ab7",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 256,
+                  "column": 5
+                },
+                {
+                  "title": "046 - Password strength should show Weak initially",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "timedOut",
+                          "duration": 30410,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js",
+                                "column": 61,
+                                "line": 261
+                              },
+                              "message": "Error: locator.textContent: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#password-strength')\u001b[22m\n\n\n  259 |\n  260 |     test('046 - Password strength should show Weak initially', async ({ page }) => {\n> 261 |       const text = await page.locator('#password-strength').textContent();\n      |                                                             ^\n  262 |       expect(text).toBe('Weak');\n  263 |     });\n  264 |\n    at /Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js:261:61"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:00.794Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--7d53d--should-show-Weak-initially-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--7d53d--should-show-Weak-initially-chromium/video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--7d53d--should-show-Weak-initially-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-f70d859a3d5529b40f80",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 260,
+                  "column": 5
+                },
+                {
+                  "title": "047 - Password strength should change to Medium",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "parallelIndex": 2,
+                          "status": "timedOut",
+                          "duration": 30271,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js",
+                                "column": 61,
+                                "line": 268
+                              },
+                              "message": "Error: locator.textContent: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#password-strength')\u001b[22m\n\n\n  266 |       await page.locator('#password').fill('password123');\n  267 |       await page.waitForTimeout(100);\n> 268 |       const text = await page.locator('#password-strength').textContent();\n      |                                                             ^\n  269 |       expect(text).toBe('Medium');\n  270 |     });\n  271 |\n    at /Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js:268:61"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:02.943Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--fec33-gth-should-change-to-Medium-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--fec33-gth-should-change-to-Medium-chromium/video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--fec33-gth-should-change-to-Medium-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-c8ccf079e2652c091dfe",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 265,
+                  "column": 5
+                },
+                {
+                  "title": "048 - Password strength should change to Strong",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "parallelIndex": 1,
+                          "status": "timedOut",
+                          "duration": 30610,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js",
+                                "column": 61,
+                                "line": 275
+                              },
+                              "message": "Error: locator.textContent: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#password-strength')\u001b[22m\n\n\n  273 |       await page.locator('#password').fill('StrongPass123!');\n  274 |       await page.waitForTimeout(100);\n> 275 |       const text = await page.locator('#password-strength').textContent();\n      |                                                             ^\n  276 |       expect(text).toBe('Strong');\n  277 |     });\n  278 |\n    at /Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js:275:61"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:07.728Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--883e0-gth-should-change-to-Strong-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--883e0-gth-should-change-to-Strong-chromium/video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--883e0-gth-should-change-to-Strong-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-25a85357b539961824f4",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 272,
+                  "column": 5
+                },
+                {
+                  "title": "049 - Checkbox for terms should exist",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 6,
+                          "parallelIndex": 3,
+                          "status": "failed",
+                          "duration": 8648,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#terms')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#terms')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#terms')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#terms')\u001b[22m\n\n    at /Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js:280:44",
+                            "location": {
+                              "file": "/Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js",
+                              "column": 44,
+                              "line": 280
+                            },
+                            "snippet": "  278 |\n  279 |     test('049 - Checkbox for terms should exist', async ({ page }) => {\n> 280 |       await expect(page.locator('#terms')).toBeVisible();\n      |                                            ^\n  281 |     });\n  282 |\n  283 |     test('050 - Terms checkbox should be required', async ({ page }) => {"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js",
+                                "column": 44,
+                                "line": 280
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#terms')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#terms')\u001b[22m\n\n\n  278 |\n  279 |     test('049 - Checkbox for terms should exist', async ({ page }) => {\n> 280 |       await expect(page.locator('#terms')).toBeVisible();\n      |                                            ^\n  281 |     });\n  282 |\n  283 |     test('050 - Terms checkbox should be required', async ({ page }) => {\n    at /Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js:280:44"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:26.096Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--24821-kbox-for-terms-should-exist-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--24821-kbox-for-terms-should-exist-chromium/video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--24821-kbox-for-terms-should-exist-chromium/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js",
+                            "column": 44,
+                            "line": 280
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-9b95ffaf78a87c495d23",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 279,
+                  "column": 5
+                },
+                {
+                  "title": "050 - Terms checkbox should be required",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 7,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 8227,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#terms')\nExpected: have attribute\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#terms')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#terms')\nExpected: have attribute\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#terms')\u001b[22m\n\n    at /Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js:284:44",
+                            "location": {
+                              "file": "/Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js",
+                              "column": 44,
+                              "line": 284
+                            },
+                            "snippet": "  282 |\n  283 |     test('050 - Terms checkbox should be required', async ({ page }) => {\n> 284 |       await expect(page.locator('#terms')).toHaveAttribute('required');\n      |                                            ^\n  285 |     });\n  286 |\n  287 |     test('051 - Terms text should have links', async ({ page }) => {"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js",
+                                "column": 44,
+                                "line": 284
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#terms')\nExpected: have attribute\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#terms')\u001b[22m\n\n\n  282 |\n  283 |     test('050 - Terms checkbox should be required', async ({ page }) => {\n> 284 |       await expect(page.locator('#terms')).toHaveAttribute('required');\n      |                                            ^\n  285 |     });\n  286 |\n  287 |     test('051 - Terms text should have links', async ({ page }) => {\n    at /Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js:284:44"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:32.273Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--5dbdf-checkbox-should-be-required-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "video",
+                              "contentType": "video/webm",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--5dbdf-checkbox-should-be-required-chromium/video.webm"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/Users/shriyavallabh/Desktop/mvp/test-results/signup-split-screen-SPLIT--5dbdf-checkbox-should-be-required-chromium/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/Users/shriyavallabh/Desktop/mvp/tests/signup-split-screen.spec.js",
+                            "column": 44,
+                            "line": 284
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-45c4e8bb9a5d93b80354",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 283,
+                  "column": 5
+                },
+                {
+                  "title": "051 - Terms text should have links",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 8,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 3891,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:34.433Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-9523c5151496f1f27647",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 287,
+                  "column": 5
+                },
+                {
+                  "title": "052 - Submit button should be amber/orange",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 9,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 3639,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:36.501Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-cfc25a65f1481611e85d",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 292,
+                  "column": 5
+                },
+                {
+                  "title": "053 - Submit button should say Create Account",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 8,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 3316,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:38.627Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-de6626c75d8a5b724b72",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 299,
+                  "column": 5
+                },
+                {
+                  "title": "054 - Divider should show \"Or\"",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 10,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 3587,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:39.611Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-250c6db4084d15254240",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 303,
+                  "column": 5
+                },
+                {
+                  "title": "055 - Social buttons container should use grid",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 9,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 3353,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:40.514Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-61e555080fadd5bb4b22",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 308,
+                  "column": 5
+                },
+                {
+                  "title": "056 - Google button should exist",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 11,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3798,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:42.344Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-20fbb52b48b49748017f",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 315,
+                  "column": 5
+                },
+                {
+                  "title": "057 - Google button should have icon",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 8,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 3461,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:41.972Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-206bdd7a24b70d02348f",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 320,
+                  "column": 5
+                },
+                {
+                  "title": "058 - LinkedIn button should exist",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 10,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 3241,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:43.556Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-056cfd1f6d5e17fde55a",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 325,
+                  "column": 5
+                },
+                {
+                  "title": "059 - LinkedIn button should have icon",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 9,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 3155,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:43.890Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-56706df06169a9682932",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 330,
+                  "column": 5
+                },
+                {
+                  "title": "060 - Sign in link should exist at bottom",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 8,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 3263,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:45.460Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-2dd78b935f3ba35a3168",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 335,
+                  "column": 5
+                },
+                {
+                  "title": "061 - Sign in link should have correct text",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 11,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3461,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:46.403Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-470acfa6c23d7a5c99bd",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 339,
+                  "column": 5
+                },
+                {
+                  "title": "062 - Sign in link should point to auth-dashboard",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 10,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 3233,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:46.863Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-eeb18567911ac7d8c46c",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 343,
+                  "column": 5
+                },
+                {
+                  "title": "063 - Form container should be centered",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 9,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 3505,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:47.066Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-cf35dd94dd8c0e36c3bf",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 347,
+                  "column": 5
+                },
+                {
+                  "title": "064 - Right panel should allow scroll",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 8,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 3464,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:48.743Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-462e13e92e6dad6c2c3b",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 354,
+                  "column": 5
+                },
+                {
+                  "title": "065 - All form inputs should have indigo focus color",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 11,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3778,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:49.923Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-8a81efc73b7391bed0b7",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 361,
+                  "column": 5
+                }
+              ]
+            },
+            {
+              "title": "Responsive Layout Tests",
+              "file": "signup-split-screen.spec.js",
+              "line": 371,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "066 - On tablet, layout should stack vertically",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 10,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 3600,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:50.133Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-f2eab00b08c70049ec35",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 372,
+                  "column": 5
+                },
+                {
+                  "title": "067 - On tablet, left panel should be full width",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 9,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 3380,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:50.585Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-df0564e1d72e8b580a0a",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 380,
+                  "column": 5
+                },
+                {
+                  "title": "068 - On tablet, right panel should be full width",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 8,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 3564,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:52.235Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-336c0f8257bee2659ea3",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 389,
+                  "column": 5
+                },
+                {
+                  "title": "069 - On mobile, social buttons should stack",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 11,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3194,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:53.737Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-60ab9ceef1be1b74cf6f",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 398,
+                  "column": 5
+                },
+                {
+                  "title": "070 - On mobile, form header should be smaller",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 10,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 3180,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:53.760Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-ef6cc4c09f6dc928863a",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 407,
+                  "column": 5
+                },
+                {
+                  "title": "071 - Testimonial should hide on tablet",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 9,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 3224,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:53.977Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-a094d34b7399c8c3b803",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 415,
+                  "column": 5
+                },
+                {
+                  "title": "072 - All elements should be visible on mobile",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 8,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 2983,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:55.818Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-8b1bd79db791c9577d3c",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 423,
+                  "column": 5
+                },
+                {
+                  "title": "073 - Form should not overflow on mobile",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 11,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 3010,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:56.955Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-d47b521eb27c83df8166",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 431,
+                  "column": 5
+                },
+                {
+                  "title": "074 - Left panel height should be 30vh on tablet",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 10,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 3002,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:56.958Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-5ff58a17764ce8a8fe8e",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 440,
+                  "column": 5
+                },
+                {
+                  "title": "075 - Right panel height should be 70vh on tablet",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 9,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 3029,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-07T02:02:57.212Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "24b59f3befa557e2ca08-8ce04ac0ac8cd011749f",
+                  "file": "signup-split-screen.spec.js",
+                  "line": 451,
+                  "column": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-10-07T02:01:22.660Z",
+    "duration": 97614.289,
+    "expected": 65,
+    "skipped": 0,
+    "unexpected": 8,
+    "flaky": 0
+  }
+}

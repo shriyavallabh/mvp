@@ -1,34 +1,12 @@
 {
-  "version": 2,
-  "outputDirectory": ".",
-  "routes": [
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "rewrites": [
     {
-      "src": "/dashboard",
-      "dest": "/public/dashboard.html"
-    },
-    {
-      "src": "/api/dashboard",
-      "dest": "/api/dashboard"
-    },
-    {
-      "src": "/api/image",
-      "dest": "/api/image"
-    },
-    {
-      "src": "/webhook",
-      "dest": "/api/webhook"
-    },
-    {
-      "src": "/privacy",
-      "dest": "/api/privacy"
-    },
-    {
-      "src": "/terms",
-      "dest": "/api/terms"
-    },
-    {
-      "src": "/health",
-      "dest": "/api/health"
+      "source": "/webhook",
+      "destination": "/api/webhook"
     }
   ]
 }

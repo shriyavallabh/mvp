@@ -135,7 +135,7 @@ Your content for today is ready! 🎉
 ✅ 3 WhatsApp messages
 ✅ 9 images (LinkedIn, WhatsApp, Status)
 
-Review here: https://jarvisdaily.in/content/${sessionId}
+Review here: https://jarvisdaily.com/content/${sessionId}
 
 Reply YES to approve and schedule delivery.
 

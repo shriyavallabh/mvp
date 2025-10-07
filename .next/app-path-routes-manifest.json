@@ -1,0 +1,9 @@
+{
+  "/api/webhook/route": "/api/webhook",
+  "/_not-found/page": "/_not-found",
+  "/api/dashboard/route": "/api/dashboard",
+  "/api/image/route": "/api/image",
+  "/page": "/",
+  "/signup/page": "/signup",
+  "/dashboard/page": "/dashboard"
+}

@@ -1,19 +1,37 @@
 {
-  "timestamp": "2025-09-19T11:35:22.805459",
-  "total_files": 131,
-  "compliant": 115,
-  "violations": [
-    "output/session_20250919_105507/whatsapp/ADV_004_final_viral_1_final.txt: Missing required documents disclaimer",
-    "output/session_20250919_105507/whatsapp/ARN_VIDYADHAR_002_grammy_5_grammy_complete.txt: Missing required documents disclaimer",
-    "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_5_grammy.txt: Missing required documents disclaimer",
-    "output/session_20250919_105507/whatsapp/ADV_005_grammy_5_grammy_complete.txt: Missing required documents disclaimer",
-    "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_1_enhanced.txt: Missing required documents disclaimer",
-    "output/session_20250919_105507/whatsapp/ADV_004_viral_1_whatsapp.txt: Missing required documents disclaimer",
-    "output/session_20250919_105507/whatsapp/ADV_004_grammy_5_grammy_complete.txt: Missing required documents disclaimer",
-    "output/session_20250919_105507/whatsapp/ADV_004_manual_viral_3_grammy.txt: Missing required documents disclaimer",
-    "output/session_20250919_105507/whatsapp/ADV_004_grammy_4_grammy_complete.txt: Missing required documents disclaimer",
-    "output/session_20250919_105507/whatsapp/ADV_004_grammy_viral_2_enhanced.txt: Missing required documents disclaimer"
+  "session_id": "session_1759798367",
+  "timestamp": "2025-10-07T07:29:21.237236",
+  "total_assets": 24,
+  "compliant": 12,
+  "rejected": 12,
+  "compliance_rate": 0.5,
+  "distribution_ready": false,
+  "compliant_assets": [
+    "linkedin/ADV001_post_1.txt",
+    "linkedin/ADV001_post_2.txt",
+    "linkedin/ADV001_post_3.txt",
+    "linkedin/ADV002_post_1.txt",
+    "linkedin/ADV002_post_2.txt",
+    "linkedin/ADV002_post_3.txt",
+    "linkedin/ADV003_post_1.txt",
+    "linkedin/ADV003_post_2.txt",
+    "linkedin/ADV003_post_3.txt",
+    "linkedin/ADV004_post_1.txt",
+    "linkedin/ADV004_post_2.txt",
+    "linkedin/ADV004_post_3.txt"
   ],
-  "compliance_score": 0.8778625954198473,
-  "status": "CONDITIONAL"
+  "rejected_assets": [
+    "whatsapp/ADV001_msg_1.txt",
+    "whatsapp/ADV001_msg_2.txt",
+    "whatsapp/ADV001_msg_3.txt",
+    "whatsapp/ADV002_msg_1.txt",
+    "whatsapp/ADV002_msg_2.txt",
+    "whatsapp/ADV002_msg_3.txt",
+    "whatsapp/ADV003_msg_1.txt",
+    "whatsapp/ADV003_msg_2.txt",
+    "whatsapp/ADV003_msg_3.txt",
+    "whatsapp/ADV004_msg_1.txt",
+    "whatsapp/ADV004_msg_2.txt",
+    "whatsapp/ADV004_msg_3.txt"
+  ]
 }

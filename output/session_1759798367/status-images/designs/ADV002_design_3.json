@@ -1,0 +1,85 @@
+{
+  "advisorId": "ADV002",
+  "advisorName": "Vidyadhar Petkar",
+  "designId": "ADV002_design_3",
+  "sessionId": "session_1759798367",
+  "timestamp": "2025-10-07T06:26:39Z",
+  "dimensions": "1080x1920",
+  "aspectRatio": "9:16",
+  "theme": "motivational",
+  "contentType": "Market Stability Insight",
+  "viralityScore": 8.2,
+  "viralityJustification": "Reassuring message + Data backing + Professional confidence = Trust building",
+
+  "headline": "DII ₹41.9K CR SUPPORT",
+  "subtext": "Offsetting FII Outflows",
+  "dataPoint": "₹41.9K Cr",
+  "dataContext": "Domestic Institutional Buying",
+  "callToAction": "Stay Invested, Stay Calm",
+  "secondaryMessage": "Retail + DII = Market Backbone",
+
+  "colors": {
+    "primary": "#2E8B57",
+    "secondary": "#228B22",
+    "accent": "#FFD700",
+    "background": "#0F2419",
+    "text": "#FFFFFF"
+  },
+
+  "typography": {
+    "headlineFont": "Roboto Bold",
+    "headlineSize": "96px",
+    "dataFont": "Montserrat Black",
+    "dataSize": "104px"
+  },
+
+  "layout": {
+    "composition": "reassurance_message",
+    "sections": [
+      {
+        "position": "top_20_percent",
+        "content": "DII ₹41.9K CR SUPPORT",
+        "fontSize": "96px",
+        "color": "#27AE60"
+      },
+      {
+        "position": "35_to_55_percent",
+        "content": "Large reassuring data point",
+        "dataValue": "₹41.9K Cr",
+        "fontSize": "104px",
+        "color": "#FFD700"
+      },
+      {
+        "position": "58_to_72_percent",
+        "content": "Explanation panel",
+        "bullets": [
+          "✅ Domestic flows absorbing FII selling",
+          "✅ 4.5Cr SIP investors creating stability",
+          "✅ Long-term India growth story intact"
+        ]
+      },
+      {
+        "position": "76_to_83_percent",
+        "content": "Stay Invested, Stay Calm",
+        "fontSize": "62px",
+        "color": "#228B22"
+      }
+    ]
+  },
+
+  "geminiPrompt": "Create reassuring WhatsApp Status (1080x1920):\n\nTHEME: Market Stability Message\n\nVISUAL:\n- Dark green bg (#0F2419)\n- Headline 'DII ₹41.9K CR SUPPORT' green 96px\n- Large data '₹41.9K Cr' gold 104px center\n- Three checkmarks:\n  ✅ Domestic flows absorbing FII selling\n  ✅ 4.5Cr SIP investors creating stability\n  ✅ Long-term India growth story intact\n- CTA 'Stay Invested, Stay Calm' 62px\n- Logo + tagline + ARN bottom\n\nSTYLE: Reassuring, data-backed confidence\nMOOD: Calm analytical reassurance",
+
+  "brandAssets": {
+    "logo": "/assets/logos/vidyadhar-petkar.png",
+    "tagline": "Your Financial Growth Partner",
+    "arn": "ARN-138924"
+  },
+
+  "qualityChecklist": {
+    "dimensions_correct": "1080x1920",
+    "virality_score": "8.2/10",
+    "mobile_optimized": true,
+    "brand_alignment": "Reassuring analytical",
+    "font_sizes_readable": "Headline 96px, Data 104px"
+  }
+}

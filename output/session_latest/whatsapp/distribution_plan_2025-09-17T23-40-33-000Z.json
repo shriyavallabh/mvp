@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-09-17T23-40-33-000Z",
+  "distribution_schedule": {
+    "immediate": {
+      "type": "urgent_alerts",
+      "messages": [
+        "tax_deadline",
+        "ipo_opportunity"
+      ],
+      "send_time": "now"
+    },
+    "morning_batch": {
+      "time": "8:00 AM",
+      "segments": [
+        "Premium",
+        "Gold",
+        "Silver"
+      ],
+      "message_types": [
+        "market_alert",
+        "educational",
+        "simple_update"
+      ]
+    },
+    "afternoon_batch": {
+      "time": "12:30 PM",
+      "segments": [
+        "Gold",
+        "Silver"
+      ],
+      "message_types": [
+        "goal_planning",
+        "beginner_tip"
+      ]
+    },
+    "evening_batch": {
+      "time": "6:00 PM",
+      "segments": [
+        "Premium"
+      ],
+      "message_types": [
+        "strategy",
+        "global_impact"
+      ]
+    }
+  },
+  "engagement_tracking": {
+    "expected_open_rate": "98%",
+    "expected_response_rate": "35%",
+    "cta_tracking": [
+      "PORTFOLIO",
+      "SIP",
+      "START",
+      "TAX",
+      "IPO"
+    ]
+  }
+}

@@ -4,16 +4,23 @@
   "description": "FinAdvise WhatsApp Webhook for Vercel",
   "main": "api/webhook.js",
   "scripts": {
-    "dev": "node test-server.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "deploy": "vercel --prod",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
     "test-content": "node scripts/generate-test-content.js",
     "send-notifications": "node scripts/send-aisensy.js",
     "daily-workflow": "node scripts/daily-automation.js",
-    "upload-images": "node scripts/upload-images-cloudinary.js",
-    "test-dashboard": "npm run test-content && npm run dev"
+    "upload-images": "node scripts/upload-images-cloudinary.js"
   },
   "dependencies": {
     "@anthropic-ai/claude-agent-sdk": "^0.1.1",
+    "@clerk/clerk-sdk-node": "^4.13.23",
+    "@clerk/nextjs": "^6.33.2",
     "axios": "^1.12.2",
     "cloudinary": "^2.7.0",
     "cors": "^2.8.5",
@@ -21,13 +28,21 @@
     "express": "^5.1.0",
     "form-data": "^4.0.4",
     "googleapis": "^160.0.0",
+    "next": "^15.5.4",
     "node-fetch": "^2.7.0",
     "node-schedule": "^2.1.1",
     "puppeteer": "^24.22.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "twilio": "^5.10.0",
     "ws": "^8.18.3"
   },
   "engines": {
     "node": "22.x"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/react": "19.2.0",
+    "typescript": "5.9.3"
   }
 }

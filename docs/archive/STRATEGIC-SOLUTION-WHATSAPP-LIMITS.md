@@ -49,7 +49,7 @@ Your personalized content for {{2}} is ready to view.
 • Client-ready posts
 
 Click below to access your content:
-[Button: "View My Content"] → https://jarvisdaily.in/content/{{3}}
+[Button: "View My Content"] → https://jarvisdaily.com/content/{{3}}
 
 This link expires in 24 hours.
 
@@ -69,7 +69,7 @@ JarvisDaily.in
 
 **URL Structure:**
 ```
-https://jarvisdaily.in/content/ADV003_20251003
+https://jarvisdaily.com/content/ADV003_20251003
 ```
 
 **Page Contents:**
@@ -109,7 +109,7 @@ Your daily content package for {{2}} is ready.
 
 Access your content:
 ```
-- **Button:** CTA URL → `https://jarvisdaily.in/c/{{3}}`
+- **Button:** CTA URL → `https://jarvisdaily.com/c/{{3}}`
 - **Footer:** `Valid for 24 hours • JarvisDaily.in`
 
 ### **Phase 2: Create Simple Content Viewer (30 min)**

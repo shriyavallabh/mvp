@@ -144,7 +144,7 @@ async function main() {
         console.log('\n🔜 Next steps:');
         console.log('   1. Deploy: vercel --prod');
         console.log('   2. Configure webhook in Meta');
-        console.log('   3. Test: curl https://jarvisdaily.in/api/webhook?hub.mode=subscribe&hub.challenge=test&hub.verify_token=finadvise-webhook-2024');
+        console.log('   3. Test: curl https://jarvisdaily.com/api/webhook?hub.mode=subscribe&hub.challenge=test&hub.verify_token=finadvise-webhook-2024');
     } else {
         console.log('\n⚠️  Some variables failed to set. Check errors above.');
     }

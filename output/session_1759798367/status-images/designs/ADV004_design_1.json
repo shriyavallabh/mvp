@@ -1,0 +1,197 @@
+{
+  "advisorId": "ADV004",
+  "advisorName": "Avalok Langer",
+  "designId": "ADV004_design_1",
+  "sessionId": "session_1759798367",
+  "timestamp": "2025-10-07T06:26:39Z",
+  "dimensions": "1080x1920",
+  "aspectRatio": "9:16",
+  "theme": "motivational",
+  "contentType": "SIP Revolution Motivational",
+  "viralityScore": 9.6,
+  "viralityJustification": "HISTORIC milestone + Join the movement CTA + Vibrant modern design + Beginner motivation = Maximum viral appeal",
+
+  "headline": "₹25,000 CRORE!",
+  "subtext": "MONTHLY SIP REVOLUTION 🚀",
+  "motivationalMessage": "Small Amounts. Big Dreams. Real Results.",
+  "dataPoint": "4.5 Cr",
+  "dataContext": "People Investing Every Month",
+  "callToAction": "START YOUR SIP TODAY",
+  "urgencyMessage": "Join the Movement!",
+
+  "colors": {
+    "primary": "#1A73E8",
+    "secondary": "#34A853",
+    "accent": "#FBBC04",
+    "urgency": "#EA4335",
+    "background": "#0A1929",
+    "text": "#FFFFFF"
+  },
+
+  "typography": {
+    "headlineFont": "Poppins ExtraBold",
+    "headlineSize": "110px",
+    "motivationalFont": "Poppins SemiBold",
+    "motivationalSize": "62px",
+    "dataFont": "Poppins Black",
+    "dataSize": "96px",
+    "ctaFont": "Poppins Bold",
+    "ctaSize": "68px"
+  },
+
+  "layout": {
+    "composition": "modern_vibrant_motivational",
+    "sections": [
+      {
+        "position": "top_16_percent",
+        "content": "₹25,000 CRORE! 🚀",
+        "alignment": "center",
+        "color": "#FBBC04",
+        "fontSize": "110px",
+        "weight": "extra_bold"
+      },
+      {
+        "position": "20_to_25_percent",
+        "content": "MONTHLY SIP REVOLUTION",
+        "alignment": "center",
+        "color": "#FFFFFF",
+        "fontSize": "58px"
+      },
+      {
+        "position": "28_to_38_percent",
+        "content": "HISTORIC!",
+        "alignment": "center",
+        "color": "#EA4335",
+        "fontSize": "88px",
+        "style": "bold_caps",
+        "background": "highlight_burst"
+      },
+      {
+        "position": "42_to_62_percent",
+        "content": "Visual impact numbers",
+        "sectionType": "stacked_stats",
+        "stats": [
+          {
+            "emoji": "👥",
+            "number": "4.5 CRORE",
+            "label": "People investing",
+            "color": "#34A853"
+          },
+          {
+            "emoji": "💰",
+            "number": "₹25,000 Cr",
+            "label": "Monthly SIPs",
+            "color": "#FBBC04"
+          },
+          {
+            "emoji": "✨",
+            "number": "SMALL → BIG",
+            "label": "Wealth journey",
+            "color": "#1A73E8"
+          }
+        ],
+        "fontSize": "56px"
+      },
+      {
+        "position": "65_to_75_percent",
+        "content": "Motivational tagline",
+        "text": "Small Amounts.\nBig Dreams.\nReal Results.",
+        "fontSize": "62px",
+        "color": "#FFFFFF",
+        "lineHeight": "1.3",
+        "alignment": "center",
+        "style": "bold_impactful"
+      },
+      {
+        "position": "78_to_86_percent",
+        "content": "START YOUR SIP TODAY 💪",
+        "alignment": "center",
+        "color": "#FFFFFF",
+        "fontSize": "68px",
+        "weight": "bold",
+        "background": "gradient_button",
+        "backgroundColors": ["#1A73E8", "#34A853"]
+      },
+      {
+        "position": "88_to_90_percent",
+        "content": "Join the revolution!",
+        "alignment": "center",
+        "color": "#FBBC04",
+        "fontSize": "52px"
+      },
+      {
+        "position": "92_to_97_percent",
+        "content": "branding_section",
+        "logo": "centered_100px",
+        "tagline": "Smart Investments, Secure Future",
+        "taglineSize": "40px",
+        "arn": "ARN-169741",
+        "arnSize": "30px"
+      }
+    ]
+  },
+
+  "visualElements": [
+    {
+      "type": "burst_effect",
+      "position": "behind_HISTORIC",
+      "color": "#EA4335",
+      "opacity": "0.2",
+      "style": "radial_rays"
+    },
+    {
+      "type": "gradient_button",
+      "for": "CTA",
+      "colors": ["#1A73E8", "#34A853"],
+      "borderRadius": "20px",
+      "padding": "24px"
+    },
+    {
+      "type": "emoji_icons",
+      "size": "64px",
+      "style": "colorful_modern"
+    },
+    {
+      "type": "background_gradient",
+      "startColor": "#0A1929",
+      "endColor": "#1A2F4A",
+      "direction": "diagonal"
+    }
+  ],
+
+  "brandAssets": {
+    "logo": "/assets/logos/avalok-langer.png",
+    "logoPosition": "bottom_center",
+    "logoSize": "100x100",
+    "tagline": "Smart Investments, Secure Future",
+    "arn": "ARN-169741"
+  },
+
+  "designPrinciples": {
+    "sophistication": "Modern casual - Instagram-style",
+    "motivationalPower": "Very High - Movement invitation",
+    "colorPsychology": "Blue (trust) + Green (growth) + Yellow (excitement) + Red (urgency)",
+    "whiteSpace": "30% for energy without clutter",
+    "hierarchy": "Headline → HISTORIC → Stats → Motivation → Strong CTA",
+    "mobileOptimized": true,
+    "thumbStoppingPower": "₹25K Cr number + HISTORIC burst + Rocket emoji + Vibrant colors"
+  },
+
+  "contentAlignment": {
+    "whatsappMessage": "ADV004_msg_1 - SIP revolution motivation",
+    "segmentFit": "Young professionals need motivation and peer validation",
+    "toneMatch": "Exciting, friendly, movement-building",
+    "ctaStyle": "Direct action with emoji"
+  },
+
+  "geminiPrompt": "Create a vibrant modern WhatsApp Status (1080x1920):\n\nTHEME: SIP Revolution - Join the Movement!\n\nVISUAL COMPOSITION:\n- Modern dark blue gradient bg (#0A1929 to #1A2F4A)\n- Top 16%: HUGE '₹25,000 CRORE! 🚀' in bright yellow (#FBBC04), 110px Poppins ExtraBold\n- 20-25%: 'MONTHLY SIP REVOLUTION' white 58px\n- 28-38%: Big red 'HISTORIC!' (#EA4335) 88px with burst effect background\n- 42-62%: Three stacked emoji stats:\n  👥 4.5 CRORE | People investing (green)\n  💰 ₹25,000 Cr | Monthly SIPs (yellow)\n  ✨ SMALL → BIG | Wealth journey (blue)\n  56px each\n- 65-75%: Motivational text centered:\n  Small Amounts.\n  Big Dreams.\n  Real Results.\n  62px bold white\n- 78-86%: Big CTA button 'START YOUR SIP TODAY 💪'\n  68px white on blue-to-green gradient background, rounded corners\n- 88-90%: 'Join the revolution!' yellow 52px\n- Bottom: Logo centered (100px), 'Smart Investments, Secure Future' 40px, ARN 30px\n\nDESIGN STYLE:\n- Vibrant Instagram-worthy modern design\n- Bright colors (blue, green, yellow, red)\n- Large emojis 64px\n- Energy and excitement\n- Mobile-first, thumb-stopping\n\nMOOD: Exciting, motivational, peer-validated, movement invitation\nFORMAT: Vertical 9:16, WhatsApp Status",
+
+  "qualityChecklist": {
+    "dimensions_correct": "1080x1920",
+    "virality_score": "9.6/10",
+    "mobile_optimized": true,
+    "brand_alignment": "Modern motivational",
+    "segment_fit": "Young professionals beginner energy",
+    "font_sizes_readable": "Headline 110px, CTA 68px, Body 56px minimum"
+  }
+}

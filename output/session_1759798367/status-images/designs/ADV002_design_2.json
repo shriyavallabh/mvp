@@ -1,0 +1,86 @@
+{
+  "advisorId": "ADV002",
+  "advisorName": "Vidyadhar Petkar",
+  "designId": "ADV002_design_2",
+  "sessionId": "session_1759798367",
+  "timestamp": "2025-10-07T06:26:39Z",
+  "dimensions": "1080x1920",
+  "aspectRatio": "9:16",
+  "theme": "educational",
+  "contentType": "Sector Rotation Analysis Chart",
+  "viralityScore": 8.5,
+  "viralityJustification": "Actionable sector data + Clear visual hierarchy + Rebalancing opportunity = High engagement",
+
+  "headline": "SECTOR ROTATION IN PLAY",
+  "subtext": "IT & Pharma Leading | Auto Lagging",
+  "dataPoint": "+2.3%",
+  "dataContext": "IT Sector Surge",
+  "callToAction": "Rebalance Your Portfolio",
+  "secondaryMessage": "Tactical Opportunity NOW",
+
+  "colors": {
+    "primary": "#2E8B57",
+    "secondary": "#228B22",
+    "positive": "#27AE60",
+    "negative": "#E74C3C",
+    "neutral": "#95A5A6",
+    "background": "#0D1F18",
+    "text": "#FFFFFF"
+  },
+
+  "typography": {
+    "headlineFont": "Roboto Bold",
+    "headlineSize": "92px",
+    "bodyFont": "Open Sans SemiBold",
+    "bodySize": "56px",
+    "dataFont": "Montserrat Bold",
+    "dataSize": "88px"
+  },
+
+  "layout": {
+    "composition": "horizontal_comparison_bars",
+    "sections": [
+      {
+        "position": "top_16_percent",
+        "content": "SECTOR ROTATION IN PLAY",
+        "alignment": "center",
+        "color": "#FFD700",
+        "fontSize": "92px"
+      },
+      {
+        "position": "25_to_70_percent",
+        "content": "Horizontal sector performance bars",
+        "visualType": "horizontal_bars",
+        "sectors": [
+          {"name": "IT", "change": "+2.3%", "color": "#27AE60", "width": "85%"},
+          {"name": "Pharma", "change": "+1.8%", "color": "#27AE60", "width": "70%"},
+          {"name": "Banking", "change": "+0.5%", "color": "#228B22", "width": "35%"},
+          {"name": "Auto", "change": "-0.5%", "color": "#E74C3C", "width": "30%"},
+          {"name": "Realty", "change": "-1.2%", "color": "#E74C3C", "width": "50%"}
+        ]
+      },
+      {
+        "position": "73_to_82_percent",
+        "content": "Rebalance Your Portfolio",
+        "fontSize": "58px",
+        "color": "#228B22"
+      }
+    ]
+  },
+
+  "geminiPrompt": "Create analytical WhatsApp Status (1080x1920):\n\nTHEME: Sector Rotation Analysis\n\nVISUAL:\n- Dark green bg (#0D1F18)\n- Headline 'SECTOR ROTATION IN PLAY' gold 92px\n- Horizontal bars showing:\n  IT +2.3% (green, longest)\n  Pharma +1.8% (green)\n  Banking +0.5% (light green)\n  Auto -0.5% (red)\n  Realty -1.2% (red)\n- CTA 'Rebalance Your Portfolio' 58px\n- Logo + 'Your Financial Growth Partner' + ARN bottom\n\nSTYLE: Clean analytical, color-coded performance, data-first\nMOOD: Tactical opportunity, analytical clarity",
+
+  "brandAssets": {
+    "logo": "/assets/logos/vidyadhar-petkar.png",
+    "tagline": "Your Financial Growth Partner",
+    "arn": "ARN-138924"
+  },
+
+  "qualityChecklist": {
+    "dimensions_correct": "1080x1920",
+    "virality_score": "8.5/10",
+    "mobile_optimized": true,
+    "brand_alignment": "Analytical sector focus",
+    "font_sizes_readable": "Headline 92px, Data 88px, Body 56px"
+  }
+}

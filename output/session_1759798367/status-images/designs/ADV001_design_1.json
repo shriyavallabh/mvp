@@ -1,0 +1,189 @@
+{
+  "advisorId": "ADV001",
+  "advisorName": "Shruti Petkar",
+  "designId": "ADV001_design_1",
+  "sessionId": "session_1759798367",
+  "timestamp": "2025-10-07T06:26:39Z",
+  "dimensions": "1080x1920",
+  "aspectRatio": "9:16",
+  "theme": "market_data",
+  "contentType": "Gold Rally Visualization",
+  "viralityScore": 9.8,
+  "viralityJustification": "Gold at $4000 is historic milestone + HNI portfolio urgency + data-rich visualization = thumb-stopping impact",
+
+  "headline": "GOLD TOUCHES $4000",
+  "subtext": "Historic Wealth Preservation Rally",
+  "dataPoint": "$3,955.90",
+  "dataContext": "+1.2% | 8-Year High",
+  "callToAction": "Portfolio Rebalancing Critical",
+  "secondaryMessage": "10-15% Gold Allocation Optimal for HNI Portfolios",
+
+  "colors": {
+    "primary": "#1B365D",
+    "secondary": "#0077B5",
+    "accent": "#FFD700",
+    "background": "#0A1628",
+    "text": "#FFFFFF",
+    "dataHighlight": "#FFD700"
+  },
+
+  "typography": {
+    "headlineFont": "Montserrat Bold",
+    "headlineSize": "110px",
+    "bodyFont": "Open Sans SemiBold",
+    "bodySize": "64px",
+    "dataFont": "Roboto Bold",
+    "dataSize": "96px",
+    "ctaFont": "Open Sans Bold",
+    "ctaSize": "52px",
+    "disclaimer": "Open Sans Regular",
+    "disclaimerSize": "36px"
+  },
+
+  "layout": {
+    "composition": "vertical_hierarchy",
+    "sections": [
+      {
+        "position": "top_20_percent",
+        "content": "GOLD TOUCHES $4000",
+        "alignment": "center",
+        "color": "#FFD700",
+        "fontSize": "110px",
+        "weight": "bold"
+      },
+      {
+        "position": "25_to_45_percent",
+        "content": "Large upward trending line chart showing gold price from $2000 to $3955.90",
+        "visualType": "chart",
+        "chartStyle": "clean_line_graph",
+        "accentColor": "#FFD700"
+      },
+      {
+        "position": "45_to_55_percent",
+        "content": "$3,955.90",
+        "alignment": "center",
+        "color": "#FFD700",
+        "fontSize": "96px",
+        "weight": "bold"
+      },
+      {
+        "position": "55_to_60_percent",
+        "content": "+1.2% | Nearing $4000 Milestone",
+        "alignment": "center",
+        "color": "#FFFFFF",
+        "fontSize": "48px"
+      },
+      {
+        "position": "62_to_72_percent",
+        "content": "HNI Portfolio Insight: 10-15% gold allocation optimal for wealth preservation + inflation hedge",
+        "alignment": "center",
+        "color": "#FFFFFF",
+        "fontSize": "52px",
+        "lineHeight": "1.4"
+      },
+      {
+        "position": "75_to_82_percent",
+        "content": "Book Portfolio Audit Today",
+        "alignment": "center",
+        "color": "#0077B5",
+        "fontSize": "56px",
+        "background": "subtle_gradient",
+        "weight": "bold"
+      },
+      {
+        "position": "88_to_95_percent",
+        "content": "branding_section",
+        "elements": [
+          {
+            "type": "logo",
+            "position": "bottom_center",
+            "size": "120px_height",
+            "opacity": "0.9"
+          },
+          {
+            "type": "tagline",
+            "text": "Building Wealth, Creating Trust",
+            "fontSize": "42px",
+            "color": "#FFFFFF",
+            "position": "below_logo"
+          },
+          {
+            "type": "arn",
+            "text": "ARN: ARN-125847",
+            "fontSize": "32px",
+            "color": "#CCCCCC",
+            "position": "bottom_right"
+          }
+        ]
+      }
+    ]
+  },
+
+  "visualElements": [
+    {
+      "type": "line_chart",
+      "data": "Gold price trend 3 months",
+      "style": "smooth_gradient_line",
+      "color": "#FFD700",
+      "glowEffect": true,
+      "gridLines": "minimal",
+      "xAxis": "hidden",
+      "yAxis": "subtle_white"
+    },
+    {
+      "type": "gradient_overlay",
+      "direction": "top_to_bottom",
+      "startColor": "#0A1628",
+      "endColor": "#1B365D",
+      "opacity": "0.85"
+    },
+    {
+      "type": "accent_bars",
+      "position": "left_right_edges",
+      "color": "#FFD700",
+      "width": "8px",
+      "opacity": "0.6"
+    }
+  ],
+
+  "brandAssets": {
+    "logo": "/assets/logos/shruti-petkar.png",
+    "logoPosition": "bottom_center",
+    "logoSize": "120x120",
+    "tagline": "Building Wealth, Creating Trust",
+    "taglinePosition": "below_logo",
+    "arn": "ARN-125847",
+    "arnPosition": "bottom_right"
+  },
+
+  "designPrinciples": {
+    "sophistication": "High - Executive premium aesthetic",
+    "dataRichness": "Advanced chart visualization",
+    "colorPsychology": "Navy blue (trust) + Gold (wealth) + Dark bg (premium)",
+    "whiteSpace": "40% for readability",
+    "hierarchy": "Clear top-down flow from headline to CTA",
+    "mobileOptimized": true,
+    "thumbStoppingPower": "Gold color + $4000 milestone + upward chart"
+  },
+
+  "contentAlignment": {
+    "whatsappMessage": "ADV001_msg_1 - Gold portfolio positioning",
+    "segmentFit": "HNI clients need sophisticated data visualization",
+    "toneMatch": "Professional, authoritative, data-forward",
+    "ctaStyle": "Consultative booking"
+  },
+
+  "geminiPrompt": "Create a professional WhatsApp Status image (1080x1920 pixels, 9:16 vertical):\n\nTHEME: Gold Rally to $4000 - HNI Portfolio Advisory\n\nVISUAL COMPOSITION:\n- Dark premium background (#0A1628 to #1B365D gradient)\n- Top 20%: Bold headline 'GOLD TOUCHES $4000' in gold color (#FFD700), 110px Montserrat Bold\n- Middle 25-45%: Clean upward trending line chart showing gold price surge from $2000 to $3955.90, gold gradient line with subtle glow\n- 45-55%: Large data point '$3,955.90' in 96px gold, center aligned\n- 55-60%: '+1.2% | Nearing $4000 Milestone' in white 48px\n- 62-72%: Professional insight text 'HNI Portfolio Insight: 10-15% gold allocation optimal for wealth preservation + inflation hedge' in white 52px\n- 75-82%: CTA 'Book Portfolio Audit Today' in blue (#0077B5), 56px bold with subtle background\n- Bottom 88-95%: Logo centered (120px), tagline 'Building Wealth, Creating Trust' below (42px white), ARN bottom-right (32px gray)\n\nDESIGN STYLE:\n- Sophisticated executive aesthetic\n- Clean data visualization with minimal grid\n- Navy blue (#1B365D) primary, gold (#FFD700) accents\n- High contrast for mobile viewing\n- Professional financial infographic\n- 40% white space for premium feel\n\nMOOD: Authoritative, premium, data-driven, wealth preservation focus\nFORMAT: Vertical 9:16, mobile-optimized, WhatsApp Status",
+
+  "qualityChecklist": {
+    "dimensions_correct": "1080x1920",
+    "virality_score": "9.8/10",
+    "mobile_optimized": true,
+    "brand_alignment": "Premium professional",
+    "segment_fit": "HNI data-driven",
+    "font_sizes_readable": "Headline 110px, Data 96px, Body 52px minimum",
+    "high_contrast": true,
+    "cta_clear": true,
+    "arn_compliance": true
+  }
+}

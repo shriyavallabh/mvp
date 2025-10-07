@@ -143,11 +143,11 @@ async function main() {
         console.log('      vercel --prod');
         console.log('');
         console.log('   2. Configure webhook in Meta:');
-        console.log('      URL: https://jarvisdaily.in/api/webhook');
+        console.log('      URL: https://jarvisdaily.com/api/webhook');
         console.log('      Token: finadvise-webhook-2024');
         console.log('');
         console.log('   3. Test webhook:');
-        console.log('      curl "https://jarvisdaily.in/api/webhook?hub.mode=subscribe&hub.challenge=test&hub.verify_token=finadvise-webhook-2024"');
+        console.log('      curl "https://jarvisdaily.com/api/webhook?hub.mode=subscribe&hub.challenge=test&hub.verify_token=finadvise-webhook-2024"');
         console.log('');
         console.log('   4. Create WhatsApp template:');
         console.log('      node create-template-meta-direct.js');

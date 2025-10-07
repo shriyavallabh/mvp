@@ -95,7 +95,7 @@ What's your investment strategy for the next 5 years?
   console.log(`📂 Location: ${sessionDir}`);
   console.log(`\n🌐 Test the dashboard:`);
   console.log(`   Local: http://localhost:3000/dashboard?phone=919765071249`);
-  console.log(`   Prod:  https://jarvisdaily.in/dashboard?phone=919765071249\n`);
+  console.log(`   Prod:  https://jarvisdaily.com/dashboard?phone=919765071249\n`);
 }
 
 // Run

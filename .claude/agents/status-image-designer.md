@@ -69,8 +69,8 @@ mkdir -p output/${SESSION_ID}/whatsapp-status
 
 ## 🌐 DOMAIN & BRANDING
 
-**Official Domain**: jarvisdaily.in
-**All URLs**: https://jarvisdaily.in
+**Official Domain**: jarvisdaily.com
+**All URLs**: https://jarvisdaily.com
 
 ## 🎨 ADVISOR BRAND CUSTOMIZATION
 

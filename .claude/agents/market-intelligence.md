@@ -86,8 +86,8 @@ const session = getSessionContext();
 
 ## 🌐 DOMAIN & BRANDING
 
-**Official Domain**: jarvisdaily.in (NOT finadvise.in)
-**All URLs must use**: https://jarvisdaily.in
+**Official Domain**: jarvisdaily.com (NOT finadvise.in)
+**All URLs must use**: https://jarvisdaily.com
 
 ## 🎨 ADVISOR CUSTOMIZATION
 
@@ -436,7 +436,7 @@ Smart money moved quietly. Retail investors missed it.
 Here's what Warikoo would say: 'The market rewards the informed, not the lucky.'
 
 Your move: [Specific actionable insight]
-Full analysis: jarvisdaily.in/market-insights
+Full analysis: jarvisdaily.com/market-insights
 
 #InvestSmart #MarketInsights #WealthCreation"
 ```
@@ -450,7 +450,7 @@ What it means for YOU:
 → Portfolio rebalancing signal
 → Entry points emerging
 
-Don't miss this: jarvisdaily.in
+Don't miss this: jarvisdaily.com
 
 #MarketPulse #TechStocks"
 ```
@@ -466,7 +466,7 @@ Key visual elements:
 - Top 3 actionable bullet points
 - Advisor logo overlay (bottom-right)
 - Brand colors customization
-- CTA: "Full analysis at jarvisdaily.in"
+- CTA: "Full analysis at jarvisdaily.com"
 - Risk-reward indicator
 
 Technical specs:

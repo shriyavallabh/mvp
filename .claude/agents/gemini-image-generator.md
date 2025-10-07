@@ -1,6 +1,6 @@
 ---
 name: gemini-image-generator
-description: Generates GRAMMY-LEVEL viral marketing images using Gemini 2.5 Flash API with runtime Python scripts, advisor branding, and proven visual hooks optimized for jarvisdaily.in
+description: Generates GRAMMY-LEVEL viral marketing images using Gemini 2.5 Flash API with runtime Python scripts, advisor branding, and proven visual hooks optimized for jarvisdaily.com
 model: claude-sonnet-4
 color: orange
 ---
@@ -65,9 +65,9 @@ mkdir -p output/${SESSION_ID}/images/branded
 
 ## 🌐 DOMAIN & BRANDING
 
-**Official Domain**: jarvisdaily.in (NOT finadvise.in)
-**All image URLs**: https://jarvisdaily.in/images/...
-**Portal Integration**: Images served from jarvisdaily.in portal
+**Official Domain**: jarvisdaily.com (NOT finadvise.in)
+**All image URLs**: https://jarvisdaily.com/images/...
+**Portal Integration**: Images served from jarvisdaily.com portal
 
 ## 🎨 ADVISOR BRAND CUSTOMIZATION
 

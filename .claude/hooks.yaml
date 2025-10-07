@@ -16,6 +16,10 @@ hooks:
   # ========================================
 
   pre-tool-use:
+    # Detect and announce Task tool agents (CRITICAL for /o audio)
+    - command: "node orchestration/hooks/detect-task-agent.js"
+      description: "🔊 Detect Task tool agent and announce start"
+
     # Initialize orchestration environment
     - command: "bash orchestration/hooks/pre-tool-setup.sh"
       description: "Setup directories and validate environment"
@@ -33,6 +37,10 @@ hooks:
   # ========================================
 
   post-tool-use:
+    # Detect and announce Task tool completion (CRITICAL for /o audio)
+    - command: "node orchestration/hooks/detect-task-agent.js --post"
+      description: "🔊 Detect Task tool completion and announce"
+
     # Process agent completion
     - command: "node orchestration/hooks/process-agent-completion.js"
       description: "Handle agent completion and trigger next actions"

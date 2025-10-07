@@ -64,7 +64,7 @@ Mutual fund investments are subject to market risks.
 **Button 1:**
 - **Type:** Call-to-Action (URL)
 - **Button Text:** `View Content`
-- **URL:** `https://jarvisdaily.in` (✅ STATIC - no variable!)
+- **URL:** `https://jarvisdaily.com` (✅ STATIC - no variable!)
 
 **Button 2:**
 - **Type:** Quick Reply
@@ -88,7 +88,7 @@ Mutual fund investments are subject to market risks.
 ❌ **Removed {{4}} URL variable** because:
 - AiSensy gives "invalid URL format" error with `{{variable}}` in URLs
 - WhatsApp template URL buttons don't reliably support dynamic parameters
-- Static URL works for all advisors: `https://jarvisdaily.in`
+- Static URL works for all advisors: `https://jarvisdaily.com`
 
 **Alternative:** We can add advisor-specific tracking in backend (URL params added via API call, not template)
 
@@ -218,7 +218,7 @@ Market-linked investments carry risks. Consult your financial advisor.
 **Button 1:**
 - **Type:** Call-to-Action (URL)
 - **Button Text:** `View All Posts`
-- **URL:** `https://jarvisdaily.in/linkedin` (✅ STATIC)
+- **URL:** `https://jarvisdaily.com/linkedin` (✅ STATIC)
 
 ---
 
@@ -240,7 +240,7 @@ Market-linked investments carry risks. Consult your financial advisor.
 
 ### **Template 1 (Daily Content Package V2):**
 - ❌ Removed: URL variable `{{4}}` (causes "invalid URL format" error)
-- ✅ Fixed: Static URL `https://jarvisdaily.in`
+- ✅ Fixed: Static URL `https://jarvisdaily.com`
 - ✅ Added: Quick Reply button "Get Next Update"
 - ✅ Reduced: 4 variables → 3 variables
 
@@ -250,7 +250,7 @@ Market-linked investments carry risks. Consult your financial advisor.
 - ✅ Already has Quick Reply button
 
 ### **Template 3 (LinkedIn Post):**
-- ✅ Changed: URL from dynamic to static `https://jarvisdaily.in/linkedin`
+- ✅ Changed: URL from dynamic to static `https://jarvisdaily.com/linkedin`
 - ✅ Kept: 5 variables (all in body text)
 
 ---
@@ -274,8 +274,8 @@ The `send-daily-templates.js` script will still work because:
 1. Button Type: `Call-to-Action` or `Visit Website`
 2. Button Text: `View Content` (Template 1) or `View All Posts` (Template 3)
 3. Button URL: Enter **complete URL with https://**
-   - Template 1: `https://jarvisdaily.in`
-   - Template 3: `https://jarvisdaily.in/linkedin`
+   - Template 1: `https://jarvisdaily.com`
+   - Template 3: `https://jarvisdaily.com/linkedin`
 4. **DO NOT add {{variable}} in URL field!**
 
 **For Quick Reply Button:**
@@ -297,7 +297,7 @@ The `send-daily-templates.js` script will still work because:
 - [ ] Body: Copy-pasted exactly (with emojis)
 - [ ] Footer: Copy-pasted exactly
 - [ ] Variables: {{1}}, {{2}}, {{3}} with samples
-- [ ] Button 1: CTA URL `https://jarvisdaily.in` (NO variable!)
+- [ ] Button 1: CTA URL `https://jarvisdaily.com` (NO variable!)
 - [ ] Button 2: Quick Reply `Get Next Update`
 
 **Template 2: daily_status_image**
@@ -318,7 +318,7 @@ The `send-daily-templates.js` script will still work because:
 - [ ] Body: Copy-pasted exactly
 - [ ] Footer: Copy-pasted exactly
 - [ ] Variables: {{1}}, {{2}}, {{3}}, {{4}}, {{5}} with samples
-- [ ] Button 1: CTA URL `https://jarvisdaily.in/linkedin` (NO variable!)
+- [ ] Button 1: CTA URL `https://jarvisdaily.com/linkedin` (NO variable!)
 
 ---
 
@@ -360,8 +360,8 @@ Try these alternatives:
 - Advisors can ask for content link via reply
 
 **Option 2: Use different URL format**
-- Try: `https://jarvisdaily.in/content`
-- Or: `https://jarvisdaily.in/advisor`
+- Try: `https://jarvisdaily.com/content`
+- Or: `https://jarvisdaily.com/advisor`
 
 **Option 3: Contact AiSensy Support**
 - Ask: "How to add dynamic parameter in URL button?"

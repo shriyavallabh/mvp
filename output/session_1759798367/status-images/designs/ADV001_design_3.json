@@ -1,0 +1,207 @@
+{
+  "advisorId": "ADV001",
+  "advisorName": "Shruti Petkar",
+  "designId": "ADV001_design_3",
+  "sessionId": "session_1759798367",
+  "timestamp": "2025-10-07T06:26:39Z",
+  "dimensions": "1080x1920",
+  "aspectRatio": "9:16",
+  "theme": "motivational",
+  "contentType": "Wealth Preservation Quote with Market Context",
+  "viralityScore": 8.5,
+  "viralityJustification": "Powerful positioning statement + Decade-long thinking + Premium aesthetic = HNI resonance",
+
+  "headline": "POSITIONING TODAY",
+  "subtext": "Determines Decade Returns",
+  "dataPoint": "10 YEARS",
+  "dataContext": "Strategic Horizon for HNI Wealth",
+  "callToAction": "Book Portfolio Audit",
+  "secondaryMessage": "Wealth Preservation + Inflation Hedge = Legacy Building",
+
+  "colors": {
+    "primary": "#1B365D",
+    "secondary": "#0077B5",
+    "accent": "#C9A063",
+    "background": "#0D1B2A",
+    "text": "#FFFFFF",
+    "quote": "#C9A063"
+  },
+
+  "typography": {
+    "headlineFont": "Playfair Display Bold",
+    "headlineSize": "96px",
+    "bodyFont": "Open Sans SemiBold",
+    "bodySize": "72px",
+    "dataFont": "Montserrat Bold",
+    "dataSize": "120px",
+    "quoteFont": "Merriweather Italic",
+    "quoteSize": "58px",
+    "disclaimer": "Open Sans Regular",
+    "disclaimerSize": "36px"
+  },
+
+  "layout": {
+    "composition": "centered_quote_style",
+    "sections": [
+      {
+        "position": "top_12_percent",
+        "content": "decorative_line",
+        "style": "thin_gold_line",
+        "width": "40%",
+        "color": "#C9A063"
+      },
+      {
+        "position": "15_to_28_percent",
+        "content": "POSITIONING TODAY",
+        "alignment": "center",
+        "color": "#C9A063",
+        "fontSize": "96px",
+        "fontFamily": "Playfair Display Bold",
+        "letterSpacing": "2px"
+      },
+      {
+        "position": "30_to_43_percent",
+        "content": "Determines Decade Returns",
+        "alignment": "center",
+        "color": "#FFFFFF",
+        "fontSize": "72px",
+        "fontFamily": "Open Sans SemiBold"
+      },
+      {
+        "position": "45_to_58_percent",
+        "content": "Large centered number",
+        "visualType": "large_number",
+        "number": "10",
+        "unit": "YEARS",
+        "color": "#0077B5",
+        "fontSize": "120px",
+        "style": "bold_prominent"
+      },
+      {
+        "position": "60_to_72_percent",
+        "content": "Strategic quote box",
+        "sectionType": "quote",
+        "quoteText": "\"In volatile markets, HNI portfolios require institutional-grade diversification. Gold, quality equity, and strategic rebalancing separate legacy builders from wealth preservers.\"",
+        "fontSize": "58px",
+        "fontStyle": "italic",
+        "color": "#FFFFFF",
+        "borderLeft": "4px solid #C9A063",
+        "padding": "left_40px"
+      },
+      {
+        "position": "75_to_83_percent",
+        "content": "Current market context",
+        "bullets": [
+          "📊 FII Selling: -₹1.27L Cr",
+          "💎 Gold: $4000 milestone",
+          "⚡ Rebalancing: NOW"
+        ],
+        "fontSize": "48px",
+        "color": "#FFFFFF",
+        "alignment": "center",
+        "spacing": "16px"
+      },
+      {
+        "position": "85_to_88_percent",
+        "content": "Book Portfolio Audit Today",
+        "alignment": "center",
+        "color": "#0077B5",
+        "fontSize": "56px",
+        "weight": "bold"
+      },
+      {
+        "position": "90_to_96_percent",
+        "content": "branding_section",
+        "elements": [
+          {
+            "type": "logo",
+            "position": "bottom_center",
+            "size": "110px_height"
+          },
+          {
+            "type": "tagline",
+            "text": "Building Wealth, Creating Trust",
+            "fontSize": "40px",
+            "color": "#FFFFFF"
+          },
+          {
+            "type": "arn",
+            "text": "ARN: ARN-125847",
+            "fontSize": "30px",
+            "color": "#CCCCCC",
+            "position": "bottom_right"
+          }
+        ]
+      }
+    ]
+  },
+
+  "visualElements": [
+    {
+      "type": "decorative_lines",
+      "positions": ["top", "dividers"],
+      "color": "#C9A063",
+      "thickness": "3px",
+      "style": "elegant_minimal"
+    },
+    {
+      "type": "subtle_pattern",
+      "pattern": "geometric_grid",
+      "opacity": "0.05",
+      "color": "#FFFFFF"
+    },
+    {
+      "type": "gradient_overlay",
+      "direction": "radial",
+      "centerColor": "#1B365D",
+      "edgeColor": "#0D1B2A",
+      "opacity": "0.8"
+    },
+    {
+      "type": "quote_accent",
+      "leftBorder": "4px solid gold",
+      "backgroundTint": "rgba(201, 160, 99, 0.1)"
+    }
+  ],
+
+  "brandAssets": {
+    "logo": "/assets/logos/shruti-petkar.png",
+    "logoPosition": "bottom_center",
+    "logoSize": "110x110",
+    "tagline": "Building Wealth, Creating Trust",
+    "taglinePosition": "below_logo",
+    "arn": "ARN-125847",
+    "arnPosition": "bottom_right"
+  },
+
+  "designPrinciples": {
+    "sophistication": "Very High - Quote-driven thought leadership",
+    "dataRichness": "Conceptual with supporting data points",
+    "colorPsychology": "Gold (premium/legacy) + Navy (trust) + Dark (sophistication)",
+    "whiteSpace": "45% for elegance",
+    "hierarchy": "Philosophy → Time horizon → Quote → Market context → CTA",
+    "mobileOptimized": true,
+    "thumbStoppingPower": "Elegant gold accents + Powerful positioning statement + Long-term thinking"
+  },
+
+  "contentAlignment": {
+    "whatsappMessage": "ADV001_msg_1 - 'Current positioning determines decade returns'",
+    "segmentFit": "HNI clients value long-term strategic thinking",
+    "toneMatch": "Authoritative, thought leadership, legacy focus",
+    "ctaStyle": "Premium consultation invitation"
+  },
+
+  "geminiPrompt": "Create an elegant WhatsApp Status image (1080x1920 pixels, 9:16 vertical):\n\nTHEME: Long-term Positioning Philosophy - HNI Thought Leadership\n\nVISUAL COMPOSITION:\n- Dark sophisticated background (#0D1B2A with radial gradient to #1B365D)\n- Top 12%: Decorative thin gold line, 40% width, centered\n- 15-28%: Headline 'POSITIONING TODAY' in elegant gold (#C9A063), 96px Playfair Display Bold, letter-spacing 2px\n- 30-43%: Subtext 'Determines Decade Returns' in white, 72px Open Sans SemiBold\n- 45-58%: Large bold number '10' with 'YEARS' below in blue (#0077B5), 120px Montserrat Bold\n- 60-72%: Italicized quote in white box with gold left border (4px):\n  \"In volatile markets, HNI portfolios require institutional-grade diversification. Gold, quality equity, and strategic rebalancing separate legacy builders from wealth preservers.\"\n  58px Merriweather Italic\n- 75-83%: Three bullet points centered:\n  📊 FII Selling: -₹1.27L Cr\n  💎 Gold: $4000 milestone\n  ⚡ Rebalancing: NOW\n  48px white\n- 85-88%: CTA 'Book Portfolio Audit Today' in blue (#0077B5), 56px bold\n- Bottom 90-96%: Logo centered (110px), tagline 'Building Wealth, Creating Trust' (40px), ARN bottom-right (30px)\n\nDESIGN STYLE:\n- Elegant thought leadership aesthetic\n- Gold accents for premium feel\n- Quote-driven with supporting data\n- Sophisticated serif + sans-serif mix\n- 45% white space for luxury feel\n- Subtle geometric pattern overlay (5% opacity)\n\nMOOD: Authoritative, sophisticated, long-term strategic, legacy-building\nFORMAT: Vertical 9:16, mobile-optimized, WhatsApp Status",
+
+  "qualityChecklist": {
+    "dimensions_correct": "1080x1920",
+    "virality_score": "8.5/10",
+    "mobile_optimized": true,
+    "brand_alignment": "Premium thought leadership",
+    "segment_fit": "HNI legacy and long-term focus",
+    "font_sizes_readable": "Headline 96px, Quote 58px, Data 120px",
+    "high_contrast": true,
+    "cta_clear": true,
+    "arn_compliance": true
+  }
+}

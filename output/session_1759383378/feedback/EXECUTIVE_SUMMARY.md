@@ -318,4 +318,4 @@
 
 *Feedback Processor Agent - Phase 7, Agent #14 of 14*
 *Session session_1759383378 - October 2, 2025*
-*Domain: jarvisdaily.in*
+*Domain: jarvisdaily.com*

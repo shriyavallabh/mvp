@@ -129,7 +129,7 @@ output/session_20251002_180551/images/status/
 ### 2. Distribution Controller
 **Input:** Branded images from Brand Customizer
 **Process:**
-- Upload to CDN (jarvisdaily.in/images/)
+- Upload to CDN (jarvisdaily.com/images/)
 - Generate WhatsApp-compatible URLs
 - Create delivery mappings per advisor
 - Schedule WhatsApp Status distribution

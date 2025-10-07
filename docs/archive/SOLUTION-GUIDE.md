@@ -47,7 +47,7 @@ If AiSensy restricts access, create a new test WABA:
 daily_content_unlock_v3
 Category: UTILITY
 Body: Hi {{1}}, your daily content package for {{2}} is ready!
-Button: [URL] View Content → https://jarvisdaily.in
+Button: [URL] View Content → https://jarvisdaily.com
 ```
 
 **Problem**: URL button doesn't open 24-hour window

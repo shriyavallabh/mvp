@@ -203,7 +203,7 @@
 **Agent**: fatigue-checker v1.0.0
 **Execution**: October 2, 2025, 12:22 PM IST
 **Pipeline**: FinAdvise 14-Agent Grammy-Level System
-**Domain**: jarvisdaily.in
+**Domain**: jarvisdaily.com
 
 ---
 

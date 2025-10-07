@@ -123,7 +123,7 @@ output/session_20251002_180551/images/status/
 - Confirm compliance elements
 
 ### 3. Distribution Preparation
-- Upload to CDN/image hosting (jarvisdaily.in)
+- Upload to CDN/image hosting (jarvisdaily.com)
 - Generate WhatsApp-compatible URLs
 - Create delivery mappings for each advisor
 - Test delivery via WhatsApp Status API

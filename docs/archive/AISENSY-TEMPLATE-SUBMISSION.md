@@ -44,7 +44,7 @@ Mutual fund investments are subject to market risks.
 ### **BUTTONS:**
 1. **Button Type:** Call-to-Action (CTA)
    - **Button Text:** "View Full Content"
-   - **URL:** `https://jarvisdaily.in/c/{{4}}`
+   - **URL:** `https://jarvisdaily.com/c/{{4}}`
 
 2. **Button Type:** Quick Reply
    - **Button Text:** "Send Next Update"
@@ -177,7 +177,7 @@ Market-linked investments carry risks. Consult your financial advisor.
 ### **BUTTONS:**
 1. **Button Type:** Call-to-Action (CTA)
    - **Button Text:** "View All Posts"
-   - **URL:** `https://jarvisdaily.in/linkedin`
+   - **URL:** `https://jarvisdaily.com/linkedin`
 
 ---
 

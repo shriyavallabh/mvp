@@ -712,7 +712,7 @@ All feedback and learning files saved to:
 ## CONTACT & SESSION INFO
 
 **Session ID**: session_1759383378
-**Domain**: jarvisdaily.in
+**Domain**: jarvisdaily.com
 **Pipeline**: FinAdvise 14-Agent Grammy-Level System
 **Execution Date**: October 2, 2025
 **Duration**: ~42 minutes (end-to-end)

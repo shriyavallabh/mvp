@@ -80,8 +80,8 @@ mkdir -p data/shared-memory/${SESSION_ID}
 
 ## 🌐 DOMAIN & BRANDING
 
-**Official Domain**: jarvisdaily.in (NOT finadvise.in)
-**All URLs**: https://jarvisdaily.in
+**Official Domain**: jarvisdaily.com (NOT finadvise.in)
+**All URLs**: https://jarvisdaily.com
 
 ## 🎨 ADVISOR CUSTOMIZATION
 

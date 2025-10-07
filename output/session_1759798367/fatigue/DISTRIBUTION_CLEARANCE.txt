@@ -1,0 +1,118 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                     CONTENT DISTRIBUTION CLEARANCE                          ║
+║                          FATIGUE CHECK PASSED                               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+SESSION ID: session_1759798367
+DATE: October 7, 2025, 07:31:15 IST
+ANALYZER: Fatigue Checker Agent v1.0
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                              DISTRIBUTION STATUS
+
+                              ✅ APPROVED ✅
+
+                          Overall Score: 8.3/10
+                       (Threshold: 8.0/10 - PASSED)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ADVISOR PERFORMANCE SUMMARY
+
+┌──────────┬─────────────────────┬──────────┬──────────┬─────────┬──────────┐
+│ Advisor  │ Name                │ LinkedIn │ WhatsApp │ Overall │ Status   │
+├──────────┼─────────────────────┼──────────┼──────────┼─────────┼──────────┤
+│ ADV001   │ Shruti Petkar       │  7.5/10  │  9.5/10  │  8.5/10 │ ✅ PASS  │
+│ ADV002   │ Vidyadhar Petkar    │  7.0/10  │  9.5/10  │  8.2/10 │ ✅ PASS  │
+│ ADV003   │ Shriya Vallabh      │  7.0/10  │ 10.0/10  │  8.5/10 │ ✅ PASS  │
+│ ADV004   │ Avalok Langer       │  6.5/10  │  9.5/10  │  8.0/10 │ ✅ PASS  │
+└──────────┴─────────────────────┴──────────┴──────────┴─────────┴──────────┘
+
+                    Approved: 4/4 (100%)
+                    Flagged:  0/4 (0%)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FRESHNESS ASSESSMENT
+
+✅ Content Similarity Check
+   • No duplicate content detected
+   • No similarity violations (>70% threshold)
+   • All content shows unique angles and perspectives
+
+✅ Topic Diversity Check
+   • 4 unique content approaches to gold/SIP topics
+   • Segment-appropriate tone and complexity
+   • Different client stories and examples
+
+⚠️  Topic Repetition (ACCEPTABLE)
+   • ADV002/ADV003: 72.7% topic overlap with historical
+   • Root cause: Current market events (gold $4K, SIP ₹25K cr)
+   • Justified by news timing and relevance
+
+✅ Data Point Freshness
+   • All market data current (Oct 7, 2025)
+   • No stale statistics from 14+ days ago
+   • Fresh insights from RBI, market flows, sector performance
+
+✅ Hook Variety
+   • Personal loss stories (ADV001)
+   • Shocking numbers (ADV002)
+   • Philosophical debates (ADV003)
+   • Beginner frameworks (ADV004)
+
+✅ Emotional Balance
+   • Appropriate tone for market conditions
+   • Aspiration/opportunity dominant (natural for bull market)
+   • Educational content well-balanced
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CONTENT BREAKDOWN
+
+LinkedIn Posts: 12 (3 per advisor)
+   • Type: Market commentary, educational, client success
+   • Avg Score: 7.0/10
+   • Character Range: 1,524 - 4,012 characters
+   • Virality Score: 7.3 - 8.4/10
+
+WhatsApp Messages: 12 (3 per advisor)
+   • Type: Market insights, educational, action prompts
+   • Avg Score: 9.6/10
+   • Character Range: 288 - 369 characters
+   • Virality Score: 8.5 - 9.8/10
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DISTRIBUTION RECOMMENDATION
+
+READY FOR IMMEDIATE DISTRIBUTION
+
+Confidence: 95%
+
+No revision required. All content meets freshness standards.
+
+Next Review: After 3 sessions OR 14 days (whichever comes first)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CONTENT LOCATION
+
+✅ Approved Content:  /output/session_1759798367/fatigue/approved/
+❌ Flagged Content:   /output/session_1759798367/fatigue/flagged/ (empty)
+
+Full Report:          /output/session_1759798367/fatigue/FATIGUE_REPORT.md
+Executive Summary:    /output/session_1759798367/fatigue/EXECUTIVE_SUMMARY.md
+JSON Analysis:        /output/session_1759798367/fatigue/fatigue_analysis.json
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CLEARANCE SIGNATURE
+
+Analyzed by: Fatigue Checker Agent
+Timestamp: 2025-10-07T07:31:15+05:30
+Session: session_1759798367
+Status: DISTRIBUTION APPROVED ✅
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

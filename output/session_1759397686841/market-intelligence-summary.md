@@ -47,7 +47,7 @@
 💰 BREAKING: Tech stocks just rewrote the rulebook. TCS +4.8%, Infosys +3.2%, and the entire IT sector exploded 2.8% today. But here's the 3-minute story Wall Street doesn't want you to know...
 
 ### WhatsApp Message
-🚨 Historic market move! IT sector +2.8% - biggest jump in 3 months. TCS, Infosys leading. What it means: Portfolio rebalancing signal, tech stocks outperforming, entry points emerging. Full analysis: jarvisdaily.in
+🚨 Historic market move! IT sector +2.8% - biggest jump in 3 months. TCS, Infosys leading. What it means: Portfolio rebalancing signal, tech stocks outperforming, entry points emerging. Full analysis: jarvisdaily.com
 
 ### Status Image Prompt
 Financial market infographic: Bold headline "IT SECTOR EXPLOSION +2.8%" with TCS +4.8%, Infosys +3.2% highlighted. Sector heatmap showing IT (green), Pharma (light green), Auto (red). Include "Smart Money: FII ₹3,200cr inflows". Professional blue-gold color scheme, modern design, 1080x1920 portrait.

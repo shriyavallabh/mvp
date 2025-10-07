@@ -179,7 +179,7 @@ async function sendContentPackage(advisor) {
     if (messages.length === 0) {
         messages.push({
             type: "notification",
-            content: `Hi ${advisor.name},\n\nYour content is being prepared. Please contact the admin for delivery.\n\n📧 Support: jarvisdaily.in`
+            content: `Hi ${advisor.name},\n\nYour content is being prepared. Please contact the admin for delivery.\n\n📧 Support: jarvisdaily.com`
         });
     }
 

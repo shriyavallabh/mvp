@@ -325,7 +325,7 @@ Agent handoff complete. Ready for:
 
 ## 📞 CONTACT & SUPPORT
 
-**Domain**: jarvisdaily.in
+**Domain**: jarvisdaily.com
 **Agent Version**: market-intelligence v2.0
 **Session ID**: session_1759383378
 **Execution Date**: October 2, 2025

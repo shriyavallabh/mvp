@@ -1,0 +1,198 @@
+{
+  "advisorId": "ADV001",
+  "advisorName": "Shruti Petkar",
+  "designId": "ADV001_design_2",
+  "sessionId": "session_1759798367",
+  "timestamp": "2025-10-07T06:26:39Z",
+  "dimensions": "1080x1920",
+  "aspectRatio": "9:16",
+  "theme": "educational",
+  "contentType": "Portfolio Diversification Infographic",
+  "viralityScore": 8.7,
+  "viralityJustification": "FII outflows create urgency + Portfolio rebalancing necessity + Clean data visualization = actionable HNI insight",
+
+  "headline": "FII EXODUS: ₹1.27L CR",
+  "subtext": "Smart HNI Money Rebalancing NOW",
+  "dataPoint": "-$15.46B",
+  "dataContext": "FII Outflows 2025 | DII Absorbing",
+  "callToAction": "Diversification Critical",
+  "secondaryMessage": "Current Positioning Determines Decade Returns",
+
+  "colors": {
+    "primary": "#1B365D",
+    "secondary": "#0077B5",
+    "accent": "#E74C3C",
+    "positive": "#27AE60",
+    "background": "#0F1B2E",
+    "text": "#FFFFFF",
+    "dataHighlight": "#E74C3C"
+  },
+
+  "typography": {
+    "headlineFont": "Montserrat Bold",
+    "headlineSize": "100px",
+    "bodyFont": "Open Sans SemiBold",
+    "bodySize": "58px",
+    "dataFont": "Roboto Bold",
+    "dataSize": "88px",
+    "ctaFont": "Open Sans Bold",
+    "ctaSize": "64px",
+    "disclaimer": "Open Sans Regular",
+    "disclaimerSize": "36px"
+  },
+
+  "layout": {
+    "composition": "split_data_comparison",
+    "sections": [
+      {
+        "position": "top_15_percent",
+        "content": "FII EXODUS: ₹1.27L CR",
+        "alignment": "center",
+        "color": "#E74C3C",
+        "fontSize": "100px",
+        "weight": "bold"
+      },
+      {
+        "position": "18_to_22_percent",
+        "content": "Smart HNI Money Rebalancing NOW",
+        "alignment": "center",
+        "color": "#FFFFFF",
+        "fontSize": "52px"
+      },
+      {
+        "position": "25_to_65_percent",
+        "content": "Two-column comparison chart",
+        "visualType": "comparison_bars",
+        "leftColumn": {
+          "label": "FII SELLING",
+          "value": "-$15.46B",
+          "color": "#E74C3C",
+          "icon": "downward_arrow"
+        },
+        "rightColumn": {
+          "label": "DII BUYING",
+          "value": "+₹41.9K Cr",
+          "color": "#27AE60",
+          "icon": "upward_arrow"
+        }
+      },
+      {
+        "position": "67_to_78_percent",
+        "content": "Optimal HNI Allocation",
+        "sectionType": "pie_chart_allocation",
+        "data": [
+          {"segment": "Quality Largecaps", "percentage": "40%", "color": "#0077B5"},
+          {"segment": "Gold/Hedge", "percentage": "15%", "color": "#FFD700"},
+          {"segment": "Debt/Stability", "percentage": "25%", "color": "#95A5A6"},
+          {"segment": "Tactical Sectors", "percentage": "20%", "color": "#9B59B6"}
+        ]
+      },
+      {
+        "position": "80_to_85_percent",
+        "content": "DIVERSIFICATION CRITICAL",
+        "alignment": "center",
+        "color": "#0077B5",
+        "fontSize": "64px",
+        "weight": "bold",
+        "background": "highlight_box"
+      },
+      {
+        "position": "88_to_95_percent",
+        "content": "branding_section",
+        "elements": [
+          {
+            "type": "logo",
+            "position": "bottom_center",
+            "size": "120px_height"
+          },
+          {
+            "type": "tagline",
+            "text": "Building Wealth, Creating Trust",
+            "fontSize": "42px",
+            "color": "#FFFFFF"
+          },
+          {
+            "type": "arn",
+            "text": "ARN: ARN-125847",
+            "fontSize": "32px",
+            "color": "#CCCCCC",
+            "position": "bottom_right"
+          }
+        ]
+      }
+    ]
+  },
+
+  "visualElements": [
+    {
+      "type": "comparison_bars",
+      "leftBar": {
+        "label": "FII SELLING",
+        "value": "$15.46B",
+        "color": "#E74C3C",
+        "direction": "downward",
+        "height": "70%"
+      },
+      "rightBar": {
+        "label": "DII BUYING",
+        "value": "₹41.9K Cr",
+        "color": "#27AE60",
+        "direction": "upward",
+        "height": "70%"
+      }
+    },
+    {
+      "type": "pie_chart",
+      "segments": 4,
+      "style": "modern_donut",
+      "centerText": "HNI Portfolio",
+      "showPercentages": true
+    },
+    {
+      "type": "gradient_background",
+      "colors": ["#0F1B2E", "#1B365D"],
+      "direction": "diagonal"
+    }
+  ],
+
+  "brandAssets": {
+    "logo": "/assets/logos/shruti-petkar.png",
+    "logoPosition": "bottom_center",
+    "logoSize": "120x120",
+    "tagline": "Building Wealth, Creating Trust",
+    "taglinePosition": "below_logo",
+    "arn": "ARN-125847",
+    "arnPosition": "bottom_right"
+  },
+
+  "designPrinciples": {
+    "sophistication": "High - Data comparison infographic",
+    "dataRichness": "Dual visualization (bars + pie chart)",
+    "colorPsychology": "Red (urgency/selling) vs Green (opportunity/buying)",
+    "whiteSpace": "35% for clarity",
+    "hierarchy": "Problem (FII) → Opportunity (DII) → Solution (Allocation)",
+    "mobileOptimized": true,
+    "thumbStoppingPower": "Red warning color + Large contrarian data + Visual comparison"
+  },
+
+  "contentAlignment": {
+    "whatsappMessage": "ADV001_msg_1 - FII selling + rebalancing urgency",
+    "segmentFit": "HNI clients understand institutional flows",
+    "toneMatch": "Professional urgency with data-backed solution",
+    "ctaStyle": "Implicit (diversification message)"
+  },
+
+  "geminiPrompt": "Create a professional WhatsApp Status image (1080x1920 pixels, 9:16 vertical):\n\nTHEME: FII Exodus vs DII Support - HNI Portfolio Rebalancing Advisory\n\nVISUAL COMPOSITION:\n- Dark premium background (#0F1B2E to #1B365D diagonal gradient)\n- Top 15%: Bold headline 'FII EXODUS: ₹1.27L CR' in red (#E74C3C), 100px Montserrat Bold\n- 18-22%: Subtext 'Smart HNI Money Rebalancing NOW' in white 52px\n- Middle 25-65%: Side-by-side comparison bars:\n  LEFT: Red downward bar, 'FII SELLING -$15.46B' with down arrow\n  RIGHT: Green upward bar, 'DII BUYING +₹41.9K Cr' with up arrow\n- 67-78%: Clean donut chart showing 'Optimal HNI Allocation':\n  40% Quality Largecaps (blue)\n  15% Gold/Hedge (gold)\n  25% Debt/Stability (gray)\n  20% Tactical Sectors (purple)\n- 80-85%: Bold CTA 'DIVERSIFICATION CRITICAL' in blue (#0077B5), 64px with highlight box\n- Bottom 88-95%: Logo centered, tagline 'Building Wealth, Creating Trust' (42px), ARN bottom-right (32px)\n\nDESIGN STYLE:\n- Sophisticated data infographic\n- Red vs green contrast for selling vs buying\n- Clean comparison visualization\n- Professional HNI advisory aesthetic\n- High contrast for mobile\n\nMOOD: Urgent but strategic, data-driven, contrarian positioning\nFORMAT: Vertical 9:16, mobile-optimized, WhatsApp Status",
+
+  "qualityChecklist": {
+    "dimensions_correct": "1080x1920",
+    "virality_score": "8.7/10",
+    "mobile_optimized": true,
+    "brand_alignment": "Premium professional data-driven",
+    "segment_fit": "HNI institutional flow awareness",
+    "font_sizes_readable": "Headline 100px, Data 88px, CTA 64px",
+    "high_contrast": true,
+    "cta_clear": true,
+    "arn_compliance": true
+  }
+}

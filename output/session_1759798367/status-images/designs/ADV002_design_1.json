@@ -1,0 +1,210 @@
+{
+  "advisorId": "ADV002",
+  "advisorName": "Vidyadhar Petkar",
+  "designId": "ADV002_design_1",
+  "sessionId": "session_1759798367",
+  "timestamp": "2025-10-07T06:26:39Z",
+  "dimensions": "1080x1920",
+  "aspectRatio": "9:16",
+  "theme": "market_data",
+  "contentType": "SIP Milestone Data Visualization",
+  "viralityScore": 9.5,
+  "viralityJustification": "Historic ₹25K Cr SIP milestone + 4.5Cr investors validation + Clean analytical charts = Maximum viral impact",
+
+  "headline": "₹25,000 CRORE MONTHLY!",
+  "subtext": "Historic SIP Milestone Achieved",
+  "dataPoint": "₹25,000 Cr",
+  "dataContext": "4.5 Crore Investors | First Time Ever",
+  "callToAction": "Optimize Your SIP Strategy",
+  "secondaryMessage": "Retail Flows Creating Market Stability",
+
+  "colors": {
+    "primary": "#2E8B57",
+    "secondary": "#228B22",
+    "accent": "#FFD700",
+    "background": "#0A2F1F",
+    "text": "#FFFFFF",
+    "dataHighlight": "#FFD700",
+    "chartGreen": "#27AE60"
+  },
+
+  "typography": {
+    "headlineFont": "Roboto Bold",
+    "headlineSize": "100px",
+    "bodyFont": "Open Sans SemiBold",
+    "bodySize": "60px",
+    "dataFont": "Montserrat Black",
+    "dataSize": "92px",
+    "ctaFont": "Open Sans Bold",
+    "ctaSize": "58px",
+    "disclaimer": "Open Sans Regular",
+    "disclaimerSize": "36px"
+  },
+
+  "layout": {
+    "composition": "analytical_data_focused",
+    "sections": [
+      {
+        "position": "top_18_percent",
+        "content": "₹25,000 CRORE MONTHLY! 🚀",
+        "alignment": "center",
+        "color": "#FFD700",
+        "fontSize": "100px",
+        "weight": "bold"
+      },
+      {
+        "position": "20_to_24_percent",
+        "content": "Historic SIP Milestone Achieved",
+        "alignment": "center",
+        "color": "#FFFFFF",
+        "fontSize": "54px"
+      },
+      {
+        "position": "26_to_60_percent",
+        "content": "Growth chart visualization",
+        "visualType": "bar_chart_progression",
+        "data": [
+          {"month": "Jan", "value": "19000", "label": "₹19K Cr"},
+          {"month": "Mar", "value": "21500", "label": "₹21.5K Cr"},
+          {"month": "Jun", "value": "23000", "label": "₹23K Cr"},
+          {"month": "Oct", "value": "25000", "label": "₹25K Cr", "highlight": true}
+        ],
+        "chartStyle": "ascending_bars",
+        "accentColor": "#27AE60",
+        "highlightColor": "#FFD700"
+      },
+      {
+        "position": "62_to_78_percent",
+        "content": "Key insights panel",
+        "sectionType": "data_bullets",
+        "bullets": [
+          {
+            "icon": "👥",
+            "label": "Investors",
+            "value": "4.5 Crore",
+            "context": "Growing monthly"
+          },
+          {
+            "icon": "📈",
+            "label": "DII Support",
+            "value": "₹41.9K Cr",
+            "context": "Offsetting FII outflows"
+          },
+          {
+            "icon": "✅",
+            "label": "Strategy",
+            "value": "VALIDATED",
+            "context": "By millions"
+          }
+        ],
+        "fontSize": "50px",
+        "layout": "vertical_stacked"
+      },
+      {
+        "position": "80_to_86_percent",
+        "content": "Optimize Your SIP Strategy",
+        "alignment": "center",
+        "color": "#228B22",
+        "fontSize": "58px",
+        "weight": "bold",
+        "background": "subtle_highlight"
+      },
+      {
+        "position": "88_to_95_percent",
+        "content": "branding_section",
+        "elements": [
+          {
+            "type": "logo",
+            "position": "bottom_center",
+            "size": "120px_height"
+          },
+          {
+            "type": "tagline",
+            "text": "Your Financial Growth Partner",
+            "fontSize": "42px",
+            "color": "#FFFFFF"
+          },
+          {
+            "type": "arn",
+            "text": "ARN: ARN-138924",
+            "fontSize": "32px",
+            "color": "#CCCCCC",
+            "position": "bottom_right"
+          }
+        ]
+      }
+    ]
+  },
+
+  "visualElements": [
+    {
+      "type": "bar_chart",
+      "bars": 4,
+      "style": "modern_ascending",
+      "colors": ["#27AE60", "#27AE60", "#27AE60", "#FFD700"],
+      "lastBarHighlight": true,
+      "showValues": true,
+      "animation": "growth_feel"
+    },
+    {
+      "type": "data_callouts",
+      "style": "clean_boxes",
+      "iconSize": "48px",
+      "valueSize": "64px",
+      "labelSize": "42px"
+    },
+    {
+      "type": "gradient_background",
+      "startColor": "#0A2F1F",
+      "endColor": "#1A4D2E",
+      "direction": "diagonal_top_left"
+    },
+    {
+      "type": "accent_elements",
+      "upward_arrows": true,
+      "color": "#27AE60",
+      "style": "subtle_growth_indicators"
+    }
+  ],
+
+  "brandAssets": {
+    "logo": "/assets/logos/vidyadhar-petkar.png",
+    "logoPosition": "bottom_center",
+    "logoSize": "120x120",
+    "tagline": "Your Financial Growth Partner",
+    "taglinePosition": "below_logo",
+    "arn": "ARN-138924",
+    "arnPosition": "bottom_right"
+  },
+
+  "designPrinciples": {
+    "sophistication": "Analytical professional",
+    "dataRichness": "High - Chart + multiple data points",
+    "colorPsychology": "Green (growth/validation) + Gold (milestone achievement)",
+    "whiteSpace": "35% for data clarity",
+    "hierarchy": "Headline → Visual proof (chart) → Supporting data → CTA",
+    "mobileOptimized": true,
+    "thumbStoppingPower": "₹25K Cr number + Upward trending chart + Rocket emoji"
+  },
+
+  "contentAlignment": {
+    "whatsappMessage": "ADV002_msg_1 - SIP milestone validation",
+    "segmentFit": "Analytical clients appreciate data visualization",
+    "toneMatch": "Growth-focused, data-driven with explanatory context",
+    "ctaStyle": "Optimization consultation"
+  },
+
+  "geminiPrompt": "Create a professional analytical WhatsApp Status image (1080x1920 pixels, 9:16 vertical):\n\nTHEME: SIP Milestone Achievement - Data Visualization\n\nVISUAL COMPOSITION:\n- Dark green background (#0A2F1F to #1A4D2E diagonal gradient)\n- Top 18%: Bold headline '₹25,000 CRORE MONTHLY! 🚀' in gold (#FFD700), 100px Roboto Bold\n- 20-24%: Subtext 'Historic SIP Milestone Achieved' in white 54px\n- Middle 26-60%: Ascending bar chart showing SIP growth:\n  4 bars: Jan (₹19K), Mar (₹21.5K), Jun (₹23K), Oct (₹25K - HIGHLIGHTED GOLD)\n  Green bars (#27AE60), last bar gold (#FFD700)\n  Values labeled above each bar\n  Clean grid, minimal axes\n- 62-78%: Three data insight boxes stacked vertically:\n  👥 Investors: 4.5 Crore | Growing monthly\n  📈 DII Support: ₹41.9K Cr | Offsetting FII outflows\n  ✅ Strategy: VALIDATED | By millions\n  50px font, icon + value + context format\n- 80-86%: CTA 'Optimize Your SIP Strategy' in green (#228B22), 58px bold with subtle highlight\n- Bottom 88-95%: Logo centered (120px), tagline 'Your Financial Growth Partner' (42px), ARN bottom-right (32px)\n\nDESIGN STYLE:\n- Clean analytical aesthetic\n- Data-first approach\n- Green color scheme for growth\n- Gold accent for milestone achievement\n- Professional charts with clear labels\n\nMOOD: Analytical validation, growth-focused, data-driven confidence\nFORMAT: Vertical 9:16, mobile-optimized, WhatsApp Status",
+
+  "qualityChecklist": {
+    "dimensions_correct": "1080x1920",
+    "virality_score": "9.5/10",
+    "mobile_optimized": true,
+    "brand_alignment": "Analytical growth-focused",
+    "segment_fit": "Gold segment data appreciation",
+    "font_sizes_readable": "Headline 100px, Data 92px, Body 50px minimum",
+    "high_contrast": true,
+    "cta_clear": true,
+    "arn_compliance": true
+  }
+}

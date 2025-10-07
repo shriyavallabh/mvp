@@ -19,7 +19,7 @@ Great job! You've finished:
 **Go to Vercel Dashboard:**
 https://vercel.com/dashboard
 
-1. Find your project (the one with jarvisdaily.in domain)
+1. Find your project (the one with jarvisdaily.com domain)
 2. Click on it
 3. Go to **Settings** tab
 4. Click **Environment Variables** in left menu
@@ -81,10 +81,10 @@ vercel --prod
 **Expected Output:**
 ```
 🔍 Inspect: https://vercel.com/...
-✅ Production: https://jarvisdaily.in [copied to clipboard]
+✅ Production: https://jarvisdaily.com [copied to clipboard]
 ```
 
-✅ **Your webhook URL is:** `https://jarvisdaily.in/api/webhook`
+✅ **Your webhook URL is:** `https://jarvisdaily.com/api/webhook`
 
 ---
 
@@ -100,7 +100,7 @@ https://developers.facebook.com/apps/100088701756168/whatsapp-business/wa-settin
 
 ```
 Callback URL:
-https://jarvisdaily.in/api/webhook
+https://jarvisdaily.com/api/webhook
 
 Verify Token:
 finadvise-webhook-2024
@@ -129,7 +129,7 @@ finadvise-webhook-2024
 ### STEP 4: Test Webhook (1 min)
 
 ```bash
-curl "https://jarvisdaily.in/api/webhook?hub.mode=subscribe&hub.challenge=test123&hub.verify_token=finadvise-webhook-2024"
+curl "https://jarvisdaily.com/api/webhook?hub.mode=subscribe&hub.challenge=test123&hub.verify_token=finadvise-webhook-2024"
 ```
 
 **Expected Response:** `test123`
@@ -226,7 +226,7 @@ Before calling it done:
 
 ### Webhook verification fails
 ```
-1. Double-check URL: https://jarvisdaily.in/api/webhook
+1. Double-check URL: https://jarvisdaily.com/api/webhook
 2. Double-check token: finadvise-webhook-2024
 3. Redeploy: vercel --prod
 4. Wait 30 seconds
@@ -268,7 +268,7 @@ Vercel Dashboard:
 https://vercel.com/dashboard
 
 Webhook URL:
-https://jarvisdaily.in/api/webhook
+https://jarvisdaily.com/api/webhook
 ```
 
 **Your Credentials (already set in .env):**

@@ -4,9 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**JarvisDaily** (jarvisdaily.in) - WhatsApp-based Grammy-level viral content distribution system for financial advisors. Generates 8.0+ virality content using optimized AI agents and delivers via AiSensy WhatsApp platform.
+**JarvisDaily** (jarvisdaily.com) - WhatsApp-based Grammy-level viral content distribution system for financial advisors. Generates 8.0+ virality content using optimized AI agents and delivers via AiSensy WhatsApp platform.
 
-**Official Domain**: jarvisdaily.in
+**Official Domain**: jarvisdaily.com
 **WhatsApp Provider**: AiSensy (₹999/month)
 **Content Standard**: Grammy/Oscar-level (minimum 8.0/10 virality score)
 **Current Status**: Optimized with 10 core agents, archived test files
