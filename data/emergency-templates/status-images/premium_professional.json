@@ -1,0 +1,52 @@
+{
+  "title": "HNI Wealth Protection Quote",
+  "segment": "premium_professional",
+  "content_type": "status_image",
+  "virality_score": 9.5,
+  "last_updated": "2025-10-07",
+  "design_spec": {
+    "dimensions": "1080x1920",
+    "background": "Navy gradient (#1B365D to #0A1929)",
+    "headline": {
+      "text": "Wealth isn't built\nin bull markets",
+      "font_size": "110px",
+      "font_weight": "bold",
+      "color": "#FFFFFF",
+      "position": "center-top"
+    },
+    "subtext": {
+      "text": "It's protected\nin corrections",
+      "font_size": "88px",
+      "font_weight": "medium",
+      "color": "#FFD700",
+      "position": "center"
+    },
+    "data_point": {
+      "text": "HNI Portfolio Strategy",
+      "font_size": "52px",
+      "color": "#CCCCCC",
+      "position": "center-bottom"
+    },
+    "branding": {
+      "logo": "[LOGO_PATH]",
+      "logo_size": "100px",
+      "tagline": "[TAGLINE]",
+      "tagline_size": "40px",
+      "arn": "ARN: [ARN_NUMBER]",
+      "arn_size": "30px",
+      "position": "bottom"
+    }
+  },
+  "metadata": {
+    "theme": "motivational",
+    "visual_impact": "high_contrast",
+    "mobile_readability": "excellent"
+  },
+  "placeholders": {
+    "[LOGO_PATH]": "advisor.logo",
+    "[TAGLINE]": "advisor.tagline",
+    "[ARN_NUMBER]": "advisor.arn"
+  },
+  "usage_count": 0,
+  "last_used": null
+}

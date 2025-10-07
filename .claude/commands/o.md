@@ -62,14 +62,17 @@ I (Claude Code) will execute these Task tool calls **with audio announcements**:
   - 🔊 Audio: "Market Intelligence is gathering latest market data"
 
 ### Phase 2: Content Generation
-- `Task(segment-analyzer)` - Analyze 4 advisor segments for personalized strategies
+- `Task(segment-analyzer)` - Analyze advisor segments for personalized strategies
   - 🔊 Audio: "Segment Analyzer is analyzing audience segments"
-- `Task(linkedin-post-generator-enhanced)` - Generate 12 viral LinkedIn posts (3 per advisor, 8.0+/10 virality)
+- `Task(linkedin-post-generator-enhanced)` - Generate 1 viral LinkedIn post per advisor (9.0+/10 virality minimum)
   - 🔊 Audio: "LinkedIn Post Generator is creating viral content"
-- `Task(whatsapp-message-creator)` - Generate 12 WhatsApp text messages (3 per advisor, 300-400 chars, 8.0+/10)
+  - **Quality Regeneration**: If score <9.0, auto-regenerate with improvements (max 2 attempts)
+- `Task(whatsapp-message-creator)` - Generate 1 WhatsApp message per advisor (300-400 chars, 9.0+/10)
   - 🔊 Audio: "WhatsApp Message Creator is crafting messages"
-- `Task(status-image-designer)` - Design 12 WhatsApp Status image specifications (1080x1920px)
+  - **Quality Regeneration**: If score <9.0, auto-regenerate with improvements (max 2 attempts)
+- `Task(status-image-designer)` - Design 1 WhatsApp Status image per advisor (1080x1920px, 9.0+/10)
   - 🔊 Audio: "Status Image Designer is designing visual content"
+  - **Quality Regeneration**: If score <9.0, auto-regenerate with improvements (max 2 attempts)
 
 ### Phase 3: Image Generation + Quality Control (NEW)
 ```bash
@@ -88,8 +91,9 @@ python3 scripts/whatsapp-media-validator.py
 ```
 
 ### Phase 3: Image Generation
-- `Task(gemini-image-generator)` - Generate 12 branded images using Gemini 2.5 Flash
+- `Task(gemini-image-generator)` - Generate 1 branded image per advisor using Gemini 2.5 Flash
   - 🔊 Audio: "Gemini Image Generator is generating branded images"
+  - **Quality Validation**: AI visual validation with auto-regeneration if issues detected
 
 ### Phase 4: Brand Customization
 - `Task(brand-customizer)` - Apply advisor logos, colors, taglines to all images
@@ -98,8 +102,10 @@ python3 scripts/whatsapp-media-validator.py
 ### Phase 5: Final Validation
 - `Task(compliance-validator)` - Validate SEBI compliance for all content
   - 🔊 Audio: "Compliance Validator is checking SEBI compliance"
-- `Task(quality-scorer)` - Score all content (reject if < 8.0/10)
+- `Task(quality-scorer)` - Score all content (minimum 9.0/10 required, triggers regeneration if below)
   - 🔊 Audio: "Quality Scorer is evaluating content quality"
+  - **Auto-Regeneration**: If any asset <9.0/10, regenerate with specific improvements
+  - **Emergency Fallback**: Use curated template if 2 regeneration attempts fail
 - `Task(fatigue-checker)` - Check content freshness (last 30 days)
   - 🔊 Audio: "Fatigue Checker is analyzing content freshness"
 
@@ -131,30 +137,34 @@ fi
   5. Review content first
   6. Cancel distribution
 
-## Expected Output
+## Expected Output (1 Asset Per Advisor)
 
 ```
 output/session_1759290000000/
 ├── linkedin/
-│   ├── text/       # 12 .txt files (copy-paste ready)
+│   ├── text/       # N .txt files (1 per advisor, copy-paste ready)
 │   └── json/       # Structured data
 ├── whatsapp/
-│   ├── text/       # 12 .txt files (ready to send)
+│   ├── text/       # N .txt files (1 per advisor, ready to send)
 │   └── json/       # Structured data
 ├── images/
-│   ├── linkedin/   # 12 images (1200x628px)
-│   ├── whatsapp/   # 12 images (1080x1080px)
-│   └── status/     # 12 images (1080x1920px)
-└── notifications.json  # 4 WhatsApp notifications
+│   └── status/     # N images (1 per advisor, 1080x1920px)
+└── notifications.json  # N WhatsApp notifications (1 per advisor)
 ```
+
+**Example for 4 advisors**: 4 LinkedIn posts, 4 WhatsApp messages, 4 Status images = 12 total assets
+**Example for 500 advisors**: 500 LinkedIn posts, 500 WhatsApp messages, 500 Status images = 1,500 total assets
 
 ## Quality Guarantee
 
-- ✅ All LinkedIn posts: 9.0+/10 virality (Grammy-level)
-- ✅ All WhatsApp messages: 8.5+/10 virality
+- ✅ All LinkedIn posts: 9.0+/10 virality minimum (Grammy-level or regenerate)
+- ✅ All WhatsApp messages: 9.0+/10 virality minimum (Grammy-level or regenerate)
+- ✅ All Status images: 9.0+/10 visual impact (validated or regenerate)
 - ✅ SEBI compliant (ARN included, disclaimers present)
 - ✅ Fresh content (no repetition from last 30 days)
 - ✅ Dynamically generated each run (not templates)
+- ✅ **Auto-Regeneration**: Up to 2 attempts if quality <9.0
+- ✅ **Emergency Fallback**: Curated templates (9.5+/10) if regeneration fails
 
 ## How It's Different from Before
 

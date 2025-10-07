@@ -1,0 +1,49 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - heading "JarvisDaily" [level=1] [ref=e5]:
+        - img [ref=e6]
+        - text: JarvisDaily
+      - generic [ref=e15]: • • •
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e20]: VP
+          - generic [ref=e21]:
+            - heading "Vidya Patel" [level=3] [ref=e22]
+            - paragraph [ref=e23]: Financial Advisor, Mumbai
+        - generic [ref=e24]: ★★★★★
+        - paragraph [ref=e25]: "\"JarvisDaily significantly boosted my client engagement.\""
+    - generic [ref=e27]:
+      - generic [ref=e28]: Step 1 of 3
+      - generic [ref=e29]:
+        - heading "Create your account" [level=2] [ref=e30]
+        - paragraph [ref=e31]: Start generating viral content in under 2 minutes
+      - paragraph [ref=e34]: Creating your account...
+      - generic [ref=e35]: Or
+      - generic [ref=e36]:
+        - button "Google" [ref=e37] [cursor=pointer]:
+          - img [ref=e38]
+          - text: Google
+        - button "LinkedIn" [ref=e43] [cursor=pointer]:
+          - img [ref=e44]
+          - text: LinkedIn
+      - generic [ref=e46]:
+        - text: Already have an account?
+        - link "Sign in" [ref=e47] [cursor=pointer]:
+          - /url: /auth-dashboard
+  - generic [ref=e52] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e53]:
+      - img [ref=e54]
+    - generic [ref=e57]:
+      - button "Open issues overlay" [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e60]: "0"
+          - generic [ref=e61]: "1"
+        - generic [ref=e62]: Issue
+      - button "Collapse issues badge" [ref=e63]:
+        - img [ref=e64]
+  - alert [ref=e66]
+```

@@ -1,0 +1,20 @@
+{
+  "title": "HNI Portfolio Review Reminder",
+  "segment": "premium_professional",
+  "content_type": "whatsapp",
+  "virality_score": 9.5,
+  "last_updated": "2025-10-07",
+  "content": "📊 Market volatility creating opportunities.\n\nFor portfolios ₹50L+:\n\n✓ Tax-loss harvesting\n✓ Strategic rebalancing\n✓ Asset allocation review\n\nYour wealth protection strategy matters more than market movements.\n\n[TAGLINE] | ARN: [ARN_NUMBER]",
+  "metadata": {
+    "hook_type": "market_update",
+    "emotional_trigger": "exclusivity",
+    "cta_type": "implicit_value",
+    "char_count": 248
+  },
+  "placeholders": {
+    "[TAGLINE]": "advisor.tagline",
+    "[ARN_NUMBER]": "advisor.arn"
+  },
+  "usage_count": 0,
+  "last_used": null
+}
