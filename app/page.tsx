@@ -1,12 +1,87 @@
+'use client'
+
 import Link from 'next/link'
-import { SignInButton, SignedIn, SignedOut } from '@clerk/nextjs'
+import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
+import { useState } from 'react'
 
 export default function LandingPage() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#1a1f3a] via-[#243057] to-[#1a1f3a] text-white">
+      {/* Navigation Header */}
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#1a1f3a]/95 backdrop-blur-sm border-b border-white/10">
+        <div className="max-w-7xl mx-auto px-6 py-4">
+          <div className="flex items-center justify-between">
+            <Link href="/" className="flex items-center space-x-2">
+              <div className="w-8 h-8 bg-[#FFB800] rounded-lg flex items-center justify-center">
+                <span className="text-[#1a1f3a] font-bold text-xl">J</span>
+              </div>
+              <span className="text-xl font-bold">JarvisDaily</span>
+            </Link>
+
+            <div className="hidden md:flex items-center space-x-8">
+              <a href="#home" className="text-gray-300 hover:text-white transition">Home</a>
+              <a href="#features" className="text-gray-300 hover:text-white transition">Features</a>
+              <a href="#pricing" className="text-gray-300 hover:text-white transition">Pricing</a>
+            </div>
+
+            <div className="flex items-center space-x-4">
+              {/* Mobile Menu Button */}
+              <button
+                className="md:hidden text-white"
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              >
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  {mobileMenuOpen ? (
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  ) : (
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                  )}
+                </svg>
+              </button>
+              <SignedOut>
+                <SignInButton mode="modal">
+                  <button className="bg-[#FFB800] hover:bg-[#E5A600] text-black font-semibold px-6 py-2 rounded-lg transition">
+                    Sign In
+                  </button>
+                </SignInButton>
+              </SignedOut>
+              <SignedIn>
+                <Link href="/dashboard">
+                  <button className="bg-[#FFB800] hover:bg-[#E5A600] text-black font-semibold px-6 py-2 rounded-lg transition">
+                    Dashboard
+                  </button>
+                </Link>
+                <UserButton />
+              </SignedIn>
+            </div>
+          </div>
+
+          {/* Mobile Menu */}
+          {mobileMenuOpen && (
+            <div className="md:hidden mt-4 pb-4 border-t border-white/10 pt-4">
+              <div className="flex flex-col space-y-4">
+                <a href="#home" className="text-gray-300 hover:text-white transition" onClick={() => setMobileMenuOpen(false)}>Home</a>
+                <a href="#features" className="text-gray-300 hover:text-white transition" onClick={() => setMobileMenuOpen(false)}>Features</a>
+                <a href="#pricing" className="text-gray-300 hover:text-white transition" onClick={() => setMobileMenuOpen(false)}>Pricing</a>
+              </div>
+            </div>
+          )}
+        </div>
+      </nav>
+
       {/* Hero Section */}
-      <section className="relative pt-20 pb-16 px-6">
-        <div className="max-w-7xl mx-auto">
+      <section id="home" className="relative pt-32 pb-16 px-6 overflow-hidden">
+        {/* Starfield Background */}
+        <div className="absolute inset-0">
+          <div className="absolute top-20 left-10 w-1 h-1 bg-white rounded-full animate-pulse"></div>
+          <div className="absolute top-40 left-1/4 w-1 h-1 bg-blue-300 rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
+          <div className="absolute top-60 right-1/4 w-1 h-1 bg-purple-300 rounded-full animate-pulse" style={{animationDelay: '1s'}}></div>
+          <div className="absolute top-32 right-20 w-1 h-1 bg-white rounded-full animate-pulse" style={{animationDelay: '1.5s'}}></div>
+          <div className="absolute bottom-40 left-1/3 w-1 h-1 bg-blue-200 rounded-full animate-pulse" style={{animationDelay: '2s'}}></div>
+        </div>
+        <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div className="space-y-8">
@@ -17,7 +92,7 @@ export default function LandingPage() {
                 WhatsApp.
               </h1>
               <p className="text-lg text-gray-300 max-w-lg">
-                All powered content engine that gorto 8.0+ engagement scores. Trusted by 500+ Indian i4++ financial advisors.
+                AI-powered content engine that generates 8.0+ engagement scores. Trusted by 500+ Indian financial advisors.
               </p>
               <div className="flex flex-wrap gap-4">
                 <SignedOut>
@@ -40,16 +115,48 @@ export default function LandingPage() {
               </div>
             </div>
 
-            {/* Right Phone Mockup - Simplified */}
-            <div className="flex justify-center">
-              <div className="w-72 h-[600px] bg-black rounded-[3rem] p-3 shadow-2xl">
-                <div className="w-full h-full bg-white rounded-[2.5rem] overflow-hidden">
-                  <div className="h-12 bg-[#075E54] flex items-center px-4">
-                    <span className="text-white text-xs">WhatsApp</span>
-                  </div>
-                  <div className="bg-[#E5DDD5] h-full p-4">
-                    <div className="bg-white rounded-lg p-3 shadow-sm mb-3">
-                      <p className="text-xs text-gray-700">Sample viral content message...</p>
+            {/* Right Phone Mockup - Tilted */}
+            <div className="flex justify-center lg:justify-end">
+              <div className="transform rotate-6 hover:rotate-3 transition-transform duration-300">
+                <div className="w-72 h-[600px] bg-gradient-to-br from-gray-800 to-black rounded-[3rem] p-3 shadow-2xl">
+                  <div className="w-full h-full bg-white rounded-[2.5rem] overflow-hidden">
+                    {/* Phone Notch */}
+                    <div className="h-8 bg-black flex items-center justify-center">
+                      <div className="w-32 h-6 bg-white rounded-b-2xl"></div>
+                    </div>
+
+                    {/* WhatsApp Header */}
+                    <div className="h-14 bg-[#075E54] flex items-center px-4">
+                      <div className="w-10 h-10 bg-gray-300 rounded-full mr-3"></div>
+                      <div>
+                        <div className="text-white font-semibold text-sm">Jarvis Daily</div>
+                        <div className="text-gray-300 text-xs">online</div>
+                      </div>
+                    </div>
+
+                    {/* WhatsApp Messages */}
+                    <div className="bg-[#E5DDD5] h-full p-4 space-y-3">
+                      <div className="bg-white rounded-lg rounded-tl-none p-3 shadow-sm max-w-[85%]">
+                        <p className="text-xs text-gray-800 leading-relaxed">
+                          🚀 <strong>Market Update:</strong> Nifty crossed 24,000 today!<br />
+                          Your SIP investors earned 12.4% returns...
+                        </p>
+                        <p className="text-[10px] text-gray-500 text-right mt-1">9:30 AM</p>
+                      </div>
+
+                      <div className="bg-white rounded-lg rounded-tl-none p-3 shadow-sm max-w-[85%]">
+                        <p className="text-xs text-gray-800 leading-relaxed">
+                          💡 <strong>Pro Tip:</strong> 3 mutual funds outperforming...
+                        </p>
+                        <p className="text-[10px] text-gray-500 text-right mt-1">2:45 PM</p>
+                      </div>
+
+                      <div className="bg-[#DCF8C6] rounded-lg rounded-tr-none p-3 shadow-sm max-w-[85%] ml-auto">
+                        <p className="text-xs text-gray-800 leading-relaxed">
+                          <strong>📊 Success:</strong><br />₹50K/mo → ₹2.8Cr in 8 yrs!
+                        </p>
+                        <p className="text-[10px] text-gray-600 text-right mt-1">6:15 PM</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -68,10 +175,30 @@ export default function LandingPage() {
               <div className="text-sm text-gray-400">Portfolio size</div>
             </div>
             <div className="flex gap-8 items-center opacity-60">
-              <span className="text-2xl font-bold">HDFC</span>
-              <span className="text-2xl font-bold">AXIS</span>
-              <span className="text-2xl font-bold">kotak</span>
-              <span className="text-2xl font-bold">SBI</span>
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 bg-[#004C8F] rounded flex items-center justify-center">
+                  <span className="text-white text-xs font-bold">H</span>
+                </div>
+                <span className="text-xl font-bold">HDFC</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 bg-[#97144D] rounded flex items-center justify-center">
+                  <span className="text-white text-xs font-bold">A</span>
+                </div>
+                <span className="text-xl font-bold">AXIS</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 bg-[#ED232A] rounded flex items-center justify-center">
+                  <span className="text-white text-xs font-bold">K</span>
+                </div>
+                <span className="text-xl font-bold">Kotak</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 bg-[#22409A] rounded flex items-center justify-center">
+                  <span className="text-white text-xs font-bold">S</span>
+                </div>
+                <span className="text-xl font-bold">SBI</span>
+              </div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold">28K</div>
@@ -92,7 +219,7 @@ export default function LandingPage() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-3">Viral AI Content</h3>
-              <p className="text-gray-600">Vierelize storries, that genst easy in social or menter.</p>
+              <p className="text-gray-600">Generate stories, market updates, and client success posts that get 8.0+ engagement scores automatically.</p>
             </div>
 
             <div className="bg-white text-gray-900 rounded-2xl p-8 text-center">
@@ -103,7 +230,7 @@ export default function LandingPage() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-3">WhatsApp Native</h3>
-              <p className="text-gray-600">Optimizes or going content that apps to the network.</p>
+              <p className="text-gray-600">Optimized for WhatsApp delivery with perfect formatting, emojis, and mobile-first design.</p>
             </div>
 
             <div className="bg-white text-gray-900 rounded-2xl p-8 text-center">
@@ -113,7 +240,7 @@ export default function LandingPage() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-3">Zero Effort</h3>
-              <p className="text-gray-600">Delivers cofficient content and engagestment easines.</p>
+              <p className="text-gray-600">Daily content delivered automatically. Just review, approve, and share with your clients.</p>
             </div>
           </div>
         </div>
@@ -126,23 +253,23 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="w-16 h-16 bg-[#FFB800] rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">1</div>
-              <h3 className="font-bold text-lg mb-2">Add Preferences</h3>
-              <p className="text-sm text-gray-600">Conducts whit payment options and cadulater.</p>
+              <h3 className="font-bold text-lg mb-2">Set Preferences</h3>
+              <p className="text-sm text-gray-600">Configure your brand, tone, and client segments in 5 minutes.</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#4A90E2] rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-white">3</div>
+              <div className="w-16 h-16 bg-[#4A90E2] rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-white">2</div>
               <h3 className="font-bold text-lg mb-2">AI Generates</h3>
-              <p className="text-sm text-gray-600">Microcine line, logir and app sgnod integration.</p>
+              <p className="text-sm text-gray-600">14 AI agents create viral content with your branding and compliance.</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-[#5B47DB] rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-white">3</div>
               <h3 className="font-bold text-lg mb-2">Review & Approve</h3>
-              <p className="text-sm text-gray-600">Promdes bosument, and prortly aprortrise.</p>
+              <p className="text-sm text-gray-600">Preview content daily and approve with one click before delivery.</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-[#50B5A9] rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-white">4</div>
               <h3 className="font-bold text-lg mb-2">Auto-Deliver</h3>
-              <p className="text-sm text-gray-600">Experive augmention 4 statent pointing.</p>
+              <p className="text-sm text-gray-600">Content sends to WhatsApp automatically at your scheduled time.</p>
             </div>
           </div>
         </div>
@@ -159,14 +286,14 @@ export default function LandingPage() {
                   <div className="w-16 h-16 bg-gray-600 rounded-full mr-4"></div>
                   <div>
                     <div className="flex text-yellow-400 mb-1">★★★★★</div>
-                    <div className="font-bold">Nith Nekia</div>
+                    <div className="font-bold">Nitin Mehta</div>
                     <div className="text-xs text-gray-400">Financial Advisor</div>
                   </div>
                 </div>
                 <p className="text-sm text-gray-300 mb-4">
                   "The content is always timely and relevant. My clients love the updates, and it has saved me so much time!"
                 </p>
-                <p className="text-xs text-gray-400">Nitin Mehita<br/>Finantual Notrass Murilbal</p>
+                <p className="text-xs text-gray-400">Nitin Mehta<br/>Financial Advisor, Mumbai</p>
               </div>
             </div>
 
@@ -207,7 +334,7 @@ export default function LandingPage() {
                 <h3 className="text-2xl font-bold mb-2">Pro</h3>
                 <div className="mb-6">
                   <span className="text-4xl font-bold">₹5,000</span>
-                  <span className="text-gray-200">/moth</span>
+                  <span className="text-gray-200">/mo</span>
                 </div>
                 <ul className="space-y-3 mb-8">
                   <li className="flex items-center text-sm">
@@ -237,7 +364,7 @@ export default function LandingPage() {
                 <h3 className="text-2xl font-bold mb-2">Agency</h3>
                 <div className="mb-6">
                   <span className="text-4xl font-bold">₹10,000</span>
-                  <span className="text-gray-600">/moth</span>
+                  <span className="text-gray-600">/mo</span>
                 </div>
                 <ul className="space-y-3 mb-8">
                   <li className="flex items-center text-sm">
@@ -265,6 +392,56 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="bg-[#0f1221] py-12 px-6 border-t border-white/10">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-4 gap-8">
+            <div>
+              <div className="flex items-center space-x-2 mb-4">
+                <div className="w-8 h-8 bg-[#FFB800] rounded-lg flex items-center justify-center">
+                  <span className="text-[#1a1f3a] font-bold text-xl">J</span>
+                </div>
+                <span className="text-xl font-bold">JarvisDaily</span>
+              </div>
+              <p className="text-sm text-gray-400">
+                Grammy-level viral content for financial advisors. Delivered daily to WhatsApp.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="font-bold mb-4">Product</h4>
+              <ul className="space-y-2 text-sm text-gray-400">
+                <li><a href="#features" className="hover:text-white transition">Features</a></li>
+                <li><a href="#pricing" className="hover:text-white transition">Pricing</a></li>
+                <li><a href="#" className="hover:text-white transition">Case Studies</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-bold mb-4">Company</h4>
+              <ul className="space-y-2 text-sm text-gray-400">
+                <li><a href="#" className="hover:text-white transition">About Us</a></li>
+                <li><a href="#" className="hover:text-white transition">Contact</a></li>
+                <li><a href="#" className="hover:text-white transition">Careers</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-bold mb-4">Legal</h4>
+              <ul className="space-y-2 text-sm text-gray-400">
+                <li><a href="#" className="hover:text-white transition">Privacy Policy</a></li>
+                <li><a href="#" className="hover:text-white transition">Terms of Service</a></li>
+                <li><a href="#" className="hover:text-white transition">Cookie Policy</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="border-t border-white/10 mt-12 pt-8 text-center text-sm text-gray-400">
+            <p>&copy; 2025 JarvisDaily. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
