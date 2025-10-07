@@ -80,13 +80,16 @@ export default function SignupPage() {
         }
       });
 
-      await signUp?.prepareEmailAddressVerification({ strategy: 'email_code' });
-
-      setSuccess('Account created! Please check your email for verification code.');
-
-      setTimeout(() => {
-        window.location.href = '/verify-email';
-      }, 2000);
+      // Set the session active since email verification is disabled
+      if (result && result.status === 'complete') {
+        await setActive({ session: result.createdSessionId });
+        setSuccess('Account created successfully! Redirecting to dashboard...');
+        setTimeout(() => {
+          window.location.href = '/dashboard';
+        }, 1500);
+      } else {
+        setSuccess('Account created! Please complete any remaining steps.');
+      }
 
     } catch (err: any) {
       console.error('Signup error:', err);

@@ -4,12 +4,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**JarvisDaily** (jarvisdaily.com) - WhatsApp-based Grammy-level viral content distribution system for financial advisors. Generates 8.0+ virality content using optimized AI agents and delivers via AiSensy WhatsApp platform.
+**JarvisDaily** (jarvisdaily.com) - WhatsApp-based Grammy-level viral content distribution system for financial advisors. Generates 9.0+ virality content using optimized AI agents and delivers via Meta WhatsApp Direct API.
 
 **Official Domain**: jarvisdaily.com
-**WhatsApp Provider**: AiSensy (₹999/month)
-**Content Standard**: Grammy/Oscar-level (minimum 8.0/10 virality score)
-**Current Status**: Optimized with 10 core agents, archived test files
+**WhatsApp Provider**: Meta Direct API (saves ₹28,788/year vs AiSensy)
+**Content Standard**: Grammy/Oscar-level (minimum 9.0/10 virality score)
+**Content Strategy**: **1 asset per advisor per day** (Option A with quality regeneration)
+**Current Status**: 14-agent pipeline with auto-regeneration, emergency templates ready
 
 ## Core Commands
 
@@ -99,12 +100,18 @@ TWILIO_ACCOUNT_SID=<sid>                    # Alternative WhatsApp provider
 - Button messages: Use `interactive` type with `reply` buttons
 - App Secret Proof required for secure API calls
 
-### Viral Content Standards
-- **Minimum Score**: 8.0/10 virality or reject
+### Viral Content Standards (Option A: 1 Asset Per Advisor)
+- **Minimum Score**: 9.0/10 virality (raised from 8.0 for single-asset quality)
 - **Formula**: (Hook × Story × Emotion) + (Specificity × Simplicity) + CTA²
 - **Proven Strategies**: Warikoo stories, Ranade analogies, Shrivastava data
-- **Character Limit**: 300-400 for WhatsApp, 3000 for LinkedIn
+- **Character Limit**: 300-400 for WhatsApp, 2500-3000 for LinkedIn
 - **Output Format**: Both JSON and TEXT files (never just JSON)
+- **Quality Regeneration**:
+  - If asset scores <9.0/10, auto-regenerate with specific improvements
+  - Max 2 regeneration attempts per asset
+  - Emergency fallback: Use curated template (9.5+/10) if regeneration fails
+- **Asset Count**: 1 LinkedIn + 1 WhatsApp + 1 Status image per advisor per day
+- **Cost Savings**: Option A saves ₹126,000/year on WhatsApp delivery (vs 3 assets/advisor)
 
 ### Image Generation (Gemini 2.5 Flash Image Preview)
 - **Model**: `gemini-2.5-flash-image-preview`
