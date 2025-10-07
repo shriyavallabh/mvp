@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JarvisDaily - Zero AI Knowledge Needed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: #FAFBFC;
+            color: #1A1A1A;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navigation */
+        nav {
+            padding: 24px 0;
+            background: white;
+            border-bottom: 2px solid #F0F4F8;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: 800;
+            color: #00B386;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #00B386 0%, #00D09C 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .nav-cta {
+            padding: 14px 32px;
+            background: linear-gradient(135deg, #00B386 0%, #00D09C 100%);
+            color: white;
+            border: none;
+            border-radius: 24px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0, 179, 134, 0.3);
+        }
+
+        .nav-cta:hover {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 8px 30px rgba(0, 179, 134, 0.4);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 80px 0;
+            text-align: center;
+            background: white;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #FFF4E6;
+            border: 2px solid #FFB800;
+            border-radius: 50px;
+            color: #CC7A00;
+            font-weight: 700;
+            font-size: 14px;
+            margin-bottom: 32px;
+            animation: bounceIn 1s ease;
+        }
+
+        h1 {
+            font-size: 68px;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            color: #1A1A1A;
+            animation: fadeInUp 0.8s ease;
+        }
+
+        .highlight {
+            color: #00B386;
+            position: relative;
+        }
+
+        .highlight:after {
+            content: "";
+            position: absolute;
+            bottom: 8px;
+            left: 0;
+            right: 0;
+            height: 16px;
+            background: rgba(0, 179, 134, 0.2);
+            z-index: -1;
+            border-radius: 8px;
+        }
+
+        .hero-subtitle {
+            font-size: 24px;
+            color: #4A5568;
+            margin-bottom: 48px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            animation: fadeInUp 0.8s ease 0.2s both;
+        }
+
+        .emoji {
+            font-size: 32px;
+            margin: 0 8px;
+        }
+
+        .cta-group {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeInUp 0.8s ease 0.4s both;
+        }
+
+        .cta-primary {
+            padding: 20px 48px;
+            background: linear-gradient(135deg, #00B386 0%, #00D09C 100%);
+            color: white;
+            border: none;
+            border-radius: 28px;
+            font-size: 20px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 24px rgba(0, 179, 134, 0.3);
+        }
+
+        .cta-primary:hover {
+            transform: translateY(-4px) scale(1.05);
+            box-shadow: 0 12px 36px rgba(0, 179, 134, 0.4);
+        }
+
+        .cta-secondary {
+            padding: 20px 48px;
+            background: white;
+            color: #00B386;
+            border: 3px solid #00B386;
+            border-radius: 28px;
+            font-size: 20px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .cta-secondary:hover {
+            background: #F0FFF9;
+            transform: translateY(-4px);
+        }
+
+        .trust-line {
+            margin-top: 40px;
+            font-size: 16px;
+            color: #718096;
+            animation: fadeInUp 0.8s ease 0.6s both;
+        }
+
+        .trust-line strong {
+            color: #00B386;
+            font-weight: 700;
+        }
+
+        /* Phone Mockup */
+        .phone-section {
+            padding: 100px 0;
+            background: linear-gradient(135deg, #F0FFF9 0%, #FFF4E6 100%);
+        }
+
+        .phone-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            flex-wrap: wrap;
+        }
+
+        .phone-content {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .phone-content h2 {
+            font-size: 48px;
+            font-weight: 800;
+            color: #1A1A1A;
+            margin-bottom: 24px;
+        }
+
+        .phone-content p {
+            font-size: 20px;
+            color: #4A5568;
+            line-height: 1.7;
+            margin-bottom: 16px;
+        }
+
+        .phone-container {
+            flex: 1;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .phone-frame {
+            background: white;
+            border-radius: 48px;
+            padding: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+            border: 8px solid #1A1A1A;
+        }
+
+        .phone-screen {
+            background: linear-gradient(135deg, #ECE9F1 0%, #F5F3F7 100%);
+            border-radius: 36px;
+            padding: 24px;
+            min-height: 600px;
+        }
+
+        .phone-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .phone-avatar {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, #00B386 0%, #00D09C 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .phone-contact {
+            flex: 1;
+        }
+
+        .phone-name {
+            font-weight: 700;
+            font-size: 16px;
+            color: #1A1A1A;
+        }
+
+        .phone-status {
+            font-size: 13px;
+            color: #00B386;
+            font-weight: 600;
+        }
+
+        .whatsapp-message {
+            background: white;
+            padding: 16px;
+            border-radius: 24px;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            animation: slideInRight 0.5s ease;
+            border: 2px solid #F0F4F8;
+        }
+
+        .message-text {
+            color: #1A1A1A;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        .message-time {
+            font-size: 11px;
+            color: #718096;
+            text-align: right;
+        }
+
+        .whatsapp-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #FFB800 0%, #FF6B6B 100%);
+            border-radius: 24px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 20px;
+            box-shadow: 0 8px 24px rgba(255, 184, 0, 0.3);
+        }
+
+        /* Social Proof */
+        .social-proof {
+            padding: 80px 0;
+            background: white;
+            text-align: center;
+        }
+
+        .proof-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #718096;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 48px;
+        }
+
+        .proof-stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 32px;
+            background: linear-gradient(135deg, #F0FFF9 0%, #FFF4E6 100%);
+            border-radius: 24px;
+            min-width: 200px;
+            border: 3px solid #00B386;
+            transition: transform 0.3s ease;
+        }
+
+        .stat-item:hover {
+            transform: translateY(-8px);
+        }
+
+        .stat-number {
+            font-size: 56px;
+            font-weight: 800;
+            color: #00B386;
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            font-size: 16px;
+            color: #4A5568;
+            font-weight: 600;
+        }
+
+        .bank-logos {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            flex-wrap: wrap;
+        }
+
+        .bank-logo {
+            padding: 16px 32px;
+            background: #F0F4F8;
+            border-radius: 20px;
+            font-weight: 700;
+            color: #4A5568;
+            font-size: 16px;
+            border: 2px solid #E2E8F0;
+        }
+
+        /* Features */
+        .features {
+            padding: 100px 0;
+            background: linear-gradient(135deg, #F0FFF9 0%, #FFF4E6 100%);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title {
+            font-size: 56px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            color: #1A1A1A;
+        }
+
+        .section-subtitle {
+            font-size: 22px;
+            color: #4A5568;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 32px;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 40px;
+            border-radius: 32px;
+            border: 3px solid #E2E8F0;
+            transition: all 0.4s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-12px);
+            border-color: #00B386;
+            box-shadow: 0 20px 60px rgba(0, 179, 134, 0.2);
+        }
+
+        .feature-icon {
+            width: 72px;
+            height: 72px;
+            background: linear-gradient(135deg, #00B386 0%, #00D09C 100%);
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            margin-bottom: 24px;
+        }
+
+        .feature-title {
+            font-size: 26px;
+            font-weight: 800;
+            margin-bottom: 16px;
+            color: #1A1A1A;
+        }
+
+        .feature-description {
+            color: #4A5568;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        /* How It Works */
+        .how-it-works {
+            padding: 100px 0;
+            background: white;
+        }
+
+        .steps-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .step {
+            text-align: center;
+            padding: 40px 32px;
+            background: linear-gradient(135deg, #F0FFF9 0%, #FFF4E6 100%);
+            border-radius: 32px;
+            border: 3px solid #00B386;
+            transition: all 0.3s ease;
+        }
+
+        .step:hover {
+            transform: scale(1.05);
+            box-shadow: 0 16px 48px rgba(0, 179, 134, 0.2);
+        }
+
+        .step-number {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #FFB800 0%, #FF6B6B 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 36px;
+            font-weight: 800;
+            margin: 0 auto 24px;
+            box-shadow: 0 8px 24px rgba(255, 184, 0, 0.3);
+        }
+
+        .step-title {
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 16px;
+            color: #1A1A1A;
+        }
+
+        .step-description {
+            color: #4A5568;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        /* Testimonial */
+        .testimonial {
+            padding: 100px 0;
+            background: linear-gradient(135deg, #00B386 0%, #00D09C 100%);
+            color: white;
+        }
+
+        .testimonial-card {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 60px 40px;
+        }
+
+        .testimonial-text {
+            font-size: 28px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .testimonial-avatar {
+            width: 72px;
+            height: 72px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #00B386;
+            font-weight: 800;
+            font-size: 32px;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .testimonial-info h4 {
+            font-weight: 800;
+            font-size: 22px;
+            margin-bottom: 8px;
+        }
+
+        .testimonial-info p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        /* Pricing */
+        .pricing {
+            padding: 100px 0;
+            background: white;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .pricing-card {
+            background: linear-gradient(135deg, #F0FFF9 0%, #FFF4E6 100%);
+            padding: 48px 40px;
+            border-radius: 32px;
+            border: 3px solid #E2E8F0;
+            transition: all 0.4s ease;
+            text-align: center;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-12px);
+            border-color: #00B386;
+            box-shadow: 0 20px 60px rgba(0, 179, 134, 0.2);
+        }
+
+        .pricing-card.featured {
+            background: linear-gradient(135deg, #00B386 0%, #00D09C 100%);
+            color: white;
+            border-color: #00B386;
+            transform: scale(1.08);
+            box-shadow: 0 20px 60px rgba(0, 179, 134, 0.3);
+        }
+
+        .pricing-card.featured:hover {
+            transform: scale(1.12) translateY(-12px);
+        }
+
+        .pricing-badge {
+            display: inline-block;
+            padding: 8px 20px;
+            background: #FFB800;
+            border-radius: 24px;
+            font-size: 14px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .pricing-card.featured .pricing-badge {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .pricing-name {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        .pricing-price {
+            font-size: 56px;
+            font-weight: 800;
+            margin-bottom: 12px;
+        }
+
+        .pricing-period {
+            font-size: 18px;
+            color: #4A5568;
+            margin-bottom: 32px;
+        }
+
+        .pricing-card.featured .pricing-period {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .pricing-features {
+            list-style: none;
+            margin-bottom: 32px;
+            text-align: left;
+        }
+
+        .pricing-features li {
+            padding: 14px 0;
+            border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .pricing-card.featured .pricing-features li {
+            border-bottom-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .pricing-features li:before {
+            content: "✓";
+            margin-right: 12px;
+            color: #00B386;
+            font-weight: 800;
+            font-size: 20px;
+        }
+
+        .pricing-card.featured .pricing-features li:before {
+            color: #FFB800;
+        }
+
+        .pricing-cta {
+            width: 100%;
+            padding: 18px;
+            background: linear-gradient(135deg, #00B386 0%, #00D09C 100%);
+            color: white;
+            border: none;
+            border-radius: 24px;
+            font-size: 18px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0, 179, 134, 0.3);
+        }
+
+        .pricing-card.featured .pricing-cta {
+            background: white;
+            color: #00B386;
+        }
+
+        .pricing-cta:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        footer {
+            padding: 80px 0 40px;
+            background: #1A1A1A;
+            color: white;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .footer-section h3 {
+            font-size: 20px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            color: #00D09C;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-section ul li a {
+            color: #CBD5E0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-weight: 600;
+        }
+
+        .footer-section ul li a:hover {
+            color: #00D09C;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 40px;
+            border-top: 2px solid #2D3748;
+            color: #CBD5E0;
+            font-weight: 600;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes bounceIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.3);
+            }
+            50% {
+                opacity: 1;
+                transform: scale(1.05);
+            }
+            70% {
+                transform: scale(0.9);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 42px;
+            }
+
+            .hero-subtitle {
+                font-size: 18px;
+            }
+
+            .section-title {
+                font-size: 36px;
+            }
+
+            .phone-wrapper {
+                flex-direction: column-reverse;
+            }
+
+            .pricing-card.featured {
+                transform: scale(1);
+            }
+
+            .pricing-card.featured:hover {
+                transform: translateY(-8px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <div class="logo-icon">🤖</div>
+                    JarvisDaily
+                </div>
+                <button class="nav-cta">Try Free for 7 Days</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-badge">🎉 Join 28,000+ Happy Advisors</div>
+            <h1><span class="highlight">Zero AI Knowledge</span><br>Needed to Go Viral</h1>
+            <p class="hero-subtitle">Just click a button<span class="emoji">✨</span>Your WhatsApp content is ready<span class="emoji">🚀</span>That simple.</p>
+            <div class="cta-group">
+                <button class="cta-primary">Start Free Trial Now</button>
+                <button class="cta-secondary">Watch 2-Min Demo</button>
+            </div>
+            <p class="trust-line"><strong>No credit card</strong> • <strong>No setup fees</strong> • <strong>Cancel anytime</strong></p>
+        </div>
+    </section>
+
+    <section class="phone-section">
+        <div class="container">
+            <div class="phone-wrapper">
+                <div class="phone-content">
+                    <h2>Your Clients Will Love This<span class="emoji">💚</span></h2>
+                    <p><span class="emoji">✅</span> Simple WhatsApp messages they actually read</p>
+                    <p><span class="emoji">✅</span> Fun visuals that make money easy to understand</p>
+                    <p><span class="emoji">✅</span> Daily tips that keep you top-of-mind</p>
+                    <p><span class="emoji">✅</span> Zero technical jargon (we speak human!)</p>
+                </div>
+                <div class="phone-container">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <div class="phone-header">
+                                <div class="phone-avatar">A</div>
+                                <div class="phone-contact">
+                                    <div class="phone-name">Amit Gupta - Your Advisor</div>
+                                    <div class="phone-status">Online Now</div>
+                                </div>
+                            </div>
+                            <div class="whatsapp-image">📊 Visual Infographic</div>
+                            <div class="whatsapp-message">
+                                <div class="message-text">Good morning! Think of mutual funds like a potluck dinner - everyone brings ingredients (money), one chef (fund manager) cooks, and everyone enjoys the meal (returns)! 🍲</div>
+                                <div class="message-time">9:00 AM</div>
+                            </div>
+                            <div class="whatsapp-message">
+                                <div class="message-text">Quick tip: Starting ₹2,000/month SIP today = ₹10 lakhs in 15 years. Small steps, big dreams! 💪</div>
+                                <div class="message-time">9:02 AM</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="social-proof">
+        <div class="container">
+            <div class="proof-title">Trusted by thousands across India</div>
+            <div class="proof-stats">
+                <div class="stat-item">
+                    <div class="stat-number">28K+</div>
+                    <div class="stat-label">Happy Advisors</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5M+</div>
+                    <div class="stat-label">Messages Sent</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">96%</div>
+                    <div class="stat-label">Love It</div>
+                </div>
+            </div>
+            <div class="bank-logos">
+                <div class="bank-logo">HDFC Bank</div>
+                <div class="bank-logo">AXIS Bank</div>
+                <div class="bank-logo">Kotak Securities</div>
+                <div class="bank-logo">SBI Life</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Super Easy<span class="emoji">🎯</span>Super Powerful</h2>
+                <p class="section-subtitle">Everything you need. Nothing you don't.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3 class="feature-title">AI Does the Thinking</h3>
+                    <p class="feature-description">No prompts to write. No training needed. Just wake up to fresh content every morning. Our AI learns what your clients love!</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">One-Click Approval</h3>
+                    <p class="feature-description">Review your daily content in 30 seconds. Love it? Click send. Want changes? Tell us in plain English. That's it!</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3 class="feature-title">Beautiful Visuals Included</h3>
+                    <p class="feature-description">Get stunning infographics, charts, and status images automatically. No design skills required. Just share and impress!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How It Works<span class="emoji">⚙️</span></h2>
+                <p class="section-subtitle">Seriously, it's this easy</p>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Sign Up</h3>
+                    <p class="step-description">Create your free account in 60 seconds. No tech stuff, just your name and WhatsApp number!</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Connect WhatsApp</h3>
+                    <p class="step-description">Click connect. Scan QR code. Done! Your WhatsApp is now supercharged with AI content.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Review Daily</h3>
+                    <p class="step-description">Every morning, check your 3 fresh content pieces. Love them? Click approve. Need tweaks? Tell us!</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Watch Magic</h3>
+                    <p class="step-description">Content auto-sends to your clients. Watch engagement soar. Enjoy more meetings and referrals!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <div class="container">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"I'm not tech-savvy AT ALL. But JarvisDaily made me look like a social media expert! My clients love the daily WhatsApp updates. I got 15 new referrals last month just from people asking 'How do you create such cool content?' 🤩"</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">N</div>
+                    <div class="testimonial-info">
+                        <h4>Neha Verma</h4>
+                        <p>Financial Advisor, Mumbai</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Simple Pricing<span class="emoji">💰</span></h2>
+                <p class="section-subtitle">No hidden fees. No surprises. Just results.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-badge">Start Small</div>
+                    <h3 class="pricing-name">Starter</h3>
+                    <div class="pricing-price">₹999</div>
+                    <p class="pricing-period">per month</p>
+                    <ul class="pricing-features">
+                        <li>Up to 100 clients</li>
+                        <li>1 WhatsApp message/day</li>
+                        <li>Basic templates</li>
+                        <li>Email support</li>
+                    </ul>
+                    <button class="pricing-cta">Start Free Trial</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Best Value</div>
+                    <h3 class="pricing-name">Pro</h3>
+                    <div class="pricing-price">₹2,999</div>
+                    <p class="pricing-period">per month</p>
+                    <ul class="pricing-features">
+                        <li>Up to 500 clients</li>
+                        <li>3 content pieces/day</li>
+                        <li>AI-powered visuals</li>
+                        <li>Advanced analytics</li>
+                        <li>Priority chat support</li>
+                    </ul>
+                    <button class="pricing-cta">Start Free Trial</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-badge">Scale Up</div>
+                    <h3 class="pricing-name">Enterprise</h3>
+                    <div class="pricing-price">₹9,999</div>
+                    <p class="pricing-period">per month</p>
+                    <ul class="pricing-features">
+                        <li>Unlimited clients</li>
+                        <li>Unlimited content</li>
+                        <li>Multi-team access</li>
+                        <li>Custom branding</li>
+                        <li>Dedicated manager</li>
+                    </ul>
+                    <button class="pricing-cta">Talk to Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Video Tutorials</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Success Stories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 JarvisDaily. Made with 💚 for Indian advisors. SEBI Registered.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

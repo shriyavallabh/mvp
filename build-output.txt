@@ -1,0 +1,24 @@
+
+> finadvise-webhook@1.0.0 build
+> next build
+
+   ▲ Next.js 15.5.4
+   - Environments: .env.production.local, .env.local, .env.production, .env
+
+   Creating an optimized production build ...
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (175kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ✓ Compiled successfully in 6.3s
+   Linting and checking validity of types ...
+Failed to compile.
+
+./app/sso-callback/page.tsx:18:15
+Type error: Expected 1-2 arguments, but got 0.
+
+[0m [90m 16 |[39m       [36mtry[39m {
+ [90m 17 |[39m         [90m// Handle the OAuth callback[39m
+[31m[1m>[22m[39m[90m 18 |[39m         [36mawait[39m handleRedirectCallback()[33m;[39m
+ [90m    |[39m               [31m[1m^[22m[39m
+ [90m 19 |[39m         [90m// Clerk will automatically redirect to the redirectUrlComplete[39m
+ [90m 20 |[39m       } [36mcatch[39m (error) {
+ [90m 21 |[39m         console[33m.[39merror([32m'OAuth callback error:'[39m[33m,[39m error)[33m;[39m[0m
+Next.js build worker exited with code: 1 and signal: null

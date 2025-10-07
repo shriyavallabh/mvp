@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JarvisDaily - Grammy-Level Viral Content</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(135deg, #1a1f3a 0%, #243057 50%, #1a1f3a 100%);
+            color: white;
+            padding: 80px 40px 120px;
+            position: relative;
+        }
+
+        .hero-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero-content h1 {
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            letter-spacing: -0.5px;
+        }
+
+        .hero-content p {
+            font-size: 18px;
+            color: #b8c5d6;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            max-width: 500px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: #FFB800;
+            color: #000;
+            padding: 18px 36px;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-primary:hover {
+            background: #E5A600;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            padding: 18px 36px;
+            border: 2px solid white;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            color: #1a1f3a;
+        }
+
+        /* Phone Mockup */
+        .phone-mockup {
+            position: relative;
+            width: 320px;
+            margin: 0 auto;
+        }
+
+        .phone-frame {
+            width: 100%;
+            background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
+            border-radius: 45px;
+            padding: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+        }
+
+        .phone-screen {
+            background: white;
+            border-radius: 35px;
+            overflow: hidden;
+            aspect-ratio: 9/19;
+        }
+
+        .phone-notch {
+            height: 30px;
+            background: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .notch-cutout {
+            width: 100px;
+            height: 20px;
+            background: white;
+            border-radius: 0 0 15px 15px;
+        }
+
+        .whatsapp-screen {
+            background: #ECE5DD;
+            height: calc(100% - 30px);
+            padding: 16px;
+        }
+
+        .whatsapp-message {
+            background: white;
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .message-text {
+            font-size: 13px;
+            color: #1f1f1f;
+            line-height: 1.4;
+        }
+
+        .message-time {
+            font-size: 10px;
+            color: #999;
+            text-align: right;
+            margin-top: 4px;
+        }
+
+        /* Social Proof Bar */
+        .social-proof {
+            background: linear-gradient(90deg, #2a3055 0%, #1f2847 100%);
+            color: white;
+            padding: 32px 40px;
+        }
+
+        .social-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .stat-label {
+            font-size: 13px;
+            color: #8b92a8;
+        }
+
+        .company-logos {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            opacity: 0.5;
+        }
+
+        .company-logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: white;
+        }
+
+        /* Features Section */
+        .features-section {
+            background: linear-gradient(135deg, #1a1f3a 0%, #243057 50%, #1a1f3a 100%);
+            padding: 80px 40px;
+        }
+
+        .features-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 20px;
+            padding: 48px 32px;
+            text-align: center;
+        }
+
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            font-size: 36px;
+        }
+
+        .icon-purple { background: #5B47DB; }
+        .icon-blue { background: #4A90E2; }
+        .icon-teal { background: #50B5A9; }
+
+        .feature-card h3 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1a1f3a;
+            margin-bottom: 12px;
+        }
+
+        .feature-card p {
+            font-size: 15px;
+            color: #64748b;
+            line-height: 1.5;
+        }
+
+        /* How It Works */
+        .how-it-works {
+            background: #f8f9fa;
+            padding: 80px 40px;
+        }
+
+        .how-container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .how-container h2 {
+            font-size: 42px;
+            font-weight: 700;
+            text-align: center;
+            color: #1a1f3a;
+            margin-bottom: 60px;
+        }
+
+        .steps-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+            position: relative;
+        }
+
+        .steps-container::before {
+            content: '';
+            position: absolute;
+            top: 32px;
+            left: 10%;
+            right: 10%;
+            height: 2px;
+            background: linear-gradient(90deg, #FFB800 0%, #4A90E2 33%, #5B47DB 66%, #50B5A9 100%);
+            z-index: 0;
+        }
+
+        .step-item {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .step-number {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 24px;
+            font-weight: 700;
+            color: white;
+        }
+
+        .step-yellow { background: #FFB800; color: #000; }
+        .step-blue { background: #4A90E2; }
+        .step-purple { background: #5B47DB; }
+        .step-teal { background: #50B5A9; }
+
+        .step-item h3 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1a1f3a;
+            margin-bottom: 8px;
+        }
+
+        .step-item p {
+            font-size: 14px;
+            color: #64748b;
+            line-height: 1.4;
+        }
+
+        /* Testimonial + Pricing */
+        .pricing-section {
+            background: linear-gradient(135deg, #1a1f3a 0%, #243057 50%, #1a1f3a 100%);
+            padding: 80px 40px;
+            color: white;
+        }
+
+        .pricing-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 2.5fr;
+            gap: 40px;
+        }
+
+        /* Testimonial */
+        .testimonial-card {
+            background: #2a3055;
+            border-radius: 20px;
+            padding: 32px;
+        }
+
+        .testimonial-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .avatar {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin-right: 16px;
+        }
+
+        .testimonial-info h4 {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .testimonial-role {
+            font-size: 12px;
+            color: #8b92a8;
+        }
+
+        .stars {
+            color: #FFB800;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .testimonial-quote {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #d1d5db;
+            margin-bottom: 20px;
+        }
+
+        .testimonial-author {
+            font-size: 12px;
+            color: #8b92a8;
+        }
+
+        /* Pricing Cards */
+        .pricing-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .pricing-card {
+            background: white;
+            color: #1a1f3a;
+            border-radius: 20px;
+            padding: 40px 32px;
+        }
+
+        .pricing-card.featured {
+            background: #5B47DB;
+            color: white;
+            border: 4px solid white;
+            transform: scale(1.05);
+        }
+
+        .pricing-card h3 {
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .price {
+            margin-bottom: 32px;
+        }
+
+        .price-amount {
+            font-size: 42px;
+            font-weight: 700;
+        }
+
+        .price-period {
+            font-size: 16px;
+            opacity: 0.7;
+        }
+
+        .features-list {
+            list-style: none;
+            margin-bottom: 32px;
+        }
+
+        .features-list li {
+            padding: 10px 0;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+        }
+
+        .checkmark {
+            color: #10b981;
+            margin-right: 12px;
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .pricing-card.featured .checkmark {
+            color: #86efac;
+        }
+
+        .pricing-button {
+            width: 100%;
+            padding: 16px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .pricing-card:not(.featured) .pricing-button {
+            background: transparent;
+            border: 2px solid #1a1f3a;
+            color: #1a1f3a;
+        }
+
+        .pricing-card:not(.featured) .pricing-button:hover {
+            background: #1a1f3a;
+            color: white;
+        }
+
+        .pricing-card.featured .pricing-button {
+            background: white;
+            border: none;
+            color: #5B47DB;
+        }
+
+        .pricing-card.featured .pricing-button:hover {
+            background: #f3f4f6;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .hero-container {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .features-container {
+                grid-template-columns: 1fr;
+            }
+
+            .steps-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .pricing-container {
+                grid-template-columns: 1fr;
+            }
+
+            .pricing-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .pricing-card.featured {
+                transform: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero-content h1 {
+                font-size: 40px;
+            }
+
+            .steps-container {
+                grid-template-columns: 1fr;
+            }
+
+            .steps-container::before {
+                display: none;
+            }
+
+            .company-logos {
+                gap: 20px;
+            }
+
+            .company-logo {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Grammy-Level<br>Viral Content.<br>Delivered Daily to<br>WhatsApp.</h1>
+                <p>All powered content engine that gorto 8.0+ engagement scores. Trusted by 500+ Indian i4++ financial advisors.</p>
+                <div class="cta-buttons">
+                    <button class="btn-primary" id="start-trial-btn">Start Free Trial</button>
+                    <button class="btn-secondary">Watch Demo</button>
+                </div>
+            </div>
+            <div class="phone-mockup">
+                <div class="phone-frame">
+                    <div class="phone-screen">
+                        <div class="phone-notch">
+                            <div class="notch-cutout"></div>
+                        </div>
+                        <div class="whatsapp-screen">
+                            <div class="whatsapp-message">
+                                <p class="message-text">Ready lang jenny Go?la No ema offocen or menticendor meni<br>Gradutany yearst 3azusional returned.<br>Hritelarman/ 4 compania/ 2010/...</p>
+                                <p class="message-time">16:04 MINS</p>
+                            </div>
+                            <div class="whatsapp-message">
+                                <p class="message-text">Lo facet grose potentialtion pei<br>hoamandens cohraoc commor have to<br>moramite value places</p>
+                                <p class="message-time">12:06 MINS</p>
+                            </div>
+                            <div class="whatsapp-message">
+                                <p class="message-text"><strong>📞 First 5 man</strong><br>Payment shows shawn twven<br>stratedu-moncretualent messans<br>earan aryan ortituingah</p>
+                                <p class="message-time">11:14 MINS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="social-proof">
+        <div class="social-container">
+            <div class="stat-item">
+                <div class="stat-number">2.4M+</div>
+                <div class="stat-label">Portfolio size</div>
+            </div>
+            <div class="company-logos">
+                <div class="company-logo">🏦 HDFC</div>
+                <div class="company-logo">📐 AXIS</div>
+                <div class="company-logo">kotak</div>
+                <div class="company-logo">ⓘ SBI</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">❓28K</div>
+                <div class="stat-label">advisors on platform</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features-section">
+        <div class="features-container">
+            <div class="feature-card">
+                <div class="feature-icon icon-purple">⭐</div>
+                <h3>Viral AI Content</h3>
+                <p>Vierelize storries, that genst easy in social or menter.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon icon-blue">💬</div>
+                <h3>WhatsApp Native</h3>
+                <p>Optimizes or going content that apps to the network.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon icon-teal">⚡</div>
+                <h3>Zero Effort</h3>
+                <p>Delivers cofficient content and engagestment easines.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="how-container">
+            <h2>How It Works</h2>
+            <div class="steps-container">
+                <div class="step-item">
+                    <div class="step-number step-yellow">1</div>
+                    <h3>Add Preferences</h3>
+                    <p>Conducts whit payment options and cadulater.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number step-blue">3</div>
+                    <h3>AI Generates</h3>
+                    <p>Microcine line, logir and app sgnod integration.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number step-purple">3</div>
+                    <h3>Review & Approve</h3>
+                    <p>Promdes bosument, and prortly aprortrise.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number step-teal">4</div>
+                    <h3>Auto-Deliver</h3>
+                    <p>Experive augmention 4 statent pointing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial + Pricing -->
+    <section class="pricing-section">
+        <div class="pricing-container">
+            <!-- Testimonial -->
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <div class="avatar"></div>
+                    <div class="testimonial-info">
+                        <div class="stars">★★★★★</div>
+                        <h4>Nith Nekia</h4>
+                        <p class="testimonial-role">Financial Advisor</p>
+                    </div>
+                </div>
+                <p class="testimonial-quote">"The content is always timely and relevant. My clients love the updates, and it has saved me so much time!"</p>
+                <p class="testimonial-author">Nitin Mehita<br>Finantual Notrass Murilbal</p>
+            </div>
+
+            <!-- Pricing Cards -->
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Basic</h3>
+                    <div class="price">
+                        <span class="price-amount">₹2,500</span>
+                        <span class="price-period">/mo</span>
+                    </div>
+                    <ul class="features-list">
+                        <li><span class="checkmark">✓</span> AI-generated content</li>
+                        <li><span class="checkmark">✓</span> WhatsApp integration</li>
+                        <li><span class="checkmark">✓</span> Engagement analytics</li>
+                        <li><span class="checkmark">✓</span> Priority support</li>
+                    </ul>
+                    <button class="pricing-button">Learn more</button>
+                </div>
+
+                <div class="pricing-card featured">
+                    <h3>Pro</h3>
+                    <div class="price">
+                        <span class="price-amount">₹5,000</span>
+                        <span class="price-period">/moth</span>
+                    </div>
+                    <ul class="features-list">
+                        <li><span class="checkmark">✓</span> AI-generated content</li>
+                        <li><span class="checkmark">✓</span> WhatsApp integration</li>
+                        <li><span class="checkmark">✓</span> Engagement analytics</li>
+                        <li><span class="checkmark">✓</span> Priority support</li>
+                    </ul>
+                    <button class="pricing-button">Get Started</button>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Agency</h3>
+                    <div class="price">
+                        <span class="price-amount">₹10,000</span>
+                        <span class="price-period">/moth</span>
+                    </div>
+                    <ul class="features-list">
+                        <li><span class="checkmark">✓</span> AI-generated content</li>
+                        <li><span class="checkmark">✓</span> WhatsApp integration</li>
+                        <li><span class="checkmark">✓</span> Engagement analytics</li>
+                        <li><span class="checkmark">✓</span> Priority support</li>
+                    </ul>
+                    <button class="pricing-button">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Add click handler for Start Free Trial button
+        document.getElementById('start-trial-btn').addEventListener('click', function() {
+            console.log('Start Free Trial clicked');
+            // This will be replaced with Clerk authentication
+        });
+    </script>
+</body>
+</html>

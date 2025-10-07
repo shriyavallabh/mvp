@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JarvisDaily - For India's Elite Financial Advisors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Sohne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #000000;
+            color: #FFFFFF;
+            line-height: 1.5;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        /* Navigation */
+        nav {
+            padding: 24px 0;
+            background: #000000;
+            border-bottom: 1px solid #1A1A1A;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 18px;
+            font-weight: 800;
+            color: #FFFFFF;
+            letter-spacing: -0.05em;
+        }
+
+        .nav-cta {
+            padding: 12px 24px;
+            background: #FFFFFF;
+            color: #000000;
+            border: none;
+            border-radius: 0;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .nav-cta:hover {
+            background: #E0E0E0;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 140px 0 120px;
+            text-align: center;
+            background: #000000;
+            border-bottom: 1px solid #1A1A1A;
+        }
+
+        .hero-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            font-weight: 700;
+            color: #888888;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 32px;
+        }
+
+        h1 {
+            font-size: 88px;
+            font-weight: 800;
+            line-height: 0.95;
+            margin-bottom: 32px;
+            color: #FFFFFF;
+            letter-spacing: -0.04em;
+        }
+
+        .hero-subtitle {
+            font-size: 24px;
+            color: #888888;
+            margin-bottom: 60px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 500;
+            letter-spacing: -0.01em;
+        }
+
+        .cta-group {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cta-primary {
+            padding: 20px 48px;
+            background: #FFFFFF;
+            color: #000000;
+            border: none;
+            border-radius: 0;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .cta-primary:hover {
+            background: #E0E0E0;
+        }
+
+        .cta-secondary {
+            padding: 20px 48px;
+            background: transparent;
+            color: #FFFFFF;
+            border: 2px solid #FFFFFF;
+            border-radius: 0;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .cta-secondary:hover {
+            background: #1A1A1A;
+        }
+
+        .exclusive-note {
+            margin-top: 60px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            color: #888888;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+        }
+
+        /* Phone Mockup */
+        .phone-section {
+            padding: 120px 0;
+            background: #000000;
+            border-bottom: 1px solid #1A1A1A;
+        }
+
+        .phone-wrapper {
+            display: flex;
+            gap: 100px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .phone-content {
+            flex: 1;
+            min-width: 350px;
+        }
+
+        .phone-content h2 {
+            font-size: 64px;
+            font-weight: 800;
+            color: #FFFFFF;
+            margin-bottom: 32px;
+            letter-spacing: -0.03em;
+            line-height: 1.05;
+        }
+
+        .phone-content p {
+            font-size: 20px;
+            color: #888888;
+            line-height: 1.6;
+            margin-bottom: 24px;
+            font-weight: 500;
+        }
+
+        .stat-inline {
+            display: flex;
+            gap: 48px;
+            margin-top: 48px;
+        }
+
+        .stat-inline-item h3 {
+            font-size: 48px;
+            font-weight: 800;
+            color: #FFFFFF;
+            margin-bottom: 8px;
+            letter-spacing: -0.02em;
+        }
+
+        .stat-inline-item p {
+            font-size: 14px;
+            color: #888888;
+            font-weight: 500;
+        }
+
+        .phone-container {
+            flex: 1;
+            max-width: 450px;
+            margin: 0 auto;
+        }
+
+        .phone-frame {
+            background: #FFFFFF;
+            border-radius: 0;
+            padding: 8px;
+            box-shadow: 0 0 0 1px #FFFFFF;
+        }
+
+        .phone-screen {
+            background: #F5F5F5;
+            border-radius: 0;
+            padding: 24px;
+            min-height: 650px;
+        }
+
+        .phone-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #E0E0E0;
+        }
+
+        .phone-avatar {
+            width: 48px;
+            height: 48px;
+            background: #000000;
+            border-radius: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 800;
+            font-size: 20px;
+        }
+
+        .phone-contact {
+            flex: 1;
+        }
+
+        .phone-name {
+            font-weight: 700;
+            font-size: 15px;
+            color: #000000;
+        }
+
+        .phone-status {
+            font-size: 12px;
+            color: #25D366;
+            font-weight: 600;
+        }
+
+        .whatsapp-message {
+            background: #FFFFFF;
+            padding: 16px;
+            border-radius: 0;
+            margin-bottom: 16px;
+            border: 1px solid #E0E0E0;
+        }
+
+        .message-text {
+            color: #000000;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        .message-time {
+            font-size: 11px;
+            color: #888888;
+            text-align: right;
+        }
+
+        .whatsapp-image {
+            width: 100%;
+            height: 220px;
+            background: #000000;
+            border-radius: 0;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 16px;
+            border: 1px solid #FFFFFF;
+        }
+
+        /* Social Proof */
+        .social-proof {
+            padding: 120px 0;
+            background: #000000;
+            border-bottom: 1px solid #1A1A1A;
+        }
+
+        .proof-title {
+            text-align: center;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            font-weight: 700;
+            color: #888888;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 80px;
+        }
+
+        .proof-stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 60px;
+            margin-bottom: 80px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 72px;
+            font-weight: 800;
+            color: #FFFFFF;
+            margin-bottom: 12px;
+            letter-spacing: -0.03em;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: #888888;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .bank-logos {
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            flex-wrap: wrap;
+        }
+
+        .bank-logo {
+            padding: 16px 32px;
+            background: transparent;
+            border-radius: 0;
+            font-weight: 700;
+            color: #888888;
+            font-size: 14px;
+            border: 1px solid #1A1A1A;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Features */
+        .features {
+            padding: 120px 0;
+            background: #000000;
+            border-bottom: 1px solid #1A1A1A;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 100px;
+        }
+
+        .section-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            font-weight: 700;
+            color: #888888;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 24px;
+        }
+
+        .section-title {
+            font-size: 72px;
+            font-weight: 800;
+            margin-bottom: 24px;
+            color: #FFFFFF;
+            letter-spacing: -0.03em;
+        }
+
+        .section-subtitle {
+            font-size: 20px;
+            color: #888888;
+            font-weight: 500;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 1px;
+            background: #1A1A1A;
+            border: 1px solid #1A1A1A;
+        }
+
+        .feature-card {
+            background: #000000;
+            padding: 60px 40px;
+            border-radius: 0;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            background: #0A0A0A;
+        }
+
+        .feature-icon {
+            width: 56px;
+            height: 56px;
+            background: #FFFFFF;
+            border-radius: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            margin-bottom: 32px;
+        }
+
+        .feature-title {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 16px;
+            color: #FFFFFF;
+            letter-spacing: -0.02em;
+        }
+
+        .feature-description {
+            color: #888888;
+            font-size: 16px;
+            line-height: 1.6;
+            font-weight: 500;
+        }
+
+        /* How It Works */
+        .how-it-works {
+            padding: 120px 0;
+            background: #000000;
+            border-bottom: 1px solid #1A1A1A;
+        }
+
+        .steps-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1px;
+            background: #1A1A1A;
+            border: 1px solid #1A1A1A;
+            margin-top: 80px;
+        }
+
+        .step {
+            background: #000000;
+            padding: 48px 40px;
+            transition: all 0.3s ease;
+        }
+
+        .step:hover {
+            background: #0A0A0A;
+        }
+
+        .step-number {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+            font-weight: 800;
+            color: #888888;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+        }
+
+        .step-title {
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 16px;
+            color: #FFFFFF;
+            letter-spacing: -0.02em;
+        }
+
+        .step-description {
+            color: #888888;
+            font-size: 15px;
+            line-height: 1.6;
+            font-weight: 500;
+        }
+
+        /* Testimonial */
+        .testimonial {
+            padding: 120px 0;
+            background: #000000;
+            border-bottom: 1px solid #1A1A1A;
+        }
+
+        .testimonial-card {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #000000;
+            padding: 80px 60px;
+            border: 1px solid #1A1A1A;
+            border-radius: 0;
+        }
+
+        .testimonial-text {
+            font-size: 32px;
+            line-height: 1.5;
+            color: #FFFFFF;
+            margin-bottom: 48px;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .testimonial-avatar {
+            width: 72px;
+            height: 72px;
+            background: #FFFFFF;
+            border-radius: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000000;
+            font-weight: 800;
+            font-size: 32px;
+        }
+
+        .testimonial-info h4 {
+            font-weight: 800;
+            color: #FFFFFF;
+            margin-bottom: 8px;
+            font-size: 20px;
+            letter-spacing: -0.01em;
+        }
+
+        .testimonial-info p {
+            color: #888888;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        /* Pricing */
+        .pricing {
+            padding: 120px 0;
+            background: #000000;
+            border-bottom: 1px solid #1A1A1A;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 1px;
+            background: #1A1A1A;
+            border: 1px solid #1A1A1A;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .pricing-card {
+            background: #000000;
+            padding: 60px 48px;
+            border-radius: 0;
+            transition: all 0.3s ease;
+        }
+
+        .pricing-card:hover {
+            background: #0A0A0A;
+        }
+
+        .pricing-card.featured {
+            background: #FFFFFF;
+            color: #000000;
+        }
+
+        .pricing-badge {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 24px;
+            color: #888888;
+        }
+
+        .pricing-card.featured .pricing-badge {
+            color: #000000;
+        }
+
+        .pricing-name {
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            letter-spacing: -0.02em;
+        }
+
+        .pricing-price {
+            font-size: 64px;
+            font-weight: 800;
+            margin-bottom: 12px;
+            letter-spacing: -0.03em;
+        }
+
+        .pricing-period {
+            font-size: 16px;
+            color: #888888;
+            margin-bottom: 48px;
+            font-weight: 500;
+        }
+
+        .pricing-card.featured .pricing-period {
+            color: #666666;
+        }
+
+        .pricing-features {
+            list-style: none;
+            margin-bottom: 48px;
+        }
+
+        .pricing-features li {
+            padding: 16px 0;
+            border-bottom: 1px solid #1A1A1A;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        .pricing-card.featured .pricing-features li {
+            border-bottom-color: #E0E0E0;
+            color: #000000;
+        }
+
+        .pricing-features li:before {
+            content: "✓";
+            margin-right: 16px;
+            color: #FFFFFF;
+            font-weight: 800;
+        }
+
+        .pricing-card.featured .pricing-features li:before {
+            color: #000000;
+        }
+
+        .pricing-cta {
+            width: 100%;
+            padding: 18px;
+            background: #FFFFFF;
+            color: #000000;
+            border: none;
+            border-radius: 0;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .pricing-card.featured .pricing-cta {
+            background: #000000;
+            color: #FFFFFF;
+        }
+
+        .pricing-cta:hover {
+            background: #E0E0E0;
+        }
+
+        .pricing-card.featured .pricing-cta:hover {
+            background: #1A1A1A;
+        }
+
+        /* Footer */
+        footer {
+            padding: 80px 0 40px;
+            background: #000000;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 60px;
+            margin-bottom: 60px;
+        }
+
+        .footer-section h3 {
+            font-size: 14px;
+            font-weight: 800;
+            margin-bottom: 24px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 16px;
+        }
+
+        .footer-section ul li a {
+            color: #888888;
+            text-decoration: none;
+            transition: color 0.2s ease;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .footer-section ul li a:hover {
+            color: #FFFFFF;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 60px;
+            border-top: 1px solid #1A1A1A;
+            color: #888888;
+            font-size: 12px;
+            font-family: 'JetBrains Mono', monospace;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 52px;
+            }
+
+            .hero-subtitle {
+                font-size: 18px;
+            }
+
+            .section-title {
+                font-size: 48px;
+            }
+
+            .phone-wrapper {
+                flex-direction: column-reverse;
+                gap: 60px;
+            }
+
+            .testimonial-card {
+                padding: 48px 32px;
+            }
+
+            .testimonial-text {
+                font-size: 24px;
+            }
+
+            .features-grid,
+            .steps-container,
+            .pricing-grid {
+                grid-template-columns: 1fr;
+                gap: 1px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">JARVIS/DAILY</div>
+                <button class="nav-cta">Request Access</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-label">For Advisors Managing ₹5Cr+ Portfolios</div>
+            <h1>THE LUXURY<br>STANDARD IN<br>CLIENT ENGAGEMENT</h1>
+            <p class="hero-subtitle">Elite financial advisors demand elite tools. Bank-grade AI that delivers flawless content to your high-net-worth clients. No compromise.</p>
+            <div class="cta-group">
+                <button class="cta-primary">Apply Now</button>
+                <button class="cta-secondary">View Case Study</button>
+            </div>
+            <p class="exclusive-note">Join India's Top 1% of Financial Advisors</p>
+        </div>
+    </section>
+
+    <section class="phone-section">
+        <div class="container">
+            <div class="phone-wrapper">
+                <div class="phone-content">
+                    <h2>PERFECTION<br>AS STANDARD</h2>
+                    <p>Your HNI clients expect nothing less than excellence. Every message crafted with precision. Every insight backed by data. Every interaction reflects your premium positioning.</p>
+                    <p>No compromises. No shortcuts. Just results.</p>
+                    <div class="stat-inline">
+                        <div class="stat-inline-item">
+                            <h3>₹2.4M+</h3>
+                            <p>AUM MANAGED</p>
+                        </div>
+                        <div class="stat-inline-item">
+                            <h3>9.8/10</h3>
+                            <p>CLIENT RATING</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="phone-container">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <div class="phone-header">
+                                <div class="phone-avatar">V</div>
+                                <div class="phone-contact">
+                                    <div class="phone-name">Vikram Malhotra - Wealth Advisor</div>
+                                    <div class="phone-status">Online</div>
+                                </div>
+                            </div>
+                            <div class="whatsapp-image">PREMIUM INSIGHT</div>
+                            <div class="whatsapp-message">
+                                <div class="message-text">Good morning. India's fiscal deficit dropped to 5.1% of GDP - the lowest in 8 years. Here's how this affects your portfolio allocation strategy...</div>
+                                <div class="message-time">8:00 AM</div>
+                            </div>
+                            <div class="whatsapp-message">
+                                <div class="message-text">For HNI clients: Now is the time to rebalance equity exposure. Institutional money is flowing into large-cap value stocks. Details in my market note.</div>
+                                <div class="message-time">8:05 AM</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="social-proof">
+        <div class="container">
+            <div class="proof-title">Trusted by India's Premier Institutions</div>
+            <div class="proof-stats">
+                <div class="stat-item">
+                    <div class="stat-number">1,200+</div>
+                    <div class="stat-label">Elite Advisors</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">₹5Cr+</div>
+                    <div class="stat-label">Min AUM</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">99.9%</div>
+                    <div class="stat-label">Uptime SLA</div>
+                </div>
+            </div>
+            <div class="bank-logos">
+                <div class="bank-logo">HDFC Private Bank</div>
+                <div class="bank-logo">Axis Private Bank</div>
+                <div class="bank-logo">Kotak Wealth</div>
+                <div class="bank-logo">SBI Private</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Premium Features</div>
+                <h2 class="section-title">UNCOMPROMISING<br>QUALITY</h2>
+                <p class="section-subtitle">Every detail engineered for excellence</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏦</div>
+                    <h3 class="feature-title">Institutional Grade</h3>
+                    <p class="feature-description">Built on the same infrastructure used by India's largest banks. 99.9% uptime SLA. SOC 2 Type II certified. Your clients expect nothing less.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3 class="feature-title">HNI-Focused Content</h3>
+                    <p class="feature-description">Content strategy tailored for high-net-worth clients. Complex investment themes, tax optimization strategies, and alternative asset insights.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👔</div>
+                    <h3 class="feature-title">White Glove Service</h3>
+                    <p class="feature-description">Dedicated account manager. Custom content review. Priority support with 15-minute SLA. Treatment worthy of your practice.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Process</div>
+                <h2 class="section-title">SEAMLESS<br>INTEGRATION</h2>
+                <p class="section-subtitle">Enterprise-grade onboarding in 24 hours</p>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">Step 01</div>
+                    <h3 class="step-title">Application Review</h3>
+                    <p class="step-description">Submit your practice details. Our team reviews within 24 hours. Minimum ₹5Cr AUM required for consideration.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">Step 02</div>
+                    <h3 class="step-title">Onboarding Call</h3>
+                    <p class="step-description">45-minute consultation with your dedicated account manager. We understand your client segments and content strategy.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">Step 03</div>
+                    <h3 class="step-title">Custom Setup</h3>
+                    <p class="step-description">White-label branding. Content tone calibration. WhatsApp integration. Everything configured to your specifications.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">Step 04</div>
+                    <h3 class="step-title">Go Live</h3>
+                    <p class="step-description">Launch with concierge support. Daily content review. Performance monitoring. Continuous optimization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <div class="container">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"My HNI clients demand excellence in every interaction. JarvisDaily delivers content that matches the caliber of my ₹24 crore practice. The white-glove service and institutional-grade reliability are exactly what I needed. This is the standard."</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">A</div>
+                    <div class="testimonial-info">
+                        <h4>Arjun Deshmukh</h4>
+                        <p>Managing Director, Deshmukh Wealth Advisors</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Pricing</div>
+                <h2 class="section-title">INVESTMENT<br>TIERS</h2>
+                <p class="section-subtitle">Choose your level of excellence</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-badge">Professional</div>
+                    <h3 class="pricing-name">Elite</h3>
+                    <div class="pricing-price">₹9,999</div>
+                    <p class="pricing-period">per month</p>
+                    <ul class="pricing-features">
+                        <li>Up to 500 HNI clients</li>
+                        <li>3 premium content/day</li>
+                        <li>Advanced analytics</li>
+                        <li>Priority support</li>
+                        <li>Quarterly reviews</li>
+                    </ul>
+                    <button class="pricing-cta">Apply Now</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <h3 class="pricing-name">Platinum</h3>
+                    <div class="pricing-price">₹24,999</div>
+                    <p class="pricing-period">per month</p>
+                    <ul class="pricing-features">
+                        <li>Up to 1,000 clients</li>
+                        <li>Unlimited content</li>
+                        <li>White-label branding</li>
+                        <li>Dedicated manager</li>
+                        <li>Custom content strategy</li>
+                        <li>Monthly strategy calls</li>
+                    </ul>
+                    <button class="pricing-cta">Apply Now</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-badge">Enterprise</div>
+                    <h3 class="pricing-name">Private</h3>
+                    <div class="pricing-price">Custom</div>
+                    <p class="pricing-period">contact us</p>
+                    <ul class="pricing-features">
+                        <li>Multi-advisor firms</li>
+                        <li>Unlimited everything</li>
+                        <li>Full customization</li>
+                        <li>API access</li>
+                        <li>Dedicated team</li>
+                        <li>SLA guarantees</li>
+                    </ul>
+                    <button class="pricing-cta">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Enterprise</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Compliance</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 JarvisDaily. All Rights Reserved. SEBI Registered. SOC 2 Type II Certified.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

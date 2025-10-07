@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JarvisDaily - 28,000+ Indian Advisors Trust Our AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Manrope', 'Noto Sans Devanagari', sans-serif;
+            background: #F8F9FA;
+            color: #002E6E;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Traditional Pattern Background */
+        .pattern-bg {
+            background-image:
+                radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(212, 175, 55, 0.03) 0%, transparent 50%);
+        }
+
+        /* Navigation */
+        nav {
+            padding: 20px 0;
+            background: white;
+            border-bottom: 3px solid #D4AF37;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 12px rgba(0, 46, 110, 0.08);
+        }
+
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-icon {
+            width: 42px;
+            height: 42px;
+            background: linear-gradient(135deg, #002E6E 0%, #004A9E 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #D4AF37;
+            font-size: 24px;
+            font-weight: 800;
+        }
+
+        .logo-text {
+            font-size: 24px;
+            font-weight: 800;
+            color: #002E6E;
+        }
+
+        .nav-cta {
+            padding: 12px 28px;
+            background: linear-gradient(135deg, #D4AF37 0%, #F4D03F 100%);
+            color: #002E6E;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 16px rgba(212, 175, 55, 0.3);
+        }
+
+        .nav-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 24px rgba(212, 175, 55, 0.4);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 80px 0;
+            text-align: center;
+            background: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .trust-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 28px;
+            background: linear-gradient(135deg, #FFF8E7 0%, #FFFBF0 100%);
+            border: 2px solid #D4AF37;
+            border-radius: 50px;
+            margin-bottom: 32px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .trust-icon {
+            width: 28px;
+            height: 28px;
+            background: linear-gradient(135deg, #D4AF37 0%, #F4D03F 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 800;
+            font-size: 16px;
+        }
+
+        .trust-text {
+            font-weight: 700;
+            color: #002E6E;
+            font-size: 16px;
+        }
+
+        h1 {
+            font-size: 64px;
+            font-weight: 800;
+            line-height: 1.15;
+            margin-bottom: 24px;
+            color: #002E6E;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-highlight {
+            background: linear-gradient(135deg, #D4AF37 0%, #F4D03F 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 22px;
+            color: #4A5568;
+            margin-bottom: 40px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-group {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-primary {
+            padding: 18px 40px;
+            background: linear-gradient(135deg, #002E6E 0%, #004A9E 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 24px rgba(0, 46, 110, 0.25);
+        }
+
+        .cta-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 32px rgba(0, 46, 110, 0.35);
+        }
+
+        .cta-secondary {
+            padding: 18px 40px;
+            background: white;
+            color: #002E6E;
+            border: 3px solid #D4AF37;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .cta-secondary:hover {
+            background: #FFF8E7;
+            transform: translateY(-3px);
+        }
+
+        /* Phone Mockup */
+        .phone-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #F8F9FA 0%, #FFF8E7 100%);
+        }
+
+        .phone-wrapper {
+            display: flex;
+            gap: 60px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .phone-content {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .section-badge {
+            display: inline-block;
+            padding: 8px 20px;
+            background: linear-gradient(135deg, #D4AF37 0%, #F4D03F 100%);
+            color: #002E6E;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 14px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .phone-content h2 {
+            font-size: 48px;
+            font-weight: 800;
+            color: #002E6E;
+            margin-bottom: 24px;
+            line-height: 1.2;
+        }
+
+        .phone-content p {
+            font-size: 18px;
+            color: #4A5568;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .indian-flag {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 32px;
+            padding: 16px;
+            background: white;
+            border-radius: 12px;
+            border: 2px solid #D4AF37;
+        }
+
+        .flag-colors {
+            display: flex;
+            gap: 4px;
+        }
+
+        .flag-stripe {
+            width: 4px;
+            height: 24px;
+            border-radius: 2px;
+        }
+
+        .flag-orange { background: #FF9933; }
+        .flag-white { background: white; border: 1px solid #D4AF37; }
+        .flag-green { background: #138808; }
+
+        .flag-text {
+            font-weight: 700;
+            color: #002E6E;
+        }
+
+        .phone-container {
+            flex: 1;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .phone-frame {
+            background: linear-gradient(135deg, #002E6E 0%, #004A9E 100%);
+            border-radius: 40px;
+            padding: 16px;
+            box-shadow: 0 20px 60px rgba(0, 46, 110, 0.3);
+            border: 4px solid #D4AF37;
+        }
+
+        .phone-screen {
+            background: #ECE9F1;
+            border-radius: 28px;
+            padding: 24px;
+            min-height: 600px;
+        }
+
+        .phone-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid rgba(0, 46, 110, 0.1);
+        }
+
+        .phone-avatar {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, #D4AF37 0%, #F4D03F 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #002E6E;
+            font-weight: 800;
+            font-size: 20px;
+            border: 3px solid white;
+        }
+
+        .phone-contact {
+            flex: 1;
+        }
+
+        .phone-name {
+            font-weight: 700;
+            font-size: 16px;
+            color: #002E6E;
+        }
+
+        .phone-status {
+            font-size: 13px;
+            color: #25D366;
+            font-weight: 600;
+        }
+
+        .whatsapp-message {
+            background: white;
+            padding: 16px;
+            border-radius: 16px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            border-left: 4px solid #D4AF37;
+        }
+
+        .message-text {
+            color: #002E6E;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        .message-time {
+            font-size: 11px;
+            color: #4A5568;
+            text-align: right;
+        }
+
+        .whatsapp-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #002E6E 0%, #004A9E 100%);
+            border-radius: 16px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #D4AF37;
+            font-weight: 700;
+            font-size: 18px;
+            box-shadow: 0 4px 16px rgba(0, 46, 110, 0.3);
+            border: 3px solid white;
+        }
+
+        /* Social Proof */
+        .social-proof {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .proof-title {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 700;
+            color: #002E6E;
+            margin-bottom: 48px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .proof-stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 32px;
+            background: linear-gradient(135deg, #FFF8E7 0%, #FFFBF0 100%);
+            border-radius: 20px;
+            min-width: 200px;
+            border: 3px solid #D4AF37;
+            transition: transform 0.3s ease;
+        }
+
+        .stat-item:hover {
+            transform: translateY(-8px);
+        }
+
+        .stat-number {
+            font-size: 56px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #002E6E 0%, #004A9E 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            font-size: 16px;
+            color: #4A5568;
+            font-weight: 600;
+        }
+
+        .bank-section {
+            background: linear-gradient(135deg, #002E6E 0%, #004A9E 100%);
+            padding: 48px;
+            border-radius: 24px;
+            text-align: center;
+        }
+
+        .bank-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #D4AF37;
+            margin-bottom: 32px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .bank-logos {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            flex-wrap: wrap;
+        }
+
+        .bank-logo {
+            padding: 16px 32px;
+            background: white;
+            border-radius: 12px;
+            font-weight: 700;
+            color: #002E6E;
+            font-size: 16px;
+            border: 3px solid #D4AF37;
+            transition: transform 0.3s ease;
+        }
+
+        .bank-logo:hover {
+            transform: scale(1.05);
+        }
+
+        /* Features */
+        .features {
+            padding: 100px 0;
+            background: linear-gradient(135deg, #F8F9FA 0%, #FFF8E7 100%);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title {
+            font-size: 52px;
+            font-weight: 800;
+            margin-bottom: 16px;
+            color: #002E6E;
+        }
+
+        .section-subtitle {
+            font-size: 20px;
+            color: #4A5568;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 32px;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 40px;
+            border-radius: 24px;
+            border: 3px solid #D4AF37;
+            transition: all 0.4s ease;
+            box-shadow: 0 4px 16px rgba(0, 46, 110, 0.08);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 12px 32px rgba(0, 46, 110, 0.15);
+        }
+
+        .feature-icon {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, #002E6E 0%, #004A9E 100%);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            margin-bottom: 24px;
+            border: 3px solid #D4AF37;
+        }
+
+        .feature-title {
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 12px;
+            color: #002E6E;
+        }
+
+        .feature-description {
+            color: #4A5568;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        /* How It Works */
+        .how-it-works {
+            padding: 100px 0;
+            background: white;
+        }
+
+        .steps-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 32px;
+            margin-top: 60px;
+        }
+
+        .step {
+            text-align: center;
+            padding: 40px 32px;
+            background: linear-gradient(135deg, #FFF8E7 0%, #FFFBF0 100%);
+            border-radius: 24px;
+            border: 3px solid #D4AF37;
+            transition: all 0.3s ease;
+        }
+
+        .step:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 32px rgba(0, 46, 110, 0.15);
+        }
+
+        .step-number {
+            width: 72px;
+            height: 72px;
+            background: linear-gradient(135deg, #D4AF37 0%, #F4D03F 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #002E6E;
+            font-size: 32px;
+            font-weight: 800;
+            margin: 0 auto 24px;
+            border: 4px solid white;
+            box-shadow: 0 4px 16px rgba(212, 175, 55, 0.3);
+        }
+
+        .step-title {
+            font-size: 22px;
+            font-weight: 800;
+            margin-bottom: 12px;
+            color: #002E6E;
+        }
+
+        .step-description {
+            color: #4A5568;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        /* Testimonial */
+        .testimonial {
+            padding: 100px 0;
+            background: linear-gradient(135deg, #002E6E 0%, #004A9E 100%);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .testimonial:before {
+            content: "";
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .testimonial-card {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 60px 40px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 24px;
+            border: 3px solid #D4AF37;
+            position: relative;
+            z-index: 1;
+        }
+
+        .testimonial-text {
+            font-size: 26px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .testimonial-avatar {
+            width: 72px;
+            height: 72px;
+            background: linear-gradient(135deg, #D4AF37 0%, #F4D03F 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #002E6E;
+            font-weight: 800;
+            font-size: 32px;
+            border: 4px solid white;
+        }
+
+        .testimonial-info h4 {
+            font-weight: 800;
+            font-size: 22px;
+            margin-bottom: 8px;
+        }
+
+        .testimonial-info p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        /* Pricing */
+        .pricing {
+            padding: 100px 0;
+            background: white;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .pricing-card {
+            background: linear-gradient(135deg, #F8F9FA 0%, #FFF8E7 100%);
+            padding: 48px 40px;
+            border-radius: 24px;
+            border: 3px solid #D4AF37;
+            transition: all 0.4s ease;
+            text-align: center;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 20px 60px rgba(0, 46, 110, 0.2);
+        }
+
+        .pricing-card.featured {
+            background: linear-gradient(135deg, #002E6E 0%, #004A9E 100%);
+            color: white;
+            border-color: #D4AF37;
+            transform: scale(1.05);
+        }
+
+        .pricing-card.featured:hover {
+            transform: scale(1.08) translateY(-12px);
+        }
+
+        .pricing-badge {
+            display: inline-block;
+            padding: 8px 20px;
+            background: linear-gradient(135deg, #D4AF37 0%, #F4D03F 100%);
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            color: #002E6E;
+        }
+
+        .pricing-card.featured .pricing-badge {
+            background: #D4AF37;
+            color: #002E6E;
+        }
+
+        .pricing-name {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        .pricing-price {
+            font-size: 56px;
+            font-weight: 800;
+            margin-bottom: 12px;
+        }
+
+        .pricing-period {
+            font-size: 18px;
+            color: #4A5568;
+            margin-bottom: 32px;
+        }
+
+        .pricing-card.featured .pricing-period {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .pricing-features {
+            list-style: none;
+            margin-bottom: 32px;
+            text-align: left;
+        }
+
+        .pricing-features li {
+            padding: 14px 0;
+            border-bottom: 2px solid rgba(0, 46, 110, 0.1);
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .pricing-card.featured .pricing-features li {
+            border-bottom-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .pricing-features li:before {
+            content: "✓";
+            margin-right: 12px;
+            color: #D4AF37;
+            font-weight: 800;
+            font-size: 20px;
+        }
+
+        .pricing-cta {
+            width: 100%;
+            padding: 18px;
+            background: linear-gradient(135deg, #002E6E 0%, #004A9E 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0, 46, 110, 0.3);
+        }
+
+        .pricing-card.featured .pricing-cta {
+            background: linear-gradient(135deg, #D4AF37 0%, #F4D03F 100%);
+            color: #002E6E;
+        }
+
+        .pricing-cta:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Footer */
+        footer {
+            padding: 80px 0 40px;
+            background: linear-gradient(135deg, #002E6E 0%, #004A9E 100%);
+            color: white;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .footer-section h3 {
+            font-size: 20px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            color: #D4AF37;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-section ul li a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-weight: 600;
+        }
+
+        .footer-section ul li a:hover {
+            color: #D4AF37;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 40px;
+            border-top: 2px solid rgba(212, 175, 55, 0.3);
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 600;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 40px;
+            }
+
+            .hero-subtitle {
+                font-size: 18px;
+            }
+
+            .section-title {
+                font-size: 36px;
+            }
+
+            .phone-wrapper {
+                flex-direction: column-reverse;
+            }
+
+            .pricing-card.featured {
+                transform: scale(1);
+            }
+
+            .pricing-card.featured:hover {
+                transform: translateY(-8px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <div class="logo-icon">🇮🇳</div>
+                    <div class="logo-text">JarvisDaily</div>
+                </div>
+                <button class="nav-cta">7 दिन मुफ्त शुरू करें</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero pattern-bg">
+        <div class="container">
+            <div class="trust-badge">
+                <div class="trust-icon">✓</div>
+                <div class="trust-text">28,000+ भारतीय सलाहकार भरोसा करते हैं</div>
+            </div>
+            <h1>India's Most Trusted<br><span class="hero-highlight">WhatsApp AI</span> for<br>Financial Advisors</h1>
+            <p class="hero-subtitle">HDFC, AXIS, Kotak और SBI के हजारों सलाहकार JarvisDaily का उपयोग करते हैं। SEBI-compliant, bank-grade सुरक्षा, और 100% भारतीय बाजार के लिए बनाया गया।</p>
+            <div class="cta-group">
+                <button class="cta-primary">7-Day Free Trial शुरू करें</button>
+                <button class="cta-secondary">Live Demo देखें</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="phone-section">
+        <div class="container">
+            <div class="phone-wrapper">
+                <div class="phone-content">
+                    <span class="section-badge">🇮🇳 Made for Bharat</span>
+                    <h2>भारतीय Advisors के लिए, भारतीयों द्वारा बनाया गया</h2>
+                    <p>Understanding Indian markets, festivals, tax seasons, and client psychology. Content that resonates with Indian families—from tier-1 metros to tier-3 cities.</p>
+                    <p>₹ rupee symbols, Indian names (Ramesh, Priya, Amit), HDFC/AXIS/Kotak references, and culturally relevant examples (Diwali bonuses, wedding planning, children's education).</p>
+                    <div class="indian-flag">
+                        <div class="flag-colors">
+                            <div class="flag-stripe flag-orange"></div>
+                            <div class="flag-stripe flag-white"></div>
+                            <div class="flag-stripe flag-green"></div>
+                        </div>
+                        <div class="flag-text">Proudly Indian. Proudly Compliant.</div>
+                    </div>
+                </div>
+                <div class="phone-container">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <div class="phone-header">
+                                <div class="phone-avatar">R</div>
+                                <div class="phone-contact">
+                                    <div class="phone-name">Ramesh Kumar - आपके Financial Advisor</div>
+                                    <div class="phone-status">Online</div>
+                                </div>
+                            </div>
+                            <div class="whatsapp-image">📈 Market Update</div>
+                            <div class="whatsapp-message">
+                                <div class="message-text">सुप्रभात! इस Diwali सीजन में mutual funds में रिकॉर्ड निवेश देखा गया। भारतीय निवेशक अब ₹50 लाख करोड़+ का AUM manage कर रहे हैं। आपके portfolio के लिए इसका मतलब...</div>
+                                <div class="message-time">9:00 AM</div>
+                            </div>
+                            <div class="whatsapp-message">
+                                <div class="message-text">Quick tip: SIP को अपनी बेटी की शादी की planning समझें। हर महीने ₹5,000 = 20 साल में ₹45 लाख (12% returns)। Small steps, big dreams! 🎯</div>
+                                <div class="message-time">9:05 AM</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="social-proof">
+        <div class="container">
+            <div class="proof-title">भारत के शीर्ष बैंकों के सलाहकार हम पर भरोसा करते हैं</div>
+            <div class="proof-stats">
+                <div class="stat-item">
+                    <div class="stat-number">28K+</div>
+                    <div class="stat-label">Active Advisors</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">₹2.4M+</div>
+                    <div class="stat-label">Portfolio Value</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">9.5/10</div>
+                    <div class="stat-label">Client Rating</div>
+                </div>
+            </div>
+            <div class="bank-section">
+                <div class="bank-title">Trusted by India's Leading Financial Institutions</div>
+                <div class="bank-logos">
+                    <div class="bank-logo">HDFC Bank</div>
+                    <div class="bank-logo">AXIS Bank</div>
+                    <div class="bank-logo">Kotak Securities</div>
+                    <div class="bank-logo">SBI Life</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features pattern-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why 28,000+ Indian Advisors<br>Choose JarvisDaily</h2>
+                <p class="section-subtitle">विश्वास, सुरक्षा, और परिणाम</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏛️</div>
+                    <h3 class="feature-title">SEBI Compliant 100%</h3>
+                    <p class="feature-description">हर संदेश SEBI guidelines, AMFI regulations और insurance compliance के अनुसार validate होता है। Audit-ready content हमेशा।</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔐</div>
+                    <h3 class="feature-title">Bank-Grade Security</h3>
+                    <p class="feature-description">256-bit encryption, ISO 27001 certified infrastructure. आपकी client data कभी India के servers से बाहर नहीं जाती। Complete peace of mind.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🇮🇳</div>
+                    <h3 class="feature-title">Culturally Relevant</h3>
+                    <p class="feature-description">Diwali bonuses, wedding expenses, children's education—सभी Indian families की जरूरतों को समझने वाला AI। Tier-1 से tier-3 cities तक resonates करता है।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">कैसे काम करता है</h2>
+                <p class="section-subtitle">सरल process, शक्तिशाली results</p>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">WhatsApp Connect करें</h3>
+                    <p class="step-description">60 सेकंड में अपना business WhatsApp link करें। किसी भी Indian number के साथ काम करता है।</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">AI Content Generate करता है</h3>
+                    <p class="step-description">हमारा 14-agent AI system आपके clients को समझता है और personalized, viral-worthy content बनाता है।</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Review & Approve</h3>
+                    <p class="step-description">हर सुबह 3 SEBI-compliant content pieces मिलते हैं। One-click approval या Hindi/English में changes request करें।</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Track & Grow</h3>
+                    <p class="step-description">Real-time में engagement track करें। देखें कैसे आपका AUM बढ़ता है और clients आपसे engaged रहते हैं।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <div class="container">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"मैं पिछले 15 सालों से HDFC में advisor हूँ। JarvisDaily ने मेरे practice को transform कर दिया। 6 महीने में ₹3.8 करोड़ नया AUM जोड़ा। मेरे clients अब रोज मेरी WhatsApp updates का इंतजार करते हैं। यह सबसे अच्छा investment था जो मैंने अपने career में किया!"</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">S</div>
+                    <div class="testimonial-info">
+                        <h4>Suresh Patel</h4>
+                        <p>Senior Financial Advisor, HDFC Bank Mumbai</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing pattern-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">पारदर्शी Pricing</h2>
+                <p class="section-subtitle">कोई hidden fees नहीं। सिर्फ results।</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-badge">शुरुआत</div>
+                    <h3 class="pricing-name">Starter</h3>
+                    <div class="pricing-price">₹999</div>
+                    <p class="pricing-period">per month</p>
+                    <ul class="pricing-features">
+                        <li>Up to 100 clients</li>
+                        <li>1 WhatsApp message/day</li>
+                        <li>Basic compliance check</li>
+                        <li>Email support</li>
+                    </ul>
+                    <button class="pricing-cta">7-Day Free Trial</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">सबसे लोकप्रिय</div>
+                    <h3 class="pricing-name">Professional</h3>
+                    <div class="pricing-price">₹2,999</div>
+                    <p class="pricing-period">per month</p>
+                    <ul class="pricing-features">
+                        <li>Up to 500 clients</li>
+                        <li>3 content pieces/day</li>
+                        <li>Advanced AI segmentation</li>
+                        <li>Real-time compliance</li>
+                        <li>Priority phone support</li>
+                    </ul>
+                    <button class="pricing-cta">7-Day Free Trial</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-badge">Enterprise</div>
+                    <h3 class="pricing-name">Advisory Firm</h3>
+                    <div class="pricing-price">₹9,999</div>
+                    <p class="pricing-period">per month</p>
+                    <ul class="pricing-features">
+                        <li>Unlimited clients</li>
+                        <li>Unlimited content</li>
+                        <li>Multi-advisor accounts</li>
+                        <li>Custom branding</li>
+                        <li>Dedicated manager</li>
+                    </ul>
+                    <button class="pricing-cta">Sales से बात करें</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing (मूल्य)</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Security (सुरक्षा)</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us (हमारे बारे में)</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact (संपर्क)</a></li>
+                        <li><a href="#">Press Kit</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Compliance Guide</a></li>
+                        <li><a href="#">Blog (Hindi & English)</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">SEBI Compliance</a></li>
+                        <li><a href="#">GDPR</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 JarvisDaily. All rights reserved. 🇮🇳 Made in India. SEBI Registered. ISO 27001 Certified.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

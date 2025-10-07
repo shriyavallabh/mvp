@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-10-07T07:29:05.597Z",
+  "results": [
+    {
+      "advisor": "Shruti Petkar",
+      "success": false,
+      "error": "fetch failed"
+    },
+    {
+      "advisor": "Vidyadhar Petkar",
+      "success": false,
+      "error": "fetch failed"
+    },
+    {
+      "advisor": "Shriya Vallabh Petkar",
+      "success": false,
+      "error": "fetch failed"
+    },
+    {
+      "advisor": "Avalok Langer",
+      "success": false,
+      "error": "fetch failed"
+    }
+  ],
+  "summary": {
+    "total": 4,
+    "successful": 0,
+    "failed": 4
+  }
+}

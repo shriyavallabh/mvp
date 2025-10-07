@@ -1,0 +1,11 @@
+{
+  "/api/image/route": "/api/image",
+  "/_not-found/page": "/_not-found",
+  "/api/dashboard/route": "/api/dashboard",
+  "/api/webhook/route": "/api/webhook",
+  "/sign-in/page": "/sign-in",
+  "/sso-callback/page": "/sso-callback",
+  "/signup/page": "/signup",
+  "/dashboard/page": "/dashboard",
+  "/page": "/"
+}
