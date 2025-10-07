@@ -71,7 +71,7 @@ export default function SignupPage() {
       const lastName = lastNameParts.join(' ');
 
       // Build signup params - only include lastName if it exists
-      const signUpParams = {
+      const signUpParams: any = {
         firstName,
         emailAddress: formData.email,
         password: formData.password,
