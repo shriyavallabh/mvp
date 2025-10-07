@@ -98,25 +98,35 @@ export default function SignupPage() {
 
   const handleGoogleSignIn = async () => {
     try {
-      await signUp?.authenticateWithRedirect({
+      if (!signUp) {
+        console.error('SignUp not initialized');
+        return;
+      }
+      await signUp.authenticateWithRedirect({
         strategy: 'oauth_google',
-        redirectUrl: '/dashboard',
+        redirectUrl: '/sso-callback',
         redirectUrlComplete: '/dashboard'
       });
-    } catch (err) {
+    } catch (err: any) {
       console.error('Google sign in error:', err);
+      setError(err.errors?.[0]?.message || 'Failed to authenticate with Google');
     }
   };
 
   const handleLinkedInSignIn = async () => {
     try {
-      await signUp?.authenticateWithRedirect({
-        strategy: 'oauth_linkedin',
-        redirectUrl: '/dashboard',
+      if (!signUp) {
+        console.error('SignUp not initialized');
+        return;
+      }
+      await signUp.authenticateWithRedirect({
+        strategy: 'oauth_linkedin_oidc',
+        redirectUrl: '/sso-callback',
         redirectUrlComplete: '/dashboard'
       });
-    } catch (err) {
+    } catch (err: any) {
       console.error('LinkedIn sign in error:', err);
+      setError(err.errors?.[0]?.message || 'Failed to authenticate with LinkedIn');
     }
   };
 
