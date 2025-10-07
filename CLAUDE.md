@@ -44,9 +44,112 @@ npm run dev     # Local development server
 git push        # Deploy to production (auto via GitHub integration)
 vercel logs     # View production logs
 
+# Automated Deployment
+node scripts/deploy-to-vercel.js  # Programmatic: commit + push + deploy
+
 # Testing
 npx playwright test --config=playwright.config.js  # Run 462 comprehensive tests
 ```
+
+## 🤖 SESSION AUTOMATION RULES
+
+**CRITICAL: Claude Code should NEVER ask user to do these manually. Automate everything.**
+
+### Automatic Deployment Protocol
+When completing any feature, page, or fix:
+1. ✅ **Run tests first**: `npx playwright test` (ensure passing, or fix failures)
+2. ✅ **Commit automatically**: `git add . && git commit -m "feat: [clear description]"`
+3. ✅ **Push automatically**: `git push origin main` (triggers Vercel auto-deploy)
+4. ✅ **Verify deployment**: `vercel logs --follow` or check dashboard
+5. ❌ **NEVER ask user**: "Would you like me to deploy this?" - Just do it.
+
+**Alternative**: Use `node scripts/deploy-to-vercel.js` for single-command automation.
+
+### Credentials & Environment Variables
+**Claude Code has automatic access via .env - NEVER ask user for these:**
+
+#### How to Use Credentials in Code
+```javascript
+// Node.js / Next.js API Routes
+require('dotenv').config();
+const whatsappToken = process.env.WHATSAPP_ACCESS_TOKEN;
+const geminiKey = process.env.GEMINI_API_KEY;
+const clerkSecret = process.env.CLERK_SECRET_KEY;
+
+// Python Scripts
+import os
+from dotenv import load_dotenv
+load_dotenv()
+gemini_key = os.getenv('GEMINI_API_KEY')
+whatsapp_token = os.getenv('WHATSAPP_ACCESS_TOKEN')
+```
+
+#### Automatic Credential Handling
+- ✅ **All tokens already configured** in `.env` - use them directly
+- ✅ **Never ask user** for: WhatsApp tokens, Gemini API key, Clerk keys, Cloudinary credentials
+- ✅ **If a NEW variable is needed**, Claude should:
+  1. Check if it's documented in CLAUDE.md
+  2. Prompt user once for the value
+  3. Add it to `.env` automatically using Node fs.appendFileSync()
+  4. Continue execution without further prompts
+
+#### Common API Call Patterns
+```javascript
+// WhatsApp API (Meta Direct)
+const response = await fetch(`https://graph.facebook.com/v17.0/${process.env.WHATSAPP_PHONE_NUMBER_ID}/messages`, {
+  method: 'POST',
+  headers: {
+    'Authorization': `Bearer ${process.env.WHATSAPP_ACCESS_TOKEN}`,
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({ messaging_product: 'whatsapp', to: recipientPhone, ...messageData })
+});
+
+// Gemini API (Image Generation)
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-image-preview' });
+
+// Cloudinary Upload
+cloudinary.config({
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_API_SECRET
+});
+```
+
+### Programmatic Operations (Use APIs, Not Manual Steps)
+**Always use API/CLI automation:**
+- ✅ Vercel: Use `vercel` CLI or push to GitHub (auto-deploys)
+- ✅ Git: Use `git` commands directly in Bash tool
+- ✅ Testing: Run `npx playwright test` programmatically
+- ✅ Environment: Read from `.env`, write new vars automatically
+- ❌ NEVER: Ask user to "manually deploy", "manually set env var", "manually push"
+
+### MCP (Model Context Protocol) Tools
+**Available MCP servers in this project:**
+- `mcp__ide__getDiagnostics` - Get TypeScript/ESLint errors
+- `mcp__ide__executeCode` - Run code in Jupyter kernel (for Python agents)
+
+**Use these proactively:**
+- Check diagnostics after editing TypeScript files
+- Execute Python agent code directly when testing orchestration
+
+### Session Memory & Context
+**What Claude Code automatically knows in EVERY new terminal/session:**
+- ✅ All files in the project (can read/search instantly)
+- ✅ CLAUDE.md contents (this file - the "instruction manual")
+- ✅ Git history and recent commits
+- ✅ Environment variables in `.env` (knows they exist, not the actual values)
+- ✅ Package dependencies from `package.json`
+- ✅ Project structure and file organization
+
+**What Claude Code does NOT remember across sessions:**
+- ❌ Previous conversation history from other terminals
+- ❌ Verbal instructions you gave in past sessions
+- ❌ Manual steps you performed outside Claude Code
+
+**Best Practice:**
+If you find yourself explaining the same thing in multiple sessions, **add it to CLAUDE.md**. This file is Claude Code's persistent memory across all sessions.
 
 ### Production URLs
 - **Signup Page**: https://finadvise-webhook.vercel.app/signup
@@ -90,14 +193,102 @@ Monitoring: analytics-tracker, feedback-processor
 
 ## Environment Configuration
 
-### Required Variables
+**IMPORTANT: All credentials are stored in `.env` file. Claude Code has automatic access to these.**
+
+### Complete Environment Variables (from .env)
+
+#### WhatsApp Business API (Meta Direct - Primary)
 ```bash
-WHATSAPP_PHONE_NUMBER_ID=574744175733556    # Meta Business phone ID
-WHATSAPP_ACCESS_TOKEN=<token>               # Meta Business API token
-WHATSAPP_WEBHOOK_VERIFY_TOKEN=<verify>      # Webhook verification
-GEMINI_API_KEY=<key>                        # Google Gemini for images
-TWILIO_ACCOUNT_SID=<sid>                    # Alternative WhatsApp provider
+WHATSAPP_PHONE_NUMBER_ID=792411637295195           # Phone number ID for API calls
+WHATSAPP_BUSINESS_ACCOUNT_ID=1502194177669589      # Business account ID
+WHATSAPP_ACCESS_TOKEN=EAAMADo1n9VMBPig8H4z...      # Meta API access token (full in .env)
+WHATSAPP_APP_SECRET=57183e372dff09aa046032867bf3dde3  # App secret for secure calls
+WHATSAPP_WEBHOOK_VERIFY_TOKEN=finadvise-webhook-2024   # Webhook verification token
 ```
+**Business Phone**: +91 76666 84471
+**App Name**: Jarvis_WhatsApp_Bot
+**Display Name**: Jarvis Daily by The Skin Rules
+
+#### Clerk Authentication (Next.js App)
+```bash
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_dG91Y2hlZC1hZGRlci03Mi5jbGVyay5hY2NvdW50cy5kZXYk
+CLERK_SECRET_KEY=sk_test_NSI6Ch5M4SvObAMkj4rNpQwjSbc23XN8tG1zY0LFiC
+```
+**Auth Methods**: Email/password, Google OAuth, LinkedIn OAuth
+**Test Mode**: Active (no email verification required)
+**Production URL**: https://finadvise-webhook.vercel.app/signup
+
+#### Gemini API (Image Generation)
+```bash
+GEMINI_API_KEY=AIzaSyCUG910mCEcoY8sRZMvu4JGie925KZxRqY
+```
+**Model**: `gemini-2.5-flash-image-preview`
+**Usage**: WhatsApp Status images (1080×1920), marketing images
+**Technique**: Reference image method for aspect ratio control
+
+#### Twilio (Alternative WhatsApp Provider)
+```bash
+TWILIO_ACCOUNT_SID=AC0a517932a52c35df762a04b521579079
+TWILIO_AUTH_TOKEN=75f7c20bc6f18e2a6161541b3a4cc6f3
+TWILIO_WHATSAPP_FROM=whatsapp:+14155238886
+```
+**Status**: Backup provider (Meta Direct is primary)
+
+#### AiSensy (Deprecated - Replaced by Meta Direct)
+```bash
+AISENSY_API_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...  # Kept for reference
+AISENSY_WHATSAPP_NUMBER=918062524496
+AISENSY_DISPLAY_NAME=FinAdvise Daily
+```
+**Cost Savings**: Switched to Meta Direct API (saves ₹28,788/year)
+
+#### Cloudinary (Image Hosting)
+```bash
+CLOUDINARY_CLOUD_NAME=dun0gt2bc
+CLOUDINARY_API_KEY=812182821573181
+CLOUDINARY_API_SECRET=JVrtiKtKTPy9NHbtF2GSI1keKi8
+CLOUDINARY_URL=cloudinary://812182821573181:JVrtiKtKTPy9NHbtF2GSI1keKi8@dun0gt2bc
+```
+**Usage**: Host generated images before sending via WhatsApp
+
+#### Google Services
+```bash
+GOOGLE_SHEETS_ID=1zQ-J4MJ_PXknZSW8j9EpEU6z-0VEjXGSq8Vh1lK7DLY
+GOOGLE_DRIVE_CREDENTIALS=./config/google-credentials.json
+GOOGLE_DRIVE_ROOT_FOLDER_ID=your_drive_folder_id_here  # Needs update
+```
+
+#### Admin & Security
+```bash
+ADMIN_WHATSAPP_NUMBERS=919765071249  # Admin phone for notifications
+NODE_ENV=production
+WEBHOOK_SECRET=your_super_secure_webhook_secret_min_20_chars_here  # Needs secure update
+```
+
+### Vercel Configuration
+
+#### Project Details
+```bash
+VERCEL_PROJECT_ID=prj_QQAial59AHSd44kXyY1fGkPk3rkA
+VERCEL_ORG_ID=<your_org_id>  # Get from Vercel dashboard
+VERCEL_TOKEN=<your_token>    # Get from vercel.com/account/tokens
+```
+
+#### Deployment Setup
+- **GitHub Integration**: Enabled (auto-deploy on push to `main`)
+- **Production URL**: https://finadvise-webhook.vercel.app
+- **Custom Domain**: jarvisdaily.com (to be configured)
+- **Webhook Endpoint**: /api/webhook (handled by Next.js API route)
+
+#### Bot Protection Bypass (For Testing)
+```javascript
+// In playwright.config.js
+extraHTTPHeaders: {
+  'x-vercel-protection-bypass': 'HDwq1ZyUioGQJmft3ckqNdm5mJPxT8S8',
+  'x-vercel-set-bypass-cookie': 'samesitenone'
+}
+```
+**Status**: ✅ Configured (all 462 tests run without Code 21 errors)
 
 ## Implementation Requirements
 
