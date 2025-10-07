@@ -1,0 +1,77 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - heading "JarvisDaily" [level=1] [ref=e5]:
+        - img [ref=e6]
+        - text: JarvisDaily
+      - generic [ref=e15]: • • •
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e20]: VP
+          - generic [ref=e21]:
+            - heading "Vidya Patel" [level=3] [ref=e22]
+            - paragraph [ref=e23]: Financial Advisor, Mumbai
+        - generic [ref=e24]: ★★★★★
+        - paragraph [ref=e25]: "\"JarvisDaily significantly boosted my client engagement.\""
+    - generic [ref=e27]:
+      - generic [ref=e28]: Step 1 of 3
+      - generic [ref=e29]:
+        - heading "Create your account" [level=2] [ref=e30]
+        - paragraph [ref=e31]: Start generating viral content in under 2 minutes
+      - generic [ref=e32]: Account created! Please complete any remaining steps.
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: Full Name *
+          - textbox "Full Name *" [ref=e36]:
+            - /placeholder: John Doe
+            - text: Test User Auth
+        - generic [ref=e37]:
+          - generic [ref=e38]: Email *
+          - textbox "Email *" [ref=e39]:
+            - /placeholder: you@example.com
+            - text: test.auth.1759864111594@example.com
+          - generic [ref=e40]: ✓
+        - generic [ref=e41]:
+          - generic [ref=e42]: Phone Number *
+          - generic [ref=e43]:
+            - combobox [ref=e45] [cursor=pointer]:
+              - option "+91 ▼" [selected]
+              - option "+1"
+              - option "+44"
+            - textbox "Phone Number *" [ref=e46]:
+              - /placeholder: "9876543210"
+              - text: "9876543210"
+        - generic [ref=e47]:
+          - generic [ref=e48]: Password *
+          - generic [ref=e49]:
+            - textbox "Password *" [ref=e50]:
+              - /placeholder: Min. 8 characters
+              - text: TestPassword123!Strong
+            - generic [ref=e51]: Strong
+        - generic [ref=e52]:
+          - checkbox "I agree to Terms of Service and Privacy Policy" [checked] [ref=e53] [cursor=pointer]
+          - generic [ref=e54] [cursor=pointer]:
+            - text: I agree to
+            - link "Terms of Service" [ref=e55]:
+              - /url: /terms
+            - text: and
+            - link "Privacy Policy" [ref=e56]:
+              - /url: /privacy
+        - button "Create Account" [ref=e57] [cursor=pointer]
+      - generic [ref=e58]: Or
+      - generic [ref=e59]:
+        - button "Google" [ref=e60] [cursor=pointer]:
+          - img [ref=e61]
+          - text: Google
+        - button "LinkedIn" [ref=e66] [cursor=pointer]:
+          - img [ref=e67]
+          - text: LinkedIn
+      - generic [ref=e69]:
+        - text: Already have an account?
+        - link "Sign in" [ref=e70] [cursor=pointer]:
+          - /url: /auth-dashboard
+  - alert [ref=e71]
+```

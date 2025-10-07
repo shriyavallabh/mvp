@@ -1,31 +1,21 @@
 {
   "$schema": "https://ui.shadcn.com/schema.json",
-  "style": "default",
-  "rsc": false,
+  "style": "new-york",
+  "rsc": true,
   "tsx": true,
   "tailwind": {
-    "config": "tailwind.config.js",
+    "config": "",
     "css": "app/globals.css",
-    "baseColor": "slate",
+    "baseColor": "neutral",
     "cssVariables": true,
     "prefix": ""
   },
   "aliases": {
     "components": "@/components",
     "utils": "@/lib/utils",
-    "ui": "@/components/ui"
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
   },
-  "iconLibrary": "lucide",
-  "registries": {
-    "@aceternity": "https://ui.aceternity.com/registry/{name}.json",
-    "@originui": "https://originui.com/r/{name}.json",
-    "@cult": "https://cult-ui.com/r/{name}.json",
-    "@kibo": "https://www.kibo-ui.com/r/{name}.json",
-    "@reui": "https://reui.io/r/{name}.json",
-    "@magicui": "https://magicui.design/r/{name}.json",
-    "@tremor": "https://www.tremor.so/r/{name}.json",
-    "@craftui": "https://www.craft-ui.com/r/{name}.json",
-    "@uipub": "https://ui.pub/r/{name}.json",
-    "@tweakcn": "https://tweakcn.com/r/{name}.json"
-  }
+  "iconLibrary": "lucide"
 }
