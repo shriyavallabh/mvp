@@ -1,11 +1,3 @@
 {
-  "/api/image/route": "app/api/image/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/api/dashboard/route": "app/api/dashboard/route.js",
-  "/api/webhook/route": "app/api/webhook/route.js",
-  "/sign-in/page": "app/sign-in/page.js",
-  "/sso-callback/page": "app/sso-callback/page.js",
-  "/signup/page": "app/signup/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
   "/page": "app/page.js"
 }
