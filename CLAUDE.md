@@ -270,15 +270,32 @@ WEBHOOK_SECRET=your_super_secure_webhook_secret_min_20_chars_here  # Needs secur
 #### Project Details
 ```bash
 VERCEL_PROJECT_ID=prj_QQAial59AHSd44kXyY1fGkPk3rkA
-VERCEL_ORG_ID=<your_org_id>  # Get from Vercel dashboard
-VERCEL_TOKEN=<your_token>    # Get from vercel.com/account/tokens
+VERCEL_ORG_ID=team_kgmzsZJ64NGLaTPyLRBWV3vz
+VERCEL_TOKEN=cDuZRc8rAyugRDuJiNkBX3Hx  # claude-deployment-token
 ```
 
 #### Deployment Setup
 - **GitHub Integration**: Enabled (auto-deploy on push to `main`)
 - **Production URL**: https://finadvise-webhook.vercel.app
-- **Custom Domain**: jarvisdaily.com (to be configured)
+- **Custom Domain**: ✅ jarvisdaily.com (CONFIGURED - primary domain)
 - **Webhook Endpoint**: /api/webhook (handled by Next.js API route)
+
+#### Programmatic Deployment
+```bash
+# Deploy current branch to production
+VERCEL_TOKEN=cDuZRc8rAyugRDuJiNkBX3Hx vercel --prod --yes --token $VERCEL_TOKEN
+
+# Deploy and force rebuild (bypasses cache)
+VERCEL_TOKEN=cDuZRc8rAyugRDuJiNkBX3Hx vercel --prod --yes --force --token $VERCEL_TOKEN
+
+# Check deployment status
+vercel ls --token cDuZRc8rAyugRDuJiNkBX3Hx
+
+# View deployment logs
+vercel logs --token cDuZRc8rAyugRDuJiNkBX3Hx
+```
+
+**Note**: jarvisdaily.com is the primary production domain. All deployments automatically update both finadvise-webhook.vercel.app and jarvisdaily.com.
 
 #### Bot Protection Bypass (For Testing)
 ```javascript
