@@ -1,0 +1,17 @@
+{
+  "/api/auth/send-otp/route": "/api/auth/send-otp",
+  "/_not-found/page": "/_not-found",
+  "/api/dashboard/route": "/api/dashboard",
+  "/api/image/route": "/api/image",
+  "/api/auth/verify-otp/route": "/api/auth/verify-otp",
+  "/api/razorpay/webhook/route": "/api/razorpay/webhook",
+  "/api/webhook/route": "/api/webhook",
+  "/api/razorpay/create-subscription/route": "/api/razorpay/create-subscription",
+  "/dashboard/checkout/page": "/dashboard/checkout",
+  "/page": "/",
+  "/dashboard/page": "/dashboard",
+  "/signup/page": "/signup",
+  "/dashboard/upgrade/page": "/dashboard/upgrade",
+  "/sso-callback/page": "/sso-callback",
+  "/sign-in/page": "/sign-in"
+}

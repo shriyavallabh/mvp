@@ -34,21 +34,34 @@ export default function Hero() {
             {"🚀 AI-powered viral content in 2.3 seconds"}
           </div>
 
-          {/* Maintain tight heading and replace animated gold gradient with solid, reference-matched gold */}
+          {/* Updated headline focused on time savings */}
           <h1
             className="text-balance text-5xl md:text-7xl lg:text-8xl font-bold leading-[1.1] tracking-normal md:tracking-tight md:text-left"
             style={{ textShadow: "0 2px 10px rgba(0,0,0,0.5)" }}
           >
-            {"Grammy-Level Viral"} <br className="hidden md:block" />
-            <span className="text-hero-gold">{"WhatsApp Content for"}</span> <br className="hidden md:block" />
-            {"Financial Advisors"}
+            {"Save 15 Hours/Week"} <br className="hidden md:block" />
+            <span className="text-white">{"Creating Viral Content"}</span>
           </h1>
 
-          {/* Unchanged copy */}
+          {/* H2 showing all content types */}
+          <h2
+            className="mt-4 text-balance text-2xl md:text-3xl lg:text-4xl font-semibold leading-[1.2] tracking-normal md:text-left"
+            style={{ textShadow: "0 2px 10px rgba(0,0,0,0.5)" }}
+          >
+            <span className="text-hero-gold">{"Grammy-Level"}</span>{" "}
+            {"LinkedIn Posts + WhatsApp Messages + Status Images"}
+          </h2>
+
+          {/* Updated subheadline with clearer value proposition */}
           <p className="mt-6 mx-auto md:mx-0 max-w-3xl text-pretty text-xl md:text-2xl leading-[1.45] text-gray-300 md:text-left">
             {
-              "While competitors think, you deliver. AI generates 9.0+ virality content and delivers directly to WhatsApp. Zero effort, maximum engagement."
+              "While competitors think, you deliver. AI generates 9.0+ virality content* for LinkedIn and WhatsApp with 98% engagement. Your clients see professional content. You save time."
             }
+          </p>
+
+          {/* Virality score explanation footnote */}
+          <p className="mt-3 mx-auto md:mx-0 max-w-3xl text-sm text-gray-400 md:text-left">
+            {"*Virality Score 0-10: We guarantee 9.0+ (top-tier viral content) or regenerate free"}
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center md:items-start md:justify-start gap-4 sm:flex-row">
@@ -56,7 +69,7 @@ export default function Hero() {
               size="lg"
               className="h-12 w-full sm:w-auto rounded-2xl px-10 text-black font-bold text-lg bg-gradient-to-r from-[var(--color-brand-gold)] to-[var(--color-brand-gold-bright)] hover:shadow-2xl hover:shadow-[rgba(212,175,55,0.5)] hover:scale-105 transition-all duration-300 focus-visible:ring-2 focus-visible:ring-[var(--color-brand-gold)]"
             >
-              {"Start Free Trial \u2192"}
+              {"Start Free Trial \u2606"}
             </Button>
             <Button
               size="lg"

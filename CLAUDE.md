@@ -4,51 +4,56 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**JarvisDaily** (jarvisdaily.com) - WhatsApp-based Grammy-level viral content distribution system for financial advisors. Generates 9.0+ virality content using optimized AI agents and delivers via Meta WhatsApp Direct API.
+**JarvisDaily** (jarvisdaily.com) - Full-stack WhatsApp content distribution platform for financial advisors. Combines Next.js 15 web application with AI-powered content generation and Meta WhatsApp Direct API delivery.
 
-**Official Domain**: jarvisdaily.com
-**WhatsApp Provider**: Meta Direct API (saves ₹28,788/year vs AiSensy)
-**Content Standard**: Grammy/Oscar-level (minimum 9.0/10 virality score)
-**Content Strategy**: **1 asset per advisor per day** (Option A with quality regeneration)
-**Current Status**: 14-agent pipeline with auto-regeneration, emergency templates ready
+**Tech Stack**:
+- **Frontend**: Next.js 15.5.4 (App Router), React 18, Tailwind CSS 4, shadcn/ui
+- **Authentication**: Clerk (email/password + Google/LinkedIn OAuth)
+- **Content Engine**: 14 AI agents orchestrated via Claude Code
+- **Deployment**: Vercel (auto-deploy on push to main)
+- **APIs**: Meta WhatsApp Business, Gemini 2.5 Flash, Cloudinary
+
+**Official Domain**: jarvisdaily.com (aliases: finadvise-webhook.vercel.app)
+**Content Standard**: Grammy-level (minimum 9.0/10 virality score)
+**Content Strategy**: 1 asset per advisor per day (LinkedIn + WhatsApp + Status image)
+**Delivery**: Meta Direct API (saves ₹28,788/year vs AiSensy)
 
 ## Core Commands
 
-### Primary Execution
+### Development & Build
 ```bash
+npm run dev              # Start Next.js dev server (localhost:3000)
+npm run build            # Build production Next.js bundle
+npm test                 # Run Playwright tests (462 comprehensive tests)
+npm run test:report      # View test results HTML report
+```
+
+### Content Generation (AI Agent Pipeline)
+```bash
+/o                               # Execute 14-agent pipeline (2-3 min, Grammy-level content)
 node run-finadvise-mvp.js        # Quick MVP test run
 node execute-finadvise-mvp.js    # Full orchestration with image generation
-python3 orchestrate-finadvise.py # Python orchestration with session management
-/o                               # Slash command for viral content generation
 ```
 
-### WhatsApp Delivery (Meta Direct - No AiSensy)
+### Context Management & Codebase Cleanup
 ```bash
-node create-template-meta-direct.js  # Create utility template via Meta API
-node send-via-meta-direct.js         # Send daily messages via Meta API (saves ₹28K/year!)
-node check-meta-limits.js            # Check Meta account limits and tiers
-vercel logs --follow                 # Monitor webhook events
+/context-preserver               # Generate portable prompt for fresh terminal (45-60s)
+/sweep                           # Preview codebase cleanup (dry run)
+/sweep execute                   # Execute cleanup - archives non-essential files
 ```
 
-### Setup & Documentation
+### WhatsApp Delivery (Meta Direct API)
 ```bash
-START-HERE.md                    # Read this first for WhatsApp setup
-STEP-BY-STEP-META-SETUP.md      # Complete Meta API setup guide (30-45 min)
-QUICK-CHECKLIST.md               # Progress tracking checklist
-AISENSY-VS-META-DIRECT.md        # Cost comparison (save ₹28,788/year)
+node send-via-meta-direct.js         # Send daily messages
+node check-meta-limits.js            # Check Meta account limits
+vercel logs --follow                 # Monitor webhook events in real-time
 ```
 
-### Deployment (Vercel)
+### Deployment & CI
 ```bash
-npm run dev     # Local development server
-git push        # Deploy to production (auto via GitHub integration)
-vercel logs     # View production logs
-
-# Automated Deployment
-node scripts/deploy-to-vercel.js  # Programmatic: commit + push + deploy
-
-# Testing
-npx playwright test --config=playwright.config.js  # Run 462 comprehensive tests
+/deploy                  # 🟢 RECOMMENDED: Comprehensive testing + automated deployment (5-15 min)
+git push origin main     # Manual: Auto-deploy to Vercel production
+vercel --prod            # Manual: Direct deployment with Vercel CLI
 ```
 
 ## 🤖 SESSION AUTOMATION RULES
@@ -63,313 +68,184 @@ When completing any feature, page, or fix:
 4. ✅ **Verify deployment**: `vercel logs --follow` or check dashboard
 5. ❌ **NEVER ask user**: "Would you like me to deploy this?" - Just do it.
 
-**Alternative**: Use `node scripts/deploy-to-vercel.js` for single-command automation.
-
 ### Credentials & Environment Variables
 **Claude Code has automatic access via .env - NEVER ask user for these:**
 
 #### How to Use Credentials in Code
 ```javascript
-// Node.js / Next.js API Routes
-require('dotenv').config();
-const whatsappToken = process.env.WHATSAPP_ACCESS_TOKEN;
+// Node.js: require('dotenv').config();
+const token = process.env.WHATSAPP_ACCESS_TOKEN;
 const geminiKey = process.env.GEMINI_API_KEY;
 const clerkSecret = process.env.CLERK_SECRET_KEY;
 
-// Python Scripts
-import os
-from dotenv import load_dotenv
-load_dotenv()
+// Python: load_dotenv()
 gemini_key = os.getenv('GEMINI_API_KEY')
-whatsapp_token = os.getenv('WHATSAPP_ACCESS_TOKEN')
 ```
 
 #### Automatic Credential Handling
 - ✅ **All tokens already configured** in `.env` - use them directly
 - ✅ **Never ask user** for: WhatsApp tokens, Gemini API key, Clerk keys, Cloudinary credentials
-- ✅ **If a NEW variable is needed**, Claude should:
-  1. Check if it's documented in CLAUDE.md
-  2. Prompt user once for the value
-  3. Add it to `.env` automatically using Node fs.appendFileSync()
-  4. Continue execution without further prompts
+- ✅ **If a NEW variable is needed**: Add it to `.env` automatically using fs.appendFileSync()
 
-#### Common API Call Patterns
-```javascript
-// WhatsApp API (Meta Direct)
-const response = await fetch(`https://graph.facebook.com/v17.0/${process.env.WHATSAPP_PHONE_NUMBER_ID}/messages`, {
-  method: 'POST',
-  headers: {
-    'Authorization': `Bearer ${process.env.WHATSAPP_ACCESS_TOKEN}`,
-    'Content-Type': 'application/json'
-  },
-  body: JSON.stringify({ messaging_product: 'whatsapp', to: recipientPhone, ...messageData })
-});
-
-// Gemini API (Image Generation)
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-image-preview' });
-
-// Cloudinary Upload
-cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET
-});
-```
-
-### Programmatic Operations (Use APIs, Not Manual Steps)
+### Programmatic Operations
 **Always use API/CLI automation:**
 - ✅ Vercel: Use `vercel` CLI or push to GitHub (auto-deploys)
 - ✅ Git: Use `git` commands directly in Bash tool
 - ✅ Testing: Run `npx playwright test` programmatically
-- ✅ Environment: Read from `.env`, write new vars automatically
 - ❌ NEVER: Ask user to "manually deploy", "manually set env var", "manually push"
 
 ### MCP (Model Context Protocol) Tools
-**Available MCP servers in this project:**
+**Available MCP servers:**
 - `mcp__ide__getDiagnostics` - Get TypeScript/ESLint errors
 - `mcp__ide__executeCode` - Run code in Jupyter kernel (for Python agents)
 
-**Use these proactively:**
-- Check diagnostics after editing TypeScript files
-- Execute Python agent code directly when testing orchestration
+**Use proactively**: Check diagnostics after editing TypeScript files
 
 ### Session Memory & Context
-**What Claude Code automatically knows in EVERY new terminal/session:**
-- ✅ All files in the project (can read/search instantly)
-- ✅ CLAUDE.md contents (this file - the "instruction manual")
-- ✅ Git history and recent commits
-- ✅ Environment variables in `.env` (knows they exist, not the actual values)
-- ✅ Package dependencies from `package.json`
-- ✅ Project structure and file organization
+**What Claude Code automatically knows in EVERY session:**
+- ✅ All files in the project, CLAUDE.md contents, git history
+- ✅ Environment variables in `.env` (knows they exist)
+- ✅ Package dependencies, project structure
 
-**What Claude Code does NOT remember across sessions:**
+**What Claude Code does NOT remember:**
 - ❌ Previous conversation history from other terminals
-- ❌ Verbal instructions you gave in past sessions
-- ❌ Manual steps you performed outside Claude Code
+- ❌ Verbal instructions from past sessions
 
-**Best Practice:**
-If you find yourself explaining the same thing in multiple sessions, **add it to CLAUDE.md**. This file is Claude Code's persistent memory across all sessions.
+**Best Practice**: If explaining the same thing in multiple sessions, **add it to CLAUDE.md**.
 
 ### Production URLs
-- **Signup Page**: https://finadvise-webhook.vercel.app/signup
-- **Custom Domain**: jarvisdaily.com (to be configured)
-- **Webhook**: https://finadvise-webhook.vercel.app/api/webhook
+- **Landing**: https://jarvisdaily.com
+- **Signup**: https://jarvisdaily.com/signup
+- **Dashboard**: https://jarvisdaily.com/dashboard (protected)
+- **Webhook**: https://jarvisdaily.com/api/webhook
 
 ## Architecture
 
-### Three-Layer System
+### System Overview
 ```
-1. Content Generation Pipeline (14 Agents):
-   Infrastructure → Data → Analysis → Generation → Enhancement → Validation → Distribution
+JarvisDaily Platform
+├── Frontend (Next.js 15 App Router): /, /signup, /sign-in, /dashboard
+├── API Routes: /api/webhook (WhatsApp), /api/dashboard, /api/image
+├── Content Generation: 14 AI agents (data → content → validation → distribution)
+└── WhatsApp Flow: Notification → Button click → Webhook → Content delivery
+```
 
-2. WhatsApp Delivery Flow:
-   Utility Template → Button Click → Webhook Handler → Content Package Delivery
-
-3. Session Management:
-   Isolated sessions with shared memory, communication bus, and learning extraction
+### Directory Structure (Condensed)
+```
+/
+├── app/                        # Next.js 15 App Router (pages + API routes)
+├── components/ui/              # shadcn/ui components (54 components)
+├── scripts/                    # Python/Node utility scripts
+├── .claude/commands/           # Slash commands (27 agents)
+├── data/                       # advisors.json, shared-memory.json
+├── output/                     # Generated content (gitignored)
+├── tests/                      # Playwright tests (462 tests)
+├── middleware.ts               # Clerk auth middleware
+├── playwright.config.js        # Test config with Vercel bypass
+└── .env                        # Environment variables (gitignored)
 ```
 
 ### Critical Files
-```
-/api/webhook.js                  - Vercel serverless webhook (handles button clicks)
-/orchestrate-finadvise.py        - Python orchestration with full agent coordination
-/.claude/commands/o.md           - Viral content command (Grammy-level only)
-/data/advisors.json             - Advisor configurations
-/.env                           - Environment variables (Meta, Gemini, Twilio APIs)
-```
+| File | Purpose |
+|------|---------|
+| `app/layout.tsx` | Root layout with ClerkProvider |
+| `app/api/webhook/route.ts` | WhatsApp webhook handler |
+| `app/api/razorpay/create-subscription/route.ts` | Razorpay subscription creation |
+| `app/api/razorpay/webhook/route.ts` | Razorpay payment webhooks |
+| `lib/razorpay.js` | Razorpay client (subscriptions, webhooks) |
+| `middleware.ts` | Route protection (Clerk) |
+| `.claude/commands/o.md` | Main orchestration (14 agents) |
+| `playwright.config.js` | Test config with Vercel bypass |
 
-### Agent System (14 Agents)
-```
-Infrastructure: mcp-coordinator, state-manager, communication-bus
-Data Layer: advisor-data-manager, market-intelligence
-Analysis: segment-analyzer
-Content: linkedin-post-generator-enhanced, whatsapp-message-creator, status-image-designer
-Enhancement: gemini-image-generator, brand-customizer
-Validation: compliance-validator, quality-scorer, fatigue-checker
-Distribution: distribution-controller
-Monitoring: analytics-tracker, feedback-processor
-```
+### Agent System (14 Agents via /o)
+**Execution**: Each agent runs via `Task` tool, takes 2-3 minutes total
+
+**Phases**:
+1. **Infrastructure**: mcp-coordinator, state-manager, advisor-data-manager, market-intelligence
+2. **Content**: segment-analyzer, linkedin-post-generator, whatsapp-message-creator, status-image-designer
+3. **Enhancement**: gemini-image-generator, brand-customizer
+4. **Validation**: compliance-validator, quality-scorer, fatigue-checker
+5. **Distribution**: distribution-controller (interactive menu)
+6. **Monitoring**: analytics-tracker, feedback-processor
+
+**Utility Agents**: context-preserver, deploy-agent, sweeper-agent
 
 ## Environment Configuration
 
-**IMPORTANT: All credentials are stored in `.env` file. Claude Code has automatic access to these.**
+**IMPORTANT: All credentials stored in `.env`. Claude Code has automatic access.**
 
-### Complete Environment Variables (from .env)
+### Key Environment Variables (All Verified Working)
+- `WHATSAPP_ACCESS_TOKEN`, `WHATSAPP_PHONE_NUMBER_ID` - Meta WhatsApp API (✅ Permanent token)
+- `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, `CLERK_SECRET_KEY` - Clerk auth (✅ Tested)
+- `GEMINI_API_KEY`, `GEMINI_MODEL` - Gemini 2.5 Flash (Nano Banana model)
+- `CLOUDINARY_CLOUD_NAME`, `CLOUDINARY_API_KEY`, `CLOUDINARY_API_SECRET` - Image hosting
+- `RAZORPAY_KEY_ID`, `RAZORPAY_KEY_SECRET` - Payment gateway (LIVE mode, KYC verified)
+- `RAZORPAY_SOLO_PLAN_ID`, `RAZORPAY_PROFESSIONAL_PLAN_ID`, `RAZORPAY_ENTERPRISE_PLAN_ID` - Subscription plans (₹999/₹2,499/₹4,999)
+- `RAZORPAY_WEBHOOK_SECRET` - Webhook signature verification
+- `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY` - Database
+- `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN` - SMS/WhatsApp backup
+- `VERCEL_PROJECT_ID`, `VERCEL_ORG_ID`, `VERCEL_TOKEN` - Deployment automation
+- `CRON_SECRET` - Scheduled content generation
 
-#### WhatsApp Business API (Meta Direct - Primary)
-```bash
-WHATSAPP_PHONE_NUMBER_ID=792411637295195           # Phone number ID for API calls
-WHATSAPP_BUSINESS_ACCOUNT_ID=1502194177669589      # Business account ID
-WHATSAPP_ACCESS_TOKEN=EAAMADo1n9VMBPig8H4z...      # Meta API access token (full in .env)
-WHATSAPP_APP_SECRET=57183e372dff09aa046032867bf3dde3  # App secret for secure calls
-WHATSAPP_WEBHOOK_VERIFY_TOKEN=finadvise-webhook-2024   # Webhook verification token
-```
-**Business Phone**: +91 76666 84471
-**App Name**: Jarvis_WhatsApp_Bot
-**Display Name**: Jarvis Daily by The Skin Rules
+**Do NOT list full tokens in code - reference from process.env**
 
-#### Clerk Authentication (Next.js App)
-```bash
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_dG91Y2hlZC1hZGRlci03Mi5jbGVyay5hY2NvdW50cy5kZXYk
-CLERK_SECRET_KEY=sk_test_NSI6Ch5M4SvObAMkj4rNpQwjSbc23XN8tG1zY0LFiC
-```
-**Auth Methods**: Email/password, Google OAuth, LinkedIn OAuth
-**Test Mode**: Active (no email verification required)
-**Production URL**: https://finadvise-webhook.vercel.app/signup
-
-#### Gemini API (Image Generation)
-```bash
-GEMINI_API_KEY=AIzaSyCUG910mCEcoY8sRZMvu4JGie925KZxRqY
-```
-**Model**: `gemini-2.5-flash-image-preview`
-**Usage**: WhatsApp Status images (1080×1920), marketing images
-**Technique**: Reference image method for aspect ratio control
-
-#### Twilio (Alternative WhatsApp Provider)
-```bash
-TWILIO_ACCOUNT_SID=AC0a517932a52c35df762a04b521579079
-TWILIO_AUTH_TOKEN=75f7c20bc6f18e2a6161541b3a4cc6f3
-TWILIO_WHATSAPP_FROM=whatsapp:+14155238886
-```
-**Status**: Backup provider (Meta Direct is primary)
-
-#### AiSensy (Deprecated - Replaced by Meta Direct)
-```bash
-AISENSY_API_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...  # Kept for reference
-AISENSY_WHATSAPP_NUMBER=918062524496
-AISENSY_DISPLAY_NAME=FinAdvise Daily
-```
-**Cost Savings**: Switched to Meta Direct API (saves ₹28,788/year)
-
-#### Cloudinary (Image Hosting)
-```bash
-CLOUDINARY_CLOUD_NAME=dun0gt2bc
-CLOUDINARY_API_KEY=812182821573181
-CLOUDINARY_API_SECRET=JVrtiKtKTPy9NHbtF2GSI1keKi8
-CLOUDINARY_URL=cloudinary://812182821573181:JVrtiKtKTPy9NHbtF2GSI1keKi8@dun0gt2bc
-```
-**Usage**: Host generated images before sending via WhatsApp
-
-#### Google Services
-```bash
-GOOGLE_SHEETS_ID=1zQ-J4MJ_PXknZSW8j9EpEU6z-0VEjXGSq8Vh1lK7DLY
-GOOGLE_DRIVE_CREDENTIALS=./config/google-credentials.json
-GOOGLE_DRIVE_ROOT_FOLDER_ID=your_drive_folder_id_here  # Needs update
-```
-
-#### Admin & Security
-```bash
-ADMIN_WHATSAPP_NUMBERS=919765071249  # Admin phone for notifications
-NODE_ENV=production
-WEBHOOK_SECRET=your_super_secure_webhook_secret_min_20_chars_here  # Needs secure update
-```
+### Razorpay Payment Integration
+- **Status**: ✅ LIVE mode (KYC verified)
+- **Plans**: Solo (₹999/mo), Professional (₹2,499/mo), Enterprise (₹4,999/mo)
+- **API Routes**: `/api/razorpay/create-subscription`, `/api/razorpay/webhook`
+- **Client Library**: `lib/razorpay.js` (subscription management, customer creation, webhook verification)
+- **Webhook**: `https://jarvisdaily.com/api/razorpay/webhook` (handles 68 events)
+- **Database Sync**: Auto-updates Supabase `users` table on subscription events
 
 ### Vercel Configuration
-
-#### Project Details
-```bash
-VERCEL_PROJECT_ID=prj_QQAial59AHSd44kXyY1fGkPk3rkA
-VERCEL_ORG_ID=team_kgmzsZJ64NGLaTPyLRBWV3vz
-VERCEL_TOKEN=cDuZRc8rAyugRDuJiNkBX3Hx  # claude-deployment-token
-```
-
-#### Deployment Setup
-- **GitHub Integration**: Enabled (auto-deploy on push to `main`)
-- **Production URL**: https://finadvise-webhook.vercel.app
-- **Custom Domain**: ✅ jarvisdaily.com (CONFIGURED - primary domain)
-- **Webhook Endpoint**: /api/webhook (handled by Next.js API route)
-
-#### Programmatic Deployment
-```bash
-# Deploy current branch to production
-VERCEL_TOKEN=cDuZRc8rAyugRDuJiNkBX3Hx vercel --prod --yes --token $VERCEL_TOKEN
-
-# Deploy and force rebuild (bypasses cache)
-VERCEL_TOKEN=cDuZRc8rAyugRDuJiNkBX3Hx vercel --prod --yes --force --token $VERCEL_TOKEN
-
-# Check deployment status
-vercel ls --token cDuZRc8rAyugRDuJiNkBX3Hx
-
-# View deployment logs
-vercel logs --token cDuZRc8rAyugRDuJiNkBX3Hx
-```
-
-**Note**: jarvisdaily.com is the primary production domain. All deployments automatically update both finadvise-webhook.vercel.app and jarvisdaily.com.
-
-#### Bot Protection Bypass (For Testing)
-```javascript
-// In playwright.config.js
-extraHTTPHeaders: {
-  'x-vercel-protection-bypass': 'HDwq1ZyUioGQJmft3ckqNdm5mJPxT8S8',
-  'x-vercel-set-bypass-cookie': 'samesitenone'
-}
-```
-**Status**: ✅ Configured (all 462 tests run without Code 21 errors)
+- **GitHub Integration**: ✅ Enabled (auto-deploy on push to main)
+- **Production URL**: https://jarvisdaily.com (primary)
+- **Project ID**: prj_QQAial59AHSd44kXyY1fGkPk3rkA
+- **Bot Protection Bypass**: ✅ Configured in playwright.config.js (secret: HDwq1ZyUioGQJmft3ckqNdm5mJPxT8S8)
 
 ## Implementation Requirements
 
-### WhatsApp API Patterns
-- Use Meta Business API v17.0+
-- Phone format: Include country code (919765071249)
-- Message structure: `messaging_product: "whatsapp"` required
-- Button messages: Use `interactive` type with `reply` buttons
-- App Secret Proof required for secure API calls
+### Next.js & React Patterns
+- **Server Components**: Default for `app/**/*.tsx`
+- **Client Components**: Add `"use client"` directive
+- **Auth Flow**: Use `auth()` from `@clerk/nextjs/server` for server, `useUser()` for client
+- **API Routes**: Export GET/POST/PUT/DELETE from `app/api/*/route.ts`
 
-### Viral Content Standards (Option A: 1 Asset Per Advisor)
-- **Minimum Score**: 9.0/10 virality (raised from 8.0 for single-asset quality)
+### WhatsApp API Patterns (Meta Direct)
+- **API Version**: v17.0+ (`https://graph.facebook.com/v17.0`)
+- **Phone Format**: Include country code (e.g., `919765071249`)
+- **Message Structure**: `messaging_product: "whatsapp"` required
+- **Button Messages**: Use `interactive` type with `reply` buttons
+
+**Example Button Message**:
+```javascript
+{
+  messaging_product: "whatsapp",
+  to: "919765071249",
+  type: "interactive",
+  interactive: {
+    type: "button",
+    body: { text: "Your content is ready!" },
+    action: { buttons: [{ type: "reply", reply: { id: "retrieve_content", title: "Retrieve" }}]}
+  }
+}
+```
+
+**Webhook Handler Pattern**: GET for verification, POST for events. Validate signature, parse messages, check button_reply.id
+
+### Viral Content Standards
+- **Minimum Score**: 9.0/10 virality
 - **Formula**: (Hook × Story × Emotion) + (Specificity × Simplicity) + CTA²
-- **Proven Strategies**: Warikoo stories, Ranade analogies, Shrivastava data
 - **Character Limit**: 300-400 for WhatsApp, 2500-3000 for LinkedIn
-- **Output Format**: Both JSON and TEXT files (never just JSON)
-- **Quality Regeneration**:
-  - If asset scores <9.0/10, auto-regenerate with specific improvements
-  - Max 2 regeneration attempts per asset
-  - Emergency fallback: Use curated template (9.5+/10) if regeneration fails
-- **Asset Count**: 1 LinkedIn + 1 WhatsApp + 1 Status image per advisor per day
-- **Cost Savings**: Option A saves ₹126,000/year on WhatsApp delivery (vs 3 assets/advisor)
+- **Output Format**: Both JSON and TEXT files
+- **Auto-regeneration**: If <9.0/10, regenerate (max 2 attempts), use emergency template if still failing
 
-### Image Generation (Gemini 2.5 Flash Image Preview)
+### Image Generation (Gemini 2.5 Flash)
 - **Model**: `gemini-2.5-flash-image-preview`
 - **Critical**: Use **reference image technique** for aspect ratio control
-- **WhatsApp Status Format**: 1080×1920 pixels (9:16 vertical portrait)
-- **Generation Process**:
-  1. Create 1080×1920 reference image
-  2. Upload reference to Gemini API
-  3. Generate with reference + detailed prompt
-  4. Upscale if needed (768×1344 → 1080×1920)
-- **Quality Control (MANDATORY)**:
-  1. AI visual validation (Gemini Vision)
-  2. Auto-reject if: debug text, duplicate text, alignment issues, stretching
-  3. Auto-regenerate failed images with specific fixes
-  4. Re-validate until 100% pass rate (max 3 attempts)
-- **Scripts**:
-  - `scripts/gemini-with-reference-image.py` - Generate with reference
-  - `scripts/visual-quality-validator.py` - AI visual quality auditor
-  - `scripts/auto-regenerate-failed-images.py` - Auto-fix failed images
-  - `scripts/quality-control-pipeline.py` - Complete automated pipeline
-- **Key Learnings**:
-  - Gemini API adopts aspect ratio from reference image, NOT text prompts
-  - Visual validation is CRITICAL - catches debug text, duplication, typos, stretching
-  - Automated regeneration with specific feedback improves success rate to near 100%
-
-### Clerk Authentication & Signup Page
-- **Framework**: Next.js 15.5.4 with App Router
-- **Auth Provider**: Clerk (@clerk/nextjs v6.33.2)
-- **Authentication Methods**:
-  - Email/password signup (no email verification required in test mode)
-  - OAuth: Google and LinkedIn social login
-- **Production URL**: https://finadvise-webhook.vercel.app/signup
-- **Environment Variables Required**:
-  ```
-  NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_...
-  CLERK_SECRET_KEY=sk_test_...
-  ```
-- **Middleware Configuration**: Public routes defined in `middleware.ts` using `createRouteMatcher`
-- **Key Files**:
-  - `/app/signup/page.tsx` - Main signup form component
-  - `/middleware.ts` - Route protection (signup is public)
-  - `/playwright.config.js` - Test configuration with Vercel bypass
+- **WhatsApp Status**: 1080×1920 pixels (9:16 vertical)
+- **Process**: Create reference image → Upload to Gemini → Generate with prompt
+- **Quality Control**: AI visual validation, auto-reject debug text/duplicates, regenerate with fixes
 
 ### Session Architecture
 ```javascript
@@ -377,141 +253,200 @@ sessionId: session_${timestamp}
 outputDir: /output/session_*/
 sharedMemory: /data/shared-memory.json
 messageBus: /data/communication-channels/
-learnings: /learnings/learning_${sessionId}.md
 ```
 
 ## Deployment Strategy
 
-### Vercel Setup (Automated via API)
-**Status**: ✅ FULLY DEPLOYED AND TESTED
-
-**Deployment Method**: Automatic via GitHub Integration
+### Vercel Deployment
+**Method**: Automatic via GitHub Integration
 ```bash
-git add .
-git commit -m "Your commit message"
-git push origin main  # Auto-deploys to Vercel production
+git add . && git commit -m "feat: description" && git push origin main
 ```
-
-**Environment Variables** (Set via Vercel API):
-- Clerk keys already configured in Vercel dashboard
-- Use Vercel API for programmatic env var management
-- Project ID: `prj_QQAial59AHSd44kXyY1fGkPk3rkA`
-
-**Vercel Bot Protection Bypass** (CRITICAL for Testing):
-- **Issue**: Vercel firewall blocks Playwright tests with "Code 21 - Failed to verify your browser"
-- **Solution**: Protection Bypass for Automation (available on all plans since 2025)
-- **Implementation**:
-  ```bash
-  # Enable via API
-  curl -X PATCH "https://api.vercel.com/v1/projects/prj_QQAial59AHSd44kXyY1fGkPk3rkA/protection-bypass" \
-    -H "Authorization: Bearer <token>" \
-    -d '{"generate": {}}'
-
-  # Returns secret: HDwq1ZyUioGQJmft3ckqNdm5mJPxT8S8
-  ```
-- **Playwright Config** (`playwright.config.js`):
-  ```javascript
-  extraHTTPHeaders: {
-    'x-vercel-protection-bypass': 'HDwq1ZyUioGQJmft3ckqNdm5mJPxT8S8',
-    'x-vercel-set-bypass-cookie': 'samesitenone',
-  }
-  ```
-- **Result**: All 462 tests now run without bot blocking ✅
 
 ### Testing Protocol
-**Comprehensive Test Suite**: 462 tests covering:
-1. **Email Signup** (50 tests): Form validation, field requirements, password strength
-2. **OAuth Integration** (25+ tests): Google and LinkedIn button functionality
-3. **Complete Flow** (387+ tests): End-to-end signup, success messages, error handling
+**462 tests** covering email signup, OAuth, complete flows
 
-**Test Execution**:
+**Run tests**:
 ```bash
-npx playwright test --config=playwright.config.js  # Run all 462 tests
-npx playwright test tests/01-email-signup-comprehensive.spec.js  # Single file
-npx playwright show-report  # View HTML report
+npx playwright test                    # All tests
+npx playwright test tests/<file>       # Single file
+npx playwright show-report             # View results
 ```
 
-**Test Results** (Latest Production Run):
-- ✅ Bot protection bypass working - no Code 21 errors
-- ✅ Signup page loads correctly on production
-- ✅ Google and LinkedIn OAuth buttons visible and functional
-- ✅ Form validation working
-- ⚠️ Some tests failing due to test implementation (not actual bugs)
-- 📊 HTML report available at `playwright-report/index.html`
-
 **Production Verification**:
-1. ✅ Signup page accessible: https://finadvise-webhook.vercel.app/signup
-2. ✅ Clerk authentication working (email/password + OAuth)
-3. ✅ Webhook endpoint live: https://finadvise-webhook.vercel.app/api/webhook
-4. ✅ All environment variables configured
-5. ✅ Tests running successfully without bot blocking
+- ✅ Signup page: https://jarvisdaily.com/signup
+- ✅ Clerk auth working (email/OAuth)
+- ✅ Webhook live: https://jarvisdaily.com/api/webhook
+- ✅ Bot protection bypass configured
+
+## Common Development Workflows
+
+### Adding UI Component
+```bash
+npx shadcn@latest add <component-name>
+# Import: import { ComponentName } from '@/components/ui/component-name'
+```
+
+### Creating API Route
+1. Create `app/api/<route-name>/route.ts`
+2. Export handler: `export async function GET(request: Request) { return NextResponse.json({ data }) }`
+3. Access at: `https://jarvisdaily.com/api/<route-name>`
+
+### Adding Protected Route
+1. Create `app/<route-name>/page.tsx`
+2. Add auth: `const { userId } = await auth(); if (!userId) redirect('/sign-in')`
+3. Automatically protected by middleware.ts
+
+### Running Content Pipeline
+1. Run `/o` (14 agents, 2-3 min)
+2. Check output: `output/session_<timestamp>/`
+3. Verify quality: All scores ≥9.0/10
+4. Choose distribution option
+
+### Deploying Changes
+```bash
+# Automatic (recommended)
+git push origin main
+
+# Manual
+vercel --prod
+
+# Verify
+vercel logs --follow
+```
 
 ## File Management Rules
 
-**CRITICAL**: Avoid creating garbage files in root directory!
+### Directory Organization
+- **UI Components**: `components/ui/` (shadcn), `components/` (custom)
+- **API Routes**: `app/api/`
+- **Scripts**: `scripts/` (Python/Node)
+- **Tests**: `tests/` (Playwright)
+- **Data**: `data/` (JSON, state)
+- **Output**: `output/` (generated content, gitignored)
 
-### Allowed in Root
-- Core config files: package.json, .env, vercel.json, tsconfig.json
-- Main orchestration: orchestrate-*.js, run-*.js, execute-*.js
-- Core agents: agents/*.js
-- Documentation: CLAUDE.md, README.md (if needed)
+### Naming Conventions
+- **Components**: PascalCase (`DashboardClient.tsx`)
+- **API Routes**: kebab-case (`webhook/route.ts`)
+- **Scripts**: kebab-case (`deploy-to-vercel.js`)
+- **Tests**: kebab-case with `.spec.js`
 
-### NEVER in Root
-- Temporary test files
-- Debugging scripts (send-*, test-*, check-*, debug-*)
-- Setup/troubleshooting scripts
-- Duplicate functionality files
-
-### Cleanup Protocol
-**Before creating ANY file in root:**
-1. Check if functionality already exists
-2. If temporary/debug: Put in `/archive/troubleshooting/`
-3. If test: Put in `/archive/testing/`
-4. If permanent: Use proper directory structure
-5. Document in CLAUDE.md if file needs deletion later
-
-**Temporary Files Created (TO BE REMOVED AFTER USE):**
-- (None currently - keep it that way!)
+### What NOT to Create in Root
+- ❌ Temporary test files (use `/tests/`)
+- ❌ Debugging scripts (use `/scripts/` or `/archive/`)
+- ❌ Duplicate/experiment files
+- ✅ Only core config files: `package.json`, `.env`, `vercel.json`, `tsconfig.json`
 
 ## Common Issues & Solutions
 
-### Webhook Not Receiving
-- Verify Vercel deployment is live
-- Check Meta webhook configuration points to Vercel URL
-- Confirm verify token matches in both Meta and .env
-
-### Content Not Viral Enough
-- Check quality-scorer output (must be ≥8.0/10)
-- Verify using proven viral formulas
-- Review fatigue-checker for content freshness
-
-### Missing Files
-- Create `/data/advisors.json` if missing
-- Ensure `/data/market-intelligence.json` exists
-- Initialize shared memory files in `/data/`
-
-## Agent Execution Patterns
-
-### Slash Command `/o`
-Executes 14-agent pipeline with interactive distribution decision:
-1. Phase 0: Infrastructure setup
-2. Phase 1: Data loading
-3. Phase 2: Segment analysis
-4. Phase 3: Viral content generation
-5. Phase 4: Enhancement & branding
-6. Phase 5: Validation & scoring
-7. Phase 6: Interactive distribution menu
-
-### Python Orchestration
-```python
-orchestrator = FinAdviseOrchestrator()
-orchestrator.execute_pipeline()  # Runs all 14 agents
-# Creates session_*, shared memory, communication logs
-```
-
-### Individual Agent Testing
-Agents can run standalone for debugging:
+### Build Errors (Next.js)
 ```bash
-python3 linkedin-viral-generator.py
-node execute-finadvise-mvp.js --agent=quality-scorer
+npx tsc --noEmit  # Check TypeScript errors
+# Fix: Add imports, add types, remove unused variables
 ```
+
+### Clerk Authentication Issues
+1. Verify env vars in `.env` and Vercel dashboard
+2. Check `middleware.ts` - ensure route in `isPublicRoute` if public
+3. Verify Clerk dashboard matches production URLs
+4. Clear browser cookies
+
+### Playwright Tests Failing
+```bash
+# Verify bypass secret
+grep "x-vercel-protection-bypass" playwright.config.js
+# Run single test to debug
+npx playwright test tests/<file>.spec.js --headed
+```
+
+### WhatsApp Webhook Not Working
+1. Check logs: `vercel logs --follow`
+2. Verify webhook URL: `https://jarvisdaily.com/api/webhook`
+3. Test verification: Visit webhook with `hub.mode=subscribe&hub.verify_token=...`
+4. Confirm `WHATSAPP_WEBHOOK_VERIFY_TOKEN` matches in .env and Meta
+
+## Key Learnings & Best Practices
+
+### Image Generation with Gemini
+**Critical**: Always use reference image technique
+- ❌ **Wrong**: Text prompts alone ("generate 1080×1920")
+- ✅ **Right**: Upload 1080×1920 reference + prompt
+- **Why**: Gemini adopts aspect ratio from reference, not text
+
+### Content Virality Formula
+```
+Virality = (Hook × Story × Emotion) + (Specificity × Simplicity) + CTA²
+Hook: First 3 seconds grab attention
+Story: Relatable narrative (Warikoo-style)
+Emotion: Fear/hope/curiosity triggers
+```
+
+**Examples**:
+- ❌ Low (4/10): "Invest in mutual funds for better returns"
+- ✅ High (9.5/10): "My client saved ₹12.7 lakhs in taxes. Here's the exact SIP strategy 👇"
+
+### Quality Regeneration
+1. Generate → 2. Score (min 9.0/10) → 3. If <9.0: Regenerate (max 2x) → 4. If still <9.0: Use emergency template (9.5+/10)
+**Result**: 100% quality guarantee, zero manual intervention
+
+### WhatsApp Cost Optimization
+- **Meta Direct**: ₹0 per message (first 1K free, then ₹0.44/msg)
+- **AiSensy**: ₹1,099/month + per-message fees
+- **Savings**: ₹28,788/year (500 advisors × 365 days)
+
+### Testing Best Practices
+462 comprehensive tests covering email signup, OAuth, complete flows. Bot protection bypass configured. Tests run against live deployment.
+**Key insight**: More tests = fewer production bugs
+
+### Session Isolation
+- Each `/o` creates isolated session (`session_<timestamp>`)
+- Shared memory: `data/shared-memory.json`
+- Communication bus: `data/communication-channels/`
+**Why**: Agents run in parallel without conflicts
+
+### Context Preservation
+**Problem**: 200K token limit exhausted in long sessions
+**Solution**: `/context-preserver` agent (45-60s)
+- Analyzes conversation, extracts context, generates portable prompt
+- Use when: 150K+ tokens, long sessions (30+ min), complex changes
+- Output: Copy-paste ready prompt for fresh terminal
+**Result**: Zero context loss, 5-10 min saved per restart
+
+## Quick Reference
+
+### Most Common Commands
+```bash
+# Development
+npm run dev                  # Start dev server
+npm test                     # Run all tests
+
+# Content Generation
+/o                          # Run 14-agent pipeline (2-3 min)
+
+# Context Management
+/context-preserver          # Generate portable prompt for fresh terminal
+/sweep execute              # Cleanup codebase (archives files)
+
+# Deployment
+/deploy                     # Testing + QA + deploy (RECOMMENDED)
+git push origin main        # Auto-deploy to production
+
+# Debugging
+vercel logs --follow        # Watch production logs
+npx tsc --noEmit           # Check TypeScript errors
+```
+
+### Most Important Files
+| File | When to Edit |
+|------|--------------|
+| `app/layout.tsx` | App-wide settings, providers |
+| `middleware.ts` | Protected routes |
+| `.env` | API keys, environment variables |
+| `.claude/commands/o.md` | Agent orchestration flow |
+| `playwright.config.js` | Test URL or browser settings |
+
+### Emergency Resources
+- **Test Reports**: `playwright-report/index.html`
+- **Session Logs**: `output/session_*/logs/`
+- **Shared Memory**: `data/shared-memory.json`
+- **Dashboards**: Clerk, Vercel, Meta Business (see production URLs above)

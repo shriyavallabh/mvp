@@ -1,4 +1,17 @@
 {
+  "/api/auth/send-otp/route": "app/api/auth/send-otp/route.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js"
+  "/api/dashboard/route": "app/api/dashboard/route.js",
+  "/api/image/route": "app/api/image/route.js",
+  "/api/auth/verify-otp/route": "app/api/auth/verify-otp/route.js",
+  "/api/razorpay/webhook/route": "app/api/razorpay/webhook/route.js",
+  "/api/webhook/route": "app/api/webhook/route.js",
+  "/api/razorpay/create-subscription/route": "app/api/razorpay/create-subscription/route.js",
+  "/dashboard/checkout/page": "app/dashboard/checkout/page.js",
+  "/page": "app/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/signup/page": "app/signup/page.js",
+  "/dashboard/upgrade/page": "app/dashboard/upgrade/page.js",
+  "/sso-callback/page": "app/sso-callback/page.js",
+  "/sign-in/page": "app/sign-in/page.js"
 }
