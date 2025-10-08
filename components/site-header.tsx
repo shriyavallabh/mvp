@@ -56,17 +56,19 @@ export default function SiteHeader() {
           <Link href="#how-it-works" className="text-sm text-muted-foreground hover:text-foreground transition">
             {"How It Works"}
           </Link>
-          <Button
-            variant="ghost"
-            className={cn(
-              "h-9 rounded-xl ring-1 transition",
-              atTop
-                ? "bg-transparent ring-white/15 hover:bg-white/10"
-                : "bg-[var(--color-glass)] ring-[var(--color-brand-gold-20,rgba(212,175,55,0.2))] hover:bg-[var(--color-glass-hover)]",
-            )}
-          >
-            {"Sign In"}
-          </Button>
+          <Link href="/sign-in">
+            <Button
+              variant="ghost"
+              className={cn(
+                "h-9 rounded-xl ring-1 transition",
+                atTop
+                  ? "bg-transparent ring-white/15 hover:bg-white/10"
+                  : "bg-[var(--color-glass)] ring-[var(--color-brand-gold-20,rgba(212,175,55,0.2))] hover:bg-[var(--color-glass-hover)]",
+              )}
+            >
+              {"Sign In"}
+            </Button>
+          </Link>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -119,12 +121,13 @@ export default function SiteHeader() {
 
               {/* Sign In Button - Fixed at Bottom */}
               <div className="w-full pb-8">
-                <Button
-                  onClick={closeMenu}
-                  className="w-full h-14 rounded-xl bg-gradient-to-r from-[#d4af37] to-[#ffd700] text-black text-lg font-bold hover:shadow-2xl hover:shadow-yellow-500/50 hover:scale-105 transition-all duration-300"
-                >
-                  {"Sign In"}
-                </Button>
+                <Link href="/sign-in" onClick={closeMenu}>
+                  <Button
+                    className="w-full h-14 rounded-xl bg-gradient-to-r from-[#d4af37] to-[#ffd700] text-black text-lg font-bold hover:shadow-2xl hover:shadow-yellow-500/50 hover:scale-105 transition-all duration-300"
+                  >
+                    {"Sign In"}
+                  </Button>
+                </Link>
               </div>
             </nav>
           </div>
