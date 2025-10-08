@@ -36,7 +36,7 @@ export default function Hero() {
 
           {/* Updated headline focused on time savings */}
           <h1
-            className="text-balance text-5xl md:text-7xl lg:text-8xl font-bold leading-[1.1] tracking-normal md:tracking-tight md:text-left"
+            className="text-5xl md:text-7xl lg:text-8xl font-bold leading-[1.1] tracking-normal md:tracking-tight md:text-left max-w-5xl"
             style={{ textShadow: "0 2px 10px rgba(0,0,0,0.5)" }}
           >
             {"Save 15 Hours/Week"} <br className="hidden md:block" />
@@ -45,7 +45,7 @@ export default function Hero() {
 
           {/* H2 showing all content types */}
           <h2
-            className="mt-4 text-balance text-2xl md:text-3xl lg:text-4xl font-semibold leading-[1.2] tracking-normal md:text-left"
+            className="mt-4 text-2xl md:text-3xl lg:text-4xl font-semibold leading-[1.2] tracking-normal md:text-left max-w-4xl"
             style={{ textShadow: "0 2px 10px rgba(0,0,0,0.5)" }}
           >
             <span className="text-hero-gold">{"Grammy-Level"}</span>{" "}
