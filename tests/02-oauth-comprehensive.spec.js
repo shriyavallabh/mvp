@@ -202,8 +202,8 @@ test.describe('OAuth Google - Click Behavior (10 tests)', () => {
     await page.locator('.social-btn:has-text("Google")').click().catch(() => {});
     await page.waitForTimeout(1000);
 
-    // Page should still be responsive
-    const isVisible = await page.locator('.social-btn').isVisible();
+    // Page should still be responsive - check that the Google button is still visible
+    const isVisible = await page.locator('.social-btn:has-text("Google")').isVisible();
     expect(isVisible).toBe(true);
   });
 
@@ -314,7 +314,8 @@ test.describe('OAuth LinkedIn - Click Behavior (10 tests)', () => {
     await page.locator('.social-btn:has-text("LinkedIn")').click().catch(() => {});
     await page.waitForTimeout(1000);
 
-    const isVisible = await page.locator('.social-btn').isVisible();
+    // Check that the LinkedIn button is still visible after click (graceful handling)
+    const isVisible = await page.locator('.social-btn:has-text("LinkedIn")').isVisible();
     expect(isVisible).toBe(true);
   });
 

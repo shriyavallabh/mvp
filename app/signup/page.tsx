@@ -152,6 +152,7 @@ export default function SignupPage() {
     try {
       if (!signUp) {
         console.error('SignUp not initialized');
+        setError('Authentication system is loading. Please try again in a moment.');
         return;
       }
       await signUp.authenticateWithRedirect({
@@ -169,6 +170,7 @@ export default function SignupPage() {
     try {
       if (!signUp) {
         console.error('SignUp not initialized');
+        setError('Authentication system is loading. Please try again in a moment.');
         return;
       }
       await signUp.authenticateWithRedirect({
