@@ -3,6 +3,9 @@
 import { SignupFormNew } from '@/components/signup-form-new';
 import { TestimonialPanel } from '@/components/testimonial-panel';
 
+// Force dynamic rendering to prevent stale prerendered HTML
+export const dynamic = 'force-dynamic';
+
 export default function SignupPage() {
   return (
     <div className="min-h-screen bg-[#0A0A0A] grid grid-cols-1 lg:grid-cols-2">
