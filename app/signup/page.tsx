@@ -6,8 +6,10 @@ import { TestimonialPanel } from '@/components/testimonial-panel';
 export const dynamic = 'force-dynamic';
 
 export default async function SignupPage() {
-  // Call cookies() to force dynamic rendering (Next.js 15 requirement)
-  await cookies();
+  // Force dynamic rendering by actually reading cookies (Next.js 15 requirement)
+  // Just awaiting cookies() isn't enough - must actually use the API
+  const cookieStore = await cookies();
+  const _ = cookieStore.get('__vercel_live_token'); // Read any cookie to force dynamic
 
   return (
     <div className="min-h-screen bg-[#0A0A0A] grid grid-cols-1 lg:grid-cols-2">
