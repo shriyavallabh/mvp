@@ -133,10 +133,18 @@ export function SignupFormNew() {
       if (!signUp) {
         throw new Error("SignUp not initialized")
       }
+      // Use OAuth with redirect - Clerk will handle account creation automatically
+      // After OAuth completes, user will be redirected to /onboarding
       await signUp.authenticateWithRedirect({
         strategy: "oauth_google",
         redirectUrl: "/sso-callback",
         redirectUrlComplete: "/onboarding",
+        // Additional metadata to skip Clerk's signup form
+        unsafeMetadata: {
+          onboardingCompleted: false,
+          phoneVerified: false,
+          signupMethod: "oauth_google"
+        }
       })
     } catch (err: any) {
       console.error("Google sign up error:", err)
@@ -149,10 +157,18 @@ export function SignupFormNew() {
       if (!signUp) {
         throw new Error("SignUp not initialized")
       }
+      // Use OAuth with redirect - Clerk will handle account creation automatically
+      // After OAuth completes, user will be redirected to /onboarding
       await signUp.authenticateWithRedirect({
         strategy: "oauth_linkedin_oidc",
         redirectUrl: "/sso-callback",
         redirectUrlComplete: "/onboarding",
+        // Additional metadata to skip Clerk's signup form
+        unsafeMetadata: {
+          onboardingCompleted: false,
+          phoneVerified: false,
+          signupMethod: "oauth_linkedin"
+        }
       })
     } catch (err: any) {
       console.error("LinkedIn sign up error:", err)
