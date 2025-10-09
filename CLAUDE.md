@@ -7,10 +7,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 **JarvisDaily** (jarvisdaily.com) - Full-stack WhatsApp content distribution platform for financial advisors. Combines Next.js 15 web application with AI-powered content generation and Meta WhatsApp Direct API delivery.
 
 **Tech Stack**:
-- **Frontend**: Next.js 15.5.4 (App Router), React 18, Tailwind CSS 4, shadcn/ui
+- **Frontend**: Next.js 15.5.4 (App Router), React 19, Tailwind CSS 4, shadcn/ui
 - **Authentication**: Clerk (email/password + Google/LinkedIn OAuth)
 - **Content Engine**: 14 AI agents orchestrated via Claude Code
-- **Deployment**: Vercel (auto-deploy on push to main)
+- **Deployment**: Vercel (🚨 **MANUAL DEPLOY ONLY** - NOT connected to GitHub auto-deploy)
 - **APIs**: Meta WhatsApp Business, Gemini 2.5 Flash, Cloudinary
 
 **Official Domain**: jarvisdaily.com (aliases: finadvise-webhook.vercel.app)
@@ -51,9 +51,20 @@ vercel logs --follow                 # Monitor webhook events in real-time
 
 ### Deployment & CI
 ```bash
-/deploy                  # 🟢 RECOMMENDED: Comprehensive testing + automated deployment (5-15 min)
-git push origin main     # Manual: Auto-deploy to Vercel production
-vercel --prod            # Manual: Direct deployment with Vercel CLI
+# 🚨 CRITICAL: Vercel is NOT connected to GitHub auto-deploy
+# MUST deploy manually using Vercel CLI after every git push
+
+# Full deployment workflow (REQUIRED):
+git add . && git commit -m "feat: description"
+git push origin main  # Push to GitHub for version control
+VERCEL_ORG_ID="team_kgmzsZJ64NGLaTPyLRBWV3vz" VERCEL_PROJECT_ID="prj_QQAial59AHSd44kXyY1fGkPk3rkA" vercel --prod --token="cDuZRc8rAyugRDuJiNkBX3Hx" --yes
+
+# Quick manual deploy (if code already committed):
+VERCEL_ORG_ID="team_kgmzsZJ64NGLaTPyLRBWV3vz" VERCEL_PROJECT_ID="prj_QQAial59AHSd44kXyY1fGkPk3rkA" vercel --prod --token="cDuZRc8rAyugRDuJiNkBX3Hx" --yes
+
+# Verify deployment:
+vercel logs --follow
+curl -sI https://jarvisdaily.com/signup | grep -E "age|x-vercel-cache"
 ```
 
 ## 🤖 SESSION AUTOMATION RULES
@@ -61,12 +72,20 @@ vercel --prod            # Manual: Direct deployment with Vercel CLI
 **CRITICAL: Claude Code should NEVER ask user to do these manually. Automate everything.**
 
 ### Automatic Deployment Protocol
+🚨 **CRITICAL: Vercel is NOT connected to GitHub - MUST deploy manually every time**
+
 When completing any feature, page, or fix:
 1. ✅ **Run tests first**: `npx playwright test` (ensure passing, or fix failures)
 2. ✅ **Commit automatically**: `git add . && git commit -m "feat: [clear description]"`
-3. ✅ **Push automatically**: `git push origin main` (triggers Vercel auto-deploy)
-4. ✅ **Verify deployment**: `vercel logs --follow` or check dashboard
-5. ❌ **NEVER ask user**: "Would you like me to deploy this?" - Just do it.
+3. ✅ **Push to GitHub**: `git push origin main` (for version control only)
+4. ✅ **Deploy to Vercel manually**: Use the command below (REQUIRED - not optional)
+5. ✅ **Verify deployment**: `vercel logs --follow` or check dashboard
+6. ❌ **NEVER ask user**: "Would you like me to deploy this?" - Just do it.
+
+**Required Vercel Deploy Command** (use after every git push):
+```bash
+VERCEL_ORG_ID="team_kgmzsZJ64NGLaTPyLRBWV3vz" VERCEL_PROJECT_ID="prj_QQAial59AHSd44kXyY1fGkPk3rkA" vercel --prod --token="cDuZRc8rAyugRDuJiNkBX3Hx" --yes
+```
 
 ### Credentials & Environment Variables
 **Claude Code has automatic access via .env - NEVER ask user for these:**
@@ -89,10 +108,21 @@ gemini_key = os.getenv('GEMINI_API_KEY')
 
 ### Programmatic Operations
 **Always use API/CLI automation:**
-- ✅ Vercel: Use `vercel` CLI or push to GitHub (auto-deploys)
+- ✅ Vercel: Use `vercel --prod` CLI with credentials (🚨 REQUIRED after every change - NOT connected to GitHub)
 - ✅ Git: Use `git` commands directly in Bash tool
 - ✅ Testing: Run `npx playwright test` programmatically
 - ❌ NEVER: Ask user to "manually deploy", "manually set env var", "manually push"
+
+**Vercel Deployment Credentials** (stored in .env):
+```bash
+VERCEL_ORG_ID=team_kgmzsZJ64NGLaTPyLRBWV3vz
+VERCEL_PROJECT_ID=prj_QQAial59AHSd44kXyY1fGkPk3rkA
+VERCEL_TOKEN=cDuZRc8rAyugRDuJiNkBX3Hx
+```
+
+**Vercel Project Name**: `finadvise-webhook` (NOT "mvp")
+**GitHub Repo**: `shriyavallabh/mvp`
+**Production Domain**: `jarvisdaily.com`
 
 ### MCP (Model Context Protocol) Tools
 **Available MCP servers:**
@@ -198,10 +228,16 @@ JarvisDaily Platform
 - **Database Sync**: Auto-updates Supabase `users` table on subscription events
 
 ### Vercel Configuration
-- **GitHub Integration**: ✅ Enabled (auto-deploy on push to main)
+- **GitHub Integration**: 🚨 **DISABLED** - NOT connected to GitHub auto-deploy (intentional)
+- **Deployment Method**: Manual deployment via Vercel CLI (REQUIRED after every code change)
+- **Project Name on Vercel**: `finadvise-webhook`
 - **Production URL**: https://jarvisdaily.com (primary)
 - **Project ID**: prj_QQAial59AHSd44kXyY1fGkPk3rkA
+- **Org ID**: team_kgmzsZJ64NGLaTPyLRBWV3vz
+- **Deployment Token**: cDuZRc8rAyugRDuJiNkBX3Hx (stored in .env as VERCEL_TOKEN)
 - **Bot Protection Bypass**: ✅ Configured in playwright.config.js (secret: HDwq1ZyUioGQJmft3ckqNdm5mJPxT8S8)
+
+**Why Manual Deploy?**: Vercel project is not connected to GitHub integration. This is a known configuration that has been used for past deployments. Every code change requires manual deployment using the Vercel CLI with the credentials above.
 
 ## Implementation Requirements
 
@@ -258,10 +294,27 @@ messageBus: /data/communication-channels/
 ## Deployment Strategy
 
 ### Vercel Deployment
-**Method**: Automatic via GitHub Integration
+🚨 **CRITICAL**: Manual deployment REQUIRED - NOT connected to GitHub
+
+**Full Deployment Workflow**:
 ```bash
-git add . && git commit -m "feat: description" && git push origin main
+# 1. Commit changes to Git
+git add . && git commit -m "feat: description"
+
+# 2. Push to GitHub (for version control)
+git push origin main
+
+# 3. Deploy to Vercel manually (REQUIRED - code does NOT auto-deploy)
+VERCEL_ORG_ID="team_kgmzsZJ64NGLaTPyLRBWV3vz" \
+VERCEL_PROJECT_ID="prj_QQAial59AHSd44kXyY1fGkPk3rkA" \
+vercel --prod --token="cDuZRc8rAyugRDuJiNkBX3Hx" --yes
+
+# 4. Verify deployment
+vercel logs --follow
+curl -sI https://jarvisdaily.com/signup | grep -E "age|x-vercel-cache"
 ```
+
+**Why Manual?**: Vercel project `finadvise-webhook` is intentionally NOT connected to GitHub auto-deploy. This has been the workflow for all past deployments.
 
 ### Testing Protocol
 **462 tests** covering email signup, OAuth, complete flows
