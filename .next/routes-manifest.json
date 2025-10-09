@@ -51,6 +51,12 @@
       "namedRegex": "^/dashboard/upgrade(?:/)?$"
     },
     {
+      "page": "/onboarding",
+      "regex": "^/onboarding(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/onboarding(?:/)?$"
+    },
+    {
       "page": "/sign-in",
       "regex": "^/sign\\-in(?:/)?$",
       "routeKeys": {},

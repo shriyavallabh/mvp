@@ -1,86 +1,49 @@
-import { NextResponse } from 'next/server'
+import { NextRequest, NextResponse } from 'next/server';
+import { otpStorage } from '@/lib/otp-storage';
+import { sendOTPViaMSG91 } from '@/lib/msg91-service';
 
-// Simple in-memory OTP storage (for MVP)
-// In production, use Redis (Upstash) or database
-const otpStorage = new Map<string, { otp: string; expiresAt: number }>()
-
-// Cleanup expired OTPs every 5 minutes
-setInterval(() => {
-  const now = Date.now()
-  for (const [phone, data] of otpStorage.entries()) {
-    if (data.expiresAt < now) {
-      otpStorage.delete(phone)
-    }
-  }
-}, 5 * 60 * 1000)
-
-function generateOTP(): string {
-  return Math.floor(100000 + Math.random() * 900000).toString()
-}
-
-export async function POST(request: Request) {
+export async function POST(req: NextRequest) {
   try {
-    const { phone } = await request.json()
+    const { phone } = await req.json();
 
-    if (!phone || !/^\+91\d{10}$/.test(phone)) {
+    // Validate phone number format (Indian numbers: +91 followed by 10 digits)
+    if (!phone || !/^\+91[0-9]{10}$/.test(phone)) {
       return NextResponse.json(
-        { error: 'Invalid phone number. Must be in format: +919876543210' },
+        { error: 'Invalid phone number. Must be +91 followed by 10 digits.' },
         { status: 400 }
-      )
+      );
     }
 
     // Generate 6-digit OTP
-    const otp = generateOTP()
+    const otp = Math.floor(100000 + Math.random() * 900000).toString();
 
-    // Store OTP with 5-minute expiry
-    const expiresAt = Date.now() + 5 * 60 * 1000 // 5 minutes
-    otpStorage.set(phone, { otp, expiresAt })
+    // Store OTP in-memory with 5-minute expiry
+    const expiresAt = Date.now() + 5 * 60 * 1000; // 5 minutes
+    otpStorage.set(phone, { otp, expiresAt });
 
-    // Send OTP via WhatsApp
-    const whatsappResponse = await fetch(
-      `https://graph.facebook.com/v17.0/${process.env.WHATSAPP_PHONE_NUMBER_ID}/messages`,
-      {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${process.env.WHATSAPP_ACCESS_TOKEN}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          messaging_product: 'whatsapp',
-          to: phone.replace('+', ''), // Remove + for Meta API
-          type: 'text',
-          text: {
-            body: `🔐 Your JarvisDaily verification code is: ${otp}\n\nValid for 5 minutes. Don't share this code with anyone.`
-          }
-        })
-      }
-    )
-
-    if (!whatsappResponse.ok) {
-      const errorData = await whatsappResponse.json()
-      console.error('WhatsApp API error:', errorData)
-
-      // Still return success to user (OTP is stored)
-      // In production, you'd want to retry or use fallback (SMS)
-      return NextResponse.json({
-        success: true,
-        message: 'OTP sent successfully',
-        debug: process.env.NODE_ENV === 'development' ? otp : undefined
-      })
+    // Send SMS via MSG91
+    try {
+      await sendOTPViaMSG91(phone, otp);
+      console.log(`[OTP] Sent via MSG91 to ${phone}: ${otp}`);
+    } catch (msg91Error: any) {
+      console.error('[MSG91 ERROR]', msg91Error.message);
+      // Continue even if SMS fails (OTP is still stored for testing)
+      // In production, you might want to return error here
     }
 
     return NextResponse.json({
       success: true,
-      message: 'OTP sent to your WhatsApp',
+      message: 'OTP sent successfully',
       // Only show OTP in development for testing
       debug: process.env.NODE_ENV === 'development' ? otp : undefined
-    })
+    });
 
   } catch (error: any) {
-    console.error('Send OTP error:', error)
+    console.error('[OTP ERROR]', error);
+
     return NextResponse.json(
-      { error: 'Failed to send OTP. Please try again.' },
+      { error: error.message || 'Failed to send OTP' },
       { status: 500 }
-    )
+    );
   }
 }

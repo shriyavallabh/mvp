@@ -26,30 +26,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/sso-callback": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/sso-callback",
-      "dataRoute": "/sso-callback.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/signup": {
       "experimentalBypassFor": [
         {
@@ -65,6 +41,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/signup",
       "dataRoute": "/signup.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/onboarding": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/onboarding",
+      "dataRoute": "/onboarding.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -121,13 +121,37 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/sso-callback": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sso-callback",
+      "dataRoute": "/sso-callback.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "12352270aa9a4b8436d51c9859ce40ff",
-    "previewModeSigningKey": "dade19393e908852e7cf7dd4991ab1c2e2375e00e9347383b7a21d5b690a3f1d",
-    "previewModeEncryptionKey": "2b7303a3afe98828ab640c40eb531bc5f59be9cc23206fb0c634c1e4f4b79f98"
+    "previewModeId": "23418fb003fbd5fd92d49e62db3aa86f",
+    "previewModeSigningKey": "14b9b1047df550a41d956a219241be7c926b553480582ad726f50a2a4f095cdf",
+    "previewModeEncryptionKey": "1e51e1d1118317651dcb3187494457b1a6244b67538736007dc89794746d6eb8"
   }
 }
