@@ -39,11 +39,11 @@ export default function DashboardClient({ phone, userName }: DashboardClientProp
       try {
         const response = await fetch(`/api/dashboard?phone=${phone}`)
         const result = await response.json()
-        
+
         if (!response.ok) {
           throw new Error(result.error || 'Failed to load content')
         }
-        
+
         setData(result)
       } catch (e: any) {
         setError(e.message)
@@ -55,7 +55,7 @@ export default function DashboardClient({ phone, userName }: DashboardClientProp
     if (phone) {
       loadContent()
     } else {
-      setError('No phone number found in your profile')
+      // No phone number - show welcome screen instead of error
       setLoading(false)
     }
   }, [phone])
@@ -133,6 +133,85 @@ export default function DashboardClient({ phone, userName }: DashboardClientProp
         }}>
           <h2 style={{ color: '#ef4444', marginBottom: '10px' }}>Content Not Available</h2>
           <p style={{ color: '#64748b' }}>{error}</p>
+        </div>
+      </div>
+    )
+  }
+
+  // Show welcome screen if no phone number (new OAuth users)
+  if (!phone) {
+    return (
+      <div style={{ minHeight: '100vh', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+        <div style={{ maxWidth: '600px', margin: '0 auto', padding: '40px 20px' }}>
+          <div style={{
+            background: 'white',
+            borderRadius: '20px',
+            padding: '40px',
+            textAlign: 'center',
+            boxShadow: '0 20px 60px rgba(0,0,0,0.15)'
+          }}>
+            <h1 style={{ fontSize: '32px', fontWeight: 700, marginBottom: '20px', color: '#2d3748' }}>
+              Welcome to JarvisDaily! 👋
+            </h1>
+            <p style={{ fontSize: '18px', color: '#64748b', marginBottom: '30px', lineHeight: 1.6 }}>
+              Hi <strong>{userName}</strong>! To access your daily viral content, please complete your profile setup.
+            </p>
+
+            <div style={{
+              background: '#f8f9fa',
+              borderRadius: '15px',
+              padding: '30px',
+              marginBottom: '30px',
+              textAlign: 'left'
+            }}>
+              <h3 style={{ fontSize: '20px', fontWeight: 600, marginBottom: '15px', color: '#2d3748' }}>
+                What you'll get:
+              </h3>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                <div style={{ display: 'flex', alignItems: 'start', gap: '12px' }}>
+                  <span style={{ fontSize: '24px' }}>📱</span>
+                  <span style={{ color: '#4a5568', lineHeight: 1.6 }}>
+                    WhatsApp messages optimized for viral engagement
+                  </span>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'start', gap: '12px' }}>
+                  <span style={{ fontSize: '24px' }}>💼</span>
+                  <span style={{ color: '#4a5568', lineHeight: 1.6 }}>
+                    LinkedIn posts following proven viral formulas
+                  </span>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'start', gap: '12px' }}>
+                  <span style={{ fontSize: '24px' }}>📸</span>
+                  <span style={{ color: '#4a5568', lineHeight: 1.6 }}>
+                    Eye-catching WhatsApp Status images (1080×1920)
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <a
+              href="/onboarding"
+              style={{
+                display: 'inline-block',
+                width: '100%',
+                padding: '16px 32px',
+                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                color: 'white',
+                textDecoration: 'none',
+                borderRadius: '15px',
+                fontSize: '18px',
+                fontWeight: 700,
+                boxShadow: '0 4px 15px rgba(102, 126, 234, 0.4)',
+                marginBottom: '15px'
+              }}
+            >
+              Complete Profile Setup
+            </a>
+
+            <p style={{ fontSize: '14px', color: '#94a3b8', marginTop: '20px' }}>
+              Takes less than 2 minutes • Start generating content today
+            </p>
+          </div>
         </div>
       </div>
     )
