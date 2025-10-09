@@ -1,12 +1,14 @@
-'use client';
-
+import { cookies } from 'next/headers';
 import { SignInForm } from '@/components/signin-form';
 import { TestimonialPanel } from '@/components/testimonial-panel';
 
 // Force dynamic rendering to prevent stale prerendered HTML
 export const dynamic = 'force-dynamic';
 
-export default function SignInPage() {
+export default async function SignInPage() {
+  // Call cookies() to force dynamic rendering (Next.js 15 requirement)
+  await cookies();
+
   return (
     <div className="min-h-screen bg-[#0A0A0A] grid grid-cols-1 lg:grid-cols-2">
       {/* Testimonial Panel - Left Side (50%) */}
