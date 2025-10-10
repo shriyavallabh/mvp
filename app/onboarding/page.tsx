@@ -9,6 +9,8 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Checkbox } from '@/components/ui/checkbox';
 import { CheckCircle2, ArrowRight, ArrowLeft, Sparkles, TrendingUp, Zap } from 'lucide-react';
+import { cacheFormData, getFormData, updateFormField } from '@/lib/form-cache';
+import { saveOnboardingData } from '@/app/actions/save-onboarding';
 
 type OnboardingStep = 'welcome' | 'business' | 'segmentation' | 'phone' | 'confirmation';
 
@@ -28,6 +30,37 @@ export default function OnboardingPage() {
   const [phoneError, setPhoneError] = useState('');
   const [otpError, setOtpError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+
+  // Load cached form data on mount
+  useEffect(() => {
+    async function loadCachedData() {
+      if (!isLoaded || !user) return;
+
+      try {
+        const cached = await getFormData(user.id);
+        if (cached) {
+          // Restore form state from cache
+          if (cached.businessName || cached.arn || cached.advisorCode) {
+            setBusinessData({
+              businessName: cached.businessName || '',
+              arn: cached.arn || '',
+              advisorCode: cached.advisorCode || '',
+            });
+          }
+          if (cached.segments && cached.segments.length > 0) {
+            setSegments(cached.segments);
+          }
+          if (cached.phoneNumber) {
+            setPhoneNumber(cached.phoneNumber);
+          }
+        }
+      } catch (error) {
+        console.error('[ONBOARDING] Failed to load cached data:', error);
+      }
+    }
+
+    loadCachedData();
+  }, [isLoaded, user]);
 
   useEffect(() => {
     // Redirect to sign-in if not authenticated
@@ -57,10 +90,29 @@ export default function OnboardingPage() {
     { id: 'young', label: 'Young Investors (20-35)' },
   ];
 
+  // Cache helper - save field to Redis
+  const cacheField = async (field: string, value: any) => {
+    if (!user) return;
+    try {
+      await updateFormField(user.id, field as any, value);
+    } catch (error) {
+      console.error(`[ONBOARDING] Failed to cache ${field}:`, error);
+    }
+  };
+
+  const handleBusinessDataChange = (field: keyof typeof businessData, value: string) => {
+    const newData = { ...businessData, [field]: value };
+    setBusinessData(newData);
+    cacheField(field, value);
+  };
+
   const handleSegmentToggle = (segmentId: string) => {
-    setSegments((prev) =>
-      prev.includes(segmentId) ? prev.filter((s) => s !== segmentId) : [...prev, segmentId]
-    );
+    const newSegments = segments.includes(segmentId)
+      ? segments.filter((s) => s !== segmentId)
+      : [...segments, segmentId];
+
+    setSegments(newSegments);
+    cacheField('segments', newSegments);
   };
 
   const handleSendOTP = async () => {
@@ -105,6 +157,7 @@ export default function OnboardingPage() {
     setIsLoading(true);
 
     try {
+      // Step 1: Verify OTP
       const response = await fetch('/api/auth/verify-otp', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -119,24 +172,20 @@ export default function OnboardingPage() {
         throw new Error(data.error || 'Invalid OTP');
       }
 
-      // Update user metadata with onboarding data
-      await user.update({
-        unsafeMetadata: {
-          ...user.unsafeMetadata,
-          phone: `+91${phoneNumber}`,
-          phoneVerified: true,
-          businessName: businessData.businessName || undefined,
-          arn: businessData.arn || undefined,
-          advisorCode: businessData.advisorCode || undefined,
-          customerSegments: segments,
-          onboardingCompleted: true,
-          onboardingCompletedAt: new Date().toISOString(),
-        },
+      // Step 2: Save onboarding data to all layers (Supabase + Sheets + Clerk + clear cache)
+      await saveOnboardingData({
+        businessName: businessData.businessName,
+        arn: businessData.arn,
+        advisorCode: businessData.advisorCode,
+        segments,
+        phone: `+91${phoneNumber}`,
       });
 
+      // Note: saveOnboardingData automatically redirects to /dashboard
+      // If redirect doesn't work, show confirmation step
       setStep('confirmation');
     } catch (err: any) {
-      setOtpError(err.message || 'Failed to verify OTP. Please try again.');
+      setOtpError(err.message || 'Failed to complete setup. Please try again.');
     } finally {
       setIsLoading(false);
     }
@@ -235,7 +284,7 @@ export default function OnboardingPage() {
                   type="text"
                   placeholder="e.g., Sharma Financial Services"
                   value={businessData.businessName}
-                  onChange={(e) => setBusinessData({ ...businessData, businessName: e.target.value })}
+                  onChange={(e) => handleBusinessDataChange('businessName', e.target.value)}
                 />
                 <p className="text-sm text-gray-500">Appears on your branded content</p>
               </div>
@@ -249,7 +298,7 @@ export default function OnboardingPage() {
                   type="text"
                   placeholder="e.g., ARN-12345"
                   value={businessData.arn}
-                  onChange={(e) => setBusinessData({ ...businessData, arn: e.target.value })}
+                  onChange={(e) => handleBusinessDataChange('arn', e.target.value)}
                 />
                 <p className="text-sm text-gray-500">For SEBI compliance on mutual fund content</p>
               </div>
@@ -263,7 +312,7 @@ export default function OnboardingPage() {
                   type="text"
                   placeholder="e.g., ADV-789"
                   value={businessData.advisorCode}
-                  onChange={(e) => setBusinessData({ ...businessData, advisorCode: e.target.value })}
+                  onChange={(e) => handleBusinessDataChange('advisorCode', e.target.value)}
                 />
                 <p className="text-sm text-gray-500">Your unique advisor identifier</p>
               </div>
@@ -373,7 +422,11 @@ export default function OnboardingPage() {
                         type="tel"
                         placeholder="9876543210"
                         value={phoneNumber}
-                        onChange={(e) => setPhoneNumber(e.target.value.replace(/\D/g, ''))}
+                        onChange={(e) => {
+                          const phone = e.target.value.replace(/\D/g, '');
+                          setPhoneNumber(phone);
+                          cacheField('phoneNumber', phone);
+                        }}
                         maxLength={10}
                         className="flex-1"
                       />
