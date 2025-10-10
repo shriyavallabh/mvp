@@ -115,7 +115,8 @@ export async function saveOnboardingData(formData: OnboardingData) {
     console.log('[ONBOARDING] Updating Clerk metadata...');
 
     try {
-      await clerkClient.users.updateUser(userId, {
+      const clerk = await clerkClient();
+      await clerk.users.updateUser(userId, {
         unsafeMetadata: {
           ...user.unsafeMetadata,
           onboardingCompleted: true,
