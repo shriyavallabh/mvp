@@ -1,13 +1,15 @@
 /**
- * MSG91 OTP Service
+ * MSG91 OTP Widget Service
  *
- * Handles OTP sending and verification via MSG91 API
- * Docs: https://docs.msg91.com/otp/sendotp
+ * Handles OTP sending and verification via MSG91 OTP Widget API
+ * Docs: https://docs.msg91.com/otp-widget
+ * Uses Pethkarandco widget (ID: 35626e6c7577383534333630)
  */
 
 interface MSG91SendOTPResponse {
   type: 'success' | 'error';
   message: string;
+  reqId?: string; // Request ID returned by MSG91 for OTP tracking
 }
 
 interface MSG91VerifyOTPResponse {
@@ -34,15 +36,12 @@ export async function sendOTPViaMSG91(
   // Remove + from phone number if present
   const cleanPhone = phone.replace('+', '');
 
-  // Use MSG91's official SendOTP API
+  // Use MSG91's SendOTP API (Server-Side)
   // Docs: https://api.msg91.com/apidoc/sendotp/send-otp.php
-  // NOTE: Not providing 'message' parameter - MSG91 will use default OTP template
-  // This avoids URL encoding issues with ##OTP## placeholder
-
-  // Build URL manually to avoid URLSearchParams encoding issues
+  // No custom message - MSG91 uses default template (pre-approved, no DLT needed)
   const url = `http://api.msg91.com/api/sendotp.php?authkey=${authKey}&mobile=${cleanPhone}&otp=${otp}&otp_expiry=5&otp_length=6`;
 
-  console.log('[MSG91 Request URL]', url);
+  console.log('[MSG91 SendOTP Request] Phone:', cleanPhone, 'OTP:', otp);
 
   try {
     const response = await fetch(url, {
@@ -51,17 +50,18 @@ export async function sendOTPViaMSG91(
 
     const data = await response.json() as any;
 
-    console.log('[MSG91 Response]', JSON.stringify(data));
+    console.log('[MSG91 SendOTP Response]', JSON.stringify(data));
 
     // MSG91 returns type: 'success' or 'error'
-    if (data.type === 'error') {
+    if (data.type === 'success') {
+      return {
+        type: 'success',
+        message: 'OTP sent successfully',
+        reqId: data.message // MSG91 returns reqId in 'message' field
+      };
+    } else {
       throw new Error(data.message || 'MSG91 API error');
     }
-
-    return {
-      type: 'success',
-      message: data.message || 'OTP sent successfully'
-    };
   } catch (error: any) {
     console.error('[MSG91 SEND ERROR]', error);
     throw new Error(error.message || 'MSG91 API request failed');
@@ -69,44 +69,54 @@ export async function sendOTPViaMSG91(
 }
 
 /**
- * Verify OTP via MSG91
+ * Verify OTP via MSG91 Widget API
  * @param phone - Phone number with country code
- * @param otp - OTP to verify
+ * @param otp - OTP entered by user
+ * @param reqId - Request ID from send OTP response
  * @returns Promise with verification result
  */
 export async function verifyOTPViaMSG91(
   phone: string,
-  otp: string
+  otp: string,
+  reqId?: string
 ): Promise<MSG91VerifyOTPResponse> {
-  const authKey = process.env.MSG91_AUTH_KEY;
+  const widgetToken = process.env.MSG91_WIDGET_TOKEN;
+  const widgetId = process.env.MSG91_WIDGET_ID;
 
-  if (!authKey) {
-    throw new Error('MSG91_AUTH_KEY not configured');
+  if (!widgetToken || !widgetId) {
+    throw new Error('MSG91_WIDGET_TOKEN or MSG91_WIDGET_ID not configured');
   }
 
   // Remove + from phone number if present
   const cleanPhone = phone.replace('+', '');
 
-  // Use MSG91's official Verify OTP API
-  // Docs: https://api.msg91.com/apidoc/sendotp/verify-otp.php
-  const params = new URLSearchParams({
-    authkey: authKey,
-    mobile: cleanPhone,
-    otp: otp
-  });
+  // Use MSG91 OTP Widget Verify API
+  // Docs: https://docs.msg91.com/otp-widget
+  const url = 'https://control.msg91.com/api/v5/widget/otp/verify';
 
-  const url = `http://api.msg91.com/api/verifyRequestOTP.php?${params.toString()}`;
+  const requestBody = {
+    widgetId: widgetId,
+    identifier: cleanPhone,
+    otp: otp
+  };
+
+  console.log('[MSG91 Widget Verify Request]', JSON.stringify(requestBody));
 
   try {
     const response = await fetch(url, {
-      method: 'GET'
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'token': widgetToken // Widget uses 'token' header, not 'authkey'
+      },
+      body: JSON.stringify(requestBody)
     });
 
-    const data = await response.json() as MSG91VerifyOTPResponse;
+    const data = await response.json() as any;
 
-    console.log('[MSG91 VERIFY Response]', JSON.stringify(data));
+    console.log('[MSG91 Widget Verify Response]', JSON.stringify(data));
 
-    if (data.type === 'success') {
+    if (data.type === 'success' || data.message === 'OTP verified successfully') {
       return {
         type: 'success',
         message: data.message || 'OTP verified successfully'
@@ -115,7 +125,7 @@ export async function verifyOTPViaMSG91(
       throw new Error(data.message || 'Invalid OTP');
     }
   } catch (error: any) {
-    console.error('[MSG91 VERIFY ERROR]', error);
+    console.error('[MSG91 WIDGET VERIFY ERROR]', error);
     throw new Error(error.message || 'OTP verification failed');
   }
 }

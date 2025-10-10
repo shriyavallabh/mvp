@@ -17,26 +17,32 @@ export async function POST(req: NextRequest) {
     // Generate 6-digit OTP
     const otp = Math.floor(100000 + Math.random() * 900000).toString();
 
-    // Store OTP in-memory with 5-minute expiry
-    const expiresAt = Date.now() + 5 * 60 * 1000; // 5 minutes
-    otpStorage.set(phone, { otp, expiresAt });
-
-    // Send SMS via MSG91
+    // Send OTP via MSG91 SendOTP API
     try {
-      await sendOTPViaMSG91(phone, otp);
-      console.log(`[OTP] Sent via MSG91 to ${phone}: ${otp}`);
+      const result = await sendOTPViaMSG91(phone, otp);
+
+      // Store OTP in-memory with 5-minute expiry
+      const expiresAt = Date.now() + 5 * 60 * 1000; // 5 minutes
+      otpStorage.set(phone, {
+        otp,
+        expiresAt
+      });
+
+      console.log(`[OTP] Sent via MSG91 to ${phone}: ${otp}, reqId: ${result.reqId}`);
+
+      return NextResponse.json({
+        success: true,
+        message: 'OTP sent successfully',
+        // Only show OTP in development for testing
+        debug: process.env.NODE_ENV === 'development' ? otp : undefined
+      });
     } catch (msg91Error: any) {
       console.error('[MSG91 ERROR]', msg91Error.message);
-      // Continue even if SMS fails (OTP is still stored for testing)
-      // In production, you might want to return error here
+      return NextResponse.json(
+        { error: msg91Error.message || 'Failed to send OTP via MSG91' },
+        { status: 500 }
+      );
     }
-
-    return NextResponse.json({
-      success: true,
-      message: 'OTP sent successfully',
-      // Only show OTP in development for testing
-      debug: process.env.NODE_ENV === 'development' ? otp : undefined
-    });
 
   } catch (error: any) {
     console.error('[OTP ERROR]', error);
