@@ -12,7 +12,6 @@ import Link from "next/link"
 
 export function SignInForm() {
   const { signIn, setActive } = useSignIn()
-  const { user } = useUser()
   const router = useRouter()
   const [formData, setFormData] = useState({
     email: "",
