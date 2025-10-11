@@ -245,6 +245,7 @@ export function SignupFormNew() {
               <Input
                 id="fullName"
                 type="text"
+                autoComplete="name"
                 placeholder="Enter your full name"
                 value={formData.fullName}
                 onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
@@ -258,6 +259,7 @@ export function SignupFormNew() {
               <Input
                 id="email"
                 type="email"
+                autoComplete="email"
                 placeholder="you@example.com"
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
@@ -272,6 +274,7 @@ export function SignupFormNew() {
                 <Input
                   id="password"
                   type={showPassword ? "text" : "password"}
+                  autoComplete="new-password"
                   placeholder="Create a strong password"
                   value={formData.password}
                   onChange={(e) => setFormData({ ...formData, password: e.target.value })}
@@ -302,6 +305,9 @@ export function SignupFormNew() {
                 </div>
               )}
             </div>
+
+            {/* Clerk CAPTCHA Container */}
+            <div id="clerk-captcha" className="flex justify-center"></div>
 
             {error && (
               <div className="p-3 bg-[#EF4444]/10 border border-[#EF4444] rounded-md">
