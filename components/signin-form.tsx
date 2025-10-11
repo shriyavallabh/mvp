@@ -12,6 +12,7 @@ import Link from "next/link"
 
 export function SignInForm() {
   const { signIn, setActive } = useSignIn()
+  const { user } = useUser()
   const router = useRouter()
   const [formData, setFormData] = useState({
     email: "",
@@ -37,7 +38,20 @@ export function SignInForm() {
 
       if (result.status === "complete") {
         await setActive({ session: result.createdSessionId })
-        router.push("/dashboard")
+
+        // After setting active session, wait a moment for user object to update
+        await new Promise(resolve => setTimeout(resolve, 500))
+
+        // Fetch fresh user data to check onboarding status
+        const response = await fetch('/api/auth/check-onboarding')
+        const { hasCompletedOnboarding } = await response.json()
+
+        // Redirect based on onboarding status
+        if (hasCompletedOnboarding) {
+          router.push("/dashboard")
+        } else {
+          router.push("/onboarding")
+        }
       }
     } catch (err: any) {
       console.error("Sign in error:", err)
@@ -60,7 +74,7 @@ export function SignInForm() {
       await signIn.authenticateWithRedirect({
         strategy: "oauth_google",
         redirectUrl: "/sso-callback",
-        redirectUrlComplete: "/dashboard",
+        redirectUrlComplete: "/sso-callback", // Will handle redirect logic there
       })
     } catch (err: any) {
       console.error("Google sign in error:", err)
@@ -76,7 +90,7 @@ export function SignInForm() {
       await signIn.authenticateWithRedirect({
         strategy: "oauth_linkedin_oidc",
         redirectUrl: "/sso-callback",
-        redirectUrlComplete: "/dashboard",
+        redirectUrlComplete: "/sso-callback", // Will handle redirect logic there
       })
     } catch (err: any) {
       console.error("LinkedIn sign in error:", err)

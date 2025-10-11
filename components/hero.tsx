@@ -7,19 +7,21 @@ export default function Hero() {
       {/* Background images */}
       <Image
         src="/hero-mobile.jpg"
-        alt="Premium black and gold globe network background (mobile)"
+        alt=""
         fill
         priority
         quality={90}
         className="block md:hidden object-cover object-center opacity-60"
+        aria-hidden="true"
       />
       <Image
         src="/hero-desktop.jpg"
-        alt="Premium black and gold globe network background (desktop)"
+        alt=""
         fill
         priority
         quality={90}
         className="hidden md:block object-cover object-center opacity-60"
+        aria-hidden="true"
       />
       {/* Readability overlay */}
       <div

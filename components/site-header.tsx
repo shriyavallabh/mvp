@@ -4,11 +4,17 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { useEffect, useState } from "react"
 import { cn } from "@/lib/utils"
-import { Menu, X } from "lucide-react"
+import { Menu, X, User, LogOut } from "lucide-react"
+import { useUser, useClerk } from "@clerk/nextjs"
+import { useRouter } from "next/navigation"
 
 export default function SiteHeader() {
+  const { user, isLoaded } = useUser()
+  const { signOut } = useClerk()
+  const router = useRouter()
   const [atTop, setAtTop] = useState(true)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [userMenuOpen, setUserMenuOpen] = useState(false)
 
   useEffect(() => {
     const onScroll = () => setAtTop(window.scrollY <= 0)
@@ -56,19 +62,60 @@ export default function SiteHeader() {
           <Link href="#how-it-works" className="text-sm text-muted-foreground hover:text-foreground transition">
             {"How It Works"}
           </Link>
-          <Link href="/sign-in">
-            <Button
-              variant="ghost"
-              className={cn(
-                "h-9 rounded-xl ring-1 transition",
-                atTop
-                  ? "bg-transparent ring-white/15 hover:bg-white/10"
-                  : "bg-[var(--color-glass)] ring-[var(--color-brand-gold-20,rgba(212,175,55,0.2))] hover:bg-[var(--color-glass-hover)]",
+          {isLoaded && user ? (
+            <div className="relative">
+              <button
+                onClick={() => setUserMenuOpen(!userMenuOpen)}
+                className={cn(
+                  "h-9 px-4 rounded-xl ring-1 transition flex items-center gap-2",
+                  atTop
+                    ? "bg-transparent ring-white/15 hover:bg-white/10 text-white"
+                    : "bg-[var(--color-glass)] ring-[var(--color-brand-gold-20,rgba(212,175,55,0.2))] hover:bg-[var(--color-glass-hover)] text-foreground",
+                )}
+              >
+                <User className="w-4 h-4" />
+                <span className="text-sm">{user.firstName || 'User'}</span>
+              </button>
+              {userMenuOpen && (
+                <>
+                  <div className="fixed inset-0 z-40" onClick={() => setUserMenuOpen(false)} />
+                  <div className="absolute right-0 top-12 z-50 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2">
+                    <Link
+                      href="/dashboard"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      onClick={() => setUserMenuOpen(false)}
+                    >
+                      Dashboard
+                    </Link>
+                    <button
+                      onClick={() => {
+                        setUserMenuOpen(false)
+                        signOut(() => router.push('/'))
+                      }}
+                      className="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-gray-100 flex items-center gap-2"
+                    >
+                      <LogOut className="w-4 h-4" />
+                      Sign Out
+                    </button>
+                  </div>
+                </>
               )}
-            >
-              {"Sign In"}
-            </Button>
-          </Link>
+            </div>
+          ) : (
+            <Link href="/sign-in">
+              <Button
+                variant="ghost"
+                className={cn(
+                  "h-9 rounded-xl ring-1 transition",
+                  atTop
+                    ? "bg-transparent ring-white/15 hover:bg-white/10"
+                    : "bg-[var(--color-glass)] ring-[var(--color-brand-gold-20,rgba(212,175,55,0.2))] hover:bg-[var(--color-glass-hover)]",
+                )}
+              >
+                {"Sign In"}
+              </Button>
+            </Link>
+          )}
         </nav>
 
         {/* Mobile Menu Button */}
@@ -119,15 +166,46 @@ export default function SiteHeader() {
                 </Link>
               </div>
 
-              {/* Sign In Button - Fixed at Bottom */}
-              <div className="w-full pb-8">
-                <Link href="/sign-in" onClick={closeMenu}>
-                  <Button
-                    className="w-full h-14 rounded-xl bg-gradient-to-r from-[#d4af37] to-[#ffd700] text-black text-lg font-bold hover:shadow-2xl hover:shadow-yellow-500/50 hover:scale-105 transition-all duration-300"
-                  >
-                    {"Sign In"}
-                  </Button>
-                </Link>
+              {/* User Section - Fixed at Bottom */}
+              <div className="w-full pb-8 space-y-4">
+                {isLoaded && user ? (
+                  <>
+                    {/* User Info Display */}
+                    <div className="flex items-center justify-center gap-2 text-white mb-4">
+                      <User className="w-5 h-5 text-[var(--color-brand-gold)]" />
+                      <span className="text-lg font-medium">{user.firstName || 'User'}</span>
+                    </div>
+
+                    {/* Dashboard Button */}
+                    <Link href="/dashboard" onClick={closeMenu}>
+                      <Button
+                        className="w-full h-12 rounded-xl bg-gradient-to-r from-[#d4af37] to-[#ffd700] text-black text-lg font-bold hover:shadow-2xl hover:shadow-yellow-500/50 hover:scale-105 transition-all duration-300"
+                      >
+                        {"Dashboard"}
+                      </Button>
+                    </Link>
+
+                    {/* Sign Out Button */}
+                    <button
+                      onClick={() => {
+                        closeMenu()
+                        signOut(() => router.push('/'))
+                      }}
+                      className="w-full h-12 rounded-xl bg-transparent ring-1 ring-red-500 text-red-500 text-lg font-medium hover:bg-red-500/10 transition-all duration-300 flex items-center justify-center gap-2"
+                    >
+                      <LogOut className="w-5 h-5" />
+                      {"Sign Out"}
+                    </button>
+                  </>
+                ) : (
+                  <Link href="/sign-in" onClick={closeMenu}>
+                    <Button
+                      className="w-full h-14 rounded-xl bg-gradient-to-r from-[#d4af37] to-[#ffd700] text-black text-lg font-bold hover:shadow-2xl hover:shadow-yellow-500/50 hover:scale-105 transition-all duration-300"
+                    >
+                      {"Sign In"}
+                    </Button>
+                  </Link>
+                )}
               </div>
             </nav>
           </div>
